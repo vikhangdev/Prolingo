@@ -1,0 +1,4292 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "logistics",
+  "name": "Logistics & Supply Chain",
+  "name_vi": "Logistics & Chuỗi cung ứng",
+  "icon": "🚚",
+  "hue": 28,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành logistics: chuỗi cung ứng, vận tải, kho bãi, chứng từ & Incoterms, hải quan, giao hàng chặng cuối."
+ },
+ "units": [
+  {
+   "name": "Supply Chain Basics",
+   "name_vi": "Chuỗi cung ứng cơ bản",
+   "icon": "🔗",
+   "hue": 28,
+   "words": [
+    {
+     "en": "supply chain",
+     "vi": "chuỗi cung ứng"
+    },
+    {
+     "en": "logistics",
+     "vi": "logistics, hậu cần"
+    },
+    {
+     "en": "supplier",
+     "vi": "nhà cung cấp"
+    },
+    {
+     "en": "manufacturer",
+     "vi": "nhà sản xuất"
+    },
+    {
+     "en": "distributor",
+     "vi": "nhà phân phối"
+    },
+    {
+     "en": "retailer",
+     "vi": "nhà bán lẻ"
+    },
+    {
+     "en": "raw material",
+     "vi": "nguyên liệu thô"
+    },
+    {
+     "en": "finished goods",
+     "vi": "thành phẩm"
+    },
+    {
+     "en": "lead time",
+     "vi": "thời gian chờ (từ lúc đặt đến lúc nhận hàng)"
+    },
+    {
+     "en": "demand",
+     "vi": "nhu cầu"
+    },
+    {
+     "en": "forecast",
+     "vi": "dự báo"
+    },
+    {
+     "en": "procurement",
+     "vi": "mua sắm, thu mua"
+    },
+    {
+     "en": "sourcing",
+     "vi": "tìm kiếm nguồn cung ứng"
+    },
+    {
+     "en": "stakeholder",
+     "vi": "bên liên quan"
+    },
+    {
+     "en": "bottleneck",
+     "vi": "điểm nghẽn"
+    },
+    {
+     "en": "disruption",
+     "vi": "sự gián đoạn"
+    },
+    {
+     "en": "visibility",
+     "vi": "khả năng theo dõi, tính minh bạch"
+    },
+    {
+     "en": "traceability",
+     "vi": "khả năng truy xuất nguồn gốc"
+    },
+    {
+     "en": "outsourcing",
+     "vi": "thuê ngoài"
+    },
+    {
+     "en": "third-party logistics (3PL)",
+     "vi": "logistics thuê ngoài (bên thứ ba)"
+    },
+    {
+     "en": "just-in-time (JIT)",
+     "vi": "(sản xuất/giao hàng) đúng lúc"
+    },
+    {
+     "en": "bulk order",
+     "vi": "đơn hàng số lượng lớn"
+    },
+    {
+     "en": "purchase order (PO)",
+     "vi": "đơn đặt hàng"
+    },
+    {
+     "en": "backorder",
+     "vi": "đơn hàng chờ bổ sung (hết hàng tạm thời)"
+    },
+    {
+     "en": "fulfillment",
+     "vi": "việc thực hiện đơn hàng"
+    },
+    {
+     "en": "sustainability",
+     "vi": "tính bền vững"
+    },
+    {
+     "en": "inbound logistics",
+     "vi": "logistics đầu vào (nhận hàng, nguyên liệu)"
+    },
+    {
+     "en": "outbound logistics",
+     "vi": "logistics đầu ra (giao hàng đến khách)"
+    },
+    {
+     "en": "reverse logistics",
+     "vi": "logistics ngược (xử lý hàng trả về)"
+    },
+    {
+     "en": "cost-effective",
+     "vi": "hiệu quả về chi phí"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A company that makes products from raw materials is called a ___.",
+        "ans": [
+         2
+        ],
+        "tip": "manufacture = sản xuất.",
+        "why": "**manufacturer** = nhà sản xuất, biến nguyên liệu thành sản phẩm.",
+        "opts": [
+         "stakeholder",
+         "retailer",
+         "manufacturer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ between placing an order and receiving the goods is two weeks.",
+        "ans": [
+         1
+        ],
+        "tip": "lead = dẫn đầu → thời gian 'dẫn' đến khi hàng về.",
+        "why": "**lead time** = khoảng thời gian từ khi đặt hàng đến khi nhận hàng.",
+        "opts": [
+         "forecast",
+         "lead time",
+         "bottleneck"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The factory had a ___ in the packing area, so many orders were delayed.",
+        "ans": [
+         2
+        ],
+        "tip": "bottle + neck = cổ chai → chỗ hẹp gây tắc.",
+        "why": "**bottleneck** = điểm nghẽn, nơi công việc bị chậm lại làm cả quy trình chậm theo.",
+        "opts": [
+         "forecast",
+         "traceability",
+         "bottleneck"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Companies use sales data to make a ___ of next month's demand.",
+        "ans": [
+         0
+        ],
+        "tip": "fore (trước) + cast = nhìn trước.",
+        "why": "**forecast** = dự báo.",
+        "opts": [
+         "forecast",
+         "disruption",
+         "backorder"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A strike at the port caused a serious ___ to the supply chain.",
+        "ans": [
+         0
+        ],
+        "tip": "dis + rupt (vỡ) = bị vỡ, đứt đoạn.",
+        "why": "**disruption** = sự gián đoạn.",
+        "opts": [
+         "disruption",
+         "sourcing",
+         "visibility"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many small firms hire a ___ provider to handle storage and delivery.",
+        "ans": [
+         2
+        ],
+        "tip": "3PL = 3rd Party Logistics.",
+        "why": "**third-party logistics (3PL)** = công ty logistics bên thứ ba lo kho và vận chuyển giúp.",
+        "opts": [
+         "raw material",
+         "purchase order",
+         "third-party logistics"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers returned 200 damaged items, so the company set up a ___ process.",
+        "ans": [
+         1
+        ],
+        "tip": "reverse = đảo chiều: từ khách quay về công ty.",
+        "why": "**reverse logistics** = logistics ngược, xử lý hàng bị trả về.",
+        "opts": [
+         "inbound logistics",
+         "reverse logistics",
+         "outbound logistics"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The retailer sent a ___ to the supplier for 500 units.",
+        "ans": [
+         2
+        ],
+        "tip": "PO = Purchase Order.",
+        "why": "**purchase order (PO)** = đơn đặt hàng gửi cho nhà cung cấp.",
+        "opts": [
+         "lead time",
+         "backorder",
+         "purchase order"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "supplier",
+        "b": "a company that provides goods or materials",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "retailer",
+        "b": "a business that sells products to the public",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "raw material",
+        "b": "a basic substance used to make a product",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "finished goods",
+        "b": "products that are complete and ready to sell",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "backorder",
+        "b": "an order that cannot be filled yet because the item is out of stock",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "procurement",
+        "b": "the process of obtaining goods and services for a business",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "traceability",
+        "b": "the ability to follow a product from its origin to the customer",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "outsourcing",
+        "b": "hiring another company to do work for you",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The warehouse ___ at 6 a.m. every day.",
+        "ans": [
+         2
+        ],
+        "tip": "every day / usually / always → V(s/es).",
+        "why": "'every day' = thói quen → **hiện tại đơn**: opens.",
+        "opts": [
+         "opened",
+         "is opening",
+         "opens"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the driver ___ the truck.",
+        "ans": [
+         2
+        ],
+        "tip": "now / at the moment → be + V-ing.",
+        "why": "'Right now' = đang xảy ra → **hiện tại tiếp diễn**: is loading.",
+        "opts": [
+         "loaded",
+         "loads",
+         "is loading"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The crane ___ a container onto the ship.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'Look!' báo hiệu hành động đang diễn ra → **is lifting**.",
+        "opts": [
+         "is lifting",
+         "lifts",
+         "lift"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Demand usually ___ before the holidays.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "'usually' = thường xuyên → **hiện tại đơn**; chủ ngữ số ít nên thêm -s: rises.",
+        "opts": [
+         "rise",
+         "is rising",
+         "rises"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ a new tracking system this month.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'this month' = tạm thời, đang diễn ra → **are testing**.",
+        "opts": [
+         "are testing",
+         "tests",
+         "test"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our company ___ in cold-chain logistics.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Sự thật lâu dài → hiện tại đơn; chủ ngữ số ít: **specialises**.",
+        "opts": [
+         "specialises",
+         "specialise",
+         "is specialising"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The supplier ___ (deliver) goods every Monday.",
+        "ans": [
+         [
+          "delivers"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every Monday' → hiện tại đơn, ngôi số ít: **delivers**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, we ___ (check) the inventory.",
+        "ans": [
+         [
+          "are checking",
+          "'re checking"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **are checking**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our trucks ___ (not / run) on Sundays.",
+        "ans": [
+         [
+          "do not run",
+          "don't run"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn với chủ ngữ số nhiều: **do not run**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) as a logistics coordinator.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp, sự thật → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The port ___ (handle) over a million containers a year.",
+        "ans": [
+         [
+          "handles"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật/thống kê chung → hiện tại đơn: **handles**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a smartphone reaches you",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Have you ever wondered how a smartphone gets from a factory to your hand? The journey is called a supply chain. It starts with suppliers, who provide raw materials such as metals and glass. A manufacturer then assembles the phone in a factory in Asia.\n\nNext, outbound logistics begins. The finished goods are packed in cartons and sent by sea to a regional distributor. A distributor stores large quantities and sends smaller orders to retailers. The whole journey usually takes about four weeks, but the lead time can change when there is a disruption, for example bad weather or a port strike.\n\nTo avoid delays, many companies use forecasts to predict demand and work with a third-party logistics provider. Modern tracking systems also give customers better visibility, so they can see exactly where their order is. If a customer returns a phone, reverse logistics takes it back to the warehouse.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A manufacturer provides the raw materials.",
+        "ans": [
+         1
+        ],
+        "tip": "supplier ≠ manufacturer.",
+        "why": "Đoạn 1: **suppliers** cung cấp nguyên liệu; nhà sản xuất chỉ lắp ráp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The finished phones are sent to a regional distributor by sea.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'sent by sea to a regional distributor'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The journey always takes exactly four weeks.",
+        "ans": [
+         1
+        ],
+        "tip": "usually ≠ always.",
+        "why": "Đoạn 2: 'usually about four weeks' và lead time có thể thay đổi khi có gián đoạn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Reverse logistics deals with products that customers return.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: reverse logistics đưa hàng trả về kho."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a distributor do?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: distributor lưu hàng số lượng lớn rồi gửi đơn nhỏ hơn cho nhà bán lẻ.",
+        "opts": [
+         "Makes the phone in a factory",
+         "Stores large quantities and sends smaller orders to retailers",
+         "Provides metals and glass"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which of these can cause a disruption?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ví dụ về gián đoạn là thời tiết xấu hoặc đình công ở cảng.",
+        "opts": [
+         "A port strike",
+         "A forecast",
+         "A tracking system"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do companies use forecasts?",
+        "ans": [
+         2
+        ],
+        "tip": "forecast = dự báo.",
+        "why": "Đoạn 3: dự báo dùng để dự đoán nhu cầu.",
+        "opts": [
+         "To pack cartons",
+         "To track returns",
+         "To predict demand"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do modern tracking systems give customers?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hệ thống theo dõi giúp khách thấy đơn hàng đang ở đâu (visibility).",
+        "opts": [
+         "Better visibility of their order",
+         "Free raw materials",
+         "Lower prices"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Transportation & Freight",
+   "name_vi": "Vận tải & cước phí",
+   "icon": "🚚",
+   "hue": 200,
+   "words": [
+    {
+     "en": "freight",
+     "vi": "hàng vận chuyển; cước vận tải"
+    },
+    {
+     "en": "cargo",
+     "vi": "hàng hóa (chở trên tàu, máy bay, xe)"
+    },
+    {
+     "en": "shipment",
+     "vi": "lô hàng"
+    },
+    {
+     "en": "carrier",
+     "vi": "hãng vận chuyển"
+    },
+    {
+     "en": "freight forwarder",
+     "vi": "công ty giao nhận vận tải"
+    },
+    {
+     "en": "shipper",
+     "vi": "người gửi hàng"
+    },
+    {
+     "en": "consignee",
+     "vi": "người nhận hàng"
+    },
+    {
+     "en": "haulage",
+     "vi": "vận tải đường bộ"
+    },
+    {
+     "en": "air freight",
+     "vi": "vận tải hàng không"
+    },
+    {
+     "en": "sea freight",
+     "vi": "vận tải đường biển"
+    },
+    {
+     "en": "rail freight",
+     "vi": "vận tải đường sắt"
+    },
+    {
+     "en": "intermodal transport",
+     "vi": "vận tải đa phương thức"
+    },
+    {
+     "en": "container",
+     "vi": "công-ten-nơ"
+    },
+    {
+     "en": "FCL (full container load)",
+     "vi": "hàng nguyên container"
+    },
+    {
+     "en": "LCL (less than container load)",
+     "vi": "hàng lẻ (ghép container)"
+    },
+    {
+     "en": "pallet",
+     "vi": "pallet, bệ nâng hàng"
+    },
+    {
+     "en": "transit time",
+     "vi": "thời gian vận chuyển"
+    },
+    {
+     "en": "freight rate",
+     "vi": "giá cước"
+    },
+    {
+     "en": "surcharge",
+     "vi": "phụ phí"
+    },
+    {
+     "en": "demurrage",
+     "vi": "phí lưu container/tàu quá hạn tại cảng"
+    },
+    {
+     "en": "detention",
+     "vi": "phí giữ container quá hạn (ngoài cảng)"
+    },
+    {
+     "en": "dispatch",
+     "vi": "điều phối, gửi hàng đi"
+    },
+    {
+     "en": "route",
+     "vi": "tuyến đường"
+    },
+    {
+     "en": "fleet",
+     "vi": "đội xe, đội tàu"
+    },
+    {
+     "en": "vessel",
+     "vi": "tàu (chở hàng)"
+    },
+    {
+     "en": "transshipment",
+     "vi": "chuyển tải"
+    },
+    {
+     "en": "load",
+     "vi": "chất hàng"
+    },
+    {
+     "en": "unload",
+     "vi": "dỡ hàng"
+    },
+    {
+     "en": "delay",
+     "vi": "sự chậm trễ"
+    },
+    {
+     "en": "tracking number",
+     "vi": "mã theo dõi vận đơn"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Goods carried by ship, plane or truck are called ___.",
+        "ans": [
+         2
+        ],
+        "tip": "cargo ≈ freight.",
+        "why": "**cargo** = hàng hóa được chuyên chở.",
+        "opts": [
+         "route",
+         "detention",
+         "cargo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ arranges the transport of goods on behalf of exporters and importers.",
+        "ans": [
+         2
+        ],
+        "tip": "forward = chuyển tiếp.",
+        "why": "**freight forwarder** = công ty giao nhận, sắp xếp việc vận chuyển hộ khách.",
+        "opts": [
+         "pallet",
+         "consignee",
+         "freight forwarder"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the person or company that receives the goods.",
+        "ans": [
+         0
+        ],
+        "tip": "consignEE (-ee) = người nhận; shipper = người gửi.",
+        "why": "**consignee** = người nhận hàng; shipper là người gửi.",
+        "opts": [
+         "consignee",
+         "carrier",
+         "shipper"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If your cargo is too small to fill a whole container, you can ship it as ___.",
+        "ans": [
+         1
+        ],
+        "tip": "Less than = ít hơn một container.",
+        "why": "**LCL** (Less than Container Load) = hàng lẻ, ghép chung container.",
+        "opts": [
+         "a surcharge",
+         "LCL",
+         "FCL"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The shipping line charged ___ because the container stayed at the port too long.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**demurrage** = phí lưu container tại cảng quá thời gian miễn phí.",
+        "opts": [
+         "demurrage",
+         "haulage",
+         "dispatch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Using trucks, ships and trains in one journey is called ___ transport.",
+        "ans": [
+         2
+        ],
+        "tip": "inter = giữa; mode = phương thức.",
+        "why": "**intermodal** = đa phương thức (kết hợp nhiều loại phương tiện).",
+        "opts": [
+         "single",
+         "local",
+         "intermodal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows how many days the goods take to travel from A to B.",
+        "ans": [
+         0
+        ],
+        "tip": "transit = quá cảnh, trên đường đi.",
+        "why": "**transit time** = thời gian vận chuyển.",
+        "opts": [
+         "transit time",
+         "freight rate",
+         "surcharge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Because oil prices rose, the carrier added a fuel ___.",
+        "ans": [
+         0
+        ],
+        "tip": "sur = thêm trên; charge = phí.",
+        "why": "**surcharge** = phụ phí; fuel surcharge = phụ phí nhiên liệu.",
+        "opts": [
+         "surcharge",
+         "fleet",
+         "pallet"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "carrier",
+        "b": "a company that moves goods from one place to another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shipper",
+        "b": "the person or company that sends the goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pallet",
+        "b": "a flat platform used to stack and move goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "vessel",
+        "b": "a ship used to carry cargo",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fleet",
+        "b": "all the vehicles owned by a company",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transshipment",
+        "b": "moving cargo from one ship or vehicle to another during the journey",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tracking number",
+        "b": "a code used to follow the location of a parcel",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "freight rate",
+        "b": "the price charged for moving goods",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Air freight is ___ than sea freight.",
+        "ans": [
+         0
+        ],
+        "tip": "Tính từ 1 âm tiết + -er.",
+        "why": "Tính từ ngắn **fast** → so sánh hơn: faster than.",
+        "opts": [
+         "faster",
+         "more fast",
+         "fastest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sea freight is usually the ___ way to move heavy cargo.",
+        "ans": [
+         1
+        ],
+        "tip": "the + adj-est.",
+        "why": "Có 'the' → so sánh nhất: **the cheapest**.",
+        "opts": [
+         "cheaper",
+         "cheapest",
+         "most cheap"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This route is ___ than the old one.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Tính từ dài (2+ âm tiết) → **more direct** than.",
+        "opts": [
+         "directer",
+         "more direct",
+         "most direct"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Rail is ___ reliable than trucking in this region.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "'less + adj + than' = ít ... hơn: **less reliable than**.",
+        "opts": [
+         "least",
+         "fewer",
+         "less"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is the ___ container terminal in Southeast Asia.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "busy → busiest (đổi y → i + est), có 'the' → so sánh nhất.",
+        "opts": [
+         "busier",
+         "busiest",
+         "most busy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Transit by sea is not ___ air freight.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Cấu trúc so sánh bằng phủ định: **not as + adj + as**.",
+        "opts": [
+         "as fast as",
+         "so faster than",
+         "more fast than"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Air freight is ___ (expensive) than sea freight.",
+        "ans": [
+         [
+          "more expensive"
+         ]
+        ],
+        "tip": "",
+        "why": "expensive là tính từ dài → **more expensive**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (good) carrier we have ever used.",
+        "ans": [
+         [
+          "best"
+         ]
+        ],
+        "tip": "good – better – best.",
+        "why": "good → better → **best** (bất quy tắc)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Trucks are ___ (flexible) than trains.",
+        "ans": [
+         [
+          "more flexible"
+         ]
+        ],
+        "tip": "",
+        "why": "flexible dài → **more flexible**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The Pacific route is the ___ (long) of all.",
+        "ans": [
+         [
+          "longest"
+         ]
+        ],
+        "tip": "",
+        "why": "the + long-est → **longest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Delivery by drone is ___ (fast) than delivery by van.",
+        "ans": [
+         [
+          "faster"
+         ]
+        ],
+        "tip": "",
+        "why": "fast → **faster**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing how to ship",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Maria works for a furniture company in Binh Duong. Each month she must send containers of tables and chairs to customers in Europe. She has three main choices: sea freight, air freight or rail freight.\n\nSea freight is the cheapest option for large and heavy cargo, but the transit time is long: about 30 to 35 days. Air freight is much faster, only two or three days, yet the freight rate is many times higher. Rail is in the middle for both price and speed.\n\nMaria usually books full container loads (FCL) with a freight forwarder. For small orders she chooses LCL, so her goods share a container with other shippers. She also checks for surcharges, such as a fuel surcharge, and she tries to collect containers quickly to avoid demurrage at the port.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Maria sends goods to customers in Asia.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khách hàng ở **Europe** (châu Âu)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Air freight is cheaper than sea freight.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: air freight nhanh hơn nhưng cước cao hơn nhiều lần."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In LCL, the goods share a container with other shippers.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: với LCL, hàng chung container với các shipper khác."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Maria tries to avoid demurrage by collecting containers quickly.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lấy container nhanh để tránh phí demurrage tại cảng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How long does sea freight take, according to the text?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'about 30 to 35 days'.",
+        "opts": [
+         "About one week",
+         "About 30 to 35 days",
+         "Two or three days"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which option is the cheapest for large and heavy cargo?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sea freight rẻ nhất cho hàng lớn, nặng.",
+        "opts": [
+         "Rail freight",
+         "Sea freight",
+         "Air freight"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who does Maria usually book full container loads with?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô đặt FCL thông qua freight forwarder.",
+        "opts": [
+         "A retailer",
+         "A consignee",
+         "A freight forwarder"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Maria check besides the base rate?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô kiểm tra các phụ phí (surcharges) như phụ phí nhiên liệu.",
+        "opts": [
+         "Surcharges",
+         "Weather forecasts",
+         "Customs duties"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Warehousing & Inventory",
+   "name_vi": "Kho bãi & tồn kho",
+   "icon": "🏭",
+   "hue": 150,
+   "words": [
+    {
+     "en": "warehouse",
+     "vi": "nhà kho"
+    },
+    {
+     "en": "distribution centre",
+     "vi": "trung tâm phân phối"
+    },
+    {
+     "en": "inventory",
+     "vi": "hàng tồn kho"
+    },
+    {
+     "en": "stock",
+     "vi": "hàng trong kho"
+    },
+    {
+     "en": "stock-out",
+     "vi": "tình trạng hết hàng"
+    },
+    {
+     "en": "safety stock",
+     "vi": "tồn kho an toàn"
+    },
+    {
+     "en": "shelf life",
+     "vi": "hạn sử dụng, thời hạn bảo quản"
+    },
+    {
+     "en": "SKU (stock keeping unit)",
+     "vi": "mã hàng"
+    },
+    {
+     "en": "barcode",
+     "vi": "mã vạch"
+    },
+    {
+     "en": "pallet rack",
+     "vi": "kệ để pallet"
+    },
+    {
+     "en": "forklift",
+     "vi": "xe nâng"
+    },
+    {
+     "en": "receiving",
+     "vi": "nhận hàng"
+    },
+    {
+     "en": "putaway",
+     "vi": "xếp hàng lên kệ (nhập kho)"
+    },
+    {
+     "en": "picking",
+     "vi": "lấy hàng, soạn hàng theo đơn"
+    },
+    {
+     "en": "packing",
+     "vi": "đóng gói"
+    },
+    {
+     "en": "loading dock",
+     "vi": "bến bốc dỡ hàng"
+    },
+    {
+     "en": "cycle count",
+     "vi": "kiểm kê định kỳ"
+    },
+    {
+     "en": "stocktake",
+     "vi": "kiểm kê kho"
+    },
+    {
+     "en": "FIFO (first in, first out)",
+     "vi": "nhập trước, xuất trước"
+    },
+    {
+     "en": "FEFO (first expired, first out)",
+     "vi": "hết hạn trước, xuất trước"
+    },
+    {
+     "en": "cold storage",
+     "vi": "kho lạnh"
+    },
+    {
+     "en": "cross-docking",
+     "vi": "chuyển hàng thẳng, không lưu kho"
+    },
+    {
+     "en": "bonded warehouse",
+     "vi": "kho ngoại quan"
+    },
+    {
+     "en": "slotting",
+     "vi": "sắp xếp vị trí hàng trong kho"
+    },
+    {
+     "en": "turnover",
+     "vi": "vòng quay hàng tồn kho"
+    },
+    {
+     "en": "reorder point",
+     "vi": "điểm đặt hàng lại"
+    },
+    {
+     "en": "overstock",
+     "vi": "tồn kho dư thừa"
+    },
+    {
+     "en": "shrinkage",
+     "vi": "hao hụt (mất mát, hư hỏng)"
+    },
+    {
+     "en": "damaged goods",
+     "vi": "hàng hư hỏng"
+    },
+    {
+     "en": "warehouse management system (WMS)",
+     "vi": "hệ thống quản lý kho"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The warehouse keeps a ___ of 200 units so it never runs out of an item.",
+        "ans": [
+         0
+        ],
+        "tip": "safety = an toàn.",
+        "why": "**safety stock** = tồn kho an toàn, lượng dự phòng để không bị hết hàng.",
+        "opts": [
+         "safety stock",
+         "shrinkage",
+         "turnover"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers use a ___ to lift heavy pallets.",
+        "ans": [
+         0
+        ],
+        "tip": "fork (càng nâng) + lift (nâng).",
+        "why": "**forklift** = xe nâng.",
+        "opts": [
+         "forklift",
+         "barcode",
+         "shelf life"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each product has a unique ___ so it can be identified in the system.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**SKU** (Stock Keeping Unit) = mã hàng riêng cho từng sản phẩm.",
+        "opts": [
+         "SKU",
+         "FIFO",
+         "stocktake"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Milk has a short ___, so the oldest items must be sold first.",
+        "ans": [
+         0
+        ],
+        "tip": "shelf = kệ; life = tuổi thọ trên kệ.",
+        "why": "**shelf life** = thời hạn bảo quản/hạn dùng.",
+        "opts": [
+         "shelf life",
+         "turnover",
+         "slotting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Goods go straight from the incoming truck to the outgoing truck without being stored. This is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "cross = chéo; dock = bến.",
+        "why": "**cross-docking** = chuyển hàng thẳng giữa hai xe, không đưa lên kệ.",
+        "opts": [
+         "cross-docking",
+         "stocktake",
+         "putaway"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When stock falls to the ___, the system automatically creates a new order.",
+        "ans": [
+         2
+        ],
+        "tip": "re-order = đặt lại.",
+        "why": "**reorder point** = điểm đặt hàng lại.",
+        "opts": [
+         "shrinkage",
+         "loading dock",
+         "reorder point"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers walk along the aisles to collect items for customer orders. This step is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "pick = nhặt, chọn.",
+        "why": "**picking** = soạn/lấy hàng theo đơn.",
+        "opts": [
+         "packing",
+         "picking",
+         "receiving"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company has too many unsold items. It has a problem of ___.",
+        "ans": [
+         2
+        ],
+        "tip": "over = quá nhiều.",
+        "why": "**overstock** = tồn kho dư thừa; stock-out là hết hàng.",
+        "opts": [
+         "stock-out",
+         "cycle count",
+         "overstock"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stock-out",
+        "b": "a situation when an item is not available in the warehouse",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "inventory",
+        "b": "all the goods a company holds for sale or production",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bonded warehouse",
+        "b": "a place to store imported goods before customs duty is paid",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cold storage",
+        "b": "a temperature-controlled room for perishable goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shrinkage",
+        "b": "loss of stock caused by theft, damage or errors",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "FIFO",
+        "b": "a method where the oldest stock is used or sold first",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stocktake",
+        "b": "a physical count of all the items in a warehouse",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "loading dock",
+        "b": "the area where trucks are loaded and unloaded",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Goods ___ to the warehouse every morning.",
+        "ans": [
+         0
+        ],
+        "tip": "be + V3.",
+        "why": "Hàng *được* giao (bị động, hiện tại đơn) → **are delivered**.",
+        "opts": [
+         "are delivered",
+         "deliver",
+         "are delivering"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The pallets ___ onto the racks yesterday.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'yesterday' + chủ ngữ số nhiều → **were put**.",
+        "opts": [
+         "were put",
+         "was put",
+         "are put"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All items ___ before they leave the warehouse.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Modal bị động: **must be + V3**.",
+        "opts": [
+         "must be checking",
+         "must be checked",
+         "must check"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The inventory ___ by the WMS at the moment.",
+        "ans": [
+         0
+        ],
+        "tip": "is/are being + V3.",
+        "why": "Đang được cập nhật → bị động tiếp diễn: **is being updated**.",
+        "opts": [
+         "is being updated",
+         "updates",
+         "is updating"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The damaged goods ___ yet.",
+        "ans": [
+         0
+        ],
+        "tip": "have/has been + V3.",
+        "why": "Bị động hiện tại hoàn thành: **have not been returned**.",
+        "opts": [
+         "have not been returned",
+         "have not returned",
+         "did not return"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Cold storage rooms ___ at -18°C.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Phòng *được* giữ ở -18°C → **are kept**.",
+        "opts": [
+         "are keeping",
+         "are kept",
+         "keep"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The orders ___ (pack) by 5 p.m. every day.",
+        "ans": [
+         [
+          "are packed"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn bị động: **are packed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The new forklift ___ (buy) last month.",
+        "ans": [
+         [
+          "was bought"
+         ]
+        ],
+        "tip": "buy – bought – bought.",
+        "why": "buy → bought; quá khứ bị động số ít: **was bought**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All barcodes must ___ (scan) at receiving.",
+        "ans": [
+         [
+          "be scanned"
+         ]
+        ],
+        "tip": "",
+        "why": "must + **be scanned**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A stocktake ___ (carry out) once a year.",
+        "ans": [
+         [
+          "is carried out"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn bị động: **is carried out**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The shelves ___ (fill) right now.",
+        "ans": [
+         [
+          "are being filled"
+         ]
+        ],
+        "tip": "",
+        "why": "right now → bị động tiếp diễn: **are being filled**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A day at a distribution centre",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "At 6 a.m. the first trucks arrive at the distribution centre. Workers check each delivery against the purchase order and scan the barcodes at receiving. Damaged goods are separated and reported to the supplier.\n\nNext comes putaway. Forklift drivers move the pallets to the racks, and the warehouse management system (WMS) records the exact location of every SKU. The warehouse uses FIFO for most products, but for food it uses FEFO, because the items with the nearest expiry date are sent out first.\n\nWhen a customer places an order, pickers collect the items and bring them to the packing area. At the end of each month the team does a cycle count. Last month they found some shrinkage, so the manager decided to add more cameras and to train the staff.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Workers scan barcodes at receiving.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nhân viên quét mã vạch khi nhận hàng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Damaged goods are put on the racks with normal items.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: hàng hỏng được **tách riêng** và báo cho nhà cung cấp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The warehouse uses FEFO for food products.",
+        "ans": [
+         0
+        ],
+        "tip": "FEFO = hết hạn trước, xuất trước.",
+        "why": "Đoạn 2: với thực phẩm kho dùng FEFO."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The cycle count showed no problems.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: kiểm kê phát hiện **shrinkage** (hao hụt)."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the WMS record?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: WMS ghi vị trí chính xác của từng SKU.",
+        "opts": [
+         "The exact location of every SKU",
+         "The price of the pallets",
+         "The driver's name"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who moves the pallets to the racks?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tài xế xe nâng (forklift drivers) đưa pallet lên kệ.",
+        "opts": [
+         "Suppliers",
+         "Forklift drivers",
+         "Pickers"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the warehouse use FEFO for food?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hàng có hạn dùng gần nhất được xuất trước.",
+        "opts": [
+         "Items with the nearest expiry date are sent out first",
+         "Food arrives later than other goods",
+         "Food is cheaper than other goods"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the manager decide to do after finding shrinkage?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lắp thêm camera và đào tạo nhân viên.",
+        "opts": [
+         "Change the supplier",
+         "Add more cameras and train the staff",
+         "Close the warehouse"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Shipping Documents & Incoterms",
+   "name_vi": "Chứng từ vận chuyển & Incoterms",
+   "icon": "📄",
+   "hue": 262,
+   "words": [
+    {
+     "en": "bill of lading (B/L)",
+     "vi": "vận đơn đường biển"
+    },
+    {
+     "en": "air waybill (AWB)",
+     "vi": "vận đơn hàng không"
+    },
+    {
+     "en": "commercial invoice",
+     "vi": "hóa đơn thương mại"
+    },
+    {
+     "en": "packing list",
+     "vi": "phiếu đóng gói"
+    },
+    {
+     "en": "certificate of origin (C/O)",
+     "vi": "giấy chứng nhận xuất xứ"
+    },
+    {
+     "en": "insurance certificate",
+     "vi": "giấy chứng nhận bảo hiểm"
+    },
+    {
+     "en": "letter of credit (L/C)",
+     "vi": "thư tín dụng"
+    },
+    {
+     "en": "proforma invoice",
+     "vi": "hóa đơn chiếu lệ (hóa đơn tạm)"
+    },
+    {
+     "en": "purchase contract",
+     "vi": "hợp đồng mua bán"
+    },
+    {
+     "en": "Incoterms",
+     "vi": "các điều kiện thương mại quốc tế"
+    },
+    {
+     "en": "EXW (Ex Works)",
+     "vi": "giao tại xưởng"
+    },
+    {
+     "en": "FCA (Free Carrier)",
+     "vi": "giao cho người chuyên chở"
+    },
+    {
+     "en": "FOB (Free On Board)",
+     "vi": "giao lên tàu"
+    },
+    {
+     "en": "CIF (Cost, Insurance and Freight)",
+     "vi": "tiền hàng, bảo hiểm và cước phí"
+    },
+    {
+     "en": "DAP (Delivered at Place)",
+     "vi": "giao tại địa điểm đến"
+    },
+    {
+     "en": "DDP (Delivered Duty Paid)",
+     "vi": "giao hàng đã nộp thuế"
+    },
+    {
+     "en": "risk",
+     "vi": "rủi ro"
+    },
+    {
+     "en": "liability",
+     "vi": "trách nhiệm pháp lý"
+    },
+    {
+     "en": "consignment",
+     "vi": "lô hàng gửi"
+    },
+    {
+     "en": "notify party",
+     "vi": "bên nhận thông báo hàng đến"
+    },
+    {
+     "en": "shipping mark",
+     "vi": "ký mã hiệu hàng hóa"
+    },
+    {
+     "en": "gross weight",
+     "vi": "trọng lượng cả bì"
+    },
+    {
+     "en": "net weight",
+     "vi": "trọng lượng tịnh"
+    },
+    {
+     "en": "payment term",
+     "vi": "điều khoản thanh toán"
+    },
+    {
+     "en": "issue",
+     "vi": "phát hành, cấp"
+    },
+    {
+     "en": "endorse",
+     "vi": "ký hậu (chuyển nhượng chứng từ)"
+    },
+    {
+     "en": "original",
+     "vi": "bản gốc"
+    },
+    {
+     "en": "copy",
+     "vi": "bản sao"
+    },
+    {
+     "en": "amend",
+     "vi": "sửa đổi"
+    },
+    {
+     "en": "discrepancy",
+     "vi": "sự sai lệch (giữa các chứng từ)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is a document issued by the carrier that proves the cargo was received for shipment.",
+        "ans": [
+         0
+        ],
+        "tip": "lading = việc chất hàng lên tàu.",
+        "why": "**bill of lading (B/L)** = vận đơn, do hãng vận chuyển cấp.",
+        "opts": [
+         "bill of lading",
+         "proforma invoice",
+         "packing list"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ lists the contents, the number of cartons and the weight of each package.",
+        "ans": [
+         2
+        ],
+        "tip": "packing = đóng gói; list = danh sách.",
+        "why": "**packing list** = phiếu đóng gói.",
+        "opts": [
+         "certificate of origin",
+         "letter of credit",
+         "packing list"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ shows in which country the goods were made.",
+        "ans": [
+         0
+        ],
+        "tip": "origin = nguồn gốc.",
+        "why": "**certificate of origin (C/O)** = giấy chứng nhận xuất xứ.",
+        "opts": [
+         "certificate of origin",
+         "bill of lading",
+         "commercial invoice"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, the seller only makes the goods available at its own factory and the buyer arranges everything else.",
+        "ans": [
+         2
+        ],
+        "tip": "Ex Works = từ xưởng (của người bán).",
+        "why": "**EXW (Ex Works)** = giao tại xưởng; người mua chịu gần như mọi chi phí và rủi ro.",
+        "opts": [
+         "DDP",
+         "CIF",
+         "EXW"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, the seller pays for transport and import duties and delivers the goods to the buyer.",
+        "ans": [
+         0
+        ],
+        "tip": "Duty Paid = đã trả thuế.",
+        "why": "**DDP (Delivered Duty Paid)** = giao hàng đã nộp thuế; trách nhiệm người bán lớn nhất.",
+        "opts": [
+         "DDP",
+         "EXW",
+         "FOB"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bank issued a ___ to guarantee that the exporter will be paid.",
+        "ans": [
+         2
+        ],
+        "tip": "credit = tín dụng.",
+        "why": "**letter of credit (L/C)** = thư tín dụng; ngân hàng đảm bảo thanh toán cho người xuất khẩu.",
+        "opts": [
+         "shipping mark",
+         "packing list",
+         "letter of credit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bank refused to pay because of a ___ between the invoice and the L/C.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**discrepancy** = sự sai lệch giữa các chứng từ.",
+        "opts": [
+         "consignment",
+         "liability",
+         "discrepancy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ weight includes the packaging; the net weight does not.",
+        "ans": [
+         2
+        ],
+        "tip": "gross = tổng; net = ròng.",
+        "why": "**gross weight** = trọng lượng cả bì; net weight = trọng lượng tịnh.",
+        "opts": [
+         "original",
+         "net",
+         "gross"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "commercial invoice",
+        "b": "a bill that states the price and details of the goods sold",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "air waybill",
+        "b": "a transport document for goods carried by plane",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "insurance certificate",
+        "b": "a document that proves the cargo is insured",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "proforma invoice",
+        "b": "a preliminary invoice sent before the goods are shipped",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "notify party",
+        "b": "the person or company to be informed when the cargo arrives",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "net weight",
+        "b": "the weight of the goods without any packaging",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "endorse",
+        "b": "to sign the back of a document to transfer the rights to another person",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "amend",
+        "b": "to change a document in order to correct a mistake",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Exporters ___ provide a commercial invoice for every shipment.",
+        "ans": [
+         1
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Bắt buộc theo quy định → **must**.",
+        "opts": [
+         "mustn't",
+         "must",
+         "needn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ send the original B/L by post if the shipment is released electronically.",
+        "ans": [
+         1
+        ],
+        "tip": "don't have to = không cần; mustn't = cấm.",
+        "why": "Không cần thiết (không bắt buộc) → **don't have to**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Drivers ___ carry the delivery note at all times.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Chủ ngữ số nhiều → **have to** (sau must không có 'to').",
+        "opts": [
+         "has to",
+         "must to",
+         "have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ ship dangerous goods without special labels. It is against the rules.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Bị cấm → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "may"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ check the L/C terms before you ship.",
+        "ans": [
+         0
+        ],
+        "tip": "should + V nguyên mẫu.",
+        "why": "Lời khuyên → **should** + V (không có 'to').",
+        "opts": [
+         "should",
+         "should to",
+         "must to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The goods ___ be insured, but it is a good idea.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Không bắt buộc nhưng nên làm → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "must",
+         "mustn't"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All containers ___ be sealed before loading.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ pay duty on samples under $50. It is free.",
+        "ans": [
+         [
+          "don't have to",
+          "do not have to",
+          "need not",
+          "needn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Miễn thuế = không cần trả → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Drivers ___ park in the loading area. It is forbidden.",
+        "ans": [
+         [
+          "mustn't",
+          "must not"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Customs officers ___ inspect any shipment they want.",
+        "ans": [
+         [
+          "can",
+          "may"
+         ]
+        ],
+        "tip": "",
+        "why": "Quyền hạn/được phép → **can** hoặc **may**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Under EXW, the buyer ___ pay for the main transport.",
+        "ans": [
+         [
+          "has to",
+          "must"
+         ]
+        ],
+        "tip": "",
+        "why": "Người mua phải trả → **has to** (hoặc must)."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A first export order",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Linh's company sells coffee. Last week a buyer in Germany placed an order for 10 tonnes. First, Linh sent a proforma invoice so that the buyer could arrange payment by letter of credit. The two sides agreed on FOB Ho Chi Minh City, which means that the seller delivers the goods on board the ship at the port. After that, the buyer takes the risk and pays for the main transport.\n\nBefore shipping, Linh prepared the documents: a commercial invoice, a packing list and a certificate of origin. The freight forwarder issued the bill of lading after the coffee was loaded. The buyer also bought an insurance certificate for the cargo.\n\nWhen the bank checked the documents, it found a discrepancy: the net weight on the invoice was different from the packing list. Linh had to amend the documents quickly, and the payment was released two days later.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The buyer is in Vietnam.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: người mua ở **Germany** (Đức)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Under FOB, the seller pays for the main sea transport.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: sau khi hàng lên tàu, người mua chịu rủi ro và trả cước vận chuyển chính."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The freight forwarder issued the bill of lading.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: freight forwarder phát hành vận đơn sau khi cà phê được chất lên tàu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The bank found a problem with the documents.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngân hàng phát hiện discrepancy (sai lệch)."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the buyer and the seller agree to use?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'FOB Ho Chi Minh City'.",
+        "opts": [
+         "EXW Hamburg",
+         "DDP Hamburg",
+         "FOB Ho Chi Minh City"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How would the buyer pay?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thanh toán bằng thư tín dụng (L/C).",
+        "opts": [
+         "By letter of credit",
+         "By cheque after one year",
+         "In cash at the port"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What was wrong with the documents?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: trọng lượng tịnh trên hóa đơn khác với phiếu đóng gói.",
+        "opts": [
+         "The bill of lading was missing",
+         "The net weight on the invoice was different from the packing list",
+         "The certificate of origin was out of date"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Linh do to solve the problem?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: Linh sửa lại chứng từ nhanh chóng (amend).",
+        "opts": [
+         "She cancelled the order",
+         "She amended the documents",
+         "She changed the bank"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Customs & International Trade",
+   "name_vi": "Hải quan & thương mại quốc tế",
+   "icon": "🛃",
+   "hue": 350,
+   "words": [
+    {
+     "en": "customs",
+     "vi": "hải quan"
+    },
+    {
+     "en": "customs clearance",
+     "vi": "thông quan"
+    },
+    {
+     "en": "customs declaration",
+     "vi": "tờ khai hải quan"
+    },
+    {
+     "en": "customs broker",
+     "vi": "đại lý làm thủ tục hải quan"
+    },
+    {
+     "en": "import",
+     "vi": "nhập khẩu"
+    },
+    {
+     "en": "export",
+     "vi": "xuất khẩu"
+    },
+    {
+     "en": "tariff",
+     "vi": "thuế quan"
+    },
+    {
+     "en": "duty",
+     "vi": "thuế (hải quan)"
+    },
+    {
+     "en": "VAT (value-added tax)",
+     "vi": "thuế giá trị gia tăng"
+    },
+    {
+     "en": "HS code",
+     "vi": "mã HS (mã phân loại hàng hóa)"
+    },
+    {
+     "en": "quota",
+     "vi": "hạn ngạch"
+    },
+    {
+     "en": "embargo",
+     "vi": "lệnh cấm vận"
+    },
+    {
+     "en": "trade barrier",
+     "vi": "rào cản thương mại"
+    },
+    {
+     "en": "free trade agreement (FTA)",
+     "vi": "hiệp định thương mại tự do"
+    },
+    {
+     "en": "inspection",
+     "vi": "kiểm tra, giám định"
+    },
+    {
+     "en": "quarantine",
+     "vi": "kiểm dịch"
+    },
+    {
+     "en": "prohibited goods",
+     "vi": "hàng cấm"
+    },
+    {
+     "en": "restricted goods",
+     "vi": "hàng hạn chế"
+    },
+    {
+     "en": "dangerous goods",
+     "vi": "hàng nguy hiểm"
+    },
+    {
+     "en": "perishable goods",
+     "vi": "hàng dễ hỏng"
+    },
+    {
+     "en": "valuation",
+     "vi": "định giá (trị giá hải quan)"
+    },
+    {
+     "en": "exemption",
+     "vi": "sự miễn (thuế)"
+    },
+    {
+     "en": "refund",
+     "vi": "hoàn lại (tiền, thuế)"
+    },
+    {
+     "en": "penalty",
+     "vi": "tiền phạt, hình phạt"
+    },
+    {
+     "en": "seize",
+     "vi": "tịch thu"
+    },
+    {
+     "en": "release",
+     "vi": "giải phóng (hàng)"
+    },
+    {
+     "en": "hold",
+     "vi": "tạm giữ"
+    },
+    {
+     "en": "compliance",
+     "vi": "sự tuân thủ"
+    },
+    {
+     "en": "origin",
+     "vi": "xuất xứ"
+    },
+    {
+     "en": "port of entry",
+     "vi": "cửa khẩu nhập"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Goods must go through ___ before they can enter the country.",
+        "ans": [
+         1
+        ],
+        "tip": "clearance = sự thông qua.",
+        "why": "**customs clearance** = thông quan, hoàn tất thủ tục hải quan.",
+        "opts": [
+         "a quota",
+         "customs clearance",
+         "a refund"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The importer hired a ___ to prepare the documents and deal with the authorities.",
+        "ans": [
+         0
+        ],
+        "tip": "broker = người môi giới.",
+        "why": "**customs broker** = đại lý hải quan, làm thủ tục thay cho doanh nghiệp.",
+        "opts": [
+         "customs broker",
+         "freight rate",
+         "port of entry"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each product has an ___, a code that helps decide the rate of duty.",
+        "ans": [
+         2
+        ],
+        "tip": "HS = Harmonized System.",
+        "why": "**HS code** = mã phân loại hàng hóa quốc tế, dùng để tính thuế.",
+        "opts": [
+         "exemption",
+         "embargo",
+         "HS code"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government set a ___ of 10,000 tonnes of imported sugar per year.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**quota** = hạn ngạch, giới hạn số lượng được nhập.",
+        "opts": [
+         "penalty",
+         "quota",
+         "refund"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fresh fruit and fish are ___ goods, so they must be shipped quickly.",
+        "ans": [
+         2
+        ],
+        "tip": "perish = hư, chết → dễ hỏng.",
+        "why": "**perishable goods** = hàng dễ hỏng.",
+        "opts": [
+         "dangerous",
+         "prohibited",
+         "perishable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Officers can ___ goods that are illegal.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**seize** = tịch thu.",
+        "opts": [
+         "seize",
+         "refund",
+         "exempt"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under this ___, tariffs on most goods between the two countries are reduced to zero.",
+        "ans": [
+         1
+        ],
+        "tip": "FTA = Free Trade Agreement.",
+        "why": "**free trade agreement (FTA)** = hiệp định thương mại tự do.",
+        "opts": [
+         "quota",
+         "free trade agreement",
+         "embargo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ stopped all trade with that country for political reasons.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**embargo** = lệnh cấm vận.",
+        "opts": [
+         "exemption",
+         "embargo",
+         "valuation"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tariff",
+        "b": "a tax on imported goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "quarantine",
+        "b": "a check or period of isolation to stop disease or pests from spreading",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "exemption",
+        "b": "freedom from having to pay a tax",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "penalty",
+        "b": "a fine or punishment for breaking a rule",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "compliance",
+        "b": "following laws and regulations",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "customs declaration",
+        "b": "a form that lists the goods and value you bring across the border",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "valuation",
+        "b": "deciding the value of goods in order to calculate duty",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "port of entry",
+        "b": "the place where goods officially enter a country",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the documents are correct, customs ___ the goods quickly.",
+        "ans": [
+         1
+        ],
+        "tip": "If + present, will + V.",
+        "why": "Điều kiện có thể xảy ra → loại 1: **will release**.",
+        "opts": [
+         "would release",
+         "will release",
+         "released"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we ___ the wrong HS code, we will pay a penalty.",
+        "ans": [
+         2
+        ],
+        "tip": "Không dùng will sau If.",
+        "why": "Mệnh đề If loại 1 dùng hiện tại đơn: **use**.",
+        "opts": [
+         "used",
+         "will use",
+         "use"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I ___ a customs broker, I would not worry about the forms.",
+        "ans": [
+         2
+        ],
+        "tip": "If + past, would + V.",
+        "why": "Điều kiện không có thật ở hiện tại → loại 2: **had**.",
+        "opts": [
+         "have",
+         "will have",
+         "had"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the shipment arrives late, we ___ the customer.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Loại 1: **will inform**.",
+        "opts": [
+         "will inform",
+         "informed",
+         "would inform"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What ___ if the goods are seized?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Câu hỏi loại 1: **will you do**.",
+        "opts": [
+         "you will do",
+         "did you do",
+         "will you do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If tariffs were lower, imports ___ cheaper.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Loại 2 (were lower) → **would be**.",
+        "opts": [
+         "would be",
+         "will be",
+         "are"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the word in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the inspection ___ (find) a problem, they will hold the container.",
+        "ans": [
+         [
+          "finds"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **finds**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (pay) the duty today, the goods will be released.",
+        "ans": [
+         [
+          "pay"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, mệnh đề If dùng hiện tại đơn: **pay**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I would apply for an exemption if I ___ (be) you.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were you...",
+        "why": "Loại 2 với be: **were** (hoặc was)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the quota ___ (be) bigger, we would import more.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: **were** (hoặc was)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Unless you ___ (declare) the goods, customs will fine you.",
+        "ans": [
+         [
+          "declare"
+         ]
+        ],
+        "tip": "Unless = If ... not.",
+        "why": "Unless + hiện tại đơn: **declare**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Clearing a shipment",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When a shipment of fruit arrives at the port of entry, the importer must file a customs declaration. The declaration lists the goods, their HS code, their origin and their value. The customs officer uses this information to calculate the duty and VAT.\n\nSome goods need extra checks. Fruit, for example, may go through a quarantine inspection to make sure that it has no pests. If an officer finds a problem, the container can be held and the importer may have to pay a penalty. Dangerous goods and prohibited goods need special permission or are not allowed at all.\n\nMany companies hire a customs broker. A good broker knows the rules, helps the company claim an exemption if one is available, and makes sure the documents are correct. When all the checks are finished and the duty is paid, customs gives a release and the truck can take the goods to the warehouse.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The customs declaration includes the HS code of the goods.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tờ khai liệt kê hàng hóa, mã HS, xuất xứ và giá trị."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Customs officers use the declaration to calculate duty and VAT.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cán bộ hải quan dùng thông tin này để tính thuế."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Fruit is never inspected.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: trái cây có thể phải qua kiểm dịch."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Prohibited goods can enter the country with a normal declaration.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hàng cấm cần giấy phép đặc biệt hoặc hoàn toàn không được phép."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may happen if an officer finds a problem?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: container có thể bị tạm giữ và doanh nghiệp có thể bị phạt.",
+        "opts": [
+         "The container can be held",
+         "The HS code changes",
+         "The goods become free"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do many companies hire a customs broker?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: broker nắm quy định và đảm bảo chứng từ đúng.",
+        "opts": [
+         "Brokers know the rules and check the documents",
+         "Brokers drive the trucks",
+         "Brokers pay the duty for free"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a quarantine inspection check for?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kiểm tra để chắc chắn trái cây không có sâu bọ (pests).",
+        "opts": [
+         "Colours",
+         "Prices",
+         "Pests"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens after customs gives a release?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sau khi được giải phóng hàng, xe có thể chở hàng về kho.",
+        "opts": [
+         "The importer files a declaration",
+         "The truck can take the goods to the warehouse",
+         "The goods are seized"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Last-mile Delivery & E-commerce",
+   "name_vi": "Giao hàng chặng cuối & thương mại điện tử",
+   "icon": "📦",
+   "hue": 45,
+   "words": [
+    {
+     "en": "last mile",
+     "vi": "chặng giao hàng cuối cùng"
+    },
+    {
+     "en": "parcel",
+     "vi": "bưu kiện, kiện hàng"
+    },
+    {
+     "en": "courier",
+     "vi": "đơn vị chuyển phát; người giao hàng"
+    },
+    {
+     "en": "delivery slot",
+     "vi": "khung giờ giao hàng"
+    },
+    {
+     "en": "same-day delivery",
+     "vi": "giao hàng trong ngày"
+    },
+    {
+     "en": "express delivery",
+     "vi": "giao hàng nhanh"
+    },
+    {
+     "en": "standard delivery",
+     "vi": "giao hàng tiêu chuẩn"
+    },
+    {
+     "en": "cash on delivery (COD)",
+     "vi": "thu tiền khi giao hàng"
+    },
+    {
+     "en": "proof of delivery (POD)",
+     "vi": "bằng chứng giao hàng"
+    },
+    {
+     "en": "signature",
+     "vi": "chữ ký"
+    },
+    {
+     "en": "doorstep",
+     "vi": "trước cửa nhà"
+    },
+    {
+     "en": "failed delivery",
+     "vi": "giao hàng không thành công"
+    },
+    {
+     "en": "redelivery",
+     "vi": "giao lại"
+    },
+    {
+     "en": "pickup point",
+     "vi": "điểm nhận hàng"
+    },
+    {
+     "en": "locker",
+     "vi": "tủ khóa nhận hàng tự động"
+    },
+    {
+     "en": "sorting centre",
+     "vi": "trung tâm phân loại hàng"
+    },
+    {
+     "en": "hub",
+     "vi": "trung tâm trung chuyển"
+    },
+    {
+     "en": "route optimisation",
+     "vi": "tối ưu hóa tuyến giao hàng"
+    },
+    {
+     "en": "e-commerce",
+     "vi": "thương mại điện tử"
+    },
+    {
+     "en": "order fulfilment",
+     "vi": "xử lý và hoàn tất đơn hàng"
+    },
+    {
+     "en": "returns policy",
+     "vi": "chính sách đổi trả"
+    },
+    {
+     "en": "exchange",
+     "vi": "đổi hàng"
+    },
+    {
+     "en": "packaging",
+     "vi": "bao bì, vật liệu đóng gói"
+    },
+    {
+     "en": "fragile",
+     "vi": "dễ vỡ"
+    },
+    {
+     "en": "shipping fee",
+     "vi": "phí vận chuyển"
+    },
+    {
+     "en": "free shipping",
+     "vi": "miễn phí vận chuyển"
+    },
+    {
+     "en": "tracking link",
+     "vi": "đường dẫn theo dõi đơn hàng"
+    },
+    {
+     "en": "ETA (estimated time of arrival)",
+     "vi": "thời gian dự kiến đến nơi"
+    },
+    {
+     "en": "customer satisfaction",
+     "vi": "sự hài lòng của khách hàng"
+    },
+    {
+     "en": "peak season",
+     "vi": "mùa cao điểm"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ logistics phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the final part of the journey, from the local hub to the customer's door.",
+        "ans": [
+         2
+        ],
+        "tip": "mile = dặm → đoạn đường cuối.",
+        "why": "**last mile** = chặng giao hàng cuối cùng.",
+        "opts": [
+         "peak season",
+         "sorting centre",
+         "last mile"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The customer chose ___, so the parcel arrived on the same afternoon.",
+        "ans": [
+         0
+        ],
+        "tip": "same day = cùng ngày.",
+        "why": "**same-day delivery** = giao hàng trong ngày.",
+        "opts": [
+         "same-day delivery",
+         "redelivery",
+         "standard delivery"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The courier could not find anyone at home, so it was a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**failed delivery** = giao hàng không thành công.",
+        "opts": [
+         "returns policy",
+         "failed delivery",
+         "free shipping"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "With ___, the customer pays the courier when the parcel arrives.",
+        "ans": [
+         1
+        ],
+        "tip": "COD = Cash On Delivery.",
+        "why": "**cash on delivery (COD)** = thu tiền khi giao hàng.",
+        "opts": [
+         "proof of delivery",
+         "cash on delivery",
+         "free shipping"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The driver took a photo as ___ that the parcel was delivered.",
+        "ans": [
+         0
+        ],
+        "tip": "proof = bằng chứng.",
+        "why": "**proof of delivery (POD)** = bằng chứng đã giao hàng.",
+        "opts": [
+         "proof of delivery",
+         "cash on delivery",
+         "a pickup point"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If you are not at home, you can collect your parcel from a ___.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**pickup point** = điểm nhận hàng dành cho khách.",
+        "opts": [
+         "sorting centre",
+         "fleet",
+         "pickup point"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Write 'FRAGILE' on the box because the glasses inside can break easily. The word means ___.",
+        "ans": [
+         1
+        ],
+        "tip": "fragile ~ frag (vỡ).",
+        "why": "**fragile** = dễ vỡ.",
+        "opts": [
+         "very heavy",
+         "easy to break",
+         "free of charge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Software that finds the shortest path for each driver is called ___.",
+        "ans": [
+         2
+        ],
+        "tip": "optimise = làm cho tối ưu.",
+        "why": "**route optimisation** = tối ưu hóa tuyến giao hàng.",
+        "opts": [
+         "order fulfilment",
+         "customer satisfaction",
+         "route optimisation"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "courier",
+        "b": "a person or company that delivers parcels",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "parcel",
+        "b": "a package that is sent by post or courier",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "doorstep",
+        "b": "the area just outside the front door of a house",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "locker",
+        "b": "a secure box where customers collect parcels using a code",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hub",
+        "b": "a central place where parcels are collected and sent on",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ETA",
+        "b": "the time when a delivery is expected to arrive",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "returns policy",
+        "b": "the rules for sending items back for a refund or exchange",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "peak season",
+        "b": "the busiest period of the year for deliveries",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The parcel ___ yesterday afternoon.",
+        "ans": [
+         1
+        ],
+        "tip": "yesterday / last week / in 2023 → V2.",
+        "why": "'yesterday' = mốc thời gian đã qua → **quá khứ đơn**.",
+        "opts": [
+         "arrives",
+         "arrived",
+         "has arrived"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Since January, we ___ three new delivery hubs.",
+        "ans": [
+         1
+        ],
+        "tip": "since / for / yet / just → have + V3.",
+        "why": "'Since January' → **hiện tại hoàn thành**.",
+        "opts": [
+         "open",
+         "have opened",
+         "opened"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How long ___ as a courier?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Hỏi khoảng thời gian kéo dài đến hiện tại → **have you worked**.",
+        "opts": [
+         "did you work",
+         "do you work",
+         "have you worked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The driver ___ the parcel at 10 a.m. and then went to the next address.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Hành động xong tại mốc 10 a.m. → quá khứ đơn: **left**.",
+        "opts": [
+         "has left",
+         "left",
+         "had been leaving"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I ___ my order yet.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "'yet' → hiện tại hoàn thành phủ định: **haven't received**.",
+        "opts": [
+         "didn't receive",
+         "don't receive",
+         "haven't received"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Last year, online orders ___ by 30%.",
+        "ans": [
+         0
+        ],
+        "tip": "grow – grew – grown.",
+        "why": "'Last year' → quá khứ đơn: grow → **grew**.",
+        "opts": [
+         "grew",
+         "grow",
+         "have grown"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (send) your parcel two days ago.",
+        "ans": [
+         [
+          "sent"
+         ]
+        ],
+        "tip": "send – sent – sent.",
+        "why": "'two days ago' → quá khứ đơn: send → **sent**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The courier has just ___ (deliver) the package.",
+        "ans": [
+         [
+          "delivered"
+         ]
+        ],
+        "tip": "",
+        "why": "has just + V3 → **delivered**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) for this company since 2021.",
+        "ans": [
+         [
+          "has worked",
+          "has been working"
+         ]
+        ],
+        "tip": "",
+        "why": "'since 2021' → **has worked** (hoặc has been working)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I ___ (never / use) a parcel locker.",
+        "ans": [
+         [
+          "have never used",
+          "'ve never used"
+         ]
+        ],
+        "tip": "",
+        "why": "Kinh nghiệm cho đến nay → **have never used**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "They ___ (launch) the same-day service in 2023.",
+        "ans": [
+         [
+          "launched"
+         ]
+        ],
+        "tip": "",
+        "why": "'in 2023' → quá khứ đơn: **launched**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Why the last mile is hard",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Online shopping has grown fast, and customers now expect quick and cheap delivery. Many people can choose standard delivery, express delivery or even same-day delivery. But the last mile, the final step from the hub to the customer's door, is one of the most expensive parts of the whole journey.\n\nThere are several reasons. Drivers make many short stops in crowded cities. Some customers are not at home, which causes a failed delivery and a costly redelivery. Peak season, such as the weeks before holidays, makes the problem worse.\n\nCompanies are trying new solutions. Route optimisation software helps drivers save time and fuel. Pickup points and parcel lockers let customers collect their orders when it suits them. Companies also send a tracking link and an ETA, which improves customer satisfaction because people know when to expect the courier.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The last mile is the first step of the delivery journey.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: last mile là bước **cuối** cùng, từ trung tâm đến cửa nhà khách."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Failed deliveries make the last mile more expensive.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giao không thành công dẫn đến giao lại tốn kém."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Peak season makes delivery problems worse.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mùa cao điểm làm vấn đề tệ hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Parcel lockers force customers to wait at home.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tủ khóa cho phép khách nhận hàng khi thuận tiện."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are city deliveries costly?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tài xế dừng nhiều lần ngắn trong thành phố đông đúc.",
+        "opts": [
+         "Drivers make many short stops",
+         "There are no couriers",
+         "Customers pay in advance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does route optimisation software help drivers do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: giúp tài xế tiết kiệm thời gian và nhiên liệu.",
+        "opts": [
+         "Pack boxes",
+         "Sort parcels",
+         "Save time and fuel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do a tracking link and an ETA improve?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khách biết khi nào nhận hàng nên hài lòng hơn.",
+        "opts": [
+         "Fuel surcharges",
+         "Customer satisfaction",
+         "Packaging"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which is an example of peak season?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ví dụ là những tuần trước các kỳ nghỉ lễ.",
+        "opts": [
+         "A Sunday morning",
+         "The weeks before holidays",
+         "A quiet day in the middle of summer"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "journey",
+   "hành trình"
+  ],
+  [
+   "assemble",
+   "lắp ráp"
+  ],
+  [
+   "carton",
+   "thùng các-tông"
+  ],
+  [
+   "predict",
+   "dự đoán"
+  ],
+  [
+   "regional",
+   "thuộc khu vực"
+  ],
+  [
+   "avoid",
+   "tránh"
+  ],
+  [
+   "wonder",
+   "tự hỏi"
+  ],
+  [
+   "metal",
+   "kim loại"
+  ],
+  [
+   "glass",
+   "thủy tinh, kính"
+  ],
+  [
+   "strike",
+   "cuộc đình công"
+  ],
+  [
+   "weather",
+   "thời tiết"
+  ],
+  [
+   "modern",
+   "hiện đại"
+  ],
+  [
+   "exactly",
+   "chính xác"
+  ],
+  [
+   "furniture",
+   "đồ nội thất"
+  ],
+  [
+   "tonne",
+   "tấn"
+  ],
+  [
+   "customer",
+   "khách hàng"
+  ],
+  [
+   "order",
+   "đơn hàng; đặt hàng"
+  ],
+  [
+   "expect",
+   "mong đợi"
+  ],
+  [
+   "collect",
+   "lấy, thu gom"
+  ],
+  [
+   "record",
+   "ghi lại"
+  ],
+  [
+   "separate",
+   "tách riêng"
+  ],
+  [
+   "report",
+   "báo cáo"
+  ],
+  [
+   "expiry date",
+   "ngày hết hạn"
+  ],
+  [
+   "nearest",
+   "gần nhất"
+  ],
+  [
+   "aisle",
+   "lối đi giữa các kệ"
+  ],
+  [
+   "camera",
+   "máy quay, camera"
+  ],
+  [
+   "train",
+   "đào tạo"
+  ],
+  [
+   "staff",
+   "nhân viên"
+  ],
+  [
+   "manager",
+   "quản lý"
+  ],
+  [
+   "guarantee",
+   "đảm bảo"
+  ],
+  [
+   "refuse",
+   "từ chối"
+  ],
+  [
+   "mistake",
+   "lỗi, sai sót"
+  ],
+  [
+   "urgent",
+   "khẩn cấp"
+  ],
+  [
+   "permission",
+   "sự cho phép"
+  ],
+  [
+   "pest",
+   "sâu bọ, dịch hại"
+  ],
+  [
+   "officer",
+   "cán bộ, nhân viên"
+  ],
+  [
+   "claim",
+   "yêu cầu; xin hưởng"
+  ],
+  [
+   "available",
+   "có sẵn"
+  ],
+  [
+   "stop",
+   "điểm dừng; dừng lại"
+  ],
+  [
+   "crowded",
+   "đông đúc"
+  ],
+  [
+   "solution",
+   "giải pháp"
+  ],
+  [
+   "improve",
+   "cải thiện"
+  ],
+  [
+   "save",
+   "tiết kiệm"
+  ],
+  [
+   "fuel",
+   "nhiên liệu"
+  ],
+  [
+   "holiday",
+   "kỳ nghỉ lễ"
+  ],
+  [
+   "launch",
+   "ra mắt, tung ra"
+  ],
+  [
+   "shopping",
+   "mua sắm"
+  ],
+  [
+   "online",
+   "trực tuyến"
+  ],
+  [
+   "cheap",
+   "rẻ"
+  ],
+  [
+   "expensive",
+   "đắt"
+  ],
+  [
+   "heavy",
+   "nặng"
+  ],
+  [
+   "light",
+   "nhẹ"
+  ],
+  [
+   "fast",
+   "nhanh"
+  ],
+  [
+   "slow",
+   "chậm"
+  ],
+  [
+   "ship",
+   "vận chuyển, gửi hàng"
+  ],
+  [
+   "deliver",
+   "giao hàng"
+  ],
+  [
+   "pack",
+   "đóng gói"
+  ],
+  [
+   "store",
+   "lưu trữ, cất giữ"
+  ],
+  [
+   "check",
+   "kiểm tra"
+  ],
+  [
+   "scan",
+   "quét"
+  ],
+  [
+   "arrive",
+   "đến nơi"
+  ],
+  [
+   "leave",
+   "rời đi"
+  ],
+  [
+   "wait",
+   "chờ đợi"
+  ],
+  [
+   "return",
+   "trả lại"
+  ],
+  [
+   "cancel",
+   "hủy"
+  ],
+  [
+   "price",
+   "giá"
+  ],
+  [
+   "cost",
+   "chi phí"
+  ],
+  [
+   "pay",
+   "trả tiền"
+  ],
+  [
+   "buy",
+   "mua"
+  ],
+  [
+   "sell",
+   "bán"
+  ],
+  [
+   "produce",
+   "sản xuất"
+  ],
+  [
+   "provide",
+   "cung cấp"
+  ],
+  [
+   "reduce",
+   "giảm"
+  ],
+  [
+   "increase",
+   "tăng"
+  ],
+  [
+   "buyer",
+   "người mua"
+  ],
+  [
+   "seller",
+   "người bán"
+  ],
+  [
+   "bank",
+   "ngân hàng"
+  ],
+  [
+   "document",
+   "tài liệu, chứng từ"
+  ],
+  [
+   "sign",
+   "ký"
+  ],
+  [
+   "guard",
+   "bảo vệ"
+  ],
+  [
+   "temperature",
+   "nhiệt độ"
+  ],
+  [
+   "fresh",
+   "tươi"
+  ],
+  [
+   "fruit",
+   "trái cây"
+  ],
+  [
+   "coffee",
+   "cà phê"
+  ],
+  [
+   "sugar",
+   "đường"
+  ]
+ ]
+}

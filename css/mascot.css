@@ -1,0 +1,187 @@
+/* Bạn trâu cổ vũ + pháo giấy (giữ nguyên hoạt họa từ bản cũ) */
+#cf {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 70
+}
+#mascot {
+  position: fixed;
+  right: 8px;
+  bottom: 74px;
+  width: 132px;
+  z-index: 30;
+  pointer-events: none;
+  display: none
+}
+#mBody {
+  pointer-events: auto;
+  cursor: pointer;
+  transform-origin: 50% 100%
+}
+#mBody svg {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+  filter: drop-shadow(0 6px 8px rgba(0, 0, 0, .18))
+}
+#mBubble {
+  position: absolute;
+  right: 4px;
+  bottom: 100%;
+  margin-bottom: -4px;
+  background: #fff;
+  color: #14213d;
+  border: 2.5px solid #14213d;
+  border-radius: 18px;
+  padding: 9px 13px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.35;
+  width: max-content;
+  max-width: 230px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .2);
+  opacity: 0;
+  transform: translateY(10px) scale(.85);
+  transform-origin: 90% 100%;
+  transition: .28s cubic-bezier(.3, 1.5, .5, 1);
+  pointer-events: none
+}
+#mBubble::after {
+  content: "";
+  position: absolute;
+  right: 34px;
+  bottom: -9px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border-right: 2.5px solid #14213d;
+  border-bottom: 2.5px solid #14213d;
+  transform: rotate(45deg)
+}
+#mBubble.show {
+  opacity: 1;
+  transform: none
+}
+#mHide {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  pointer-events: auto;
+  border: 0;
+  background: rgba(0, 0, 0, .35);
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  line-height: 22px;
+  padding: 0;
+  opacity: 0;
+  transition: .2s
+}
+#mascot:hover #mHide {
+  opacity: 1
+}
+#mShow {
+  position: fixed;
+  right: 12px;
+  bottom: 80px;
+  z-index: 30;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--hi);
+  font-size: 24px;
+  display: none;
+  place-items: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, .3)
+}
+.m-bob {
+  animation: mbob 1.3s ease-in-out infinite alternate
+}
+@keyframes mbob {
+  from {
+    transform: translateY(0)
+  }
+  to {
+    transform: translateY(-6px)
+  }
+}
+.m-armL,
+.m-armR {
+  transform-box: view-box;
+  animation: warm 1s ease-in-out infinite alternate
+}
+.m-armL {
+  transform-origin: 58px 152px
+}
+.m-armR {
+  transform-origin: 142px 152px;
+  animation-delay: -.5s
+}
+@keyframes warm {
+  from {
+    transform: rotate(-16deg)
+  }
+  to {
+    transform: rotate(14deg)
+  }
+}
+.m-tail {
+  transform-box: view-box;
+  transform-origin: 146px 165px;
+  animation: wag 1.1s ease-in-out infinite alternate
+}
+@keyframes wag {
+  from {
+    transform: rotate(-10deg)
+  }
+  to {
+    transform: rotate(14deg)
+  }
+}
+.m-eye {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: blink 4.2s infinite
+}
+@keyframes blink {
+  0%,
+  94%,
+  100% {
+    transform: scaleY(1)
+  }
+  97% {
+    transform: scaleY(.1)
+  }
+}
+#mBody.cheer {
+  animation: jump .6s ease-out 2
+}
+@keyframes jump {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0)
+  }
+  40% {
+    transform: translateY(-26px) rotate(-4deg)
+  }
+  70% {
+    transform: translateY(-8px) rotate(3deg)
+  }
+}
+#mBody.cheer .m-armL,
+#mBody.cheer .m-armR {
+  animation-duration: .28s
+}
+
+@media (max-width: 560px) {
+  #mascot { width: 84px; bottom: 70px; }
+  #mBubble { max-width: 180px; font-size: 13px; }
+  #mShow { bottom: 74px; }
+}

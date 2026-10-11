@@ -1,0 +1,4293 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "food-technology",
+  "name": "Food Technology",
+  "name_vi": "Công nghệ thực phẩm",
+  "icon": "🥫",
+  "hue": 140,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành công nghệ thực phẩm: khoa học thực phẩm & dinh dưỡng, nguyên liệu & chế biến, bảo quản & bao gói, an toàn & vệ sinh, kiểm soát chất lượng, phát triển sản phẩm & đánh giá cảm quan."
+ },
+ "units": [
+  {
+   "name": "Food Science & Nutrition",
+   "name_vi": "Khoa học thực phẩm & dinh dưỡng",
+   "icon": "🧪",
+   "hue": 140,
+   "words": [
+    {
+     "en": "food technology",
+     "vi": "công nghệ thực phẩm"
+    },
+    {
+     "en": "nutrient",
+     "vi": "chất dinh dưỡng"
+    },
+    {
+     "en": "protein",
+     "vi": "chất đạm, protein"
+    },
+    {
+     "en": "carbohydrate",
+     "vi": "carbohydrate (tinh bột và đường)"
+    },
+    {
+     "en": "fat",
+     "vi": "chất béo"
+    },
+    {
+     "en": "vitamin",
+     "vi": "vitamin"
+    },
+    {
+     "en": "mineral",
+     "vi": "khoáng chất"
+    },
+    {
+     "en": "fibre",
+     "vi": "chất xơ"
+    },
+    {
+     "en": "calorie",
+     "vi": "calo"
+    },
+    {
+     "en": "moisture",
+     "vi": "độ ẩm, lượng nước trong thực phẩm"
+    },
+    {
+     "en": "acidity",
+     "vi": "độ axit"
+    },
+    {
+     "en": "pH",
+     "vi": "độ pH"
+    },
+    {
+     "en": "enzyme",
+     "vi": "enzyme, men"
+    },
+    {
+     "en": "microorganism",
+     "vi": "vi sinh vật"
+    },
+    {
+     "en": "fermentation",
+     "vi": "sự lên men"
+    },
+    {
+     "en": "oxidation",
+     "vi": "sự oxy hóa"
+    },
+    {
+     "en": "emulsion",
+     "vi": "nhũ tương"
+    },
+    {
+     "en": "starch",
+     "vi": "tinh bột"
+    },
+    {
+     "en": "gluten",
+     "vi": "gluten (protein trong lúa mì)"
+    },
+    {
+     "en": "additive",
+     "vi": "phụ gia"
+    },
+    {
+     "en": "preservative",
+     "vi": "chất bảo quản"
+    },
+    {
+     "en": "antioxidant",
+     "vi": "chất chống oxy hóa"
+    },
+    {
+     "en": "flavour",
+     "vi": "hương vị"
+    },
+    {
+     "en": "texture",
+     "vi": "kết cấu (độ mịn, giòn, dai...)"
+    },
+    {
+     "en": "ingredient",
+     "vi": "nguyên liệu, thành phần"
+    },
+    {
+     "en": "diet",
+     "vi": "chế độ ăn"
+    },
+    {
+     "en": "metabolism",
+     "vi": "sự trao đổi chất"
+    },
+    {
+     "en": "allergen",
+     "vi": "chất gây dị ứng"
+    },
+    {
+     "en": "nutritional value",
+     "vi": "giá trị dinh dưỡng"
+    },
+    {
+     "en": "balanced diet",
+     "vi": "chế độ ăn cân bằng"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Meat, eggs and beans are rich in ___, which helps the body build muscle.",
+        "ans": [
+         1
+        ],
+        "tip": "muscle (cơ bắp) → protein.",
+        "why": "**protein** = chất đạm; thịt, trứng, đậu giàu protein giúp xây dựng cơ bắp.",
+        "opts": [
+         "acidity",
+         "protein",
+         "oxidation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Brown rice and vegetables contain a lot of ___, which helps digestion.",
+        "ans": [
+         0
+        ],
+        "tip": "fibre = sợi → chất xơ.",
+        "why": "**fibre** = chất xơ, có nhiều trong gạo lứt và rau, giúp tiêu hóa tốt.",
+        "opts": [
+         "fibre",
+         "oxidation",
+         "emulsion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A lemon has high ___, so it tastes sour.",
+        "ans": [
+         2
+        ],
+        "tip": "acid + -ity → độ axit.",
+        "why": "**acidity** = độ axit; chanh có độ axit cao nên có vị chua.",
+        "opts": [
+         "gluten",
+         "texture",
+         "acidity"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Yoghurt, beer and bread all depend on ___, in which yeast or bacteria change sugar into other substances.",
+        "ans": [
+         1
+        ],
+        "tip": "yeast/bacteria + sugar → lên men.",
+        "why": "**fermentation** = sự lên men; men hoặc vi khuẩn biến đổi đường (làm sữa chua, bia, bánh mì).",
+        "opts": [
+         "oxidation",
+         "fermentation",
+         "metabolism"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Some people cannot eat bread because they are sensitive to ___, a protein found in wheat.",
+        "ans": [
+         0
+        ],
+        "tip": "wheat protein → gluten.",
+        "why": "**gluten** = protein có trong lúa mì; người nhạy cảm với gluten không ăn được bánh mì.",
+        "opts": [
+         "gluten",
+         "starch",
+         "mineral"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Peanuts, milk and eggs are common ___, so manufacturers must list them on the label.",
+        "ans": [
+         2
+        ],
+        "tip": "allergy (dị ứng) → allergen.",
+        "why": "**allergens** = chất gây dị ứng như đậu phộng, sữa, trứng; phải ghi rõ trên nhãn.",
+        "opts": [
+         "additives",
+         "calories",
+         "allergens"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Vitamin C is an ___ that slows down the browning of cut apples.",
+        "ans": [
+         0
+        ],
+        "tip": "anti (chống) + oxidant.",
+        "why": "**antioxidant** = chất chống oxy hóa; vitamin C làm chậm hiện tượng thâm của táo cắt.",
+        "opts": [
+         "antioxidant",
+         "additive",
+         "allergen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mayonnaise is an ___ of oil and water held together by egg yolk.",
+        "ans": [
+         2
+        ],
+        "tip": "oil + water + egg yolk → emulsion.",
+        "why": "**emulsion** = nhũ tương, hỗn hợp dầu và nước bền nhờ chất nhũ hóa như lòng đỏ trứng.",
+        "opts": [
+         "enzyme",
+         "additive",
+         "emulsion"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "nutrient",
+        "b": "a substance that living things need to grow and stay healthy",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "carbohydrate",
+        "b": "a nutrient such as sugar or starch that gives the body energy",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "calorie",
+        "b": "a unit used to measure the energy in food",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "moisture",
+        "b": "a small amount of water in a food",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "microorganism",
+        "b": "a living thing so small that you need a microscope to see it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "additive",
+        "b": "a substance added to food to improve its taste, colour or shelf life",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "texture",
+        "b": "the way a food feels in the mouth, for example smooth or crunchy",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "metabolism",
+        "b": "the chemical processes by which the body changes food into energy",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fruit juice ___ a lot of natural sugar.",
+        "ans": [
+         1
+        ],
+        "tip": "Sự thật chung → V(s/es).",
+        "why": "Sự thật khoa học → **hiện tại đơn**; chủ ngữ số ít: contains.",
+        "opts": [
+         "is containing",
+         "contains",
+         "contain"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the scientist ___ the pH of the sauce.",
+        "ans": [
+         1
+        ],
+        "tip": "now / at the moment → be + V-ing.",
+        "why": "'Right now' = đang xảy ra → **hiện tại tiếp diễn**: is measuring.",
+        "opts": [
+         "measures",
+         "is measuring",
+         "measured"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The milk ___ over!",
+        "ans": [
+         0
+        ],
+        "tip": "Look! → hành động đang diễn ra.",
+        "why": "'Look!' báo hiệu việc đang xảy ra → **is boiling**.",
+        "opts": [
+         "is boiling",
+         "boils",
+         "boil"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Yeast usually ___ best at about 30°C.",
+        "ans": [
+         2
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' = thường xuyên, sự thật chung; chủ ngữ số ít nên thêm -s: **works**.",
+        "opts": [
+         "work",
+         "is working",
+         "works"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ a new low-sugar drink this month.",
+        "ans": [
+         2
+        ],
+        "tip": "this month → tạm thời, đang diễn ra.",
+        "why": "'this month' = việc đang tiến hành trong giai đoạn này → **are developing**.",
+        "opts": [
+         "develops",
+         "develop",
+         "are developing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Water ___ at 100°C at sea level.",
+        "ans": [
+         0
+        ],
+        "tip": "Chân lý khoa học → hiện tại đơn.",
+        "why": "Chân lý khoa học luôn đúng → **hiện tại đơn**: boils.",
+        "opts": [
+         "boils",
+         "is boiling",
+         "boiled"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The factory ___ (produce) 5,000 loaves of bread every day.",
+        "ans": [
+         [
+          "produces"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every day' → hiện tại đơn, ngôi số ít: **produces**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the technicians ___ (test) a new recipe.",
+        "ans": [
+         [
+          "are testing",
+          "'re testing"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **are testing**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our bakery ___ (not / use) artificial colours.",
+        "ans": [
+         [
+          "does not use",
+          "doesn't use"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số ít: **does not use**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company ___ (export) canned fruit to over 20 countries.",
+        "ans": [
+         [
+          "exports"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật về hoạt động của công ty → hiện tại đơn: **exports**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, she ___ (study) for her food chemistry exam.",
+        "ans": [
+         [
+          "is studying",
+          "'s studying"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → hiện tại tiếp diễn: **is studying**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What is in your breakfast?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A simple breakfast can show how food science works. Take a bowl of oat porridge with milk and fruit. The oats contain carbohydrate, which gives you energy, and fibre, which helps digestion. The milk provides protein for the muscles and minerals such as calcium for strong bones. The fruit adds vitamins.\n\nFood scientists measure these nutrients carefully. They count the calories in each portion and test how much fat and sugar the food contains. A balanced diet needs all of these nutrients in the right amounts, not just one or two.\n\nReady-made porridge pots are different. They often contain additives, such as sweeteners and flavour, to improve taste and texture. The label must also warn about common allergens, for example milk and gluten. That is why many people read the label before they eat.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Oats give you energy because they contain carbohydrate.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: oats contain carbohydrate, which gives you energy."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Fibre helps the body build muscle.",
+        "ans": [
+         1
+        ],
+        "tip": "fibre ≠ protein.",
+        "why": "Đoạn 1: **fibre** giúp tiêu hóa; **protein** mới giúp cơ bắp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A balanced diet needs only one or two nutrients.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: chế độ ăn cân bằng cần *tất cả* các chất dinh dưỡng với lượng phù hợp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ready-made porridge pots often contain additives.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'They often contain additives'."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is milk good for the body, according to the text?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: sữa cung cấp protein cho cơ bắp và khoáng chất như canxi.",
+        "opts": [
+         "It contains a lot of fibre",
+         "It provides protein and minerals",
+         "It is free from allergens"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do food scientists measure?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: họ đếm calo và kiểm tra lượng chất béo, đường.",
+        "opts": [
+         "Nutrients such as fat and sugar",
+         "The price of the ingredients",
+         "The speed of cooking"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do manufacturers add additives to porridge pots?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: phụ gia giúp cải thiện hương vị và kết cấu.",
+        "opts": [
+         "To increase the fibre",
+         "To make the pot cheaper",
+         "To improve taste and texture"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must the label warn about?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhãn phải cảnh báo các chất gây dị ứng phổ biến như sữa và gluten.",
+        "opts": [
+         "The cooking time",
+         "Common allergens",
+         "The factory address"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ingredients & Processing",
+   "name_vi": "Nguyên liệu & chế biến",
+   "icon": "⚙️",
+   "hue": 30,
+   "words": [
+    {
+     "en": "harvest",
+     "vi": "thu hoạch; vụ thu hoạch"
+    },
+    {
+     "en": "crop",
+     "vi": "cây trồng, vụ mùa"
+    },
+    {
+     "en": "livestock",
+     "vi": "gia súc, vật nuôi"
+    },
+    {
+     "en": "dairy",
+     "vi": "sản phẩm từ sữa"
+    },
+    {
+     "en": "grain",
+     "vi": "ngũ cốc, hạt"
+    },
+    {
+     "en": "flour",
+     "vi": "bột mì"
+    },
+    {
+     "en": "grading",
+     "vi": "phân loại (theo kích cỡ, chất lượng)"
+    },
+    {
+     "en": "peel",
+     "vi": "gọt vỏ; vỏ"
+    },
+    {
+     "en": "blanching",
+     "vi": "chần (nhúng nước sôi ngắn rồi làm lạnh)"
+    },
+    {
+     "en": "milling",
+     "vi": "xay, nghiền (thành bột)"
+    },
+    {
+     "en": "extrusion",
+     "vi": "đùn ép (ép thực phẩm qua khuôn)"
+    },
+    {
+     "en": "pasteurisation",
+     "vi": "thanh trùng (Pasteur)"
+    },
+    {
+     "en": "homogenisation",
+     "vi": "đồng hóa, đồng nhất (làm mịn hạt béo)"
+    },
+    {
+     "en": "sterilisation",
+     "vi": "tiệt trùng"
+    },
+    {
+     "en": "evaporation",
+     "vi": "sự bay hơi, cô đặc"
+    },
+    {
+     "en": "filtration",
+     "vi": "sự lọc"
+    },
+    {
+     "en": "baking",
+     "vi": "nướng (bánh)"
+    },
+    {
+     "en": "roasting",
+     "vi": "rang, quay"
+    },
+    {
+     "en": "dehydration",
+     "vi": "sự sấy khô, mất nước"
+    },
+    {
+     "en": "yield",
+     "vi": "sản lượng, hiệu suất thu hồi"
+    },
+    {
+     "en": "by-product",
+     "vi": "phụ phẩm"
+    },
+    {
+     "en": "processing line",
+     "vi": "dây chuyền chế biến"
+    },
+    {
+     "en": "batch",
+     "vi": "mẻ (sản xuất)"
+    },
+    {
+     "en": "mass production",
+     "vi": "sản xuất hàng loạt"
+    },
+    {
+     "en": "conveyor belt",
+     "vi": "băng chuyền"
+    },
+    {
+     "en": "ripe",
+     "vi": "chín"
+    },
+    {
+     "en": "organic",
+     "vi": "hữu cơ"
+    },
+    {
+     "en": "seasonal",
+     "vi": "theo mùa"
+    },
+    {
+     "en": "refined",
+     "vi": "tinh luyện, đã qua tinh chế"
+    },
+    {
+     "en": "whole grain",
+     "vi": "ngũ cốc nguyên hạt"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of wheat takes place in late summer, when the grain is ripe.",
+        "ans": [
+         1
+        ],
+        "tip": "harvest = mùa gặt.",
+        "why": "**harvest** = thu hoạch; lúa mì được thu hoạch vào cuối hè khi hạt chín.",
+        "opts": [
+         "extrusion",
+         "harvest",
+         "filtration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After ___, wheat grain is turned into a fine white powder called flour.",
+        "ans": [
+         2
+        ],
+        "tip": "mill = cối xay.",
+        "why": "**milling** = xay, nghiền hạt thành bột.",
+        "opts": [
+         "pasteurisation",
+         "evaporation",
+         "milling"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Milk is heated to 72°C for 15 seconds in ___ to kill harmful microorganisms.",
+        "ans": [
+         0
+        ],
+        "tip": "Pasteur → thanh trùng.",
+        "why": "**pasteurisation** = thanh trùng: đun nóng vừa phải để diệt vi sinh vật có hại.",
+        "opts": [
+         "pasteurisation",
+         "homogenisation",
+         "dehydration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ breaks fat into tiny droplets so that the cream does not separate from the milk.",
+        "ans": [
+         0
+        ],
+        "tip": "homo = giống nhau → đồng nhất.",
+        "why": "**homogenisation** = đồng hóa: làm nhỏ các hạt béo để kem không tách khỏi sữa.",
+        "opts": [
+         "Homogenisation",
+         "Sterilisation",
+         "Evaporation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The cheese factory sells its leftover liquid as a ___ to make protein powder.",
+        "ans": [
+         2
+        ],
+        "tip": "by = bên cạnh → sản phẩm phụ.",
+        "why": "**by-product** = phụ phẩm, thứ thu được thêm trong quá trình sản xuất chính.",
+        "opts": [
+         "batch",
+         "yield",
+         "by-product"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The mill has a high ___: it gets 80 kg of flour from every 100 kg of wheat.",
+        "ans": [
+         1
+        ],
+        "tip": "yield = sản lượng thu được.",
+        "why": "**yield** = hiệu suất thu hồi; lượng thành phẩm thu được từ nguyên liệu.",
+        "opts": [
+         "batch",
+         "yield",
+         "crop"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Thanks to ___, the factory can make thousands of identical biscuits every hour.",
+        "ans": [
+         0
+        ],
+        "tip": "mass = số đông, hàng loạt.",
+        "why": "**mass production** = sản xuất hàng loạt.",
+        "opts": [
+         "mass production",
+         "dehydration",
+         "livestock"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Juice makers prefer ___ fruit because it is sweeter and has more flavour.",
+        "ans": [
+         1
+        ],
+        "tip": "ripe = chín.",
+        "why": "**ripe** = chín; trái chín ngọt và đậm hương vị hơn.",
+        "opts": [
+         "refined",
+         "ripe",
+         "dairy"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "livestock",
+        "b": "farm animals such as cows, pigs and chickens",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dairy",
+        "b": "products made from milk, such as cheese and butter",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "grading",
+        "b": "sorting food into groups according to its size or quality",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "blanching",
+        "b": "putting food briefly into boiling water and then cooling it quickly",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "extrusion",
+        "b": "forcing soft food through a machine to give it a shape",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dehydration",
+        "b": "the removal of water from food",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "conveyor belt",
+        "b": "a moving band that carries items from one place to another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "batch",
+        "b": "a quantity of food that is made at one time",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Whole grain bread is ___ than white bread.",
+        "ans": [
+         2
+        ],
+        "tip": "than → so sánh hơn.",
+        "why": "Có 'than' → so sánh hơn; tính từ ngắn đuôi -y đổi thành **healthier**.",
+        "opts": [
+         "more healthy",
+         "the healthiest",
+         "healthier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is ___ production line in our factory.",
+        "ans": [
+         0
+        ],
+        "tip": "Tính từ dài + the most.",
+        "why": "Tính từ dài (modern) → so sánh nhất: **the most modern**.",
+        "opts": [
+         "the most modern",
+         "more modern",
+         "modernest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Roasting at a high temperature is ___ than baking at a low temperature.",
+        "ans": [
+         2
+        ],
+        "tip": "Tính từ ngắn + -er.",
+        "why": "Tính từ ngắn (fast) + than → **faster**.",
+        "opts": [
+         "the fastest",
+         "more fast",
+         "faster"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Of all the cooking methods, steaming keeps ___ vitamins.",
+        "ans": [
+         1
+        ],
+        "tip": "Of all → so sánh nhất.",
+        "why": "'Of all...' = so sánh nhất → **the most** vitamins.",
+        "opts": [
+         "more",
+         "the most",
+         "most than"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Organic vegetables are usually ___ than ordinary vegetables.",
+        "ans": [
+         0
+        ],
+        "tip": "Tính từ dài + more...than.",
+        "why": "expensive là tính từ dài → **more expensive** than.",
+        "opts": [
+         "more expensive",
+         "expensiver",
+         "the most expensive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Wheat is one of ___ crops in the world.",
+        "ans": [
+         2
+        ],
+        "tip": "one of the + so sánh nhất.",
+        "why": "'one of the...' đi với so sánh nhất → **the most important**.",
+        "opts": [
+         "more important",
+         "importanter",
+         "the most important"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Frozen fish is usually ___ (cheap) than fresh fish.",
+        "ans": [
+         [
+          "cheaper"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn + than → **cheaper**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (large) bakery in the region.",
+        "ans": [
+         [
+          "largest"
+         ]
+        ],
+        "tip": "the + ...-est.",
+        "why": "Có 'the' + phạm vi → so sánh nhất: **largest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Automated lines are ___ (efficient) than manual work.",
+        "ans": [
+         [
+          "more efficient"
+         ]
+        ],
+        "tip": "",
+        "why": "efficient là tính từ dài → **more efficient**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Mass production gives us the ___ (low) cost per unit.",
+        "ans": [
+         [
+          "lowest"
+         ]
+        ],
+        "tip": "",
+        "why": "Có 'the' → so sánh nhất: **lowest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Dried fruit is ___ (sweet) than fresh fruit of the same weight.",
+        "ans": [
+         [
+          "sweeter"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn + than → **sweeter**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From wheat field to bread",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Bread is one of the oldest and most popular foods in the world, but how is it made on a large scale? First, farmers harvest the wheat when the grain is ripe. At the mill, the grain is cleaned and graded, then milled into flour. Whole grain flour is healthier than refined flour because it keeps the fibre, but it is also more difficult to store.\n\nIn the bakery, the flour is mixed with water, yeast and salt in large batches. A conveyor belt carries the dough to the oven, where it is baked. Mass production makes the bread cheaper, and automated processing lines are faster and more consistent than hand work.\n\nNot everything goes into the loaf, however. The outer layer of the grain, called bran, is a useful by-product. Mills sell it for animal feed or add it to breakfast cereals, so very little is wasted.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Farmers harvest wheat when the grain is ripe.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'harvest the wheat when the grain is ripe'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Whole grain flour is easier to store than refined flour.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bột nguyên cám giữ được chất xơ nhưng **khó bảo quản hơn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In the bakery, a conveyor belt carries the dough to the oven.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'A conveyor belt carries the dough to the oven'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Bran is thrown away because it has no use.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cám là phụ phẩm hữu ích, được bán làm thức ăn chăn nuôi hoặc thêm vào ngũ cốc ăn sáng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens to the grain at the mill?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: hạt được làm sạch, phân loại rồi xay thành bột.",
+        "opts": [
+         "It is baked into bread",
+         "It is cleaned, graded and milled into flour",
+         "It is mixed with yeast and salt"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is whole grain flour healthier?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bột nguyên cám vẫn giữ được chất xơ.",
+        "opts": [
+         "It contains more sugar",
+         "It has no gluten",
+         "It keeps the fibre"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is an advantage of automated processing lines?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: dây chuyền tự động nhanh hơn và đồng đều hơn lao động thủ công.",
+        "opts": [
+         "They use less water",
+         "They are faster and more consistent",
+         "They need no ingredients"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How do mills use bran?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cám được bán làm thức ăn chăn nuôi hoặc thêm vào ngũ cốc ăn sáng.",
+        "opts": [
+         "They sell it for animal feed or cereals",
+         "They turn it into white flour",
+         "They use it instead of yeast"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Preservation & Packaging",
+   "name_vi": "Bảo quản & bao gói",
+   "icon": "🥫",
+   "hue": 200,
+   "words": [
+    {
+     "en": "shelf life",
+     "vi": "thời hạn bảo quản (thời gian thực phẩm giữ được chất lượng)"
+    },
+    {
+     "en": "spoilage",
+     "vi": "sự hư hỏng"
+    },
+    {
+     "en": "mould",
+     "vi": "nấm mốc"
+    },
+    {
+     "en": "bacteria",
+     "vi": "vi khuẩn"
+    },
+    {
+     "en": "perishable",
+     "vi": "dễ hỏng"
+    },
+    {
+     "en": "shelf-stable",
+     "vi": "bảo quản được ở nhiệt độ thường"
+    },
+    {
+     "en": "refrigeration",
+     "vi": "sự làm lạnh, bảo quản lạnh"
+    },
+    {
+     "en": "freezing",
+     "vi": "cấp đông"
+    },
+    {
+     "en": "canning",
+     "vi": "đóng hộp (đồ hộp)"
+    },
+    {
+     "en": "pickling",
+     "vi": "muối chua, ngâm giấm"
+    },
+    {
+     "en": "curing",
+     "vi": "ướp muối (xử lý thịt, cá)"
+    },
+    {
+     "en": "smoking",
+     "vi": "hun khói"
+    },
+    {
+     "en": "brine",
+     "vi": "nước muối"
+    },
+    {
+     "en": "freeze-drying",
+     "vi": "sấy thăng hoa"
+    },
+    {
+     "en": "irradiation",
+     "vi": "chiếu xạ"
+    },
+    {
+     "en": "high-pressure processing",
+     "vi": "xử lý bằng áp suất cao (HPP)"
+    },
+    {
+     "en": "vacuum packing",
+     "vi": "đóng gói hút chân không"
+    },
+    {
+     "en": "modified atmosphere packaging",
+     "vi": "bao gói khí quyển biến đổi (MAP)"
+    },
+    {
+     "en": "airtight",
+     "vi": "kín khí"
+    },
+    {
+     "en": "tamper-proof",
+     "vi": "chống mở trái phép, có niêm phong"
+    },
+    {
+     "en": "seal",
+     "vi": "niêm phong, hàn kín"
+    },
+    {
+     "en": "packaging",
+     "vi": "bao bì, việc đóng gói"
+    },
+    {
+     "en": "pouch",
+     "vi": "túi (đựng thực phẩm)"
+    },
+    {
+     "en": "barrier",
+     "vi": "lớp chắn"
+    },
+    {
+     "en": "recyclable",
+     "vi": "có thể tái chế"
+    },
+    {
+     "en": "biodegradable",
+     "vi": "có thể phân hủy sinh học"
+    },
+    {
+     "en": "cold chain",
+     "vi": "chuỗi lạnh"
+    },
+    {
+     "en": "rancid",
+     "vi": "ôi (dầu mỡ)"
+    },
+    {
+     "en": "best-before date",
+     "vi": "hạn dùng tốt nhất trước ngày"
+    },
+    {
+     "en": "use-by date",
+     "vi": "hạn sử dụng (phải dùng trước ngày)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fresh milk has a short ___, so it must be kept in the fridge.",
+        "ans": [
+         0
+        ],
+        "tip": "shelf = kệ → thời gian trên kệ.",
+        "why": "**shelf life** = thời hạn bảo quản, khoảng thời gian thực phẩm giữ được chất lượng.",
+        "opts": [
+         "shelf life",
+         "cold chain",
+         "barrier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fresh strawberries are ___, so they go bad within a few days.",
+        "ans": [
+         2
+        ],
+        "tip": "perish = hư mất.",
+        "why": "**perishable** = dễ hỏng; ngược lại với **shelf-stable**.",
+        "opts": [
+         "shelf-stable",
+         "airtight",
+         "perishable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Green ___ on bread is a sign of spoilage, and the loaf must be thrown away.",
+        "ans": [
+         1
+        ],
+        "tip": "mould = nấm mốc.",
+        "why": "**mould** = nấm mốc; mốc xanh trên bánh mì là dấu hiệu hư hỏng.",
+        "opts": [
+         "brine",
+         "mould",
+         "pouch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Cucumbers are pickled in salty water called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "brine = nước muối.",
+        "why": "**brine** = nước muối dùng để muối dưa, thịt, cá.",
+        "opts": [
+         "brine",
+         "irradiation",
+         "refrigeration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Butter that smells unpleasant and tastes bitter has gone ___.",
+        "ans": [
+         2
+        ],
+        "tip": "rancid = ôi, khét.",
+        "why": "**rancid** = ôi; dầu mỡ bị oxy hóa nên có mùi khó chịu.",
+        "opts": [
+         "airtight",
+         "recyclable",
+         "rancid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Instant coffee is made by ___, which removes water from frozen coffee under vacuum.",
+        "ans": [
+         1
+        ],
+        "tip": "freeze + dry → sấy đông.",
+        "why": "**freeze-drying** = sấy thăng hoa: nước trong thực phẩm đã đông lạnh được hút ra trong chân không.",
+        "opts": [
+         "canning",
+         "freeze-drying",
+         "smoking"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ lid shows that nobody has opened the jar before you.",
+        "ans": [
+         1
+        ],
+        "tip": "tamper = can thiệp trái phép.",
+        "why": "**tamper-proof** = chống mở trái phép; nắp bị hỏng khi có người mở.",
+        "opts": [
+         "biodegradable",
+         "tamper-proof",
+         "shelf-stable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many supermarkets now prefer ___ packaging because it breaks down naturally.",
+        "ans": [
+         2
+        ],
+        "tip": "bio (sinh học) + degrade (phân hủy).",
+        "why": "**biodegradable** = có thể phân hủy sinh học, thân thiện với môi trường.",
+        "opts": [
+         "airtight",
+         "tamper-proof",
+         "biodegradable"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "refrigeration",
+        "b": "keeping food cold, but not frozen, to slow down spoilage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "canning",
+        "b": "sealing food in metal containers and heating it to preserve it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "curing",
+        "b": "preserving meat or fish by adding salt",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "smoking",
+        "b": "preserving food by exposing it to smoke from burning wood",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "vacuum packing",
+        "b": "removing the air from a package before sealing it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cold chain",
+        "b": "a series of cold stages that keep food chilled from factory to shop",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "use-by date",
+        "b": "the last date on which a food is safe to eat",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "best-before date",
+        "b": "the date until which a food keeps its best quality",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fruit ___ into jars and sealed immediately.",
+        "ans": [
+         0
+        ],
+        "tip": "Rau quả được đóng → bị động.",
+        "why": "Trái cây *được* đóng vào lọ → bị động hiện tại đơn: **is packed**.",
+        "opts": [
+         "is packed",
+         "packs",
+         "is packing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The cans ___ to 121°C to destroy bacteria.",
+        "ans": [
+         0
+        ],
+        "tip": "Cans không tự đun → bị động.",
+        "why": "Hộp *được* đun nóng → bị động hiện tại đơn: **are heated**.",
+        "opts": [
+         "are heated",
+         "heat",
+         "are heating"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The yoghurt ___ yesterday afternoon.",
+        "ans": [
+         2
+        ],
+        "tip": "yesterday → quá khứ.",
+        "why": "'yesterday' → bị động quá khứ đơn: **was made**.",
+        "opts": [
+         "is made",
+         "made",
+         "was made"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The cheese ___ in a cool room for six months before it is sold.",
+        "ans": [
+         1
+        ],
+        "tip": "Phô mai được giữ → bị động.",
+        "why": "Phô mai *được* giữ trong phòng mát → **is kept**.",
+        "opts": [
+         "keeps",
+         "is kept",
+         "is keeping"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Frozen food must ___ at -18°C.",
+        "ans": [
+         2
+        ],
+        "tip": "must + be + V3.",
+        "why": "Bị động với động từ khuyết thiếu: must + **be stored**.",
+        "opts": [
+         "store",
+         "be storing",
+         "be stored"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Last year, the bottles ___ with a new tamper-proof cap.",
+        "ans": [
+         1
+        ],
+        "tip": "Last year → quá khứ; bottles số nhiều.",
+        "why": "'Last year' → bị động quá khứ đơn, chủ ngữ số nhiều: **were sealed**.",
+        "opts": [
+         "sealed",
+         "were sealed",
+         "are sealed"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Meat ___ (preserve) by smoking in many countries.",
+        "ans": [
+         [
+          "is preserved"
+         ]
+        ],
+        "tip": "be + V3.",
+        "why": "Hiện tại đơn bị động, chủ ngữ số ít: **is preserved**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The pickles ___ (put) into clean jars yesterday.",
+        "ans": [
+         [
+          "were put"
+         ]
+        ],
+        "tip": "",
+        "why": "'yesterday' → quá khứ bị động, số nhiều: **were put**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Fresh fish ___ (keep) on ice during transport.",
+        "ans": [
+         [
+          "is kept"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn bị động: **is kept**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The jam jars ___ (not / seal) properly last week, so the jam went bad.",
+        "ans": [
+         [
+          "were not sealed",
+          "weren't sealed"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định quá khứ bị động, số nhiều: **were not sealed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Ready meals ___ (freeze) quickly to keep their texture.",
+        "ans": [
+         [
+          "are frozen"
+         ]
+        ],
+        "tip": "freeze → frozen.",
+        "why": "Hiện tại đơn bị động, số nhiều: **are frozen**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Why does food go bad?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Food goes bad because of microorganisms such as bacteria and mould, and because of chemical changes like oxidation. Perishable foods, for example milk and fish, are spoiled quickly, so their shelf life is short. Food technologists use many methods to make it longer.\n\nSome methods remove or change the conditions that microorganisms need. Fruit is dried, meat is cured or smoked, and vegetables are pickled in brine. Other foods are heated and sealed in cans, or they are frozen. Fresh products must be kept in a cold chain from the factory to the shop.\n\nPackaging is also important. Vacuum packing removes the air, and a barrier film keeps oxygen out. The package is sealed so that it is airtight, and a tamper-proof lid shows that the product has not been opened. Today, more companies choose recyclable or biodegradable materials.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Perishable foods usually have a long shelf life.",
+        "ans": [
+         1
+        ],
+        "tip": "perishable = dễ hỏng.",
+        "why": "Đoạn 1: thực phẩm dễ hỏng như sữa, cá có **shelf life ngắn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Meat can be cured or smoked to preserve it.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'meat is cured or smoked'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A cold chain keeps fresh products cold from the factory to the shop.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sản phẩm tươi phải được giữ trong chuỗi lạnh từ nhà máy đến cửa hàng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Vacuum packing adds more air to the package.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đóng gói hút chân không **loại bỏ** không khí."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What makes food go bad?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: vi sinh vật (vi khuẩn, nấm mốc) và các thay đổi hóa học như oxy hóa.",
+        "opts": [
+         "Microorganisms and chemical changes",
+         "Too much packaging",
+         "A strong flavour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a barrier film do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lớp màng chắn ngăn oxy lọt vào.",
+        "opts": [
+         "It adds flavour",
+         "It makes the food colder",
+         "It keeps oxygen out"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a tamper-proof lid show?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nắp chống mở cho thấy sản phẩm chưa bị mở.",
+        "opts": [
+         "That the product has not been opened",
+         "That the food is organic",
+         "That the package is recyclable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What kind of materials are more companies choosing today?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngày càng nhiều công ty chọn vật liệu có thể tái chế hoặc phân hủy sinh học.",
+        "opts": [
+         "Heavier metal ones",
+         "Recyclable or biodegradable ones",
+         "Cheaper plastic ones"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Food Safety & Hygiene",
+   "name_vi": "An toàn & vệ sinh thực phẩm",
+   "icon": "🧼",
+   "hue": 350,
+   "words": [
+    {
+     "en": "food safety",
+     "vi": "an toàn thực phẩm"
+    },
+    {
+     "en": "hygiene",
+     "vi": "vệ sinh"
+    },
+    {
+     "en": "personal hygiene",
+     "vi": "vệ sinh cá nhân"
+    },
+    {
+     "en": "contamination",
+     "vi": "sự nhiễm bẩn, ô nhiễm"
+    },
+    {
+     "en": "cross-contamination",
+     "vi": "sự nhiễm chéo"
+    },
+    {
+     "en": "pathogen",
+     "vi": "mầm bệnh, tác nhân gây bệnh"
+    },
+    {
+     "en": "toxin",
+     "vi": "độc tố"
+    },
+    {
+     "en": "food poisoning",
+     "vi": "ngộ độc thực phẩm"
+    },
+    {
+     "en": "foodborne illness",
+     "vi": "bệnh lây qua thực phẩm"
+    },
+    {
+     "en": "outbreak",
+     "vi": "đợt bùng phát (dịch bệnh)"
+    },
+    {
+     "en": "hazard",
+     "vi": "mối nguy"
+    },
+    {
+     "en": "HACCP",
+     "vi": "hệ thống phân tích mối nguy và kiểm soát điểm tới hạn"
+    },
+    {
+     "en": "critical control point",
+     "vi": "điểm kiểm soát tới hạn (CCP)"
+    },
+    {
+     "en": "risk assessment",
+     "vi": "đánh giá rủi ro"
+    },
+    {
+     "en": "sanitation",
+     "vi": "vệ sinh môi trường, xử lý vệ sinh"
+    },
+    {
+     "en": "sanitise",
+     "vi": "làm sạch và khử khuẩn"
+    },
+    {
+     "en": "disinfectant",
+     "vi": "chất khử trùng"
+    },
+    {
+     "en": "clean-in-place",
+     "vi": "vệ sinh tại chỗ (CIP, không tháo thiết bị)"
+    },
+    {
+     "en": "protective clothing",
+     "vi": "quần áo bảo hộ"
+    },
+    {
+     "en": "hairnet",
+     "vi": "lưới trùm tóc"
+    },
+    {
+     "en": "pest control",
+     "vi": "kiểm soát côn trùng, động vật gây hại"
+    },
+    {
+     "en": "pesticide residue",
+     "vi": "dư lượng thuốc trừ sâu"
+    },
+    {
+     "en": "heavy metal",
+     "vi": "kim loại nặng"
+    },
+    {
+     "en": "foreign body",
+     "vi": "dị vật"
+    },
+    {
+     "en": "recall",
+     "vi": "thu hồi (sản phẩm lỗi)"
+    },
+    {
+     "en": "danger zone",
+     "vi": "vùng nhiệt độ nguy hiểm"
+    },
+    {
+     "en": "core temperature",
+     "vi": "nhiệt độ lõi (ở giữa thực phẩm)"
+    },
+    {
+     "en": "thaw",
+     "vi": "rã đông"
+    },
+    {
+     "en": "sterile",
+     "vi": "vô trùng"
+    },
+    {
+     "en": "microbial count",
+     "vi": "số lượng vi sinh vật"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Salmonella is a ___ that can make people ill when it is present in raw eggs.",
+        "ans": [
+         0
+        ],
+        "tip": "patho = bệnh → mầm bệnh.",
+        "why": "**pathogen** = mầm bệnh, vi sinh vật gây bệnh.",
+        "opts": [
+         "pathogen",
+         "disinfectant",
+         "hairnet"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Using the same knife for raw meat and for salad can cause ___.",
+        "ans": [
+         2
+        ],
+        "tip": "cross = chéo.",
+        "why": "**cross-contamination** = nhiễm chéo: vi sinh vật lây từ thực phẩm này sang thực phẩm khác.",
+        "opts": [
+         "food safety",
+         "sanitation",
+         "cross-contamination"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many people got ___ after eating at the street party, and several went to hospital.",
+        "ans": [
+         1
+        ],
+        "tip": "poison = độc.",
+        "why": "**food poisoning** = ngộ độc thực phẩm.",
+        "opts": [
+         "pest control",
+         "food poisoning",
+         "core temperature"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In HACCP, a ___ is a step where a problem can be prevented or removed.",
+        "ans": [
+         1
+        ],
+        "tip": "critical = then chốt.",
+        "why": "**critical control point** = điểm kiểm soát tới hạn, bước then chốt để ngăn chặn hoặc loại bỏ mối nguy.",
+        "opts": [
+         "foreign body",
+         "critical control point",
+         "danger zone"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers wear a hairnet and ___ to stop hair and dirt falling into the food.",
+        "ans": [
+         0
+        ],
+        "tip": "protect = bảo vệ.",
+        "why": "**protective clothing** = quần áo bảo hộ, cùng lưới trùm tóc giúp giữ thực phẩm sạch.",
+        "opts": [
+         "protective clothing",
+         "disinfectant",
+         "pesticide residue"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Bacteria multiply fastest in the ___, between about 5°C and 60°C.",
+        "ans": [
+         2
+        ],
+        "tip": "danger = nguy hiểm.",
+        "why": "**danger zone** = vùng nhiệt độ nguy hiểm, nơi vi khuẩn sinh sôi nhanh nhất.",
+        "opts": [
+         "core temperature",
+         "microbial count",
+         "danger zone"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Chicken is safe to eat only when its ___ reaches 75°C.",
+        "ans": [
+         2
+        ],
+        "tip": "core = lõi.",
+        "why": "**core temperature** = nhiệt độ lõi, tức nhiệt độ ở tâm miếng thịt.",
+        "opts": [
+         "microbial count",
+         "danger zone",
+         "core temperature"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After pieces of glass were found in the jam, the company announced a ___ of all the affected jars.",
+        "ans": [
+         0
+        ],
+        "tip": "re + call = gọi lại.",
+        "why": "**recall** = thu hồi sản phẩm lỗi khỏi thị trường.",
+        "opts": [
+         "recall",
+         "hazard",
+         "toxin"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hygiene",
+        "b": "the practice of keeping yourself and your surroundings clean to prevent illness",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "contamination",
+        "b": "the presence of harmful substances or microorganisms in food",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "toxin",
+        "b": "a poisonous substance produced by bacteria, plants or animals",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "outbreak",
+        "b": "a sudden increase in cases of a disease in one place",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "risk assessment",
+        "b": "the process of finding and judging possible dangers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "disinfectant",
+        "b": "a chemical that kills microorganisms on surfaces",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sterile",
+        "b": "completely free from living microorganisms",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pesticide residue",
+        "b": "the small amount of farm chemical that remains on a crop",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Food handlers ___ wash their hands before they start work.",
+        "ans": [
+         1
+        ],
+        "tip": "Quy định bắt buộc → must.",
+        "why": "Quy tắc bắt buộc về vệ sinh → **must**.",
+        "opts": [
+         "don't have to",
+         "must",
+         "might"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ touch ready-to-eat food with dirty hands.",
+        "ans": [
+         2
+        ],
+        "tip": "Cấm → mustn't.",
+        "why": "Bị cấm tuyệt đối → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "should",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The kitchen is spotless, so you ___ clean it again today.",
+        "ans": [
+         0
+        ],
+        "tip": "Không cần → don't have to.",
+        "why": "Đã sạch rồi nên *không cần* dọn lại → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Visitors ___ wear a hairnet in the production area; it is company policy.",
+        "ans": [
+         1
+        ],
+        "tip": "Chính sách công ty → have to.",
+        "why": "Quy định của công ty → **have to**.",
+        "opts": [
+         "don't have to",
+         "have to",
+         "might"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ keep raw meat on the bottom shelf of the fridge.",
+        "ans": [
+         2
+        ],
+        "tip": "Lời khuyên → should.",
+        "why": "Lời khuyên về cách làm tốt nhất → **should**.",
+        "opts": [
+         "mustn't",
+         "can't",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Employees with stomach problems ___ report to their supervisor before entering the plant.",
+        "ans": [
+         0
+        ],
+        "tip": "Bắt buộc → must.",
+        "why": "Quy định an toàn bắt buộc → **must**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All food handlers ___ wear clean uniforms. It is the rule.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ eat in the production area. It is forbidden.",
+        "ans": [
+         [
+          "mustn't",
+          "must not"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Tomorrow is a holiday, so we ___ come to the plant.",
+        "ans": [
+         [
+          "don't have to",
+          "do not have to",
+          "needn't",
+          "need not"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghỉ lễ = không cần đi làm → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Visitors ___ sign the book at the entrance.",
+        "ans": [
+         [
+          "have to",
+          "must"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **have to** (hoặc must)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ check the temperature of the fridge every morning. It is good practice.",
+        "ans": [
+         [
+          "should",
+          "ought to"
+         ]
+        ],
+        "tip": "",
+        "why": "Việc nên làm → **should**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Safety rules in a food factory",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "In a food factory, hygiene is not optional. Every worker must wash their hands before entering the production area, and everyone has to wear protective clothing and a hairnet. Visitors mustn't touch the equipment, and nobody should come to work with stomach problems because pathogens can spread quickly and cause food poisoning.\n\nMost factories use the HACCP system. First, managers carry out a risk assessment to find every hazard, for example contamination by bacteria, a toxin, or a foreign body such as glass. Then they choose critical control points, such as cooking the food until the core temperature is high enough. At each point, staff have to measure and record the results.\n\nCleaning is also strictly controlled. Surfaces must be sanitised with an approved disinfectant, and raw and cooked foods have to stay separate to avoid cross-contamination. If a serious problem happens, the company must recall the product.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Visitors are allowed to touch the equipment.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = bị cấm.",
+        "why": "Đoạn 1: 'Visitors mustn't touch the equipment'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Every worker must wash their hands before entering the production area.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'Every worker must wash their hands'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Raw and cooked foods can be stored together to save space.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: thực phẩm sống và chín phải **tách riêng** để tránh nhiễm chéo."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Staff have to measure and record the results at each critical control point.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'At each point, staff have to measure and record the results'."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why shouldn't workers with stomach problems come to work?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mầm bệnh có thể lây lan nhanh và gây ngộ độc thực phẩm.",
+        "opts": [
+         "They work more slowly",
+         "Pathogens can spread quickly",
+         "They need to wear a hairnet"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is an example of a hazard in the text?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mối nguy gồm vi khuẩn, độc tố hoặc dị vật như thủy tinh.",
+        "opts": [
+         "A hairnet",
+         "A foreign body such as glass",
+         "A disinfectant"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is an example of a critical control point?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nấu chín đến khi nhiệt độ lõi đủ cao là một điểm kiểm soát tới hạn.",
+        "opts": [
+         "Buying cheaper ingredients",
+         "Washing hands at home",
+         "Cooking food until the core temperature is high enough"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must a company do after a serious problem?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'the company must recall the product'.",
+        "opts": [
+         "Recall the product",
+         "Change the label",
+         "Stop using HACCP"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Quality Control & Regulations",
+   "name_vi": "Kiểm soát chất lượng & quy định",
+   "icon": "📋",
+   "hue": 262,
+   "words": [
+    {
+     "en": "quality control",
+     "vi": "kiểm soát chất lượng"
+    },
+    {
+     "en": "quality assurance",
+     "vi": "đảm bảo chất lượng"
+    },
+    {
+     "en": "specification",
+     "vi": "thông số kỹ thuật, tiêu chuẩn sản phẩm"
+    },
+    {
+     "en": "compliance",
+     "vi": "sự tuân thủ"
+    },
+    {
+     "en": "regulation",
+     "vi": "quy định, quy chuẩn"
+    },
+    {
+     "en": "food standard",
+     "vi": "tiêu chuẩn thực phẩm"
+    },
+    {
+     "en": "GMP",
+     "vi": "thực hành sản xuất tốt (Good Manufacturing Practice)"
+    },
+    {
+     "en": "ISO 22000",
+     "vi": "tiêu chuẩn ISO 22000 về quản lý an toàn thực phẩm"
+    },
+    {
+     "en": "Codex Alimentarius",
+     "vi": "bộ tiêu chuẩn thực phẩm quốc tế Codex"
+    },
+    {
+     "en": "certification",
+     "vi": "sự chứng nhận, chứng chỉ"
+    },
+    {
+     "en": "audit",
+     "vi": "đánh giá, kiểm toán"
+    },
+    {
+     "en": "inspector",
+     "vi": "thanh tra viên"
+    },
+    {
+     "en": "sampling",
+     "vi": "việc lấy mẫu"
+    },
+    {
+     "en": "laboratory test",
+     "vi": "xét nghiệm trong phòng thí nghiệm"
+    },
+    {
+     "en": "tolerance",
+     "vi": "dung sai, mức sai lệch cho phép"
+    },
+    {
+     "en": "calibration",
+     "vi": "hiệu chuẩn"
+    },
+    {
+     "en": "batch code",
+     "vi": "mã lô"
+    },
+    {
+     "en": "labelling",
+     "vi": "việc ghi nhãn"
+    },
+    {
+     "en": "ingredient list",
+     "vi": "danh sách thành phần"
+    },
+    {
+     "en": "allergen warning",
+     "vi": "cảnh báo chất gây dị ứng"
+    },
+    {
+     "en": "health claim",
+     "vi": "tuyên bố về lợi ích sức khỏe"
+    },
+    {
+     "en": "misleading",
+     "vi": "gây hiểu nhầm"
+    },
+    {
+     "en": "maximum limit",
+     "vi": "mức giới hạn tối đa"
+    },
+    {
+     "en": "non-conformity",
+     "vi": "sự không phù hợp (không đạt yêu cầu)"
+    },
+    {
+     "en": "corrective action",
+     "vi": "hành động khắc phục"
+    },
+    {
+     "en": "SOP",
+     "vi": "quy trình vận hành chuẩn"
+    },
+    {
+     "en": "record-keeping",
+     "vi": "việc lưu hồ sơ"
+    },
+    {
+     "en": "licence",
+     "vi": "giấy phép"
+    },
+    {
+     "en": "penalty",
+     "vi": "hình phạt, tiền phạt"
+    },
+    {
+     "en": "import permit",
+     "vi": "giấy phép nhập khẩu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ for this biscuit says that the sugar content must be below 10%.",
+        "ans": [
+         1
+        ],
+        "tip": "specific = cụ thể.",
+        "why": "**specification** = thông số kỹ thuật, mô tả yêu cầu của sản phẩm.",
+        "opts": [
+         "penalty",
+         "specification",
+         "tolerance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An independent inspector will carry out an ___ of our factory next week.",
+        "ans": [
+         2
+        ],
+        "tip": "audit = đánh giá độc lập.",
+        "why": "**audit** = đánh giá/kiểm toán xem nhà máy có tuân thủ yêu cầu không.",
+        "opts": [
+         "import permit",
+         "allergen warning",
+         "audit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company showed full ___ with food regulations, so it passed the inspection.",
+        "ans": [
+         0
+        ],
+        "tip": "comply = tuân theo.",
+        "why": "**compliance** = sự tuân thủ quy định.",
+        "opts": [
+         "compliance",
+         "sampling",
+         "certification"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Quality inspectors use ___ to test a small part of each batch instead of testing everything.",
+        "ans": [
+         2
+        ],
+        "tip": "sample = mẫu.",
+        "why": "**sampling** = lấy mẫu, kiểm tra một phần nhỏ đại diện cho cả lô.",
+        "opts": [
+         "calibration",
+         "record-keeping",
+         "sampling"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Clear ___ helps consumers see exactly what is in the food they buy.",
+        "ans": [
+         1
+        ],
+        "tip": "label = nhãn.",
+        "why": "**labelling** = việc ghi nhãn thực phẩm.",
+        "opts": [
+         "penalty",
+         "labelling",
+         "tolerance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Phrases such as 'cures all illnesses' are ___ and are not allowed on food packages.",
+        "ans": [
+         0
+        ],
+        "tip": "mislead = dẫn đến hiểu sai.",
+        "why": "**misleading** = gây hiểu nhầm; lời quảng cáo sai sự thật bị cấm.",
+        "opts": [
+         "misleading",
+         "certified",
+         "calibrated"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When a product does not meet the standard, the factory must take ___ to fix the problem.",
+        "ans": [
+         1
+        ],
+        "tip": "correct = sửa cho đúng.",
+        "why": "**corrective action** = hành động khắc phục.",
+        "opts": [
+         "record-keeping",
+         "corrective action",
+         "sampling"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Companies that break the rules may have to pay a heavy ___.",
+        "ans": [
+         2
+        ],
+        "tip": "penalty = tiền phạt.",
+        "why": "**penalty** = hình phạt, tiền phạt khi vi phạm quy định.",
+        "opts": [
+         "specification",
+         "tolerance",
+         "penalty"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "quality assurance",
+        "b": "planned activities that make sure a product meets the required standard",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "certification",
+        "b": "official proof that a product or company meets a standard",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "GMP",
+        "b": "a set of rules for producing food safely and consistently",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "batch code",
+        "b": "a number printed on a package to show when and where it was made",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "SOP",
+        "b": "a written set of step-by-step instructions for a routine task",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "maximum limit",
+        "b": "the highest amount of a substance that the law allows",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "non-conformity",
+        "b": "a failure to meet a requirement or standard",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "calibration",
+        "b": "adjusting a measuring instrument so that its readings are accurate",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the audit ___ no problems, we will receive the certificate.",
+        "ans": [
+         0
+        ],
+        "tip": "Loại 1: If + hiện tại đơn.",
+        "why": "Loại 1, mệnh đề If dùng hiện tại đơn, chủ ngữ số ít: **finds**.",
+        "opts": [
+         "finds",
+         "will find",
+         "found"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we ___ more staff, we would test every batch.",
+        "ans": [
+         0
+        ],
+        "tip": "Loại 2: If + quá khứ.",
+        "why": "Loại 2 (giả định không có thật), mệnh đề If dùng quá khứ: **had**.",
+        "opts": [
+         "had",
+         "have",
+         "would have"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The inspector will close the factory if it ___ the hygiene rules again.",
+        "ans": [
+         2
+        ],
+        "tip": "Loại 1: If + hiện tại.",
+        "why": "Loại 1 → mệnh đề If dùng hiện tại đơn: **breaks**.",
+        "opts": [
+         "will break",
+         "broke",
+         "breaks"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were the quality manager, I ___ a new laboratory.",
+        "ans": [
+         1
+        ],
+        "tip": "If + were → would + V.",
+        "why": "Loại 2 → mệnh đề chính dùng would + V: **would build**.",
+        "opts": [
+         "will build",
+         "would build",
+         "build"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If a product fails the test, the company ___ it from sale.",
+        "ans": [
+         2
+        ],
+        "tip": "Có khả năng xảy ra → loại 1.",
+        "why": "Tình huống có thể xảy ra thật → loại 1: **will withdraw**.",
+        "opts": [
+         "would withdraw",
+         "withdrew",
+         "will withdraw"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would happen if the machine ___ out of calibration?",
+        "ans": [
+         0
+        ],
+        "tip": "would + ... if + quá khứ.",
+        "why": "Câu hỏi giả định loại 2 → mệnh đề If dùng quá khứ: **went**.",
+        "opts": [
+         "went",
+         "goes",
+         "will go"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the word in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the sample ___ (pass) the test, we will release the batch.",
+        "ans": [
+         [
+          "passes"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **passes**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (have) a bigger budget, we would buy new equipment.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2, mệnh đề If dùng quá khứ: **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company will lose its licence if it ___ (ignore) the regulations.",
+        "ans": [
+         [
+          "ignores"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **ignores**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) you, I would check the labels again.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2 với 'If I ...' thường dùng **were** (was cũng được)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If inspectors ___ (find) a problem, they will write a report.",
+        "ans": [
+         [
+          "find"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số nhiều: **find**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a food company stays legal",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Before a factory can sell food, it has to meet the law. Each country sets regulations, and companies need a licence from the authorities. If a company wants to export, it will also need an import permit for the destination country. Many customers ask for certification, for example ISO 22000, to prove that the company follows good standards.\n\nQuality control starts with a clear specification: the colour, taste and maximum limit for each ingredient. Technicians use sampling to take small samples from each batch and test them in the laboratory. All results go into records, and every pack has a batch code so that problems can be traced.\n\nIf an audit finds a non-conformity, the company must take corrective action quickly. If it ignores the problem, it could pay a heavy penalty or lose its licence. Managers say that if everyone followed the SOP, there would be fewer mistakes.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A company needs a licence before it can sell food.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'companies need a licence from the authorities'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Technicians test samples in a laboratory.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: họ lấy mẫu nhỏ từ mỗi lô và kiểm tra trong phòng thí nghiệm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "ISO 22000 is a type of import permit.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: **ISO 22000** là một chứng nhận (certification), không phải giấy phép nhập khẩu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A company can ignore a non-conformity without any risk.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu phớt lờ, công ty có thể bị phạt nặng hoặc mất giấy phép."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a company need to export food?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cần giấy phép nhập khẩu của nước đến.",
+        "opts": [
+         "A new factory",
+         "An import permit for the destination country",
+         "A health claim"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a specification?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: specification nêu rõ màu sắc, hương vị và mức giới hạn tối đa của từng thành phần.",
+        "opts": [
+         "A description of the colour, taste and limits for a product",
+         "A type of laboratory test",
+         "A penalty for mistakes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does every pack have a batch code?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mã lô giúp truy vết khi có sự cố.",
+        "opts": [
+         "So that customers can see the price",
+         "So that problems can be traced",
+         "So that the food lasts longer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should the company do if an audit finds a non-conformity?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: công ty phải nhanh chóng thực hiện hành động khắc phục.",
+        "opts": [
+         "Wait for the next audit",
+         "Change the batch code",
+         "Take corrective action quickly"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Product Development & Sensory Evaluation",
+   "name_vi": "Phát triển sản phẩm & đánh giá cảm quan",
+   "icon": "🍪",
+   "hue": 45,
+   "words": [
+    {
+     "en": "product development",
+     "vi": "phát triển sản phẩm"
+    },
+    {
+     "en": "prototype",
+     "vi": "mẫu thử, bản mẫu"
+    },
+    {
+     "en": "formulation",
+     "vi": "công thức (thành phần và tỷ lệ)"
+    },
+    {
+     "en": "pilot plant",
+     "vi": "nhà máy thử nghiệm quy mô nhỏ"
+    },
+    {
+     "en": "scale-up",
+     "vi": "mở rộng quy mô sản xuất"
+    },
+    {
+     "en": "trial",
+     "vi": "đợt thử nghiệm"
+    },
+    {
+     "en": "market research",
+     "vi": "nghiên cứu thị trường"
+    },
+    {
+     "en": "target consumer",
+     "vi": "người tiêu dùng mục tiêu"
+    },
+    {
+     "en": "consumer preference",
+     "vi": "sở thích của người tiêu dùng"
+    },
+    {
+     "en": "sensory evaluation",
+     "vi": "đánh giá cảm quan"
+    },
+    {
+     "en": "taste panel",
+     "vi": "hội đồng nếm thử"
+    },
+    {
+     "en": "aroma",
+     "vi": "mùi thơm"
+    },
+    {
+     "en": "appearance",
+     "vi": "vẻ ngoài, hình thức"
+    },
+    {
+     "en": "mouthfeel",
+     "vi": "cảm giác khi ăn trong miệng"
+    },
+    {
+     "en": "aftertaste",
+     "vi": "hậu vị"
+    },
+    {
+     "en": "bitter",
+     "vi": "đắng"
+    },
+    {
+     "en": "sweetener",
+     "vi": "chất tạo ngọt"
+    },
+    {
+     "en": "low-fat",
+     "vi": "ít béo"
+    },
+    {
+     "en": "gluten-free",
+     "vi": "không chứa gluten"
+    },
+    {
+     "en": "plant-based",
+     "vi": "có nguồn gốc thực vật"
+    },
+    {
+     "en": "vegan",
+     "vi": "thuần chay"
+    },
+    {
+     "en": "functional food",
+     "vi": "thực phẩm chức năng"
+    },
+    {
+     "en": "clean label",
+     "vi": "nhãn sạch (thành phần ngắn, tự nhiên)"
+    },
+    {
+     "en": "reformulate",
+     "vi": "điều chỉnh lại công thức"
+    },
+    {
+     "en": "feedback",
+     "vi": "phản hồi, góp ý"
+    },
+    {
+     "en": "launch",
+     "vi": "ra mắt (sản phẩm)"
+    },
+    {
+     "en": "unique selling point",
+     "vi": "điểm bán hàng độc đáo (USP)"
+    },
+    {
+     "en": "profit margin",
+     "vi": "biên lợi nhuận"
+    },
+    {
+     "en": "shelf appeal",
+     "vi": "sức hút của sản phẩm trên kệ"
+    },
+    {
+     "en": "trend",
+     "vi": "xu hướng"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ thực phẩm phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before mass production, the team made a small ___ to test the idea.",
+        "ans": [
+         2
+        ],
+        "tip": "proto = đầu tiên → bản mẫu.",
+        "why": "**prototype** = mẫu thử đầu tiên để kiểm tra ý tưởng.",
+        "opts": [
+         "launch",
+         "trend",
+         "prototype"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The technologist changed the ___ by replacing sugar with a natural sweetener.",
+        "ans": [
+         1
+        ],
+        "tip": "formula = công thức.",
+        "why": "**formulation** = công thức, tức thành phần và tỷ lệ của sản phẩm.",
+        "opts": [
+         "appearance",
+         "formulation",
+         "aftertaste"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before building a big factory, the company tested the process in a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "pilot = thí điểm.",
+        "why": "**pilot plant** = nhà máy thử nghiệm quy mô nhỏ.",
+        "opts": [
+         "pilot plant",
+         "taste panel",
+         "profit margin"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A trained ___ tastes and scores new products.",
+        "ans": [
+         1
+        ],
+        "tip": "panel = nhóm đánh giá.",
+        "why": "**taste panel** = hội đồng nếm thử gồm người được huấn luyện để chấm điểm sản phẩm.",
+        "opts": [
+         "functional food",
+         "taste panel",
+         "clean label"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the chocolate is smooth and creamy, which is why people love it.",
+        "ans": [
+         2
+        ],
+        "tip": "mouth + feel.",
+        "why": "**mouthfeel** = cảm giác trong miệng (mịn, béo, giòn...).",
+        "opts": [
+         "aroma",
+         "appearance",
+         "mouthfeel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The coffee has a strong ___ of roasted nuts that you can smell from the next room.",
+        "ans": [
+         0
+        ],
+        "tip": "Ngửi thấy → aroma.",
+        "why": "**aroma** = mùi thơm; thứ ta ngửi được.",
+        "opts": [
+         "aroma",
+         "aftertaste",
+         "mouthfeel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sales were low because the product had no ___: it looked and tasted like all the others.",
+        "ans": [
+         1
+        ],
+        "tip": "unique = độc nhất.",
+        "why": "**unique selling point (USP)** = điểm khác biệt khiến sản phẩm nổi bật.",
+        "opts": [
+         "profit margin",
+         "unique selling point",
+         "market research"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Foods with added vitamins that give extra health benefits are called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "function = chức năng.",
+        "why": "**functional foods** = thực phẩm chức năng, ngoài dinh dưỡng còn có lợi ích sức khỏe.",
+        "opts": [
+         "functional foods",
+         "sweeteners",
+         "prototypes"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "market research",
+        "b": "collecting information about what customers want",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "target consumer",
+        "b": "the group of people a product is designed for",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "scale-up",
+        "b": "increasing production from a small test size to factory size",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "aftertaste",
+        "b": "the taste that stays in your mouth after you swallow",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "plant-based",
+        "b": "made mainly or entirely from vegetables, grains, nuts or fruit",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "reformulate",
+        "b": "to change the recipe of an existing product",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "clean label",
+        "b": "a product with a short, simple list of natural ingredients",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "profit margin",
+        "b": "the difference between the cost of making a product and its selling price",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ the first prototype last month.",
+        "ans": [
+         2
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' = thời điểm xác định trong quá khứ → **made**.",
+        "opts": [
+         "have made",
+         "have been making",
+         "made"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The team ___ three new flavours so far this year.",
+        "ans": [
+         0
+        ],
+        "tip": "so far → hiện tại hoàn thành.",
+        "why": "'so far this year' = tính đến hiện tại → **has developed**.",
+        "opts": [
+         "has developed",
+         "developed",
+         "develops"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sales ___ since we launched the vegan range.",
+        "ans": [
+         1
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since...' → hiện tại hoàn thành: **have grown**.",
+        "opts": [
+         "grew",
+         "have grown",
+         "were growing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When ___ the company launch the new snack?",
+        "ans": [
+         2
+        ],
+        "tip": "When → quá khứ đơn.",
+        "why": "Hỏi 'When' về thời điểm đã qua → **did** + V.",
+        "opts": [
+         "has",
+         "does",
+         "did"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I ___ such a bitter chocolate in my life.",
+        "ans": [
+         0
+        ],
+        "tip": "in my life → kinh nghiệm.",
+        "why": "Kinh nghiệm cho đến nay → **have never tasted**.",
+        "opts": [
+         "have never tasted",
+         "never tasted",
+         "did never taste"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The panel ___ the samples yesterday and gave them a score.",
+        "ans": [
+         1
+        ],
+        "tip": "yesterday → quá khứ đơn.",
+        "why": "'yesterday' → quá khứ đơn: **tasted**.",
+        "opts": [
+         "has tasted",
+         "tasted",
+         "have tasted"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company ___ (launch) its first plant-based burger last year.",
+        "ans": [
+         [
+          "launched"
+         ]
+        ],
+        "tip": "",
+        "why": "'last year' → quá khứ đơn: **launched**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (already / finish) the market research.",
+        "ans": [
+         [
+          "have already finished",
+          "'ve already finished"
+         ]
+        ],
+        "tip": "",
+        "why": "'already' → hiện tại hoàn thành: **have already finished**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "How many people ___ (taste) the new recipe so far?",
+        "ans": [
+         [
+          "have tasted"
+         ]
+        ],
+        "tip": "",
+        "why": "'so far' → hiện tại hoàn thành: **have tasted**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The team ___ (not / reformulate) the biscuit yet.",
+        "ans": [
+         [
+          "has not reformulated",
+          "hasn't reformulated"
+         ]
+        ],
+        "tip": "",
+        "why": "'yet' → hiện tại hoàn thành phủ định: **hasn't reformulated**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last week, the panel ___ (give) the new yoghurt a high score.",
+        "ans": [
+         [
+          "gave"
+         ]
+        ],
+        "tip": "give → gave.",
+        "why": "'Last week' → quá khứ đơn: **gave**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From idea to supermarket shelf",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every new food starts with an idea. Last year, a small company decided to make a plant-based snack. First, the team did market research to understand the target consumer. They found that many young people want a low-fat, gluten-free snack with a clean label.\n\nNext, technologists developed several prototypes and changed the formulation many times. A taste panel tested each version and scored the appearance, aroma, mouthfeel and aftertaste. The panel said the first version was too bitter, so the team reformulated it with a natural sweetener.\n\nAfter that, the company ran a trial in a pilot plant to check the scale-up. It has now launched the snack in 200 shops. The product has a unique selling point: it is the only plant-based snack with no added sugar. Managers hope the profit margin will stay healthy.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The company made the snack before doing market research.",
+        "ans": [
+         1
+        ],
+        "tip": "First ≠ After.",
+        "why": "Đoạn 1: 'First, the team did market research' — nghiên cứu thị trường làm **trước**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The first version of the snack was too sweet.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phiên bản đầu **quá đắng** (too bitter), nên nhóm dùng chất tạo ngọt tự nhiên."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The panel scored the aroma and aftertaste of each version.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hội đồng chấm điểm hình thức, mùi thơm, cảm giác trong miệng và hậu vị."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The snack has now been launched in 200 shops.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'It has now launched the snack in 200 shops'."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did the team do market research?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: để hiểu người tiêu dùng mục tiêu.",
+        "opts": [
+         "To lower the profit margin",
+         "To build a pilot plant",
+         "To understand the target consumer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did the team reformulate the first version?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phiên bản đầu quá đắng.",
+        "opts": [
+         "Because it was too bitter",
+         "Because it was too expensive",
+         "Because it had no aroma"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the company do in the pilot plant?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chạy thử trong nhà máy thử nghiệm để kiểm tra việc mở rộng quy mô.",
+        "opts": [
+         "It tasted the snack",
+         "It checked the scale-up",
+         "It printed the labels"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the unique selling point of the snack?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đây là món ăn vặt thực vật duy nhất không thêm đường.",
+        "opts": [
+         "It is the cheapest snack in the shop",
+         "It is made by a large company",
+         "It is the only plant-based snack with no added sugar"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "breakfast",
+   "bữa sáng"
+  ],
+  [
+   "porridge",
+   "cháo yến mạch"
+  ],
+  [
+   "oat",
+   "yến mạch"
+  ],
+  [
+   "muscle",
+   "cơ bắp"
+  ],
+  [
+   "bone",
+   "xương"
+  ],
+  [
+   "calcium",
+   "canxi"
+  ],
+  [
+   "portion",
+   "khẩu phần"
+  ],
+  [
+   "sugar",
+   "đường"
+  ],
+  [
+   "energy",
+   "năng lượng"
+  ],
+  [
+   "digestion",
+   "sự tiêu hóa"
+  ],
+  [
+   "sour",
+   "chua"
+  ],
+  [
+   "lemon",
+   "chanh"
+  ],
+  [
+   "yeast",
+   "men (nấm men)"
+  ],
+  [
+   "dough",
+   "bột nhào"
+  ],
+  [
+   "label",
+   "nhãn"
+  ],
+  [
+   "scientist",
+   "nhà khoa học"
+  ],
+  [
+   "technician",
+   "kỹ thuật viên"
+  ],
+  [
+   "measure",
+   "đo lường"
+  ],
+  [
+   "peanut",
+   "đậu phộng"
+  ],
+  [
+   "contain",
+   "chứa"
+  ],
+  [
+   "wheat",
+   "lúa mì"
+  ],
+  [
+   "bakery",
+   "tiệm bánh"
+  ],
+  [
+   "oven",
+   "lò nướng"
+  ],
+  [
+   "bran",
+   "cám"
+  ],
+  [
+   "biscuit",
+   "bánh quy"
+  ],
+  [
+   "loaf",
+   "ổ bánh mì"
+  ],
+  [
+   "powder",
+   "bột mịn"
+  ],
+  [
+   "leftover",
+   "còn thừa"
+  ],
+  [
+   "cream",
+   "kem sữa"
+  ],
+  [
+   "farmer",
+   "nông dân"
+  ],
+  [
+   "consistent",
+   "đồng đều, nhất quán"
+  ],
+  [
+   "identical",
+   "giống hệt nhau"
+  ],
+  [
+   "steam",
+   "hấp"
+  ],
+  [
+   "salt",
+   "muối"
+  ],
+  [
+   "cheese",
+   "phô mai"
+  ],
+  [
+   "fridge",
+   "tủ lạnh"
+  ],
+  [
+   "jar",
+   "lọ, hũ"
+  ],
+  [
+   "lid",
+   "nắp"
+  ],
+  [
+   "cucumber",
+   "dưa leo"
+  ],
+  [
+   "fresh",
+   "tươi"
+  ],
+  [
+   "butter",
+   "bơ"
+  ],
+  [
+   "instant",
+   "ăn liền, pha ngay"
+  ],
+  [
+   "oxygen",
+   "oxy"
+  ],
+  [
+   "film",
+   "màng mỏng"
+  ],
+  [
+   "weight",
+   "trọng lượng"
+  ],
+  [
+   "destroy",
+   "tiêu diệt, phá hủy"
+  ],
+  [
+   "glass",
+   "thủy tinh"
+  ],
+  [
+   "hospital",
+   "bệnh viện"
+  ],
+  [
+   "raw",
+   "sống (chưa nấu)"
+  ],
+  [
+   "chicken",
+   "thịt gà"
+  ],
+  [
+   "knife",
+   "con dao"
+  ],
+  [
+   "uniform",
+   "đồng phục"
+  ],
+  [
+   "surface",
+   "bề mặt"
+  ],
+  [
+   "wash",
+   "rửa"
+  ],
+  [
+   "visitor",
+   "khách tham quan"
+  ],
+  [
+   "supervisor",
+   "người giám sát"
+  ],
+  [
+   "worker",
+   "công nhân"
+  ],
+  [
+   "dirt",
+   "bụi bẩn"
+  ],
+  [
+   "spread",
+   "lây lan"
+  ],
+  [
+   "stomach",
+   "dạ dày"
+  ],
+  [
+   "strictly",
+   "một cách nghiêm ngặt"
+  ],
+  [
+   "forbidden",
+   "bị cấm"
+  ],
+  [
+   "policy",
+   "chính sách"
+  ],
+  [
+   "entrance",
+   "lối vào"
+  ],
+  [
+   "law",
+   "luật"
+  ],
+  [
+   "authorities",
+   "cơ quan chức năng"
+  ],
+  [
+   "export",
+   "xuất khẩu"
+  ],
+  [
+   "destination",
+   "nơi đến"
+  ],
+  [
+   "budget",
+   "ngân sách"
+  ],
+  [
+   "result",
+   "kết quả"
+  ],
+  [
+   "ignore",
+   "phớt lờ, bỏ qua"
+  ],
+  [
+   "fail",
+   "không đạt"
+  ],
+  [
+   "mistake",
+   "sai sót"
+  ],
+  [
+   "inspection",
+   "cuộc kiểm tra"
+  ],
+  [
+   "independent",
+   "độc lập"
+  ],
+  [
+   "snack",
+   "đồ ăn vặt"
+  ],
+  [
+   "chocolate",
+   "sô-cô-la"
+  ],
+  [
+   "version",
+   "phiên bản"
+  ],
+  [
+   "sales",
+   "doanh số"
+  ],
+  [
+   "coffee",
+   "cà phê"
+  ],
+  [
+   "young",
+   "trẻ"
+  ],
+  [
+   "score",
+   "chấm điểm; điểm số"
+  ],
+  [
+   "smooth",
+   "mịn"
+  ],
+  [
+   "creamy",
+   "béo mịn như kem"
+  ],
+  [
+   "shop",
+   "cửa hàng"
+  ]
+ ]
+}
