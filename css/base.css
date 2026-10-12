@@ -190,32 +190,7 @@ header.top {
   display: flex;
   flex-direction: column;
   /* Đưa dòng phụ xuống hẳn bên dưới */
-
-
-  justify-content: center;
-  font-weight: 700;
 }
-
-.brand-sub {
-  font-size: 0.72rem;
-  /* Kích thước chữ nhỏ vừa vặn */
-  font-weight: 400;
-  /* Nét chữ mảnh hơn để tạo độ tương phản */
-  color: rgba(255, 255, 255, 0.8);
-  /* Màu trắng hơi mờ nhẹ cho tinh tế */
-  letter-spacing: 0.5px;
-  /* Mở rộng khoảng cách chữ nhẹ */
-  margin-top: 2px;
-}
-
-
-
-
-
-
-
-
-
 
 .brand-mark {
   display: grid;
