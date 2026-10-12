@@ -1,6 +1,7 @@
-import { $, $$, esc, confirmBox, slugify } from "../../utils.js";
+import { $, $$, esc, confirmBox, notice, slugify } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, act, dialogForm, moveItem } from "./ui.js";
+import { guardField } from "./guard.js";
 
 export async function viewAdminFields() {
   const body = shell("fields", "Quản lý ngành nghề", '<button class="btn" id="add">+ Thêm ngành</button>');
@@ -29,7 +30,9 @@ export async function viewAdminFields() {
     await load();
   };
   const del = async (f) => {
-    if (!(await confirmBox(`Xóa ngành "${f.name}"? Toàn bộ unit, từ vựng, bài tập và tiến độ học thuộc ngành này sẽ bị xóa vĩnh viễn.`))) return;
+    const msg = await guardField(f);
+    if (msg) return notice(msg);
+    if (!(await confirmBox(`Xóa ngành "${f.name}"?`))) return;
     if (await act(() => api.deleteRow("fields", f.id), "Đã xóa ngành")) load();
   };
   const edit = (f) => {

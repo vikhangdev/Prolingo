@@ -75,6 +75,8 @@ create trigger guard_profile_update
   for each row execute function public.guard_profile_update();
 
 -- ---------- 2. NỘI DUNG: NGÀNH → UNIT → TỪ VỰNG / BÀI TẬP → CÂU HỎI ----------
+-- Quy tắc xóa: ON DELETE RESTRICT — không xóa được cha khi còn con (phải xóa từ dưới lên).
+-- Riêng bảng tiến độ (progress/scores) vẫn CASCADE: xóa câu hỏi/từ thì tiến độ liên quan tự mất.
 create table if not exists public.fields (
   id           uuid primary key default gen_random_uuid(),
   slug         text not null unique,
@@ -90,7 +92,7 @@ create table if not exists public.fields (
 
 create table if not exists public.units (
   id           uuid primary key default gen_random_uuid(),
-  field_id     uuid not null references public.fields (id) on delete cascade,
+  field_id     uuid not null references public.fields (id) on delete restrict,
   name         text not null,
   name_vi      text not null default '',
   icon         text not null default '📖',
@@ -103,7 +105,7 @@ create index if not exists units_field_idx on public.units (field_id, sort_order
 
 create table if not exists public.words (
   id         uuid primary key default gen_random_uuid(),
-  unit_id    uuid not null references public.units (id) on delete cascade,
+  unit_id    uuid not null references public.units (id) on delete restrict,
   en         text not null,
   vi         text not null,
   sort_order int  not null default 0,
@@ -120,7 +122,7 @@ create table if not exists public.glossary (
 
 create table if not exists public.exercises (
   id             uuid primary key default gen_random_uuid(),
-  unit_id        uuid not null references public.units (id) on delete cascade,
+  unit_id        uuid not null references public.units (id) on delete restrict,
   section        text not null check (section in ('vocab', 'lang', 'read')),
   kind           text not null default 'quiz' check (kind in ('quiz', 'match')),
   title          text not null,
@@ -135,7 +137,7 @@ create index if not exists exercises_unit_idx on public.exercises (unit_id, sect
 
 create table if not exists public.questions (
   id          uuid primary key default gen_random_uuid(),
-  exercise_id uuid not null references public.exercises (id) on delete cascade,
+  exercise_id uuid not null references public.exercises (id) on delete restrict,
   kind        text not null check (kind in ('mc', 'tf', 'ms', 'fl', 'pair')),
   content     jsonb not null,
   sort_order  int  not null default 0,

@@ -1,6 +1,7 @@
-import { $, $$, esc, confirmBox } from "../../utils.js";
+import { $, $$, esc, confirmBox, notice } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, scopeFilters, act, dialogForm, moveItem } from "./ui.js";
+import { guardUnit } from "./guard.js";
 
 export async function viewAdminUnits() {
   const body = shell("units", "Quản lý Unit trong ngành", '<button class="btn" id="add">+ Thêm unit</button>');
@@ -33,7 +34,9 @@ export async function viewAdminUnits() {
     await load();
   };
   const del = async (u) => {
-    if (!(await confirmBox(`Xóa unit "${u.name}"? Từ vựng, bài tập và tiến độ của unit này sẽ bị xóa vĩnh viễn.`))) return;
+    const msg = await guardUnit(u);
+    if (msg) return notice(msg);
+    if (!(await confirmBox(`Xóa unit "${u.name}"?`))) return;
     if (await act(() => api.deleteRow("units", u.id), "Đã xóa unit")) load();
   };
   const edit = (u) => {

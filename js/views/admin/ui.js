@@ -5,7 +5,7 @@ import { app, setCrumbs, theme } from "../shared.js";
 
 const NAV = [
   ["", "📊", "Tổng quan"], ["fields", "🗂️", "Ngành"], ["units", "📘", "Unit"],
-  ["words", "🔤", "Từ vựng"], ["exercises", "📝", "Bài tập & bài đọc"], ["users", "👥", "Người dùng"], ["data", "💾", "Nhập / xuất dữ liệu"],
+  ["words", "🔤", "Từ vựng"], ["exercises", "📝", "Bài tập & bài đọc"], ["users", "👥", "Người dùng"], ["data", "💾", "Quản lý dữ liệu"],
 ];
 
 export function shell(active, title, actions = "") {
@@ -23,6 +23,7 @@ const saveScope = (s) => { try { sessionStorage.setItem(SS, JSON.stringify(s)); 
 export async function scopeFilters(needUnit, onChange) {
   const fields = await api.listFields();
   const box = $("#adm-filters");
+  if (!box) return null; // trang đã chuyển sang màn hình khác trong lúc đang tải
   if (!fields.length) {
     box.innerHTML = `<div class="empty-state"><div class="big">🗂️</div><h3>Chưa có ngành nào</h3><p>Hãy <a href="#/admin/fields">tạo ngành</a> hoặc <a href="#/admin/data">nạp dữ liệu mẫu</a> trước.</p></div>`;
     return null;

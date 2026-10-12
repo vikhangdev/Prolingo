@@ -1,6 +1,7 @@
-import { $, $$, esc, confirmBox, SECTIONS } from "../../utils.js";
+import { $, $$, esc, confirmBox, notice, SECTIONS } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, scopeFilters, act, dialogForm, moveItem } from "./ui.js";
+import { guardExercise } from "./guard.js";
 
 const KIND_LABEL = { mc: "Trắc nghiệm", tf: "Đúng/Sai", ms: "Chọn nhiều", fl: "Điền từ", pair: "Cặp nối" };
 const SEC3 = ["vocab", "lang", "read"];
@@ -40,14 +41,16 @@ export async function viewAdminExercises() {
     $$("[data-eex]", body).forEach((b) => (b.onclick = () => editExercise(exOf(b.dataset.eex))));
     $$("[data-dex]", body).forEach((b) => (b.onclick = async () => {
       const e = exOf(b.dataset.dex);
-      if (!(await confirmBox(`Xóa bài "${e.title}" cùng ${e.questions.length} câu hỏi?`))) return;
+      const msg = await guardExercise(e);
+      if (msg) return notice(msg);
+      if (!(await confirmBox(`Xóa bài "${e.title}"?`))) return;
       if (await act(() => api.deleteRow("exercises", e.id), "Đã xóa bài tập")) load();
     }));
     $$("[data-aq]", body).forEach((b) => (b.onclick = () => editQuestion(exOf(b.dataset.aq), null)));
     $$("[data-jq]", body).forEach((b) => (b.onclick = () => jsonQuestions(exOf(b.dataset.jq))));
     $$("[data-eq]", body).forEach((b) => (b.onclick = () => { const [e, q] = qOf(b.dataset.eq); editQuestion(e, q); }));
     $$("[data-dq]", body).forEach((b) => (b.onclick = async () => {
-      if (!(await confirmBox("Xóa câu hỏi này?"))) return;
+      if (!(await confirmBox("Xóa câu hỏi này? Tiến độ học liên quan cũng bị xóa."))) return;
       if (await act(() => api.deleteRow("questions", b.dataset.dq), "Đã xóa câu hỏi")) load();
     }));
     const reorderEx = (id, d) => async () => {
