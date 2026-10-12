@@ -3,7 +3,7 @@
    ============================================================ */
 .adm {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 210px minmax(0, 1fr);
   gap: 26px;
   align-items: start;
 }
@@ -97,7 +97,7 @@
 
 .dtable th {
   text-align: left;
-  background: #99bbfa;
+  background: var(--priSoft);
   color: var(--pri);
   font-size: 12.5px;
   padding: 9px 12px;
@@ -347,4 +347,256 @@
     grid-column: 1 / -1;
     text-align: left;
   }
+}
+
+/* ---------- Quản lý dữ liệu: cây xóa Ngành › Unit › Bài tập ---------- */
+.dz-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.dz-bar .sp,
+.dz-tree .sp {
+  flex: 1;
+  min-width: 140px;
+}
+
+.dz-tree {
+  display: grid;
+  gap: 14px;
+  margin: 14px 0 10px;
+}
+
+.dz-n {
+  font-size: 12px;
+  color: var(--mute);
+  background: color-mix(in srgb, var(--mute) 12%, var(--card));
+  border-radius: 99px;
+  padding: 1px 10px;
+  white-space: nowrap;
+}
+
+/* cấp 1: ngành = thẻ lớn có dải màu */
+.dz-field {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-left: 6px solid hsl(var(--fh) 52% 38%);
+  border-radius: 12px;
+  box-shadow: var(--sh);
+}
+
+.dz-fhead,
+.dz-uhead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.dz-fhead {
+  padding: 8px 14px 8px 6px;
+}
+
+.dz-fname {
+  display: block;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.dz-tile {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 22px;
+  background: hsl(var(--fh) 60% 93%);
+  flex: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .dz-tile {
+    background: hsl(var(--fh) 30% 22%);
+  }
+}
+
+/* nút bật/tắt nhánh */
+.dz-tg {
+  flex: 1;
+  min-width: 220px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  background: none;
+  border: 0;
+  text-align: left;
+  padding: 6px 10px;
+  border-radius: 10px;
+  color: inherit;
+}
+
+.dz-tg:hover {
+  background: var(--priSoft);
+}
+
+.chev {
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid var(--mute);
+  border-bottom: 2px solid var(--mute);
+  transform: rotate(-45deg);
+  transition: transform .12s;
+  margin-right: 4px;
+  flex: none;
+}
+
+[aria-expanded="true"]>.chev {
+  transform: rotate(45deg);
+}
+
+/* cấp 2: unit lùi vào, có đường nối dọc */
+.dz-kids {
+  margin: 0 14px 14px 30px;
+  padding-left: 14px;
+  border-left: 2px solid var(--line);
+}
+
+.dz-unit {
+  margin-top: 4px;
+}
+
+.dz-uhead {
+  padding: 1px 6px 1px 0;
+  border-radius: 10px;
+}
+
+.dz-unit.open>.dz-uhead {
+  background: var(--priSoft);
+}
+
+.dz-tag {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .3px;
+  border-radius: 6px;
+  padding: 1px 9px;
+  background: var(--tc, var(--pri));
+  color: #fff;
+  white-space: nowrap;
+}
+
+.dz-tag.soft {
+  background: var(--accSoft);
+  color: var(--pen);
+}
+
+.dz-tag.gold {
+  background: var(--hi);
+  color: #3a2f00;
+}
+
+/* cấp 3: bài tập lùi thêm, nét đứt */
+.dz-sub {
+  margin: 2px 0 8px 22px;
+  padding-left: 14px;
+  border-left: 2px dashed var(--line);
+}
+
+.dz-ex {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 7px 4px;
+  border-top: 1px dashed var(--line);
+  font-size: 14px;
+}
+
+.dz-ex:first-child {
+  border-top: 0;
+}
+
+.dz-more {
+  background: none;
+  border: 0;
+  color: var(--mute);
+  padding: 8px 4px;
+  font: inherit;
+  font-size: 13px;
+  text-align: left;
+}
+
+.dz-more:hover {
+  color: var(--pri);
+  text-decoration: underline;
+}
+
+/* nút khóa / nút xóa / menu dọn dẹp */
+.btn.lock {
+  color: var(--mute);
+  background: color-mix(in srgb, var(--mute) 12%, var(--card));
+  border: 1.5px solid var(--line);
+}
+
+.btn.del {
+  background: var(--card);
+  color: var(--bad);
+  border: 1.5px solid color-mix(in srgb, var(--bad) 40%, var(--line));
+}
+
+.btn.del:hover {
+  background: var(--badSoft);
+  filter: none;
+}
+
+.menu-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.dz-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 30;
+  min-width: 250px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--sh);
+  padding: 5px;
+}
+
+.dz-mi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  text-align: left;
+  border: 0;
+  background: none;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font: inherit;
+  font-size: 14px;
+  /*color: var(--ink);*/
+  color: #f40808;
+}
+
+.dz-mi:hover {
+  background: var(--priSoft);
+}
+
+.danger-zone {
+  border: 2px solid var(--bad);
+}
+
+.danger-zone h3 {
+  color: var(--bad);
 }

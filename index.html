@@ -259,7 +259,17 @@
             "(2) kiểm tra mạng có vào được cdn.jsdelivr.net; (3) mở F12 → Console để xem chi tiết.</p></div>";
         }
         window.addEventListener("error", function (e) {
-          show("Lỗi: " + (e.message || e.error));
+          var where = e.filename
+            ? " <br><code>" +
+              e.filename.split("/").slice(-2).join("/") +
+              ":" +
+              e.lineno +
+              ":" +
+              e.colno +
+              "</code>"
+            : "";
+          if (e.error) console.error(e.error);
+          show("Lỗi: " + (e.message || e.error) + where);
         });
         window.addEventListener("unhandledrejection", function (e) {
           show("Lỗi: " + ((e.reason && e.reason.message) || e.reason));

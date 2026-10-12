@@ -100,6 +100,36 @@ export async function saveOrder(table, rows) {
   );
 }
 
+/* ---------- Đếm & xóa theo cấp (trang Quản lý dữ liệu) ---------- */
+export async function countRows(table, col, val) {
+  const { count, error } = await sb.from(table).select("*", { count: "exact", head: true }).eq(col, val);
+  if (error) throw error;
+  return count || 0;
+}
+export async function countIn(table, col, vals) {
+  if (!vals.length) return 0;
+  const { count, error } = await sb.from(table).select("*", { count: "exact", head: true }).in(col, vals);
+  if (error) throw error;
+  return count || 0;
+}
+export const deleteIn = async (table, col, vals) => (vals.length ? unwrap(await sb.from(table).delete().in(col, vals)) : null);
+/** Xóa mọi dòng của bảng (PostgREST bắt buộc có bộ lọc nên dùng "khác null") */
+export const deleteAllRows = async (table, pk = "id") => unwrap(await sb.from(table).delete().not(pk, "is", null));
+
+/** Toàn bộ cây ngành → unit → bài tập kèm số lượng, dùng cho màn hình xóa */
+export async function adminTree() {
+  const [fields, units, exercises, stats, gl] = await Promise.all([
+    listFields(),
+    fetchAll(() => sb.from("units").select("*").order("sort_order").order("created_at")),
+    fetchAll(() => sb.from("exercises").select("id, unit_id, section, kind, title, sort_order, questions(count)").order("sort_order").order("created_at")),
+    unitStats(),
+    sb.from("glossary").select("*", { count: "exact", head: true }),
+  ]);
+  const sm = Object.fromEntries(stats.map((s) => [s.unit_id, s]));
+  exercises.forEach((e) => { e.nq = e.questions?.[0]?.count || 0; });
+  return { fields, units, exercises, words: sm, glossary: gl.count || 0 };
+}
+
 export const adminListUnits = async (fieldId) => listUnits(fieldId);
 
 export const adminListWords = async (unitId) =>

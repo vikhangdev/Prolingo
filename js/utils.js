@@ -101,4 +101,21 @@ export function confirmBox(message, { okText = "Xóa", danger = true } = {}) {
   });
 }
 
-export const errMsg = (e) => (e && (e.message || e.error_description || e.details)) || String(e || "Có lỗi xảy ra");
+/** Thông báo chặn (không cho làm) → Promise khi người dùng đóng */
+export function notice(message, title = "Không thể xóa") {
+  return new Promise((resolve) => {
+    const dlg = openDialog({
+      title,
+      body: `<div class="alert err" style="margin:0">${esc(message)}</div>`,
+      foot: `<button class="btn" id="nOk" type="button">Đã hiểu</button>`,
+    });
+    $("#nOk", dlg).onclick = closeDialog;
+    dlg.addEventListener("close", resolve, { once: true });
+  });
+}
+
+export const errMsg = (e) => {
+  const m = (e && (e.message || e.error_description || e.details)) || String(e || "Có lỗi xảy ra");
+  if (/violates foreign key constraint/i.test(m)) return "Không thể xóa vì còn dữ liệu con phụ thuộc. Hãy xóa các mục con trước (Câu hỏi → Bài tập / Từ vựng → Unit → Ngành).";
+  return m;
+};

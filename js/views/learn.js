@@ -34,7 +34,7 @@ export async function viewHome() {
     app().innerHTML = `<div class="hello"><div><h1 class="h1" style="font-size:clamp(28px,4vw,40px)">Chào ${esc(Auth.name)} 👋</h1>
       <p class="sub">Chọn một ngành để bắt đầu ôn. Rê chuột lên từ tiếng Anh để xem nghĩa, bấm vào để nghe phát âm.</p></div>
       <div class="streakbar"><div class="stat"><b>${t.ok}</b><span>câu đúng</span></div><div class="stat"><b>${t.done ? Math.round((t.ok / t.done) * 100) : 0}%</b><span>tỉ lệ đúng</span></div><div class="stat"><b>${streak}🔥</b><span>ngày liên tiếp</span></div></div></div>
-      ${fields.length ? `<div class="shelf">${covers}</div>` : `<div class="empty-state"><div class="big">📚</div><h3>Chưa có ngành nào</h3><p>${Auth.isAdmin ? 'Vào <a href="#/admin/data">Quản trị → Nhập / xuất dữ liệu</a> để nạp bộ dữ liệu mẫu CNTT, hoặc tạo ngành mới.' : "Quản trị viên chưa thêm ngành học. Hãy quay lại sau nhé."}</p></div>`}`;
+      ${fields.length ? `<div class="shelf">${covers}</div>` : `<div class="empty-state"><div class="big">📚</div><h3>Chưa có ngành nào</h3><p>${Auth.isAdmin ? 'Vào <a href="#/admin/data">Quản trị → Quản lý dữ liệu</a> để nạp bộ dữ liệu mẫu CNTT, hoặc tạo ngành mới.' : "Quản trị viên chưa thêm ngành học. Hãy quay lại sau nhé."}</p></div>`}`;
   } catch (e) { showError(e); }
 }
 

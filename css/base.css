@@ -79,13 +79,13 @@ body {
   margin: 0;
   color: var(--ink);
   font: 16px/1.6 var(--font);
-  background-color: var(--paper);
-  /* giấy ô li */
+  background-color: #cee8ff;
+  /* giấy ô li 
   background-image:
     linear-gradient(var(--grid) 1px, transparent 1px),
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
   background-size: 28px 28px;
-  background-attachment: fixed;
+  background-attachment: fixed; */
   min-height: 100vh;
 }
 
@@ -135,7 +135,7 @@ svg {
 }
 
 main {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 26px 18px 120px;
   outline: none;
