@@ -1,0 +1,684 @@
+{
+    "version": 1,
+    "field": {
+        "slug": "electrical-electronics",
+        "name": "Electrical & Electronics Engineering",
+        "name_vi": "Kỹ thuật Điện và Điện tử",
+        "icon": "⚡",
+        "hue": 45,
+        "description": "Từ vựng, ngữ pháp và bài đọc chuyên ngành Kỹ thuật Điện & Điện tử: mạch điện, vi điều khiển, bán dẫn, hệ thống điện, viễn thông và tự động hóa."
+    },
+    "units": [
+        {
+            "name": "Electric Circuits & Components",
+            "name_vi": "Mạch điện & Linh kiện điện tử",
+            "icon": "🔌",
+            "hue": 40,
+            "words": [
+                {
+                    "en": "voltage",
+                    "vi": "điện áp (hiệu điện thế)"
+                },
+                {
+                    "en": "current",
+                    "vi": "dòng điện"
+                },
+                {
+                    "en": "resistance",
+                    "vi": "điện trở"
+                },
+                {
+                    "en": "resistor",
+                    "vi": "con điện trở"
+                },
+                {
+                    "en": "capacitor",
+                    "vi": "tụ điện"
+                },
+                {
+                    "en": "capacitance",
+                    "vi": "điện dung"
+                },
+                {
+                    "en": "inductor",
+                    "vi": "cuộn cảm"
+                },
+                {
+                    "en": "inductance",
+                    "vi": "độ tự cảm"
+                },
+                {
+                    "en": "impedance",
+                    "vi": "trở kháng"
+                },
+                {
+                    "en": "alternating current (AC)",
+                    "vi": "dòng điện xoay chiều"
+                },
+                {
+                    "en": "direct current (DC)",
+                    "vi": "dòng điện một chiều"
+                },
+                {
+                    "en": "diode",
+                    "vi": "đi-ốt"
+                },
+                {
+                    "en": "transistor",
+                    "vi": "trần-zi-sto (bóng bán dẫn)"
+                },
+                {
+                    "en": "semiconductor",
+                    "vi": "chất bán dẫn"
+                },
+                {
+                    "en": "integrated circuit (IC)",
+                    "vi": "mạch tích hợp (IC)"
+                },
+                {
+                    "en": "printed circuit board (PCB)",
+                    "vi": "bo mạch in (PCB)"
+                },
+                {
+                    "en": "transformer",
+                    "vi": "máy biến áp"
+                },
+                {
+                    "en": "generator",
+                    "vi": "máy phát điện"
+                },
+                {
+                    "en": "electric motor",
+                    "vi": "động cơ điện"
+                },
+                {
+                    "en": "circuit breaker",
+                    "vi": "cầu dao tự động (CB)"
+                },
+                {
+                    "en": "fuse",
+                    "vi": "cầu chì"
+                },
+                {
+                    "en": "grounding / earthing",
+                    "vi": "sự nối đất / tiếp địa"
+                },
+                {
+                    "en": "short circuit",
+                    "vi": "ngắn mạch (đoản mạch)"
+                },
+                {
+                    "en": "open circuit",
+                    "vi": "mạch hở"
+                },
+                {
+                    "en": "Ohm's law",
+                    "vi": "định luật Ohm"
+                },
+                {
+                    "en": "Kirchhoff's laws",
+                    "vi": "các định luật Kirchhoff"
+                },
+                {
+                    "en": "waveform",
+                    "vi": "dạng sóng"
+                },
+                {
+                    "en": "frequency",
+                    "vi": "tần số"
+                },
+                {
+                    "en": "oscilloscope",
+                    "vi": "máy hiện sóng"
+                },
+                {
+                    "en": "multimeter",
+                    "vi": "đồng hồ đo đa năng"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the best word to complete each sentence.",
+                    "instruction_vi": "Chọn thuật ngữ mạch điện phù hợp nhất.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "The property of a component to oppose electric current flow is called ___.",
+                                "opts": [
+                                    "resistance",
+                                    "capacitance",
+                                    "inductance"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**resistance** = điện trở, cản trở dòng điện.",
+                                "tip": "resist = cản trở."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A component used to store electric charge in an electric field is a ___.",
+                                "opts": [
+                                    "capacitor",
+                                    "resistor",
+                                    "inductor"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**capacitor** = tụ điện, tích trữ điện tích.",
+                                "tip": "capacity = khả năng chứa."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "An instrument used to observe voltage waveforms is an ___.",
+                                "opts": [
+                                    "oscilloscope",
+                                    "ammeter",
+                                    "ohmmeter"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**oscilloscope** = máy hiện sóng.",
+                                "tip": "oscillate = dao động."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A device designed to step up or step down AC voltage is a ___.",
+                                "opts": [
+                                    "transformer",
+                                    "transistor",
+                                    "diode"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**transformer** = máy biến áp.",
+                                "tip": "transform = biến đổi."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "When current bypasses the intended load with very low resistance, it causes a ___.",
+                                "opts": [
+                                    "short circuit",
+                                    "open circuit",
+                                    "closed circuit"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**short circuit** = ngắn mạch (đoản mạch).",
+                                "tip": "short = ngắn."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "vocab",
+                    "kind": "match",
+                    "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+                    "instruction": "Match each term with its definition.",
+                    "instruction_vi": "",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "diode",
+                                "b": "a semiconductor component allowing current in one direction only",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "PCB",
+                                "b": "a board holding soldered electronic components and printed copper traces",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "fuse",
+                                "b": "a safety device that melts to break the circuit during excessive current",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "multimeter",
+                                "b": "a tool that measures voltage, current, and resistance",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "lang",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Ngữ pháp bị động trong kỹ thuật",
+                    "instruction": "Choose the correct passive verb form.",
+                    "instruction_vi": "Ngữ pháp câu bị động trong mô tả thiết bị và mạch điện.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "Electric power ___ from power plants through high-voltage transmission lines.",
+                                "opts": [
+                                    "is transmitted",
+                                    "transmits",
+                                    "transmitted"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Sự thật kỹ thuật bị động: **is transmitted**.",
+                                "tip": "is + V3."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "The damaged capacitor ___ during yesterday's maintenance inspection.",
+                                "opts": [
+                                    "was replaced",
+                                    "is replaced",
+                                    "replaced"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Quá khứ xác định (yesterday): **was replaced**.",
+                                "tip": "was + V3."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "read",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Introduction to Circuit Protection",
+                    "instruction": "Read the text and answer the questions.",
+                    "instruction_vi": "",
+                    "passage": "Circuit protection devices are fundamental components in electrical engineering. They prevent catastrophic fires and equipment damage caused by overcurrent or short circuits.\n\nA fuse contains a thin wire designed to melt when the current exceeds a specific threshold. Once blown, a fuse must be replaced manually. In contrast, a circuit breaker uses an electromagnetic or thermal switch that trips automatically when excessive current flows. Circuit breakers can be reset after the fault is cleared, making them far more convenient for modern residential and industrial installations.",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "tf",
+                            "content": {
+                                "q": "Fuses can be reset automatically after tripping.",
+                                "ans": [
+                                    1
+                                ],
+                                "why": "Đoạn 2: Fuse phải thay thế thủ công (replaced manually).",
+                                "tip": "fuse = thay thế, breaker = reset."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "What is the main advantage of circuit breakers over fuses?",
+                                "opts": [
+                                    "They can be reset without replacement",
+                                    "They are cheaper",
+                                    "They do not react to overcurrent"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Đoạn 2: Circuit breakers có thể reset lại sau khi khắc phục sự cố.",
+                                "tip": "reset after fault is cleared."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Digital Electronics & Microcontrollers",
+            "name_vi": "Điện tử số & Vi điều khiển",
+            "icon": "🤖",
+            "hue": 210,
+            "words": [
+                {
+                    "en": "binary system",
+                    "vi": "hệ nhị phân"
+                },
+                {
+                    "en": "logic gate",
+                    "vi": "cổng logic"
+                },
+                {
+                    "en": "AND gate",
+                    "vi": "cổng AND"
+                },
+                {
+                    "en": "OR gate",
+                    "vi": "cổng OR"
+                },
+                {
+                    "en": "NOT gate (inverter)",
+                    "vi": "cổng NOT (đảo)"
+                },
+                {
+                    "en": "microcontroller (MCU)",
+                    "vi": "vi điều khiển"
+                },
+                {
+                    "en": "microprocessor (CPU)",
+                    "vi": "vi xử lý"
+                },
+                {
+                    "en": "firmware",
+                    "vi": "phần sụn"
+                },
+                {
+                    "en": "embedded system",
+                    "vi": "hệ thống nhúng"
+                },
+                {
+                    "en": "analog-to-digital converter (ADC)",
+                    "vi": "bộ chuyển đổi tương tự - số"
+                },
+                {
+                    "en": "digital-to-analog converter (DAC)",
+                    "vi": "bộ chuyển đổi số - tương tự"
+                },
+                {
+                    "en": "pulse-width modulation (PWM)",
+                    "vi": "điều chế độ rộng xung"
+                },
+                {
+                    "en": "GPIO pin",
+                    "vi": "chân vào/ra tổng quát"
+                },
+                {
+                    "en": "sensor",
+                    "vi": "cảm biến"
+                },
+                {
+                    "en": "actuator",
+                    "vi": "Cơ cấu chấp hành"
+                },
+                {
+                    "en": "register",
+                    "vi": "thanh ghi"
+                },
+                {
+                    "en": "bus",
+                    "vi": "buýt dữ liệu"
+                },
+                {
+                    "en": "clock frequency",
+                    "vi": "tần số xung nhịp"
+                },
+                {
+                    "en": "interrupt",
+                    "vi": "ngắt (trong vi xử lý)"
+                },
+                {
+                    "en": "I2C protocol",
+                    "vi": "giao thức I2C"
+                },
+                {
+                    "en": "SPI protocol",
+                    "vi": "giao thức SPI"
+                },
+                {
+                    "en": "UART communication",
+                    "vi": "truyền thông UART"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the best word to complete each sentence.",
+                    "instruction_vi": "Chọn thuật ngữ điện tử số phù hợp.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "An ___ converts physical quantities like light or temperature into electrical signals.",
+                                "opts": [
+                                    "sensor",
+                                    "actuator",
+                                    "inverter"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**sensor** = cảm biến, biến đổi đại lượng vật lý thành tín hiệu điện.",
+                                "tip": "sense = cảm nhận."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A component that performs an action (e.g. turning a motor) based on control signals is an ___.",
+                                "opts": [
+                                    "actuator",
+                                    "sensor",
+                                    "register"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**actuator** = cơ cấu chấp hành (động cơ, van, rơ-le...).",
+                                "tip": "act = hành động."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "read",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Embedded Systems in Modern Engineering",
+                    "instruction": "Read the text and answer the questions.",
+                    "instruction_vi": "",
+                    "passage": "An embedded system is a dedicated computer system designed to perform specific control functions within a larger mechanical or electrical system. Unlike general-purpose personal computers, embedded systems are optimized for real-time performance, low power consumption, and compact size.\n\nAt the heart of most embedded systems is a microcontroller (MCU). The MCU contains a processor core, memory (RAM and Flash), and programmable input/output peripherals integrated onto a single chip. Firmware programmed into the microcontroller continuously reads inputs from sensors and sends control signals to actuators.",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "tf",
+                            "content": {
+                                "q": "Embedded systems are designed for general-purpose computing tasks like PCs.",
+                                "ans": [
+                                    1
+                                ],
+                                "why": "Đoạn 1: Khác với PC, hệ nhúng được thiết kế cho nhiệm vụ điều khiển cụ thể (specific control functions).",
+                                "tip": "dedicated system."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "Which component integrates a processor core, memory, and I/O peripherals on one chip?",
+                                "opts": [
+                                    "Microcontroller (MCU)",
+                                    "Transformer",
+                                    "Oscilloscope"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Đoạn 2: Microcontroller (MCU) tích hợp tất cả các khối này trên 1 chip.",
+                                "tip": "MCU = single chip system."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Power Systems & Renewable Energy",
+            "name_vi": "Hệ thống điện & Năng lượng tái tạo",
+            "icon": "🌱",
+            "hue": 120,
+            "words": [
+                {
+                    "en": "power grid",
+                    "vi": "lưới điện"
+                },
+                {
+                    "en": "substation",
+                    "vi": "trạm biến áp"
+                },
+                {
+                    "en": "transmission line",
+                    "vi": "đường dây truyền tải"
+                },
+                {
+                    "en": "distribution network",
+                    "vi": "mạng lưới phân phối điện"
+                },
+                {
+                    "en": "renewable energy",
+                    "vi": "năng lượng tái tạo"
+                },
+                {
+                    "en": "photovoltaic cell (PV)",
+                    "vi": "tế bào quang điện (pin mặt trời)"
+                },
+                {
+                    "en": "wind turbine",
+                    "vi": "tua-bin gió"
+                },
+                {
+                    "en": "inverter",
+                    "vi": "bộ biến tần (DC sang AC)"
+                },
+                {
+                    "en": "energy storage system (ESS)",
+                    "vi": "hệ thống lưu trữ năng lượng"
+                },
+                {
+                    "en": "smart grid",
+                    "vi": "lưới điện thông minh"
+                },
+                {
+                    "en": "power factor",
+                    "vi": "hệ số công suất (cos φ)"
+                },
+                {
+                    "en": "three-phase electric power",
+                    "vi": "điện ba pha"
+                },
+                {
+                    "en": "load forecasting",
+                    "vi": "dự báo phụ tải"
+                },
+                {
+                    "en": "blackout",
+                    "vi": "sự mất điện diện rộng"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the best word to complete each sentence.",
+                    "instruction_vi": "Chọn thuật ngữ hệ thống điện.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A device that converts direct current (DC) generated by solar panels into alternating current (AC) is an ___.",
+                                "opts": [
+                                    "inverter",
+                                    "rectifier",
+                                    "inductor"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**inverter** = bộ biến tần, đổi DC sang AC.",
+                                "tip": "DC to AC."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": [
+        [
+            "voltage",
+            "điện áp"
+        ],
+        [
+            "current",
+            "dòng điện"
+        ],
+        [
+            "resistance",
+            "điện trở"
+        ],
+        [
+            "circuit",
+            "mạch điện"
+        ],
+        [
+            "power",
+            "công suất / điện năng"
+        ],
+        [
+            "component",
+            "linh kiện"
+        ],
+        [
+            "signal",
+            "tín hiệu"
+        ],
+        [
+            "frequency",
+            "tần số"
+        ],
+        [
+            "generator",
+            "máy phát điện"
+        ],
+        [
+            "transformer",
+            "máy biến áp"
+        ],
+        [
+            "semiconductor",
+            "chất bán dẫn"
+        ],
+        [
+            "microcontroller",
+            "vi điều khiển"
+        ]
+    ]
+}

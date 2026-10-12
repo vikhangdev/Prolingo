@@ -9,9 +9,17 @@ export async function viewAdminFields() {
   const load = async () => {
     const [fields, stats] = await Promise.all([api.listFields(), api.unitStats()]);
     rows = fields;
+
+    if (rows.some((r, i) => r.sort_order !== i)) {
+      try {
+        await api.saveOrder("fields", rows);
+        rows.forEach((r, i) => { r.sort_order = i; });
+      } catch (e) { console.warn("Không đánh số lại được:", e.message); }
+    }
+
     const nu = {}; stats.forEach((s) => (nu[s.field_id] = (nu[s.field_id] || 0) + 1));
-    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th></th><th>Tên ngành</th><th>Slug</th><th>Màu</th><th>Unit</th><th>Hiển thị</th><th></th></tr></thead><tbody>${rows.map((f, i) => `<tr>
-      <td class="ico">${esc(f.icon)}</td><td><b>${esc(f.name)}</b><br><span class="small">${esc(f.name_vi)}</span></td><td><code>${esc(f.slug)}</code></td>
+    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên ngành</th><th>Slug</th><th>Màu</th><th>Unit</th><th>Hiển thị</th><th>Chức năng</th></tr></thead><tbody>${rows.map((f, i) => `<tr>
+      <td style="text-align:center"><b>${i + 1}</b></td><td class="ico">${esc(f.icon)}</td><td><b>${esc(f.name)}</b><br><span class="small">${esc(f.name_vi)}</span></td><td><code>${esc(f.slug)}</code></td>
       <td><span class="swatch" style="background:hsl(${f.hue} 52% 40%)"></span> ${f.hue}°</td><td>${nu[f.id] || 0}</td>
       <td>${f.is_published ? '<span class="badge green">Đang hiển thị</span>' : '<span class="badge red">Đã ẩn</span>'}</td>
       <td class="acts"><button class="btn ghost sm" data-up="${f.id}" ${i === 0 ? "disabled" : ""} aria-label="Lên">↑</button><button class="btn ghost sm" data-dn="${f.id}" ${i === rows.length - 1 ? "disabled" : ""} aria-label="Xuống">↓</button>

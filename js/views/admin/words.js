@@ -8,7 +8,7 @@ export async function viewAdminWords() {
   const draw = () => {
     const list = rows.filter((w) => !q || w.en.toLowerCase().includes(q) || w.vi.toLowerCase().includes(q));
     body.innerHTML = `<div class="filters"><div class="fld"><label for="sq">Tìm trong unit</label><input class="input" id="sq" value="${esc(q)}" placeholder="Gõ từ tiếng Anh hoặc nghĩa…"></div><div class="small" style="padding-bottom:10px">${list.length}/${rows.length} từ</div></div>
-      ${rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>#</th><th>Tiếng Anh</th><th>Nghĩa tiếng Việt</th><th></th></tr></thead><tbody>${list.map((w) => `<tr><td>${rows.indexOf(w) + 1}</td><td><b>${esc(w.en)}</b></td><td>${esc(w.vi)}</td>
+      ${rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Tiếng Anh</th><th>Nghĩa tiếng Việt</th><th></th></tr></thead><tbody>${list.map((w) => `<tr><td style="text-align:center">${rows.indexOf(w) + 1}</td><td><b>${esc(w.en)}</b></td><td>${esc(w.vi)}</td>
       <td class="acts"><button class="btn ghost sm" data-ed="${w.id}">Sửa</button><button class="btn danger sm" data-del="${w.id}">Xóa</button></td></tr>`).join("")}</tbody></table></div>` : `<div class="empty-state"><div class="big">🔤</div><h3>Unit này chưa có từ vựng</h3><p>Dùng "Thêm nhiều từ" để dán danh sách nhanh.</p></div>`}`;
     $("#sq").oninput = debounce((e) => { q = e.target.value.trim().toLowerCase(); const pos = e.target.selectionStart; draw(); const el = $("#sq"); el.focus(); el.setSelectionRange(pos, pos); }, 200);
     $$("[data-ed]", body).forEach((b) => (b.onclick = () => edit(rows.find((r) => r.id === b.dataset.ed))));

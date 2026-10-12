@@ -149,6 +149,56 @@ export const adminListExercises = async (unitId) =>
 export const adminListQuestions = async (exerciseId) =>
   unwrap(await sb.from("questions").select("*").eq("exercise_id", exerciseId).order("sort_order").order("created_at"));
 
+/* ---------- Nhật ký học tập (lượt làm + từng câu trả lời) ---------- */
+export const saveRuns = async (rows) => unwrap(await sb.from("study_runs").upsert(rows, { onConflict: "id" }));
+export const saveAnswers = async (rows) => unwrap(await sb.from("answer_log").insert(rows));
+
+/* ---------- Lời nhắc ---------- */
+export const myReminders = async () =>
+  unwrap(await sb.from("reminders").select("*").is("read_at", null).order("created_at", { ascending: false }));
+export const markReminderRead = async (id) =>
+  unwrap(await sb.from("reminders").update({ read_at: new Date().toISOString() }).eq("id", id));
+export const sendReminder = async (userId, senderId, message) =>
+  unwrap(await sb.from("reminders").insert({ user_id: userId, sender_id: senderId, message }));
+export const studentReminders = async (userId) =>
+  unwrap(await sb.from("reminders").select("*").eq("user_id", userId).order("created_at", { ascending: false }));
+
+/* ---------- Báo cáo từng học viên (admin) ---------- */
+const chunk = (a, n = 80) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
+async function byIds(table, col, ids, select, extra = (q) => q) {
+  const out = [];
+  for (const part of chunk(ids)) out.push(...unwrap(await extra(sb.from(table).select(select).in(col, part))));
+  return out;
+}
+
+export async function studentReport(userId) {
+  const [profileRes, runs, progress, exercises, qlinks, units, fields, stats] = await Promise.all([
+    sb.from("profiles").select("*").eq("id", userId).maybeSingle(),
+    fetchAll(() => sb.from("study_runs").select("*").eq("user_id", userId).order("started_at", { ascending: false }).order("id")),
+    fetchAll(() => sb.from("progress").select("unit_id, section, question_id, word_id, ok, updated_at").eq("user_id", userId).order("id")),
+    fetchAll(() => sb.from("exercises").select("id, unit_id, section, title, sort_order").order("sort_order").order("id")),
+    fetchAll(() => sb.from("questions").select("id, exercise_id").order("id")),
+    listAllUnits(), listFields(), unitStats(),
+  ]);
+  return { profile: unwrap(profileRes), runs, progress, exercises, qlinks, units, fields, stats };
+}
+
+export const runAnswers = async (runId) =>
+  unwrap(await sb.from("answer_log").select("*").eq("run_id", runId).order("id"));
+
+/** Chi tiết các câu đang sai: lần sai gần nhất + nội dung câu hỏi (để xem lời giải) */
+export async function studentWrongDetail(userId, qIds, wIds) {
+  const cols = "question_id, word_id, q_text, given_text, correct_text, created_at";
+  const logQ = (q) => q.eq("user_id", userId).eq("ok", false).order("created_at", { ascending: false });
+  const [lq, lw, questions, words] = await Promise.all([
+    byIds("answer_log", "question_id", qIds, cols, logQ),
+    byIds("answer_log", "word_id", wIds, cols, logQ),
+    byIds("questions", "id", qIds, "id, kind, exercise_id, content"),
+    byIds("words", "id", wIds, "id, en, vi, unit_id"),
+  ]);
+  return { logs: [...lq, ...lw], questions, words };
+}
+
 /* ---------- Người dùng ---------- */
 export const adminUsers = async () => unwrap(await sb.rpc("admin_users"));
 export const setUserRole = async (id, role) => unwrap(await sb.from("profiles").update({ role }).eq("id", id).select().single());

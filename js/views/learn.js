@@ -1,4 +1,4 @@
-import { $, $$, esc, SECTIONS, SECTION_KEYS } from "../utils.js";
+import { $, $$, esc, fmtDateTime, SECTIONS, SECTION_KEYS } from "../utils.js";
 import * as api from "../api.js";
 import { Auth } from "../auth.js";
 import { Progress } from "../progress.js";
@@ -16,7 +16,7 @@ export async function viewHome() {
   theme(); setCrumbs("");
   loading();
   try {
-    const [fields, stats] = await Promise.all([api.listFields(), api.unitStats()]);
+    const [fields, stats, reminders] = await Promise.all([api.listFields(), api.unitStats(), api.myReminders().catch(() => [])]);
     const t = Progress.totals(), streak = Progress.streakDays();
     const byField = {};
     stats.forEach((s) => { (byField[s.field_id] ||= []).push(s); });
@@ -34,7 +34,14 @@ export async function viewHome() {
     app().innerHTML = `<div class="hello"><div><h1 class="h1" style="font-size:clamp(28px,4vw,40px)">Chào ${esc(Auth.name)} 👋</h1>
       <p class="sub">Chọn một ngành để bắt đầu ôn. Rê chuột lên từ tiếng Anh để xem nghĩa, bấm vào để nghe phát âm.</p></div>
       <div class="streakbar"><div class="stat"><b>${t.ok}</b><span>câu đúng</span></div><div class="stat"><b>${t.done ? Math.round((t.ok / t.done) * 100) : 0}%</b><span>tỉ lệ đúng</span></div><div class="stat"><b>${streak}🔥</b><span>ngày liên tiếp</span></div></div></div>
+      ${reminders.length ? `<section class="remind" aria-label="Lời nhắc từ giáo viên"><h2>Lời nhắc từ giáo viên</h2>${reminders.map((r) => `<article class="rm" data-rm="${r.id}"><div class="rm-time">${fmtDateTime(r.created_at)}</div><div class="rm-msg">${esc(r.message)}</div><button class="btn sm ghost" data-read="${r.id}">Đã đọc</button></article>`).join("")}</section>` : ""}
       ${fields.length ? `<div class="shelf">${covers}</div>` : `<div class="empty-state"><div class="big">📚</div><h3>Chưa có ngành nào</h3><p>${Auth.isAdmin ? 'Vào <a href="#/admin/data">Quản trị → Quản lý dữ liệu</a> để nạp bộ dữ liệu mẫu CNTT, hoặc tạo ngành mới.' : "Quản trị viên chưa thêm ngành học. Hãy quay lại sau nhé."}</p></div>`}`;
+    $$("[data-read]").forEach((b) => (b.onclick = async () => {
+      b.disabled = true;
+      try { await api.markReminderRead(+b.dataset.read); } catch (e) { b.disabled = false; return; }
+      $(`[data-rm="${b.dataset.read}"]`).remove();
+      if (!$$("[data-rm]").length) $(".remind")?.remove();
+    }));
   } catch (e) { showError(e); }
 }
 

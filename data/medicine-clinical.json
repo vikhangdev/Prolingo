@@ -1,0 +1,640 @@
+{
+    "version": 1,
+    "field": {
+        "slug": "medicine-clinical",
+        "name": "Medicine & Clinical",
+        "name_vi": "Y khoa & Lâm sàng",
+        "icon": "🩺",
+        "hue": 0,
+        "description": "Từ vựng, ngữ pháp, mẫu câu giao tiếp và bài đọc chuyên ngành Y khoa & Lâm sàng: chẩn đoán, triệu chứng, điều trị, phẫu thuật, dược lý lâm sàng và chăm sóc bệnh nhân."
+    },
+    "units": [
+        {
+            "name": "Clinical Diagnosis & Symptoms",
+            "name_vi": "Chẩn đoán lâm sàng & Triệu chứng",
+            "icon": "🩺",
+            "hue": 350,
+            "words": [
+                {
+                    "en": "diagnosis",
+                    "vi": "sự chẩn đoán"
+                },
+                {
+                    "en": "prognosis",
+                    "vi": "tiên lượng (diễn biến bệnh)"
+                },
+                {
+                    "en": "symptom",
+                    "vi": "triệu chứng chủ quan (bệnh nhân khai)"
+                },
+                {
+                    "en": "sign",
+                    "vi": "dấu hiệu khách quan (bác sĩ khám thấy)"
+                },
+                {
+                    "en": "acute",
+                    "vi": "cấp tính"
+                },
+                {
+                    "en": "chronic",
+                    "vi": "mạn tính (mãn tính)"
+                },
+                {
+                    "en": "syndrome",
+                    "vi": "hội chứng"
+                },
+                {
+                    "en": "pathology",
+                    "vi": "bệnh lý học"
+                },
+                {
+                    "en": "etiology",
+                    "vi": "nguyên nhân bệnh học"
+                },
+                {
+                    "en": "differential diagnosis",
+                    "vi": "chẩn đoán phân biệt"
+                },
+                {
+                    "en": "chief complaint",
+                    "vi": "Lý do vào viện (lý do khám)"
+                },
+                {
+                    "en": "medical history",
+                    "vi": "tiền sử bệnh"
+                },
+                {
+                    "en": "physical examination",
+                    "vi": "khám thực thể"
+                },
+                {
+                    "en": "vital signs",
+                    "vi": "dấu hiệu sinh tồn"
+                },
+                {
+                    "en": "blood pressure",
+                    "vi": "huyết áp"
+                },
+                {
+                    "en": "heart rate / pulse",
+                    "vi": "nhip tim / mạch"
+                },
+                {
+                    "en": "respiratory rate",
+                    "vi": "nhip thở"
+                },
+                {
+                    "en": "body temperature",
+                    "vi": "nhiệt độ cơ thể"
+                },
+                {
+                    "en": "fever / pyrexia",
+                    "vi": "sốt"
+                },
+                {
+                    "en": "inflammation",
+                    "vi": "viêm"
+                },
+                {
+                    "en": "infection",
+                    "vi": "sự nhiễm trùng"
+                },
+                {
+                    "en": "lesion",
+                    "vi": "tổn thương"
+                },
+                {
+                    "en": "biopsy",
+                    "vi": "sinh thiết"
+                },
+                {
+                    "en": "palpation",
+                    "vi": "sờ khám"
+                },
+                {
+                    "en": "auscultation",
+                    "vi": "nghe khám (bằng ống nghe)"
+                },
+                {
+                    "en": "percussion",
+                    "vi": "gõ khám"
+                },
+                {
+                    "en": "stethoscope",
+                    "vi": "ống nghe y tế"
+                },
+                {
+                    "en": "sphygmomanometer",
+                    "vi": "máy đo huyết áp"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the best medical term to complete each sentence.",
+                    "instruction_vi": "Chọn thuật ngữ y khoa phù hợp nhất.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A subjective indication of disease reported by the patient (e.g. pain) is a ___.",
+                                "opts": [
+                                    "symptom",
+                                    "sign",
+                                    "biopsy"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**symptom** = triệu chứng do bệnh nhân tự cảm nhận và khai báo.",
+                                "tip": "symptom = bệnh nhân khai, sign = bác sĩ thấy."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A disease that persists over a long period of time is described as ___.",
+                                "opts": [
+                                    "chronic",
+                                    "acute",
+                                    "benign"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**chronic** = mạn tính (kéo dài).",
+                                "tip": "chronic ↔ acute."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "Listening to sounds within the body using a stethoscope is called ___.",
+                                "opts": [
+                                    "auscultation",
+                                    "palpation",
+                                    "percussion"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**auscultation** = nghe khám.",
+                                "tip": "auscultate = nghe qua ống nghe."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "The process of distinguishing a disease from others with similar symptoms is a ___ diagnosis.",
+                                "opts": [
+                                    "differential",
+                                    "preliminary",
+                                    "final"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**differential diagnosis** = chẩn đoán phân biệt.",
+                                "tip": "different = phân biệt."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "vocab",
+                    "kind": "match",
+                    "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+                    "instruction": "Match each medical term with its correct definition.",
+                    "instruction_vi": "",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "prognosis",
+                                "b": "the likely outcome or course of a disease",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "vital signs",
+                                "b": "clinical measurements (pulse, BP, temperature, respiration) that indicate body functions",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "biopsy",
+                                "b": "the removal and examination of tissue samples from a living body",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        },
+                        {
+                            "kind": "pair",
+                            "content": {
+                                "a": "etiology",
+                                "b": "the study of the causes or origins of a disease",
+                                "extra": "",
+                                "tip": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "lang",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Mẫu câu hỏi bệnh sử trong giao tiếp y khoa",
+                    "instruction": "Choose the most appropriate phrasing for patient history taking.",
+                    "instruction_vi": "Chọn mẫu câu hỏi giao tiếp lâm sàng chuẩn.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "When asking about the duration of symptoms, a physician should ask: '___ has this pain lasted?'",
+                                "opts": [
+                                    "How long",
+                                    "How much",
+                                    "How often"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Hỏi về khoảng thời gian kéo dài: **How long**.",
+                                "tip": "How long = bao lâu."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "The patient reported that the pain ___ to his left shoulder last night.",
+                                "opts": [
+                                    "radiated",
+                                    "alleviated",
+                                    "exacerbated"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**radiated** = lan ra (đau lan sang vai trái).",
+                                "tip": "radiate = lan tỏa."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "read",
+                    "kind": "quiz",
+                    "title": "Bài 1 · History Taking in Clinical Practice",
+                    "instruction": "Read the clinical text and answer the questions.",
+                    "instruction_vi": "",
+                    "passage": "Taking a comprehensive medical history is often considered the most critical component of clinical diagnosis. A structured history begins with the patient's chief complaint—the primary reason for seeking medical attention. \n\nThe physician then explores the History of Present Illness (HPI) using systematically structured frameworks like the SOCRATES mnemonic (Site, Onset, Character, Radiation, Associations, Time course, Exacerbating/relieving factors, and Severity). Physical examination, including palpation and auscultation, follows history taking to validate initial diagnostic hypotheses before ordering invasive tests or imaging.",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "tf",
+                            "content": {
+                                "q": "Physical examination is usually conducted before taking the patient's medical history.",
+                                "ans": [
+                                    1
+                                ],
+                                "why": "Đoạn 2: Khám thực thể diễn ra **sau** khi khai thác bệnh sử (Physical examination follows history taking).",
+                                "tip": "follows history taking."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "What is defined as the primary reason a patient seeks medical care?",
+                                "opts": [
+                                    "Chief complaint",
+                                    "Differential diagnosis",
+                                    "Prognosis"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Đoạn 1: Chief complaint = lý do chính người bệnh đi khám.",
+                                "tip": "chief complaint = lý do vào viện."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pharmacology & Therapeutics",
+            "name_vi": "Dược lý & Điều trị",
+            "icon": "💊",
+            "hue": 160,
+            "words": [
+                {
+                    "en": "pharmacology",
+                    "vi": "dược lý học"
+                },
+                {
+                    "en": "prescription",
+                    "vi": "đơn thuốc"
+                },
+                {
+                    "en": "dosage",
+                    "vi": "liều lượng"
+                },
+                {
+                    "en": "route of administration",
+                    "vi": "đường dùng thuốc"
+                },
+                {
+                    "en": "oral (PO)",
+                    "vi": "đường uống"
+                },
+                {
+                    "en": "intravenous (IV)",
+                    "vi": "tiêm / truyền tĩnh mạch"
+                },
+                {
+                    "en": "intramuscular (IM)",
+                    "vi": "tiêm bắp"
+                },
+                {
+                    "en": "subcutaneous (SubQ)",
+                    "vi": "tiêm dưới da"
+                },
+                {
+                    "en": "analgesic",
+                    "vi": "thuốc giảm đau"
+                },
+                {
+                    "en": "antibiotic",
+                    "vi": "thuốc kháng sinh"
+                },
+                {
+                    "en": "antipyretic",
+                    "vi": "thuốc hạ sốt"
+                },
+                {
+                    "en": "antihypertensive",
+                    "vi": "thuốc hạ huyết áp"
+                },
+                {
+                    "en": "anti-inflammatory",
+                    "vi": "thuốc chống viêm"
+                },
+                {
+                    "en": "anticoagulant",
+                    "vi": "thuốc chống đông máu"
+                },
+                {
+                    "en": "side effect",
+                    "vi": "tác dụng phụ"
+                },
+                {
+                    "en": "adverse reaction",
+                    "vi": "phản ứng bất lợi (ADR)"
+                },
+                {
+                    "en": "contraindication",
+                    "vi": "chống chỉ định"
+                },
+                {
+                    "en": "indication",
+                    "vi": "chỉ định"
+                },
+                {
+                    "en": "efficacy",
+                    "vi": "hiệu lực / hiệu quả điều trị"
+                },
+                {
+                    "en": "toxicity",
+                    "vi": "độc tính"
+                },
+                {
+                    "en": "overdose",
+                    "vi": "quá liều"
+                },
+                {
+                    "en": "tolerance",
+                    "vi": "sự dung nạp thuốc"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the best term to complete each sentence.",
+                    "instruction_vi": "Chọn thuật ngữ dược lý đúng.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A medication that reduces fever is known as an ___.",
+                                "opts": [
+                                    "antipyretic",
+                                    "analgesic",
+                                    "antibiotic"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**antipyretic** = thuốc hạ sốt.",
+                                "tip": "pyrexia = sốt, anti = chống."
+                            }
+                        },
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "A condition or factor that serves as a reason to withhold a medical treatment is a ___.",
+                                "opts": [
+                                    "contraindication",
+                                    "indication",
+                                    "dosage"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**contraindication** = chống chỉ định.",
+                                "tip": "contra = chống lại."
+                            }
+                        }
+                    ]
+                },
+                {
+                    "section": "read",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Antibiotic Stewardship and Resistance",
+                    "instruction": "Read the text and answer the questions.",
+                    "instruction_vi": "",
+                    "passage": "Antibiotics are vital therapeutic agents used to treat bacterial infections. However, improper dosage and over-prescription have led to global antimicrobial resistance (AMR). \n\nWhen antibiotics are taken incorrectly or prematurely discontinued, surviving bacteria develop resistance mechanisms. Clinicians must adhere to strict antibiotic stewardship protocols—ensuring the correct drug, precise dose, and appropriate route of administration (e.g. oral vs. intravenous) are selected based on microbiological culture testing.",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "tf",
+                            "content": {
+                                "q": "Discontinuing antibiotic courses too early contributes to antimicrobial resistance.",
+                                "ans": [
+                                    0
+                                ],
+                                "why": "Đoạn 2: Dừng thuốc kháng sinh quá sớm (prematurely discontinued) gây đề kháng.",
+                                "tip": "prematurely discontinued -> resistance."
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Surgery & Inpatient Care",
+            "name_vi": "Phẫu thuật & Điều trị nội trú",
+            "icon": "🏥",
+            "hue": 200,
+            "words": [
+                {
+                    "en": "surgeon",
+                    "vi": "bác sĩ phẫu thuật"
+                },
+                {
+                    "en": "anesthesiologist",
+                    "vi": "bác sĩ gây mê"
+                },
+                {
+                    "en": "anesthesia",
+                    "vi": "sự gây mê / gây tê"
+                },
+                {
+                    "en": "operating room (OR)",
+                    "vi": "phòng mổ"
+                },
+                {
+                    "en": "intensive care unit (ICU)",
+                    "vi": "khoa hồi sức tích cực"
+                },
+                {
+                    "en": "inpatient",
+                    "vi": "bệnh nhân nội trú"
+                },
+                {
+                    "en": "outpatient",
+                    "vi": "bệnh nhân ngoại trú"
+                },
+                {
+                    "en": "preoperative",
+                    "vi": "tiền phẫu (trước mổ)"
+                },
+                {
+                    "en": "postoperative",
+                    "vi": "hậu phẫu (sau mổ)"
+                },
+                {
+                    "en": "incision",
+                    "vi": "vết mổ / vết cắt phẫu thuật"
+                },
+                {
+                    "en": "suture / stitches",
+                    "vi": "mũi khâu / chỉ khâu"
+                },
+                {
+                    "en": "sterilization",
+                    "vi": "sự vô trùng / tiệt trùng"
+                },
+                {
+                    "en": "complication",
+                    "vi": "biến chứng"
+                }
+            ],
+            "exercises": [
+                {
+                    "section": "vocab",
+                    "kind": "quiz",
+                    "title": "Bài 1 · Chọn từ đúng",
+                    "instruction": "Choose the correct term.",
+                    "instruction_vi": "Chọn từ đúng trong ngữ cảnh lâm sàng.",
+                    "passage": "",
+                    "config": {},
+                    "questions": [
+                        {
+                            "kind": "mc",
+                            "content": {
+                                "q": "Care provided to a patient after a surgical procedure is called ___ care.",
+                                "opts": [
+                                    "postoperative",
+                                    "preoperative",
+                                    "outpatient"
+                                ],
+                                "ans": [
+                                    0
+                                ],
+                                "why": "**postoperative** = hậu phẫu (post = sau).",
+                                "tip": "post = sau."
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "glossary": [
+        [
+            "diagnosis",
+            "chẩn đoán"
+        ],
+        [
+            "prognosis",
+            "tiên lượng"
+        ],
+        [
+            "symptom",
+            "triệu chứng khai"
+        ],
+        [
+            "sign",
+            "dấu hiệu khám"
+        ],
+        [
+            "acute",
+            "cấp tính"
+        ],
+        [
+            "chronic",
+            "mạn tính"
+        ],
+        [
+            "prescription",
+            "đơn thuốc"
+        ],
+        [
+            "dosage",
+            "liều lượng"
+        ],
+        [
+            "side effect",
+            "tác dụng phụ"
+        ],
+        [
+            "inpatient",
+            "nội trú"
+        ],
+        [
+            "outpatient",
+            "ngoại trú"
+        ],
+        [
+            "complication",
+            "biến chứng"
+        ]
+    ]
+}

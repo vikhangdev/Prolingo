@@ -12,7 +12,7 @@ const LET = "ABCDEFGHIJKLMNOP";
 const S = {
   unit: null, sec: null, secs: null, exit: null,
   view: "study", ex: 0, order: [], pos: 0,
-  res: {}, draft: null, bd: {}, flip: false, scored: new Set(),
+  res: {}, draft: null, bd: {}, flip: false, scored: new Set(), runs: {},
 };
 
 /* ---------- Truy cập nhanh ---------- */
@@ -33,7 +33,7 @@ function exStats(ei = S.ex) {
 
 /* ---------- Khởi chạy ---------- */
 export function startQuiz({ unit, secs, section, onExit }) {
-  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, scored: new Set() });
+  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, scored: new Set(), runs: {} });
   startEx(0);
 }
 
@@ -75,6 +75,32 @@ function maybeSaveScore(force) {
   Progress.saveScore(S.unit.id, k, Math.round((s.ok / s.total) * 100));
 }
 const backToSecs = () => S.exit();
+
+/* ---------- Nhật ký từng lần làm (để admin xem lại) ---------- */
+function givenText(q, given) {
+  if (q.k === "card") return given === "know" ? "Đã thuộc" : "Chưa thuộc";
+  if (q.k === "mc") return q.opts[given] ?? "";
+  if (q.k === "ms") return given.map((x) => q.opts[x]).join(" + ");
+  return Array.isArray(given) ? given.join(" | ") : String(given);
+}
+/** Gọi SAU khi S.res đã được cập nhật. Mỗi lần làm một bài = một "lượt" (run). */
+function track(q, given, ok) {
+  const ex = curEx(), k = exKeyOf(ex), now = new Date().toISOString();
+  // total của lượt = số câu chưa có kết quả lúc bắt đầu lượt (làm lại câu sai → chỉ tính các câu sai)
+  const run = (S.runs[k] ||= { id: crypto.randomUUID(), started_at: now, answered: 0, correct: 0, total: ex.items.filter((_, i) => !S.res[key(i)]).length + 1 });
+  run.answered++;
+  if (ok) run.correct++;
+  Progress.logRun({
+    id: run.id, unit_id: S.unit.id, section: S.sec, ex_key: k, ex_title: ex.t,
+    total: run.total, answered: run.answered, correct: run.correct, started_at: run.started_at, updated_at: now,
+  });
+  Progress.logAnswer({
+    run_id: run.id, unit_id: S.unit.id, question_id: q._t === "q" ? q._id : null, word_id: q._t === "w" ? q._id : null,
+    q_text: String(q.k === "card" ? q.en : q.q).slice(0, 500), given_text: givenText(q, given).slice(0, 500),
+    correct_text: ansText(q).slice(0, 500), ok,
+  });
+}
+const newRun = (ex) => { delete S.runs[exKeyOf(ex)]; }; // làm lại → lượt mới
 
 /* ---------- Chấm ---------- */
 const norm = (s) =>
@@ -192,6 +218,7 @@ function qHtml(q, r) {
 function record(q, i, given, ok, flags) {
   S.res[key(i)] = { given, ok, flags };
   persist(q, ok);
+  track(q, given, ok);
   react(ok, 1);
   maybeSaveScore();
   rerenderKeepScroll();
@@ -347,6 +374,7 @@ function vCards() {
     if (S.res[key(i)]) return;
     S.res[key(i)] = { given: ok ? "know" : "no", ok, flags: null };
     persist(q, ok);
+    track(q, ok ? "know" : "no", ok);
     react(ok, 1);
     maybeSaveScore();
     S.flip = true;
@@ -471,6 +499,7 @@ function vMatch() {
     ex.items.forEach((q, i) => { if (!locked(i)) delete S.res[key(i)]; });
     delete S.bd[ek];
     S.scored.delete(exKeyOf(ex));
+    newRun(ex);
     ex._p = null;
     vMatch();
   };
@@ -481,6 +510,7 @@ function vMatch() {
       const q = ex.items[i], g = bd.map[i], ok = q.ans.includes(g);
       S.res[key(i)] = { given: g, ok, flags: null };
       persist(q, ok);
+      track(q, g, ok);
     });
     react(todo.every((i) => S.res[key(i)].ok), todo.length);
     maybeSaveScore(true);
@@ -550,6 +580,7 @@ function vSummary() {
     wrong.forEach((i) => { delete S.res[key(i)]; ex.items[i]._p = null; });
     ex._p = null;
     S.scored.delete(exKeyOf(ex));
+    newRun(ex);
     startEx(S.ex, wrong);
   };
   $("#all").onclick = () => {
@@ -557,6 +588,7 @@ function vSummary() {
     ex._p = null;
     ex.items.forEach((q, i) => { delete S.res[key(i)]; q._p = null; });
     S.scored.delete(exKeyOf(ex));
+    newRun(ex);
     if (ex.gen) ex.items = ex.gen();
     startEx(S.ex);
   };

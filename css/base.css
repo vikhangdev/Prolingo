@@ -135,7 +135,7 @@ svg {
 }
 
 main {
-  max-width: 1300px;
+  max-width: 1600px;
   margin: 0 auto;
   padding: 26px 18px 120px;
   outline: none;
@@ -407,7 +407,7 @@ header.top {
 }
 
 .small {
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--mute);
 }
 
@@ -477,7 +477,7 @@ header.top {
 
 .btn.sm {
   padding: 5px 11px;
-  font-size: 13px;
+  font-size: 16px;
   border-radius: 8px;
 }
 

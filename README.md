@@ -55,6 +55,14 @@ Không bao giờ dán `service_role` key.
 
 Từ đó, admin cấp quyền cho người khác ở **Quản trị → Người dùng**.
 
+## Theo dõi học viên
+Chạy thêm `supabase/03_student_tracking.sql` một lần. Sau đó **Quản trị → Người dùng → Chi tiết** cho mỗi học viên xem:
+- **Các lần làm**: từng lượt làm bài, điểm, chi tiết từng câu (học viên chọn gì / đáp án đúng).
+- **Câu sai cần hướng dẫn**: các câu đang sai kèm đáp án và lời giải.
+- **Chưa hoàn thành**: bài chưa làm hoặc làm dở.
+- **Gửi lời nhắc**: soạn lời nhắc (tự gợi ý nội dung), gửi trong web (hiện ở Trang chủ của học viên) hoặc mở email.
+Lịch sử từng lần làm chỉ được ghi từ lúc cập nhật này hoạt động; dữ liệu cũ vẫn hiện ở tab Câu sai / Chưa hoàn thành.
+
 ## Quy tắc xóa dữ liệu
 Cấu trúc: **Ngành → Unit → (Từ vựng | Bài tập → Câu hỏi)**. Cha chỉ xóa được khi con đã hết, nên xóa theo thứ tự
 **Câu hỏi → Bài tập / Từ vựng → Unit → Ngành**. Quản trị → **Quản lý dữ liệu → Xóa dữ liệu** có cây xóa theo từng cấp

@@ -32,7 +32,7 @@ export async function viewAdminExercises() {
           ${e.questions.length ? e.questions.map((q, qi) => `<div class="qrow"><span class="qn">${qi + 1}</span><span class="badge">${KIND_LABEL[q.kind] || q.kind}</span><span class="qt" title="${esc(summary(q))}">${esc(summary(q))}</span>
             <span class="acts"><button class="btn ghost sm" data-qu="${q.id}" ${qi === 0 ? "disabled" : ""}>↑</button> <button class="btn ghost sm" data-qd="${q.id}" ${qi === e.questions.length - 1 ? "disabled" : ""}>↓</button>
             <button class="btn ghost sm" data-eq="${q.id}">Sửa</button> <button class="btn danger sm" data-dq="${q.id}">Xóa</button></span></div>`).join("") : '<div class="qrow"><span></span><span></span><span class="muted">Chưa có câu hỏi. Học viên sẽ chưa thấy bài này.</span></div>'}</article>`).join("");
-      return `<section style="margin-bottom:26px"><h3 style="margin-bottom:10px">${SECTIONS[sec].ic} ${SECTIONS[sec].n} <span class="small">· ${SECTIONS[sec].vi}</span></h3>${cards ? `<div class="exlist">${cards}</div>` : '<div class="empty-state" style="padding:20px">Chưa có bài tập nào trong phần này.</div>'}</section>`;
+      return `<section style="margin-bottom:26px"><h2 style="margin-bottom:10px">${SECTIONS[sec].ic} ${SECTIONS[sec].n} <span class="small">· ${SECTIONS[sec].vi}</span></h2>${cards ? `<div class="exlist">${cards}</div>` : '<div class="empty-state" style="padding:20px">Chưa có bài tập nào trong phần này.</div>'}</section>`;
     }).join("");
     body.innerHTML = `<div class="help">Phần <b>Word Bank</b> (danh sách, thẻ ghi nhớ, trắc nghiệm từ vựng) được tạo tự động từ <a href="#/admin/words">Kho từ vựng</a>.</div>${part}`;
 

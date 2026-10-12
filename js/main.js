@@ -18,6 +18,7 @@ import { viewAdminUnits } from "./views/admin/units.js";
 import { viewAdminWords } from "./views/admin/words.js";
 import { viewAdminExercises } from "./views/admin/exercises.js";
 import { viewAdminUsers } from "./views/admin/users.js";
+import { viewAdminStudent } from "./views/admin/student.js";
 import { viewAdminData } from "./views/admin/data.js";
 import { app, setCrumbs, theme } from "./views/shared.js";
 
@@ -89,6 +90,7 @@ route("/admin/units", viewAdminUnits);
 route("/admin/words", viewAdminWords);
 route("/admin/exercises", viewAdminExercises);
 route("/admin/users", viewAdminUsers);
+route("/admin/users/:id", viewAdminStudent);
 route("/admin/data", viewAdminData);
 onNotFound(() => {
   theme(); setCrumbs("");

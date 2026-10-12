@@ -13,11 +13,15 @@ export const Progress = {
   scores: new Map(), // ex_key -> { best, last, attempts }
   agg: {}, // unit_id -> { section -> { done, ok } }
   queue: new Map(),
+  runQueue: new Map(), // lượt làm (study_runs) chờ lưu
+  ansQueue: [], // từng câu trả lời (answer_log) chờ lưu
+  logOff: false, // true nếu bảng nhật ký chưa được tạo (chưa chạy 03_student_tracking.sql)
   timer: null,
   loaded: false,
 
   reset() {
-    this.items.clear(); this.scores.clear(); this.agg = {}; this.queue.clear(); this.loaded = false;
+    this.items.clear(); this.scores.clear(); this.agg = {}; this.queue.clear();
+    this.runQueue.clear(); this.ansQueue = []; this.loaded = false;
   },
 
   async load() {
@@ -47,16 +51,48 @@ export const Progress = {
       user_id: Auth.user.id, unit_id: unitId, section,
       question_id: qid || null, word_id: wid || null, ok, updated_at: at,
     });
-    clearTimeout(this.timer);
-    this.timer = setTimeout(() => this.flush(), 900);
+    this.schedule();
+  },
+
+  schedule(ms = 900) { clearTimeout(this.timer); this.timer = setTimeout(() => this.flush(), ms); },
+
+  /** Ghi 1 lượt làm bài (cập nhật số câu / số đúng) */
+  logRun(run) {
+    if (!Auth.user || this.logOff) return;
+    this.runQueue.set(run.id, { ...run, user_id: Auth.user.id });
+    this.schedule();
+  },
+  /** Ghi 1 câu trả lời trong lượt làm */
+  logAnswer(a) {
+    if (!Auth.user || this.logOff) return;
+    this.ansQueue.push({ ...a, user_id: Auth.user.id });
+    this.schedule();
   },
 
   async flush() {
-    if (!this.queue.size) return;
-    const rows = [...this.queue.values()];
-    this.queue.clear();
-    try { await api.saveProgress(rows); }
-    catch (e) { console.warn("Lưu tiến độ thất bại, sẽ thử lại:", e.message); rows.forEach((r) => this.queue.set(keyOf(r), r)); this.timer = setTimeout(() => this.flush(), 8000); }
+    let retry = false;
+    if (this.queue.size) {
+      const rows = [...this.queue.values()];
+      this.queue.clear();
+      try { await api.saveProgress(rows); }
+      catch (e) { console.warn("Lưu tiến độ thất bại, sẽ thử lại:", e.message); rows.forEach((r) => this.queue.set(keyOf(r), r)); retry = true; }
+    }
+    const missingTable = (e) => /does not exist|schema cache|Could not find the table/i.test(e.message || "");
+    if (this.runQueue.size && !this.logOff) {
+      const rows = [...this.runQueue.values()];
+      this.runQueue.clear();
+      try { await api.saveRuns(rows); }
+      catch (e) {
+        if (missingTable(e)) { this.logOff = true; this.ansQueue = []; console.info("Chưa có bảng nhật ký học tập (chạy supabase/03_student_tracking.sql)."); }
+        else { console.warn("Lưu lượt làm thất bại:", e.message); rows.forEach((r) => this.runQueue.set(r.id, r)); retry = true; }
+      }
+    }
+    if (!this.runQueue.size && this.ansQueue.length && !this.logOff) {
+      const rows = this.ansQueue.splice(0);
+      try { await api.saveAnswers(rows); }
+      catch (e) { console.warn("Lưu câu trả lời thất bại:", e.message); this.ansQueue.unshift(...rows); retry = true; }
+    }
+    if (retry) this.schedule(8000);
   },
 
   stat(unitId, section) { return this.agg[unitId]?.[section] || { done: 0, ok: 0 }; },
