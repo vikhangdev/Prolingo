@@ -27,32 +27,114 @@ export async function viewAdminData() {
    NHẬP
    ============================================================ */
 async function importTab(box) {
-  box.innerHTML = `<div class="help">Dữ liệu một ngành (unit, từ vựng, bài tập, câu hỏi) nằm trong một file JSON. Nhập vào luôn tạo ngành <b>MỚI</b>, không ghi đè ngành cũ.</div>
+  const existing = await api.listFields();
+  let items = []; // {id, key, name, size, state, errors[], msg, data, info}
+  let busy = false, seq = 0;
+
+  box.innerHTML = `<div class="help">Mỗi file JSON là <b>một ngành</b> (unit, từ vựng, bài tập, câu hỏi). Có thể chọn <b>nhiều file</b> hoặc <b>cả thư mục</b>. Mỗi file được kiểm tra trước; file lỗi sẽ được báo rõ và bị bỏ qua, các file hợp lệ vẫn nhập bình thường. Nhập vào luôn tạo ngành <b>MỚI</b>, không ghi đè ngành cũ.</div>
     <section class="panel"><h3>Nhập dữ liệu</h3>
-      <p class="muted" style="margin-top:0">Bộ mẫu <b>Công nghệ thông tin</b> (8 unit, ~670 từ, ~380 câu hỏi) đi kèm trong thư mục <code>data/</code>.</p>
       <div class="row" style="margin-top:0"><button class="btn hi" id="seed">Nạp dữ liệu mẫu CNTT</button></div>
-      <div class="fld" style="margin-top:18px"><label for="file">Hoặc chọn file JSON</label><input class="input" id="file" type="file" accept=".json,application/json"></div>
-      <button class="btn" id="imp">Nhập file</button></section>
+      <div class="fld" style="margin-top:16px;max-width:420px"><label for="pos">Vị trí của ngành mới trong danh sách</label><select class="select" id="pos"><option value="end">Cuối danh sách (mặc định)</option><option value="start">Đầu danh sách</option>${existing.map((f) => `<option value="after:${f.id}">Ngay sau: ${esc(f.icon)} ${esc(f.name_vi || f.name)}</option>`).join("")}</select><span class="hint">Nhiều file thì giữ đúng thứ tự tên file, nối tiếp nhau từ vị trí này.</span></div>
+      <div class="grid2" style="margin-top:6px"><div class="fld"><label for="files">Chọn một hoặc nhiều file JSON</label><input class="input" id="files" type="file" accept=".json,application/json" multiple></div>
+        <div class="fld"><label for="dir">Hoặc chọn cả thư mục (lấy mọi file .json trong đó)</label><input class="input" id="dir" type="file" webkitdirectory multiple></div></div>
+      <div id="flist"></div>
+      <div class="row"><button class="btn" id="imp" disabled>Nhập</button><button class="btn ghost" id="clean" disabled>Bỏ các file đã nhập xong</button><button class="btn danger" id="reset" disabled>Xóa danh sách file</button></div></section>
     <pre class="progress-log" id="log" hidden></pre>`;
+
   const log = $("#log", box);
   const say = (t) => { log.hidden = false; log.textContent += t + "\n"; log.scrollTop = log.scrollHeight; };
-  const run = async (data) => {
-    log.textContent = "";
-    try { await api.importField(data, say); toast("Nhập dữ liệu thành công"); say("→ Vào mục Ngành / Unit để xem kết quả."); }
-    catch (e) { say("✘ Lỗi: " + errMsg(e)); toast(errMsg(e), "err"); }
+  const sizeOf = (n) => (n > 1048576 ? (n / 1048576).toFixed(1) + " MB" : Math.max(1, Math.round(n / 1024)) + " KB");
+  const readText = (f) => (f.text ? f.text() : new Promise((res, rej) => { const r = new FileReader(); r.onload = () => res(r.result); r.onerror = () => rej(r.error); r.readAsText(f); }));
+
+  const badge = (it) => ({
+    checking: '<span class="badge">Đang kiểm tra…</span>', ok: '<span class="badge green">Hợp lệ</span>', bad: '<span class="badge red">File lỗi</span>',
+    busy: '<span class="badge blue">Đang nhập…</span>', done: '<span class="badge green">Đã nhập</span>', fail: '<span class="badge red">Nhập lỗi</span>',
+  })[it.state];
+
+  const draw = () => {
+    const ok = items.filter((i) => i.state === "ok").length, bad = items.filter((i) => i.state === "bad" || i.state === "fail").length, done = items.filter((i) => i.state === "done").length;
+    $("#flist", box).innerHTML = items.length ? `<div class="small" style="margin:10px 0 6px"><b>${items.length}</b> file: <span class="badge green">${ok} hợp lệ</span> <span class="badge red">${bad} lỗi</span> <span class="badge blue">${done} đã nhập</span></div>
+      <div class="tbl-scroll"><table class="dtable"><thead><tr><th>#</th><th>Tệp</th><th>Kích thước</th><th>Trạng thái</th><th></th></tr></thead><tbody>${items.map((it, i) => `<tr><td>${i + 1}</td><td><b>${esc(it.name)}</b>${it.info ? `<br><span class="small">${esc(it.info)}</span>` : ""}</td><td>${sizeOf(it.size)}</td>
+        <td>${badge(it)}${it.errors.length ? `<ul class="ferr">${it.errors.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}${it.msg ? `<div class="small">${esc(it.msg)}</div>` : ""}</td>
+        <td class="acts"><button class="btn ghost sm" data-rm="${it.id}" ${busy ? "disabled" : ""} aria-label="Bỏ file này">✕</button></td></tr>`).join("")}</tbody></table></div>` : "";
+    $$("[data-rm]", box).forEach((b) => (b.onclick = () => { items = items.filter((i) => i.id !== +b.dataset.rm); draw(); }));
+    $("#imp", box).disabled = busy || !ok;
+    $("#imp", box).textContent = ok ? `Nhập ${ok} file hợp lệ` : "Nhập";
+    $("#clean", box).disabled = busy || !done;
+    $("#reset", box).disabled = busy || !items.length;
   };
-  $("#seed", box).onclick = async (ev) => {
-    ev.target.disabled = true;
-    try { const r = await fetch("data/it-field.json"); if (!r.ok) throw new Error("Không tìm thấy data/it-field.json"); await run(await r.json()); }
-    catch (e) { say("✘ " + errMsg(e)); } finally { ev.target.disabled = false; }
+
+  const info = (d) => `Ngành: ${d.field.name} · ${d.units.length} unit · ${d.units.reduce((a, u) => a + (u.words || []).length, 0)} từ · ${d.units.reduce((a, u) => a + (u.exercises || []).reduce((b, e) => b + (e.questions || []).length, 0), 0)} câu hỏi`;
+
+  const addFiles = async (fileList) => {
+    const files = [...fileList].filter((f) => /\.json$/i.test(f.name)).sort((a, b) => (a.webkitRelativePath || a.name).localeCompare(b.webkitRelativePath || b.name, "vi", { numeric: true }));
+    if (!files.length) return toast("Không có file .json nào trong lựa chọn của bạn", "err");
+    const fresh = [];
+    for (const f of files) {
+      const key = [f.webkitRelativePath || f.name, f.size, f.lastModified].join("|");
+      if (items.some((i) => i.key === key)) continue;
+      const it = { id: ++seq, key, name: f.webkitRelativePath || f.name, size: f.size, state: "checking", errors: [], msg: "", data: null, info: "" };
+      items.push(it); fresh.push([it, f]);
+    }
+    draw();
+    for (const [it, f] of fresh) {
+      try {
+        const data = JSON.parse(await readText(f));
+        const errs = api.validateImportData(data);
+        if (errs.length) { it.state = "bad"; it.errors = errs; }
+        else { it.state = "ok"; it.data = data; it.info = info(data); }
+      } catch (e) { it.state = "bad"; it.errors = ["Không đọc được JSON: " + (e.message || e)]; }
+      draw();
+    }
+    const nb = fresh.filter(([it]) => it.state === "bad").length;
+    if (nb) toast(`${nb} file bị lỗi, xem chi tiết trong danh sách`, "err");
   };
+  $("#files", box).onchange = async (e) => { await addFiles(e.target.files); e.target.value = ""; };
+  $("#dir", box).onchange = async (e) => { await addFiles(e.target.files); e.target.value = ""; };
+
+  /** Nhập 1 ngành; trả về thông tin ngành vừa tạo */
+  const importOne = (data, position) => api.importField(data, say, { position });
+
   $("#imp", box).onclick = async () => {
-    const f = $("#file", box).files[0];
-    if (!f) return toast("Hãy chọn file JSON trước", "err");
-    let data;
-    try { data = JSON.parse(await f.text()); } catch (e) { return toast("File không phải JSON hợp lệ", "err"); }
-    await run(data);
+    const todo = items.filter((i) => i.state === "ok");
+    if (!todo.length || busy) return;
+    busy = true; log.textContent = ""; draw();
+    let position = $("#pos", box).value, okN = 0, failN = 0;
+    for (const it of todo) {
+      it.state = "busy"; it.msg = ""; draw();
+      say(`▶ ${it.name}`);
+      try {
+        const r = await importOne(it.data, position);
+        position = "after:" + r.fieldId; // file kế tiếp nằm ngay sau ngành vừa nhập
+        it.state = "done"; it.msg = `Đã tạo ngành (slug: ${r.slug})`; okN++;
+      } catch (e) { it.state = "fail"; it.msg = errMsg(e); failN++; say("✘ " + it.name + ": " + errMsg(e)); }
+      draw();
+    }
+    busy = false; draw();
+    toast(failN ? `Đã nhập ${okN} file, ${failN} file lỗi` : `Đã nhập ${okN} file thành công`, failN ? "err" : "");
+    say(`Hoàn tất: ${okN} thành công, ${failN} lỗi. → Vào mục Ngành / Unit để xem kết quả.`);
   };
+  $("#clean", box).onclick = () => { items = items.filter((i) => i.state !== "done"); draw(); };
+  $("#reset", box).onclick = () => {
+    items = []; log.textContent = ""; log.hidden = true;
+    $("#files", box).value = ""; $("#dir", box).value = "";
+    draw(); toast("Đã xóa danh sách file");
+  };
+
+  $("#seed", box).onclick = async (ev) => {
+    ev.target.disabled = true; log.textContent = "";
+    try {
+      const r = await fetch("data/it-field.json");
+      if (!r.ok) throw new Error("Không tìm thấy data/it-field.json");
+      const data = await r.json();
+      const errs = api.validateImportData(data);
+      if (errs.length) throw new Error(errs[0]);
+      await importOne(data, $("#pos", box).value);
+      toast("Nhập dữ liệu mẫu thành công"); say("→ Vào mục Ngành / Unit để xem kết quả.");
+    } catch (e) { say("✘ Lỗi: " + errMsg(e)); toast(errMsg(e), "err"); }
+    finally { ev.target.disabled = false; }
+  };
+  draw();
 }
 
 /* ============================================================
@@ -148,7 +230,7 @@ async function deleteTab(box) {
     $("#tree", box).innerHTML = html || `<div class="empty-state">${T.fields.length ? "Không tìm thấy kết quả phù hợp." : "Chưa có dữ liệu nào để xóa."}</div>`;
   };
 
-  box.innerHTML = `<div class="dz-bar"><div class="sp"><div class="muted">Xóa từ cấp nhỏ lên lớn: <b>Câu hỏi → Bài tập/Từ vựng → Unit → Ngành</b>.<br> Nút xám có ổ khóa nghĩa là bên trong còn mục con.</div></div>
+  box.innerHTML = `<div class="dz-bar"><div class="sp"><div class="muted">Xóa từ cấp nhỏ lên lớn: <b>Câu hỏi → Bài tập · Từ vựng → Unit → Ngành</b>. Nút xám có ổ khóa nghĩa là bên trong còn mục con.</div></div>
       <input id="tsearch" class="input" placeholder="Tìm ngành, unit, bài tập…" aria-label="Tìm" value="${esc(query)}" style="max-width:260px"><button class="btn ghost" id="collapse" type="button">Thu gọn tất cả</button></div>
     <div id="tree" class="dz-tree"></div>
     <p class="small">Khi xóa câu hỏi hoặc từ vựng, <b>tiến độ học</b> liên quan của học viên cũng bị xóa theo.</p>

@@ -236,7 +236,77 @@ export async function exportField(fieldId) {
 
 const pick = (o, keys) => Object.fromEntries(keys.map((k) => [k, o[k]]));
 
-export async function importField(data, log = () => {}) {
+/** Đặt ngành vào vị trí mong muốn rồi đánh số lại thứ tự: "start" | "end" | "after:<id ngành>" */
+export async function placeField(fieldId, position) {
+  if (!position || position === "end") return;
+  const all = await listFields();
+  const me = all.find((f) => f.id === fieldId), rest = all.filter((f) => f.id !== fieldId);
+  if (!me) return;
+  let idx = rest.length;
+  if (position === "start") idx = 0;
+  else if (position.startsWith("after:")) { const i = rest.findIndex((f) => f.id === position.slice(6)); idx = i >= 0 ? i + 1 : rest.length; }
+  rest.splice(idx, 0, me);
+  await saveOrder("fields", rest.map((r) => ({ id: r.id, sort_order: -1 })));
+}
+
+/** Kiểm tra cấu trúc file JSON TRƯỚC khi nhập. Trả về mảng thông báo lỗi (rỗng = hợp lệ). */
+export function validateImportData(d) {
+  const err = [];
+  const add = (m) => { if (err.length < 12) err.push(m); };
+  if (!d || typeof d !== "object" || Array.isArray(d)) return ["Nội dung không phải là một đối tượng JSON (cần có field và units)."];
+  if (!d.field || typeof d.field !== "object") add('Thiếu khối "field" (thông tin ngành).');
+  else if (!String(d.field.name || "").trim()) add('Thiếu "field.name" (tên ngành).');
+  if (!Array.isArray(d.units)) { add('Thiếu mảng "units".'); return err; }
+  if (!d.units.length) add('Mảng "units" đang trống.');
+  d.units.forEach((u, ui) => {
+    const U = `Unit ${ui + 1}`;
+    if (!u || !String(u.name || "").trim()) { add(`${U}: thiếu "name".`); if (!u) return; }
+    (u.words || []).forEach((w, wi) => { if (!w || !String(w.en || "").trim() || !String(w.vi || "").trim()) add(`${U}, từ #${wi + 1}: thiếu "en" hoặc "vi".`); });
+    (u.exercises || []).forEach((e, ei) => {
+      const E = `${U}, bài ${ei + 1}`;
+      if (!e) return add(`${E}: dữ liệu rỗng.`);
+      if (!["vocab", "lang", "read"].includes(e.section)) add(`${E}: "section" phải là vocab, lang hoặc read.`);
+      if (!["quiz", "match"].includes(e.kind || "quiz")) add(`${E}: "kind" phải là quiz hoặc match.`);
+      if (!String(e.title || "").trim()) add(`${E}: thiếu "title".`);
+      const kinds = e.kind === "match" ? ["pair"] : ["mc", "tf", "ms", "fl"];
+      (e.questions || []).forEach((q, qi) => {
+        const Q = `${E}, câu ${qi + 1}`, c = q && q.content;
+        if (!q || !kinds.includes(q.kind)) return add(`${Q}: "kind" phải là ${kinds.join(", ")}.`);
+        if (!c || typeof c !== "object") return add(`${Q}: thiếu "content".`);
+        if (q.kind === "pair") { if (!String(c.a || "").trim() || !String(c.b || "").trim()) add(`${Q}: thiếu "a" hoặc "b".`); return; }
+        if (!String(c.q || "").trim()) add(`${Q}: thiếu "q" (nội dung câu hỏi).`);
+        if (q.kind === "mc" || q.kind === "ms") {
+          if (!Array.isArray(c.opts) || c.opts.length < 2) add(`${Q}: cần ít nhất 2 lựa chọn trong "opts".`);
+          else if (!Array.isArray(c.ans) || !c.ans.length || c.ans.some((a) => !Number.isInteger(a) || a < 0 || a >= c.opts.length)) add(`${Q}: "ans" phải là số thứ tự (bắt đầu từ 0) nằm trong "opts".`);
+        }
+        if (q.kind === "tf" && !(Array.isArray(c.ans) && (c.ans[0] === 0 || c.ans[0] === 1))) add(`${Q}: "ans" của True/False phải là [0] hoặc [1].`);
+        if (q.kind === "fl") {
+          const blanks = String(c.q || "").split("___").length - 1;
+          if (!blanks) add(`${Q}: câu điền từ cần có chỗ trống "___".`);
+          else if (!Array.isArray(c.ans) || c.ans.length !== blanks) add(`${Q}: có ${blanks} chỗ trống nhưng "ans" có ${Array.isArray(c.ans) ? c.ans.length : 0} phần tử.`);
+        }
+      });
+    });
+  });
+  return err;
+}
+
+/** Hoàn tác: xóa ngành vừa tạo dở (từ cấp nhỏ đến lớn) */
+async function rollbackField(fieldId) {
+  try {
+    const units = unwrap(await sb.from("units").select("id").eq("field_id", fieldId)).map((u) => u.id);
+    if (units.length) {
+      const exs = unwrap(await sb.from("exercises").select("id").in("unit_id", units)).map((e) => e.id);
+      await deleteIn("questions", "exercise_id", exs);
+      await deleteIn("exercises", "unit_id", units);
+      await deleteIn("words", "unit_id", units);
+      await deleteIn("units", "id", units);
+    }
+    await deleteRow("fields", fieldId);
+  } catch (e) { console.warn("Không hoàn tác hết được:", e.message); }
+}
+
+export async function importField(data, log = () => {}, options = {}) {
   if (!data || !data.field || !Array.isArray(data.units)) throw new Error("File JSON không đúng định dạng (thiếu field/units).");
   const uuid = () => crypto.randomUUID();
 
@@ -262,6 +332,7 @@ export async function importField(data, log = () => {}) {
   log(`✔ Ngành "${data.field.name}" (slug: ${slug})`);
 
   let nq = 0, nw = 0;
+  try {
   for (let ui = 0; ui < data.units.length; ui++) {
     const u = data.units[ui];
     const unitId = uuid();
@@ -296,6 +367,14 @@ export async function importField(data, log = () => {}) {
       unwrap(await sb.from("glossary").upsert(rows.slice(i, i + 400), { onConflict: "en_key" }));
     log(`✔ Từ điển tra nhanh: ${rows.length} mục`);
   }
+  } catch (e) {
+    await rollbackField(fieldId);
+    throw new Error((e && e.message ? e.message : String(e)) + " (đã hoàn tác phần vừa nhập dở)");
+  }
+  if (options.position && options.position !== "end") {
+    await placeField(fieldId, options.position);
+    log("✔ Đã đặt ngành vào vị trí bạn chọn");
+  }
   log(`Hoàn tất: ${data.units.length} unit · ${nw} từ · ${nq} câu hỏi.`);
-  return { fieldId, slug };
+  return { fieldId, slug, units: data.units.length, words: nw, questions: nq };
 }
