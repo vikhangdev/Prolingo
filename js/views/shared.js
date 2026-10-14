@@ -7,7 +7,7 @@ export const showError = (e) => {
   console.error(e);
 };
 export const setCrumbs = (t) => { $("#crumbs").textContent = t || ""; };
-export const theme = (h) => setTheme(h);
+export const theme = (h, colorHex) => setTheme(h, colorHex);
 export const unitHue = (u, field, idx) => (u.hue != null ? u.hue : ((field?.hue ?? 222) + idx * 37) % 360);
 export const pctOf = (a, b) => (b ? Math.round((a / b) * 100) : 0);
 export const unitTotal = (s) => s.n_words + s.n_vocab + s.n_lang + s.n_read;

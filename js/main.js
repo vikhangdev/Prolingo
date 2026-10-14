@@ -3,7 +3,7 @@
    ============================================================ */
 import { configured } from "./supabase.js";
 import { APP_NAME } from "./config.js";
-import { $, esc, hueOf, initial } from "./utils.js";
+import { $, esc, avatarHtml } from "./utils.js";
 import { Auth } from "./auth.js";
 import { Progress } from "./progress.js";
 import { route, onNotFound, beforeEach, startRouter, resolve, path, go } from "./router.js";
@@ -19,6 +19,7 @@ import { viewAdminWords } from "./views/admin/words.js";
 import { viewAdminExercises } from "./views/admin/exercises.js";
 import { viewAdminUsers } from "./views/admin/users.js";
 import { viewAdminStudent } from "./views/admin/student.js";
+import { viewAdminUserAccount } from "./views/admin/user-account.js";
 import { viewAdminData } from "./views/admin/data.js";
 import { app, setCrumbs, theme } from "./views/shared.js";
 
@@ -47,7 +48,7 @@ function renderChrome() {
     ub.innerHTML = `<a class="btn ghost sm" href="#/login" style="background:transparent;color:#fff;border-color:rgba(255,255,255,.4)">Đăng nhập</a><a class="btn hi sm" href="#/register">Đăng ký</a>`;
     return;
   }
-  ub.innerHTML = `<button class="menu-btn" id="mb" aria-haspopup="true" aria-expanded="false"><span class="who">${esc(Auth.name)}</span><span class="avatar" style="--uh:${hueOf(Auth.user.email)}">${esc(initial(Auth.name))}</span></button>
+  ub.innerHTML = `<button class="menu-btn" id="mb" aria-haspopup="true" aria-expanded="false"><span class="who">${esc(Auth.name)}</span>${avatarHtml(Auth.profile)}</button>
     <div class="menu" id="menu" hidden><div class="who-card"><b>${esc(Auth.name)}</b><span>${esc(Auth.user.email)}</span><br><span class="role-badge">${Auth.isAdmin ? "Quản trị viên" : "Học viên"}</span></div>
     <a href="#/account">👤 Tài khoản & mật khẩu</a><a href="#/progress">📈 Tiến độ học tập</a>${Auth.isAdmin ? '<a href="#/admin">🛠️ Quản trị</a>' : ""}<button id="so">🚪 Đăng xuất</button></div>`;
   const menu = $("#menu"), mb = $("#mb");
@@ -91,6 +92,7 @@ route("/admin/words", viewAdminWords);
 route("/admin/exercises", viewAdminExercises);
 route("/admin/users", viewAdminUsers);
 route("/admin/users/:id", viewAdminStudent);
+route("/admin/users/:id/manage", viewAdminUserAccount);
 route("/admin/data", viewAdminData);
 onNotFound(() => {
   theme(); setCrumbs("");

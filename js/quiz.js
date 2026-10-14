@@ -87,12 +87,18 @@ function givenText(q, given) {
 function track(q, given, ok) {
   const ex = curEx(), k = exKeyOf(ex), now = new Date().toISOString();
   // total của lượt = số câu chưa có kết quả lúc bắt đầu lượt (làm lại câu sai → chỉ tính các câu sai)
-  const run = (S.runs[k] ||= { id: crypto.randomUUID(), started_at: now, answered: 0, correct: 0, total: ex.items.filter((_, i) => !S.res[key(i)]).length + 1 });
+  let run = S.runs[k];
+  if (!run) {
+    run = S.runs[k] = { id: crypto.randomUUID(), started_at: now, answered: 0, correct: 0, total: ex.items.filter((_, i) => !S.res[key(i)]).length + 1, duration_seconds: 0, last_activity_ms: Date.now() };
+  } else {
+    run.duration_seconds += Math.min(300, Math.max(0, Math.floor((Date.now() - run.last_activity_ms) / 1000)));
+    run.last_activity_ms = Date.now();
+  }
   run.answered++;
   if (ok) run.correct++;
   Progress.logRun({
     id: run.id, unit_id: S.unit.id, section: S.sec, ex_key: k, ex_title: ex.t,
-    total: run.total, answered: run.answered, correct: run.correct, started_at: run.started_at, updated_at: now,
+    total: run.total, answered: run.answered, correct: run.correct, started_at: run.started_at, updated_at: now, duration_seconds: run.duration_seconds,
   });
   Progress.logAnswer({
     run_id: run.id, unit_id: S.unit.id, question_id: q._t === "q" ? q._id : null, word_id: q._t === "w" ? q._id : null,

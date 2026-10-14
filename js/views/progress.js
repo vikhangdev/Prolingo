@@ -1,4 +1,4 @@
-import { esc, fmtDate } from "../utils.js";
+import { esc, fmtDate, fieldColor } from "../utils.js";
 import * as api from "../api.js";
 import { Progress } from "../progress.js";
 import { app, loading, showError, setCrumbs, theme, pctOf, unitTotal } from "./shared.js";
@@ -22,7 +22,7 @@ export async function viewProgress() {
         const tot = unitTotal(s), p = Progress.unitStat(u.id);
         const acc = p.done ? Math.round((p.ok / p.done) * 100) : null;
         return `<tr><td><a href="#/u/${u.id}">Unit ${i + 1} · ${esc(u.icon)} ${esc(u.name)}</a></td>
-          <td style="width:34%"><div class="bar" style="--u:hsl(${f.hue} 55% 40%)"><i style="width:${pctOf(p.done, tot)}%"></i></div></td>
+          <td style="width:34%"><div class="bar" style="--u:${fieldColor(f)}"><i style="width:${pctOf(p.done, tot)}%"></i></div></td>
           <td>${p.done}/${tot}</td><td>${acc == null ? "—" : `<span class="badge ${acc >= 80 ? "green" : acc >= 50 ? "gold" : "red"}">${acc}% đúng</span>`}</td></tr>`;
       }).join("");
       const ft = us.reduce((a, u) => a + unitTotal(sm[u.id] || { n_words: 0, n_vocab: 0, n_lang: 0, n_read: 0 }), 0);

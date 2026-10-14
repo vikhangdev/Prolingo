@@ -1,45 +1,68 @@
-import { $, $$, esc, fmtDate, fmtDateTime, debounce, confirmBox } from "../../utils.js";
+import { $, esc, debounce, avatarHtml } from "../../utils.js";
 import * as api from "../../api.js";
 import { Auth } from "../../auth.js";
-import { shell, act } from "./ui.js";
-
-const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
-const idleDays = (d) => (d ? Math.floor((Date.now() - new Date(d).getTime()) / 86400000) : null);
+import { shell } from "./ui.js";
 
 export async function viewAdminUsers() {
   const body = shell("users", "Quản lý người dùng");
-  let rows = [], q = "", total = 0, only = "all";
+  body.innerHTML = '<div class="loading"><div class="spin"></div>Đang tải danh sách tài khoản…</div>';
+
+  let rows = [], fields = [], search = "", role = "all", fieldId = "all", status = "all";
   const draw = () => {
-    const list = rows.filter((u) => {
-      const t = !q || (u.email || "").toLowerCase().includes(q) || (u.display_name || "").toLowerCase().includes(q);
-      const d = idleDays(u.last_active);
-      return t && (only === "all" || (only === "idle" && u.role !== "admin" && (d == null || d >= 7)));
+    const list = rows.filter((user) => {
+      const matchesSearch = !search ||
+        (user.email || "").toLowerCase().includes(search) ||
+        (user.display_name || "").toLowerCase().includes(search);
+      return matchesSearch &&
+        (role === "all" || user.role === role) &&
+        (fieldId === "all" || (fieldId === "none" ? !user.primary_field_id : user.primary_field_id === fieldId)) &&
+        (status === "all" || (status === "active" ? user.is_active !== false : user.is_active === false));
     });
-    const idleN = rows.filter((u) => u.role !== "admin" && (idleDays(u.last_active) ?? 99) >= 7).length;
-    body.innerHTML = `<div class="filters"><div class="fld" style="flex:3;min-width:300px"><label for="uq">Tìm người dùng</label><input class="input" id="uq" value="${esc(q)}" placeholder="Tên hoặc email…"></div>
-      <div class="fld" style="flex:2;min-width:250px"><label for="uf">Lọc</label><select class="select" id="uf"><option value="all" ${only === "all" ? "selected" : ""}>Tất cả</option><option value="idle" ${only === "idle" ? "selected" : ""}>Lâu chưa học (≥ 7 ngày): ${idleN}</option></select></div>
-      <div class="small" style="padding-bottom:10px">${list.length}/${rows.length} tài khoản · ${rows.filter((u) => u.role === "admin").length} admin</div></div>
-      <div class="tbl-scroll"><table class="dtable"><thead><tr><th>Người dùng</th><th>Quyền</th><th>Lượt làm</th><th>Đã làm</th><th>Đúng</th><th>Hoạt động gần nhất</th><th></th></tr></thead><tbody>${list.map((u) => {
-        const me = u.id === Auth.user.id, d = idleDays(u.last_active);
-        const tag = u.role === "admin" ? "" : d == null ? ' <span class="badge red">Chưa học</span>' : d >= 7 ? ` <span class="badge gold">${d} ngày chưa học</span>` : "";
-        return `<tr><td><b>${esc(u.display_name || "—")}</b>${me ? ' <span class="badge gold">Bạn</span>' : ""}<br><span class="small">${esc(u.email)} · tham gia ${fmtDate(u.created_at)}</span></td>
-        <td><select class="select" data-role="${u.id}" style="padding:4px 8px;min-width:128px" ${me ? "disabled title='Không thể tự đổi quyền của mình'" : ""}><option value="user" ${u.role === "user" ? "selected" : ""}>Học viên</option><option value="admin" ${u.role === "admin" ? "selected" : ""}>Quản trị viên</option></select></td>
-        <td>${u.runs ?? 0}</td><td>${u.answered}<span class="small"> / ${total} (${pct(u.answered, total)}%)</span></td><td>${u.answered ? pct(u.correct, u.answered) + "%" : "—"}</td>
-        <td>${fmtDateTime(u.last_active)}${tag}</td><td class="acts"><a class="btn sm" href="#/admin/users/${u.id}">Chi tiết</a></td></tr>`;
-      }).join("") || '<tr><td colspan="7" class="muted">Không có kết quả.</td></tr>'}</tbody></table></div>`;
-    $("#uq").oninput = debounce((e) => { q = e.target.value.trim().toLowerCase(); const p = e.target.selectionStart; draw(); const el = $("#uq"); el.focus(); el.setSelectionRange(p, p); }, 200);
-    $("#uf").onchange = (e) => { only = e.target.value; draw(); };
-    $$("[data-role]", body).forEach((s) => (s.onchange = async () => {
-      const u = rows.find((r) => r.id === s.dataset.role), role = s.value;
-      const ok = await confirmBox(`Đổi quyền của ${u.email} thành "${role === "admin" ? "Quản trị viên" : "Học viên"}"?`, { okText: "Đổi quyền", danger: false });
-      if (ok && (await act(() => api.setUserRole(u.id, role), "Đã cập nhật quyền"))) u.role = role;
+    const activeCount = rows.filter((user) => user.is_active !== false).length;
+    const lockedCount = rows.length - activeCount;
+
+    body.innerHTML = `<div class="kpis">
+        <div class="kpi"><b>${rows.length}</b><span>Tổng tài khoản</span></div>
+        <div class="kpi"><b>${activeCount}</b><span>Đang hoạt động</span></div>
+        <div class="kpi"><b>${lockedCount}</b><span>Đã khóa</span></div>
+      </div>
+      <div class="filters">
+        <div class="fld" style="flex:2 1 240px"><label for="user-search">Tìm tên hoặc email</label><input class="input" id="user-search" value="${esc(search)}" placeholder="Nhập tên hoặc email…"></div>
+        <div class="fld"><label for="user-role-filter">Quyền</label><select class="select" id="user-role-filter"><option value="all">Tất cả quyền</option><option value="user" ${role === "user" ? "selected" : ""}>Học viên</option><option value="admin" ${role === "admin" ? "selected" : ""}>Quản trị viên</option></select></div>
+        <div class="fld"><label for="user-field-filter">Ngành chính</label><select class="select" id="user-field-filter"><option value="all">Tất cả ngành</option>${fields.map((field) => `<option value="${field.id}" ${fieldId === field.id ? "selected" : ""}>${esc(field.name_vi || field.name)}</option>`).join("")}<option value="none" ${fieldId === "none" ? "selected" : ""}>Chưa chọn ngành chính</option></select></div>
+        <div class="fld"><label for="user-status-filter">Trạng thái</label><select class="select" id="user-status-filter"><option value="all">Tất cả trạng thái</option><option value="active" ${status === "active" ? "selected" : ""}>Đang hoạt động</option><option value="locked" ${status === "locked" ? "selected" : ""}>Đã khóa</option></select></div>
+      </div>
+      <div class="small" style="margin:0 0 10px">${list.length} / ${rows.length} tài khoản</div>
+      <div class="tbl-scroll"><table class="dtable"><thead><tr><th>Người dùng</th><th>Quyền</th><th>Trạng thái</th><th>Ngành chính</th><th>Quản lý</th></tr></thead><tbody>${list.map((user) => {
+        const isSelf = user.id === Auth.user.id;
+        return `<tr>
+          <td><div class="row" style="margin:0;flex-wrap:nowrap">${avatarHtml(user)}<div><b>${esc(user.display_name || "Chưa đặt tên")}${isSelf ? ' <span class="badge gold">Bạn</span>' : ""}</b><br><span class="small">${esc(user.email || "")}</span></div></div></td>
+          <td>${user.role === "admin" ? "Quản trị viên" : "Học viên"}</td>
+          <td><span class="badge ${user.is_active === false ? "red" : "green"}">${user.is_active === false ? "Đã khóa" : "Đang hoạt động"}</span></td>
+          <td>${esc(user.primary_field_name || "Chưa chọn")}</td>
+          <td class="acts"><a class="btn ghost sm" href="#/admin/users/${user.id}">Quá trình học</a> <a class="btn sm" href="#/admin/users/${user.id}/manage">Quản lý tài khoản</a></td>
+        </tr>`;
+      }).join("") || '<tr><td colspan="5" class="muted">Không có tài khoản phù hợp.</td></tr>'}</tbody></table></div>`;
+
+    $("#user-search").oninput = debounce((event) => {
+      search = event.target.value.trim().toLowerCase();
+      const position = event.target.selectionStart;
       draw();
-    }));
+      const input = $("#user-search");
+      input.focus();
+      input.setSelectionRange(position, position);
+    }, 200);
+    $("#user-role-filter").onchange = (event) => { role = event.target.value; draw(); };
+    $("#user-field-filter").onchange = (event) => { fieldId = event.target.value; draw(); };
+    $("#user-status-filter").onchange = (event) => { status = event.target.value; draw(); };
   };
+
   try {
-    const [users, stats] = await Promise.all([api.adminUsers(), api.unitStats()]);
-    rows = users;
-    total = stats.reduce((a, s) => a + s.n_words + s.n_vocab + s.n_lang + s.n_read, 0);
+    [rows, fields] = await Promise.all([api.adminUsers(), api.listFields()]);
+    rows = rows || [];
+    fields = fields || [];
     draw();
-  } catch (e) { body.innerHTML = `<div class="alert err">${esc(e.message)}. Hãy chắc chắn đã chạy các file trong thư mục <code>supabase/</code> (01 và 03).</div>`; }
+  } catch (error) {
+    body.innerHTML = `<div class="alert err">${esc(error.message || error)}. Hãy chắc chắn đã chạy các migration Supabase cần thiết.</div>`;
+  }
 }

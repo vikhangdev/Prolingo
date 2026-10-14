@@ -1,4 +1,4 @@
-import { $, $$, esc, fmtDateTime, SECTIONS, SECTION_KEYS } from "../utils.js";
+import { $, $$, esc, fmtDateTime, SECTIONS, SECTION_KEYS, fieldColor } from "../utils.js";
 import * as api from "../api.js";
 import { Auth } from "../auth.js";
 import { Progress } from "../progress.js";
@@ -24,7 +24,7 @@ export async function viewHome() {
       const us = byField[f.id] || [];
       const total = us.reduce((a, s) => a + unitTotal(s), 0);
       const done = us.reduce((a, s) => a + Progress.unitStat(s.unit_id).done, 0);
-      return `<a class="cover" href="#/f/${esc(f.slug)}" style="--fh:${f.hue}">
+      return `<a class="cover" href="#/f/${esc(f.slug)}" style="--fh:${f.hue};--fc:${fieldColor(f)}">
         <span class="ic" aria-hidden="true">${esc(f.icon)}</span>
         <span class="tag">${us.length} unit · ${total} câu${hiddenTag(f.is_published)}</span>
         <span class="label"><span class="k">Môn: Tiếng Anh chuyên ngành</span><span class="en" style="display:block">${esc(f.name)}</span><span class="vi" style="display:block">${esc(f.name_vi)}</span></span>
@@ -51,7 +51,7 @@ export async function viewField({ slug }) {
   try {
     const field = await api.getFieldBySlug(slug);
     if (!field) return (app().innerHTML = `<div class="empty-state"><div class="big">🔍</div><h3>Không tìm thấy ngành này</h3><a class="btn" href="#/">Về trang chủ</a></div>`);
-    theme(field.hue); setCrumbs(field.name_vi || field.name);
+    theme(field.hue, field.color_hex); setCrumbs(field.name_vi || field.name);
     const [units, stats] = await Promise.all([api.listUnits(field.id), api.unitStats()]);
     const sm = statsMap(stats);
     const cards = units.map((u, i) => {
@@ -75,7 +75,7 @@ export async function viewUnit({ id }) {
     if (!unit) return (app().innerHTML = `<div class="empty-state"><div class="big">🔍</div><h3>Không tìm thấy unit</h3><a class="btn" href="#/">Về trang chủ</a></div>`);
     const siblings = await api.listUnits(unit.field_id);
     const idx = Math.max(0, siblings.findIndex((u) => u.id === id));
-    theme(unitHue(unit, unit.field, idx));
+    theme(unitHue(unit, unit.field, idx), unit.field.color_hex);
     setCrumbs(`${unit.field.name_vi || unit.field.name} › Unit ${idx + 1}: ${unit.name}`);
     const s = stats.find((x) => x.unit_id === id) || { n_words: 0, n_vocab: 0, n_lang: 0, n_read: 0 };
     const counts = { bank: s.n_words, vocab: s.n_vocab, lang: s.n_lang, read: s.n_read };
@@ -101,7 +101,7 @@ export async function viewStudy({ id, sec }, alive) {
     const idx = Math.max(0, siblings.findIndex((u) => u.id === id));
     const content = await api.getUnitContent(id);
     if (alive && !alive()) return;
-    theme(unitHue(unit, unit.field, idx));
+    theme(unitHue(unit, unit.field, idx), unit.field.color_hex);
     setCrumbs(`${unit.field.name_vi || unit.field.name} › Unit ${idx + 1}: ${unit.name} › ${SECTIONS[sec].vi}`);
     addWords(content.words);
     const secs = buildSections(id, content);

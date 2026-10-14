@@ -48,8 +48,8 @@
 }
 
 .cover {
-  --c: hsl(var(--fh) 52% 36%);
-  --c2: hsl(var(--fh) 50% 28%);
+  --c: var(--fc, hsl(var(--fh) 52% 36%));
+  --c2: color-mix(in srgb, var(--c) 76%, black);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -119,7 +119,7 @@
 
 .cover .label .en {
   font: 800 20px/26px var(--display);
-  color: hsl(var(--fh) 55% 28%);
+  color: var(--fc, hsl(var(--fh) 55% 28%));
 }
 
 .cover .label .vi {

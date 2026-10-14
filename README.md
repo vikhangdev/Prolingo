@@ -19,7 +19,10 @@ js/
   views/admin/        màn hình quản trị (ngành, unit, từ vựng, bài tập, người dùng, dữ liệu)
 supabase/01_schema.sql  bảng + phân quyền (RLS)
 supabase/02_delete_rules.sql  (chỉ cần nếu đã chạy 01 từ bản cũ) khóa xóa cha khi còn con
-data/it-field.json      dữ liệu mẫu CNTT (8 unit) chuyển từ bản cũ
+supabase/04_user_account_management.sql  (cần chạy nếu database đã được tạo trước tính năng quản lý tài khoản)
+supabase/05_user_industry_and_study_time.sql  (ngành chính tùy chọn, nhật ký học và thời lượng học)
+supabase/06_user_avatars.sql  (ảnh đại diện lưu trong Supabase Storage)
+data/itfield.json      dữ liệu mẫu CNTT (8 unit) chuyển từ bản cũ
 tools/export-seed.mjs   script đã dùng để chuyển script.js cũ → JSON
 ```
 
@@ -28,6 +31,7 @@ tools/export-seed.mjs   script đã dùng để chuyển script.js cũ → JSON
 ### 1. Tạo project Supabase
 1. Vào https://supabase.com → **New project** (gói Free là đủ).
 2. **SQL Editor → New query** → dán toàn bộ `supabase/01_schema.sql` → **Run**.
+3. Chạy tiếp `supabase/06_user_avatars.sql` để tạo vùng lưu ảnh đại diện.
 
 ### 2. Cấu hình Auth
 **Authentication → URL Configuration**
@@ -55,13 +59,22 @@ Không bao giờ dán `service_role` key.
 
 Từ đó, admin cấp quyền cho người khác ở **Quản trị → Người dùng**.
 
+Khi đăng ký, học viên có thể chọn **Ngành chính** hoặc bỏ qua và chọn sau ở **Tài khoản của tôi**.
+
+## Quản lý tài khoản người dùng
+Trong **Quản trị → Người dùng → Quản lý tài khoản**, admin có thể xem thông tin, sửa tên hiển thị, ẩn/mở hoặc xóa tài khoản học viên. Mỗi thao tác cần xác nhận; tài khoản admin chỉ xem và sửa được, không thể ẩn hoặc xóa. Email chỉ xem được trong trang này.
+
+Nếu database đã chạy `01_schema.sql` trước các tính năng quản lý tài khoản/ngành chính, hãy chạy lần lượt `supabase/04_user_account_management.sql` và `supabase/05_user_industry_and_study_time.sql` trong Supabase SQL Editor. Database mới chỉ cần chạy `01_schema.sql` bản hiện tại. Tài khoản cũ có thể chọn ngành chính ở **Tài khoản của tôi** hoặc nhờ admin cập nhật trong **Quản lý tài khoản**.
+
+Để bật ảnh đại diện, chạy `supabase/06_user_avatars.sql` trong SQL Editor sau các migration hiện có. Học viên và admin có thể tải ảnh của mình lên ở **Tài khoản của tôi**; admin cũng có thể cập nhật ảnh của tài khoản trong **Quản lý tài khoản**. Ảnh được lưu ở bucket công khai `avatars`, hỗ trợ JPG, PNG, WebP và GIF tối đa 5 MB.
+
 ## Theo dõi học viên
-Chạy thêm `supabase/03_student_tracking.sql` một lần. Sau đó **Quản trị → Người dùng → Chi tiết** cho mỗi học viên xem:
+Vào **Quản trị → Người dùng → Quá trình học** để xem:
 - **Các lần làm**: từng lượt làm bài, điểm, chi tiết từng câu (học viên chọn gì / đáp án đúng).
 - **Câu sai cần hướng dẫn**: các câu đang sai kèm đáp án và lời giải.
 - **Chưa hoàn thành**: bài chưa làm hoặc làm dở.
 - **Gửi lời nhắc**: soạn lời nhắc (tự gợi ý nội dung), gửi trong web (hiện ở Trang chủ của học viên) hoặc mở email.
-Lịch sử từng lần làm chỉ được ghi từ lúc cập nhật này hoạt động; dữ liệu cũ vẫn hiện ở tab Câu sai / Chưa hoàn thành.
+Có thể lọc theo ngành, unit, trạng thái và thời gian. Ngành đã học được xác định từ tiến độ/lượt học đã ghi nhận; đây không phải danh sách đăng ký riêng. Thời gian học là ước tính giữa các câu trả lời; dữ liệu lượt cũ chưa có thời lượng.
 
 ## Quy tắc xóa dữ liệu
 Cấu trúc: **Ngành → Unit → (Từ vựng | Bài tập → Câu hỏi)**. Cha chỉ xóa được khi con đã hết, nên xóa theo thứ tự

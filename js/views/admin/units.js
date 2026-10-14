@@ -1,28 +1,41 @@
 import { $, $$, esc, confirmBox, notice } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, scopeFilters, act, dialogForm, moveItem } from "./ui.js";
-import { guardUnit } from "./guard.js";
+import { guardUnit, guardUnitsOfField } from "./guard.js";
 
 export async function viewAdminUnits() {
-  const body = shell("units", "Quản lý Unit trong ngành", '<button class="btn" id="add">+ Thêm unit</button>');
+  const body = shell("units", "Quản lý Unit trong ngành", '<button class="btn" id="add">+ Thêm unit</button><button class="btn danger" id="delete-all">Xóa tất cả Unit</button>');
   let scope = null, rows = [];
   const load = async () => {
     const [us, stats] = await Promise.all([api.listUnits(scope.field.id), api.unitStats()]);
     rows = us;
     const sm = Object.fromEntries(stats.map((s) => [s.unit_id, s]));
-    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên unit</th><th>Từ</th><th>Câu hỏi</th><th>Hiển thị</th><th>Từ vựng / Câu hỏi / Chức năng</th></tr></thead><tbody>${rows.map((u, i) => {
+    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên unit</th><th>Từ</th><th>Câu hỏi</th><th>Hiển thị</th><th>Sắp xếp</th><th>Nội dung</th><th>Chức năng</th></tr></thead><tbody>${rows.map((u, i) => {
       const s = sm[u.id] || {};
       return `<tr><td style="text-align:center">${i + 1}</td><td class="ico">${esc(u.icon)}</td><td><b>${esc(u.name)}</b><br><span class="small">${esc(u.name_vi)}</span></td>
       <td style="text-align:center">${s.n_words || 0}</td><td style="text-align:center">${(s.n_vocab || 0) + (s.n_lang || 0) + (s.n_read || 0)}</td>
-      <td>${u.is_published ? '<span class="badge green">Hiển thị</span>' : '<span class="badge red">Đã ẩn</span>'}</td>
-      <td class="acts"><button class="btn ghost sm" data-up="${u.id}" ${i === 0 ? "disabled" : ""}>↑</button><button class="btn ghost sm" data-dn="${u.id}" ${i === rows.length - 1 ? "disabled" : ""}>↓</button>
-      <a class="btn ghost sm" href="#/admin/words" data-go="${u.id}">Từ vựng</a><a class="btn ghost sm" href="#/admin/exercises" data-go="${u.id}">Bài tập</a>
-      <button class="btn ghost sm" data-ed="${u.id}">Sửa</button><button class="btn danger sm" data-del="${u.id}">Xóa</button></td></tr>`;
+      <td style="text-align:center"><button class="publish-toggle ${u.is_published ? "on" : "off"}" type="button" data-pub="${u.id}" aria-pressed="${!!u.is_published}" aria-label="${u.is_published ? "Ẩn" : "Hiển thị"} unit ${esc(u.name)}"><span class="publish-toggle__track"><span></span></span></button></td>
+      <td class="sort-actions"><button class="btn ghost sm" data-up="${u.id}" ${i === 0 ? "disabled" : ""} aria-label="Đưa ${esc(u.name)} lên">↑</button><button class="btn ghost sm" data-dn="${u.id}" ${i === rows.length - 1 ? "disabled" : ""} aria-label="Đưa ${esc(u.name)} xuống">↓</button></td>
+      <td class="acts"><a class="btn ghost sm" href="#/admin/words" data-go="${u.id}">Từ vựng</a><a class="btn ghost sm" href="#/admin/exercises" data-go="${u.id}">Bài tập</a></td>
+      <td class="acts"><button class="btn ghost sm" data-ed="${u.id}">Sửa</button><button class="btn danger sm" data-del="${u.id}">Xóa</button></td></tr>`;
     }).join("")}</tbody></table></div>` : `<div class="empty-state"><div class="big">📘</div><h3>Ngành này chưa có unit</h3><p>Bấm "Thêm unit" để bắt đầu.</p></div>`;
     $$("[data-ed]", body).forEach((b) => (b.onclick = () => edit(rows.find((r) => r.id === b.dataset.ed))));
     $$("[data-del]", body).forEach((b) => (b.onclick = () => del(rows.find((r) => r.id === b.dataset.del))));
     $$("[data-up]", body).forEach((b) => (b.onclick = () => reorder(b.dataset.up, -1)));
     $$("[data-dn]", body).forEach((b) => (b.onclick = () => reorder(b.dataset.dn, 1)));
+    $$("[data-pub]", body).forEach((b) => {
+      b.onclick = async () => {
+        const u = rows.find((r) => r.id === b.dataset.pub);
+        if (!u) return;
+        b.disabled = true;
+        const saved = await act(
+          () => api.updateRow("units", u.id, { is_published: !u.is_published }),
+          u.is_published ? "Đã ẩn unit" : "Đã hiển thị unit"
+        );
+        if (saved) await load();
+        else b.disabled = false;
+      };
+    });
     $$("[data-go]", body).forEach((a) => a.addEventListener("click", () => {
       try { sessionStorage.setItem("nghe_admin_scope", JSON.stringify({ fieldId: scope.field.id, unitId: a.dataset.go })); } catch (e) { /* ignore */ }
     }));
@@ -38,6 +51,16 @@ export async function viewAdminUnits() {
     if (msg) return notice(msg);
     if (!(await confirmBox(`Xóa unit "${u.name}"?`))) return;
     if (await act(() => api.deleteRow("units", u.id), "Đã xóa unit")) load();
+  };
+  const deleteAll = async () => {
+    if (!rows.length) return notice(`Ngành "${scope.field.name}" chưa có unit nào.`);
+    const msg = await guardUnitsOfField(scope.field, rows.map((u) => u.id));
+    if (msg) return notice(msg);
+    if (!(await confirmBox(`Xóa tất cả ${rows.length} unit đã trống của ngành "${scope.field.name}"?`))) return;
+    if (await act(
+      () => api.deleteWhere("units", "field_id", scope.field.id),
+      `Đã xóa ${rows.length} unit`
+    )) await load();
   };
   const edit = (u) => {
     const isNew = !u;
@@ -67,5 +90,6 @@ export async function viewAdminUnits() {
   scope = await scopeFilters(false, async (s) => { scope = s; await load(); });
   if (!scope) return;
   $("#add").onclick = () => edit(null);
+  $("#delete-all").onclick = deleteAll;
   await load();
 }

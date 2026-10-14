@@ -88,6 +88,13 @@ export const insertRow = async (table, row) => unwrap(await sb.from(table).inser
 export const insertRows = async (table, rows, chunk = 400) => {
   for (let i = 0; i < rows.length; i += chunk) unwrap(await sb.from(table).insert(rows.slice(i, i + chunk)));
 };
+export const insertWordsIgnoringDuplicates = async (rows) =>
+  rows.length
+    ? unwrap(await sb.from("words").upsert(rows, {
+        onConflict: "unit_id,en_key",
+        ignoreDuplicates: true,
+      }).select("en_key"))
+    : [];
 export const updateRow = async (table, id, patch) =>
   unwrap(await sb.from(table).update(patch).eq("id", id).select().single());
 export const deleteRow = async (table, id) => unwrap(await sb.from(table).delete().eq("id", id));
@@ -163,6 +170,24 @@ export const sendReminder = async (userId, senderId, message) =>
 export const studentReminders = async (userId) =>
   unwrap(await sb.from("reminders").select("*").eq("user_id", userId).order("created_at", { ascending: false }));
 
+/* ---------- Ảnh đại diện ---------- */
+export async function uploadAvatar(userId, file) {
+  if (!file || !["image/jpeg", "image/png", "image/webp", "image/gif"].includes(file.type)) {
+    throw new Error("Chọn ảnh JPG, PNG, WebP hoặc GIF.");
+  }
+  if (file.size > 5 * 1024 * 1024) throw new Error("Ảnh đại diện không được lớn hơn 5 MB.");
+  const { error } = await sb.storage.from("avatars").upload(`${userId}/avatar`, file, {
+    cacheControl: "3600",
+    contentType: file.type,
+    upsert: true,
+  });
+  if (error) throw error;
+  return `${sb.storage.from("avatars").getPublicUrl(`${userId}/avatar`).data.publicUrl}?v=${Date.now()}`;
+}
+
+export const updateUserProfile = async (id, updates) =>
+  unwrap(await sb.from("profiles").update(updates).eq("id", id).select().single());
+
 /* ---------- Báo cáo từng học viên (admin) ---------- */
 const chunk = (a, n = 80) => { const o = []; for (let i = 0; i < a.length; i += n) o.push(a.slice(i, i + n)); return o; };
 async function byIds(table, col, ids, select, extra = (q) => q) {
@@ -201,7 +226,16 @@ export async function studentWrongDetail(userId, qIds, wIds) {
 
 /* ---------- Người dùng ---------- */
 export const adminUsers = async () => unwrap(await sb.rpc("admin_users"));
+export const adminUser = async (id) =>
+  unwrap(await sb.from("profiles").select("id, email, display_name, role, created_at, is_active, primary_field_id, avatar_url").eq("id", id).maybeSingle());
 export const setUserRole = async (id, role) => unwrap(await sb.from("profiles").update({ role }).eq("id", id).select().single());
+export const updateUserName = async (id, display_name) =>
+  unwrap(await sb.from("profiles").update({ display_name }).eq("id", id).select().single());
+export const setUserPrimaryField = async (id, primary_field_id) =>
+  unwrap(await sb.from("profiles").update({ primary_field_id }).eq("id", id).select().single());
+export const setUserActive = async (id, is_active) =>
+  unwrap(await sb.from("profiles").update({ is_active }).eq("id", id).select().single());
+export const deleteUser = async (id) => unwrap(await sb.rpc("admin_delete_user", { target_id: id }));
 export const adminCounts = async () => {
   const c = async (t) => (await sb.from(t).select("*", { count: "exact", head: true })).count || 0;
   const [fields, units, words, questions, users] = await Promise.all(
@@ -216,7 +250,7 @@ export async function exportField(fieldId) {
   const units = await listUnits(fieldId);
   const out = {
     version: 1,
-    field: pick(field, ["slug", "name", "name_vi", "icon", "hue", "description"]),
+    field: pick(field, ["slug", "name", "name_vi", "icon", "hue", "color_hex", "description"]),
     units: [],
     glossary: [],
   };
@@ -324,6 +358,7 @@ export async function importField(data, log = () => {}, options = {}) {
       name_vi: data.field.name_vi || "",
       icon: data.field.icon || "📘",
       hue: data.field.hue ?? 210,
+      color_hex: data.field.color_hex ?? null,
       description: data.field.description || "",
       sort_order: (maxOrder[0]?.sort_order ?? -1) + 1,
       is_published: true,

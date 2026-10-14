@@ -1,4 +1,4 @@
-import { $, esc, toast } from "../utils.js";
+import { $, esc, toast, fieldColor, avatarHtml } from "../utils.js";
 import { Auth, authError } from "../auth.js";
 import * as api from "../api.js";
 import { go } from "../router.js";
@@ -18,7 +18,7 @@ export async function viewWelcome(mode = "login") {
   theme(); setCrumbs("");
   let fields = [];
   try { fields = await api.listFields(); } catch (e) { /* chưa có dữ liệu cũng không sao */ }
-  const chips = fields.map((f) => `<span class="chip" style="--ch:${f.hue}">${esc(f.icon)} ${esc(f.name_vi || f.name)}</span>`).join("");
+  const chips = fields.map((f) => `<span class="chip" style="--ch:${fieldColor(f)}">${esc(f.icon)} ${esc(f.name_vi || f.name)}</span>`).join("");
 
   const card = {
     login: `<h2>Đăng nhập</h2><p class="sub">Tiếp tục ôn bài, tiến độ của bạn được lưu lại.</p>
@@ -31,6 +31,7 @@ export async function viewWelcome(mode = "login") {
       <form id="f" novalidate>${alertBox("msg")}
         <div class="fld"><label for="nm">Tên hiển thị</label><input class="input" id="nm" autocomplete="name" maxlength="40" required></div>
         <div class="fld"><label for="em">Email</label><input class="input" id="em" type="email" autocomplete="email" required></div>
+        <div class="fld"><label for="primary-field">Ngành chính <span class="muted">(không bắt buộc)</span></label><select class="select" id="primary-field"><option value="">Chưa chọn</option>${fields.map((field) => `<option value="${field.id}">${esc(field.name_vi || field.name)}</option>`).join("")}</select><span class="hint">Bạn có thể chọn hoặc cập nhật ngành chính sau.</span></div>
         <div class="grid2"><div class="fld"><label for="pw">Mật khẩu</label><input class="input" id="pw" type="password" autocomplete="new-password" minlength="6" required></div>
         <div class="fld"><label for="pw2">Nhập lại</label><input class="input" id="pw2" type="password" autocomplete="new-password" required></div></div>
         <button class="btn block" id="go">Đăng ký</button></form>
@@ -65,7 +66,7 @@ export async function viewWelcome(mode = "login") {
         if (!name) throw new Error("Vui lòng nhập tên hiển thị.");
         if (pw.length < 6) throw new Error("Mật khẩu tối thiểu 6 ký tự.");
         if (pw !== $("#pw2").value) throw new Error("Hai mật khẩu chưa giống nhau.");
-        const { needsConfirm } = await Auth.signUp({ email, password: pw, name });
+        const { needsConfirm } = await Auth.signUp({ email, password: pw, name, primaryFieldId: $("#primary-field").value || null });
         if (needsConfirm) { f.reset(); showMsg("msg", "ok", "Đăng ký thành công! Hãy mở email và bấm vào liên kết xác nhận, sau đó đăng nhập."); }
         else afterLogin();
       } else {
@@ -101,25 +102,65 @@ export function viewReset() {
 }
 
 /* ---------- Tài khoản: tên hiển thị + đổi mật khẩu + đăng xuất ---------- */
-export function viewAccount() {
+export async function viewAccount() {
   theme(); setCrumbs("Tài khoản");
   const p = Auth.profile;
+  let fields;
+  try { fields = await api.listFields(); }
+  catch (error) {
+    app().innerHTML = `<div class="alert err">${esc(error.message || error)}</div>`;
+    return;
+  }
   app().innerHTML = `<button class="back" onclick="history.back()">← Quay lại</button>
     <h1 class="h2">Tài khoản của tôi</h1><p class="sub">${esc(p.email)} · <span class="role-badge">${p.role === "admin" ? "Quản trị viên" : "Học viên"}</span></p>
     <div class="grid2" style="align-items:start;gap:22px">
+      <section class="panel"><h3>Ảnh đại diện</h3><div class="row" style="margin:0 0 14px;align-items:center">
+        <span id="avatar-preview">${avatarHtml(p, "avatar-lg")}</span>
+        <label class="btn ghost" for="avatar-file">Chọn ảnh</label><input id="avatar-file" type="file" accept="image/jpeg,image/png,image/webp,image/gif" hidden>
+      </div><p class="hint">JPG, PNG, WebP hoặc GIF; tối đa 5 MB. Có thể chọn ảnh từ điện thoại hoặc máy tính. Nhấn Lưu thông tin để lưu ảnh đã chọn.</p></section>
       <section class="panel"><h3>Thông tin</h3><form id="fp">${alertBox("m1")}
         <div class="fld"><label for="nm">Tên hiển thị</label><input class="input" id="nm" maxlength="40" value="${esc(p.display_name || "")}" required></div>
-        <button class="btn">Lưu tên</button></form></section>
+        <div class="fld"><label for="primary-field">Ngành chính <span class="muted">(không bắt buộc)</span></label><select class="select" id="primary-field"><option value="">Chưa chọn</option>${fields.map((field) => `<option value="${field.id}" ${p.primary_field_id === field.id ? "selected" : ""}>${esc(field.name_vi || field.name)}</option>`).join("")}</select></div>
+        <button class="btn" id="save-profile">Lưu thông tin</button></form></section>
       <section class="panel"><h3>Đổi mật khẩu</h3><form id="fw">${alertBox("m2")}
         <div class="fld"><label for="old">Mật khẩu hiện tại</label><input class="input" id="old" type="password" autocomplete="current-password" required></div>
         <div class="fld"><label for="n1">Mật khẩu mới</label><input class="input" id="n1" type="password" autocomplete="new-password" required></div>
         <div class="fld"><label for="n2">Nhập lại mật khẩu mới</label><input class="input" id="n2" type="password" autocomplete="new-password" required></div>
         <button class="btn">Đổi mật khẩu</button></form></section></div>
     <div class="row"><button class="btn ghost" id="out">Đăng xuất</button></div>`;
+  let avatarFile = null, previewUrl = null;
+  $("#avatar-file").onchange = () => {
+    avatarFile = $("#avatar-file").files[0] || null;
+    if (previewUrl) URL.revokeObjectURL(previewUrl);
+    previewUrl = null;
+    if (avatarFile) {
+      previewUrl = URL.createObjectURL(avatarFile);
+      $("#avatar-preview").innerHTML = `<span class="avatar-lg"><img class="avatar-photo" src="${previewUrl}" alt="Ảnh đại diện đang chọn"></span>`;
+    } else {
+      $("#avatar-preview").innerHTML = avatarHtml(Auth.profile, "avatar-lg");
+    }
+  };
   $("#fp").addEventListener("submit", async (e) => {
     e.preventDefault();
-    try { await Auth.updateName($("#nm").value.trim()); showMsg("m1", "ok", "Đã lưu."); }
+    const displayName = $("#nm").value.trim();
+    if (!displayName) return showMsg("m1", "err", "Tên hiển thị không được để trống.");
+    const submit = $("#save-profile");
+    submit.disabled = true;
+    try {
+      await Auth.updateProfile({
+        display_name: displayName,
+        primary_field_id: $("#primary-field").value || null,
+        avatarFile,
+      });
+      avatarFile = null;
+      $("#avatar-file").value = "";
+      if (previewUrl) URL.revokeObjectURL(previewUrl);
+      previewUrl = null;
+      $("#avatar-preview").innerHTML = avatarHtml(Auth.profile, "avatar-lg");
+      showMsg("m1", "ok", "Đã lưu thông tin.");
+    }
     catch (err) { showMsg("m1", "err", authError(err)); }
+    finally { submit.disabled = false; }
   });
   $("#fw").addEventListener("submit", async (e) => {
     e.preventDefault();

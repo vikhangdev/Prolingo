@@ -1,7 +1,6 @@
-import { $, $$, esc, confirmBox, notice, SECTIONS } from "../../utils.js";
+import { $, $$, esc, confirmBox, SECTIONS } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, scopeFilters, act, dialogForm, moveItem } from "./ui.js";
-import { guardExercise } from "./guard.js";
 
 const KIND_LABEL = { mc: "Trắc nghiệm", tf: "Đúng/Sai", ms: "Chọn nhiều", fl: "Điền từ", pair: "Cặp nối" };
 const SEC3 = ["vocab", "lang", "read"];
@@ -28,11 +27,11 @@ export async function viewAdminExercises() {
       const cards = list.map((e, i) => `<article class="excard"><header>
           <b>${esc(e.title)}</b><span class="badge blue">${e.kind === "match" ? "Bài nối" : "Trắc nghiệm / điền từ"}</span><span class="badge">${e.questions.length} câu</span>${e.passage ? '<span class="badge gold">Có bài đọc</span>' : ""}
           <span><button class="btn ghost sm" data-up="${e.id}" ${i === 0 ? "disabled" : ""}>↑</button> <button class="btn ghost sm" data-dn="${e.id}" ${i === list.length - 1 ? "disabled" : ""}>↓</button>
-          <button class="btn ghost sm" data-eex="${e.id}">Sửa bài</button> <button class="btn sm" data-aq="${e.id}">+ Câu hỏi</button> <button class="btn ghost sm" data-jq="${e.id}" title="Dán JSON">JSON</button> <button class="btn danger sm" data-dex="${e.id}">Xóa</button></span></header>
+          <button class="btn ghost sm" data-eex="${e.id}">Sửa bài</button> <button class="btn sm" data-aq="${e.id}">+ Câu hỏi</button> <button class="btn ghost sm" data-jq="${e.id}" title="Dán JSON">JSON</button> <button class="btn danger sm" data-dex="${e.id}">Xóa bài</button></span></header>
           ${e.questions.length ? e.questions.map((q, qi) => `<div class="qrow"><span class="qn">${qi + 1}</span><span class="badge">${KIND_LABEL[q.kind] || q.kind}</span><span class="qt" title="${esc(summary(q))}">${esc(summary(q))}</span>
             <span class="acts"><button class="btn ghost sm" data-qu="${q.id}" ${qi === 0 ? "disabled" : ""}>↑</button> <button class="btn ghost sm" data-qd="${q.id}" ${qi === e.questions.length - 1 ? "disabled" : ""}>↓</button>
             <button class="btn ghost sm" data-eq="${q.id}">Sửa</button> <button class="btn danger sm" data-dq="${q.id}">Xóa</button></span></div>`).join("") : '<div class="qrow"><span></span><span></span><span class="muted">Chưa có câu hỏi. Học viên sẽ chưa thấy bài này.</span></div>'}</article>`).join("");
-      return `<section style="margin-bottom:26px"><h2 style="margin-bottom:10px">${SECTIONS[sec].ic} ${SECTIONS[sec].n} <span class="small">· ${SECTIONS[sec].vi}</span></h2>${cards ? `<div class="exlist">${cards}</div>` : '<div class="empty-state" style="padding:20px">Chưa có bài tập nào trong phần này.</div>'}</section>`;
+      return `<section style="margin-bottom:26px"><div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:10px"><h2 style="margin:0">${SECTIONS[sec].ic} ${SECTIONS[sec].n} <span class="small">· ${SECTIONS[sec].vi}</span></h2><button class="btn danger sm" data-delete-section="${sec}" ${list.length ? "" : "disabled"}>Xóa tất cả</button></div>${cards ? `<div class="exlist">${cards}</div>` : '<div class="empty-state" style="padding:20px">Chưa có bài tập nào trong phần này.</div>'}</section>`;
     }).join("");
     body.innerHTML = `<div class="help">Phần <b>Word Bank</b> (danh sách, thẻ ghi nhớ, trắc nghiệm từ vựng) được tạo tự động từ <a href="#/admin/words">Kho từ vựng</a>.</div>${part}`;
 
@@ -41,11 +40,16 @@ export async function viewAdminExercises() {
     $$("[data-eex]", body).forEach((b) => (b.onclick = () => editExercise(exOf(b.dataset.eex))));
     $$("[data-dex]", body).forEach((b) => (b.onclick = async () => {
       const e = exOf(b.dataset.dex);
-      const msg = await guardExercise(e);
-      if (msg) return notice(msg);
-      if (!(await confirmBox(`Xóa bài "${e.title}"?`))) return;
-      if (await act(() => api.deleteRow("exercises", e.id), "Đã xóa bài tập")) load();
+      if (!(await confirmBox(
+        `Xóa bài "${e.title}" và toàn bộ ${e.questions.length} câu hỏi bên trong? Tiến độ học liên quan cũng sẽ bị xóa. Chọn Hủy nếu không muốn xóa.`,
+        { okText: "Xóa bài và câu hỏi" }
+      ))) return;
+      if (await act(async () => {
+        if (e.questions.length) await api.deleteWhere("questions", "exercise_id", e.id);
+        await api.deleteRow("exercises", e.id);
+      }, "Đã xóa bài và câu hỏi")) await load();
     }));
+    $$("[data-delete-section]", body).forEach((b) => (b.onclick = () => deleteSection(b.dataset.deleteSection)));
     $$("[data-aq]", body).forEach((b) => (b.onclick = () => editQuestion(exOf(b.dataset.aq), null)));
     $$("[data-jq]", body).forEach((b) => (b.onclick = () => jsonQuestions(exOf(b.dataset.jq))));
     $$("[data-eq]", body).forEach((b) => (b.onclick = () => { const [e, q] = qOf(b.dataset.eq); editQuestion(e, q); }));
@@ -65,6 +69,21 @@ export async function viewAdminExercises() {
     };
     $$("[data-qu]", body).forEach((b) => (b.onclick = reorderQ(b.dataset.qu, -1)));
     $$("[data-qd]", body).forEach((b) => (b.onclick = reorderQ(b.dataset.qd, 1)));
+  };
+
+  const deleteSection = async (section) => {
+    const list = exercises.filter((e) => e.section === section);
+    if (!list.length) return;
+    const questionCount = list.reduce((sum, e) => sum + e.questions.length, 0);
+    const titles = list.map((e) => `“${e.title}”`).join(", ");
+    const message = `Xóa tất cả ${list.length} bài trong ${SECTIONS[section].n}: ${titles}. Thao tác này sẽ xóa ${questionCount} câu hỏi cùng dữ liệu tiến độ và điểm của các bài này. Không thể hoàn tác. Chọn Hủy để thoát mà không xóa.`;
+    if (!(await confirmBox(message, { okText: "Xóa tất cả" }))) return;
+    const exerciseIds = list.map((e) => e.id);
+    if (await act(async () => {
+      await api.deleteIn("questions", "exercise_id", exerciseIds);
+      await api.deleteIn("scores", "ex_key", exerciseIds);
+      await api.deleteIn("exercises", "id", exerciseIds);
+    }, `Đã xóa ${list.length} bài và ${questionCount} câu hỏi trong ${SECTIONS[section].n}`)) await load();
   };
 
   /* ---------- Thêm / sửa bài tập ---------- */

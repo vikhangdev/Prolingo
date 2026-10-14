@@ -10,7 +10,7 @@ const NAV = [
 
 export function shell(active, title, actions = "") {
   theme(); setCrumbs("Quản trị › " + title);
-  app().innerHTML = `<div class="adm"><nav class="adm-nav" aria-label="Quản trị"><h4>QUẢN TRỊ</h4>${NAV.map(([k, ic, t]) => `<a href="#/admin${k ? "/" + k : ""}" ${k === active ? 'aria-current="page"' : ""}>${ic} ${t}</a>`).join("")}</nav>
+  app().innerHTML = `<div class="adm"><nav class="adm-nav" aria-label="Quản trị"><h4>TRANG QUẢN TRỊ</h4>${NAV.map(([k, ic, t]) => `<a href="#/admin${k ? "/" + k : ""}" ${k === active ? 'aria-current="page"' : ""}>${ic} ${t}</a>`).join("")}</nav>
     <div class="adm-main"><div class="adm-head"><h1 class="h2">${esc(title)}</h1><div class="row" style="margin:0">${actions}</div></div><div id="adm-filters"></div><div id="adm-body"></div></div></div>`;
   return $("#adm-body");
 }

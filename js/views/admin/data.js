@@ -1,4 +1,4 @@
-import { $, $$, esc, toast, errMsg, confirmBox, notice, openDialog, closeDialog, SECTIONS } from "../../utils.js";
+import { $, $$, esc, toast, errMsg, confirmBox, notice, openDialog, closeDialog, SECTIONS, fieldColor } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell } from "./ui.js";
 import { unitHue } from "../shared.js";
@@ -219,7 +219,7 @@ async function deleteTab(box) {
     const limit = query || showAll.has("fa" + f.id) ? vis.length : 3;
     const nq = sum(us, (u) => sum(exOf(u.id), (e) => e.nq)), nw = sum(us, (u) => nWords(u.id));
     const kids = open ? `<div class="dz-kids">${vis.slice(0, limit).map(({ u, i }) => unitBlock(u, i, f, fieldMatch)).join("") || '<div class="dz-ex muted">Ngành chưa có unit — có thể xóa.</div>'}${vis.length > limit ? more("fa" + f.id, vis.length - limit, "unit") : ""}</div>` : "";
-    return `<div class="dz-field" style="--fh:${f.hue}"><div class="dz-fhead"><button class="dz-tg" data-tg="f${f.id}" aria-expanded="${open}"><span class="chev"></span><span class="dz-tile" aria-hidden="true">${esc(f.icon)}</span>
+    return `<div class="dz-field" style="--fh:${f.hue};--field-color:${fieldColor(f)}"><div class="dz-fhead"><button class="dz-tg" data-tg="f${f.id}" aria-expanded="${open}"><span class="chev"></span><span class="dz-tile" aria-hidden="true">${esc(f.icon)}</span>
       <span class="sp"><span class="t dz-fname">${esc(f.name_vi || f.name)}</span><span class="small" style="display:block">${esc(f.name)}</span></span>
       <span class="dz-n">${us.length} unit</span><span class="dz-n">${nw} từ</span><span class="dz-n">${nq} câu hỏi</span></button>
       ${us.length ? btn("field", f.id, `Còn ${us.length} unit`, "lock", LOCK) : btn("field", f.id, "Xóa ngành", "del")}${menuBtn("m" + f.id, mi("u-field", f.id, "Xóa tất cả unit", us.length))}</div>${kids}</div>`;

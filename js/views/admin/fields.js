@@ -1,7 +1,9 @@
-import { $, $$, esc, confirmBox, notice, slugify } from "../../utils.js";
+import { $, $$, esc, confirmBox, notice, slugify, fieldColor, hexToHue, normalizeHex } from "../../utils.js";
 import * as api from "../../api.js";
 import { shell, act, dialogForm, moveItem } from "./ui.js";
 import { guardField } from "./guard.js";
+
+const FIELD_COLORS = ["#2563EB", "#11ffeb", "#7959b0", "#DC2626", "#EA580C", "#ffc95c", "#9aebff" ,"#0891B2", "#b5ff54", "#475569", "#b1b1b3", "#ffbaba"];
 
 export async function viewAdminFields() {
   const body = shell("fields", "Quản lý ngành nghề", '<button class="btn" id="add">+ Thêm ngành</button>');
@@ -18,14 +20,13 @@ export async function viewAdminFields() {
     }
 
     const nu = {}; stats.forEach((s) => (nu[s.field_id] = (nu[s.field_id] || 0) + 1));
-    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên ngành</th><th>Slug</th><th>Màu</th><th>Unit</th><th>Hiển thị</th><th>Chức năng</th></tr></thead><tbody>${rows.map((f, i) => `<tr>
+    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên ngành</th><th>Slug</th><th>Màu</th><th>Unit</th><th>Hiển thị</th><th>Sắp xếp</th><th>Chức năng</th></tr></thead><tbody>${rows.map((f, i) => `<tr>
       <td style="text-align:center"><b>${i + 1}</b></td><td class="ico">${esc(f.icon)}</td><td><b>${esc(f.name)}</b><br><span class="small">${esc(f.name_vi)}</span></td><td><code>${esc(f.slug)}</code></td>
-      <td><span class="swatch" style="background:hsl(${f.hue} 52% 40%)"></span> ${f.hue}°</td><td>${nu[f.id] || 0}</td>
-      
+      <td><span class="field-color-swatch" style="--field-color: ${fieldColor(f)}" role="img" aria-label="Màu chủ đạo ngành ${esc(f.name)}"></span></td>
+      <td style="text-align:center">${nu[f.id] || 0}</td>
       <td><button class="publish-toggle ${f.is_published ? "on" : "off"}" type="button" data-pub="${f.id}" aria-pressed="${!!f.is_published}" aria-label="${f.is_published ? "Ẩn" : "Hiển thị"} ngành ${esc(f.name)}"><span class="publish-toggle__track"><span></span></span></button></td>
-      
-      <td class="acts"><button class="btn ghost sm" data-up="${f.id}" ${i === 0 ? "disabled" : ""} aria-label="Lên">↑</button><button class="btn ghost sm" data-dn="${f.id}" ${i === rows.length - 1 ? "disabled" : ""} aria-label="Xuống">↓</button>
-      <button class="btn ghost sm" data-ed="${f.id}">Sửa</button><button class="btn danger sm" data-del="${f.id}">Xóa</button></td></tr>`).join("")}</tbody></table></div>`
+      <td class="sort-actions"><button class="btn ghost sm" data-up="${f.id}" ${i === 0 ? "disabled" : ""} aria-label="Đưa ${esc(f.name)} lên">↑</button><button class="btn ghost sm" data-dn="${f.id}" ${i === rows.length - 1 ? "disabled" : ""} aria-label="Đưa ${esc(f.name)} xuống">↓</button></td>
+      <td class="acts"><button class="btn ghost sm" data-ed="${f.id}">Sửa</button><button class="btn danger sm" data-del="${f.id}">Xóa</button></td></tr>`).join("")}</tbody></table></div>`
       : `<div class="empty-state"><div class="big">🗂️</div><h3>Chưa có ngành nào</h3><p>Bấm "Thêm ngành" để tạo ngành đầu tiên.</p></div>`;
     $$("[data-ed]", body).forEach((b) => (b.onclick = () => edit(rows.find((r) => r.id === b.dataset.ed))));
     $$("[data-del]", body).forEach((b) => (b.onclick = () => del(rows.find((r) => r.id === b.dataset.del))));
@@ -60,25 +61,57 @@ export async function viewAdminFields() {
   };
   const edit = (f) => {
     const isNew = !f;
-    f = f || { name: "", name_vi: "", slug: "", icon: "📘", hue: 210, description: "", is_published: true };
+    f = f || { name: "", name_vi: "", slug: "", icon: "📘", hue: 210, color_hex: null, description: "", is_published: true };
+    const initialColor = fieldColor(f);
     dialogForm({
       title: isNew ? "Thêm ngành" : "Sửa ngành",
       body: `<div class="grid2"><div class="fld"><label for="n">Tên tiếng Anh *</label><input class="input" id="n" value="${esc(f.name)}" placeholder="Medicine"></div>
         <div class="fld"><label for="nv">Tên tiếng Việt</label><input class="input" id="nv" value="${esc(f.name_vi)}" placeholder="Y khoa"></div></div>
         <div class="grid2"><div class="fld"><label for="sl">Slug (đường dẫn)</label><input class="input" id="sl" value="${esc(f.slug)}" placeholder="y-khoa"><span class="hint">Chữ thường, không dấu. Để trống sẽ tự tạo.</span></div>
         <div class="fld"><label for="ic">Biểu tượng (emoji)</label><input class="input" id="ic" value="${esc(f.icon)}" maxlength="4"></div></div>
-        <div class="fld"><label for="hu">Màu chủ đạo</label><div class="hue-row"><input type="range" class="rainbow" id="hu" min="0" max="360" value="${f.hue}"><span class="swatch" id="sw" style="background:hsl(${f.hue} 52% 40%)"></span></div></div>
+        <div class="fld"><label>Màu chủ đạo</label>
+          <div class="grid2 field-color-inputs">
+            <div class="fld"><label for="color-picker">Chọn màu</label><input class="field-color-input" id="color-picker" type="color" value="${initialColor}" aria-label="Chọn màu chủ đạo"></div>
+            <div class="fld"><label for="color-hex">Mã màu HEX</label><input class="input" id="color-hex" value="${initialColor}" maxlength="7" placeholder="#2563EB" autocomplete="off" spellcheck="false"></div>
+          </div>
+          <div class="field-color-palette" role="group" aria-label="Bảng màu mẫu">${FIELD_COLORS.map((color) => `<button class="field-color-choice${color === initialColor ? " selected" : ""}" type="button" data-field-color="${color}" aria-label="Chọn màu ${color}" aria-pressed="${color === initialColor}"><span style="--choice-color: ${color}"></span><code>${color}</code></button>`).join("")}</div>
+          <span class="hint">Chọn màu mẫu, dùng bảng chọn màu hoặc nhập mã theo dạng #RRGGBB.</span>
+        </div>
         <div class="fld"><label for="ds">Mô tả ngắn</label><textarea class="textarea" id="ds" rows="2">${esc(f.description)}</textarea></div>
         <label class="chk"><input type="checkbox" id="pb" ${f.is_published ? "checked" : ""}> Hiển thị cho học viên</label>`,
-      onMount: (d) => { $("#hu", d).oninput = (e) => ($("#sw", d).style.background = `hsl(${e.target.value} 52% 40%)`); },
+      onMount: (d) => {
+        const updateColor = (value) => {
+          const color = normalizeHex(value);
+          if (!color) return false;
+          $("#color-hex", d).value = color;
+          $("#color-picker", d).value = color;
+          $$("[data-field-color]", d).forEach((button) => {
+            const selected = button.dataset.fieldColor === color;
+            button.classList.toggle("selected", selected);
+            button.setAttribute("aria-pressed", String(selected));
+          });
+          return true;
+        };
+        $("#color-picker", d).oninput = (e) => updateColor(e.target.value);
+        $("#color-hex", d).oninput = (e) => {
+          const color = normalizeHex(e.target.value);
+          if (color) updateColor(color);
+        };
+        $$("[data-field-color]", d).forEach((button) => {
+          button.onclick = () => updateColor(button.dataset.fieldColor);
+        });
+      },
       onSubmit: async (d) => {
         const name = $("#n", d).value.trim();
         if (!name) throw new Error("Vui lòng nhập tên ngành.");
+        const colorHex = normalizeHex($("#color-hex", d).value);
+        if (!colorHex) throw new Error("Mã màu không hợp lệ. Vui lòng nhập theo dạng #RRGGBB, ví dụ #2563EB.");
         const row = { name,
           name_vi: $("#nv", d).value.trim(),
           slug: slugify($("#sl", d).value || name) || "nganh",
           icon: $("#ic", d).value.trim() || "📘",
-          hue: +$("#hu", d).value, 
+          hue: hexToHue(colorHex),
+          color_hex: colorHex,
           description: $("#ds", d).value.trim(), 
           is_published: $("#pb", d).checked };
         if (isNew) await api.insertRow("fields", { ...row, sort_order: rows.length }); else await api.updateRow("fields", f.id, row);

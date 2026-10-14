@@ -21,9 +21,9 @@
   --hi: #ffe14d;
   /* bút dạ quang */
 
-  --pri: hsl(var(--h) 58% 34%);
-  --pri2: hsl(var(--h) 60% 46%);
-  --priSoft: hsl(var(--h) 70% 94%);
+  --pri: var(--field-color, hsl(var(--h) 58% 34%));
+  --pri2: color-mix(in srgb, var(--field-color, hsl(var(--h) 60% 46%)) 82%, white);
+  --priSoft: color-mix(in srgb, var(--field-color, hsl(var(--h) 70% 94%)) 12%, white);
   --acc: var(--pen);
   --accSoft: #e6ebff;
   --ok: #1c7a45;
@@ -49,9 +49,9 @@
     --line: #2a3752;
     --red: #ff7a78;
     --pen: #8fa8ff;
-    --pri: hsl(var(--h) 72% 72%);
-    --pri2: hsl(var(--h) 65% 60%);
-    --priSoft: hsl(var(--h) 34% 20%);
+    --pri: color-mix(in srgb, var(--field-color, hsl(var(--h) 72% 72%)) 70%, white);
+    --pri2: color-mix(in srgb, var(--field-color, hsl(var(--h) 65% 60%)) 82%, white);
+    --priSoft: color-mix(in srgb, var(--field-color, hsl(var(--h) 34% 20%)) 30%, #0f1522);
     --accSoft: #232d57;
     --ok: #5fd896;
     --okSoft: #123826;
@@ -303,12 +303,23 @@ header.top {
   width: 36px;
   height: 36px;
   border-radius: 50%;
+  overflow: hidden;
+  position: relative;
   border: 2px solid #fff;
-  background: #2dcf73;
+  background: hsl(var(--uh, 145) 65% 45%);
   color: #fff;
   font: 800 16px/1 var(--display);
   display: grid;
   place-items: center;
+}
+
+.avatar-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .menu-btn {
@@ -760,7 +771,7 @@ dialog#dlg.wide {
 }
 
 .welcome-copy .h1 {
-  max-width: 14ch;
+ /* max-width: 14ch;*/
 }
 
 .welcome-copy p {
@@ -783,7 +794,7 @@ dialog#dlg.wide {
   padding: 7px 14px 7px 10px;
   background: var(--card);
   border: 1.5px solid var(--line);
-  border-left: 5px solid hsl(var(--ch) 60% 45%);
+  border-left: 5px solid var(--ch);
   border-radius: 6px 12px 12px 6px;
   font-weight: 600;
   font-size: 14.5px;

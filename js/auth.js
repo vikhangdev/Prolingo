@@ -2,6 +2,8 @@
    AUTH — đăng ký, đăng nhập, đăng xuất, đổi / quên mật khẩu, hồ sơ
    ============================================================ */
 import { sb } from "./supabase.js";
+import { toast } from "./utils.js";
+import { uploadAvatar } from "./api.js";
 
 export const Auth = {
   user: null, // auth user
@@ -40,20 +42,27 @@ export const Auth = {
     this.user = session?.user || null;
     if (!this.user) { this.profile = null; this.recovery = false; return; }
     if (prev !== this.user.id || !this.profile) await this.loadProfile();
+    if (this.profile?.is_active === false) {
+      await sb.auth.signOut();
+      this.user = null;
+      this.profile = null;
+      this.recovery = false;
+      toast("Tài khoản đã bị ẩn. Hãy liên hệ quản trị viên để được hỗ trợ.", "err");
+    }
   },
 
   async loadProfile() {
     const { data, error } = await sb.from("profiles").select("*").eq("id", this.user.id).maybeSingle();
     if (error) console.warn("Không đọc được profile:", error.message);
-    this.profile = data || { id: this.user.id, email: this.user.email, display_name: null, role: "user" };
+    this.profile = data || { id: this.user.id, email: this.user.email, display_name: null, role: "user", is_active: true };
   },
 
   base() { return location.origin + location.pathname; },
 
-  async signUp({ email, password, name }) {
+  async signUp({ email, password, name, primaryFieldId = null }) {
     const { data, error } = await sb.auth.signUp({
       email, password,
-      options: { data: { display_name: name }, emailRedirectTo: this.base() },
+      options: { data: { display_name: name, primary_field_id: primaryFieldId }, emailRedirectTo: this.base() },
     });
     if (error) throw error;
     // Nếu Supabase bật "Confirm email" → chưa có session, cần xác nhận qua email
@@ -92,6 +101,31 @@ export const Auth = {
   async updateName(display_name) {
     const { data, error } = await sb.from("profiles").update({ display_name }).eq("id", this.user.id).select().single();
     if (error) throw error;
+    this.profile = data;
+    this.emit();
+  },
+
+  async updateProfile({ display_name, primary_field_id, avatarFile }) {
+    let avatar_url;
+    if (avatarFile) {
+      try {
+        avatar_url = await uploadAvatar(this.user.id, avatarFile);
+      } catch (error) {
+        throw new Error(`Không tải được ảnh lên Supabase Storage: ${error.message}`);
+      }
+    }
+    const updates = { display_name, primary_field_id };
+    if (avatarFile) updates.avatar_url = avatar_url;
+    const { data, error } = await sb.from("profiles")
+      .update(updates)
+      .eq("id", this.user.id)
+      .select()
+      .single();
+    if (error) {
+      throw new Error(avatarFile
+        ? `Ảnh đã tải lên nhưng không cập nhật được hồ sơ: ${error.message}`
+        : error.message);
+    }
     this.profile = data;
     this.emit();
   },

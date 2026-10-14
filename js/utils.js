@@ -50,6 +50,33 @@ export const dayKey = (d) => {
 };
 export const initial = (name) => (String(name || "?").trim()[0] || "?").toUpperCase();
 export const hueOf = (str) => [...String(str || "")].reduce((a, c) => (a * 31 + c.charCodeAt(0)) % 360, 7);
+export const avatarHtml = (profile, className = "avatar") => {
+  const name = profile?.display_name || profile?.email || "?";
+  const photo = profile?.avatar_url
+    ? `<img class="avatar-photo" src="${esc(profile.avatar_url)}" alt="" aria-hidden="true">`
+    : "";
+  return `<span class="${className}" style="--uh:${hueOf(profile?.email)}">${esc(initial(name))}${photo}</span>`;
+};
+export const normalizeHex = (value) =>
+  typeof value === "string" && /^#[\da-f]{6}$/i.test(value.trim()) ? value.trim().toUpperCase() : null;
+export function hueToHex(hue, saturation = 0.52, lightness = 0.4) {
+  const h = (((Number(hue) || 0) % 360) + 360) % 360 / 60;
+  const chroma = (1 - Math.abs(2 * lightness - 1)) * saturation;
+  const x = chroma * (1 - Math.abs((h % 2) - 1));
+  const [r, g, b] = h < 1 ? [chroma, x, 0] : h < 2 ? [x, chroma, 0] : h < 3 ? [0, chroma, x] : h < 4 ? [0, x, chroma] : h < 5 ? [x, 0, chroma] : [chroma, 0, x];
+  const m = lightness - chroma / 2;
+  return "#" + [r, g, b].map((v) => Math.round((v + m) * 255).toString(16).padStart(2, "0")).join("").toUpperCase();
+}
+export function hexToHue(value) {
+  const hex = normalizeHex(value);
+  if (!hex) return 210;
+  const [r, g, b] = [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16) / 255);
+  const max = Math.max(r, g, b), min = Math.min(r, g, b), delta = max - min;
+  if (!delta) return 0;
+  const hue = max === r ? ((g - b) / delta) % 6 : max === g ? (b - r) / delta + 2 : (r - g) / delta + 4;
+  return Math.round((hue * 60 + 360) % 360);
+}
+export const fieldColor = (field) => normalizeHex(field?.color_hex) || hueToHex(field?.hue ?? 210);
 export const pct = (a, b) => (b ? Math.round((a / b) * 100) : 0);
 export const slugify = (s) =>
   String(s || "")
@@ -65,8 +92,11 @@ export const SECTIONS = {
 export const SECTION_KEYS = ["bank", "vocab", "lang", "read"];
 
 /** Màu chủ đạo của một ngành/unit → đặt lên <body> để cả trang đổi tông */
-export function setTheme(hue) {
+export function setTheme(hue, colorHex) {
   document.body.style.setProperty("--h", hue == null ? 222 : hue);
+  const color = normalizeHex(colorHex);
+  if (color) document.body.style.setProperty("--field-color", color);
+  else document.body.style.removeProperty("--field-color");
 }
 
 /* ---------- Dialog (modal) dùng chung ---------- */
