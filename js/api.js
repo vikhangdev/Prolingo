@@ -208,8 +208,18 @@ export async function studentReport(userId) {
   return { profile: unwrap(profileRes), runs, progress, exercises, qlinks, units, fields, stats };
 }
 
-export const runAnswers = async (runId) =>
-  unwrap(await sb.from("answer_log").select("*").eq("run_id", runId).order("id"));
+export async function runAnswers(runId) {
+  const answers = unwrap(await sb.from("answer_log").select("*").eq("run_id", runId).order("id"));
+  const questionIds = [...new Set(answers.map((answer) => answer.question_id).filter(Boolean))];
+  const questions = questionIds.length
+    ? await byIds("questions", "id", questionIds, "id, content")
+    : [];
+  const questionById = Object.fromEntries(questions.map((question) => [question.id, question]));
+  return answers.map((answer) => {
+    const content = questionById[answer.question_id]?.content || {};
+    return { ...answer, why: content.why || "", tip: content.tip || "" };
+  });
+}
 
 /** Chi tiết các câu đang sai: lần sai gần nhất + nội dung câu hỏi (để xem lời giải) */
 export async function studentWrongDetail(userId, qIds, wIds) {

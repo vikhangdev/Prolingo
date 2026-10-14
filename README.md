@@ -75,6 +75,7 @@ Vào **Quản trị → Người dùng → Quá trình học** để xem:
 - **Chưa hoàn thành**: bài chưa làm hoặc làm dở.
 - **Gửi lời nhắc**: soạn lời nhắc (tự gợi ý nội dung), gửi trong web (hiện ở Trang chủ của học viên) hoặc mở email.
 Có thể lọc theo ngành, unit, trạng thái và thời gian. Ngành đã học được xác định từ tiến độ/lượt học đã ghi nhận; đây không phải danh sách đăng ký riêng. Thời gian học là ước tính giữa các câu trả lời; dữ liệu lượt cũ chưa có thời lượng.
+Trong khi làm bài, đáp án đúng/sai và mẹo được ẩn cho đến trang kết quả. Nút **Xem lại** mở phần xem đáp án, lời giải và mẹo theo từng câu. Admin cũng có thể mở từng câu trong báo cáo học viên để xem lời giải và mẹo.
 
 ## Quy tắc xóa dữ liệu
 Cấu trúc: **Ngành → Unit → (Từ vựng | Bài tập → Câu hỏi)**. Cha chỉ xóa được khi con đã hết, nên xóa theo thứ tự

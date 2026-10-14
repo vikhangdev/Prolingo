@@ -776,14 +776,30 @@
 }
 
 .ans {
-  display: grid;
-  grid-template-columns: 24px 1fr;
-  gap: 8px;
   padding: 6px 10px;
   border-radius: 8px;
   border: 1px solid var(--line);
   background: var(--card);
   font-size: 14px;
+}
+
+.ans > summary {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.ans > summary::-webkit-details-marker,
+.wq > summary::-webkit-details-marker {
+  display: none;
+}
+
+.ans-detail {
+  display: grid;
+  gap: 6px;
+  padding: 8px 0 2px 32px;
 }
 
 .ans.ok {
@@ -810,6 +826,11 @@
 .wq {
   border-top: 1px dashed var(--line);
   padding: 10px 2px 4px;
+}
+
+.wq > summary {
+  cursor: pointer;
+  list-style: none;
 }
 
 .wq-q {

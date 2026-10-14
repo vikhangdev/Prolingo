@@ -12,7 +12,7 @@ const LET = "ABCDEFGHIJKLMNOP";
 const S = {
   unit: null, sec: null, secs: null, exit: null,
   view: "study", ex: 0, order: [], pos: 0,
-  res: {}, draft: null, bd: {}, flip: false, scored: new Set(), runs: {},
+  res: {}, draft: null, bd: {}, flip: false, review: false, showReview: false, scored: new Set(), runs: {},
 };
 
 /* ---------- Truy cập nhanh ---------- */
@@ -33,7 +33,7 @@ function exStats(ei = S.ex) {
 
 /* ---------- Khởi chạy ---------- */
 export function startQuiz({ unit, secs, section, onExit }) {
-  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, scored: new Set(), runs: {} });
+  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, review: false, showReview: false, scored: new Set(), runs: {} });
   startEx(0);
 }
 
@@ -44,6 +44,8 @@ function startEx(i, subset) {
   S.pos = 0;
   S.draft = null;
   S.flip = false;
+  S.review = false;
+  S.showReview = false;
   render();
   window.scrollTo(0, 0);
 }
@@ -130,7 +132,8 @@ function tabsHtml() {
     .map((x, ei) => {
       const s = exStats(ei);
       const label = x.isList ? "📋 Danh sách" : x.isCards ? "🃏 Thẻ nhớ" : x.id && String(x.id).startsWith("bank:") ? x.t.replace(/^Trắc nghiệm: /, "") : `Bài ${ei + 1}`;
-      return `<button class="tab ${ei === S.ex ? "on" : ""}" role="tab" data-e="${ei}" title="${esc(x.t)}">${esc(label)}${s.done ? `<span class="sc">${s.ok}/${s.total}</span>` : ""}</button>`;
+      const progress = s.done ? (S.view === "summary" || S.review ? `${s.ok}/${s.total}` : `${s.done} đã làm`) : "";
+      return `<button class="tab ${ei === S.ex ? "on" : ""}" role="tab" data-e="${ei}" title="${esc(x.t)}">${esc(label)}${progress ? `<span class="sc">${progress}</span>` : ""}</button>`;
     })
     .join("")}</div>`;
 }
@@ -176,7 +179,7 @@ function vStudy() {
   h += `<div class="qno"><span class="tag">Câu ${i + 1}/${ex.items.length}</span><span class="small">${typeLabel}</span></div>`;
   h += qHtml(q, r) + `<div class="tools"><button id="trq">🌐 Dịch câu</button><button id="spq">🔊 Đọc câu</button></div><div class="trout" id="trqo" hidden style="margin-top:10px"></div></section><aside class="pane" id="R" aria-live="polite"></aside></div>`;
   h += `<div class="navbar"><div class="navin"><button class="btn ghost" id="bBack">← Back</button><div class="mid">Câu ${S.pos + 1}/${S.order.length} · Bài ${S.ex + 1}/${exs().length}<div class="dots">${S.order
-    .map((ii, p) => { const rr = S.res[key(ii)]; return `<i class="${rr ? (rr.ok ? "ok" : "bad") : ""} ${p === S.pos ? "cur" : ""}"></i>`; })
+    .map((ii, p) => { const rr = S.review ? S.res[key(ii)] : null; return `<i class="${rr ? (rr.ok ? "ok" : "bad") : ""} ${p === S.pos ? "cur" : ""}"></i>`; })
     .join("")}</div></div><button class="btn" id="bNext">${S.pos === S.order.length - 1 ? "Xem kết quả →" : "Next →"}</button></div></div>`;
   $("#app").innerHTML = h;
   renderExplain(q, r);
@@ -189,7 +192,7 @@ function qHtml(q, r) {
     let h = `<div class="qtext">${words(q.q)}</div><div class="opts">`;
     p.forEach((oi, pos) => {
       let c = "opt";
-      if (r) { if (q.ans.includes(oi)) c += " ok"; else if (r.given === oi) c += " bad"; }
+      if (r && S.review) { if (q.ans.includes(oi)) c += " ok"; else if (r.given === oi) c += " bad"; }
       h += `<button class="${c}" data-o="${oi}" ${r ? "disabled" : ""}><span class="l">${LET[pos]}</span><span>${words(q.opts[oi])}</span></button>`;
     });
     return h + "</div>";
@@ -199,9 +202,9 @@ function qHtml(q, r) {
     let h = `<div class="qtext">${words(q.q)}</div><div class="opts">`;
     q.opts.forEach((o, oi) => {
       let c = "opt";
-      if (r) { if (q.ans.includes(oi)) c += " ok"; else if (r.given.includes(oi)) c += " bad"; }
+      if (r && S.review) { if (q.ans.includes(oi)) c += " ok"; else if (r.given.includes(oi)) c += " bad"; }
       else if (d.includes(oi)) c += " sel";
-      const mark = r ? (q.ans.includes(oi) ? "✓" : r.given.includes(oi) ? "✗" : "") : d.includes(oi) ? "✓" : "";
+      const mark = r && S.review ? (q.ans.includes(oi) ? "✓" : r.given.includes(oi) ? "✗" : "") : !r && d.includes(oi) ? "✓" : "";
       h += `<button class="${c}" data-m="${oi}" ${r ? "disabled" : ""}><span class="l">${mark}</span><span>${words(o)}</span></button>`;
     });
     return h + `</div>${r ? "" : '<div class="row"><button class="btn" id="chk">Kiểm tra</button></div>'}`;
@@ -215,7 +218,7 @@ function qHtml(q, r) {
       const a = accepts(q.ans[bi] || [""])[0];
       const v = r ? r.given[bi] : "";
       const good = r ? r.flags[bi] : null;
-      h += `<input class="fin ${r ? (good ? "ok" : "bad") : ""}" data-b="${bi}" size="${Math.max(6, Math.min(26, a.length + 2))}" value="${esc(v)}" ${r ? "disabled" : ""} autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Chỗ trống ${bi + 1}">`;
+      h += `<input class="fin ${r && S.review ? (good ? "ok" : "bad") : ""}" data-b="${bi}" size="${Math.max(6, Math.min(26, a.length + 2))}" value="${esc(v)}" ${r ? "disabled" : ""} autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Chỗ trống ${bi + 1}">`;
     }
   });
   return h + `</div>${r ? "" : '<div class="row"><button class="btn" id="chk">Kiểm tra</button><span class="small">Nhấn Enter để kiểm tra</span></div>'}`;
@@ -225,7 +228,6 @@ function record(q, i, given, ok, flags) {
   S.res[key(i)] = { given, ok, flags };
   persist(q, ok);
   track(q, given, ok);
-  react(ok, 1);
   maybeSaveScore();
   rerenderKeepScroll();
 }
@@ -234,11 +236,11 @@ function wireStudy(ex, i, q) {
   $("#bk").onclick = backToSecs;
   $$("[data-e]").forEach((b) => (b.onclick = () => startEx(+b.dataset.e)));
   $("#bNext").onclick = () => {
-    if (S.pos < S.order.length - 1) { S.pos++; S.draft = null; render(); window.scrollTo(0, 0); }
+    if (S.pos < S.order.length - 1) { S.pos++; S.review = S.review && !!S.res[key(S.order[S.pos])]; S.draft = null; render(); window.scrollTo(0, 0); }
     else go("summary");
   };
   $("#bBack").onclick = () => {
-    if (S.pos > 0) { S.pos--; S.draft = null; render(); window.scrollTo(0, 0); }
+    if (S.pos > 0) { S.pos--; S.review = S.review && !!S.res[key(S.order[S.pos])]; S.draft = null; render(); window.scrollTo(0, 0); }
     else if (S.ex > 0) backPrev();
     else toast("Đây là câu đầu tiên");
   };
@@ -288,9 +290,13 @@ function wireStudy(ex, i, q) {
 /* ---------- Giải thích ---------- */
 function renderExplain(q, r) {
   const st = exStats();
-  let h = `<div class="live"><span>Điểm bài tập này</span><span><b>${st.ok}</b>/${st.total} đúng · ${st.done} đã làm</span></div>`;
+  let h = `<div class="live"><span>Điểm bài tập này</span><span>${S.review ? `<b>${st.ok}</b>/${st.total} đúng · ` : ""}${st.done} đã làm</span></div>`;
+  if (r && !S.review) {
+    $("#R").innerHTML = h + '<div class="empty"><div class="big">📝</div>Đã ghi nhận câu trả lời.<br>Đáp án đúng/sai và mẹo sẽ hiện sau khi bạn xem kết quả.</div>';
+    return;
+  }
   if (!r) {
-    $("#R").innerHTML = h + `<div class="empty"><div class="big">💡</div>Trả lời câu hỏi bên trái để xem<br><b>đúng/sai, lý do, mẹo nhớ</b> tại đây.</div>`;
+    $("#R").innerHTML = h + `<div class="empty"><div class="big">💡</div>Trả lời câu hỏi bên trái.<br><b>Đáp án và mẹo sẽ hiện sau khi xem kết quả.</b></div>`;
     return;
   }
   h += `<div class="verdict ${r.ok ? "ok" : "bad"}">${r.ok ? "✅ TRUE — Chính xác!" : "❌ FALSE — Chưa đúng"}</div>`;
@@ -362,7 +368,7 @@ function vCards() {
   if (!flip) e2 += `<div class="empty"><div class="big">🃏</div>Đoán nghĩa của từ <b>${esc(q.en)}</b>,<br>rồi lật thẻ để kiểm tra.</div>`;
   else {
     e2 += `<div class="verdict ${r ? (r.ok ? "ok" : "bad") : "ok"}" ${r ? "" : 'style="background:var(--accSoft);color:var(--acc)"'}>${r ? (r.ok ? "😎 Đã thuộc!" : "😵 Cần ôn lại") : "📖 Nghĩa của từ"}</div>
-    <div class="blk right"><b class="t">${esc(q.en)}</b>${esc(q.vi)}</div>${q.tip ? `<div class="blk tip"><b class="t">💡 Mẹo ghi nhớ</b>${esc(q.tip)}</div>` : ""}`;
+    <div class="blk right"><b class="t">${esc(q.en)}</b>${esc(q.vi)}</div>`;
   }
   $("#R").innerHTML = e2;
   const fc = $("#fc");
@@ -430,10 +436,10 @@ function vMatch() {
   ex.items.forEach((q, i) => {
     const r = R(i);
     let c = "bi", style = "", pt = "";
-    if (r) c += r.ok ? " ok" : " bad";
+    if (r && S.review) c += r.ok ? " ok" : " bad";
     else if (bd.sel === i) c += " sel";
     else if (bd.map[i] != null) { c += " pair"; style = `style="--c:${pc(i)}"`; pt = `<span class="pt">${LET[posOf[bd.map[i]]]}</span>`; }
-    if (bd.map[i] != null && r) pt = `<span class="pt" style="background:${r.ok ? "var(--ok)" : "var(--bad)"}">${LET[posOf[bd.map[i]]]}</span>`;
+    if (bd.map[i] != null && r && S.review) pt = `<span class="pt" style="background:${r.ok ? "var(--ok)" : "var(--bad)"}">${LET[posOf[bd.map[i]]]}</span>`;
     h += `<button class="${c}" ${style} data-l="${i}" ${locked(i) || done(i) ? "disabled" : ""}><span class="l">${i + 1}</span><span>${words(q.q)}</span>${pt}</button>`;
   });
   h += `</div><div class="bcol"><div class="bhead">Cột B</div>`;
@@ -442,9 +448,9 @@ function vMatch() {
     let c = "bi", style = "", pt = "";
     if (ow != null) {
       const r = R(ow);
-      if (r) c += r.ok ? " ok" : " bad";
+      if (r && S.review) c += r.ok ? " ok" : " bad";
       else { c += " pair"; style = `style="--c:${pc(ow)}"`; }
-      pt = `<span class="pt" style="${r ? `background:${r.ok ? "var(--ok)" : "var(--bad)"}` : ""}">${ow + 1}</span>`;
+      pt = `<span class="pt" style="${r && S.review ? `background:${r.ok ? "var(--ok)" : "var(--bad)"}` : ""}">${ow + 1}</span>`;
     }
     h += `<button class="${c}" ${style} data-r="${oi}" ${ow != null && done(ow) ? "disabled" : ""}><span class="l">${LET[p]}</span><span>${words(B[oi])}</span>${pt}</button>`;
   });
@@ -463,7 +469,7 @@ function vMatch() {
       if (!a || !b) return;
       const ra = a.getBoundingClientRect(), rb = b.getBoundingClientRect();
       const x1 = ra.right - br.left, y1 = ra.top + ra.height / 2 - br.top, x2 = rb.left - br.left, y2 = rb.top + rb.height / 2 - br.top, mx = (x1 + x2) / 2;
-      const r = R(+i), col = r ? (r.ok ? "var(--ok)" : "var(--bad)") : pc(+i);
+      const r = R(+i), col = r && S.review ? (r.ok ? "var(--ok)" : "var(--bad)") : pc(+i);
       s += `<path d="M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}" fill="none" stroke="${col}" stroke-width="3" stroke-linecap="round"/><circle cx="${x1}" cy="${y1}" r="4" fill="${col}"/><circle cx="${x2}" cy="${y2}" r="4" fill="${col}"/>`;
     });
     $("#ln").innerHTML = s;
@@ -518,7 +524,6 @@ function vMatch() {
       persist(q, ok);
       track(q, g, ok);
     });
-    react(todo.every((i) => S.res[key(i)].ok), todo.length);
     maybeSaveScore(true);
     window.scrollTo(0, 0);
     vMatch();
@@ -529,9 +534,16 @@ function vMatch() {
 
 function explainMatch(ex, P, posOf) {
   const n = ex.items.length, st = exStats();
-  let h = `<div class="live"><span>Điểm bài tập này</span><span><b>${st.ok}</b>/${n} đúng · ${st.done} đã chấm</span></div>`;
+  let h = `<div class="live"><span>Điểm bài tập này</span><span>${S.review ? `<b>${st.ok}</b>/${n} đúng · ` : ""}${st.done} đã chấm</span></div>`;
+  if (!S.review) {
+    const text = st.done
+      ? "Đã ghi nhận các cặp nối. Đáp án và mẹo sẽ hiện sau khi bạn xem kết quả."
+      : "Nối các cặp rồi bấm Kiểm tra. Đáp án và mẹo sẽ hiện sau khi bạn xem kết quả.";
+    $("#R").innerHTML = h + `<div class="empty"><div class="big">${st.done ? "📝" : "🔗"}</div>${esc(text)}</div>`;
+    return;
+  }
   if (!st.done) {
-    $("#R").innerHTML = h + `<div class="empty"><div class="big">🔗</div>Nối xong các cặp rồi bấm <b>Kiểm tra</b>.<br>Mỗi cặp sẽ hiện <b>đúng/sai, lý do và mẹo nhớ</b> tại đây.</div>`;
+    $("#R").innerHTML = h + '<div class="empty"><div class="big">🔗</div>Chưa có cặp nào được kiểm tra.</div>';
     return;
   }
   h += `<div class="verdict ${st.ok === n ? "ok" : "bad"}">${st.ok === n ? "✅ TRUE — Nối đúng hết!" : `❌ FALSE — Đúng ${st.ok}/${n} cặp`}</div>`;
@@ -561,24 +573,35 @@ function vSummary() {
   const msg = pctV >= 90 ? "Xuất sắc! 🎉" : pctV >= 70 ? "Khá tốt, cố thêm chút nữa! 👍" : pctV >= 50 ? "Tạm ổn – hãy làm lại các câu sai 💪" : "Cần ôn thêm – đọc kỹ phần giải thích nhé 📖";
   const best = Progress.getScore(exKeyOf(ex));
   if (st.total && st.done === st.total) maybeSaveScore();
+  const reviewItems = ex.items.map((q, i) => {
+    const r = S.res[key(i)];
+    if (!r) return `<details class="review-item"><summary>${i + 1}. ${esc((q.q || q.en || "").replace(/___/g, "…"))} <span class="badge">Chưa trả lời</span></summary></details>`;
+    return `<details class="review-item"><summary>${i + 1}. ${esc((q.q || q.en || "").replace(/___/g, "…"))} <span class="badge ${r.ok ? "green" : "red"}">${r.ok ? "Đúng" : "Chưa đúng"}</span></summary>
+      <div class="review-answer"><div class="small">Bạn chọn: <b>${esc(givenText(q, r.given) || "—")}</b></div><div class="small">Đáp án đúng: <b>${esc(ansText(q))}</b></div>
+      ${q.why ? `<div class="blk why"><b class="t">Vì sao đúng</b>${md(q.why)}</div>` : ""}${q.tip ? `<div class="blk tip"><b class="t">💡 Mẹo ghi nhớ</b>${md(q.tip)}</div>` : ""}</div></details>`;
+  }).join("");
   const h = `<button class="back" id="bk">← Chọn phần khác</button>${tabsHtml()}
   <section class="pane sum" style="max-width:720px;margin:0 auto"><h4>Kết quả · ${esc(ex.t)}</h4><div class="ring" style="--p:${pctV}%"><div>${pctV}%</div></div>
   <h3 style="margin:4px 0">Đúng ${st.ok}/${st.total} câu</h3><div class="small">${msg}${best ? ` · Điểm cao nhất: ${best.best}%` : ""}</div>
+  <p class="hint">Chọn một câu để quay lại câu đó và xem đáp án, mẹo hoặc làm tiếp nếu chưa trả lời.</p>
   <div class="rlist">${ex.items.map((q, i) => {
     const r = S.res[key(i)];
-    const text = (q.q || "").replace(/___/g, "…").slice(0, 110);
-    return `<div class="ritem ${r ? (r.ok ? "ok" : "bad") : "na"}" data-j="${i}" tabindex="0"><span class="m">${r ? (r.ok ? "✓" : "✗") : "–"}</span><span>${i + 1}. ${esc(text)}${r && !r.ok ? `<br><span class="small">Đáp án: ${esc(ansText(q))}</span>` : ""}</span></div>`;
+    const text = (q.q || q.en || "").replace(/___/g, "…").slice(0, 110);
+    return `<button type="button" class="ritem ${r ? (r.ok ? "ok" : "bad") : "na"}" data-j="${i}" aria-label="Câu ${i + 1}, ${r ? (r.ok ? "đúng" : "sai") : "chưa làm"}"><span class="m">${r ? (r.ok ? "✓" : "✗") : "–"}</span><span>${i + 1}. ${esc(text)}${r && !r.ok ? `<br><span class="small">Đáp án: ${esc(ansText(q))}</span>` : ""}</span></button>`;
   }).join("")}</div>
   <div class="row" style="justify-content:center">
+    <button class="btn ghost" id="review">Xem lại</button>
     <button class="btn" id="redo" ${wrong.length ? "" : "disabled"}>🔁 Làm lại ${wrong.length} câu sai</button>
     <button class="btn ghost" id="all">Làm lại cả bài</button>
     ${last ? `<button class="btn ghost" id="fin">Hoàn thành phần này ✔</button>` : `<button class="btn ghost" id="nx">Bài tiếp theo →</button>`}
-  </div></section>`;
+  </div>${S.showReview ? `<section class="review-list"><h4>Xem lại đáp án và mẹo</h4>${reviewItems}</section>` : ""}</section>`;
   $("#app").innerHTML = h;
   wireTabs();
+  $("#review").onclick = () => { S.showReview = !S.showReview; vSummary(); };
   $$("[data-j]").forEach((b) => (b.onclick = () => {
     S.order = [...Array(ex.items.length).keys()];
     S.pos = +b.dataset.j;
+    S.review = !!S.res[key(S.pos)];
     go("study");
   }));
   $("#redo").onclick = () => {

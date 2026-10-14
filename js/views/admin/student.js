@@ -182,7 +182,7 @@ export async function viewAdminStudent({ id }) {
     const studySeconds = scopeRuns.reduce((sum, run) => sum + (Number(run.duration_seconds) || 0), 0);
     $("#student-scope-kpis", body).innerHTML = `<div class="kpi"><b>${scopeRuns.length}</b><span>lượt làm bài</span></div>
       <div class="kpi"><b>${completed.completed}<small>/${completed.total}</small></b><span>bài hoàn thành</span></div>
-      <div class="kpi"><b>${scopeProgressRows.length}<small>/${scopeTotalCount}</small></b><span>đã làm trong phạm vi chọn (${pct(scopeProgressRows.length, scopeTotalCount)}%)</span></div>
+      <div class="kpi"><b>${scopeProgressRows.length}<small>/${scopeTotalCount}</small></b><span>Số câuđã làm trong phạm vi chọn (${pct(scopeProgressRows.length, scopeTotalCount)}%)</span></div>
       <div class="kpi"><b>${pct(scopeCorrect, scopeProgressRows.length)}%</b><span>tỉ lệ đúng trong phạm vi chọn</span></div>
       <div class="kpi"><b>${formatDuration(studySeconds)}</b><span>thời gian học ước tính</span></div>`;
     const count = scopedMissing().filter(statusMatches).length;
@@ -238,8 +238,8 @@ export async function viewAdminStudent({ id }) {
         try { answersCache[rid] = await api.runAnswers(rid); } catch (e) { cell.innerHTML = `<div class="alert err">${esc(errMsg(e))}</div>`; return; }
       }
       const list = answersCache[rid];
-      cell.innerHTML = list.length ? `<div class="alist">${list.map((a, i) => `<div class="ans ${a.ok ? "ok" : "bad"}"><span class="m">${a.ok ? "✓" : "✗"}</span><div><div>${i + 1}. ${esc(a.q_text)}</div>
-        <div class="small">Học viên: <b>${esc(a.given_text || "—")}</b>${a.ok ? "" : ` · Đáp án: <b>${esc(a.correct_text)}</b>`}</div></div></div>`).join("")}</div>` : '<div class="muted">Không có chi tiết câu trả lời.</div>';
+      cell.innerHTML = list.length ? `<div class="alist">${list.map((a, i) => `<details class="ans ${a.ok ? "ok" : "bad"}"><summary><span class="m">${a.ok ? "✓" : "✗"}</span><span>${i + 1}. ${esc(a.q_text)}<br><span class="small">Chọn để xem đáp án và mẹo</span></span></summary>
+        <div class="ans-detail"><div class="small">Học viên: <b>${esc(a.given_text || "—")}</b>${a.ok ? "" : ` · Đáp án: <b>${esc(a.correct_text)}</b>`}</div>${a.why ? `<div class="blk why"><b class="t">Lời giải</b>${md(a.why)}</div>` : ""}${a.tip ? `<div class="blk tip"><b class="t">💡 Mẹo ghi nhớ</b>${md(a.tip)}</div>` : ""}</div></details>`).join("")}</div>` : '<div class="muted">Không có chi tiết câu trả lời.</div>';
     }));
     const more = $("#moreRuns", box);
     if (more) more.onclick = () => { runLimit += 30; drawRuns(); };
@@ -287,10 +287,10 @@ export async function viewAdminStudent({ id }) {
     }
     filteredWrong.forEach((it) => (byUnit[it.unit] ||= []).push(it));
     const units = Object.keys(byUnit).sort((a, b) => byUnit[b].length - byUnit[a].length);
-    box.innerHTML = `<div class="help">Học viên đang sai <b>${filteredWrong.length}</b> câu (kết quả gần nhất của mỗi câu). Mở từng unit để xem câu hỏi, đáp án của học viên, đáp án đúng và lời giải. Bấm <b>Gửi lời nhắc</b> để kèm danh sách này.</div>
-      ${units.map((u, i) => `<details class="fgroup" ${i === 0 ? "open" : ""}><summary>${esc(unitLabel(u))} <span class="badge red">${byUnit[u].length} câu sai</span></summary>${byUnit[u].map((it) => `<article class="wq"><div class="wq-q">${esc(it.q)}</div>
-        <div class="small">${it.given ? `Học viên chọn: <b class="bad-t">${esc(it.given)}</b> · ` : ""}Đáp án đúng: <b class="ok-t">${esc(it.correct)}</b> · <span class="badge">${esc(SECTIONS[it.section]?.n || it.section)}</span>${it.times > 1 ? ` <span class="badge red">sai ${it.times} lần</span>` : ""}</div>
-        ${it.why ? `<div class="blk why"><b class="t">Lời giải</b>${md(it.why)}</div>` : ""}${it.tip ? `<div class="blk tip"><b class="t">Mẹo ghi nhớ</b>${md(it.tip)}</div>` : ""}</article>`).join("")}</details>`).join("")}`;
+    box.innerHTML = `<div class="help">Học viên đang sai <b>${filteredWrong.length}</b> câu (kết quả gần nhất của mỗi câu). Bấm vào câu cần xem để mở đáp án, lời giải và mẹo. Bấm <b>Gửi lời nhắc</b> để kèm danh sách này.</div>
+      ${units.map((u, i) => `<details class="fgroup" ${i === 0 ? "open" : ""}><summary>${esc(unitLabel(u))} <span class="badge red">${byUnit[u].length} câu sai</span></summary>${byUnit[u].map((it) => `<details class="wq"><summary><div class="wq-q">${esc(it.q)}</div>
+        <div class="small">${it.given ? `Học viên chọn: <b class="bad-t">${esc(it.given)}</b> · ` : ""}Đáp án đúng: <b class="ok-t">${esc(it.correct)}</b> · <span class="badge">${esc(SECTIONS[it.section]?.n || it.section)}</span>${it.times > 1 ? ` <span class="badge red">sai ${it.times} lần</span>` : ""}<br><span class="muted">Nhấn để xem lời giải và mẹo</span></div></summary>
+        ${it.why ? `<div class="blk why"><b class="t">Lời giải</b>${md(it.why)}</div>` : ""}${it.tip ? `<div class="blk tip"><b class="t">💡 Mẹo ghi nhớ</b>${md(it.tip)}</div>` : ""}</details>`).join("")}</details>`).join("")}`;
   }
 
   /* ---------- Tab: chưa hoàn thành ---------- */
