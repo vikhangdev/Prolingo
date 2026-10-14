@@ -17,11 +17,7 @@ js/
   mascot.js           bạn trâu + pháo giấy
   views/              màn hình học viên (auth, learn, progress)
   views/admin/        màn hình quản trị (ngành, unit, từ vựng, bài tập, người dùng, dữ liệu)
-supabase/01_schema.sql  bảng + phân quyền (RLS)
-supabase/02_delete_rules.sql  (chỉ cần nếu đã chạy 01 từ bản cũ) khóa xóa cha khi còn con
-supabase/04_user_account_management.sql  (cần chạy nếu database đã được tạo trước tính năng quản lý tài khoản)
-supabase/05_user_industry_and_study_time.sql  (ngành chính tùy chọn, nhật ký học và thời lượng học)
-supabase/06_user_avatars.sql  (ảnh đại diện lưu trong Supabase Storage)
+supabase/01_schema.sql  schema đầy đủ, bao gồm phân quyền (RLS), quản lý tài khoản, theo dõi học tập và avatar
 data/itfield.json      dữ liệu mẫu CNTT (8 unit) chuyển từ bản cũ
 tools/export-seed.mjs   script đã dùng để chuyển script.js cũ → JSON
 ```
@@ -31,7 +27,7 @@ tools/export-seed.mjs   script đã dùng để chuyển script.js cũ → JSON
 ### 1. Tạo project Supabase
 1. Vào https://supabase.com → **New project** (gói Free là đủ).
 2. **SQL Editor → New query** → dán toàn bộ `supabase/01_schema.sql` → **Run**.
-3. Chạy tiếp `supabase/06_user_avatars.sql` để tạo vùng lưu ảnh đại diện.
+3. Không cần chạy thêm file SQL nào khác.
 
 ### 2. Cấu hình Auth
 **Authentication → URL Configuration**
@@ -64,9 +60,7 @@ Khi đăng ký, học viên có thể chọn **Ngành chính** hoặc bỏ qua v
 ## Quản lý tài khoản người dùng
 Trong **Quản trị → Người dùng → Quản lý tài khoản**, admin có thể xem thông tin, sửa tên hiển thị, ẩn/mở hoặc xóa tài khoản học viên. Mỗi thao tác cần xác nhận; tài khoản admin chỉ xem và sửa được, không thể ẩn hoặc xóa. Email chỉ xem được trong trang này.
 
-Nếu database đã chạy `01_schema.sql` trước các tính năng quản lý tài khoản/ngành chính, hãy chạy lần lượt `supabase/04_user_account_management.sql` và `supabase/05_user_industry_and_study_time.sql` trong Supabase SQL Editor. Database mới chỉ cần chạy `01_schema.sql` bản hiện tại. Tài khoản cũ có thể chọn ngành chính ở **Tài khoản của tôi** hoặc nhờ admin cập nhật trong **Quản lý tài khoản**.
-
-Để bật ảnh đại diện, chạy `supabase/06_user_avatars.sql` trong SQL Editor sau các migration hiện có. Học viên và admin có thể tải ảnh của mình lên ở **Tài khoản của tôi**; admin cũng có thể cập nhật ảnh của tài khoản trong **Quản lý tài khoản**. Ảnh được lưu ở bucket công khai `avatars`, hỗ trợ JPG, PNG, WebP và GIF tối đa 5 MB.
+`supabase/01_schema.sql` là file SQL duy nhất, đã bao gồm quản lý tài khoản, ngành chính, nhật ký/thời lượng học, chống trùng từ và cấu hình bucket avatar. Dùng file này khi tạo database mới. Nếu database hiện tại đã chạy đủ các SQL cũ thì không cần chạy lại; dữ liệu Supabase không bị xóa khi dọn các file SQL trong repository. Học viên và admin có thể tải ảnh lên ở **Tài khoản của tôi**; admin cũng có thể cập nhật ảnh trong **Quản lý tài khoản**. Ảnh được lưu ở bucket công khai `avatars`, hỗ trợ JPG, PNG, WebP và GIF tối đa 5 MB.
 
 ## Theo dõi học viên
 Vào **Quản trị → Người dùng → Quá trình học** để xem:
@@ -82,7 +76,7 @@ Cấu trúc: **Ngành → Unit → (Từ vựng | Bài tập → Câu hỏi)**. 
 **Câu hỏi → Bài tập / Từ vựng → Unit → Ngành**. Quản trị → **Quản lý dữ liệu → Xóa dữ liệu** có cây xóa theo từng cấp
 và nút "Xóa toàn bộ dữ liệu" (phải gõ `XOA TAT CA` để xác nhận). Quy tắc này cũng áp dụng ở các trang Ngành, Unit, Bài tập
 và được khóa ở database (ON DELETE RESTRICT).
-Nếu bạn đã chạy `01_schema.sql` từ phiên bản trước, hãy chạy thêm `supabase/02_delete_rules.sql` một lần.
+Quy tắc xóa này được khai báo trong `supabase/01_schema.sql`.
 
 ## Phân quyền
 | | Học viên | Admin |

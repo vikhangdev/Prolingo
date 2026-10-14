@@ -1,7 +1,7 @@
 -- ============================================================
 --  NGHÉ ENGLISH · Schema Supabase
 --  Cách chạy: Supabase Dashboard → SQL Editor → New query → dán toàn bộ file → Run.
---  File an toàn khi chạy lại nhiều lần (idempotent).
+--  Database mới chỉ cần chạy file này. Database hiện tại đã chạy đủ SQL cũ thì không cần chạy lại.
 -- ============================================================
 
 -- ---------- 1. HỒ SƠ NGƯỜI DÙNG + PHÂN QUYỀN ----------
@@ -122,6 +122,23 @@ create table if not exists public.fields (
   is_published boolean not null default true,
   created_at   timestamptz not null default now()
 );
+alter table public.fields
+  add column if not exists color_hex text;
+do $$
+begin
+  if not exists (
+    select 1
+    from pg_constraint
+    where conname = 'fields_color_hex_check'
+      and conrelid = 'public.fields'::regclass
+  ) then
+    alter table public.fields
+      add constraint fields_color_hex_check
+      check (color_hex is null or color_hex ~ '^#[0-9A-Fa-f]{6}$');
+  end if;
+end
+$$;
+
 alter table public.profiles
   add column if not exists primary_field_id uuid references public.fields (id) on delete set null,
   add column if not exists avatar_url text;
@@ -147,8 +164,30 @@ create table if not exists public.words (
   sort_order int  not null default 0,
   en_key     text generated always as (lower(btrim(en))) stored
 );
+alter table public.words
+  add column if not exists en_key text generated always as (lower(btrim(en))) stored;
 create index if not exists words_unit_idx on public.words (unit_id, sort_order);
 create index if not exists words_key_idx  on public.words (en_key);
+do $$
+declare
+  duplicates text;
+begin
+  select string_agg(format('%s (%s dòng)', en_key, duplicate_count), ', ')
+  into duplicates
+  from (
+    select en_key, count(*) as duplicate_count
+    from public.words
+    group by unit_id, en_key
+    having count(*) > 1
+    order by en_key
+    limit 10
+  ) as duplicate_words;
+
+  if duplicates is not null then
+    raise exception 'Không thể bật chống trùng từ vì dữ liệu hiện có bị trùng trong cùng Unit: %. Hãy xử lý các từ trùng rồi chạy lại file schema.', duplicates;
+  end if;
+end
+$$;
 create unique index if not exists words_unit_en_key_uidx on public.words (unit_id, en_key);
 
 -- Từ điển tra nhanh (từ thông dụng không thuộc unit nào)
@@ -223,6 +262,8 @@ create table if not exists public.study_runs (
   updated_at       timestamptz not null default now(),
   duration_seconds int not null default 0
 );
+alter table public.study_runs
+  add column if not exists duration_seconds int not null default 0;
 create index if not exists study_runs_user_idx on public.study_runs (user_id, started_at desc);
 
 create table if not exists public.answer_log (
@@ -485,7 +526,47 @@ drop policy if exists reminders_active_guard on public.reminders;
 create policy reminders_active_guard on public.reminders as restrictive for all to authenticated
   using (public.is_account_active()) with check (public.is_account_active());
 
--- ---------- 6. QUYỀN TRUY CẬP API ----------
+-- ---------- 6. ẢNH ĐẠI DIỆN (SUPABASE STORAGE) ----------
+insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_types)
+values ('avatars', 'avatars', true, 5242880, array['image/jpeg', 'image/png', 'image/webp', 'image/gif'])
+on conflict (id) do update
+set public = excluded.public,
+    file_size_limit = excluded.file_size_limit,
+    allowed_mime_types = excluded.allowed_mime_types;
+
+drop policy if exists avatars_select on storage.objects;
+create policy avatars_select on storage.objects for select to authenticated
+  using (
+    bucket_id = 'avatars'
+    and ((storage.foldername(name))[1] = auth.uid()::text or public.is_admin())
+  );
+
+drop policy if exists avatars_insert on storage.objects;
+create policy avatars_insert on storage.objects for insert to authenticated
+  with check (
+    bucket_id = 'avatars'
+    and ((storage.foldername(name))[1] = auth.uid()::text or public.is_admin())
+  );
+
+drop policy if exists avatars_update on storage.objects;
+create policy avatars_update on storage.objects for update to authenticated
+  using (
+    bucket_id = 'avatars'
+    and ((storage.foldername(name))[1] = auth.uid()::text or public.is_admin())
+  )
+  with check (
+    bucket_id = 'avatars'
+    and ((storage.foldername(name))[1] = auth.uid()::text or public.is_admin())
+  );
+
+drop policy if exists avatars_delete on storage.objects;
+create policy avatars_delete on storage.objects for delete to authenticated
+  using (
+    bucket_id = 'avatars'
+    and ((storage.foldername(name))[1] = auth.uid()::text or public.is_admin())
+  );
+
+-- ---------- 7. QUYỀN TRUY CẬP API ----------
 grant usage on schema public to anon, authenticated;
 grant select on public.fields to anon;
 grant select, insert, update, delete on all tables in schema public to authenticated;
