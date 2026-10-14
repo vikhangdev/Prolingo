@@ -10,10 +10,10 @@ export async function viewAdminUnits() {
     const [us, stats] = await Promise.all([api.listUnits(scope.field.id), api.unitStats()]);
     rows = us;
     const sm = Object.fromEntries(stats.map((s) => [s.unit_id, s]));
-    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th></th><th>Tên unit</th><th>Từ</th><th>Câu hỏi</th><th>Hiển thị</th><th>Từ vựng / Câu hỏi / Chức năng</th></tr></thead><tbody>${rows.map((u, i) => {
+    body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên unit</th><th>Từ</th><th>Câu hỏi</th><th>Hiển thị</th><th>Từ vựng / Câu hỏi / Chức năng</th></tr></thead><tbody>${rows.map((u, i) => {
       const s = sm[u.id] || {};
       return `<tr><td style="text-align:center">${i + 1}</td><td class="ico">${esc(u.icon)}</td><td><b>${esc(u.name)}</b><br><span class="small">${esc(u.name_vi)}</span></td>
-      <td>${s.n_words || 0}</td><td>${(s.n_vocab || 0) + (s.n_lang || 0) + (s.n_read || 0)}</td>
+      <td style="text-align:center">${s.n_words || 0}</td><td style="text-align:center">${(s.n_vocab || 0) + (s.n_lang || 0) + (s.n_read || 0)}</td>
       <td>${u.is_published ? '<span class="badge green">Hiển thị</span>' : '<span class="badge red">Đã ẩn</span>'}</td>
       <td class="acts"><button class="btn ghost sm" data-up="${u.id}" ${i === 0 ? "disabled" : ""}>↑</button><button class="btn ghost sm" data-dn="${u.id}" ${i === rows.length - 1 ? "disabled" : ""}>↓</button>
       <a class="btn ghost sm" href="#/admin/words" data-go="${u.id}">Từ vựng</a><a class="btn ghost sm" href="#/admin/exercises" data-go="${u.id}">Bài tập</a>

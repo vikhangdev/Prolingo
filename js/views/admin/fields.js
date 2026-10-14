@@ -21,7 +21,9 @@ export async function viewAdminFields() {
     body.innerHTML = rows.length ? `<div class="tbl-scroll"><table class="dtable"><thead><tr><th>STT</th><th>Icon</th><th>Tên ngành</th><th>Slug</th><th>Màu</th><th>Unit</th><th>Hiển thị</th><th>Chức năng</th></tr></thead><tbody>${rows.map((f, i) => `<tr>
       <td style="text-align:center"><b>${i + 1}</b></td><td class="ico">${esc(f.icon)}</td><td><b>${esc(f.name)}</b><br><span class="small">${esc(f.name_vi)}</span></td><td><code>${esc(f.slug)}</code></td>
       <td><span class="swatch" style="background:hsl(${f.hue} 52% 40%)"></span> ${f.hue}°</td><td>${nu[f.id] || 0}</td>
-      <td>${f.is_published ? '<span class="badge green">Đang hiển thị</span>' : '<span class="badge red">Đã ẩn</span>'}</td>
+      
+      <td><button class="publish-toggle ${f.is_published ? "on" : "off"}" type="button" data-pub="${f.id}" aria-pressed="${!!f.is_published}" aria-label="${f.is_published ? "Ẩn" : "Hiển thị"} ngành ${esc(f.name)}"><span class="publish-toggle__track"><span></span></span></button></td>
+      
       <td class="acts"><button class="btn ghost sm" data-up="${f.id}" ${i === 0 ? "disabled" : ""} aria-label="Lên">↑</button><button class="btn ghost sm" data-dn="${f.id}" ${i === rows.length - 1 ? "disabled" : ""} aria-label="Xuống">↓</button>
       <button class="btn ghost sm" data-ed="${f.id}">Sửa</button><button class="btn danger sm" data-del="${f.id}">Xóa</button></td></tr>`).join("")}</tbody></table></div>`
       : `<div class="empty-state"><div class="big">🗂️</div><h3>Chưa có ngành nào</h3><p>Bấm "Thêm ngành" để tạo ngành đầu tiên.</p></div>`;
@@ -29,6 +31,19 @@ export async function viewAdminFields() {
     $$("[data-del]", body).forEach((b) => (b.onclick = () => del(rows.find((r) => r.id === b.dataset.del))));
     $$("[data-up]", body).forEach((b) => (b.onclick = () => reorder(b.dataset.up, -1)));
     $$("[data-dn]", body).forEach((b) => (b.onclick = () => reorder(b.dataset.dn, 1)));
+
+    $$("[data-pub]", body).forEach((b) => {
+      b.onclick = async () => {
+        const f = rows.find((r) => r.id === b.dataset.pub);
+        if (!f) return;
+        b.disabled = true;
+        const saved = await act(
+          () => api.updateRow("fields", f.id, { is_published: !f.is_published }),
+          f.is_published ? "Đã ẩn ngành" : "Đã hiển thị ngành"
+        );
+        if (saved) await load();
+      };
+    });
   };
   const reorder = async (id, d) => {
     const a = moveItem(rows, id, d);
@@ -59,8 +74,13 @@ export async function viewAdminFields() {
       onSubmit: async (d) => {
         const name = $("#n", d).value.trim();
         if (!name) throw new Error("Vui lòng nhập tên ngành.");
-        const row = { name, name_vi: $("#nv", d).value.trim(), slug: slugify($("#sl", d).value || name) || "nganh", icon: $("#ic", d).value.trim() || "📘",
-          hue: +$("#hu", d).value, description: $("#ds", d).value.trim(), is_published: $("#pb", d).checked };
+        const row = { name,
+          name_vi: $("#nv", d).value.trim(),
+          slug: slugify($("#sl", d).value || name) || "nganh",
+          icon: $("#ic", d).value.trim() || "📘",
+          hue: +$("#hu", d).value, 
+          description: $("#ds", d).value.trim(), 
+          is_published: $("#pb", d).checked };
         if (isNew) await api.insertRow("fields", { ...row, sort_order: rows.length }); else await api.updateRow("fields", f.id, row);
         await load();
       },
