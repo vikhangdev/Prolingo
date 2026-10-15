@@ -12,7 +12,7 @@ const LET = "ABCDEFGHIJKLMNOP";
 const S = {
   unit: null, sec: null, secs: null, exit: null,
   view: "study", ex: 0, order: [], pos: 0,
-  res: {}, draft: null, bd: {}, flip: false, review: false, showReview: false, scored: new Set(), runs: {},
+  res: {}, draft: null, bd: {}, flip: false, review: false, scored: new Set(), runs: {},
 };
 
 /* ---------- Truy cập nhanh ---------- */
@@ -33,7 +33,7 @@ function exStats(ei = S.ex) {
 
 /* ---------- Khởi chạy ---------- */
 export function startQuiz({ unit, secs, section, onExit }) {
-  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, review: false, showReview: false, scored: new Set(), runs: {} });
+  Object.assign(S, { unit, secs, sec: section, exit: onExit, res: {}, bd: {}, draft: null, flip: false, review: false, scored: new Set(), runs: {} });
   startEx(0);
 }
 
@@ -45,7 +45,6 @@ function startEx(i, subset) {
   S.draft = null;
   S.flip = false;
   S.review = false;
-  S.showReview = false;
   render();
   window.scrollTo(0, 0);
 }
@@ -573,13 +572,6 @@ function vSummary() {
   const msg = pctV >= 90 ? "Xuất sắc! 🎉" : pctV >= 70 ? "Khá tốt, cố thêm chút nữa! 👍" : pctV >= 50 ? "Tạm ổn – hãy làm lại các câu sai 💪" : "Cần ôn thêm – đọc kỹ phần giải thích nhé 📖";
   const best = Progress.getScore(exKeyOf(ex));
   if (st.total && st.done === st.total) maybeSaveScore();
-  const reviewItems = ex.items.map((q, i) => {
-    const r = S.res[key(i)];
-    if (!r) return `<details class="review-item"><summary>${i + 1}. ${esc((q.q || q.en || "").replace(/___/g, "…"))} <span class="badge">Chưa trả lời</span></summary></details>`;
-    return `<details class="review-item"><summary>${i + 1}. ${esc((q.q || q.en || "").replace(/___/g, "…"))} <span class="badge ${r.ok ? "green" : "red"}">${r.ok ? "Đúng" : "Chưa đúng"}</span></summary>
-      <div class="review-answer"><div class="small">Bạn chọn: <b>${esc(givenText(q, r.given) || "—")}</b></div><div class="small">Đáp án đúng: <b>${esc(ansText(q))}</b></div>
-      ${q.why ? `<div class="blk why"><b class="t">Vì sao đúng</b>${md(q.why)}</div>` : ""}${q.tip ? `<div class="blk tip"><b class="t">💡 Mẹo ghi nhớ</b>${md(q.tip)}</div>` : ""}</div></details>`;
-  }).join("");
   const h = `<button class="back" id="bk">← Chọn phần khác</button>${tabsHtml()}
   <section class="pane sum" style="max-width:720px;margin:0 auto"><h4>Kết quả · ${esc(ex.t)}</h4><div class="ring" style="--p:${pctV}%"><div>${pctV}%</div></div>
   <h3 style="margin:4px 0">Đúng ${st.ok}/${st.total} câu</h3><div class="small">${msg}${best ? ` · Điểm cao nhất: ${best.best}%` : ""}</div>
@@ -590,14 +582,12 @@ function vSummary() {
     return `<button type="button" class="ritem ${r ? (r.ok ? "ok" : "bad") : "na"}" data-j="${i}" aria-label="Câu ${i + 1}, ${r ? (r.ok ? "đúng" : "sai") : "chưa làm"}"><span class="m">${r ? (r.ok ? "✓" : "✗") : "–"}</span><span>${i + 1}. ${esc(text)}${r && !r.ok ? `<br><span class="small">Đáp án: ${esc(ansText(q))}</span>` : ""}</span></button>`;
   }).join("")}</div>
   <div class="row" style="justify-content:center">
-    <button class="btn ghost" id="review">Xem lại</button>
     <button class="btn" id="redo" ${wrong.length ? "" : "disabled"}>🔁 Làm lại ${wrong.length} câu sai</button>
     <button class="btn ghost" id="all">Làm lại cả bài</button>
     ${last ? `<button class="btn ghost" id="fin">Hoàn thành phần này ✔</button>` : `<button class="btn ghost" id="nx">Bài tiếp theo →</button>`}
-  </div>${S.showReview ? `<section class="review-list"><h4>Xem lại đáp án và mẹo</h4>${reviewItems}</section>` : ""}</section>`;
+  </div></section>`;
   $("#app").innerHTML = h;
   wireTabs();
-  $("#review").onclick = () => { S.showReview = !S.showReview; vSummary(); };
   $$("[data-j]").forEach((b) => (b.onclick = () => {
     S.order = [...Array(ex.items.length).keys()];
     S.pos = +b.dataset.j;
