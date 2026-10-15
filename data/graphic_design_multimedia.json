@@ -1,0 +1,4237 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "graphic-design-multimedia",
+    "name": "Graphic Design & Multimedia",
+    "name_vi": "Thiết kế đồ họa & Đa phương tiện",
+    "icon": "🎨",
+    "hue": 320,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành thiết kế đồ họa và đa phương tiện: nguyên lý thiết kế, typography & bố cục, màu sắc & công cụ số, thương hiệu & khách hàng, video – âm thanh – hoạt hình, UX/web & portfolio."
+  },
+  "units": [
+    {
+      "name": "Design Fundamentals",
+      "name_vi": "Nền tảng thiết kế",
+      "icon": "🎨",
+      "hue": 320,
+      "words": [
+        {
+          "en": "graphic design",
+          "vi": "thiết kế đồ họa"
+        },
+        {
+          "en": "composition",
+          "vi": "bố cục tổng thể"
+        },
+        {
+          "en": "line",
+          "vi": "đường nét"
+        },
+        {
+          "en": "shape",
+          "vi": "hình dạng"
+        },
+        {
+          "en": "form",
+          "vi": "hình khối"
+        },
+        {
+          "en": "space",
+          "vi": "không gian"
+        },
+        {
+          "en": "white space",
+          "vi": "khoảng trắng"
+        },
+        {
+          "en": "texture",
+          "vi": "kết cấu bề mặt"
+        },
+        {
+          "en": "contrast",
+          "vi": "độ tương phản"
+        },
+        {
+          "en": "balance",
+          "vi": "sự cân bằng"
+        },
+        {
+          "en": "symmetry",
+          "vi": "tính đối xứng"
+        },
+        {
+          "en": "alignment",
+          "vi": "sự căn chỉnh"
+        },
+        {
+          "en": "proximity",
+          "vi": "sự gần nhau (nhóm gần)"
+        },
+        {
+          "en": "repetition",
+          "vi": "sự lặp lại"
+        },
+        {
+          "en": "hierarchy",
+          "vi": "thứ bậc thị giác"
+        },
+        {
+          "en": "emphasis",
+          "vi": "sự nhấn mạnh"
+        },
+        {
+          "en": "focal point",
+          "vi": "điểm nhấn thị giác"
+        },
+        {
+          "en": "rhythm",
+          "vi": "nhịp điệu"
+        },
+        {
+          "en": "unity",
+          "vi": "sự thống nhất"
+        },
+        {
+          "en": "scale",
+          "vi": "tỷ lệ kích thước"
+        },
+        {
+          "en": "proportion",
+          "vi": "tỷ lệ cân đối"
+        },
+        {
+          "en": "concept",
+          "vi": "ý tưởng chủ đạo"
+        },
+        {
+          "en": "sketch",
+          "vi": "bản phác thảo"
+        },
+        {
+          "en": "mood board",
+          "vi": "bảng cảm hứng"
+        },
+        {
+          "en": "thumbnail",
+          "vi": "bản phác nhỏ"
+        },
+        {
+          "en": "visual",
+          "vi": "thuộc thị giác"
+        },
+        {
+          "en": "audience",
+          "vi": "đối tượng khán giả"
+        },
+        {
+          "en": "message",
+          "vi": "thông điệp"
+        },
+        {
+          "en": "style",
+          "vi": "phong cách"
+        },
+        {
+          "en": "minimalism",
+          "vi": "chủ nghĩa tối giản"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The arrangement of elements on a page is called the ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "compose = sắp xếp, tạo nên.",
+                "why": "**composition** = bố cục.",
+                "opts": [
+                  "composition",
+                  "texture",
+                  "rhythm"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Empty areas around objects, called ___, make a design feel clean and easy to read.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**white space** = khoảng trắng, giúp thiết kế thoáng.",
+                "opts": [
+                  "white space",
+                  "emphasis",
+                  "proportion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The difference between light and dark, or big and small, creates ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**contrast** = tương phản.",
+                "opts": [
+                  "symmetry",
+                  "repetition",
+                  "contrast"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When both halves of a design are mirror images, the design shows ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**symmetry** = đối xứng.",
+                "opts": [
+                  "symmetry",
+                  "contrast",
+                  "hierarchy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the part of a design that first catches the viewer's eye.",
+                "ans": [
+                  0
+                ],
+                "tip": "focus = tập trung.",
+                "why": "**focal point** = điểm nhấn thị giác.",
+                "opts": [
+                  "focal point",
+                  "thumbnail",
+                  "message"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Using size and weight to show which information is most important creates ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**hierarchy** = thứ bậc thị giác.",
+                "opts": [
+                  "alignment",
+                  "hierarchy",
+                  "minimalism"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Before opening the software, she drew a rough ___ of the poster.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**sketch** = bản phác thảo.",
+                "opts": [
+                  "texture",
+                  "sketch",
+                  "scale"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a collection of images, colors and textures that shows the mood of a project.",
+                "ans": [
+                  2
+                ],
+                "tip": "mood = tâm trạng.",
+                "why": "**mood board** = bảng cảm hứng.",
+                "opts": [
+                  "composition",
+                  "hierarchy",
+                  "mood board"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "alignment",
+                "b": "arranging elements along a common line or edge",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "proximity",
+                "b": "placing related items close together",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "repetition",
+                "b": "using the same element several times to create consistency",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "texture",
+                "b": "the surface quality of an object, real or visual",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "rhythm",
+                "b": "a pattern of repeated elements that creates movement",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "unity",
+                "b": "the feeling that all parts of a design belong together",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "scale",
+                "b": "the size of one element compared with another",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "minimalism",
+                "b": "a style that uses very few elements and a lot of space",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A designer usually ___ several sketches before choosing a concept.",
+                "ans": [
+                  0
+                ],
+                "tip": "usually → hiện tại đơn.",
+                "why": "'usually' → **makes**.",
+                "opts": [
+                  "makes",
+                  "is making",
+                  "make"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Right now, she ___ the poster layout.",
+                "ans": [
+                  1
+                ],
+                "tip": "now → be + V-ing.",
+                "why": "'Right now' → **is adjusting**.",
+                "opts": [
+                  "adjusts",
+                  "is adjusting",
+                  "adjusted"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Good contrast ___ text easier to read.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Sự thật chung, số ít → **makes**.",
+                "opts": [
+                  "makes",
+                  "is making",
+                  "make"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ a new logo for the client this week.",
+                "ans": [
+                  2
+                ],
+                "tip": "this week (tạm thời) → tiếp diễn.",
+                "why": "Việc đang diễn ra trong tuần → **are designing**.",
+                "opts": [
+                  "design",
+                  "designed",
+                  "are designing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "White space ___ a design look cleaner.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Sự thật chung → **helps**.",
+                "opts": [
+                  "is helping",
+                  "help",
+                  "helps"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look! The art director ___ at your mood board.",
+                "ans": [
+                  0
+                ],
+                "tip": "Look! → đang xảy ra.",
+                "why": "'Look!' → **is looking**.",
+                "opts": [
+                  "is looking",
+                  "looks",
+                  "look"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A grid ___ (help) designers align elements.",
+                "ans": [
+                  [
+                    "helps"
+                  ]
+                ],
+                "tip": "He/She/It + V-s.",
+                "why": "Sự thật chung → **helps**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "At the moment, the team ___ (choose) the final concept.",
+                "ans": [
+                  [
+                    "is choosing",
+                    "'s choosing"
+                  ]
+                ],
+                "tip": "be + V-ing.",
+                "why": "'At the moment' → **is choosing**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Minimalist designs ___ (use) a lot of white space.",
+                "ans": [
+                  [
+                    "use"
+                  ]
+                ],
+                "tip": "Chủ ngữ số nhiều.",
+                "why": "Số nhiều, sự thật chung → **use**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She ___ (not / like) too many colors in one poster.",
+                "ans": [
+                  [
+                    "doesn't like",
+                    "does not like"
+                  ]
+                ],
+                "tip": "",
+                "why": "Sở thích → **doesn't like**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I ___ (work) on a brand project this month.",
+                "ans": [
+                  [
+                    "am working",
+                    "'m working"
+                  ]
+                ],
+                "tip": "",
+                "why": "Việc tạm thời trong tháng này → **am working**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Seeing like a designer",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Graphic design is the art of communicating a message with images and text. Every design starts with a concept. Designers usually collect ideas on a mood board and draw several sketches before they open any software.\n\nGood designs follow some basic principles. Contrast makes important elements stand out, and alignment keeps everything in order. Proximity groups related items together, while repetition creates a consistent style. A strong hierarchy shows the viewer where to look first, so the focal point is clear.\n\nWhite space is also very important. Beginners often fill every empty area, but experienced designers know that space gives the eyes a rest. Minimalism, a style that uses few elements, is popular because it communicates the message quickly. At the moment, many studios are combining simple layouts with bold colors to attract a young audience.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Designers usually draw sketches before they open any software.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: phác thảo trước khi mở phần mềm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Contrast keeps everything in order.",
+                "ans": [
+                  1
+                ],
+                "tip": "Alignment mới giữ trật tự.",
+                "why": "Đoạn 2: **alignment** giữ trật tự; contrast làm yếu tố quan trọng nổi bật."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A strong hierarchy shows the viewer where to look first.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thứ bậc mạnh chỉ ra nơi nhìn đầu tiên."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Experienced designers fill every empty area.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người mới hay lấp đầy; người có kinh nghiệm biết khoảng trống giúp mắt nghỉ."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a mood board used for?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thu thập ý tưởng.",
+                "opts": [
+                  "To print the final poster",
+                  "To collect ideas",
+                  "To compress images"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does proximity do?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhóm các mục liên quan lại gần nhau.",
+                "opts": [
+                  "Groups related items together",
+                  "Makes all items the same size",
+                  "Removes white space"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is minimalism popular?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: truyền đạt thông điệp nhanh.",
+                "opts": [
+                  "It needs many colors",
+                  "It communicates the message quickly",
+                  "It uses lots of text"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are many studios doing at the moment?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: kết hợp bố cục đơn giản với màu đậm.",
+                "opts": [
+                  "Avoiding color",
+                  "Using only text",
+                  "Combining simple layouts with bold colors"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Typography & Layout",
+      "name_vi": "Chữ & bố cục trang",
+      "icon": "🔤",
+      "hue": 200,
+      "words": [
+        {
+          "en": "typography",
+          "vi": "nghệ thuật chữ (typography)"
+        },
+        {
+          "en": "typeface",
+          "vi": "họ chữ"
+        },
+        {
+          "en": "font",
+          "vi": "phông chữ"
+        },
+        {
+          "en": "serif",
+          "vi": "chữ có chân"
+        },
+        {
+          "en": "sans serif",
+          "vi": "chữ không chân"
+        },
+        {
+          "en": "weight",
+          "vi": "độ đậm của chữ"
+        },
+        {
+          "en": "leading",
+          "vi": "khoảng cách dòng"
+        },
+        {
+          "en": "kerning",
+          "vi": "khoảng cách giữa hai chữ cái"
+        },
+        {
+          "en": "tracking",
+          "vi": "khoảng cách chữ tổng thể"
+        },
+        {
+          "en": "heading",
+          "vi": "tiêu đề"
+        },
+        {
+          "en": "subheading",
+          "vi": "tiêu đề phụ"
+        },
+        {
+          "en": "body text",
+          "vi": "nội dung chính"
+        },
+        {
+          "en": "caption",
+          "vi": "chú thích ảnh"
+        },
+        {
+          "en": "margin",
+          "vi": "lề trang"
+        },
+        {
+          "en": "column",
+          "vi": "cột"
+        },
+        {
+          "en": "grid",
+          "vi": "lưới bố cục"
+        },
+        {
+          "en": "layout",
+          "vi": "bố cục trang"
+        },
+        {
+          "en": "gutter",
+          "vi": "khoảng cách giữa các cột"
+        },
+        {
+          "en": "bleed",
+          "vi": "vùng tràn lề (khi in)"
+        },
+        {
+          "en": "orientation",
+          "vi": "hướng trang (dọc/ngang)"
+        },
+        {
+          "en": "readability",
+          "vi": "độ dễ đọc (cả đoạn)"
+        },
+        {
+          "en": "legibility",
+          "vi": "độ rõ nét của từng chữ"
+        },
+        {
+          "en": "justified text",
+          "vi": "văn bản căn đều hai bên"
+        },
+        {
+          "en": "baseline",
+          "vi": "đường cơ sở của dòng chữ"
+        },
+        {
+          "en": "display font",
+          "vi": "phông chữ trang trí tiêu đề"
+        },
+        {
+          "en": "paragraph",
+          "vi": "đoạn văn"
+        },
+        {
+          "en": "line length",
+          "vi": "độ dài dòng"
+        },
+        {
+          "en": "italic",
+          "vi": "chữ nghiêng"
+        },
+        {
+          "en": "bold",
+          "vi": "chữ đậm"
+        },
+        {
+          "en": "template",
+          "vi": "mẫu dựng sẵn"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a complete set of letters, numbers and symbols in one design style.",
+                "ans": [
+                  2
+                ],
+                "tip": "type + face.",
+                "why": "**typeface** = họ chữ.",
+                "opts": [
+                  "margin",
+                  "caption",
+                  "typeface"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ typeface has small lines at the ends of its strokes.",
+                "ans": [
+                  1
+                ],
+                "tip": "sans = không có (tiếng Pháp).",
+                "why": "**serif** = chữ có chân.",
+                "opts": [
+                  "sans serif",
+                  "serif",
+                  "display font"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The space between lines of text is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**leading** = khoảng cách dòng.",
+                "opts": [
+                  "leading",
+                  "kerning",
+                  "bleed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ means adjusting the space between two specific letters, such as A and V.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**Kerning** = chỉnh khoảng cách giữa hai chữ cái.",
+                "opts": [
+                  "Gutter",
+                  "Bleed",
+                  "Kerning"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the empty space between the content and the edge of the page.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**margin** = lề trang.",
+                "opts": [
+                  "caption",
+                  "column",
+                  "margin"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a short text that explains a photo.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**caption** = chú thích ảnh.",
+                "opts": [
+                  "heading",
+                  "baseline",
+                  "caption"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Printers need a 3 mm ___ so that colors reach the edge after cutting.",
+                "ans": [
+                  1
+                ],
+                "tip": "to bleed = tràn.",
+                "why": "**bleed** = vùng tràn lề khi in.",
+                "opts": [
+                  "gutter",
+                  "bleed",
+                  "margin"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Good ___ means that a text is comfortable to read for a long time.",
+                "ans": [
+                  2
+                ],
+                "tip": "read + able.",
+                "why": "**readability** = độ dễ đọc.",
+                "opts": [
+                  "orientation",
+                  "template",
+                  "readability"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sans serif",
+                "b": "a typeface without small lines at the ends of its strokes",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tracking",
+                "b": "the overall space between all letters in a block of text",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "heading",
+                "b": "large text that introduces a section",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "body text",
+                "b": "the main text of a document",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "grid",
+                "b": "a set of guides that organizes content on a page",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gutter",
+                "b": "the space between two columns",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "legibility",
+                "b": "how easy it is to recognize each letter",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "display font",
+                "b": "a decorative typeface used for large titles",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Sans serif fonts are often ___ than serif fonts on small screens.",
+                "ans": [
+                  2
+                ],
+                "tip": "Tính từ ngắn + -er.",
+                "why": "clear → **clearer than**.",
+                "opts": [
+                  "more clear",
+                  "clearest",
+                  "clearer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This heading is ___ than the body text.",
+                "ans": [
+                  2
+                ],
+                "tip": "big → bigger (gấp đôi phụ âm).",
+                "why": "**bigger than**.",
+                "opts": [
+                  "more big",
+                  "biggest",
+                  "bigger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which is the ___ font for a legal document?",
+                "ans": [
+                  1
+                ],
+                "tip": "the + most + tính từ dài.",
+                "why": "'the' → **most suitable**.",
+                "opts": [
+                  "more suitable",
+                  "most suitable",
+                  "suitablest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A very long line of text is ___ to follow than a short one.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "hard → **harder than**.",
+                "opts": [
+                  "more hard",
+                  "hardest",
+                  "harder"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The more white space you add, the ___ the design looks.",
+                "ans": [
+                  1
+                ],
+                "tip": "the + so sánh hơn, the + so sánh hơn.",
+                "why": "Cấu trúc 'the ... the ...' → **cleaner**.",
+                "opts": [
+                  "clean",
+                  "cleaner",
+                  "cleanest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This typeface is as ___ as that one.",
+                "ans": [
+                  2
+                ],
+                "tip": "as + tính từ gốc + as.",
+                "why": "So sánh bằng: as **readable** as.",
+                "opts": [
+                  "more readable",
+                  "most readable",
+                  "readable"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct comparative or superlative form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A script font is ___ (decorative) than a sans serif font.",
+                "ans": [
+                  [
+                    "more decorative"
+                  ]
+                ],
+                "tip": "Tính từ dài → more.",
+                "why": "**more decorative**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This is the ___ (easy) layout to read.",
+                "ans": [
+                  [
+                    "easiest"
+                  ]
+                ],
+                "tip": "y → iest.",
+                "why": "'the' → **easiest**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The new poster is ___ (colorful) than the old one.",
+                "ans": [
+                  [
+                    "more colorful"
+                  ]
+                ],
+                "tip": "",
+                "why": "colorful dài → **more colorful**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Large type is ___ (good) for a headline than small type.",
+                "ans": [
+                  [
+                    "better"
+                  ]
+                ],
+                "tip": "good – better – best.",
+                "why": "**better**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A 12-column grid is ___ (flexible) than a 4-column grid.",
+                "ans": [
+                  [
+                    "more flexible"
+                  ]
+                ],
+                "tip": "",
+                "why": "flexible dài → **more flexible**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Choosing the right typeface",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Typography is the art of arranging type so that it is readable and attractive. The first decision is the typeface. Serif fonts, such as Times New Roman, are traditional and are often used in books. Sans serif fonts, such as Helvetica, look cleaner and are usually easier to read on screens. Display fonts are more decorative, so they are best for large titles, not for long paragraphs.\n\nNext, the designer sets the size, leading and line length. A line that is too long is harder to follow than a short one, and tight leading makes text feel crowded. Kerning improves the space between individual letters, which is especially important in a logo.\n\nFinally, the designer builds the layout on a grid with columns, margins and gutters. A clear hierarchy of headings, subheadings and body text is the best way to guide readers through a page.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Serif fonts are often used in books.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: chữ có chân thường dùng trong sách."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Display fonts are the best choice for long paragraphs.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: phông trang trí hợp tiêu đề lớn, không phải đoạn dài."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A very long line is easier to follow than a short one.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: dòng quá dài khó theo dõi hơn dòng ngắn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A grid with columns, margins and gutters helps build the layout.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bố cục được dựng trên lưới."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why are sans serif fonts popular on screens?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: trông gọn và dễ đọc hơn trên màn hình.",
+                "opts": [
+                  "They are more decorative",
+                  "They are used only in books",
+                  "They look cleaner and are usually easier to read"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does tight leading cause?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khoảng cách dòng chặt làm văn bản chật chội.",
+                "opts": [
+                  "Lines are too long",
+                  "Letters disappear",
+                  "Text feels crowded"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is kerning important in a logo?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: kerning cải thiện khoảng cách giữa từng chữ cái.",
+                "opts": [
+                  "It improves the space between individual letters",
+                  "It changes the color",
+                  "It makes the file smaller"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What guides readers through a page?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thứ bậc tiêu đề rõ ràng dẫn dắt người đọc.",
+                "opts": [
+                  "A clear hierarchy of headings, subheadings and body text",
+                  "A larger margin only",
+                  "More decorative fonts"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Color, Image & Digital Tools",
+      "name_vi": "Màu sắc, hình ảnh & công cụ số",
+      "icon": "🌈",
+      "hue": 50,
+      "words": [
+        {
+          "en": "color palette",
+          "vi": "bảng màu"
+        },
+        {
+          "en": "hue",
+          "vi": "sắc độ (màu gốc)"
+        },
+        {
+          "en": "saturation",
+          "vi": "độ bão hòa"
+        },
+        {
+          "en": "brightness",
+          "vi": "độ sáng"
+        },
+        {
+          "en": "RGB",
+          "vi": "hệ màu RGB (màn hình)"
+        },
+        {
+          "en": "CMYK",
+          "vi": "hệ màu CMYK (in ấn)"
+        },
+        {
+          "en": "color wheel",
+          "vi": "vòng tròn màu"
+        },
+        {
+          "en": "complementary colors",
+          "vi": "màu bổ sung"
+        },
+        {
+          "en": "gradient",
+          "vi": "dải chuyển màu"
+        },
+        {
+          "en": "opacity",
+          "vi": "độ mờ đục"
+        },
+        {
+          "en": "vector graphic",
+          "vi": "đồ họa vector"
+        },
+        {
+          "en": "raster image",
+          "vi": "ảnh raster (điểm ảnh)"
+        },
+        {
+          "en": "pixel",
+          "vi": "điểm ảnh"
+        },
+        {
+          "en": "resolution",
+          "vi": "độ phân giải"
+        },
+        {
+          "en": "layer",
+          "vi": "lớp (layer)"
+        },
+        {
+          "en": "mask",
+          "vi": "mặt nạ (mask)"
+        },
+        {
+          "en": "filter",
+          "vi": "bộ lọc"
+        },
+        {
+          "en": "retouch",
+          "vi": "chỉnh sửa ảnh"
+        },
+        {
+          "en": "crop",
+          "vi": "cắt xén"
+        },
+        {
+          "en": "export",
+          "vi": "xuất file"
+        },
+        {
+          "en": "file format",
+          "vi": "định dạng tệp"
+        },
+        {
+          "en": "compression",
+          "vi": "nén"
+        },
+        {
+          "en": "JPEG",
+          "vi": "định dạng ảnh JPEG"
+        },
+        {
+          "en": "PNG",
+          "vi": "định dạng ảnh PNG"
+        },
+        {
+          "en": "artboard",
+          "vi": "vùng thiết kế (artboard)"
+        },
+        {
+          "en": "plugin",
+          "vi": "tiện ích mở rộng"
+        },
+        {
+          "en": "workspace",
+          "vi": "không gian làm việc"
+        },
+        {
+          "en": "shortcut",
+          "vi": "phím tắt"
+        },
+        {
+          "en": "render",
+          "vi": "kết xuất"
+        },
+        {
+          "en": "overlay",
+          "vi": "lớp phủ"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Red, green and blue are the primary colors of the ___ model, used for screens.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**RGB** = hệ màu cộng dùng cho màn hình.",
+                "opts": [
+                  "RGB",
+                  "CMYK",
+                  "JPEG"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Printers use the ___ model, which is based on cyan, magenta, yellow and black.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**CMYK** = hệ màu dùng cho in ấn.",
+                "opts": [
+                  "RGB",
+                  "CMYK",
+                  "PNG"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a set of colors chosen for a project.",
+                "ans": [
+                  1
+                ],
+                "tip": "palette = bảng pha màu.",
+                "why": "**color palette** = bảng màu.",
+                "opts": [
+                  "layer",
+                  "color palette",
+                  "plugin"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ describes how pure or intense a color is.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**Saturation** = độ bão hòa.",
+                "opts": [
+                  "Opacity",
+                  "Saturation",
+                  "Brightness"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ stays sharp at any size because it uses mathematical shapes.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**vector graphic** = đồ họa vector, phóng to không vỡ.",
+                "opts": [
+                  "raster image",
+                  "vector graphic",
+                  "pixel"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is made of small squares of color called pixels.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**raster image** = ảnh điểm ảnh.",
+                "opts": [
+                  "vector graphic",
+                  "raster image",
+                  "artboard"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Designers put each element on a separate ___ so that they can edit it later.",
+                "ans": [
+                  2
+                ],
+                "tip": "layer = lớp.",
+                "why": "**layer** = lớp, giúp chỉnh sửa riêng từng phần.",
+                "opts": [
+                  "mask",
+                  "filter",
+                  "layer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Use the ___ tool to remove unwanted edges of a photo.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**crop** = cắt xén ảnh.",
+                "opts": [
+                  "export",
+                  "render",
+                  "crop"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "hue",
+                "b": "the pure color itself, such as red or blue",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "brightness",
+                "b": "how light or dark a color is",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "complementary colors",
+                "b": "colors that are opposite each other on the color wheel",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gradient",
+                "b": "a gradual change from one color to another",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "opacity",
+                "b": "how transparent or solid an object is",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pixel",
+                "b": "the smallest unit of a digital image",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "compression",
+                "b": "the reduction of the size of a file",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "retouch",
+                "b": "to edit a photo in order to improve or fix it",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The photo ___ in Photoshop yesterday.",
+                "ans": [
+                  1
+                ],
+                "tip": "Quá khứ bị động: was + V3.",
+                "why": "'yesterday' → **was retouched**.",
+                "opts": [
+                  "retouched",
+                  "was retouched",
+                  "is retouching"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Logos ___ as vector files so that they can be scaled.",
+                "ans": [
+                  1
+                ],
+                "tip": "Hiện tại bị động: are + V3.",
+                "why": "**are saved**.",
+                "opts": [
+                  "save",
+                  "are saved",
+                  "are saving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The poster ___ at the moment.",
+                "ans": [
+                  2
+                ],
+                "tip": "is being + V3.",
+                "why": "'at the moment' → **is being exported**.",
+                "opts": [
+                  "is exporting",
+                  "exports",
+                  "is being exported"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The final files ___ to the client tomorrow.",
+                "ans": [
+                  2
+                ],
+                "tip": "will be + V3.",
+                "why": "'tomorrow' → **will be sent**.",
+                "opts": [
+                  "will send",
+                  "sent",
+                  "will be sent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The image ___ yet.",
+                "ans": [
+                  1
+                ],
+                "tip": "has been + V3.",
+                "why": "'yet' → **hasn't been compressed**.",
+                "opts": [
+                  "hasn't compressed",
+                  "hasn't been compressed",
+                  "didn't compressed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The file ___ to CMYK before it was sent to the printer.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Tệp **được** chuyển → **was converted**.",
+                "opts": [
+                  "was converted",
+                  "converted",
+                  "is converting"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct passive form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The logo ___ (design) by our team last month.",
+                "ans": [
+                  [
+                    "was designed"
+                  ]
+                ],
+                "tip": "was/were + V3.",
+                "why": "'last month' → **was designed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Images ___ (compress) to reduce the file size.",
+                "ans": [
+                  [
+                    "are compressed"
+                  ]
+                ],
+                "tip": "",
+                "why": "Sự thật chung → **are compressed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The layers ___ (merge) at the moment.",
+                "ans": [
+                  [
+                    "are being merged"
+                  ]
+                ],
+                "tip": "are being + V3.",
+                "why": "'at the moment' → **are being merged**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The new plugin ___ (install) tomorrow.",
+                "ans": [
+                  [
+                    "will be installed",
+                    "is going to be installed"
+                  ]
+                ],
+                "tip": "will be + V3.",
+                "why": "'tomorrow' → **will be installed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The artwork ___ (not / approve) yet.",
+                "ans": [
+                  [
+                    "hasn't been approved",
+                    "has not been approved"
+                  ]
+                ],
+                "tip": "has been + V3.",
+                "why": "'yet' → **hasn't been approved**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · From screen to print",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Color is one of the most powerful tools in design. A color palette is usually chosen on the color wheel: complementary colors, which are opposite each other, create strong contrast. Hue, saturation and brightness can be adjusted to change the mood of a design.\n\nDigital images are made in two main ways. Raster images consist of pixels, so they lose quality when they are enlarged. Vector graphics are built from mathematical paths, so logos are almost always saved as vectors. Designs for screens are created in RGB, while files for print are converted to CMYK before they are sent to the printer.\n\nIn professional software, each element is placed on a separate layer, and masks are used to hide parts of an image without deleting them. When the work is finished, the file is exported in a suitable format. JPEG files are compressed to make them smaller, and PNG files are used when a transparent background is needed.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Complementary colors are opposite each other on the color wheel.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: màu bổ sung nằm đối diện nhau trên vòng tròn màu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Raster images keep their quality when they are enlarged.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ảnh raster mất chất lượng khi phóng to."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Files for print are converted to CMYK.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: tệp in được chuyển sang CMYK."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Masks delete parts of an image permanently.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: mask ẩn một phần ảnh **mà không xóa**."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why are logos usually saved as vectors?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: vector tạo từ đường toán học nên không vỡ khi đổi kích thước.",
+                "opts": [
+                  "Vector graphics are built from mathematical paths",
+                  "Vectors always have a transparent background",
+                  "Vectors use CMYK only"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a mask used for?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: ẩn một phần ảnh mà không xóa.",
+                "opts": [
+                  "To compress the file",
+                  "To convert RGB to CMYK",
+                  "To hide parts of an image without deleting them"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why are JPEG files compressed?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: nén để giảm dung lượng.",
+                "opts": [
+                  "To add transparency",
+                  "To make them smaller",
+                  "To change the hue"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which format is used when a transparent background is needed?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: PNG dùng khi cần nền trong suốt.",
+                "opts": [
+                  "PNG",
+                  "JPEG",
+                  "CMYK"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Branding & Client Briefs",
+      "name_vi": "Thương hiệu & làm việc với khách hàng",
+      "icon": "🏷️",
+      "hue": 270,
+      "words": [
+        {
+          "en": "brand",
+          "vi": "thương hiệu"
+        },
+        {
+          "en": "brand identity",
+          "vi": "nhận diện thương hiệu"
+        },
+        {
+          "en": "logo",
+          "vi": "logo, biểu trưng"
+        },
+        {
+          "en": "slogan",
+          "vi": "khẩu hiệu"
+        },
+        {
+          "en": "brand guidelines",
+          "vi": "quy chuẩn thương hiệu"
+        },
+        {
+          "en": "target audience",
+          "vi": "đối tượng mục tiêu"
+        },
+        {
+          "en": "client",
+          "vi": "khách hàng"
+        },
+        {
+          "en": "brief",
+          "vi": "bản yêu cầu dự án"
+        },
+        {
+          "en": "deadline",
+          "vi": "hạn chót"
+        },
+        {
+          "en": "budget",
+          "vi": "ngân sách"
+        },
+        {
+          "en": "revision",
+          "vi": "chỉnh sửa lại"
+        },
+        {
+          "en": "proposal",
+          "vi": "bản đề xuất"
+        },
+        {
+          "en": "estimate",
+          "vi": "báo giá dự tính"
+        },
+        {
+          "en": "invoice",
+          "vi": "hóa đơn"
+        },
+        {
+          "en": "contract",
+          "vi": "hợp đồng"
+        },
+        {
+          "en": "copyright",
+          "vi": "bản quyền"
+        },
+        {
+          "en": "license",
+          "vi": "giấy phép sử dụng"
+        },
+        {
+          "en": "royalty-free",
+          "vi": "miễn phí bản quyền (trả một lần)"
+        },
+        {
+          "en": "stock photo",
+          "vi": "ảnh stock"
+        },
+        {
+          "en": "trademark",
+          "vi": "nhãn hiệu đã đăng ký"
+        },
+        {
+          "en": "mockup",
+          "vi": "bản dựng mô phỏng"
+        },
+        {
+          "en": "proof",
+          "vi": "bản in thử, bản duyệt"
+        },
+        {
+          "en": "approval",
+          "vi": "sự phê duyệt"
+        },
+        {
+          "en": "feedback",
+          "vi": "phản hồi"
+        },
+        {
+          "en": "deliverable",
+          "vi": "sản phẩm bàn giao"
+        },
+        {
+          "en": "scope",
+          "vi": "phạm vi công việc"
+        },
+        {
+          "en": "freelancer",
+          "vi": "người làm tự do"
+        },
+        {
+          "en": "agency",
+          "vi": "công ty/agency"
+        },
+        {
+          "en": "pitch",
+          "vi": "buổi thuyết trình chào dự án"
+        },
+        {
+          "en": "competitor",
+          "vi": "đối thủ cạnh tranh"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a symbol or design that identifies a company.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**logo** = biểu trưng nhận diện công ty.",
+                "opts": [
+                  "slogan",
+                  "proof",
+                  "logo"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A short phrase that a company uses in its advertising is a ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**slogan** = khẩu hiệu.",
+                "opts": [
+                  "logo",
+                  "brief",
+                  "slogan"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is a document in which the client explains what they want.",
+                "ans": [
+                  0
+                ],
+                "tip": "brief = ngắn gọn.",
+                "why": "**brief** = bản yêu cầu dự án.",
+                "opts": [
+                  "brief",
+                  "invoice",
+                  "contract"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the group of people that a design is intended for.",
+                "ans": [
+                  0
+                ],
+                "tip": "target = mục tiêu.",
+                "why": "**target audience** = đối tượng mục tiêu.",
+                "opts": [
+                  "target audience",
+                  "competitor",
+                  "agency"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the date by which the work must be finished.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**deadline** = hạn chót.",
+                "opts": [
+                  "budget",
+                  "deadline",
+                  "scope"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a request for changes to a design after the client has seen it.",
+                "ans": [
+                  1
+                ],
+                "tip": "revise = xem lại, sửa.",
+                "why": "**revision** = yêu cầu chỉnh sửa.",
+                "opts": [
+                  "invoice",
+                  "revision",
+                  "approval"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You can use ___ images many times after paying once.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**royalty-free** = trả phí một lần, dùng nhiều lần.",
+                "opts": [
+                  "mockup",
+                  "trademark",
+                  "royalty-free"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The designer sent an ___ to the client for the work she had completed.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**invoice** = hóa đơn thanh toán.",
+                "opts": [
+                  "estimate",
+                  "invoice",
+                  "brief"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "brand identity",
+                "b": "the visual and verbal elements that make a brand recognizable",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "brand guidelines",
+                "b": "rules about how to use a brand's logo, colors and fonts",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "scope",
+                "b": "the exact work that is included in a project",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "deliverable",
+                "b": "a finished item that is given to the client",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "copyright",
+                "b": "the legal right of a creator to control the use of their work",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "license",
+                "b": "official permission to use someone else's work",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mockup",
+                "b": "a realistic preview of a design on a product",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pitch",
+                "b": "a presentation to win a project or a client",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A designer ___ respect the copyright of other creators.",
+                "ans": [
+                  0
+                ],
+                "tip": "Bắt buộc → must.",
+                "why": "Nghĩa vụ pháp lý → **must**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ use an image without a license.",
+                "ans": [
+                  2
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "must",
+                  "don't have to",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Freelancers ___ work in an office. They can work from home.",
+                "ans": [
+                  0
+                ],
+                "tip": "don't have to = không cần.",
+                "why": "Không bắt buộc → **don't have to**.",
+                "opts": [
+                  "don't have to",
+                  "must",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I think you ___ send a draft to the client before the deadline.",
+                "ans": [
+                  2
+                ],
+                "tip": "should = lời khuyên.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All final files ___ follow the brand guidelines.",
+                "ans": [
+                  1
+                ],
+                "tip": "have to = bắt buộc theo quy định.",
+                "why": "Quy định → **have to**.",
+                "opts": [
+                  "mustn't",
+                  "have to",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Designers ___ change the client's logo colors. It is against the guidelines.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Trái quy chuẩn → **mustn't**.",
+                "opts": [
+                  "have to",
+                  "should",
+                  "mustn't"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền từ đúng",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The designer ___ finish the project by Friday. It is the client's deadline.",
+                "ans": [
+                  [
+                    "must",
+                    "has to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Hạn chót → **must / has to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ show your sketches to the client. It is optional.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't",
+                    "need not"
+                  ]
+                ],
+                "tip": "",
+                "why": "Không bắt buộc → **don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Designers ___ copy another artist's work.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot"
+                  ]
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "It is good advice: freelancers ___ sign a contract before they start.",
+                "ans": [
+                  [
+                    "should",
+                    "ought to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Lời khuyên → **should**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "All logos ___ be delivered in vector format. The client asked for it.",
+                "ans": [
+                  [
+                    "must",
+                    "have to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Yêu cầu bắt buộc → **must / have to**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Working with a client",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A project usually starts with a brief, in which the client explains the target audience, the goal, the budget and the deadline. The designer must read the brief carefully and should ask questions if anything is unclear. Then the designer prepares a proposal that describes the scope of work and the price.\n\nBefore work begins, both sides have to sign a contract. It must say how many revisions are included, because unlimited changes can destroy a freelancer's schedule. The client doesn't have to approve every sketch, but they should give clear feedback at each stage.\n\nDesigners must also respect copyright. They mustn't use a photo, a font or an illustration without a license. Many designers use royalty-free stock photos for this reason. Finally, the final files must follow the brand guidelines, and the designer has to send an invoice when the deliverables are accepted.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The brief explains the target audience, goal, budget and deadline.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: brief nêu đối tượng, mục tiêu, ngân sách và hạn chót."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A contract should say how many revisions are included.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hợp đồng phải ghi số lần chỉnh sửa."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The client has to approve every sketch.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khách **không cần** duyệt từng bản phác (doesn't have to)."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Designers may use any font without a license.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: không được dùng ảnh, phông hay hình minh họa khi chưa có giấy phép."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should a designer do if the brief is unclear?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: nên đặt câu hỏi nếu có điểm chưa rõ.",
+                "opts": [
+                  "Start without reading it",
+                  "Ask questions",
+                  "Send an invoice"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why must the contract state the number of revisions?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chỉnh sửa vô hạn phá vỡ lịch làm việc.",
+                "opts": [
+                  "Revisions are free",
+                  "The client must pay twice",
+                  "Unlimited changes can destroy a freelancer's schedule"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do many designers use royalty-free stock photos?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: để tôn trọng bản quyền.",
+                "opts": [
+                  "To respect copyright",
+                  "To avoid brand guidelines",
+                  "To skip the brief"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When does the designer send an invoice?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: khi sản phẩm bàn giao được chấp nhận.",
+                "opts": [
+                  "Before reading the brief",
+                  "When the deliverables are accepted",
+                  "After the first sketch"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Video, Audio & Animation",
+      "name_vi": "Video, âm thanh & hoạt hình",
+      "icon": "🎬",
+      "hue": 10,
+      "words": [
+        {
+          "en": "multimedia",
+          "vi": "đa phương tiện"
+        },
+        {
+          "en": "storyboard",
+          "vi": "kịch bản phân cảnh (storyboard)"
+        },
+        {
+          "en": "script",
+          "vi": "kịch bản lời thoại"
+        },
+        {
+          "en": "shot",
+          "vi": "cảnh quay"
+        },
+        {
+          "en": "frame",
+          "vi": "khung hình"
+        },
+        {
+          "en": "frame rate",
+          "vi": "tốc độ khung hình"
+        },
+        {
+          "en": "aspect ratio",
+          "vi": "tỷ lệ khung hình"
+        },
+        {
+          "en": "footage",
+          "vi": "đoạn phim thô"
+        },
+        {
+          "en": "timeline",
+          "vi": "dòng thời gian (timeline)"
+        },
+        {
+          "en": "clip",
+          "vi": "đoạn phim ngắn"
+        },
+        {
+          "en": "cut",
+          "vi": "cắt, chuyển cảnh"
+        },
+        {
+          "en": "transition",
+          "vi": "hiệu ứng chuyển cảnh"
+        },
+        {
+          "en": "voiceover",
+          "vi": "giọng đọc thuyết minh"
+        },
+        {
+          "en": "soundtrack",
+          "vi": "nhạc phim, nhạc nền"
+        },
+        {
+          "en": "sound effect",
+          "vi": "hiệu ứng âm thanh"
+        },
+        {
+          "en": "mixing",
+          "vi": "hòa âm, trộn âm thanh"
+        },
+        {
+          "en": "camera angle",
+          "vi": "góc máy"
+        },
+        {
+          "en": "close-up",
+          "vi": "cận cảnh"
+        },
+        {
+          "en": "lighting",
+          "vi": "ánh sáng"
+        },
+        {
+          "en": "green screen",
+          "vi": "phông xanh"
+        },
+        {
+          "en": "motion graphics",
+          "vi": "đồ họa chuyển động"
+        },
+        {
+          "en": "animation",
+          "vi": "hoạt hình"
+        },
+        {
+          "en": "keyframe",
+          "vi": "khung hình chính"
+        },
+        {
+          "en": "subtitle",
+          "vi": "phụ đề"
+        },
+        {
+          "en": "narration",
+          "vi": "lời dẫn chuyện"
+        },
+        {
+          "en": "post-production",
+          "vi": "hậu kỳ"
+        },
+        {
+          "en": "storytelling",
+          "vi": "kể chuyện"
+        },
+        {
+          "en": "codec",
+          "vi": "bộ mã hóa/giải mã video"
+        },
+        {
+          "en": "streaming",
+          "vi": "phát trực tuyến"
+        },
+        {
+          "en": "loop",
+          "vi": "vòng lặp"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a series of drawings that shows the planned shots of a video.",
+                "ans": [
+                  1
+                ],
+                "tip": "story + board.",
+                "why": "**storyboard** = kịch bản phân cảnh.",
+                "opts": [
+                  "timeline",
+                  "storyboard",
+                  "script"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the written text of what the actors or narrator will say.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**script** = kịch bản lời thoại.",
+                "opts": [
+                  "footage",
+                  "script",
+                  "clip"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the number of images shown per second in a video.",
+                "ans": [
+                  0
+                ],
+                "tip": "fps = frames per second.",
+                "why": "**Frame rate** = số khung hình mỗi giây.",
+                "opts": [
+                  "Frame rate",
+                  "Aspect ratio",
+                  "Codec"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All the raw video recorded by the camera is called ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**footage** = đoạn phim thô.",
+                "opts": [
+                  "soundtrack",
+                  "footage",
+                  "subtitle"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Editors arrange clips on the ___ of the editing software.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**timeline** = dòng thời gian trong phần mềm dựng.",
+                "opts": [
+                  "storyboard",
+                  "codec",
+                  "timeline"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a smooth change from one clip to the next.",
+                "ans": [
+                  0
+                ],
+                "tip": "transit = chuyển tiếp.",
+                "why": "**transition** = hiệu ứng chuyển cảnh.",
+                "opts": [
+                  "transition",
+                  "keyframe",
+                  "loop"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ shows the face or an important detail of a subject at a very short distance.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**close-up** = cận cảnh.",
+                "opts": [
+                  "green screen",
+                  "soundtrack",
+                  "close-up"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "With a ___, the background can be replaced by a different image.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**green screen** = phông xanh, thay nền khi hậu kỳ.",
+                "opts": [
+                  "close-up",
+                  "green screen",
+                  "soundtrack"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "keyframe",
+                "b": "a frame that marks the start or end of a change in an animation",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "motion graphics",
+                "b": "animated text and shapes used in videos",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "aspect ratio",
+                "b": "the proportion between the width and the height of a video",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "subtitle",
+                "b": "text at the bottom of the screen that shows the spoken words",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "soundtrack",
+                "b": "the music of a film or a video",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mixing",
+                "b": "combining several sound tracks into one balanced track",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "post-production",
+                "b": "the work done after filming, such as editing and sound",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "codec",
+                "b": "software that compresses and decompresses video or audio",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the lighting is too dark, the footage ___ noisy.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 1: If + hiện tại, will + V.",
+                "why": "Loại 1 → **will look**.",
+                "opts": [
+                  "would look",
+                  "will look",
+                  "looked"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If we had a bigger budget, we ___ a professional voiceover artist.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 2: If + quá khứ, would + V.",
+                "why": "Giả định → **would hire**.",
+                "opts": [
+                  "will hire",
+                  "would hire",
+                  "hired"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you ___ the video at 24 fps, it will look cinematic.",
+                "ans": [
+                  2
+                ],
+                "tip": "Mệnh đề If không dùng will.",
+                "why": "Loại 1 → **export**.",
+                "opts": [
+                  "will export",
+                  "exported",
+                  "export"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I were the editor, I ___ the opening scene.",
+                "ans": [
+                  0
+                ],
+                "tip": "If I were...",
+                "why": "Loại 2 → **would cut**.",
+                "opts": [
+                  "would cut",
+                  "will cut",
+                  "cut"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would you do if the client ___ the soundtrack?",
+                "ans": [
+                  1
+                ],
+                "tip": "would → If + quá khứ.",
+                "why": "Loại 2 → **disliked**.",
+                "opts": [
+                  "dislikes",
+                  "disliked",
+                  "will dislike"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the file size ___ too large, we will compress the video.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Loại 1 → **is**.",
+                "opts": [
+                  "will be",
+                  "would be",
+                  "is"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the rendering fails, we ___ (try) a different codec.",
+                "ans": [
+                  [
+                    "will try",
+                    "'ll try"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **will try**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If we ___ (have) more time, we would add more animation.",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "Loại 2 → **had**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the audio ___ (be) too loud, the viewers will turn it down.",
+                "ans": [
+                  [
+                    "is"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **is**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) you, I would use a storyboard.",
+                "ans": [
+                  [
+                    "were",
+                    "was"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **were** (hoặc was)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The video would look better if the lighting ___ (be) softer.",
+                "ans": [
+                  [
+                    "were",
+                    "was"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **were** (hoặc was)."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Making a short video",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Every video project begins with a script and a storyboard. The script contains the words that will be spoken, and the storyboard shows each shot as a drawing. If the team plans carefully, filming will be faster and cheaper.\n\nDuring filming, the crew records footage with different camera angles. A close-up shows emotion, while a wide shot shows the setting. If the lighting is poor, the footage will look noisy, so crews often use extra lights. If a scene needs a different background, they film in front of a green screen.\n\nIn post-production, the editor arranges clips on the timeline and adds transitions, subtitles and motion graphics. If the editor had more time, he would add more sound effects, but the deadline is fixed. At the end, the audio is mixed, and the video is exported with a suitable codec for streaming.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A storyboard shows each shot as a drawing.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: storyboard thể hiện từng cảnh quay bằng hình vẽ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "If the lighting is poor, the footage will look better.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ánh sáng kém làm đoạn phim bị nhiễu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A green screen allows a different background to be used.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: quay trước phông xanh để thay nền."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The editor adds subtitles during filming.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phụ đề được thêm ở khâu hậu kỳ."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens if the team plans carefully?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: quay nhanh và rẻ hơn.",
+                "opts": [
+                  "Filming will be faster and cheaper",
+                  "The script becomes longer",
+                  "The footage looks noisy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a close-up show?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cận cảnh thể hiện cảm xúc.",
+                "opts": [
+                  "Emotion",
+                  "The setting",
+                  "The codec"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would the editor do if he had more time?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thêm hiệu ứng âm thanh.",
+                "opts": [
+                  "Add more sound effects",
+                  "Remove the subtitles",
+                  "Film again"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is done at the end of post-production?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: trộn âm thanh và xuất video.",
+                "opts": [
+                  "The script is written",
+                  "The storyboard is drawn",
+                  "The audio is mixed and the video is exported"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UX, Web & Portfolio",
+      "name_vi": "UX, web & hồ sơ năng lực",
+      "icon": "💻",
+      "hue": 170,
+      "words": [
+        {
+          "en": "user interface (UI)",
+          "vi": "giao diện người dùng"
+        },
+        {
+          "en": "user experience (UX)",
+          "vi": "trải nghiệm người dùng"
+        },
+        {
+          "en": "wireframe",
+          "vi": "khung sườn giao diện"
+        },
+        {
+          "en": "prototype",
+          "vi": "bản mẫu tương tác"
+        },
+        {
+          "en": "responsive design",
+          "vi": "thiết kế đáp ứng (đa thiết bị)"
+        },
+        {
+          "en": "navigation",
+          "vi": "điều hướng"
+        },
+        {
+          "en": "icon",
+          "vi": "biểu tượng"
+        },
+        {
+          "en": "usability",
+          "vi": "tính dễ sử dụng"
+        },
+        {
+          "en": "accessibility",
+          "vi": "khả năng tiếp cận"
+        },
+        {
+          "en": "call to action",
+          "vi": "lời kêu gọi hành động"
+        },
+        {
+          "en": "landing page",
+          "vi": "trang đích"
+        },
+        {
+          "en": "user testing",
+          "vi": "thử nghiệm với người dùng"
+        },
+        {
+          "en": "interaction",
+          "vi": "tương tác"
+        },
+        {
+          "en": "portfolio",
+          "vi": "hồ sơ tác phẩm"
+        },
+        {
+          "en": "case study",
+          "vi": "nghiên cứu tình huống dự án"
+        },
+        {
+          "en": "creativity",
+          "vi": "tính sáng tạo"
+        },
+        {
+          "en": "inspiration",
+          "vi": "cảm hứng"
+        },
+        {
+          "en": "trend",
+          "vi": "xu hướng"
+        },
+        {
+          "en": "critique",
+          "vi": "góp ý, phê bình"
+        },
+        {
+          "en": "collaboration",
+          "vi": "sự cộng tác"
+        },
+        {
+          "en": "presentation",
+          "vi": "bài thuyết trình"
+        },
+        {
+          "en": "social media",
+          "vi": "mạng xã hội"
+        },
+        {
+          "en": "content",
+          "vi": "nội dung"
+        },
+        {
+          "en": "campaign",
+          "vi": "chiến dịch"
+        },
+        {
+          "en": "engagement",
+          "vi": "mức độ tương tác"
+        },
+        {
+          "en": "analytics",
+          "vi": "phân tích dữ liệu"
+        },
+        {
+          "en": "banner",
+          "vi": "biển quảng cáo (banner)"
+        },
+        {
+          "en": "infographic",
+          "vi": "đồ họa thông tin"
+        },
+        {
+          "en": "poster",
+          "vi": "áp phích"
+        },
+        {
+          "en": "mobile app",
+          "vi": "ứng dụng di động"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is what the user sees and touches on a screen, such as buttons and menus.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**UI** = giao diện người dùng.",
+                "opts": [
+                  "wireframe",
+                  "analytics",
+                  "user interface (UI)"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the overall feeling a person has when using a product.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**UX** = trải nghiệm người dùng.",
+                "opts": [
+                  "Banner",
+                  "User experience (UX)",
+                  "Navigation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a simple plan that shows the structure of a page.",
+                "ans": [
+                  1
+                ],
+                "tip": "wire + frame = khung dây.",
+                "why": "**wireframe** = khung sườn trang.",
+                "opts": [
+                  "campaign",
+                  "wireframe",
+                  "icon"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ adapts the page to phones, tablets and computers.",
+                "ans": [
+                  0
+                ],
+                "tip": "respond = phản hồi.",
+                "why": "**responsive design** = thiết kế đáp ứng đa thiết bị.",
+                "opts": [
+                  "responsive design",
+                  "call to action",
+                  "landing page"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a button or message that asks users to take an action, such as 'Buy now'.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**call to action** = lời kêu gọi hành động.",
+                "opts": [
+                  "wireframe",
+                  "banner",
+                  "call to action"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ means that people with disabilities can also use a website.",
+                "ans": [
+                  1
+                ],
+                "tip": "access = tiếp cận.",
+                "why": "**Accessibility** = khả năng tiếp cận.",
+                "opts": [
+                  "Engagement",
+                  "Accessibility",
+                  "Inspiration"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ shows a designer's best projects to employers and clients.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**portfolio** = hồ sơ tác phẩm.",
+                "opts": [
+                  "campaign",
+                  "portfolio",
+                  "infographic"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ presents data in a visual and easy-to-understand way.",
+                "ans": [
+                  0
+                ],
+                "tip": "info + graphic.",
+                "why": "**infographic** = đồ họa thông tin.",
+                "opts": [
+                  "infographic",
+                  "icon",
+                  "banner"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "prototype",
+                "b": "an interactive model of a product used for testing",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "navigation",
+                "b": "the system of menus and links that helps users move around",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "usability",
+                "b": "how easy and efficient a product is to use",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "user testing",
+                "b": "observing real people while they use a product",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "case study",
+                "b": "a detailed description of a project and the design process",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "critique",
+                "b": "a discussion that evaluates a design",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "engagement",
+                "b": "the level of interaction between users and content",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "analytics",
+                "b": "the measurement of data about how people use a website",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "She ___ her portfolio website in March.",
+                "ans": [
+                  0
+                ],
+                "tip": "Mốc xác định → quá khứ đơn.",
+                "why": "'in March' → **launched**.",
+                "opts": [
+                  "launched",
+                  "has launched",
+                  "has been launching"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ five wireframes so far.",
+                "ans": [
+                  2
+                ],
+                "tip": "so far → hiện tại hoàn thành.",
+                "why": "'so far' → **have drawn**.",
+                "opts": [
+                  "drew",
+                  "did draw",
+                  "have drawn"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The team ___ user testing last week.",
+                "ans": [
+                  2
+                ],
+                "tip": "last week → quá khứ đơn.",
+                "why": "'last week' → **ran**.",
+                "opts": [
+                  "has run",
+                  "runs",
+                  "ran"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ you worked as a UX designer?",
+                "ans": [
+                  1
+                ],
+                "tip": "How long + have + V3.",
+                "why": "Còn kéo dài đến nay → **have**.",
+                "opts": [
+                  "did",
+                  "have",
+                  "do"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "They ___ the final banner yet.",
+                "ans": [
+                  0
+                ],
+                "tip": "yet → hiện tại hoàn thành.",
+                "why": "'yet' → **haven't finished**.",
+                "opts": [
+                  "haven't finished",
+                  "didn't finished",
+                  "not finished"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The campaign ___ a lot of engagement last month.",
+                "ans": [
+                  0
+                ],
+                "tip": "last month → quá khứ đơn.",
+                "why": "'last month' → **generated**.",
+                "opts": [
+                  "generated",
+                  "has generated",
+                  "generates"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets (past simple or present perfect).",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I ___ (design) this poster in 2023.",
+                "ans": [
+                  [
+                    "designed"
+                  ]
+                ],
+                "tip": "in + năm → quá khứ đơn.",
+                "why": "'in 2023' → **designed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (not / receive) feedback from the client yet.",
+                "ans": [
+                  [
+                    "haven't received",
+                    "have not received"
+                  ]
+                ],
+                "tip": "yet → present perfect.",
+                "why": "'yet' → **haven't received**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The agency ___ (launch) three campaigns this year.",
+                "ans": [
+                  [
+                    "has launched"
+                  ]
+                ],
+                "tip": "this year (chưa kết thúc).",
+                "why": "'this year' chưa kết thúc → **has launched**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Last week, the team ___ (test) the new prototype.",
+                "ans": [
+                  [
+                    "tested"
+                  ]
+                ],
+                "tip": "",
+                "why": "'Last week' → **tested**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Since 2020, social media ___ (change) how designers find clients.",
+                "ans": [
+                  [
+                    "has changed"
+                  ]
+                ],
+                "tip": "since → present perfect.",
+                "why": "'Since 2020' → **has changed**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Building a portfolio",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Last year, Mai graduated from a design school and began to look for her first job. She quickly understood that a strong portfolio is more important than a résumé. Over the past twelve months, she has created six projects, including a logo, a poster series and a mobile app.\n\nFor the app, she drew wireframes and then built an interactive prototype. She ran user testing with ten people and changed the navigation after she saw that many of them were confused. Since then, the usability of the app has improved a lot.\n\nMai has also written a short case study for each project. These explain the problem, the process and the result, and they show how she thinks. She shared the portfolio on social media, and a small agency invited her for an interview.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Mai graduated from design school last year.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cô tốt nghiệp năm ngoái."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "She has created six projects over the past twelve months.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: sáu dự án trong mười hai tháng qua."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "She changed the logo after user testing.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cô thay đổi **phần điều hướng** sau khi thử nghiệm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A large company invited her for an interview.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: một agency **nhỏ** mời cô phỏng vấn."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did Mai build for the app after the wireframes?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cô xây dựng bản mẫu tương tác.",
+                "opts": [
+                  "A poster series",
+                  "An interactive prototype",
+                  "A case study"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why did she change the navigation?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhiều người thử nghiệm bị bối rối.",
+                "opts": [
+                  "The client asked for new colors",
+                  "Many testers were confused",
+                  "The file size was too large"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do the case studies show?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cho thấy cách cô tư duy.",
+                "opts": [
+                  "How she thinks",
+                  "How much she earned",
+                  "Which software is cheapest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How did the agency find her?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cô chia sẻ portfolio trên mạng xã hội.",
+                "opts": [
+                  "She sent a résumé by post",
+                  "She won a competition",
+                  "She shared her portfolio on social media"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "communicate",
+      "truyền đạt"
+    ],
+    [
+      "collect",
+      "thu thập"
+    ],
+    [
+      "several",
+      "một vài"
+    ],
+    [
+      "basic",
+      "cơ bản"
+    ],
+    [
+      "stand out",
+      "nổi bật"
+    ],
+    [
+      "order",
+      "trật tự"
+    ],
+    [
+      "group",
+      "nhóm lại"
+    ],
+    [
+      "consistent",
+      "nhất quán"
+    ],
+    [
+      "experienced",
+      "có kinh nghiệm"
+    ],
+    [
+      "beginner",
+      "người mới bắt đầu"
+    ],
+    [
+      "empty",
+      "trống"
+    ],
+    [
+      "area",
+      "khu vực"
+    ],
+    [
+      "popular",
+      "phổ biến"
+    ],
+    [
+      "young",
+      "trẻ"
+    ],
+    [
+      "attract",
+      "thu hút"
+    ],
+    [
+      "readable",
+      "dễ đọc"
+    ],
+    [
+      "attractive",
+      "hấp dẫn"
+    ],
+    [
+      "traditional",
+      "truyền thống"
+    ],
+    [
+      "decorative",
+      "mang tính trang trí"
+    ],
+    [
+      "crowded",
+      "chật chội"
+    ],
+    [
+      "tight",
+      "chặt"
+    ],
+    [
+      "individual",
+      "riêng lẻ"
+    ],
+    [
+      "follow",
+      "theo dõi, tuân theo"
+    ],
+    [
+      "guide",
+      "dẫn dắt"
+    ],
+    [
+      "reader",
+      "người đọc"
+    ],
+    [
+      "especially",
+      "đặc biệt là"
+    ],
+    [
+      "powerful",
+      "mạnh mẽ"
+    ],
+    [
+      "adjust",
+      "điều chỉnh"
+    ],
+    [
+      "mood",
+      "tâm trạng, không khí"
+    ],
+    [
+      "enlarge",
+      "phóng to"
+    ],
+    [
+      "path",
+      "đường dẫn"
+    ],
+    [
+      "mathematical",
+      "thuộc toán học"
+    ],
+    [
+      "convert",
+      "chuyển đổi"
+    ],
+    [
+      "hide",
+      "ẩn"
+    ],
+    [
+      "delete",
+      "xóa"
+    ],
+    [
+      "suitable",
+      "phù hợp"
+    ],
+    [
+      "transparent",
+      "trong suốt"
+    ],
+    [
+      "background",
+      "nền"
+    ],
+    [
+      "quality",
+      "chất lượng"
+    ],
+    [
+      "unclear",
+      "không rõ ràng"
+    ],
+    [
+      "goal",
+      "mục tiêu"
+    ],
+    [
+      "describe",
+      "mô tả"
+    ],
+    [
+      "price",
+      "giá"
+    ],
+    [
+      "unlimited",
+      "không giới hạn"
+    ],
+    [
+      "schedule",
+      "lịch trình"
+    ],
+    [
+      "illustration",
+      "hình minh họa"
+    ],
+    [
+      "accept",
+      "chấp nhận"
+    ],
+    [
+      "respect",
+      "tôn trọng"
+    ],
+    [
+      "both sides",
+      "hai bên"
+    ],
+    [
+      "crew",
+      "đoàn làm phim"
+    ],
+    [
+      "record",
+      "ghi hình, thu âm"
+    ],
+    [
+      "emotion",
+      "cảm xúc"
+    ],
+    [
+      "setting",
+      "bối cảnh"
+    ],
+    [
+      "extra",
+      "thêm"
+    ],
+    [
+      "cheap",
+      "rẻ"
+    ],
+    [
+      "noisy",
+      "nhiễu"
+    ],
+    [
+      "plan",
+      "lên kế hoạch"
+    ],
+    [
+      "balanced",
+      "cân bằng"
+    ],
+    [
+      "fixed",
+      "cố định"
+    ],
+    [
+      "graduate",
+      "tốt nghiệp"
+    ],
+    [
+      "quickly",
+      "nhanh chóng"
+    ],
+    [
+      "understand",
+      "hiểu"
+    ],
+    [
+      "confused",
+      "bối rối"
+    ],
+    [
+      "improve",
+      "cải thiện"
+    ],
+    [
+      "invite",
+      "mời"
+    ],
+    [
+      "interview",
+      "buổi phỏng vấn"
+    ],
+    [
+      "process",
+      "quy trình"
+    ],
+    [
+      "result",
+      "kết quả"
+    ],
+    [
+      "employer",
+      "nhà tuyển dụng"
+    ],
+    [
+      "résumé",
+      "sơ yếu lý lịch"
+    ]
+  ]
+}

@@ -1,0 +1,6126 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "insurance",
+    "name": "Insurance",
+    "name_vi": "Bảo hiểm",
+    "icon": "🛡️",
+    "hue": 200,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành bảo hiểm: kiến thức nền, các loại hình bảo hiểm, thẩm định & điều khoản hợp đồng, bồi thường & giám định, tái bảo hiểm & quản trị rủi ro, dịch vụ khách hàng & tuân thủ."
+  },
+  "units": [
+    {
+      "name": "Insurance Basics",
+      "name_vi": "Kiến thức nền về bảo hiểm",
+      "icon": "🛡️",
+      "hue": 200,
+      "words": [
+        {
+          "en": "insurance",
+          "vi": "bảo hiểm"
+        },
+        {
+          "en": "insurer",
+          "vi": "công ty bảo hiểm, bên bảo hiểm"
+        },
+        {
+          "en": "policyholder",
+          "vi": "bên mua bảo hiểm"
+        },
+        {
+          "en": "premium",
+          "vi": "phí bảo hiểm"
+        },
+        {
+          "en": "policy",
+          "vi": "hợp đồng (đơn) bảo hiểm"
+        },
+        {
+          "en": "coverage",
+          "vi": "phạm vi bảo hiểm, sự bảo vệ"
+        },
+        {
+          "en": "risk",
+          "vi": "rủi ro"
+        },
+        {
+          "en": "hazard",
+          "vi": "mối nguy (yếu tố làm tăng khả năng tổn thất)"
+        },
+        {
+          "en": "peril",
+          "vi": "rủi ro được bảo hiểm (nguyên nhân gây tổn thất)"
+        },
+        {
+          "en": "loss",
+          "vi": "tổn thất"
+        },
+        {
+          "en": "claim",
+          "vi": "yêu cầu bồi thường"
+        },
+        {
+          "en": "benefit",
+          "vi": "quyền lợi bảo hiểm"
+        },
+        {
+          "en": "beneficiary",
+          "vi": "người thụ hưởng"
+        },
+        {
+          "en": "sum insured",
+          "vi": "số tiền bảo hiểm"
+        },
+        {
+          "en": "insurable interest",
+          "vi": "quyền lợi có thể được bảo hiểm"
+        },
+        {
+          "en": "indemnity",
+          "vi": "sự bồi thường (đưa về vị trí tài chính ban đầu)"
+        },
+        {
+          "en": "utmost good faith",
+          "vi": "nguyên tắc trung thực tuyệt đối"
+        },
+        {
+          "en": "pooling",
+          "vi": "sự gộp (chia sẻ) rủi ro"
+        },
+        {
+          "en": "probability",
+          "vi": "xác suất"
+        },
+        {
+          "en": "accident",
+          "vi": "tai nạn"
+        },
+        {
+          "en": "damage",
+          "vi": "thiệt hại"
+        },
+        {
+          "en": "theft",
+          "vi": "trộm cắp"
+        },
+        {
+          "en": "fire",
+          "vi": "hỏa hoạn"
+        },
+        {
+          "en": "flood",
+          "vi": "lũ lụt"
+        },
+        {
+          "en": "natural disaster",
+          "vi": "thiên tai"
+        },
+        {
+          "en": "financial protection",
+          "vi": "sự bảo vệ tài chính"
+        },
+        {
+          "en": "uncertainty",
+          "vi": "sự bất định"
+        },
+        {
+          "en": "contract",
+          "vi": "hợp đồng"
+        },
+        {
+          "en": "liability",
+          "vi": "trách nhiệm pháp lý"
+        },
+        {
+          "en": "compensation",
+          "vi": "tiền bồi thường, sự đền bù"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The money you pay regularly to an insurance company is called the ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "premium = phí bảo hiểm.",
+                "why": "**premium** = phí bảo hiểm định kỳ.",
+                "opts": [
+                  "premium",
+                  "benefit",
+                  "claim"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The company that provides insurance and pays for losses is the ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "insure + r.",
+                "why": "**insurer** = công ty bảo hiểm.",
+                "opts": [
+                  "beneficiary",
+                  "insurer",
+                  "policyholder"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The person who buys an insurance policy is the ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "policy + holder = người giữ hợp đồng.",
+                "why": "**policyholder** = bên mua bảo hiểm.",
+                "opts": [
+                  "insurer",
+                  "hazard",
+                  "policyholder"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The person who receives the money from a life policy after the policyholder's death is the ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "benefit → beneficiary.",
+                "why": "**beneficiary** = người thụ hưởng.",
+                "opts": [
+                  "beneficiary",
+                  "peril",
+                  "premium"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is the possibility that something bad will happen and cause a loss.",
+                "ans": [
+                  1
+                ],
+                "tip": "risk = rủi ro.",
+                "why": "**risk** = rủi ro.",
+                "opts": [
+                  "benefit",
+                  "risk",
+                  "premium"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Fire, flood and theft are all examples of ___ that a policy may cover.",
+                "ans": [
+                  2
+                ],
+                "tip": "peril = nguyên nhân gây tổn thất.",
+                "why": "**perils** = các rủi ro được bảo hiểm.",
+                "opts": [
+                  "premiums",
+                  "beneficiaries",
+                  "perils"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The purpose of ___ is to put the policyholder back in the same financial position as before the loss.",
+                "ans": [
+                  0
+                ],
+                "tip": "indemnify = bồi thường.",
+                "why": "**indemnity** = nguyên tắc bồi thường.",
+                "opts": [
+                  "indemnity",
+                  "pooling",
+                  "probability"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A formal request to the insurer for payment after a loss is a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "claim = yêu cầu.",
+                "why": "**claim** = yêu cầu bồi thường.",
+                "opts": [
+                  "premium",
+                  "claim",
+                  "contract"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "coverage",
+                "b": "the protection that an insurance policy provides",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "hazard",
+                "b": "something that increases the chance or size of a loss",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "loss",
+                "b": "the damage or financial harm after an event",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sum insured",
+                "b": "the maximum amount that the insurer will pay",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "insurable interest",
+                "b": "a financial stake in the thing that is insured",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pooling",
+                "b": "combining the risks of many people so that losses are shared",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "utmost good faith",
+                "b": "the duty to tell the truth and not to hide important facts",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "natural disaster",
+                "b": "an event such as an earthquake or a typhoon caused by nature",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: sự thật/thói quen dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An insurer ___ premiums from many customers.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → V(s/es).",
+                "why": "Chủ ngữ số ít, sự thật → **collects**.",
+                "opts": [
+                  "collects",
+                  "is collecting",
+                  "collect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "At the moment, the claims team ___ the typhoon damage.",
+                "ans": [
+                  1
+                ],
+                "tip": "at the moment → be + V-ing.",
+                "why": "'at the moment' → **is assessing**.",
+                "opts": [
+                  "assesses",
+                  "is assessing",
+                  "assessed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Most people ___ insurance to protect themselves from financial loss.",
+                "ans": [
+                  2
+                ],
+                "tip": "Sự thật chung, số nhiều.",
+                "why": "**buy**.",
+                "opts": [
+                  "are buying",
+                  "buys",
+                  "buy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look! The agent ___ the policy to the customer.",
+                "ans": [
+                  0
+                ],
+                "tip": "Look! → đang xảy ra.",
+                "why": "'Look!' → **is explaining**.",
+                "opts": [
+                  "is explaining",
+                  "explains",
+                  "explain"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ a new health product this quarter.",
+                "ans": [
+                  1
+                ],
+                "tip": "this quarter → tạm thời.",
+                "why": "Việc đang diễn ra trong quý này → **are launching**.",
+                "opts": [
+                  "launch",
+                  "are launching",
+                  "launched"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A policy ___ the risks that the insurer accepts.",
+                "ans": [
+                  2
+                ],
+                "tip": "Sự thật.",
+                "why": "**lists**.",
+                "opts": [
+                  "is listing",
+                  "list",
+                  "lists"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "An actuary ___ (calculate) the probability of loss.",
+                "ans": [
+                  [
+                    "calculates"
+                  ]
+                ],
+                "tip": "He/She/It + V-s.",
+                "why": "**calculates**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The customer ___ (read) the policy right now.",
+                "ans": [
+                  [
+                    "is reading",
+                    "'s reading"
+                  ]
+                ],
+                "tip": "right now → be + V-ing.",
+                "why": "**is reading**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Our company ___ (not / sell) travel insurance.",
+                "ans": [
+                  [
+                    "does not sell",
+                    "doesn't sell"
+                  ]
+                ],
+                "tip": "Phủ định số ít.",
+                "why": "**doesn't sell**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The underwriters ___ (review) several applications at the moment.",
+                "ans": [
+                  [
+                    "are reviewing",
+                    "'re reviewing"
+                  ]
+                ],
+                "tip": "at the moment → tiếp diễn.",
+                "why": "**are reviewing**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Insurance ___ (protect) people from financial loss.",
+                "ans": [
+                  [
+                    "protects"
+                  ]
+                ],
+                "tip": "Sự thật chung.",
+                "why": "**protects**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Câu điều kiện loại 0 và 1",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Loại 0: If + hiện tại, hiện tại (sự thật). Loại 1: If + hiện tại, will + V (khả năng ở tương lai).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you pay the premium on time, you ___ covered.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Loại 0 → **are**.",
+                "opts": [
+                  "are",
+                  "would be",
+                  "were"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If a house burns down, the insurer usually ___ for the loss.",
+                "ans": [
+                  1
+                ],
+                "tip": "Sự thật chung.",
+                "why": "Loại 0 → **pays**.",
+                "opts": [
+                  "paid",
+                  "pays",
+                  "would pay"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you don't pay the premium, your policy ___ lapse.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: will + V.",
+                "why": "Khả năng thực tế → **will lapse**.",
+                "opts": [
+                  "would",
+                  "did",
+                  "will"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If there is a flood, we ___ the damage immediately.",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 1.",
+                "why": "**will assess**.",
+                "opts": [
+                  "will assess",
+                  "assessed",
+                  "would assess"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The insurer will refuse the claim if the customer ___ the facts.",
+                "ans": [
+                  1
+                ],
+                "tip": "If + hiện tại đơn.",
+                "why": "Mệnh đề If chia hiện tại → **hides**.",
+                "opts": [
+                  "will hide",
+                  "hides",
+                  "hid"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you ___ a claim, call our hotline first.",
+                "ans": [
+                  2
+                ],
+                "tip": "If + hiện tại, mệnh lệnh.",
+                "why": "**make**.",
+                "opts": [
+                  "will make",
+                  "made",
+                  "make"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (câu điều kiện loại 0 hoặc 1).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If you ___ (have) a car accident, report it immediately.",
+                "ans": [
+                  [
+                    "have"
+                  ]
+                ],
+                "tip": "If + hiện tại.",
+                "why": "**have**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the policyholder dies, the beneficiary ___ (receive) the benefit.",
+                "ans": [
+                  [
+                    "receives",
+                    "will receive"
+                  ]
+                ],
+                "tip": "Loại 0 hoặc 1.",
+                "why": "**receives / will receive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If premiums ___ (rise), some customers will cancel.",
+                "ans": [
+                  [
+                    "rise"
+                  ]
+                ],
+                "tip": "If + hiện tại (số nhiều).",
+                "why": "**rise**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The claim will be paid if all the documents ___ (be) correct.",
+                "ans": [
+                  [
+                    "are"
+                  ]
+                ],
+                "tip": "If + hiện tại.",
+                "why": "**are**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If you ___ (not / pay) your premium, you will lose your cover.",
+                "ans": [
+                  [
+                    "do not pay",
+                    "don't pay"
+                  ]
+                ],
+                "tip": "If + hiện tại phủ định.",
+                "why": "**don't pay**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Why do we need insurance?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Life is full of uncertainty. A house can be damaged by a typhoon, a car can be stolen, and a family can suffer when a breadwinner becomes ill. Insurance is a way to reduce the financial effect of these events.\n\nThe idea is simple. Many people pay a small amount of money, called a premium, to an insurance company. The company, or insurer, collects all these premiums in a common fund. When something bad happens to one of the policyholders, the insurer pays for the loss from the fund. In this way, the risk is shared among many people. This is called pooling of risk.\n\nThe agreement between the insurer and the policyholder is written in a policy. It explains which risks are covered, how much the insurer will pay and what the policyholder must do. If there is a loss, the policyholder makes a claim. Insurance does not prevent accidents, but it gives financial protection and peace of mind. For companies, it also makes it possible to take business risks that would otherwise be too dangerous.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A premium is the money that the insurer pays after a loss.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: premium là số tiền nhỏ khách hàng trả cho công ty bảo hiểm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Insurance spreads the risk among many people.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: gọi là pooling of risk."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The policy explains which risks are covered.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: hợp đồng nêu rủi ro được bảo hiểm và mức chi trả."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Insurance prevents accidents from happening.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bảo hiểm không ngăn tai nạn, chỉ bảo vệ về tài chính."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a premium?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhiều người trả một khoản nhỏ gọi là phí bảo hiểm.",
+                "opts": [
+                  "A payment made after a loss",
+                  "A small amount of money paid to the insurer",
+                  "A kind of accident"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Where does the insurer pay losses from?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: quỹ chung từ phí bảo hiểm.",
+                "opts": [
+                  "From the government",
+                  "From the policyholder's bank",
+                  "From a common fund of premiums"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the policy explain?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: rủi ro được bảo hiểm, mức chi trả và nghĩa vụ của khách hàng.",
+                "opts": [
+                  "What is covered and how much the insurer will pay",
+                  "How to avoid all risks",
+                  "Who the beneficiary's friends are"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How does insurance help companies?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: giúp doanh nghiệp dám chấp nhận rủi ro kinh doanh.",
+                "opts": [
+                  "It stops all losses.",
+                  "It makes it possible to take business risks.",
+                  "It reduces taxes."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Hazard, peril and risk",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "People often use the words risk, peril and hazard as if they meant the same thing, but in insurance they are different. A peril is the cause of a loss, for example fire, flood, theft or an accident. A hazard is something that increases the chance or the size of a loss. A pile of paper near an electric heater is a hazard because it makes a fire more likely. Risk is the uncertainty about whether a loss will happen and how big it will be.\n\nInsurers study these factors carefully. They use statistics to estimate the probability of each peril. A house in a flood area has a higher probability of flood damage than a house on a hill, so its premium is usually higher. Customers can help to reduce the risk. For example, a shop owner who installs smoke alarms or a car owner who parks in a safe garage may receive a discount.\n\nNot every risk can be insured. The policyholder must have an insurable interest, which means that he or she would suffer a real financial loss. A person cannot insure a neighbour's house simply because he thinks it might burn down. Also, the loss must be accidental. Insurers do not pay if the policyholder causes the damage on purpose.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A peril is the cause of a loss.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: peril là nguyên nhân gây tổn thất, ví dụ cháy, lũ, trộm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A pile of paper near a heater is a peril.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đó là hazard, vì làm tăng khả năng cháy."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A house in a flood area usually has a higher premium.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: xác suất ngập cao hơn nên phí thường cao hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Insurers pay when the policyholder causes the damage on purpose.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: tổn thất phải mang tính ngẫu nhiên; cố ý gây ra thì không được trả."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a hazard?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hazard làm tăng khả năng hoặc quy mô tổn thất.",
+                "opts": [
+                  "The cause of every loss",
+                  "A type of premium",
+                  "Something that increases the chance or size of a loss"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How can customers reduce the risk?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: lắp báo khói hoặc đỗ xe an toàn có thể được giảm phí.",
+                "opts": [
+                  "By installing smoke alarms or parking in a safe garage",
+                  "By paying later",
+                  "By cancelling the policy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is insurable interest?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người mua phải chịu thiệt hại tài chính thực sự.",
+                "opts": [
+                  "A high interest rate",
+                  "A real financial loss if the damage happens",
+                  "A discount for good drivers"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why can't a person insure a neighbour's house?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: không có quyền lợi có thể được bảo hiểm.",
+                "opts": [
+                  "The house is too small.",
+                  "Houses cannot burn.",
+                  "He has no insurable interest."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Types of Insurance",
+      "name_vi": "Các loại hình bảo hiểm",
+      "icon": "📋",
+      "hue": 28,
+      "words": [
+        {
+          "en": "life insurance",
+          "vi": "bảo hiểm nhân thọ"
+        },
+        {
+          "en": "health insurance",
+          "vi": "bảo hiểm sức khỏe"
+        },
+        {
+          "en": "motor insurance",
+          "vi": "bảo hiểm xe cơ giới"
+        },
+        {
+          "en": "motorcycle insurance",
+          "vi": "bảo hiểm xe máy"
+        },
+        {
+          "en": "property insurance",
+          "vi": "bảo hiểm tài sản"
+        },
+        {
+          "en": "travel insurance",
+          "vi": "bảo hiểm du lịch"
+        },
+        {
+          "en": "liability insurance",
+          "vi": "bảo hiểm trách nhiệm"
+        },
+        {
+          "en": "marine insurance",
+          "vi": "bảo hiểm hàng hải"
+        },
+        {
+          "en": "critical illness cover",
+          "vi": "bảo hiểm bệnh hiểm nghèo"
+        },
+        {
+          "en": "term life",
+          "vi": "bảo hiểm nhân thọ có thời hạn"
+        },
+        {
+          "en": "whole life",
+          "vi": "bảo hiểm nhân thọ trọn đời"
+        },
+        {
+          "en": "annuity",
+          "vi": "niên kim (khoản thu nhập định kỳ)"
+        },
+        {
+          "en": "third-party liability",
+          "vi": "trách nhiệm đối với bên thứ ba"
+        },
+        {
+          "en": "comprehensive cover",
+          "vi": "bảo hiểm toàn diện"
+        },
+        {
+          "en": "no-claims bonus",
+          "vi": "ưu đãi không bồi thường"
+        },
+        {
+          "en": "inpatient",
+          "vi": "nội trú"
+        },
+        {
+          "en": "outpatient",
+          "vi": "ngoại trú"
+        },
+        {
+          "en": "contents insurance",
+          "vi": "bảo hiểm đồ đạc trong nhà"
+        },
+        {
+          "en": "buildings insurance",
+          "vi": "bảo hiểm công trình, nhà cửa"
+        },
+        {
+          "en": "business interruption",
+          "vi": "gián đoạn kinh doanh"
+        },
+        {
+          "en": "professional indemnity",
+          "vi": "bảo hiểm trách nhiệm nghề nghiệp"
+        },
+        {
+          "en": "cargo insurance",
+          "vi": "bảo hiểm hàng hóa vận chuyển"
+        },
+        {
+          "en": "crop insurance",
+          "vi": "bảo hiểm cây trồng"
+        },
+        {
+          "en": "microinsurance",
+          "vi": "bảo hiểm vi mô"
+        },
+        {
+          "en": "compulsory insurance",
+          "vi": "bảo hiểm bắt buộc"
+        },
+        {
+          "en": "voluntary insurance",
+          "vi": "bảo hiểm tự nguyện"
+        },
+        {
+          "en": "personal accident",
+          "vi": "tai nạn cá nhân"
+        },
+        {
+          "en": "group insurance",
+          "vi": "bảo hiểm nhóm"
+        },
+        {
+          "en": "pet insurance",
+          "vi": "bảo hiểm thú cưng"
+        },
+        {
+          "en": "cyber insurance",
+          "vi": "bảo hiểm an ninh mạng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ insurance pays money to your family if you die.",
+                "ans": [
+                  0
+                ],
+                "tip": "life = tính mạng.",
+                "why": "**Life insurance** = bảo hiểm nhân thọ.",
+                "opts": [
+                  "Life",
+                  "Motor",
+                  "Marine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ insurance covers the cost of hospital treatment and medical care.",
+                "ans": [
+                  1
+                ],
+                "tip": "health = sức khỏe.",
+                "why": "**Health insurance** = bảo hiểm sức khỏe.",
+                "opts": [
+                  "Cargo",
+                  "Health",
+                  "Crop"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In many countries, the law says that every driver must have ___ cover.",
+                "ans": [
+                  2
+                ],
+                "tip": "third party = bên thứ ba.",
+                "why": "**third-party liability** = trách nhiệm với bên thứ ba, thường bắt buộc.",
+                "opts": [
+                  "cargo",
+                  "whole life",
+                  "third-party liability"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A policy with ___ cover pays for damage to your own car as well as to other people's property.",
+                "ans": [
+                  0
+                ],
+                "tip": "comprehensive = toàn diện.",
+                "why": "**comprehensive cover** = bảo hiểm toàn diện.",
+                "opts": [
+                  "comprehensive",
+                  "outpatient",
+                  "voluntary"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Farmers buy ___ insurance to protect themselves against bad weather.",
+                "ans": [
+                  1
+                ],
+                "tip": "crop = cây trồng.",
+                "why": "**crop insurance** = bảo hiểm cây trồng.",
+                "opts": [
+                  "marine",
+                  "crop",
+                  "pet"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ insurance protects ships and goods that are transported by sea.",
+                "ans": [
+                  2
+                ],
+                "tip": "marine = thuộc biển.",
+                "why": "**Marine insurance** = bảo hiểm hàng hải.",
+                "opts": [
+                  "Health",
+                  "Pet",
+                  "Marine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ pays a fixed income every month for the rest of your life after retirement.",
+                "ans": [
+                  0
+                ],
+                "tip": "annual = hằng năm.",
+                "why": "**annuity** = niên kim, thu nhập định kỳ.",
+                "opts": [
+                  "annuity",
+                  "no-claims bonus",
+                  "outpatient"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is a discount that a driver gets for each year without making a claim.",
+                "ans": [
+                  1
+                ],
+                "tip": "claims + bonus.",
+                "why": "**no-claims bonus** = ưu đãi khi không có bồi thường.",
+                "opts": [
+                  "annuity",
+                  "no-claims bonus",
+                  "deductible"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "term life",
+                "b": "life insurance that covers a fixed number of years",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "whole life",
+                "b": "life insurance that covers the whole of a person's life",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "inpatient",
+                "b": "treatment that requires staying in hospital",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "outpatient",
+                "b": "treatment that does not require an overnight stay",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "contents insurance",
+                "b": "cover for belongings inside a home",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "buildings insurance",
+                "b": "cover for the structure of a house",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "business interruption",
+                "b": "cover for lost income when a business must stop working",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "microinsurance",
+                "b": "low-cost insurance for people with low incomes",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Lượng từ và danh từ đếm được / không đếm được",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: much/a little + không đếm được; many/a few + đếm được; some/any/a lot of dùng cho cả hai. 'insurance' là danh từ không đếm được, 'policy' đếm được.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How ___ does a motor policy cost?",
+                "ans": [
+                  0
+                ],
+                "tip": "cost → hỏi giá, không đếm được.",
+                "why": "Hỏi số tiền → **How much**.",
+                "opts": [
+                  "much",
+                  "many",
+                  "few"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "She has ___ policies, so she keeps them in a folder.",
+                "ans": [
+                  1
+                ],
+                "tip": "policies đếm được.",
+                "why": "**several** + danh từ đếm được số nhiều.",
+                "opts": [
+                  "much",
+                  "several",
+                  "a little"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "There isn't ___ insurance advice on this website.",
+                "ans": [
+                  2
+                ],
+                "tip": "insurance, advice không đếm được.",
+                "why": "**much** + danh từ không đếm được (phủ định).",
+                "opts": [
+                  "many",
+                  "a few",
+                  "much"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He bought ___ life insurance last year.",
+                "ans": [
+                  0
+                ],
+                "tip": "life insurance không đếm được.",
+                "why": "Không đếm được → **some** (không dùng a/an).",
+                "opts": [
+                  "some",
+                  "a",
+                  "an"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Do you have ___ questions about your cover?",
+                "ans": [
+                  1
+                ],
+                "tip": "Câu hỏi + số nhiều → any.",
+                "why": "**any questions**.",
+                "opts": [
+                  "much",
+                  "any",
+                  "a"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The company receives ___ complaints every month.",
+                "ans": [
+                  2
+                ],
+                "tip": "a lot of dùng cho cả hai loại.",
+                "why": "**a lot of complaints**.",
+                "opts": [
+                  "much",
+                  "a little",
+                  "a lot of"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền lượng từ",
+          "instruction": "Complete each sentence with a suitable quantifier.",
+          "instruction_vi": "Gõ lượng từ thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "How ___ money do I need to pay each month?",
+                "ans": [
+                  [
+                    "much"
+                  ]
+                ],
+                "tip": "money không đếm được.",
+                "why": "**much**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "There are too ___ exclusions in this policy.",
+                "ans": [
+                  [
+                    "many"
+                  ]
+                ],
+                "tip": "exclusions đếm được.",
+                "why": "**many**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I need ___ advice about travel insurance.",
+                "ans": [
+                  [
+                    "some",
+                    "a little"
+                  ]
+                ],
+                "tip": "advice không đếm được.",
+                "why": "**some / a little**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We don't have ___ time to read the whole policy.",
+                "ans": [
+                  [
+                    "much",
+                    "a lot of"
+                  ]
+                ],
+                "tip": "time không đếm được.",
+                "why": "**much**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "There are only ___ days left before the policy expires.",
+                "ans": [
+                  [
+                    "a few",
+                    "few"
+                  ]
+                ],
+                "tip": "days đếm được.",
+                "why": "**a few**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more), so sánh nhất (the -est / the most), so sánh bằng (as ... as) và 'the + so sánh hơn, the + so sánh hơn'.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Comprehensive cover is ___ than third-party cover.",
+                "ans": [
+                  0
+                ],
+                "tip": "Tính từ dài → more + adj.",
+                "why": "**more expensive than**.",
+                "opts": [
+                  "more expensive",
+                  "expensiver",
+                  "most expensive"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This is ___ travel policy we offer.",
+                "ans": [
+                  1
+                ],
+                "tip": "the most + adj dài.",
+                "why": "**the most popular**.",
+                "opts": [
+                  "more popular",
+                  "the most popular",
+                  "popularest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Term life insurance is ___ than whole life insurance.",
+                "ans": [
+                  2
+                ],
+                "tip": "cheap → cheaper.",
+                "why": "**cheaper**.",
+                "opts": [
+                  "more cheap",
+                  "cheapest",
+                  "cheaper"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The higher the deductible, the ___ the premium.",
+                "ans": [
+                  0
+                ],
+                "tip": "The + so sánh hơn, the + so sánh hơn.",
+                "why": "**the lower**.",
+                "opts": [
+                  "lower",
+                  "low",
+                  "lowest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "For many families, health insurance is as ___ as car insurance.",
+                "ans": [
+                  1
+                ],
+                "tip": "as + adj + as.",
+                "why": "So sánh bằng giữ nguyên tính từ → **as important as**.",
+                "opts": [
+                  "more important",
+                  "important",
+                  "most important"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which of these three plans is ___ for a young family?",
+                "ans": [
+                  2
+                ],
+                "tip": "Trong ba lựa chọn → so sánh nhất.",
+                "why": "**the most suitable**.",
+                "opts": [
+                  "more suitable",
+                  "most suitable of",
+                  "the most suitable"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng so sánh đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A critical illness policy is ___ (useful) than a basic one.",
+                "ans": [
+                  [
+                    "more useful"
+                  ]
+                ],
+                "tip": "more + adj dài.",
+                "why": "**more useful**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This is the ___ (good) policy for small businesses.",
+                "ans": [
+                  [
+                    "best"
+                  ]
+                ],
+                "tip": "good → better → best.",
+                "why": "**best**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Motorbike insurance is ___ (cheap) than car insurance.",
+                "ans": [
+                  [
+                    "cheaper"
+                  ]
+                ],
+                "tip": "cheap → cheaper.",
+                "why": "**cheaper**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Whole life is the ___ (expensive) type of life insurance.",
+                "ans": [
+                  [
+                    "most expensive"
+                  ]
+                ],
+                "tip": "the most + adj dài.",
+                "why": "**most expensive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Group insurance is ___ (easy) to manage than individual policies.",
+                "ans": [
+                  [
+                    "easier"
+                  ]
+                ],
+                "tip": "easy → easier.",
+                "why": "**easier**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Life and health insurance",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Life insurance pays a sum of money to the family when the insured person dies. There are two main types. Term life covers the policyholder for a fixed period, for example twenty years, and it is usually cheap. Whole life covers the person for the whole of his or her life and also builds up a cash value, so it costs more.\n\nHealth insurance pays all or part of the cost of medical care. Inpatient cover pays for treatment in hospital, while outpatient cover pays for visits to the doctor. Some policies also include critical illness cover, which pays a lump sum if the policyholder is diagnosed with a serious disease such as cancer. This money can be used for treatment or to replace lost income.\n\nAnother product is the annuity. A person pays a large sum, or a series of payments, and then receives a regular income after retirement. As people live longer, annuities are becoming more popular. Before buying any of these policies, customers should compare the prices and benefits carefully, and they should check what is not covered.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Term life covers a person for a fixed period.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bảo hiểm có thời hạn, ví dụ hai mươi năm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Whole life is usually cheaper than term life.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: trọn đời có giá trị tích lũy nên chi phí cao hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Outpatient cover pays for hospital stays.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: inpatient trả cho nằm viện; outpatient trả cho khám bác sĩ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Annuities give a regular income after retirement.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: niên kim trả thu nhập định kỳ sau khi nghỉ hưu."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does critical illness cover pay?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khoản tiền một lần khi được chẩn đoán bệnh nặng.",
+                "opts": [
+                  "Only the cost of a taxi",
+                  "A lump sum if the policyholder is diagnosed with a serious disease",
+                  "A monthly bonus for good health"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is whole life more expensive?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bảo vệ trọn đời và tích lũy giá trị tiền mặt.",
+                "opts": [
+                  "It covers only five years.",
+                  "It has no benefits.",
+                  "It covers the whole life and builds up a cash value."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should customers do before buying a policy?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: so sánh giá, quyền lợi và kiểm tra điều khoản loại trừ.",
+                "opts": [
+                  "Compare prices and benefits and check what is not covered",
+                  "Sign immediately",
+                  "Ignore the exclusions"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why are annuities becoming more popular?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người dân sống lâu hơn.",
+                "opts": [
+                  "Prices are falling.",
+                  "People live longer.",
+                  "They are compulsory."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Motor and property insurance",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Motor insurance is one of the most common types of non-life insurance. In many countries, the law says that every driver must have at least third-party liability cover. This pays for injury or damage that the driver causes to other people, but it does not pay for the driver's own car. A comprehensive policy covers both. It pays for damage to the policyholder's vehicle after an accident, a fire or a theft.\n\nDrivers who do not make a claim for a year receive a no-claims bonus, which reduces next year's premium. On the other hand, young drivers and drivers who have had many accidents usually pay more.\n\nProperty insurance protects homes and businesses. Buildings insurance covers the structure, such as the walls and the roof, while contents insurance covers furniture, electrical goods and other belongings. Typical perils are fire, storm, flood and theft. Business owners often add business interruption cover, which pays for lost income when a company must stop work after a fire or a flood. Property owners should always check the sum insured. If it is too low, the insurer may pay only part of the loss.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Third-party liability cover pays for the driver's own car.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: nó chỉ trả cho thương tích hoặc thiệt hại gây ra cho người khác."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A no-claims bonus reduces next year's premium.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: không bồi thường trong một năm thì phí năm sau giảm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Buildings insurance covers furniture.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: công trình bảo hiểm tường, mái; đồ đạc thuộc contents insurance."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Business interruption cover pays for lost income.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: trả thu nhập bị mất khi công ty phải ngừng hoạt động."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does third-party liability cover pay for?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thương tích hoặc thiệt hại cho người khác.",
+                "opts": [
+                  "Damage to the driver's own car",
+                  "Medical care for the driver",
+                  "Injury or damage that the driver causes to other people"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who usually pays more for motor insurance?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: người lái trẻ và người nhiều tai nạn thường trả nhiều hơn.",
+                "opts": [
+                  "Young drivers and drivers with many accidents",
+                  "Drivers who never drive",
+                  "Drivers with a no-claims bonus"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does contents insurance cover?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: đồ nội thất, đồ điện và tài sản khác.",
+                "opts": [
+                  "The walls and the roof",
+                  "Furniture, electrical goods and other belongings",
+                  "The garden only"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may happen if the sum insured is too low?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: công ty bảo hiểm có thể chỉ trả một phần.",
+                "opts": [
+                  "The premium becomes free.",
+                  "The policy is cancelled automatically.",
+                  "The insurer may pay only part of the loss."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Underwriting & Policy Terms",
+      "name_vi": "Thẩm định & điều khoản hợp đồng",
+      "icon": "📝",
+      "hue": 350,
+      "words": [
+        {
+          "en": "underwriting",
+          "vi": "thẩm định bảo hiểm"
+        },
+        {
+          "en": "underwriter",
+          "vi": "chuyên viên thẩm định"
+        },
+        {
+          "en": "application form",
+          "vi": "đơn yêu cầu bảo hiểm"
+        },
+        {
+          "en": "risk assessment",
+          "vi": "đánh giá rủi ro"
+        },
+        {
+          "en": "risk factor",
+          "vi": "yếu tố rủi ro"
+        },
+        {
+          "en": "medical examination",
+          "vi": "khám sức khỏe"
+        },
+        {
+          "en": "disclosure",
+          "vi": "sự khai báo, tiết lộ thông tin"
+        },
+        {
+          "en": "non-disclosure",
+          "vi": "việc không khai báo"
+        },
+        {
+          "en": "misrepresentation",
+          "vi": "khai báo sai sự thật"
+        },
+        {
+          "en": "exclusion",
+          "vi": "điều khoản loại trừ"
+        },
+        {
+          "en": "limit",
+          "vi": "giới hạn bồi thường"
+        },
+        {
+          "en": "deductible",
+          "vi": "mức miễn thường (khoản tự chịu)"
+        },
+        {
+          "en": "waiting period",
+          "vi": "thời gian chờ"
+        },
+        {
+          "en": "endorsement",
+          "vi": "bản sửa đổi bổ sung"
+        },
+        {
+          "en": "rider",
+          "vi": "điều khoản bổ sung (quyền lợi thêm)"
+        },
+        {
+          "en": "schedule",
+          "vi": "bảng chi tiết hợp đồng"
+        },
+        {
+          "en": "policy wording",
+          "vi": "nội dung điều khoản hợp đồng"
+        },
+        {
+          "en": "terms and conditions",
+          "vi": "các điều khoản và điều kiện"
+        },
+        {
+          "en": "effective date",
+          "vi": "ngày có hiệu lực"
+        },
+        {
+          "en": "policy period",
+          "vi": "thời hạn bảo hiểm"
+        },
+        {
+          "en": "expiry date",
+          "vi": "ngày hết hạn"
+        },
+        {
+          "en": "grace period",
+          "vi": "thời gian ân hạn"
+        },
+        {
+          "en": "lapse",
+          "vi": "sự mất hiệu lực"
+        },
+        {
+          "en": "reinstatement",
+          "vi": "sự khôi phục hiệu lực"
+        },
+        {
+          "en": "surrender value",
+          "vi": "giá trị hoàn lại"
+        },
+        {
+          "en": "cooling-off period",
+          "vi": "thời gian cân nhắc (hủy không mất phí)"
+        },
+        {
+          "en": "certificate of insurance",
+          "vi": "giấy chứng nhận bảo hiểm"
+        },
+        {
+          "en": "cover note",
+          "vi": "giấy bảo hiểm tạm thời"
+        },
+        {
+          "en": "loading",
+          "vi": "phụ phí rủi ro"
+        },
+        {
+          "en": "discount",
+          "vi": "giảm giá"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ evaluates the risk and decides whether to accept an application.",
+                "ans": [
+                  0
+                ],
+                "tip": "underwrite = bảo lãnh, thẩm định.",
+                "why": "**underwriter** = chuyên viên thẩm định rủi ro.",
+                "opts": [
+                  "underwriter",
+                  "beneficiary",
+                  "agent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The customer must fill in an ___ with personal details before cover begins.",
+                "ans": [
+                  1
+                ],
+                "tip": "apply = nộp đơn.",
+                "why": "**application form** = đơn yêu cầu bảo hiểm.",
+                "opts": [
+                  "cover note",
+                  "application form",
+                  "schedule"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A(n) ___ is an event or situation that the policy does not cover.",
+                "ans": [
+                  2
+                ],
+                "tip": "exclude = loại trừ.",
+                "why": "**exclusion** = điều khoản loại trừ.",
+                "opts": [
+                  "rider",
+                  "discount",
+                  "exclusion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the amount that the policyholder pays first before the insurer pays the rest of a claim.",
+                "ans": [
+                  0
+                ],
+                "tip": "deduct = trừ đi.",
+                "why": "**deductible** (excess) = mức miễn thường.",
+                "opts": [
+                  "deductible",
+                  "premium",
+                  "limit"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "During the ___, a new customer cannot claim for certain illnesses.",
+                "ans": [
+                  1
+                ],
+                "tip": "wait = chờ.",
+                "why": "**waiting period** = thời gian chờ trước khi được bồi thường.",
+                "opts": [
+                  "grace period",
+                  "waiting period",
+                  "policy period"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the customer does not pay within the ___, the policy will lapse.",
+                "ans": [
+                  2
+                ],
+                "tip": "grace = ân hạn.",
+                "why": "**grace period** = thời gian ân hạn đóng phí.",
+                "opts": [
+                  "effective date",
+                  "loading",
+                  "grace period"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Failing to tell the insurer an important fact is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "disclose = tiết lộ.",
+                "why": "**non-disclosure** = không khai báo thông tin quan trọng.",
+                "opts": [
+                  "non-disclosure",
+                  "endorsement",
+                  "reinstatement"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ is a written change that is added to the policy during its term.",
+                "ans": [
+                  1
+                ],
+                "tip": "endorse = xác nhận, bổ sung.",
+                "why": "**endorsement** = bản sửa đổi bổ sung.",
+                "opts": [
+                  "exclusion",
+                  "endorsement",
+                  "expiry date"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "rider",
+                "b": "an extra benefit that is added to a basic policy",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "schedule",
+                "b": "the page that lists the personal details and the sum insured",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "policy wording",
+                "b": "the full text of the terms of the contract",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "effective date",
+                "b": "the day when the cover starts",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "expiry date",
+                "b": "the day when the cover ends",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "surrender value",
+                "b": "the money paid if a life policy is cancelled early",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cooling-off period",
+                "b": "a short time when the customer can cancel without penalty",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "loading",
+                "b": "an extra amount added to the premium for a higher risk",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm, cho phép",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't (cấm), don't have to (không cần), can / may (được phép), should (nên).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Applicants ___ answer all the questions truthfully.",
+                "ans": [
+                  0
+                ],
+                "tip": "must = bắt buộc.",
+                "why": "Nguyên tắc trung thực → **must**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "needn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ hide any medical conditions from the underwriter.",
+                "ans": [
+                  1
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Giấu thông tin y tế bị cấm → **mustn't**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Customers ___ pay the premium by direct debit, or they can pay in cash.",
+                "ans": [
+                  2
+                ],
+                "tip": "can = được phép/lựa chọn.",
+                "why": "Có lựa chọn → **can**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "can"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Under the law, drivers ___ have third-party insurance.",
+                "ans": [
+                  0
+                ],
+                "tip": "have to = luật bắt buộc.",
+                "why": "Quy định pháp luật → **have to**.",
+                "opts": [
+                  "have to",
+                  "don't have to",
+                  "may"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ sign the form again; we already have your signature.",
+                "ans": [
+                  1
+                ],
+                "tip": "don't have to = không cần.",
+                "why": "Không cần thiết → **don't have to**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ read the exclusions carefully before you buy.",
+                "ans": [
+                  2
+                ],
+                "tip": "should = lời khuyên.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "mustn't",
+                  "needn't",
+                  "should"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền động từ khuyết thiếu",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The insurer ___ refuse the claim if you gave false information.",
+                "ans": [
+                  [
+                    "can",
+                    "may",
+                    "could"
+                  ]
+                ],
+                "tip": "Khả năng/quyền.",
+                "why": "**can / may**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ cancel the policy within 14 days without any penalty.",
+                "ans": [
+                  [
+                    "can",
+                    "may"
+                  ]
+                ],
+                "tip": "Được phép.",
+                "why": "**can / may**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Policyholders ___ inform the insurer of any change of address.",
+                "ans": [
+                  [
+                    "must",
+                    "have to",
+                    "should"
+                  ]
+                ],
+                "tip": "Nghĩa vụ.",
+                "why": "**must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ drive without insurance. It is illegal.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot"
+                  ]
+                ],
+                "tip": "Cấm.",
+                "why": "**mustn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A customer ___ pay the whole premium at once, because instalments are available.",
+                "ans": [
+                  [
+                    "doesn't have to",
+                    "does not have to",
+                    "needn't",
+                    "need not"
+                  ]
+                ],
+                "tip": "Không bắt buộc.",
+                "why": "**doesn't have to**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: bị động hiện tại (is/are + V3), quá khứ (was/were + V3), hiện tại hoàn thành (has/have been + V3), tương lai (will be + V3), modal (may be + V3).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The risk ___ by the underwriter before the policy is issued.",
+                "ans": [
+                  0
+                ],
+                "tip": "Quy trình thường lệ → is + V3.",
+                "why": "Rủi ro được đánh giá → **is assessed**.",
+                "opts": [
+                  "is assessed",
+                  "assesses",
+                  "is assessing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The policy ___ to the customer yesterday.",
+                "ans": [
+                  1
+                ],
+                "tip": "yesterday → was + V3.",
+                "why": "Mốc quá khứ → **was sent**.",
+                "opts": [
+                  "sent",
+                  "was sent",
+                  "is sent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All applications ___ within two working days.",
+                "ans": [
+                  2
+                ],
+                "tip": "are + V3.",
+                "why": "**are processed**.",
+                "opts": [
+                  "process",
+                  "are processing",
+                  "are processed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Your cover ___ by this endorsement.",
+                "ans": [
+                  0
+                ],
+                "tip": "has been + V3.",
+                "why": "**has been extended**.",
+                "opts": [
+                  "has been extended",
+                  "has extended",
+                  "is extending"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The new terms ___ to all customers next month.",
+                "ans": [
+                  1
+                ],
+                "tip": "will be + V3.",
+                "why": "**will be introduced**.",
+                "opts": [
+                  "will introduce",
+                  "will be introduced",
+                  "is introducing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Medical reports ___ if the sum insured is high.",
+                "ans": [
+                  2
+                ],
+                "tip": "may be + V3.",
+                "why": "**may be required**.",
+                "opts": [
+                  "may require",
+                  "may be requiring",
+                  "may be required"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng bị động",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The policy ___ (issue) after the first premium is paid.",
+                "ans": [
+                  [
+                    "is issued"
+                  ]
+                ],
+                "tip": "is + V3.",
+                "why": "**is issued**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The customer's details ___ (check) by the underwriter now.",
+                "ans": [
+                  [
+                    "are being checked"
+                  ]
+                ],
+                "tip": "now → are being + V3.",
+                "why": "**are being checked**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The wrong address ___ (correct) yesterday.",
+                "ans": [
+                  [
+                    "was corrected"
+                  ]
+                ],
+                "tip": "yesterday → was + V3.",
+                "why": "**was corrected**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The terms and conditions ___ (must / read) carefully.",
+                "ans": [
+                  [
+                    "must be read"
+                  ]
+                ],
+                "tip": "must be + V3.",
+                "why": "**must be read**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The contract ___ (sign) already.",
+                "ans": [
+                  [
+                    "has been signed"
+                  ]
+                ],
+                "tip": "already → has been + V3.",
+                "why": "**has been signed**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How underwriters decide",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "When a customer applies for insurance, the underwriter has to answer one question: should we accept this risk, and at what price? The process begins with the application form, in which the customer gives personal information. For life and health insurance, the applicant may also have to take a medical examination.\n\nThe underwriter studies the risk factors, such as age, occupation, health and lifestyle. A non-smoker is a lower risk than a smoker, and a clerk is a lower risk than a construction worker. If the risk is higher than normal, the underwriter can add a loading to the premium, apply an exclusion, or decline the application. If the risk is very low, the customer may receive a discount.\n\nHonesty is essential. Insurance is based on the principle of utmost good faith, which means that the customer must disclose all important facts. If he or she hides a fact, this is called non-disclosure. When the insurer discovers it later, it may refuse a claim or cancel the policy. For this reason, applicants should read every question carefully and answer it truthfully.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "For life insurance, the applicant may need a medical examination.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: với bảo hiểm nhân thọ và sức khỏe, có thể phải khám sức khỏe."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A smoker is usually a lower risk than a non-smoker.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: người không hút thuốc rủi ro thấp hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An underwriter can add a loading to the premium.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nếu rủi ro cao hơn bình thường có thể thêm phụ phí."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Non-disclosure has no effect on claims.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: công ty có thể từ chối bồi thường hoặc hủy hợp đồng."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the underwriter decide?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: có nhận rủi ro hay không và với mức phí nào.",
+                "opts": [
+                  "Which hospital to use",
+                  "Whether to accept the risk and at what price",
+                  "How to repair a car"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which of these are risk factors?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: tuổi, nghề nghiệp, sức khỏe và lối sống.",
+                "opts": [
+                  "Colour and size of the form",
+                  "The name of the agent",
+                  "Age, occupation, health and lifestyle"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is utmost good faith?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: khách hàng phải khai báo mọi thông tin quan trọng.",
+                "opts": [
+                  "The customer must disclose all important facts.",
+                  "The insurer pays every claim.",
+                  "The premium never changes."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can happen after non-disclosure is discovered?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: từ chối bồi thường hoặc hủy hợp đồng.",
+                "opts": [
+                  "The premium becomes lower.",
+                  "The insurer may refuse a claim or cancel the policy.",
+                  "The policy is extended."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Reading your policy",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Most people never read their insurance policy until they need to make a claim, but this is a mistake. A policy has several parts. The schedule shows the personal details, the policy period, the sum insured and the premium. The policy wording explains the terms and conditions. The most important sections are the cover, the exclusions and the claims procedure.\n\nThe cover describes what the insurer will pay for. The exclusions list what is not covered. For example, a travel policy may exclude dangerous sports, and a health policy may exclude illnesses that the customer already had before the start date. Some policies have a waiting period, during which the customer cannot claim. Many also have a deductible, which means that the policyholder pays the first part of each claim.\n\nIf the customer's situation changes, the insurer may issue an endorsement, which is an official change to the policy. A rider can add an extra benefit, such as accidental death cover. After buying the policy, customers usually have a cooling-off period of a few weeks to change their mind and cancel without penalty. If they forget to pay the premium, many insurers allow a grace period before the policy lapses.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The schedule shows the sum insured and the policy period.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bảng chi tiết hợp đồng ghi thông tin cá nhân, thời hạn, số tiền bảo hiểm và phí."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An exclusion lists what the insurer will pay for.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: exclusion liệt kê những gì không được bảo hiểm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A rider can add an extra benefit.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: điều khoản bổ sung thêm quyền lợi, ví dụ tử vong do tai nạn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Customers can never cancel a policy after buying it.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thường có thời gian cân nhắc vài tuần để hủy không mất phí."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a deductible mean?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khách hàng tự chịu phần đầu của mỗi lần bồi thường.",
+                "opts": [
+                  "The insurer pays double.",
+                  "The premium is free.",
+                  "The policyholder pays the first part of each claim."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may a travel policy exclude?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ví dụ môn thể thao nguy hiểm.",
+                "opts": [
+                  "Dangerous sports",
+                  "Lost luggage only",
+                  "All countries"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a cooling-off period?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: vài tuần để đổi ý và hủy không mất phí.",
+                "opts": [
+                  "A time when the premium rises",
+                  "A few weeks to cancel without penalty",
+                  "A holiday for the insurer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does an endorsement do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: sửa đổi chính thức hợp đồng khi hoàn cảnh thay đổi.",
+                "opts": [
+                  "It cancels the policy.",
+                  "It pays a claim.",
+                  "It makes an official change to the policy."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Claims & Loss Adjusting",
+      "name_vi": "Bồi thường & giám định tổn thất",
+      "icon": "🔧",
+      "hue": 150,
+      "words": [
+        {
+          "en": "claim form",
+          "vi": "mẫu yêu cầu bồi thường"
+        },
+        {
+          "en": "notification",
+          "vi": "sự thông báo (sự cố)"
+        },
+        {
+          "en": "incident",
+          "vi": "sự cố, vụ việc"
+        },
+        {
+          "en": "loss adjuster",
+          "vi": "giám định viên tổn thất"
+        },
+        {
+          "en": "assessor",
+          "vi": "người đánh giá (tổn thất)"
+        },
+        {
+          "en": "investigation",
+          "vi": "cuộc điều tra"
+        },
+        {
+          "en": "evidence",
+          "vi": "bằng chứng"
+        },
+        {
+          "en": "police report",
+          "vi": "biên bản của công an"
+        },
+        {
+          "en": "proof of loss",
+          "vi": "chứng từ chứng minh tổn thất"
+        },
+        {
+          "en": "repair estimate",
+          "vi": "báo giá sửa chữa"
+        },
+        {
+          "en": "valuation",
+          "vi": "sự định giá"
+        },
+        {
+          "en": "total loss",
+          "vi": "tổn thất toàn bộ"
+        },
+        {
+          "en": "depreciation",
+          "vi": "khấu hao, sự giảm giá trị"
+        },
+        {
+          "en": "replacement cost",
+          "vi": "chi phí thay mới"
+        },
+        {
+          "en": "actual cash value",
+          "vi": "giá trị thực tế (đã trừ khấu hao)"
+        },
+        {
+          "en": "settlement",
+          "vi": "sự giải quyết bồi thường, khoản chi trả"
+        },
+        {
+          "en": "payout",
+          "vi": "khoản chi trả"
+        },
+        {
+          "en": "reimbursement",
+          "vi": "sự hoàn trả"
+        },
+        {
+          "en": "dispute",
+          "vi": "tranh chấp"
+        },
+        {
+          "en": "subrogation",
+          "vi": "quyền truy đòi (thế quyền)"
+        },
+        {
+          "en": "salvage",
+          "vi": "phần giá trị còn lại của tài sản hư hỏng"
+        },
+        {
+          "en": "fraud",
+          "vi": "gian lận"
+        },
+        {
+          "en": "claims history",
+          "vi": "lịch sử bồi thường"
+        },
+        {
+          "en": "claims handler",
+          "vi": "nhân viên xử lý bồi thường"
+        },
+        {
+          "en": "turnaround time",
+          "vi": "thời gian xử lý"
+        },
+        {
+          "en": "appeal",
+          "vi": "khiếu nại, kháng nghị"
+        },
+        {
+          "en": "third party",
+          "vi": "bên thứ ba"
+        },
+        {
+          "en": "witness statement",
+          "vi": "lời khai của nhân chứng"
+        },
+        {
+          "en": "rejection",
+          "vi": "sự từ chối (bồi thường)"
+        },
+        {
+          "en": "approval",
+          "vi": "sự chấp thuận"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After the accident, he completed a ___ and sent it to his insurer.",
+                "ans": [
+                  0
+                ],
+                "tip": "claim + form.",
+                "why": "**claim form** = mẫu yêu cầu bồi thường.",
+                "opts": [
+                  "claim form",
+                  "schedule",
+                  "rider"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ visited the house to inspect the fire damage.",
+                "ans": [
+                  1
+                ],
+                "tip": "adjust = điều chỉnh, xác định.",
+                "why": "**loss adjuster** = giám định viên tổn thất.",
+                "opts": [
+                  "underwriter",
+                  "loss adjuster",
+                  "beneficiary"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is an official document that records a theft or a road accident.",
+                "ans": [
+                  2
+                ],
+                "tip": "police + report.",
+                "why": "**police report** = biên bản của công an.",
+                "opts": [
+                  "cover note",
+                  "repair estimate",
+                  "police report"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The garage gave a ___ of $1,200 for fixing the car.",
+                "ans": [
+                  0
+                ],
+                "tip": "estimate = ước tính.",
+                "why": "**repair estimate** = báo giá sửa chữa.",
+                "opts": [
+                  "repair estimate",
+                  "payout",
+                  "salvage"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the cost of repair is higher than the value of the car, the car is a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "total = toàn bộ.",
+                "why": "**total loss** = tổn thất toàn bộ.",
+                "opts": [
+                  "salvage",
+                  "total loss",
+                  "settlement"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Because of ___, the insurer deducts an amount for the age and wear of the item.",
+                "ans": [
+                  2
+                ],
+                "tip": "de + preciate = giảm giá.",
+                "why": "**depreciation** = khấu hao.",
+                "opts": [
+                  "subrogation",
+                  "fraud",
+                  "depreciation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The insurer paid the ___ within five days.",
+                "ans": [
+                  0
+                ],
+                "tip": "settle = giải quyết.",
+                "why": "**settlement** = khoản bồi thường được thanh toán.",
+                "opts": [
+                  "settlement",
+                  "evidence",
+                  "appeal"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ means lying or exaggerating in order to get money from an insurer.",
+                "ans": [
+                  1
+                ],
+                "tip": "fraud = gian lận.",
+                "why": "**Fraud** = gian lận bảo hiểm.",
+                "opts": [
+                  "Subrogation",
+                  "Fraud",
+                  "Depreciation"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "assessor",
+                "b": "a person who evaluates the extent and value of damage",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "witness statement",
+                "b": "a written account from a person who saw the event",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "replacement cost",
+                "b": "the cost of buying a new item of the same kind",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "actual cash value",
+                "b": "the replacement cost minus depreciation",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "subrogation",
+                "b": "the insurer's right to recover its payment from the person who caused the loss",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "salvage",
+                "b": "the remaining value of damaged property",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "appeal",
+                "b": "a request to reconsider a decision",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "claims handler",
+                "b": "an employee who processes and manages claims",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại: ever, never, already, yet, since, for, this month).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The storm ___ our warehouse last night.",
+                "ans": [
+                  0
+                ],
+                "tip": "last night → quá khứ đơn.",
+                "why": "Mốc quá khứ → **damaged**.",
+                "opts": [
+                  "damaged",
+                  "has damaged",
+                  "damages"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ over 300 claims this month.",
+                "ans": [
+                  1
+                ],
+                "tip": "this month (chưa hết) → hiện tại hoàn thành.",
+                "why": "'this month' còn kéo dài → **have received**.",
+                "opts": [
+                  "received",
+                  "have received",
+                  "receive"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ with this insurer?",
+                "ans": [
+                  2
+                ],
+                "tip": "How long + hiện tại hoàn thành.",
+                "why": "Còn kéo dài đến nay → **have you been**.",
+                "opts": [
+                  "were you",
+                  "did you be",
+                  "have you been"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He ___ a claim before, so the process is new to him.",
+                "ans": [
+                  0
+                ],
+                "tip": "never + have + V3.",
+                "why": "Kinh nghiệm đến hiện tại → **has never made**.",
+                "opts": [
+                  "has never made",
+                  "never made",
+                  "didn't never make"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The assessor ___ the site two days ago.",
+                "ans": [
+                  1
+                ],
+                "tip": "ago → quá khứ đơn.",
+                "why": "**ago** → **inspected**.",
+                "opts": [
+                  "has inspected",
+                  "inspected",
+                  "inspects"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The insurer ___ the claim yet.",
+                "ans": [
+                  2
+                ],
+                "tip": "yet → hiện tại hoàn thành.",
+                "why": "**yet** → **hasn't paid**.",
+                "opts": [
+                  "didn't pay",
+                  "doesn't pay",
+                  "hasn't paid"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The customer ___ (report) the theft to the police on Monday.",
+                "ans": [
+                  [
+                    "reported"
+                  ]
+                ],
+                "tip": "on Monday → quá khứ đơn.",
+                "why": "**reported**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (already / send) the claim form.",
+                "ans": [
+                  [
+                    "have already sent",
+                    "'ve already sent"
+                  ]
+                ],
+                "tip": "already → hiện tại hoàn thành.",
+                "why": "**have already sent**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Ms Hoa ___ (never / make) a claim in her life.",
+                "ans": [
+                  [
+                    "has never made"
+                  ]
+                ],
+                "tip": "never + has + V3.",
+                "why": "**has never made**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The claim ___ (not / be) approved yet.",
+                "ans": [
+                  [
+                    "has not been approved",
+                    "hasn't been approved"
+                  ]
+                ],
+                "tip": "yet → has not been + V3.",
+                "why": "**hasn't been approved**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The flood ___ (occur) in September.",
+                "ans": [
+                  [
+                    "occurred"
+                  ]
+                ],
+                "tip": "in September → quá khứ đơn.",
+                "why": "**occurred**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Câu tường thuật",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: lùi thì (was → had been, will → would, did → had done); told someone to V / not to V; asked if/whether + mệnh đề.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The customer said, 'My car was stolen.' → The customer said that his car ___ stolen.",
+                "ans": [
+                  0
+                ],
+                "tip": "was → had been.",
+                "why": "Lùi thì → **had been stolen**.",
+                "opts": [
+                  "had been",
+                  "has been",
+                  "is"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The assessor said, 'I will visit the site tomorrow.' → He said he ___ the site the next day.",
+                "ans": [
+                  1
+                ],
+                "tip": "will → would.",
+                "why": "**would visit**.",
+                "opts": [
+                  "will visit",
+                  "would visit",
+                  "visited"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The handler asked, 'Did you call the police?' → The handler asked whether I ___ the police.",
+                "ans": [
+                  2
+                ],
+                "tip": "did call → had called.",
+                "why": "**had called**.",
+                "opts": [
+                  "did call",
+                  "have called",
+                  "had called"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The insurer said, 'Send the documents.' → The insurer told him ___ the documents.",
+                "ans": [
+                  0
+                ],
+                "tip": "told + O + to V.",
+                "why": "**to send**.",
+                "opts": [
+                  "to send",
+                  "send",
+                  "sending"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "She said, 'I am preparing the report.' → She said she ___ the report.",
+                "ans": [
+                  1
+                ],
+                "tip": "am preparing → was preparing.",
+                "why": "**was preparing**.",
+                "opts": [
+                  "is preparing",
+                  "was preparing",
+                  "prepares"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He told us, 'Don't repair the car before the inspection.' → He told us ___ the car before the inspection.",
+                "ans": [
+                  2
+                ],
+                "tip": "told + O + not to V.",
+                "why": "**not to repair**.",
+                "opts": [
+                  "don't repair",
+                  "not repairing",
+                  "not to repair"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng tường thuật",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng để hoàn thành câu tường thuật.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'We have received your form,' the clerk said. → The clerk said they ___ my form.",
+                "ans": [
+                  [
+                    "had received"
+                  ]
+                ],
+                "tip": "have received → had received.",
+                "why": "**had received**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'I lost my phone yesterday,' she said. → She said she ___ her phone the day before.",
+                "ans": [
+                  [
+                    "had lost"
+                  ]
+                ],
+                "tip": "lost → had lost.",
+                "why": "**had lost**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'Call us immediately,' the officer said. → The officer told me ___ them immediately.",
+                "ans": [
+                  [
+                    "to call"
+                  ]
+                ],
+                "tip": "told + O + to V.",
+                "why": "**to call**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'Do you have a receipt?' he asked. → He asked if I ___ a receipt.",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "do have → had.",
+                "why": "**had**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'The claim will be paid soon,' the manager said. → The manager said the claim ___ paid soon.",
+                "ans": [
+                  [
+                    "would be"
+                  ]
+                ],
+                "tip": "will be → would be.",
+                "why": "**would be**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Making a claim: step by step",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "When a loss happens, the policyholder should act quickly. First, he must make the situation safe and try to prevent further damage. For example, if a pipe bursts, he should turn off the water. Then he should contact the insurer, usually by phone or online, and report the incident. Many policies require notification within a certain number of days.\n\nNext, the policyholder fills in a claim form and sends evidence. This may include photographs, a police report, repair estimates and receipts. The insurer's claims handler checks the policy to see whether the event is covered. For larger losses, a loss adjuster visits the site, talks to witnesses and decides how much the loss is worth.\n\nIf the claim is accepted, the insurer pays the settlement or arranges for the repair. Depreciation may be deducted if the policy pays the actual cash value. If the claim is denied, the insurer must explain why in writing, and the customer can appeal. Throughout the process, the policyholder should keep copies of all documents and should not throw away the damaged items until the insurer has seen them.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The policyholder should try to prevent further damage.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: trước hết giữ an toàn và ngăn thiệt hại thêm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Notification is never required within a certain number of days.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: nhiều hợp đồng yêu cầu thông báo trong số ngày nhất định."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A loss adjuster may visit the site for larger losses.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: giám định viên đến hiện trường với tổn thất lớn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The customer cannot appeal if the claim is denied.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: khách hàng có thể khiếu nại."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which of these is an example of evidence?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ảnh, biên bản công an, báo giá sửa chữa, hóa đơn.",
+                "opts": [
+                  "A birthday card",
+                  "Photographs, a police report and receipts",
+                  "A weather forecast only"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the claims handler check?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: xem sự kiện có thuộc phạm vi bảo hiểm không.",
+                "opts": [
+                  "The customer's favourite colour",
+                  "The price of the premium",
+                  "Whether the event is covered by the policy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What must the insurer do if it denies a claim?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phải giải thích bằng văn bản.",
+                "opts": [
+                  "Explain why in writing",
+                  "Pay half of it",
+                  "Cancel the customer's bank account"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should the customer NOT do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: không vứt bỏ đồ hư hỏng trước khi công ty bảo hiểm xem.",
+                "opts": [
+                  "Keep copies of the documents",
+                  "Throw away the damaged items before the insurer has seen them",
+                  "Make the situation safe"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Detecting insurance fraud",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Insurance fraud costs the industry billions of dollars every year, and honest customers pay for it through higher premiums. There are two main types. Soft fraud happens when a customer exaggerates a real claim, for example by adding items that were not damaged. Hard fraud means that the person invents or deliberately causes a loss, for example by burning a car and then reporting it as stolen.\n\nInsurers have developed many methods to detect fraud. Claims handlers look for red flags: a claim that is made soon after the policy starts, an owner who cannot show any receipts, or a story that keeps changing. Computer systems compare new claims with a database of past claims and identify patterns that are unusual. Special investigators may interview witnesses and check social media.\n\nWhen fraud is proved, the insurer refuses the claim and may cancel the policy. It can also report the case to the police, and the customer may go to prison. Insurers also try to prevent fraud by educating customers. Honest customers should remember a simple rule: describe the loss as it really happened, and give documents that are true.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Honest customers pay for fraud through higher premiums.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: gian lận làm phí bảo hiểm tăng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Soft fraud means that a person deliberately destroys property.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: soft fraud là phóng đại yêu cầu có thật; cố ý gây ra tổn thất là hard fraud."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Computer systems can identify unusual patterns in claims.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hệ thống so sánh với cơ sở dữ liệu để phát hiện bất thường."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A person who commits fraud never goes to prison.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: có thể bị báo công an và bị tù."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is an example of hard fraud?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cố ý gây tổn thất rồi khai báo.",
+                "opts": [
+                  "Adding a few items to a real claim",
+                  "Forgetting a receipt",
+                  "Burning a car and then reporting it as stolen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which of these is a red flag?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: yêu cầu bồi thường ngay sau khi hợp đồng bắt đầu.",
+                "opts": [
+                  "A claim made soon after the policy starts",
+                  "A customer who sends all receipts",
+                  "A claim with clear photographs"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may the insurer do when fraud is proved?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: từ chối bồi thường và có thể hủy hợp đồng.",
+                "opts": [
+                  "Pay double",
+                  "Refuse the claim and cancel the policy",
+                  "Give a discount"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How do insurers try to prevent fraud?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bằng cách giáo dục khách hàng.",
+                "opts": [
+                  "By raising all claims",
+                  "By hiding the rules",
+                  "By educating customers"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reinsurance, Brokers & Risk Management",
+      "name_vi": "Tái bảo hiểm, môi giới & quản trị rủi ro",
+      "icon": "🏦",
+      "hue": 262,
+      "words": [
+        {
+          "en": "actuary",
+          "vi": "chuyên gia định phí (tính toán bảo hiểm)"
+        },
+        {
+          "en": "mortality rate",
+          "vi": "tỷ lệ tử vong"
+        },
+        {
+          "en": "life expectancy",
+          "vi": "tuổi thọ kỳ vọng"
+        },
+        {
+          "en": "loss ratio",
+          "vi": "tỷ lệ tổn thất"
+        },
+        {
+          "en": "combined ratio",
+          "vi": "tỷ lệ kết hợp"
+        },
+        {
+          "en": "solvency",
+          "vi": "khả năng thanh toán"
+        },
+        {
+          "en": "capital",
+          "vi": "vốn"
+        },
+        {
+          "en": "reserves",
+          "vi": "quỹ dự phòng"
+        },
+        {
+          "en": "investment income",
+          "vi": "thu nhập đầu tư"
+        },
+        {
+          "en": "reinsurance",
+          "vi": "tái bảo hiểm"
+        },
+        {
+          "en": "reinsurer",
+          "vi": "công ty tái bảo hiểm"
+        },
+        {
+          "en": "ceding company",
+          "vi": "công ty nhượng tái bảo hiểm"
+        },
+        {
+          "en": "treaty",
+          "vi": "hợp đồng tái bảo hiểm theo hiệp ước"
+        },
+        {
+          "en": "catastrophe",
+          "vi": "thảm họa"
+        },
+        {
+          "en": "broker",
+          "vi": "môi giới bảo hiểm"
+        },
+        {
+          "en": "agent",
+          "vi": "đại lý bảo hiểm"
+        },
+        {
+          "en": "bancassurance",
+          "vi": "bảo hiểm qua ngân hàng"
+        },
+        {
+          "en": "distribution channel",
+          "vi": "kênh phân phối"
+        },
+        {
+          "en": "commission",
+          "vi": "hoa hồng"
+        },
+        {
+          "en": "premium income",
+          "vi": "doanh thu phí bảo hiểm"
+        },
+        {
+          "en": "underwriting profit",
+          "vi": "lợi nhuận từ nghiệp vụ bảo hiểm"
+        },
+        {
+          "en": "risk management",
+          "vi": "quản trị rủi ro"
+        },
+        {
+          "en": "risk appetite",
+          "vi": "khẩu vị rủi ro"
+        },
+        {
+          "en": "risk transfer",
+          "vi": "chuyển giao rủi ro"
+        },
+        {
+          "en": "risk retention",
+          "vi": "giữ lại rủi ro"
+        },
+        {
+          "en": "self-insurance",
+          "vi": "tự bảo hiểm"
+        },
+        {
+          "en": "diversification",
+          "vi": "đa dạng hóa"
+        },
+        {
+          "en": "exposure",
+          "vi": "mức độ phơi nhiễm rủi ro"
+        },
+        {
+          "en": "market share",
+          "vi": "thị phần"
+        },
+        {
+          "en": "insurtech",
+          "vi": "công nghệ bảo hiểm (insurtech)"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ uses mathematics and statistics to calculate risk and set premiums.",
+                "ans": [
+                  0
+                ],
+                "tip": "actuary = chuyên gia tính toán bảo hiểm.",
+                "why": "**actuary** = chuyên gia định phí.",
+                "opts": [
+                  "actuary",
+                  "agent",
+                  "broker"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ works for the customer and compares policies from different insurers.",
+                "ans": [
+                  1
+                ],
+                "tip": "broker = người môi giới.",
+                "why": "**broker** = môi giới bảo hiểm.",
+                "opts": [
+                  "reinsurer",
+                  "broker",
+                  "actuary"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An insurer that wants to share a very large risk buys ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "re + insurance = bảo hiểm lại.",
+                "why": "**reinsurance** = tái bảo hiểm.",
+                "opts": [
+                  "commission",
+                  "exposure",
+                  "reinsurance"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The company that passes part of its risk to another insurer is the ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "cede = nhượng lại.",
+                "why": "**ceding company** = công ty nhượng tái.",
+                "opts": [
+                  "ceding company",
+                  "reinsurer",
+                  "actuary"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Hurricanes and earthquakes are ___ that can cause huge losses at the same time.",
+                "ans": [
+                  1
+                ],
+                "tip": "catastrophe = thảm họa.",
+                "why": "**catastrophes** = thảm họa gây tổn thất lớn.",
+                "opts": [
+                  "commissions",
+                  "catastrophes",
+                  "reserves"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the percentage of premiums that an insurer pays out in claims.",
+                "ans": [
+                  2
+                ],
+                "tip": "loss + ratio.",
+                "why": "**loss ratio** = tỷ lệ tổn thất.",
+                "opts": [
+                  "market share",
+                  "solvency",
+                  "loss ratio"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An insurer's ___ is its ability to pay all its future claims.",
+                "ans": [
+                  0
+                ],
+                "tip": "solvent = có khả năng thanh toán.",
+                "why": "**solvency** = khả năng thanh toán.",
+                "opts": [
+                  "solvency",
+                  "commission",
+                  "bancassurance"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Selling insurance through a bank's branches is called ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "bank + assurance.",
+                "why": "**bancassurance** = bảo hiểm qua ngân hàng.",
+                "opts": [
+                  "reinsurance",
+                  "bancassurance",
+                  "self-insurance"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "commission",
+                "b": "a payment made to an agent or broker for selling policies",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "reserves",
+                "b": "money that is set aside to pay future claims",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "treaty",
+                "b": "a standing agreement between an insurer and a reinsurer",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "risk appetite",
+                "b": "the amount of risk that a company is willing to accept",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "risk transfer",
+                "b": "moving the financial consequences of a risk to another party",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "self-insurance",
+                "b": "setting money aside to pay for one's own losses",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "diversification",
+                "b": "spreading risks across different types and places",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "insurtech",
+                "b": "technology that is used to improve insurance services",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 2 và 3",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 2 (If + quá khứ đơn, would + V) giả định hiện tại; loại 3 (If + had + V3, would have + V3) giả định quá khứ.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the insurer had no reinsurance, a big catastrophe ___ ruin it.",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 2: could + V.",
+                "why": "Giả định hiện tại → **could ruin**.",
+                "opts": [
+                  "could",
+                  "can",
+                  "will"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If we had charged higher premiums, we ___ made a profit last year.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 3.",
+                "why": "**would have made**.",
+                "opts": [
+                  "would",
+                  "would have",
+                  "will have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I ___ an actuary, I would study mortality tables every day.",
+                "ans": [
+                  2
+                ],
+                "tip": "If I were...",
+                "why": "Cấu trúc **If I were**.",
+                "opts": [
+                  "am",
+                  "would be",
+                  "were"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would happen if all customers ___ a claim at the same time?",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "**made**.",
+                "opts": [
+                  "made",
+                  "make",
+                  "will make"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the storm hadn't hit the coast, the loss ratio ___ so high.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 3.",
+                "why": "**wouldn't have been**.",
+                "opts": [
+                  "wouldn't be",
+                  "wouldn't have been",
+                  "won't have been"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the company diversified its portfolio, it ___ less exposed to one risk.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 2: would + V.",
+                "why": "**would be**.",
+                "opts": [
+                  "will be",
+                  "is",
+                  "would be"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (câu điều kiện loại 2 hoặc 3).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If premiums were too low, the insurer ___ (not / be) able to pay all claims.",
+                "ans": [
+                  [
+                    "would not be",
+                    "wouldn't be"
+                  ]
+                ],
+                "tip": "Loại 2.",
+                "why": "**wouldn't be**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the earthquake hadn't happened, the company ___ (make) a profit.",
+                "ans": [
+                  [
+                    "would have made"
+                  ]
+                ],
+                "tip": "Loại 3.",
+                "why": "**would have made**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) the manager, I would increase the reserves.",
+                "ans": [
+                  [
+                    "were"
+                  ]
+                ],
+                "tip": "If I were...",
+                "why": "**were**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If they had bought reinsurance, they ___ (survive) the disaster.",
+                "ans": [
+                  [
+                    "would have survived"
+                  ]
+                ],
+                "tip": "Loại 3.",
+                "why": "**would have survived**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The insurer would take more risks if it ___ (have) more capital.",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "Loại 2.",
+                "why": "**had**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Mệnh đề quan hệ (who, which, that, whose, where)",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: who (người), which/that (vật), whose (sở hữu), where (nơi chốn). Sau dấu phẩy không dùng that.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An actuary is a person ___ calculates the probability of loss.",
+                "ans": [
+                  0
+                ],
+                "tip": "Người → who.",
+                "why": "**who**.",
+                "opts": [
+                  "who",
+                  "which",
+                  "whose"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Reinsurance is a contract ___ transfers part of the risk to another insurer.",
+                "ans": [
+                  1
+                ],
+                "tip": "Vật → that/which.",
+                "why": "**that** (hoặc which).",
+                "opts": [
+                  "who",
+                  "that",
+                  "where"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The broker, ___ works for the customer, recommended three insurers.",
+                "ans": [
+                  2
+                ],
+                "tip": "Mệnh đề không xác định, chỉ người.",
+                "why": "**who**.",
+                "opts": [
+                  "which",
+                  "whose",
+                  "who"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This is the company ___ products are the cheapest.",
+                "ans": [
+                  0
+                ],
+                "tip": "whose + danh từ.",
+                "why": "Sở hữu → **whose**.",
+                "opts": [
+                  "whose",
+                  "who",
+                  "which"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The market ___ most reinsurers operate is in London.",
+                "ans": [
+                  1
+                ],
+                "tip": "Nơi chốn → where.",
+                "why": "**where**.",
+                "opts": [
+                  "who",
+                  "where",
+                  "which"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The treaty, ___ was signed in 2020, covers all property risks.",
+                "ans": [
+                  2
+                ],
+                "tip": "Sau dấu phẩy → which.",
+                "why": "Không dùng that sau dấu phẩy → **which**.",
+                "opts": [
+                  "that",
+                  "who",
+                  "which"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền đại từ quan hệ",
+          "instruction": "Complete each sentence with a suitable relative pronoun or adverb.",
+          "instruction_vi": "Gõ đại từ quan hệ thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A reinsurer is a company ___ takes over part of another insurer's risk.",
+                "ans": [
+                  [
+                    "that",
+                    "which"
+                  ]
+                ],
+                "tip": "Vật → that/which.",
+                "why": "**that / which**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The agent ___ sold me the policy has left the company.",
+                "ans": [
+                  [
+                    "who",
+                    "that"
+                  ]
+                ],
+                "tip": "Người → who/that.",
+                "why": "**who / that**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The treaty, ___ expires in December, covers fire risks.",
+                "ans": [
+                  [
+                    "which"
+                  ]
+                ],
+                "tip": "Sau dấu phẩy.",
+                "why": "**which**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She works for a broker ___ clients are mainly small businesses.",
+                "ans": [
+                  [
+                    "whose"
+                  ]
+                ],
+                "tip": "Sở hữu.",
+                "why": "**whose**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The city ___ the typhoon struck has many insured buildings.",
+                "ans": [
+                  [
+                    "where"
+                  ]
+                ],
+                "tip": "Nơi chốn.",
+                "why": "**where**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Reinsurance: insurance for insurers",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Imagine that an insurer has sold fire policies for thousands of buildings in one city. If a huge fire or an earthquake happens, the company may have to pay thousands of claims at the same time. A single catastrophe could destroy its capital. To avoid this danger, insurers buy reinsurance.\n\nReinsurance is insurance for insurance companies. The original insurer, called the ceding company, passes part of its risk to a reinsurer in exchange for a share of the premium. Under a treaty, the reinsurer automatically accepts a whole portfolio of risks, for example all property policies of a certain type. For very large single risks, such as an oil refinery or a satellite, the company may arrange a separate agreement.\n\nReinsurance has several benefits. It protects the insurer's capital and keeps its results stable. It also allows the insurer to accept larger risks and to sell more policies. Because a major catastrophe can hit many countries, the biggest reinsurers are international. They spread their risk over many regions and many types of insurance, which is called diversification. In recent years, reinsurers have also developed catastrophe bonds, which sell part of the risk to investors in the capital market.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A ceding company passes part of its risk to a reinsurer.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: công ty nhượng chuyển một phần rủi ro cho công ty tái bảo hiểm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Reinsurance can protect the insurer's capital.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: tái bảo hiểm bảo vệ vốn và giữ kết quả ổn định."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A treaty covers only one single risk.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hiệp ước tự động nhận cả danh mục rủi ro."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The biggest reinsurers operate only in one region.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: các công ty tái bảo hiểm lớn mang tính quốc tế."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do insurers buy reinsurance?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: một thảm họa có thể phá hủy vốn.",
+                "opts": [
+                  "To pay fewer taxes",
+                  "To avoid a single catastrophe destroying their capital",
+                  "To stop selling policies"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the reinsurer receive?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhận một phần phí bảo hiểm.",
+                "opts": [
+                  "The customer's car",
+                  "A discount from the regulator",
+                  "A share of the premium"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is diversification?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: dàn trải rủi ro theo nhiều khu vực và loại hình.",
+                "opts": [
+                  "Spreading risk over many regions and types of insurance",
+                  "Selling only one product",
+                  "Raising premiums"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do catastrophe bonds do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bán một phần rủi ro cho nhà đầu tư.",
+                "opts": [
+                  "They cancel the treaty.",
+                  "They sell part of the risk to investors.",
+                  "They pay the premium."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Agents, brokers and risk management",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Insurance products reach customers through different distribution channels. An agent usually represents one insurer and receives a commission for each policy sold. A broker, on the other hand, works for the customer and compares the products of many insurers. Another channel is bancassurance, where banks sell insurance in their branches, and more and more customers buy directly on the Internet or through mobile apps developed by insurtech companies.\n\nCompanies also need to manage their own risks. Risk management usually has four steps. First, the company identifies its risks, such as fire, theft, cyber attacks or the loss of an important manager. Second, it measures how likely each risk is and how much damage it could cause. Third, it decides how to respond. It can avoid the risk, reduce it, retain it, or transfer it. Transferring the risk, often by buying insurance, is only one of these options. Finally, the company monitors the results and adjusts its plan.\n\nA company's risk appetite, that is, how much risk it is willing to accept, depends on its size and its financial strength. A large company may prefer self-insurance for small, frequent losses, and buy insurance only against rare but very expensive events.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A broker usually represents only one insurer.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đại lý thường đại diện một công ty; môi giới làm việc cho khách hàng và so sánh nhiều công ty."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Bancassurance means selling insurance through banks.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ngân hàng bán bảo hiểm tại chi nhánh."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Buying insurance is the only way to respond to a risk.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: còn có thể tránh, giảm hoặc giữ lại rủi ro."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Large companies may use self-insurance for small losses.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: tự bảo hiểm cho tổn thất nhỏ, thường xuyên."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who receives a commission for each policy sold?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đại lý nhận hoa hồng.",
+                "opts": [
+                  "A regulator",
+                  "A policyholder",
+                  "An agent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is the first step of risk management?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bước đầu là nhận diện rủi ro.",
+                "opts": [
+                  "Identifying the risks",
+                  "Buying insurance",
+                  "Closing the company"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a company's risk appetite depend on?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: quy mô và sức mạnh tài chính.",
+                "opts": [
+                  "Its name",
+                  "Its size and financial strength",
+                  "The colour of its logo"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do insurtech companies develop?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ứng dụng di động và dịch vụ trực tuyến.",
+                "opts": [
+                  "New earthquakes",
+                  "Paper forms only",
+                  "Online services and mobile apps"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Customer Service, Regulation & Ethics",
+      "name_vi": "Dịch vụ khách hàng, quy định & đạo đức nghề",
+      "icon": "🤝",
+      "hue": 45,
+      "words": [
+        {
+          "en": "customer service",
+          "vi": "dịch vụ khách hàng"
+        },
+        {
+          "en": "enquiry",
+          "vi": "câu hỏi, yêu cầu thông tin"
+        },
+        {
+          "en": "complaint",
+          "vi": "khiếu nại, phàn nàn"
+        },
+        {
+          "en": "renewal",
+          "vi": "sự tái tục"
+        },
+        {
+          "en": "renewal notice",
+          "vi": "thông báo tái tục"
+        },
+        {
+          "en": "cancellation",
+          "vi": "sự hủy (hợp đồng)"
+        },
+        {
+          "en": "refund",
+          "vi": "khoản hoàn tiền"
+        },
+        {
+          "en": "instalment",
+          "vi": "đợt thanh toán (trả góp)"
+        },
+        {
+          "en": "direct debit",
+          "vi": "ghi nợ trực tiếp"
+        },
+        {
+          "en": "overdue",
+          "vi": "quá hạn"
+        },
+        {
+          "en": "regulator",
+          "vi": "cơ quan quản lý"
+        },
+        {
+          "en": "compliance",
+          "vi": "sự tuân thủ"
+        },
+        {
+          "en": "licence",
+          "vi": "giấy phép"
+        },
+        {
+          "en": "ombudsman",
+          "vi": "ban/người giải quyết khiếu nại độc lập"
+        },
+        {
+          "en": "code of conduct",
+          "vi": "quy tắc ứng xử"
+        },
+        {
+          "en": "conflict of interest",
+          "vi": "xung đột lợi ích"
+        },
+        {
+          "en": "anti-money laundering (AML)",
+          "vi": "phòng chống rửa tiền"
+        },
+        {
+          "en": "know your customer (KYC)",
+          "vi": "nhận biết khách hàng"
+        },
+        {
+          "en": "data protection",
+          "vi": "bảo vệ dữ liệu"
+        },
+        {
+          "en": "confidentiality",
+          "vi": "tính bảo mật"
+        },
+        {
+          "en": "consent",
+          "vi": "sự đồng ý"
+        },
+        {
+          "en": "transparency",
+          "vi": "sự minh bạch"
+        },
+        {
+          "en": "mis-selling",
+          "vi": "bán sai sản phẩm (không phù hợp)"
+        },
+        {
+          "en": "vulnerable customer",
+          "vi": "khách hàng dễ bị tổn thương"
+        },
+        {
+          "en": "hotline",
+          "vi": "đường dây nóng"
+        },
+        {
+          "en": "policy number",
+          "vi": "số hợp đồng"
+        },
+        {
+          "en": "reference number",
+          "vi": "số tham chiếu"
+        },
+        {
+          "en": "written confirmation",
+          "vi": "xác nhận bằng văn bản"
+        },
+        {
+          "en": "premium reminder",
+          "vi": "nhắc đóng phí"
+        },
+        {
+          "en": "customer satisfaction",
+          "vi": "sự hài lòng của khách hàng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ bảo hiểm phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A customer who is unhappy with the service can make a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "complain = phàn nàn.",
+                "why": "**complaint** = khiếu nại.",
+                "opts": [
+                  "complaint",
+                  "refund",
+                  "renewal"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The insurer sends a ___ one month before the policy expires.",
+                "ans": [
+                  1
+                ],
+                "tip": "renew = gia hạn.",
+                "why": "**renewal notice** = thông báo tái tục.",
+                "opts": [
+                  "reference number",
+                  "renewal notice",
+                  "police report"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If a customer cancels a policy early, he may receive a partial ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "refund = hoàn tiền.",
+                "why": "**refund** = hoàn lại một phần phí.",
+                "opts": [
+                  "loading",
+                  "fraud",
+                  "refund"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Many customers prefer to pay their premiums in monthly ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "instalment = đợt trả góp.",
+                "why": "**instalments** = các đợt thanh toán hằng tháng.",
+                "opts": [
+                  "instalments",
+                  "complaints",
+                  "treaties"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Insurance companies are supervised by a ___ who makes sure they follow the law.",
+                "ans": [
+                  1
+                ],
+                "tip": "regulate = quản lý.",
+                "why": "**regulator** = cơ quan quản lý.",
+                "opts": [
+                  "actuary",
+                  "regulator",
+                  "agent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ is an independent body that investigates unresolved complaints.",
+                "ans": [
+                  2
+                ],
+                "tip": "Từ gốc Thụy Điển.",
+                "why": "**ombudsman** = cơ quan giải quyết khiếu nại độc lập.",
+                "opts": [
+                  "underwriter",
+                  "adjuster",
+                  "ombudsman"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ means selling customers a policy that does not suit their needs, often to earn a higher commission.",
+                "ans": [
+                  0
+                ],
+                "tip": "mis = sai.",
+                "why": "**Mis-selling** = bán sai sản phẩm.",
+                "opts": [
+                  "Mis-selling",
+                  "Underwriting",
+                  "Reinstatement"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Under ___ rules, insurers must check the identity of a new customer.",
+                "ans": [
+                  1
+                ],
+                "tip": "Know Your Customer.",
+                "why": "**KYC** = nhận biết khách hàng.",
+                "opts": [
+                  "loading",
+                  "KYC",
+                  "salvage"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "enquiry",
+                "b": "a question that is asked in order to get information",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "renewal",
+                "b": "extending a policy for another period",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cancellation",
+                "b": "ending a policy before its expiry date",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "direct debit",
+                "b": "an automatic payment from a bank account",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "overdue",
+                "b": "not paid by the due date",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "code of conduct",
+                "b": "a set of rules for professional behaviour",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "conflict of interest",
+                "b": "a situation in which personal interests may affect professional decisions",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "data protection",
+                "b": "laws that control how personal information is stored and used",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Lời nhờ và cấu trúc thư tín trang trọng",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: Could you ...? / Would you mind + V-ing? / I would like to + V / I am writing to + V / I look forward to + V-ing.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ you please send me a copy of my policy?",
+                "ans": [
+                  0
+                ],
+                "tip": "Lời nhờ lịch sự.",
+                "why": "**Could you ...?**",
+                "opts": [
+                  "Could",
+                  "Should",
+                  "Must"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ like to make a complaint about my claim.",
+                "ans": [
+                  1
+                ],
+                "tip": "I would like to...",
+                "why": "**I would like to**.",
+                "opts": [
+                  "will",
+                  "would",
+                  "did"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Would you mind ___ me your policy number?",
+                "ans": [
+                  2
+                ],
+                "tip": "Would you mind + V-ing?",
+                "why": "**giving**.",
+                "opts": [
+                  "to give",
+                  "give",
+                  "giving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I am writing ___ about the renewal of my policy.",
+                "ans": [
+                  0
+                ],
+                "tip": "Mục đích → to + V.",
+                "why": "**to enquire**.",
+                "opts": [
+                  "to enquire",
+                  "enquiring",
+                  "enquire"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We would be grateful ___ you could reply by Friday.",
+                "ans": [
+                  1
+                ],
+                "tip": "would be grateful if...",
+                "why": "**if**.",
+                "opts": [
+                  "that",
+                  "if",
+                  "when"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I look forward to ___ from you.",
+                "ans": [
+                  2
+                ],
+                "tip": "look forward to + V-ing.",
+                "why": "to là giới từ → **hearing**.",
+                "opts": [
+                  "hear",
+                  "to hear",
+                  "hearing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền cấu trúc lịch sự",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ từ hoặc dạng đúng của động từ vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ I speak to the manager, please?",
+                "ans": [
+                  [
+                    "May",
+                    "Could",
+                    "Can",
+                    "may",
+                    "could",
+                    "can"
+                  ]
+                ],
+                "tip": "Xin phép lịch sự.",
+                "why": "**May / Could / Can I ...?**"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I would like ___ (cancel) my policy.",
+                "ans": [
+                  [
+                    "to cancel"
+                  ]
+                ],
+                "tip": "would like + to V.",
+                "why": "**to cancel**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Would you mind ___ (wait) a moment?",
+                "ans": [
+                  [
+                    "waiting"
+                  ]
+                ],
+                "tip": "mind + V-ing.",
+                "why": "**waiting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We apologise ___ the delay.",
+                "ans": [
+                  [
+                    "for"
+                  ]
+                ],
+                "tip": "apologise for.",
+                "why": "**for**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Please ___ (find) attached the completed claim form.",
+                "ans": [
+                  [
+                    "find"
+                  ]
+                ],
+                "tip": "Please find attached...",
+                "why": "**find**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Các cách diễn đạt tương lai",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: will (quyết định tức thời/dự đoán), be going to (dự định/bằng chứng), hiện tại tiếp diễn (lịch hẹn), hiện tại đơn (lịch trình).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Your policy ___ on 31 December.",
+                "ans": [
+                  0
+                ],
+                "tip": "Thời điểm cố định → hiện tại đơn.",
+                "why": "Lịch trình cố định → **expires**.",
+                "opts": [
+                  "expires",
+                  "expired",
+                  "has expired"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Don't worry. I ___ the form for you.",
+                "ans": [
+                  1
+                ],
+                "tip": "Quyết định tại lúc nói → will.",
+                "why": "**will check**.",
+                "opts": [
+                  "checked",
+                  "will check",
+                  "have checked"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ a new mobile app next month. It's planned.",
+                "ans": [
+                  2
+                ],
+                "tip": "Kế hoạch đã có → be going to.",
+                "why": "**are going to launch**.",
+                "opts": [
+                  "launched",
+                  "have launched",
+                  "are going to launch"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look at the sky! The typhoon is coming. It ___ rain heavily.",
+                "ans": [
+                  0
+                ],
+                "tip": "Có bằng chứng.",
+                "why": "**is going to rain**.",
+                "opts": [
+                  "is going to",
+                  "was",
+                  "did"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ my agent tomorrow at 10. We've arranged it.",
+                "ans": [
+                  1
+                ],
+                "tip": "Lịch hẹn đã sắp xếp.",
+                "why": "**am meeting**.",
+                "opts": [
+                  "met",
+                  "am meeting",
+                  "have met"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I think customers ___ more online services in the future.",
+                "ans": [
+                  2
+                ],
+                "tip": "Dự đoán/ý kiến → will.",
+                "why": "**will want**.",
+                "opts": [
+                  "wanted",
+                  "have wanted",
+                  "will want"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng tương lai",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng tương lai thích hợp của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The renewal notice ___ (arrive) next week.",
+                "ans": [
+                  [
+                    "will arrive",
+                    "is going to arrive",
+                    "arrives",
+                    "'ll arrive"
+                  ]
+                ],
+                "tip": "Dự đoán/kế hoạch.",
+                "why": "**will arrive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I ___ (call) you back in ten minutes.",
+                "ans": [
+                  [
+                    "will call",
+                    "'ll call"
+                  ]
+                ],
+                "tip": "Hứa/đề nghị tức thời.",
+                "why": "**will call**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (meet) the regulator on Thursday. It's in the diary.",
+                "ans": [
+                  [
+                    "are meeting",
+                    "'re meeting"
+                  ]
+                ],
+                "tip": "Lịch hẹn.",
+                "why": "**are meeting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Look! The customer ___ (cancel) the policy.",
+                "ans": [
+                  [
+                    "is going to cancel",
+                    "'s going to cancel"
+                  ]
+                ],
+                "tip": "Có bằng chứng.",
+                "why": "**is going to cancel**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The office ___ (open) at 8 a.m. tomorrow.",
+                "ans": [
+                  [
+                    "opens"
+                  ]
+                ],
+                "tip": "Lịch trình.",
+                "why": "**opens**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Handling a customer complaint",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A complaint is a chance to keep a customer, not just a problem. Mrs Mai bought a travel policy, but when her bag was stolen on holiday, the insurer rejected her claim. She phoned the hotline and spoke to an adviser. The adviser listened carefully, apologised for the stress and wrote down the policy number and the details of the complaint. He promised that a senior colleague would call her within two working days.\n\nThe next day, the complaints team reviewed the case. They found that the exclusion in the policy did not apply because Mrs Mai had reported the theft to the local police immediately. The manager called her, explained the mistake and offered to pay the claim in full. She also sent an email to confirm everything in writing.\n\nMrs Mai said that she was satisfied and renewed her policy. Good complaint handling has four steps: listen, apologise, investigate and put things right. If the customer is still not happy, he or she can contact the ombudsman, an independent body that investigates unresolved complaints. Insurers must keep a record of every complaint and use the information to improve their services.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Mrs Mai's claim was first rejected.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: công ty bảo hiểm từ chối yêu cầu của bà Mai."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The adviser promised to call her within two weeks.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: một đồng nghiệp cấp cao sẽ gọi trong vòng hai ngày làm việc."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The insurer found that the exclusion did not apply.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bà đã báo công an ngay nên điều khoản loại trừ không áp dụng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Mrs Mai cancelled her policy after the complaint.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bà hài lòng và tái tục hợp đồng."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the adviser write down?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: số hợp đồng và chi tiết khiếu nại.",
+                "opts": [
+                  "The weather report",
+                  "The policy number and the details of the complaint",
+                  "Her bank password"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why did the exclusion not apply?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bà báo công an ngay lập tức.",
+                "opts": [
+                  "The bag was very cheap.",
+                  "She was a new customer.",
+                  "She had reported the theft to the police immediately."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are the four steps of good complaint handling?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: lắng nghe, xin lỗi, điều tra, khắc phục.",
+                "opts": [
+                  "Listen, apologise, investigate and put things right",
+                  "Ignore, delay, refuse and close",
+                  "Sell, renew, cancel and refund"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who can investigate unresolved complaints?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cơ quan giải quyết khiếu nại độc lập.",
+                "opts": [
+                  "The actuary",
+                  "The ombudsman",
+                  "The agent"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Regulation and ethics",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Insurance is a business of trust. Customers pay their premiums today and hope that the insurer will pay their claim in the future. For this reason, the industry is strictly regulated. In every country, a regulator gives licences to insurers, checks that they have enough capital to pay claims, and protects customers from unfair practices.\n\nInsurance staff must also follow a code of conduct. They must treat customers fairly, explain products clearly and avoid mis-selling. For example, an agent should not sell a very expensive policy to a customer who does not need it just to earn a higher commission. If the agent has a conflict of interest, he must tell the customer.\n\nInsurers also have legal duties to prevent crime. Under anti-money-laundering rules, they must check the identity of new customers, which is known as KYC, and report suspicious transactions. Data protection laws require them to keep personal information safe and to use it only for the purpose for which it was collected. Medical and financial details are especially sensitive, so confidentiality is essential.\n\nCompliance officers check that the company follows all these rules. A company that breaks them may receive a heavy fine or even lose its licence.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A regulator gives licences to insurers.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cơ quan quản lý cấp giấy phép và kiểm tra vốn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Agents may sell expensive policies to earn more commission, whatever the customer needs.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đó là mis-selling, bị cấm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Insurers must report suspicious transactions.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: theo quy định phòng chống rửa tiền."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A company that breaks the rules never receives a penalty.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: có thể bị phạt nặng hoặc mất giấy phép."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does KYC mean in practice?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: kiểm tra danh tính khách hàng mới.",
+                "opts": [
+                  "Cancelling every policy",
+                  "Refusing all claims",
+                  "Checking the identity of new customers"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What must an agent do if there is a conflict of interest?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phải thông báo cho khách hàng.",
+                "opts": [
+                  "Tell the customer",
+                  "Hide it",
+                  "Cancel the policy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is confidentiality essential?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thông tin y tế và tài chính rất nhạy cảm.",
+                "opts": [
+                  "Insurance is cheap.",
+                  "Medical and financial details are very sensitive.",
+                  "Customers never ask questions."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a compliance officer do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 4: kiểm tra công ty tuân thủ mọi quy định.",
+                "opts": [
+                  "Sells policies door to door",
+                  "Repairs damaged cars",
+                  "Checks that the company follows all the rules"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "accept",
+      "chấp nhận"
+    ],
+    [
+      "accidental",
+      "ngẫu nhiên, không cố ý"
+    ],
+    [
+      "adjust",
+      "điều chỉnh"
+    ],
+    [
+      "advise",
+      "tư vấn"
+    ],
+    [
+      "agreement",
+      "thỏa thuận"
+    ],
+    [
+      "apologise",
+      "xin lỗi"
+    ],
+    [
+      "apply",
+      "nộp đơn; áp dụng"
+    ],
+    [
+      "arrange",
+      "sắp xếp"
+    ],
+    [
+      "assess",
+      "đánh giá"
+    ],
+    [
+      "attach",
+      "đính kèm"
+    ],
+    [
+      "avoid",
+      "tránh"
+    ],
+    [
+      "calculate",
+      "tính toán"
+    ],
+    [
+      "cancel",
+      "hủy"
+    ],
+    [
+      "carefully",
+      "cẩn thận"
+    ],
+    [
+      "cause",
+      "gây ra; nguyên nhân"
+    ],
+    [
+      "collect",
+      "thu thập, thu"
+    ],
+    [
+      "compare",
+      "so sánh"
+    ],
+    [
+      "complete",
+      "hoàn thành"
+    ],
+    [
+      "confirm",
+      "xác nhận"
+    ],
+    [
+      "cost",
+      "chi phí"
+    ],
+    [
+      "damage",
+      "thiệt hại"
+    ],
+    [
+      "decline",
+      "từ chối"
+    ],
+    [
+      "deliberately",
+      "cố ý"
+    ],
+    [
+      "discover",
+      "phát hiện"
+    ],
+    [
+      "document",
+      "tài liệu"
+    ],
+    [
+      "estimate",
+      "ước tính"
+    ],
+    [
+      "exaggerate",
+      "phóng đại"
+    ],
+    [
+      "expire",
+      "hết hạn"
+    ],
+    [
+      "explain",
+      "giải thích"
+    ],
+    [
+      "financial",
+      "thuộc tài chính"
+    ],
+    [
+      "honest",
+      "trung thực"
+    ],
+    [
+      "identify",
+      "nhận diện"
+    ],
+    [
+      "increase",
+      "tăng"
+    ],
+    [
+      "inform",
+      "thông báo"
+    ],
+    [
+      "inspect",
+      "kiểm tra"
+    ],
+    [
+      "invent",
+      "bịa đặt"
+    ],
+    [
+      "investigate",
+      "điều tra"
+    ],
+    [
+      "issue",
+      "phát hành"
+    ],
+    [
+      "lapse",
+      "mất hiệu lực"
+    ],
+    [
+      "pattern",
+      "mô hình, quy luật"
+    ],
+    [
+      "penalty",
+      "hình phạt, tiền phạt"
+    ],
+    [
+      "portfolio",
+      "danh mục"
+    ],
+    [
+      "prevent",
+      "ngăn ngừa"
+    ],
+    [
+      "promise",
+      "hứa"
+    ],
+    [
+      "protect",
+      "bảo vệ"
+    ],
+    [
+      "purpose",
+      "mục đích"
+    ],
+    [
+      "reduce",
+      "giảm"
+    ],
+    [
+      "refuse",
+      "từ chối"
+    ],
+    [
+      "regulate",
+      "điều tiết"
+    ],
+    [
+      "renew",
+      "gia hạn"
+    ],
+    [
+      "repair",
+      "sửa chữa"
+    ],
+    [
+      "report",
+      "báo cáo"
+    ],
+    [
+      "require",
+      "yêu cầu"
+    ],
+    [
+      "respond",
+      "phản hồi"
+    ],
+    [
+      "retire",
+      "nghỉ hưu"
+    ],
+    [
+      "review",
+      "xem xét"
+    ],
+    [
+      "satisfied",
+      "hài lòng"
+    ],
+    [
+      "sensitive",
+      "nhạy cảm"
+    ],
+    [
+      "serious",
+      "nghiêm trọng"
+    ],
+    [
+      "share",
+      "chia sẻ"
+    ],
+    [
+      "statistics",
+      "thống kê"
+    ],
+    [
+      "stable",
+      "ổn định"
+    ],
+    [
+      "suspicious",
+      "đáng ngờ"
+    ],
+    [
+      "transfer",
+      "chuyển giao"
+    ],
+    [
+      "truthfully",
+      "trung thực"
+    ],
+    [
+      "unfair",
+      "không công bằng"
+    ],
+    [
+      "unusual",
+      "bất thường"
+    ],
+    [
+      "witness",
+      "nhân chứng"
+    ],
+    [
+      "wear",
+      "hao mòn"
+    ],
+    [
+      "retain",
+      "giữ lại"
+    ],
+    [
+      "exchange",
+      "trao đổi"
+    ],
+    [
+      "mistake",
+      "sai sót"
+    ],
+    [
+      "reply",
+      "trả lời"
+    ],
+    [
+      "grateful",
+      "biết ơn"
+    ],
+    [
+      "essential",
+      "thiết yếu"
+    ],
+    [
+      "threat",
+      "mối đe dọa"
+    ],
+    [
+      "recover",
+      "thu hồi"
+    ],
+    [
+      "insured",
+      "được bảo hiểm"
+    ],
+    [
+      "stolen",
+      "bị đánh cắp"
+    ],
+    [
+      "burst",
+      "vỡ, nổ"
+    ],
+    [
+      "fine",
+      "tiền phạt"
+    ],
+    [
+      "licence",
+      "giấy phép"
+    ],
+    [
+      "identity",
+      "danh tính"
+    ],
+    [
+      "strict",
+      "nghiêm ngặt"
+    ],
+    [
+      "unhappy",
+      "không hài lòng"
+    ]
+  ]
+}

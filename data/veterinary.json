@@ -1,0 +1,6119 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "veterinary",
+    "name": "Veterinary Medicine",
+    "name_vi": "Thú y",
+    "icon": "🐾",
+    "hue": 150,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành thú y: giải phẫu động vật, khám & chẩn đoán, bệnh truyền nhiễm & vaccine, phẫu thuật & cấp cứu, chăn nuôi & dinh dưỡng, phúc lợi động vật & giao tiếp với chủ nuôi."
+  },
+  "units": [
+    {
+      "name": "Animal Anatomy & Basics",
+      "name_vi": "Giải phẫu động vật & kiến thức nền",
+      "icon": "🐾",
+      "hue": 150,
+      "words": [
+        {
+          "en": "veterinarian (vet)",
+          "vi": "bác sĩ thú y"
+        },
+        {
+          "en": "veterinary nurse",
+          "vi": "y tá thú y"
+        },
+        {
+          "en": "pet",
+          "vi": "thú cưng"
+        },
+        {
+          "en": "livestock",
+          "vi": "gia súc, vật nuôi lấy sản phẩm"
+        },
+        {
+          "en": "poultry",
+          "vi": "gia cầm"
+        },
+        {
+          "en": "cattle",
+          "vi": "gia súc (bò, trâu)"
+        },
+        {
+          "en": "calf",
+          "vi": "bê"
+        },
+        {
+          "en": "sheep",
+          "vi": "cừu"
+        },
+        {
+          "en": "goat",
+          "vi": "dê"
+        },
+        {
+          "en": "pig",
+          "vi": "heo, lợn"
+        },
+        {
+          "en": "horse",
+          "vi": "ngựa"
+        },
+        {
+          "en": "puppy",
+          "vi": "chó con"
+        },
+        {
+          "en": "kitten",
+          "vi": "mèo con"
+        },
+        {
+          "en": "skeleton",
+          "vi": "bộ xương"
+        },
+        {
+          "en": "skull",
+          "vi": "hộp sọ"
+        },
+        {
+          "en": "spine",
+          "vi": "cột sống"
+        },
+        {
+          "en": "rib",
+          "vi": "xương sườn"
+        },
+        {
+          "en": "limb",
+          "vi": "chi (chân, tay)"
+        },
+        {
+          "en": "paw",
+          "vi": "bàn chân (chó, mèo)"
+        },
+        {
+          "en": "hoof",
+          "vi": "móng guốc"
+        },
+        {
+          "en": "claw",
+          "vi": "móng vuốt"
+        },
+        {
+          "en": "tail",
+          "vi": "đuôi"
+        },
+        {
+          "en": "coat",
+          "vi": "bộ lông"
+        },
+        {
+          "en": "muscle",
+          "vi": "cơ"
+        },
+        {
+          "en": "heart",
+          "vi": "tim"
+        },
+        {
+          "en": "lung",
+          "vi": "phổi"
+        },
+        {
+          "en": "stomach",
+          "vi": "dạ dày"
+        },
+        {
+          "en": "intestine",
+          "vi": "ruột"
+        },
+        {
+          "en": "liver",
+          "vi": "gan"
+        },
+        {
+          "en": "kidney",
+          "vi": "thận"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a young dog.",
+                "ans": [
+                  0
+                ],
+                "tip": "puppy = chó con.",
+                "why": "**puppy** = chó con; calf là bê, kitten là mèo con.",
+                "opts": [
+                  "puppy",
+                  "calf",
+                  "kitten"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ treats sick animals and gives advice on animal health.",
+                "ans": [
+                  1
+                ],
+                "tip": "veterinary = thú y.",
+                "why": "**veterinarian (vet)** = bác sĩ thú y.",
+                "opts": [
+                  "poultry",
+                  "veterinarian",
+                  "livestock"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Farm animals such as cows, pigs and sheep are called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "live + stock = vật nuôi.",
+                "why": "**livestock** = gia súc, vật nuôi trong nông trại.",
+                "opts": [
+                  "pets",
+                  "limbs",
+                  "livestock"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Chickens, ducks and turkeys are kept as ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "poultry = gia cầm.",
+                "why": "**poultry** = gia cầm.",
+                "opts": [
+                  "poultry",
+                  "cattle",
+                  "pets"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A horse has a ___ on each foot, not a paw.",
+                "ans": [
+                  1
+                ],
+                "tip": "hoof (số nhiều: hooves).",
+                "why": "**hoof** = móng guốc của ngựa, bò.",
+                "opts": [
+                  "claw",
+                  "hoof",
+                  "coat"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Cats can pull their sharp ___ back inside their paws.",
+                "ans": [
+                  2
+                ],
+                "tip": "claw = móng vuốt.",
+                "why": "**claws** = móng vuốt của mèo.",
+                "opts": [
+                  "hooves",
+                  "ribs",
+                  "claws"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ protects the brain.",
+                "ans": [
+                  0
+                ],
+                "tip": "skull = hộp sọ.",
+                "why": "**skull** = hộp sọ, bảo vệ não.",
+                "opts": [
+                  "skull",
+                  "spine",
+                  "rib"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the organ that pumps blood around the body.",
+                "ans": [
+                  1
+                ],
+                "tip": "heart = tim.",
+                "why": "**heart** = tim, bơm máu đi khắp cơ thể.",
+                "opts": [
+                  "liver",
+                  "heart",
+                  "kidney"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cattle",
+                "b": "cows, bulls and calves that are kept on farms",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "calf",
+                "b": "a young cow",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "liver",
+                "b": "an organ that cleans the blood and helps digestion",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "kidney",
+                "b": "an organ that filters the blood and produces urine",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lung",
+                "b": "an organ that an animal uses for breathing",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "intestine",
+                "b": "a long tube where food is digested and absorbed",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "spine",
+                "b": "the line of bones along the back",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "coat",
+                "b": "the hair or fur that covers an animal's body",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Dogs usually ___ twice a day.",
+                "ans": [
+                  0
+                ],
+                "tip": "usually → hiện tại đơn.",
+                "why": "'usually' → **eat** (chủ ngữ số nhiều).",
+                "opts": [
+                  "eat",
+                  "are eating",
+                  "ate"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet ___ the puppy right now.",
+                "ans": [
+                  1
+                ],
+                "tip": "right now → be + V-ing.",
+                "why": "'right now' → **is examining**.",
+                "opts": [
+                  "examines",
+                  "is examining",
+                  "examined"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Cats ___ about 16 hours a day.",
+                "ans": [
+                  2
+                ],
+                "tip": "Sự thật chung.",
+                "why": "Sự thật, chủ ngữ số nhiều → **sleep**.",
+                "opts": [
+                  "are sleeping",
+                  "sleeps",
+                  "sleep"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look! The horse ___ over the fence.",
+                "ans": [
+                  0
+                ],
+                "tip": "Look! → đang xảy ra.",
+                "why": "'Look!' → **is jumping**.",
+                "opts": [
+                  "is jumping",
+                  "jumps",
+                  "jump"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ a new group of calves this month.",
+                "ans": [
+                  1
+                ],
+                "tip": "this month → tạm thời.",
+                "why": "Việc đang diễn ra trong tháng này → **are raising**.",
+                "opts": [
+                  "raise",
+                  "are raising",
+                  "raised"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A healthy heart ___ blood around the body.",
+                "ans": [
+                  2
+                ],
+                "tip": "Chức năng cố định.",
+                "why": "Sự thật, chủ ngữ số ít → **pumps**.",
+                "opts": [
+                  "is pumping",
+                  "pump",
+                  "pumps"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The farmer ___ (feed) the pigs every morning.",
+                "ans": [
+                  [
+                    "feeds"
+                  ]
+                ],
+                "tip": "every morning → hiện tại đơn.",
+                "why": "Thói quen, số ít → **feeds**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The kitten ___ (sleep) at the moment.",
+                "ans": [
+                  [
+                    "is sleeping",
+                    "'s sleeping"
+                  ]
+                ],
+                "tip": "at the moment → be + V-ing.",
+                "why": "**is sleeping**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A dog's coat ___ (protect) its skin.",
+                "ans": [
+                  [
+                    "protects"
+                  ]
+                ],
+                "tip": "Chức năng → hiện tại đơn.",
+                "why": "**protects**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Horses ___ (not / have) claws.",
+                "ans": [
+                  [
+                    "do not have",
+                    "don't have"
+                  ]
+                ],
+                "tip": "Phủ định số nhiều.",
+                "why": "**don't have**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The nurse ___ (weigh) the rabbit now.",
+                "ans": [
+                  [
+                    "is weighing",
+                    "'s weighing"
+                  ]
+                ],
+                "tip": "now → tiếp diễn.",
+                "why": "**is weighing**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Mạo từ (a, an, the, không mạo từ)",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: a/an cho danh từ đếm được số ít chưa xác định; the cho thứ đã xác định; không mạo từ cho danh từ số nhiều nói chung.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "She is ___ vet.",
+                "ans": [
+                  0
+                ],
+                "tip": "vet bắt đầu bằng phụ âm.",
+                "why": "vet /vet/ phụ âm → **a vet**.",
+                "opts": [
+                  "a",
+                  "an",
+                  "the"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He is ___ animal nurse at the clinic.",
+                "ans": [
+                  1
+                ],
+                "tip": "animal bắt đầu bằng nguyên âm.",
+                "why": "animal /ˈænɪməl/ nguyên âm → **an**.",
+                "opts": [
+                  "a",
+                  "an",
+                  "the"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Please look at ___ horse that arrived this morning.",
+                "ans": [
+                  2
+                ],
+                "tip": "Con ngựa cụ thể đã được xác định.",
+                "why": "Đã xác định → **the**.",
+                "opts": [
+                  "a",
+                  "an",
+                  "the"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ cats are independent animals.",
+                "ans": [
+                  0
+                ],
+                "tip": "Nói chung về một loài → không mạo từ.",
+                "why": "Khái quát với danh từ số nhiều → **không dùng mạo từ**.",
+                "opts": [
+                  "No article",
+                  "The",
+                  "A"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet has ___ appointment at three o'clock.",
+                "ans": [
+                  1
+                ],
+                "tip": "appointment bắt đầu bằng nguyên âm.",
+                "why": "**an appointment**.",
+                "opts": [
+                  "a",
+                  "an",
+                  "the"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is ___ best food for a kitten?",
+                "ans": [
+                  2
+                ],
+                "tip": "So sánh nhất → the.",
+                "why": "Có 'best' → **the**.",
+                "opts": [
+                  "a",
+                  "an",
+                  "the"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Danh từ số nhiều bất quy tắc",
+          "instruction": "Write the plural form of the word in brackets.",
+          "instruction_vi": "Gõ dạng số nhiều của danh từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The cat caught two ___ (mouse) last night.",
+                "ans": [
+                  [
+                    "mice"
+                  ]
+                ],
+                "tip": "mouse → mice.",
+                "why": "**mice**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The farm has six healthy ___ (calf) this year.",
+                "ans": [
+                  [
+                    "calves"
+                  ]
+                ],
+                "tip": "calf → calves.",
+                "why": "**calves**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The dog had five ___ (puppy).",
+                "ans": [
+                  [
+                    "puppies"
+                  ]
+                ],
+                "tip": "-y → -ies.",
+                "why": "**puppies**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Horses have four ___ (hoof).",
+                "ans": [
+                  [
+                    "hooves",
+                    "hoofs"
+                  ]
+                ],
+                "tip": "hoof → hooves.",
+                "why": "**hooves** (hoặc hoofs)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Dogs have 42 adult ___ (tooth).",
+                "ans": [
+                  [
+                    "teeth"
+                  ]
+                ],
+                "tip": "tooth → teeth.",
+                "why": "**teeth**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Pets and farm animals",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Veterinarians work with many kinds of animals. Some treat small animals, such as dogs, cats and rabbits. These are usually pets, and their owners often think of them as members of the family. Other vets work with large animals, such as horses, cattle and pigs. Farm animals that are kept for milk, meat or eggs are called livestock, and chickens and ducks are called poultry.\n\nAll vertebrates have a similar basic body plan. The skeleton supports the body and protects organs: the skull protects the brain, and the ribs protect the heart and lungs. Dogs and cats walk on paws and have claws, while horses and cattle have hooves. The skin and the coat protect the body from cold, heat and injury.\n\nThe internal organs are also similar. The heart pumps blood, the lungs bring in oxygen, and the stomach and intestines digest food. The liver cleans the blood, and the kidneys remove waste. Because the anatomy is similar, it is easy to forget that a vet must still know the differences between species. For example, a horse cannot vomit, but a dog can.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Livestock are kept for milk, meat or eggs.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vật nuôi lấy sữa, thịt hoặc trứng gọi là livestock."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Dogs and horses both have hooves.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chó, mèo có bàn chân và móng vuốt; ngựa, bò có móng guốc."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The ribs protect the heart and lungs.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: xương sườn bảo vệ tim và phổi."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A horse can vomit easily.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: ngựa không thể nôn, còn chó thì có thể."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do the lungs do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phổi đưa oxy vào cơ thể.",
+                "opts": [
+                  "They pump blood.",
+                  "They bring in oxygen.",
+                  "They clean the blood."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the skull protect?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hộp sọ bảo vệ não.",
+                "opts": [
+                  "The heart",
+                  "The kidneys",
+                  "The brain"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is poultry?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: gà và vịt gọi là gia cầm.",
+                "opts": [
+                  "Chickens and ducks",
+                  "Cows and pigs",
+                  "Cats and dogs"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why must a vet know the differences between species?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cấu tạo tương tự nhưng mỗi loài có khác biệt, ví dụ ngựa không nôn được.",
+                "opts": [
+                  "All animals are exactly the same.",
+                  "Their anatomy is similar but not the same.",
+                  "Owners ask for it."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · A busy morning at the clinic",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "The clinic opens at eight. The first patient is a puppy called Bun, who is coming for his first vaccination. The vet weighs him, listens to his heart and checks his coat and skin. His owner asks many questions about feeding and training.\n\nNext comes an old cat with a limp. The veterinary nurse holds the cat gently while the vet checks each paw. She finds a small cut under one claw. The nurse cleans it and puts on a light bandage.\n\nAt ten o'clock, the vet leaves for a farm visit. A farmer is worried about one of his calves, which is not drinking milk. The vet takes the calf's temperature and examines its stomach. While she is working, the farmer's wife is preparing a warm place for the calf to rest. Back at the clinic in the afternoon, the vet writes her notes, and the nurse sterilises the instruments for the next day.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Bun comes to the clinic for his first vaccination.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: Bun đến để tiêm vaccine lần đầu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The old cat has a limp because of a broken leg.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bác sĩ tìm thấy vết cắt nhỏ dưới móng, không phải gãy chân."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A calf on the farm is not drinking milk.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người nông dân lo vì con bê không bú sữa."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The vet goes to the farm in the afternoon.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cô đến trang trại lúc mười giờ sáng."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the vet do with the puppy?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cân, nghe tim, kiểm tra lông và da.",
+                "opts": [
+                  "She operates on him.",
+                  "She takes his X-ray.",
+                  "She weighs him and listens to his heart."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the nurse do with the cut on the cat's paw?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: y tá làm sạch và băng nhẹ.",
+                "opts": [
+                  "She cleans it and puts on a bandage.",
+                  "She sews it.",
+                  "She ignores it."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is wrong with the calf?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bê không bú sữa.",
+                "opts": [
+                  "It has a broken leg.",
+                  "It is not drinking milk.",
+                  "It is too heavy."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the nurse do at the end of the day?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: y tá tiệt trùng dụng cụ cho ngày hôm sau.",
+                "opts": [
+                  "She weighs the calf.",
+                  "She vaccinates Bun.",
+                  "She sterilises the instruments."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clinical Examination & Diagnosis",
+      "name_vi": "Khám lâm sàng & chẩn đoán",
+      "icon": "🩺",
+      "hue": 350,
+      "words": [
+        {
+          "en": "owner",
+          "vi": "chủ vật nuôi"
+        },
+        {
+          "en": "history",
+          "vi": "bệnh sử"
+        },
+        {
+          "en": "vomiting",
+          "vi": "nôn"
+        },
+        {
+          "en": "diarrhoea",
+          "vi": "tiêu chảy"
+        },
+        {
+          "en": "limping",
+          "vi": "đi khập khiễng"
+        },
+        {
+          "en": "coughing",
+          "vi": "ho"
+        },
+        {
+          "en": "appetite",
+          "vi": "sự thèm ăn"
+        },
+        {
+          "en": "lethargy",
+          "vi": "sự lờ đờ, thiếu sức sống"
+        },
+        {
+          "en": "dehydration",
+          "vi": "mất nước"
+        },
+        {
+          "en": "fever",
+          "vi": "sốt"
+        },
+        {
+          "en": "temperature",
+          "vi": "nhiệt độ cơ thể"
+        },
+        {
+          "en": "pulse",
+          "vi": "mạch"
+        },
+        {
+          "en": "heart rate",
+          "vi": "nhịp tim"
+        },
+        {
+          "en": "respiratory rate",
+          "vi": "nhịp thở"
+        },
+        {
+          "en": "stethoscope",
+          "vi": "ống nghe"
+        },
+        {
+          "en": "thermometer",
+          "vi": "nhiệt kế"
+        },
+        {
+          "en": "palpation",
+          "vi": "sờ nắn (khám)"
+        },
+        {
+          "en": "auscultation",
+          "vi": "nghe tim phổi (nghe khám)"
+        },
+        {
+          "en": "body condition score",
+          "vi": "điểm thể trạng"
+        },
+        {
+          "en": "blood test",
+          "vi": "xét nghiệm máu"
+        },
+        {
+          "en": "urine test",
+          "vi": "xét nghiệm nước tiểu"
+        },
+        {
+          "en": "faecal test",
+          "vi": "xét nghiệm phân"
+        },
+        {
+          "en": "ultrasound",
+          "vi": "siêu âm"
+        },
+        {
+          "en": "X-ray",
+          "vi": "chụp X-quang"
+        },
+        {
+          "en": "microchip",
+          "vi": "vi mạch định danh"
+        },
+        {
+          "en": "swab",
+          "vi": "que lấy mẫu, gạc phết"
+        },
+        {
+          "en": "sample",
+          "vi": "mẫu xét nghiệm"
+        },
+        {
+          "en": "diagnosis",
+          "vi": "chẩn đoán"
+        },
+        {
+          "en": "itching",
+          "vi": "ngứa"
+        },
+        {
+          "en": "discharge",
+          "vi": "dịch tiết (mủ, dịch chảy ra)"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A vet's first questions to the ___ are about the animal's history.",
+                "ans": [
+                  0
+                ],
+                "tip": "own = sở hữu.",
+                "why": "**owner** = chủ vật nuôi, người cung cấp bệnh sử.",
+                "opts": [
+                  "owner",
+                  "pulse",
+                  "swab"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dog has had ___ and vomiting for two days.",
+                "ans": [
+                  1
+                ],
+                "tip": "Anh Mỹ: diarrhea.",
+                "why": "**diarrhoea** = tiêu chảy.",
+                "opts": [
+                  "palpation",
+                  "diarrhoea",
+                  "microchip"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cow is ___ because her hoof is sore.",
+                "ans": [
+                  2
+                ],
+                "tip": "limp = đi khập khiễng.",
+                "why": "**limping** = đi khập khiễng.",
+                "opts": [
+                  "coughing",
+                  "vomiting",
+                  "limping"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet listens to the heart and lungs with a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "steth + scope.",
+                "why": "**stethoscope** = ống nghe.",
+                "opts": [
+                  "stethoscope",
+                  "thermometer",
+                  "swab"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet used a ___ to measure the cat's body temperature.",
+                "ans": [
+                  1
+                ],
+                "tip": "thermo = nhiệt.",
+                "why": "**thermometer** = nhiệt kế.",
+                "opts": [
+                  "stethoscope",
+                  "thermometer",
+                  "microchip"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Pressing gently on the abdomen with the hands to feel the organs is called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "palp = sờ.",
+                "why": "**palpation** = sờ nắn.",
+                "opts": [
+                  "auscultation",
+                  "dehydration",
+                  "palpation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the skin stays up when it is pinched, the animal may be suffering from ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "de + hydr = mất nước.",
+                "why": "**dehydration** = mất nước.",
+                "opts": [
+                  "dehydration",
+                  "palpation",
+                  "diagnosis"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ shows how many red and white cells the animal has in its blood.",
+                "ans": [
+                  1
+                ],
+                "tip": "blood = máu.",
+                "why": "**blood test** = xét nghiệm máu.",
+                "opts": [
+                  "faecal test",
+                  "blood test",
+                  "ultrasound"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lethargy",
+                "b": "a lack of energy; the animal seems tired and slow",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "appetite",
+                "b": "the desire to eat",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "fever",
+                "b": "a body temperature that is higher than normal",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pulse",
+                "b": "the regular beat of blood that can be felt in an artery",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "respiratory rate",
+                "b": "the number of breaths an animal takes per minute",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "ultrasound",
+                "b": "an imaging method that uses sound waves",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "swab",
+                "b": "a small piece of cotton used to take a sample",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "microchip",
+                "b": "a tiny device under the skin that stores an identification number",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Cấu trúc câu hỏi",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: câu hỏi Yes/No (Do/Does/Did/Is/Has), câu hỏi Wh- và câu hỏi chủ ngữ (Who + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ your dog eat normally this morning?",
+                "ans": [
+                  0
+                ],
+                "tip": "this morning (đã qua) → did.",
+                "why": "Hành động đã xảy ra → **Did**.",
+                "opts": [
+                  "Did",
+                  "Is",
+                  "Do"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ your cat been limping?",
+                "ans": [
+                  1
+                ],
+                "tip": "How long + hiện tại hoàn thành.",
+                "why": "Còn kéo dài đến nay → **has been limping**.",
+                "opts": [
+                  "did",
+                  "has",
+                  "is"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What ___ the dog eat yesterday?",
+                "ans": [
+                  2
+                ],
+                "tip": "yesterday → did.",
+                "why": "Quá khứ → **did**.",
+                "opts": [
+                  "does",
+                  "has",
+                  "did"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which animal ___ the owner bring today?",
+                "ans": [
+                  0
+                ],
+                "tip": "bring ở quá khứ hoặc hiện tại; today + vừa mang → did.",
+                "why": "Hành động đã xong → **did**.",
+                "opts": [
+                  "did",
+                  "does",
+                  "has"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who ___ the puppy first?",
+                "ans": [
+                  1
+                ],
+                "tip": "Câu hỏi chủ ngữ.",
+                "why": "Who là chủ ngữ → **saw**.",
+                "opts": [
+                  "did see",
+                  "saw",
+                  "does saw"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ the cat vaccinated against rabies?",
+                "ans": [
+                  2
+                ],
+                "tip": "be + V3 (bị động).",
+                "why": "Câu bị động → **Is** the cat vaccinated?",
+                "opts": [
+                  "Does",
+                  "Do",
+                  "Is"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền trợ động từ",
+          "instruction": "Complete each question with the correct auxiliary or verb.",
+          "instruction_vi": "Gõ trợ động từ hoặc động từ thích hợp để tạo thành câu hỏi đúng.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ the dog vomited today?",
+                "ans": [
+                  [
+                    "Has",
+                    "has"
+                  ]
+                ],
+                "tip": "today → hiện tại hoàn thành.",
+                "why": "**Has** the dog vomited today?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "How often ___ the cat urinate?",
+                "ans": [
+                  [
+                    "does"
+                  ]
+                ],
+                "tip": "the cat = it → does.",
+                "why": "How often **does** the cat...?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ your rabbit eating normally?",
+                "ans": [
+                  [
+                    "Is",
+                    "is"
+                  ]
+                ],
+                "tip": "be + V-ing.",
+                "why": "**Is** your rabbit eating...?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Where ___ the swelling?",
+                "ans": [
+                  [
+                    "is"
+                  ]
+                ],
+                "tip": "be + vị trí.",
+                "why": "Where **is** the swelling?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "What ___ you feed your dog?",
+                "ans": [
+                  [
+                    "do"
+                  ]
+                ],
+                "tip": "you → do.",
+                "why": "What **do** you feed...?"
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Tính từ và trạng từ",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: tính từ bổ nghĩa cho danh từ hoặc đứng sau look/be/smell; trạng từ (thường -ly) bổ nghĩa cho động từ.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dog is limping ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "Bổ nghĩa động từ → trạng từ.",
+                "why": "limping là động từ → **badly**.",
+                "opts": [
+                  "badly",
+                  "bad",
+                  "worse"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cat looks ___ today.",
+                "ans": [
+                  1
+                ],
+                "tip": "look + tính từ.",
+                "why": "look + tính từ → **tired**.",
+                "opts": [
+                  "tiredly",
+                  "tired",
+                  "tire"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The puppy is breathing very ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "fast vừa là tính từ vừa là trạng từ.",
+                "why": "**fast** (không có 'fastly').",
+                "opts": [
+                  "fastly",
+                  "fastest",
+                  "fast"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Please handle the rabbit ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "Trạng từ bổ nghĩa handle.",
+                "why": "**gently**.",
+                "opts": [
+                  "gently",
+                  "gentle",
+                  "gentler"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The horse walked ___ after the injury.",
+                "ans": [
+                  1
+                ],
+                "tip": "Trạng từ.",
+                "why": "**slowly**.",
+                "opts": [
+                  "slow",
+                  "slowly",
+                  "slows"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The wound smells ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "smell + tính từ.",
+                "why": "smell (liên kết) + tính từ → **bad**.",
+                "opts": [
+                  "badly",
+                  "worse",
+                  "bad"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền tính từ hoặc trạng từ",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng (tính từ hoặc trạng từ) của từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The cow is eating ___ (slow) today.",
+                "ans": [
+                  [
+                    "slowly"
+                  ]
+                ],
+                "tip": "Bổ nghĩa eating.",
+                "why": "**slowly**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The kitten looks very ___ (weak).",
+                "ans": [
+                  [
+                    "weak"
+                  ]
+                ],
+                "tip": "look + tính từ.",
+                "why": "**weak**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The vet examined the dog ___ (careful).",
+                "ans": [
+                  [
+                    "carefully"
+                  ]
+                ],
+                "tip": "Trạng từ.",
+                "why": "**carefully**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The dog is breathing ___ (heavy).",
+                "ans": [
+                  [
+                    "heavily"
+                  ]
+                ],
+                "tip": "Trạng từ.",
+                "why": "**heavily**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The patient was ___ (quiet) during the examination.",
+                "ans": [
+                  [
+                    "quiet"
+                  ]
+                ],
+                "tip": "be + tính từ.",
+                "why": "**quiet**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Taking a history",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Before the examination, the vet always talks to the owner. This conversation is called taking the history, and it often gives the most important clues. The vet asks about the animal's age, diet, vaccinations and behaviour. Most importantly, she asks about the problem: When did it start? Is the animal eating and drinking normally? Has there been any vomiting or diarrhoea?\n\nMrs Lan brings her dog, Rex, to the clinic. He has been lethargic for two days and he has not eaten since Monday. He vomited twice yesterday. The vet takes his temperature: it is 39.9 °C, which is higher than normal. She also finds that Rex is slightly dehydrated.\n\nThe vet recommends a blood test and an ultrasound. The results show an infection in the intestine. Rex stays in the clinic for a day and receives fluids through a drip and an antibiotic. By the next evening, he is walking more actively and he is hungry again. The vet gives Mrs Lan instructions for feeding him at home.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The history often gives the most important clues.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cuộc trò chuyện với chủ thường cho gợi ý quan trọng nhất."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Rex has eaten normally this week.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: Rex không ăn từ thứ Hai."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Rex's temperature was higher than normal.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: 39,9 °C cao hơn bình thường."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Rex stays at the clinic for a week.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: Rex ở lại phòng khám một ngày."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which question belongs to taking a history?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vet hỏi khi nào vấn đề bắt đầu.",
+                "opts": [
+                  "Where is the stethoscope?",
+                  "When did it start?",
+                  "How much is the X-ray?"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do the tests show?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: nhiễm trùng ở ruột.",
+                "opts": [
+                  "A broken leg",
+                  "A heart problem",
+                  "An infection in the intestine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How does Rex receive fluids?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: truyền dịch qua đường tĩnh mạch.",
+                "opts": [
+                  "Through a drip",
+                  "By mouth only",
+                  "By a collar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens by the next evening?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: Rex đi lại hoạt bát hơn và đã đói.",
+                "opts": [
+                  "Rex is operated on.",
+                  "Rex is more active and hungry.",
+                  "Rex runs away."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · The physical examination",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A complete physical examination follows a clear order. First, the vet looks at the animal from a distance. She watches how it stands, walks and breathes. Is it alert, or is it lethargic? Then she examines the body from nose to tail.\n\nShe starts with the head: eyes, ears, nose and mouth. The colour of the gums is important because pale gums can show blood loss. Next, she listens to the heart and lungs with a stethoscope, a method called auscultation. She counts the heart rate and the respiratory rate and feels the pulse. After that, she uses palpation to feel the abdomen, the lymph nodes and the joints. Finally, she measures the temperature with a thermometer and weighs the animal.\n\nEvery finding is written in the medical record. If the vet notices a problem, she may recommend more tests, such as a blood test, an X-ray or an ultrasound. A careful examination takes only ten minutes, but it can save a life.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The vet starts by looking at the animal from a distance.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bắt đầu bằng quan sát từ xa."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Pale gums can show blood loss.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nướu nhợt có thể báo hiệu mất máu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Auscultation means feeling the abdomen with the hands.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: auscultation là nghe tim phổi; sờ bụng là palpation."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A careful examination takes about two hours.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: chỉ mất khoảng mười phút."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the vet do with a stethoscope?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nghe tim và phổi gọi là auscultation.",
+                "opts": [
+                  "She measures the temperature.",
+                  "She takes a sample.",
+                  "She listens to the heart and lungs."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is palpation used for?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: sờ nắn bụng, hạch bạch huyết và khớp.",
+                "opts": [
+                  "Feeling the abdomen, lymph nodes and joints",
+                  "Counting the breaths",
+                  "Weighing the animal"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Where are all the findings written?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: mọi phát hiện ghi vào hồ sơ bệnh án.",
+                "opts": [
+                  "On the owner's phone",
+                  "In the medical record",
+                  "On the animal's coat"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which tests may the vet recommend next?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: xét nghiệm máu, X-quang hoặc siêu âm.",
+                "opts": [
+                  "A haircut",
+                  "A bath",
+                  "A blood test, an X-ray or an ultrasound"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diseases, Vaccines & Parasites",
+      "name_vi": "Bệnh truyền nhiễm, vaccine & ký sinh trùng",
+      "icon": "💉",
+      "hue": 28,
+      "words": [
+        {
+          "en": "virus",
+          "vi": "vi-rút"
+        },
+        {
+          "en": "bacteria",
+          "vi": "vi khuẩn"
+        },
+        {
+          "en": "parasite",
+          "vi": "ký sinh trùng"
+        },
+        {
+          "en": "flea",
+          "vi": "bọ chét"
+        },
+        {
+          "en": "tick",
+          "vi": "ve, bọ ve"
+        },
+        {
+          "en": "roundworm",
+          "vi": "giun tròn"
+        },
+        {
+          "en": "tapeworm",
+          "vi": "sán dây"
+        },
+        {
+          "en": "heartworm",
+          "vi": "giun tim"
+        },
+        {
+          "en": "mange",
+          "vi": "bệnh ghẻ"
+        },
+        {
+          "en": "ringworm",
+          "vi": "nấm da (hắc lào)"
+        },
+        {
+          "en": "rabies",
+          "vi": "bệnh dại"
+        },
+        {
+          "en": "distemper",
+          "vi": "bệnh care (sài sốt chó)"
+        },
+        {
+          "en": "vaccine",
+          "vi": "vaccine"
+        },
+        {
+          "en": "vaccination",
+          "vi": "sự tiêm phòng"
+        },
+        {
+          "en": "booster",
+          "vi": "mũi nhắc lại"
+        },
+        {
+          "en": "immunity",
+          "vi": "miễn dịch"
+        },
+        {
+          "en": "antibody",
+          "vi": "kháng thể"
+        },
+        {
+          "en": "incubation period",
+          "vi": "thời gian ủ bệnh"
+        },
+        {
+          "en": "contagious",
+          "vi": "lây lan, truyền nhiễm"
+        },
+        {
+          "en": "outbreak",
+          "vi": "ổ dịch, đợt bùng phát"
+        },
+        {
+          "en": "quarantine",
+          "vi": "cách ly kiểm dịch"
+        },
+        {
+          "en": "zoonotic disease",
+          "vi": "bệnh lây từ động vật sang người"
+        },
+        {
+          "en": "antibiotic",
+          "vi": "kháng sinh"
+        },
+        {
+          "en": "dose",
+          "vi": "liều lượng"
+        },
+        {
+          "en": "prescription",
+          "vi": "đơn thuốc"
+        },
+        {
+          "en": "side effect",
+          "vi": "tác dụng phụ"
+        },
+        {
+          "en": "resistance",
+          "vi": "sự kháng thuốc"
+        },
+        {
+          "en": "deworming",
+          "vi": "tẩy giun"
+        },
+        {
+          "en": "carrier",
+          "vi": "vật mang mầm bệnh"
+        },
+        {
+          "en": "isolation",
+          "vi": "sự cách ly"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Rabies is caused by a ___ and can infect humans.",
+                "ans": [
+                  0
+                ],
+                "tip": "vi-rút gây bệnh dại.",
+                "why": "**virus** = vi-rút; bệnh dại do vi-rút gây ra.",
+                "opts": [
+                  "virus",
+                  "flea",
+                  "booster"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A small insect that jumps and bites cats and dogs is a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "flea = bọ chét.",
+                "why": "**flea** = bọ chét, nhảy từ vật này sang vật khác.",
+                "opts": [
+                  "carrier",
+                  "flea",
+                  "dose"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a small parasite that attaches to the skin and sucks blood.",
+                "ans": [
+                  2
+                ],
+                "tip": "tick = ve.",
+                "why": "**tick** = ve, bám vào da và hút máu.",
+                "opts": [
+                  "tapeworm",
+                  "antibody",
+                  "tick"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is spread by mosquitoes and lives in the heart and blood vessels of dogs.",
+                "ans": [
+                  0
+                ],
+                "tip": "heart + worm.",
+                "why": "**Heartworm** = giun tim, lây qua muỗi.",
+                "opts": [
+                  "Heartworm",
+                  "Ringworm",
+                  "Mange"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is a fungal infection of the skin, not a worm.",
+                "ans": [
+                  1
+                ],
+                "tip": "Tên gây nhầm lẫn.",
+                "why": "**Ringworm** = nấm da, không phải giun.",
+                "opts": [
+                  "Heartworm",
+                  "Ringworm",
+                  "Roundworm"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ prepares the immune system to fight a disease.",
+                "ans": [
+                  2
+                ],
+                "tip": "vaccine = vắc-xin.",
+                "why": "**vaccine** giúp cơ thể sản sinh kháng thể.",
+                "opts": [
+                  "side effect",
+                  "prescription",
+                  "vaccine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The puppy needs a ___ one month after the first injection.",
+                "ans": [
+                  0
+                ],
+                "tip": "boost = tăng cường.",
+                "why": "**booster** = mũi nhắc lại.",
+                "opts": [
+                  "booster",
+                  "quarantine",
+                  "outbreak"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Animals that arrive from abroad may need ___ before they enter the country.",
+                "ans": [
+                  1
+                ],
+                "tip": "quarantine = cách ly kiểm dịch.",
+                "why": "**quarantine** = cách ly kiểm dịch.",
+                "opts": [
+                  "booster",
+                  "quarantine",
+                  "immunity"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "virus",
+                "b": "a tiny agent that can reproduce only inside living cells",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bacteria",
+                "b": "single-celled organisms, some of which cause disease",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "parasite",
+                "b": "an organism that lives on or in another animal and takes food from it",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "incubation period",
+                "b": "the time between infection and the first symptoms",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "contagious",
+                "b": "able to spread from one animal to another",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "outbreak",
+                "b": "a sudden increase in the number of cases of a disease",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "zoonotic disease",
+                "b": "an illness that can pass from animals to humans",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "antibody",
+                "b": "a protein made by the body to fight an infection",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: bị động hiện tại (am/is/are + V3), quá khứ (was/were + V3), hiện tại hoàn thành (has/have been + V3), tiếp diễn và modal.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Rabies vaccines ___ to dogs every year.",
+                "ans": [
+                  0
+                ],
+                "tip": "Hiện tại đơn bị động.",
+                "why": "Vaccine được tiêm → **are given**.",
+                "opts": [
+                  "are given",
+                  "give",
+                  "gave"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The puppy ___ against parvovirus last week.",
+                "ans": [
+                  1
+                ],
+                "tip": "last week → was + V3.",
+                "why": "Mốc quá khứ → **was vaccinated**.",
+                "opts": [
+                  "vaccinated",
+                  "was vaccinated",
+                  "is vaccinated"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All new animals ___ before they join the herd.",
+                "ans": [
+                  2
+                ],
+                "tip": "modal + be + V3.",
+                "why": "Bị động với modal → **must be isolated**.",
+                "opts": [
+                  "must isolate",
+                  "must isolated",
+                  "must be isolated"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The outbreak ___ by the veterinary authority at the moment.",
+                "ans": [
+                  0
+                ],
+                "tip": "at the moment → is being + V3.",
+                "why": "Đang diễn ra + bị động → **is being investigated**.",
+                "opts": [
+                  "is being investigated",
+                  "is investigated",
+                  "investigated"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Heartworm ___ by mosquitoes.",
+                "ans": [
+                  1
+                ],
+                "tip": "is + V3.",
+                "why": "Giun tim được lây truyền bởi muỗi → **is spread**.",
+                "opts": [
+                  "spreads",
+                  "is spread",
+                  "is spreading"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The disease ___ in this region since 2010.",
+                "ans": [
+                  2
+                ],
+                "tip": "since → has been + V3.",
+                "why": "**has been reported**.",
+                "opts": [
+                  "has reported",
+                  "was reporting",
+                  "has been reported"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng bị động",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Fleas ___ (kill) by this treatment.",
+                "ans": [
+                  [
+                    "are killed"
+                  ]
+                ],
+                "tip": "are + V3.",
+                "why": "**are killed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The sample ___ (send) to the laboratory yesterday.",
+                "ans": [
+                  [
+                    "was sent"
+                  ]
+                ],
+                "tip": "yesterday → was + V3.",
+                "why": "**was sent**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Dogs ___ (should / vaccinate) against rabies.",
+                "ans": [
+                  [
+                    "should be vaccinated"
+                  ]
+                ],
+                "tip": "should be + V3.",
+                "why": "**should be vaccinated**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The sick animals ___ (isolate) now.",
+                "ans": [
+                  [
+                    "are being isolated"
+                  ]
+                ],
+                "tip": "now → are being + V3.",
+                "why": "**are being isolated**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This vaccine ___ (use) for many years.",
+                "ans": [
+                  [
+                    "has been used"
+                  ]
+                ],
+                "tip": "for → has been + V3.",
+                "why": "**has been used**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Câu tường thuật",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: lùi thì khi tường thuật (is → was, has done → had done, will → would); told someone to V / not to V; asked if + mệnh đề.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The owner said, 'My dog has stopped eating.' → The owner said that her dog ___ eating.",
+                "ans": [
+                  0
+                ],
+                "tip": "has stopped → had stopped.",
+                "why": "Lùi thì → **had stopped**.",
+                "opts": [
+                  "had stopped",
+                  "has stopped",
+                  "stops"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet said, 'Give the tablet twice a day.' → The vet told me ___ the tablet twice a day.",
+                "ans": [
+                  1
+                ],
+                "tip": "told + người + to V.",
+                "why": "**told me to give**.",
+                "opts": [
+                  "giving",
+                  "to give",
+                  "give"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He said, 'I will bring the cat tomorrow.' → He said he ___ the cat the next day.",
+                "ans": [
+                  2
+                ],
+                "tip": "will → would.",
+                "why": "**would bring**.",
+                "opts": [
+                  "will bring",
+                  "brought",
+                  "would bring"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The farmer said, 'Three cows are sick.' → He said that three cows ___ sick.",
+                "ans": [
+                  0
+                ],
+                "tip": "are → were.",
+                "why": "Lùi thì → **were**.",
+                "opts": [
+                  "were",
+                  "had",
+                  "was"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet said, 'Don't give chocolate to dogs.' → The vet told us ___ chocolate to dogs.",
+                "ans": [
+                  1
+                ],
+                "tip": "not to + V.",
+                "why": "**not to give**.",
+                "opts": [
+                  "don't give",
+                  "not to give",
+                  "not giving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The nurse asked, 'Is the dog vaccinated?' → The nurse asked if the dog ___ vaccinated.",
+                "ans": [
+                  2
+                ],
+                "tip": "Không đảo ngữ trong câu tường thuật.",
+                "why": "**was** vaccinated.",
+                "opts": [
+                  "is",
+                  "has",
+                  "was"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng tường thuật",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng để hoàn thành câu tường thuật.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'The puppy is healthy,' said the vet. → The vet said that the puppy ___ healthy.",
+                "ans": [
+                  [
+                    "was"
+                  ]
+                ],
+                "tip": "is → was.",
+                "why": "**was**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'I have given the tablet,' the owner said. → She said she ___ the tablet.",
+                "ans": [
+                  [
+                    "had given"
+                  ]
+                ],
+                "tip": "has given → had given.",
+                "why": "**had given**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'Bring the dog tomorrow,' the vet said. → The vet told me ___ the dog the next day.",
+                "ans": [
+                  [
+                    "to bring"
+                  ]
+                ],
+                "tip": "told + to V.",
+                "why": "**to bring**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'Does he drink water?' the vet asked. → The vet asked if he ___ water.",
+                "ans": [
+                  [
+                    "drank"
+                  ]
+                ],
+                "tip": "does drink → drank.",
+                "why": "**drank**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "'Don't let the cat outside,' the vet said. → The vet told us ___ the cat outside.",
+                "ans": [
+                  [
+                    "not to let"
+                  ]
+                ],
+                "tip": "not to + V.",
+                "why": "**not to let**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Vaccination: why it matters",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Vaccination is one of the most effective ways to protect animals from serious diseases. A vaccine contains a weak or killed virus or bacterium. When it is injected, the body makes antibodies, so it can fight the real disease later. This protection is called immunity.\n\nPuppies and kittens receive their first vaccines at about eight weeks. A booster is given a few weeks later and then once a year or every three years, depending on the vaccine. Common vaccines protect dogs against distemper, parvovirus and rabies. Rabies vaccination is very important because the disease is almost always fatal and it can be passed to humans.\n\nVaccines are safe, but they can cause mild side effects, such as tiredness or a small swelling at the injection site. These effects usually disappear in a day or two. Serious reactions are very rare. If many animals in an area are vaccinated, the disease cannot spread easily. This is called herd immunity, and it also protects the animals that cannot be vaccinated.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A vaccine helps the body make antibodies.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cơ thể tạo kháng thể sau khi tiêm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Puppies receive their first vaccines at about two years of age.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chó con tiêm mũi đầu khoảng 8 tuần tuổi."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Rabies can be passed to humans.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bệnh dại có thể lây sang người."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Serious reactions to vaccines are very common.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phản ứng nặng rất hiếm."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is immunity?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: miễn dịch là sự bảo vệ chống lại bệnh.",
+                "opts": [
+                  "A kind of antibiotic",
+                  "Protection against a disease",
+                  "A type of side effect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When is the booster given?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: mũi nhắc lại sau vài tuần.",
+                "opts": [
+                  "On the same day",
+                  "After one year only",
+                  "A few weeks after the first vaccine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which are mild side effects of vaccines?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: mệt mỏi hoặc sưng nhẹ tại chỗ tiêm.",
+                "opts": [
+                  "Tiredness or a small swelling",
+                  "A broken leg",
+                  "Loss of the coat"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does herd immunity do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bảo vệ cả những con không thể tiêm.",
+                "opts": [
+                  "It stops all farming.",
+                  "It also protects animals that cannot be vaccinated.",
+                  "It replaces vaccines."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Fleas, ticks and worms",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Parasites are a common health problem in pets. External parasites live on the skin. Fleas jump from animal to animal and make them scratch. A cat with a serious flea problem can even become anaemic. Ticks attach to the skin and drink blood, and they can carry diseases. Mites cause mange, which makes the skin red and itchy.\n\nInternal parasites live inside the body. Roundworms and tapeworms live in the intestine, and heartworm lives in the heart and blood vessels. Some of them can infect people, especially children, so owners should wash their hands after touching their pets.\n\nThe vet recommends a regular parasite control programme. Treatments include spot-on drops, tablets and collars. Puppies and kittens are dewormed every two weeks until they are twelve weeks old, and adults are treated every three months. Treatment alone is not enough. The owner should also clean the bedding, vacuum the house and treat all the animals in the family at the same time.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Fleas jump from animal to animal.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bọ chét nhảy từ vật này sang vật khác."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Heartworm lives in the intestine.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: giun tim sống ở tim và mạch máu; giun tròn, sán dây ở ruột."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Some internal parasites can infect people.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: một số có thể lây sang người, nhất là trẻ em."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Treatment alone is enough; cleaning is not necessary.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: chủ còn phải dọn ổ, hút bụi và điều trị tất cả vật nuôi."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can a serious flea problem cause in a cat?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: mèo có thể bị thiếu máu.",
+                "opts": [
+                  "Mange",
+                  "Rabies",
+                  "Anaemia"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a tick do?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ve bám vào da và hút máu.",
+                "opts": [
+                  "It attaches to the skin and drinks blood.",
+                  "It jumps from animal to animal.",
+                  "It lives in the heart."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How often are adult animals treated?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thú trưởng thành điều trị mỗi ba tháng.",
+                "opts": [
+                  "Every day",
+                  "Every three months",
+                  "Once in a lifetime"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should owners do besides treating the pet?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: dọn ổ, hút bụi, điều trị cùng lúc cho mọi vật nuôi.",
+                "opts": [
+                  "Stop washing their hands",
+                  "Keep the pet outside",
+                  "Clean the bedding and treat all animals at the same time"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Surgery, Anaesthesia & Emergency Care",
+      "name_vi": "Phẫu thuật, gây mê & cấp cứu",
+      "icon": "🚑",
+      "hue": 262,
+      "words": [
+        {
+          "en": "spay",
+          "vi": "triệt sản (con cái)"
+        },
+        {
+          "en": "neuter",
+          "vi": "triệt sản (con đực, thiến)"
+        },
+        {
+          "en": "anaesthesia",
+          "vi": "gây mê"
+        },
+        {
+          "en": "sedative",
+          "vi": "thuốc an thần"
+        },
+        {
+          "en": "intubation",
+          "vi": "đặt nội khí quản"
+        },
+        {
+          "en": "IV drip",
+          "vi": "truyền dịch tĩnh mạch"
+        },
+        {
+          "en": "catheter",
+          "vi": "ống thông"
+        },
+        {
+          "en": "sterile",
+          "vi": "vô trùng"
+        },
+        {
+          "en": "incision",
+          "vi": "đường rạch"
+        },
+        {
+          "en": "wound",
+          "vi": "vết thương"
+        },
+        {
+          "en": "fracture",
+          "vi": "gãy xương"
+        },
+        {
+          "en": "splint",
+          "vi": "nẹp"
+        },
+        {
+          "en": "cast",
+          "vi": "bó bột"
+        },
+        {
+          "en": "bandage",
+          "vi": "băng"
+        },
+        {
+          "en": "cone",
+          "vi": "vòng chống liếm (cone)"
+        },
+        {
+          "en": "triage",
+          "vi": "phân loại cấp cứu"
+        },
+        {
+          "en": "shock",
+          "vi": "sốc"
+        },
+        {
+          "en": "haemorrhage",
+          "vi": "xuất huyết"
+        },
+        {
+          "en": "poisoning",
+          "vi": "ngộ độc"
+        },
+        {
+          "en": "bloat",
+          "vi": "chướng bụng (đầy hơi, xoắn dạ dày)"
+        },
+        {
+          "en": "heatstroke",
+          "vi": "say nóng"
+        },
+        {
+          "en": "choking",
+          "vi": "nghẹn"
+        },
+        {
+          "en": "resuscitation",
+          "vi": "hồi sức"
+        },
+        {
+          "en": "oxygen",
+          "vi": "oxy"
+        },
+        {
+          "en": "monitoring",
+          "vi": "theo dõi (chỉ số sống)"
+        },
+        {
+          "en": "recovery",
+          "vi": "sự hồi phục"
+        },
+        {
+          "en": "pain relief",
+          "vi": "giảm đau"
+        },
+        {
+          "en": "euthanasia",
+          "vi": "an tử"
+        },
+        {
+          "en": "suture",
+          "vi": "chỉ khâu"
+        },
+        {
+          "en": "abdomen",
+          "vi": "bụng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet decided to ___ the young female dog to prevent pregnancy.",
+                "ans": [
+                  0
+                ],
+                "tip": "spay = triệt sản con cái.",
+                "why": "**spay** = cắt buồng trứng (và tử cung) để triệt sản con cái.",
+                "opts": [
+                  "spay",
+                  "bandage",
+                  "monitor"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dog was under ___ during the operation, so it felt no pain.",
+                "ans": [
+                  1
+                ],
+                "tip": "an + aesthesia = mất cảm giác.",
+                "why": "**anaesthesia** = gây mê.",
+                "opts": [
+                  "quarantine",
+                  "anaesthesia",
+                  "triage"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet placed a tube into the dog's windpipe. This is called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "tube → intubation.",
+                "why": "**intubation** = đặt ống nội khí quản.",
+                "opts": [
+                  "triage",
+                  "suture",
+                  "intubation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The nurse put the dog on an IV ___ to give it fluids.",
+                "ans": [
+                  0
+                ],
+                "tip": "drip = nhỏ giọt.",
+                "why": "**IV drip** = truyền dịch tĩnh mạch.",
+                "opts": [
+                  "drip",
+                  "cone",
+                  "splint"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A broken leg is held in the correct position with a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "splint = nẹp.",
+                "why": "**splint** = nẹp cố định chi gãy.",
+                "opts": [
+                  "catheter",
+                  "splint",
+                  "cone"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cat wears a ___ so that it cannot lick its stitches.",
+                "ans": [
+                  2
+                ],
+                "tip": "cone = hình nón.",
+                "why": "**cone** (vòng Elizabeth) ngăn thú liếm vết mổ.",
+                "opts": [
+                  "cast",
+                  "drape",
+                  "cone"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In an emergency, the vet first does ___ to decide which patient needs help most urgently.",
+                "ans": [
+                  0
+                ],
+                "tip": "triage = phân loại.",
+                "why": "**triage** = phân loại mức độ cấp cứu.",
+                "opts": [
+                  "triage",
+                  "recovery",
+                  "euthanasia"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Chocolate can cause ___ in dogs.",
+                "ans": [
+                  1
+                ],
+                "tip": "poison = chất độc.",
+                "why": "**poisoning** = ngộ độc.",
+                "opts": [
+                  "fracture",
+                  "poisoning",
+                  "spay"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sedative",
+                "b": "a drug that calms an animal",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sterile",
+                "b": "completely free from germs",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "incision",
+                "b": "a cut made in the skin during surgery",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "haemorrhage",
+                "b": "very heavy bleeding",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "shock",
+                "b": "a life-threatening condition in which the body does not get enough blood flow",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bloat",
+                "b": "a swollen abdomen that is full of gas",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "resuscitation",
+                "b": "emergency treatment to restart breathing or the heart",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "euthanasia",
+                "b": "ending an animal's life painlessly to stop its suffering",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 2 và 3",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 2 (If + quá khứ đơn, would + V) giả định hiện tại; loại 3 (If + had + V3, would have + V3) giả định quá khứ.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the dog had arrived earlier, the vet ___ it.",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 3: could have + V3.",
+                "why": "Giả định quá khứ → **could have saved**.",
+                "opts": [
+                  "could have saved",
+                  "could save",
+                  "can save"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I ___ a vet, I would work with wild animals.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 2: If I were...",
+                "why": "Cấu trúc cố định **If I were**.",
+                "opts": [
+                  "am",
+                  "were",
+                  "was being"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the owner hadn't called immediately, the cat ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 3.",
+                "why": "**would have died**.",
+                "opts": [
+                  "would die",
+                  "will die",
+                  "would have died"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would you do if a dog ___ unconscious in front of you?",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "**collapsed**.",
+                "opts": [
+                  "collapsed",
+                  "collapses",
+                  "will collapse"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the wound had been cleaned properly, it ___ infected.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 3.",
+                "why": "**wouldn't have become**.",
+                "opts": [
+                  "wouldn't become",
+                  "wouldn't have become",
+                  "won't become"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If we had more oxygen, we ___ treat more patients.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 2: could + V.",
+                "why": "Giả định hiện tại → **could treat**.",
+                "opts": [
+                  "could have",
+                  "can",
+                  "could"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (câu điều kiện loại 2 hoặc 3).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the vet ___ (have) more time, she would explain everything.",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "**had**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the cat hadn't eaten the lily, it ___ (not / get) poisoned.",
+                "ans": [
+                  [
+                    "would not have got",
+                    "wouldn't have got",
+                    "wouldn't have gotten",
+                    "would not have gotten"
+                  ]
+                ],
+                "tip": "Loại 3.",
+                "why": "**wouldn't have got**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If they had called earlier, the horse ___ (survive).",
+                "ans": [
+                  [
+                    "would have survived"
+                  ]
+                ],
+                "tip": "Loại 3.",
+                "why": "**would have survived**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) you, I would take the dog to the clinic now.",
+                "ans": [
+                  [
+                    "were"
+                  ]
+                ],
+                "tip": "Loại 2: If I were you.",
+                "why": "**were**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the dog ___ (not / wear) a cone, it would lick its stitches.",
+                "ans": [
+                  [
+                    "did not wear",
+                    "didn't wear"
+                  ]
+                ],
+                "tip": "Loại 2.",
+                "why": "**didn't wear**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Quá khứ hoàn thành và quá khứ đơn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ hoàn thành (had + V3) diễn tả việc xảy ra trước một việc khác trong quá khứ.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "By the time the vet arrived, the cow ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "Xảy ra trước mốc 'arrived'.",
+                "why": "Trước một mốc quá khứ → **had died**.",
+                "opts": [
+                  "had died",
+                  "died",
+                  "has died"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet operated after the dog ___ for twelve hours.",
+                "ans": [
+                  1
+                ],
+                "tip": "Việc xảy ra trước.",
+                "why": "**had fasted**.",
+                "opts": [
+                  "fasted",
+                  "had fasted",
+                  "has fasted"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The nurse ___ the instruments before the surgery began.",
+                "ans": [
+                  2
+                ],
+                "tip": "before + quá khứ đơn → quá khứ hoàn thành.",
+                "why": "**had sterilised**.",
+                "opts": [
+                  "sterilised",
+                  "has sterilised",
+                  "had sterilised"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After she ___ the wound, she applied a bandage.",
+                "ans": [
+                  0
+                ],
+                "tip": "Hành động trước.",
+                "why": "**had cleaned**.",
+                "opts": [
+                  "had cleaned",
+                  "cleans",
+                  "has cleaned"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cat was getting worse because the owner ___ to give it its tablets.",
+                "ans": [
+                  1
+                ],
+                "tip": "Nguyên nhân xảy ra trước.",
+                "why": "**had forgotten**.",
+                "opts": [
+                  "forgets",
+                  "had forgotten",
+                  "has forgotten"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ a newborn calf before I started working on the farm.",
+                "ans": [
+                  2
+                ],
+                "tip": "Trước một mốc quá khứ.",
+                "why": "**had never held**.",
+                "opts": [
+                  "never held",
+                  "have never held",
+                  "had never held"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ hoàn thành hoặc quá khứ đơn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The dog ___ (already / wake up) when the owner came back.",
+                "ans": [
+                  [
+                    "had already woken up"
+                  ]
+                ],
+                "tip": "Việc xảy ra trước.",
+                "why": "**had already woken up**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "After the vet ___ (give) the injection, the cat fell asleep.",
+                "ans": [
+                  [
+                    "had given"
+                  ]
+                ],
+                "tip": "after + had + V3.",
+                "why": "**had given**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She called the vet because the horse ___ (stop) eating.",
+                "ans": [
+                  [
+                    "had stopped"
+                  ]
+                ],
+                "tip": "Nguyên nhân trước.",
+                "why": "**had stopped**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The surgery ___ (finish) when the owner arrived.",
+                "ans": [
+                  [
+                    "had finished"
+                  ]
+                ],
+                "tip": "Xong trước khi chủ đến.",
+                "why": "**had finished**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Before the operation, the dog ___ (not / eat) for twelve hours.",
+                "ans": [
+                  [
+                    "had not eaten",
+                    "hadn't eaten"
+                  ]
+                ],
+                "tip": "Phủ định quá khứ hoàn thành.",
+                "why": "**hadn't eaten**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · A dog with bloat",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "On Saturday night, Mr Binh called the emergency clinic. His large dog, Max, had eaten a big meal and then run in the garden. Now his stomach was swollen and he was trying to vomit without success. The vet told Mr Binh to bring Max immediately.\n\nWhen they arrived, the vet did triage and saw that Max was in shock. His gums were pale and his heart rate was very high. The diagnosis was gastric dilatation and volvulus, or bloat, a life-threatening emergency. The vet started an IV drip, gave oxygen and took an X-ray. Then she moved Max to the operating theatre.\n\nUnder general anaesthesia, the vet released the gas and put the stomach back in its normal position. She also fixed it to the body wall so that the problem could not happen again. Max stayed in the clinic for three days. If Mr Binh had waited until the morning, Max would have died. Today, he is healthy again, but he eats several small meals instead of one big meal.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Max had eaten a big meal before his stomach swelled.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: Max ăn một bữa lớn rồi chạy trong vườn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Max's gums were pink and normal.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nướu nhợt và nhịp tim rất cao."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The vet fixed the stomach to the body wall.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: để vấn đề không tái diễn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Mr Binh waited until the morning to call the vet.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ông gọi ngay tối thứ Bảy."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What was the diagnosis?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: giãn và xoắn dạ dày (bloat).",
+                "opts": [
+                  "A broken leg",
+                  "Bloat, a life-threatening emergency",
+                  "A small cut"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the vet start straight away?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: truyền dịch, cho thở oxy, chụp X-quang.",
+                "opts": [
+                  "A haircut",
+                  "A vaccination",
+                  "An IV drip and oxygen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would have happened if Mr Binh had waited until the morning?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: Max sẽ chết nếu chờ đến sáng.",
+                "opts": [
+                  "Max would have died.",
+                  "Max would have recovered.",
+                  "Max would have been vaccinated."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How does Max eat now?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: ăn nhiều bữa nhỏ.",
+                "opts": [
+                  "One big meal",
+                  "Several small meals",
+                  "Only at night"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Spaying and neutering",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Spaying is the removal of the ovaries and usually the uterus of a female animal. Neutering, or castration, is the removal of the testicles of a male. Both are among the most common operations in veterinary practice.\n\nBefore the operation, the animal must not eat for several hours. The vet gives a sedative, then inserts a catheter into a vein and gives general anaesthesia. A tube is placed in the windpipe, and a nurse monitors the heart rate, breathing and temperature during the whole operation. The skin is cleaned and the instruments are sterile. After the surgery, the vet closes the incision with sutures and gives pain relief.\n\nAt home, the owner must keep the animal quiet for about ten days. A cone stops the animal from licking the wound. The owner should check the wound every day and call the vet if it becomes red or swollen.\n\nThe operations prevent unwanted litters and reduce the risk of some diseases, such as infections of the uterus. However, the animal may gain weight more easily, so the owner may have to adjust its diet.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Spaying is performed on female animals.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: spay là cắt buồng trứng, thường cả tử cung, ở con cái."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The animal can eat normally before the operation.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: không được ăn trong nhiều giờ trước mổ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A nurse monitors the animal during the surgery.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: y tá theo dõi nhịp tim, hô hấp và nhiệt độ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The cone allows the animal to lick the wound.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cone ngăn thú liếm vết mổ."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is neutering?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: neutering (castration) là cắt tinh hoàn ở con đực.",
+                "opts": [
+                  "The removal of the uterus",
+                  "A type of vaccine",
+                  "The removal of the testicles of a male"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the vet give after the surgery?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đóng vết mổ bằng chỉ khâu và cho thuốc giảm đau.",
+                "opts": [
+                  "Pain relief",
+                  "A new coat",
+                  "A haircut"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should the owner do if the wound becomes red or swollen?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: gọi bác sĩ thú y.",
+                "opts": [
+                  "Wait for a month",
+                  "Call the vet",
+                  "Remove the stitches"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why may the owner have to adjust the diet?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 4: sau triệt sản thú dễ tăng cân.",
+                "opts": [
+                  "The animal stops eating forever.",
+                  "The animal grows new teeth.",
+                  "The animal may gain weight more easily."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Livestock, Nutrition & Herd Health",
+      "name_vi": "Chăn nuôi, dinh dưỡng & sức khỏe đàn",
+      "icon": "🐄",
+      "hue": 150,
+      "words": [
+        {
+          "en": "herd",
+          "vi": "đàn (bò, trâu)"
+        },
+        {
+          "en": "flock",
+          "vi": "bầy (cừu, gà)"
+        },
+        {
+          "en": "dairy cow",
+          "vi": "bò sữa"
+        },
+        {
+          "en": "beef cattle",
+          "vi": "bò thịt"
+        },
+        {
+          "en": "milk yield",
+          "vi": "sản lượng sữa"
+        },
+        {
+          "en": "mastitis",
+          "vi": "viêm vú"
+        },
+        {
+          "en": "lameness",
+          "vi": "chứng què, đi khập khiễng"
+        },
+        {
+          "en": "calving",
+          "vi": "việc bò đẻ"
+        },
+        {
+          "en": "feed",
+          "vi": "thức ăn chăn nuôi"
+        },
+        {
+          "en": "pasture",
+          "vi": "đồng cỏ"
+        },
+        {
+          "en": "grazing",
+          "vi": "chăn thả, gặm cỏ"
+        },
+        {
+          "en": "hay",
+          "vi": "cỏ khô"
+        },
+        {
+          "en": "silage",
+          "vi": "thức ăn ủ chua"
+        },
+        {
+          "en": "concentrate",
+          "vi": "thức ăn tinh"
+        },
+        {
+          "en": "supplement",
+          "vi": "chất bổ sung"
+        },
+        {
+          "en": "mineral",
+          "vi": "khoáng chất"
+        },
+        {
+          "en": "protein",
+          "vi": "chất đạm"
+        },
+        {
+          "en": "rumen",
+          "vi": "dạ cỏ"
+        },
+        {
+          "en": "ruminant",
+          "vi": "động vật nhai lại"
+        },
+        {
+          "en": "digestion",
+          "vi": "sự tiêu hóa"
+        },
+        {
+          "en": "weight gain",
+          "vi": "tăng trọng"
+        },
+        {
+          "en": "biosecurity",
+          "vi": "an toàn sinh học"
+        },
+        {
+          "en": "disinfection",
+          "vi": "sự khử trùng"
+        },
+        {
+          "en": "record keeping",
+          "vi": "lưu giữ hồ sơ"
+        },
+        {
+          "en": "veterinary inspection",
+          "vi": "kiểm tra thú y"
+        },
+        {
+          "en": "traceability",
+          "vi": "khả năng truy xuất nguồn gốc"
+        },
+        {
+          "en": "ear tag",
+          "vi": "thẻ tai"
+        },
+        {
+          "en": "vitamin",
+          "vi": "vitamin"
+        },
+        {
+          "en": "withdrawal period",
+          "vi": "thời gian ngưng thuốc (trước khi bán sữa, thịt)"
+        },
+        {
+          "en": "pregnancy",
+          "vi": "thai kỳ, sự mang thai"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A group of cattle that are kept together is called a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "herd = đàn.",
+                "why": "**herd** = đàn gia súc lớn như bò.",
+                "opts": [
+                  "herd",
+                  "flock",
+                  "pasture"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A group of sheep or chickens is called a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "flock = bầy.",
+                "why": "**flock** = bầy cừu hoặc gà.",
+                "opts": [
+                  "herd",
+                  "flock",
+                  "silage"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A cow with ___ has an infected and painful udder.",
+                "ans": [
+                  2
+                ],
+                "tip": "mast = vú.",
+                "why": "**mastitis** = viêm vú.",
+                "opts": [
+                  "lameness",
+                  "calving",
+                  "mastitis"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Grass that is cut and dried is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "hay = cỏ khô.",
+                "why": "**hay** = cỏ khô; silage là thức ăn ủ chua.",
+                "opts": [
+                  "hay",
+                  "silage",
+                  "pasture"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cattle are ___ in the field.",
+                "ans": [
+                  1
+                ],
+                "tip": "graze = gặm cỏ.",
+                "why": "**grazing** = chăn thả, gặm cỏ.",
+                "opts": [
+                  "calving",
+                  "grazing",
+                  "digestion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A cow's first and largest stomach compartment is the ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "rumen = dạ cỏ.",
+                "why": "**rumen** = dạ cỏ.",
+                "opts": [
+                  "silage",
+                  "pasture",
+                  "rumen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Strict ___ measures, such as disinfection and limited visitors, stop diseases from entering the farm.",
+                "ans": [
+                  0
+                ],
+                "tip": "bio + security.",
+                "why": "**biosecurity** = an toàn sinh học.",
+                "opts": [
+                  "biosecurity",
+                  "traceability",
+                  "supplement"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ lets the farmer identify each animal and keep records.",
+                "ans": [
+                  1
+                ],
+                "tip": "tag = thẻ.",
+                "why": "**ear tag** = thẻ tai, nhận dạng từng con.",
+                "opts": [
+                  "mineral",
+                  "ear tag",
+                  "silage"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "dairy cow",
+                "b": "a cow that is kept for producing milk",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "beef cattle",
+                "b": "cattle that are raised for meat",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "milk yield",
+                "b": "the amount of milk produced by a cow",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lameness",
+                "b": "difficulty walking, often caused by foot problems",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "calving",
+                "b": "giving birth to a calf",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "supplement",
+                "b": "something added to the diet to give extra nutrients",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "ruminant",
+                "b": "an animal such as a cow or a sheep that chews the cud",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "withdrawal period",
+                "b": "the time after treatment when milk or meat cannot be sold",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm, không cần",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't / may not (cấm), don't have to (không cần), should (nên).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Visitors ___ wear protective boots on the farm.",
+                "ans": [
+                  0
+                ],
+                "tip": "must = bắt buộc.",
+                "why": "Quy định an toàn sinh học → **must**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "needn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ move sick animals into the healthy herd.",
+                "ans": [
+                  1
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Cấm tuyệt đối → **mustn't**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Farmers ___ keep records of all treatments. It is the law.",
+                "ans": [
+                  2
+                ],
+                "tip": "Luật quy định.",
+                "why": "**have to** = bắt buộc theo luật.",
+                "opts": [
+                  "don't have to",
+                  "can",
+                  "have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ disinfect the truck, but it is a good idea.",
+                "ans": [
+                  0
+                ],
+                "tip": "Không bắt buộc.",
+                "why": "**don't have to**.",
+                "opts": [
+                  "don't have to",
+                  "must",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Calves ___ get colostrum in the first hours of life.",
+                "ans": [
+                  1
+                ],
+                "tip": "Lời khuyên mạnh.",
+                "why": "Nên bú sữa non → **should**.",
+                "opts": [
+                  "mustn't",
+                  "should",
+                  "can't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Visitors ___ enter the pig house without permission.",
+                "ans": [
+                  2
+                ],
+                "tip": "may not = không được phép.",
+                "why": "**may not** = không được phép.",
+                "opts": [
+                  "may",
+                  "needn't",
+                  "may not"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền động từ khuyết thiếu",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ sell milk during the withdrawal period.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot",
+                    "may not"
+                  ]
+                ],
+                "tip": "Không được phép.",
+                "why": "**mustn't / can't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Farm workers ___ wash their hands before milking.",
+                "ans": [
+                  [
+                    "must",
+                    "have to",
+                    "should"
+                  ]
+                ],
+                "tip": "Quy định vệ sinh.",
+                "why": "**must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The farmer ___ call the vet if several animals are sick.",
+                "ans": [
+                  [
+                    "should",
+                    "must",
+                    "has to"
+                  ]
+                ],
+                "tip": "Lời khuyên hoặc bắt buộc.",
+                "why": "**should / must**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ buy the vaccine today; the vet can order it later.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't"
+                  ]
+                ],
+                "tip": "Không cần thiết.",
+                "why": "**don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Animals ___ leave the farm without a health certificate.",
+                "ans": [
+                  [
+                    "must not",
+                    "mustn't",
+                    "may not",
+                    "cannot",
+                    "can't"
+                  ]
+                ],
+                "tip": "Không được phép.",
+                "why": "**mustn't**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more), so sánh nhất (the -est / the most), so sánh bằng (as ... as) và 'the more ..., the more ...'.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Dairy cows produce ___ milk than beef cattle.",
+                "ans": [
+                  0
+                ],
+                "tip": "more + danh từ + than.",
+                "why": "**more milk than**.",
+                "opts": [
+                  "more",
+                  "most",
+                  "much more"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This is ___ pasture on the farm.",
+                "ans": [
+                  1
+                ],
+                "tip": "good → better → best.",
+                "why": "So sánh nhất → **the best**.",
+                "opts": [
+                  "better",
+                  "the best",
+                  "the most good"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ the cow eats, the more milk she produces.",
+                "ans": [
+                  2
+                ],
+                "tip": "The more ..., the more ...",
+                "why": "**The more** ... the more ...",
+                "opts": [
+                  "most",
+                  "much",
+                  "more"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Goats are ___ to keep than cattle, because they eat less.",
+                "ans": [
+                  0
+                ],
+                "tip": "cheap → cheaper.",
+                "why": "**cheaper**.",
+                "opts": [
+                  "cheaper",
+                  "cheapest",
+                  "more cheap"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Sheep are not as heavy ___ cattle.",
+                "ans": [
+                  1
+                ],
+                "tip": "not as ... as.",
+                "why": "**not as heavy as**.",
+                "opts": [
+                  "than",
+                  "as",
+                  "like"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which is ___ risky disease for this farm?",
+                "ans": [
+                  2
+                ],
+                "tip": "Tính từ dài → the most + adj.",
+                "why": "**the most risky**.",
+                "opts": [
+                  "more",
+                  "most of",
+                  "the most"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng so sánh đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A calf is ___ (young) than a cow.",
+                "ans": [
+                  [
+                    "younger"
+                  ]
+                ],
+                "tip": "young → younger.",
+                "why": "**younger**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Silage is ___ (cheap) than concentrate.",
+                "ans": [
+                  [
+                    "cheaper"
+                  ]
+                ],
+                "tip": "cheap → cheaper.",
+                "why": "**cheaper**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This is the ___ (productive) cow in the herd.",
+                "ans": [
+                  [
+                    "most productive"
+                  ]
+                ],
+                "tip": "the most + adj dài.",
+                "why": "**most productive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Free-range hens are ___ (active) than caged hens.",
+                "ans": [
+                  [
+                    "more active"
+                  ]
+                ],
+                "tip": "more + adj.",
+                "why": "**more active**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The ___ (healthy) herd has the lowest number of deaths.",
+                "ans": [
+                  [
+                    "healthiest"
+                  ]
+                ],
+                "tip": "healthy → healthiest.",
+                "why": "**healthiest**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How a cow digests grass",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Cattle, sheep and goats are ruminants. They can digest grass and hay, which many other animals cannot use. Their secret is a stomach with four compartments. The first and largest compartment is the rumen. It contains billions of bacteria that break down plant fibre.\n\nA cow eats quickly and swallows the food without chewing much. Later she brings it back to her mouth and chews it again. This is called chewing the cud. The food then passes through the other compartments and into the intestine, where nutrients are absorbed.\n\nBecause the rumen depends on bacteria, a sudden change of feed can be dangerous. If a cow eats too much concentrate, acid builds up in the rumen and she may become seriously ill. For this reason, farmers change the diet slowly over a week or two. A balanced ration includes forage such as grass, hay or silage, a little concentrate, and minerals and vitamins. A good diet means healthier animals and higher milk yield.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Cows have a stomach with four compartments.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: dạ dày bốn ngăn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The rumen is the smallest compartment.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: dạ cỏ là ngăn đầu tiên và lớn nhất."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A sudden change of feed can be dangerous for a cow.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thay đổi thức ăn đột ngột có thể nguy hiểm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A cow chews the food thoroughly before she swallows it the first time.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bò nuốt nhanh, không nhai nhiều lần đầu rồi mới nhai lại."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What lives in the rumen?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hàng tỷ vi khuẩn phân giải chất xơ.",
+                "opts": [
+                  "Large worms",
+                  "Billions of bacteria",
+                  "Salt crystals"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is chewing the cud?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhai lại thức ăn.",
+                "opts": [
+                  "Swallowing water",
+                  "Eating concentrate",
+                  "Bringing food back to the mouth to chew it again"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens if a cow eats too much concentrate?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: axit tích tụ trong dạ cỏ, bò có thể bệnh nặng.",
+                "opts": [
+                  "Acid builds up in the rumen.",
+                  "She grows faster.",
+                  "She stops needing minerals."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How should a farmer change the diet?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thay đổi dần trong một đến hai tuần.",
+                "opts": [
+                  "In one hour",
+                  "Slowly, over a week or two",
+                  "Every morning"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Biosecurity on the farm",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Biosecurity means all the measures that stop diseases from entering or leaving a farm. Good biosecurity is cheaper than treating a disease outbreak, and it also protects public health.\n\nThe first rule is to control movements. Visitors must sign a book and wear clean boots and clothes. Vehicles are disinfected at the gate. New animals should be kept in quarantine for at least two weeks before they join the herd. During this time the farmer watches them for signs of illness and the vet takes blood samples.\n\nThe second rule is hygiene. Buildings and equipment are cleaned and disinfected regularly, and dead animals are removed quickly. Workers wash their hands and change their boots between different animal houses. Wild birds, rodents and insects can carry diseases, so farmers try to keep them out.\n\nFinally, the farmer keeps good records. Each animal has an ear tag, and every treatment is written down. If an outbreak occurs, the records show where the disease came from and which animals are in danger. The vet visits regularly to check the vaccination programme and the health of the herd.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Good biosecurity is more expensive than treating an outbreak.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: an toàn sinh học rẻ hơn xử lý dịch bệnh."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "New animals should be kept in quarantine before joining the herd.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cách ly ít nhất hai tuần."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Workers change their boots between different animal houses.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: rửa tay và thay ủng giữa các chuồng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Farmers keep records only when animals are sick.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: mỗi con có thẻ tai và mọi điều trị đều được ghi lại."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens to vehicles at the gate?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: xe được khử trùng ở cổng.",
+                "opts": [
+                  "They are weighed.",
+                  "They are painted.",
+                  "They are disinfected."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long should new animals stay in quarantine?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ít nhất hai tuần.",
+                "opts": [
+                  "At least two weeks",
+                  "One hour",
+                  "One year"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do records help in an outbreak?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: ghi chép giúp truy nguồn bệnh và xác định đàn nguy cơ.",
+                "opts": [
+                  "They stop the disease immediately.",
+                  "They show where the disease came from and which animals are in danger.",
+                  "They replace the vet."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can carry diseases onto a farm?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: chim hoang, loài gặm nhấm và côn trùng.",
+                "opts": [
+                  "Clean water only",
+                  "Vaccinated animals only",
+                  "Wild birds, rodents and insects"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Welfare, Public Health & Client Communication",
+      "name_vi": "Phúc lợi, sức khỏe cộng đồng & giao tiếp với chủ nuôi",
+      "icon": "💬",
+      "hue": 45,
+      "words": [
+        {
+          "en": "animal welfare",
+          "vi": "phúc lợi động vật"
+        },
+        {
+          "en": "five freedoms",
+          "vi": "năm quyền tự do (của động vật)"
+        },
+        {
+          "en": "cruelty",
+          "vi": "sự ngược đãi"
+        },
+        {
+          "en": "neglect",
+          "vi": "sự bỏ bê"
+        },
+        {
+          "en": "stray",
+          "vi": "(chó, mèo) hoang, lạc"
+        },
+        {
+          "en": "shelter",
+          "vi": "trạm cứu hộ, nơi trú ẩn"
+        },
+        {
+          "en": "adoption",
+          "vi": "việc nhận nuôi"
+        },
+        {
+          "en": "rehoming",
+          "vi": "tìm chủ mới"
+        },
+        {
+          "en": "behaviour",
+          "vi": "hành vi"
+        },
+        {
+          "en": "stress",
+          "vi": "căng thẳng"
+        },
+        {
+          "en": "aggression",
+          "vi": "sự hung hăng"
+        },
+        {
+          "en": "enrichment",
+          "vi": "làm giàu môi trường sống"
+        },
+        {
+          "en": "obesity",
+          "vi": "béo phì"
+        },
+        {
+          "en": "diet",
+          "vi": "chế độ ăn"
+        },
+        {
+          "en": "palliative care",
+          "vi": "chăm sóc giảm nhẹ"
+        },
+        {
+          "en": "quality of life",
+          "vi": "chất lượng cuộc sống"
+        },
+        {
+          "en": "pet insurance",
+          "vi": "bảo hiểm thú cưng"
+        },
+        {
+          "en": "fee",
+          "vi": "chi phí, phí dịch vụ"
+        },
+        {
+          "en": "medical record",
+          "vi": "hồ sơ bệnh án"
+        },
+        {
+          "en": "discharge instructions",
+          "vi": "hướng dẫn khi cho thú về nhà"
+        },
+        {
+          "en": "follow-up",
+          "vi": "buổi tái khám"
+        },
+        {
+          "en": "compliance",
+          "vi": "sự tuân thủ (của chủ)"
+        },
+        {
+          "en": "food safety",
+          "vi": "an toàn thực phẩm"
+        },
+        {
+          "en": "One Health",
+          "vi": "Một sức khỏe (sức khỏe người, động vật, môi trường)"
+        },
+        {
+          "en": "public health",
+          "vi": "sức khỏe cộng đồng"
+        },
+        {
+          "en": "veterinary certificate",
+          "vi": "giấy chứng nhận thú y"
+        },
+        {
+          "en": "bereavement",
+          "vi": "nỗi mất mát, tang thương"
+        },
+        {
+          "en": "empathy",
+          "vi": "sự đồng cảm"
+        },
+        {
+          "en": "second opinion",
+          "vi": "ý kiến thứ hai"
+        },
+        {
+          "en": "informed decision",
+          "vi": "quyết định có hiểu biết"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ thú y phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "According to the ___, every animal should be free from hunger, pain and fear.",
+                "ans": [
+                  0
+                ],
+                "tip": "five + freedoms.",
+                "why": "**five freedoms** = năm quyền tự do của động vật.",
+                "opts": [
+                  "five freedoms",
+                  "One Health",
+                  "pet insurance"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Failing to give an animal enough food, water or care is called ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "neglect = bỏ bê.",
+                "why": "**neglect** = bỏ bê, không chăm sóc.",
+                "opts": [
+                  "adoption",
+                  "neglect",
+                  "enrichment"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A dog without an owner that lives on the street is a ___ dog.",
+                "ans": [
+                  2
+                ],
+                "tip": "stray = lạc, hoang.",
+                "why": "**stray** = chó hoang, chó không chủ.",
+                "opts": [
+                  "palliative",
+                  "sterile",
+                  "stray"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The family decided on the ___ of a rescued kitten from the shelter.",
+                "ans": [
+                  0
+                ],
+                "tip": "adopt = nhận nuôi.",
+                "why": "**adoption** = việc nhận nuôi.",
+                "opts": [
+                  "adoption",
+                  "neglect",
+                  "obesity"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Toys and puzzle feeders are examples of environmental ___ for cats.",
+                "ans": [
+                  1
+                ],
+                "tip": "enrich = làm phong phú.",
+                "why": "**enrichment** = làm giàu môi trường sống.",
+                "opts": [
+                  "aggression",
+                  "enrichment",
+                  "compliance"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Too much food and too little exercise cause ___ in pets.",
+                "ans": [
+                  2
+                ],
+                "tip": "obese = béo phì.",
+                "why": "**obesity** = béo phì.",
+                "opts": [
+                  "cruelty",
+                  "adoption",
+                  "obesity"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ aims to keep a very sick animal comfortable rather than to cure it.",
+                "ans": [
+                  0
+                ],
+                "tip": "palliate = làm dịu.",
+                "why": "**Palliative care** = chăm sóc giảm nhẹ.",
+                "opts": [
+                  "Palliative care",
+                  "Triage",
+                  "Quarantine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ approach recognises that human, animal and environmental health are connected.",
+                "ans": [
+                  1
+                ],
+                "tip": "One + Health.",
+                "why": "**One Health** = Một sức khỏe.",
+                "opts": [
+                  "five freedoms",
+                  "One Health",
+                  "pet insurance"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "animal welfare",
+                "b": "the physical and mental well-being of an animal",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cruelty",
+                "b": "deliberately causing an animal pain or suffering",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "aggression",
+                "b": "hostile behaviour such as biting or attacking",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "compliance",
+                "b": "whether the owner follows the vet's instructions",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "discharge instructions",
+                "b": "written advice given when an animal goes home",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "second opinion",
+                "b": "advice from another vet about the same case",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "food safety",
+                "b": "making sure that animal products are safe to eat",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "veterinary certificate",
+                "b": "an official document that says an animal is healthy",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Danh động từ và động từ nguyên mẫu",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: suggest/admit/avoid/enjoy + V-ing; decide/remember + to V; let + V; look forward to + V-ing.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet suggested ___ the dog twice a day.",
+                "ans": [
+                  0
+                ],
+                "tip": "suggest + V-ing.",
+                "why": "**suggest + V-ing** → feeding.",
+                "opts": [
+                  "feeding",
+                  "to feed",
+                  "feed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We decided ___ a kitten from the shelter.",
+                "ans": [
+                  1
+                ],
+                "tip": "decide + to V.",
+                "why": "**decide + to V**.",
+                "opts": [
+                  "adopting",
+                  "to adopt",
+                  "adopt"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Please remember ___ the tablets with food.",
+                "ans": [
+                  2
+                ],
+                "tip": "remember to V = nhớ làm.",
+                "why": "Nhắc việc cần làm → **to give**.",
+                "opts": [
+                  "giving",
+                  "give",
+                  "to give"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The owner admitted ___ the dog too many treats.",
+                "ans": [
+                  0
+                ],
+                "tip": "admit + V-ing.",
+                "why": "**admit + V-ing**.",
+                "opts": [
+                  "giving",
+                  "to give",
+                  "give"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The vet let the child ___ the rabbit.",
+                "ans": [
+                  1
+                ],
+                "tip": "let + O + V.",
+                "why": "**let + V nguyên mẫu** → hold.",
+                "opts": [
+                  "to hold",
+                  "hold",
+                  "holding"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I'm looking forward to ___ my own clinic.",
+                "ans": [
+                  2
+                ],
+                "tip": "look forward to + V-ing.",
+                "why": "to là giới từ → **opening**.",
+                "opts": [
+                  "open",
+                  "to open",
+                  "opening"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (V-ing hoặc to V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She enjoys ___ (work) with rescued animals.",
+                "ans": [
+                  [
+                    "working"
+                  ]
+                ],
+                "tip": "enjoy + V-ing.",
+                "why": "**working**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "It is important ___ (check) the animal's weight regularly.",
+                "ans": [
+                  [
+                    "to check"
+                  ]
+                ],
+                "tip": "It is important + to V.",
+                "why": "**to check**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "He avoids ___ (give) the cat human food.",
+                "ans": [
+                  [
+                    "giving"
+                  ]
+                ],
+                "tip": "avoid + V-ing.",
+                "why": "**giving**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The vet advised us ___ (keep) the dog on a lead.",
+                "ans": [
+                  [
+                    "to keep"
+                  ]
+                ],
+                "tip": "advise + O + to V.",
+                "why": "**to keep**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We are used to ___ (get up) at night for emergencies.",
+                "ans": [
+                  [
+                    "getting up"
+                  ]
+                ],
+                "tip": "be used to + V-ing.",
+                "why": "**getting up**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Lời nhờ và lời khuyên lịch sự",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: Could you ...?; Would you mind + V-ing?; I'd recommend + V-ing; You'd better + V; Why don't you + V?; If I were you, I would ...",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ you give me the dog's vaccination card, please?",
+                "ans": [
+                  0
+                ],
+                "tip": "Lời nhờ lịch sự.",
+                "why": "**Could you ...?** = lời nhờ lịch sự.",
+                "opts": [
+                  "Could",
+                  "Should",
+                  "Must"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Would you mind ___ the cat in the carrier?",
+                "ans": [
+                  1
+                ],
+                "tip": "Would you mind + V-ing?",
+                "why": "**putting**.",
+                "opts": [
+                  "to put",
+                  "putting",
+                  "put"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I'd recommend ___ the dog a smaller portion.",
+                "ans": [
+                  2
+                ],
+                "tip": "recommend + V-ing.",
+                "why": "**giving**.",
+                "opts": [
+                  "to give",
+                  "give",
+                  "giving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You'd better ___ the wound clean, or it will get infected.",
+                "ans": [
+                  0
+                ],
+                "tip": "had better + V (không to).",
+                "why": "**had better + V nguyên mẫu**.",
+                "opts": [
+                  "keep",
+                  "to keep",
+                  "keeping"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why don't you ___ a second opinion?",
+                "ans": [
+                  1
+                ],
+                "tip": "Why don't you + V?",
+                "why": "**get**.",
+                "opts": [
+                  "to get",
+                  "get",
+                  "getting"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I were you, I ___ the dog's teeth checked.",
+                "ans": [
+                  2
+                ],
+                "tip": "If I were you, I would...",
+                "why": "Lời khuyên → **would have**.",
+                "opts": [
+                  "will have",
+                  "had",
+                  "would have"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền cấu trúc lịch sự",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ từ hoặc dạng đúng của động từ vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ you hold the dog for me, please?",
+                "ans": [
+                  [
+                    "Could",
+                    "Can",
+                    "Would",
+                    "Will"
+                  ]
+                ],
+                "tip": "Lời nhờ.",
+                "why": "**Could / Can / Would you ...?**"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Would you mind ___ (wait) for ten minutes?",
+                "ans": [
+                  [
+                    "waiting"
+                  ]
+                ],
+                "tip": "mind + V-ing.",
+                "why": "**waiting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I suggest you ___ (book) a follow-up visit.",
+                "ans": [
+                  [
+                    "book"
+                  ]
+                ],
+                "tip": "suggest (that) you + V.",
+                "why": "**book**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You'd better ___ (not / leave) the puppy alone for long.",
+                "ans": [
+                  [
+                    "not leave"
+                  ]
+                ],
+                "tip": "had better not + V.",
+                "why": "**not leave**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "How about ___ (try) a different food?",
+                "ans": [
+                  [
+                    "trying"
+                  ]
+                ],
+                "tip": "How about + V-ing?",
+                "why": "**trying**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Welfare: the five freedoms",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Animal welfare means the physical and mental well-being of an animal. For many years, vets and scientists have used the five freedoms to explain what animals need. First, animals must be free from hunger and thirst, which means they have fresh water and a healthy diet. Second, they need freedom from discomfort, with a suitable shelter and a comfortable place to rest. Third, they must be free from pain, injury and disease. Fourth, they should be able to show normal behaviour, which requires enough space and company. Finally, they must be free from fear and distress.\n\nToday, many experts say that welfare is not only about avoiding suffering. Animals should also have positive experiences, such as play and social contact. Environmental enrichment, for example toys for cats or straw for pigs, helps to achieve this.\n\nVets play an important role in welfare. They are often the first to notice neglect or cruelty, and in many countries they have a legal duty to report it. They also educate owners. A common problem is obesity: an overweight dog may develop joint pain and diabetes. Simple advice about diet and exercise can add years to its life.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The five freedoms include freedom from hunger and thirst.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: tự do khỏi đói và khát."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Today, welfare is only about avoiding suffering.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: động vật cũng cần trải nghiệm tích cực như chơi và giao tiếp."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Enrichment such as toys can improve welfare.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đồ chơi cho mèo, rơm cho heo."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Vets never notice neglect or cruelty.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bác sĩ thú y thường là người đầu tiên nhận ra."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the freedom to show normal behaviour require?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cần đủ không gian và bạn đồng loại.",
+                "opts": [
+                  "A cone",
+                  "Enough space and company",
+                  "A vaccine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is an example of enrichment for pigs?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: rơm cho heo.",
+                "opts": [
+                  "A needle",
+                  "A lead",
+                  "Straw"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What problems can obesity cause in a dog?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: đau khớp và tiểu đường.",
+                "opts": [
+                  "Joint pain and diabetes",
+                  "Better hearing",
+                  "Longer claws"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What legal duty do vets often have?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: ở nhiều nước có nghĩa vụ pháp lý báo cáo.",
+                "opts": [
+                  "To adopt strays",
+                  "To report neglect or cruelty",
+                  "To sell food"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Breaking bad news",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "One of the hardest parts of a vet's job is talking to owners about serious illness or death. For many people, a pet is a member of the family, so the news can feel like losing a relative. Good communication does not remove the pain, but it can make the experience easier.\n\nFirst, the vet chooses a quiet room and sits down with the owner. She speaks clearly and avoids technical words. Instead of using many medical terms, she explains the diagnosis simply and honestly. She then describes the options: treatment, palliative care or, if the animal is suffering and cannot be cured, euthanasia. The owner may want a second opinion, and the vet should respect this.\n\nIt is important to listen. The owner may cry or feel angry or guilty, and the vet should show empathy without hurrying. Costs should be explained honestly, and an estimate should be given before treatment. Finally, the vet gives written discharge instructions and arranges a follow-up call.\n\nMany vets also feel sad after difficult cases. Talking to colleagues helps them to look after their own well-being.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Losing a pet can feel like losing a member of the family.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: với nhiều người, thú cưng là thành viên gia đình."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The vet should use as many medical terms as possible.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nên tránh thuật ngữ và giải thích đơn giản."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Owners may want a second opinion.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bác sĩ cần tôn trọng nhu cầu này."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Vets never feel sad after difficult cases.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: nhiều bác sĩ cũng buồn sau ca khó."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Where does the vet speak to the owner?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chọn phòng yên tĩnh và ngồi xuống.",
+                "opts": [
+                  "In the car park",
+                  "In the operating theatre",
+                  "In a quiet room"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which option may be discussed if the animal is suffering and cannot be cured?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: điều trị, chăm sóc giảm nhẹ hoặc an tử.",
+                "opts": [
+                  "Euthanasia",
+                  "A haircut",
+                  "A new toy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should be given before treatment starts?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cần nêu chi phí trung thực và báo giá trước.",
+                "opts": [
+                  "A vaccine",
+                  "An estimate of the costs",
+                  "A new collar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What helps vets look after their own well-being?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 4: trao đổi với đồng nghiệp.",
+                "opts": [
+                  "Working alone",
+                  "Avoiding owners",
+                  "Talking to colleagues"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "alert",
+      "tỉnh táo"
+    ],
+    [
+      "absorb",
+      "hấp thu"
+    ],
+    [
+      "active",
+      "hoạt bát"
+    ],
+    [
+      "attach",
+      "bám vào"
+    ],
+    [
+      "balanced",
+      "cân bằng"
+    ],
+    [
+      "breathe",
+      "thở"
+    ],
+    [
+      "carefully",
+      "cẩn thận"
+    ],
+    [
+      "chew",
+      "nhai"
+    ],
+    [
+      "clue",
+      "gợi ý, manh mối"
+    ],
+    [
+      "comfortable",
+      "thoải mái"
+    ],
+    [
+      "condition",
+      "tình trạng"
+    ],
+    [
+      "cure",
+      "chữa khỏi"
+    ],
+    [
+      "dangerous",
+      "nguy hiểm"
+    ],
+    [
+      "digest",
+      "tiêu hóa"
+    ],
+    [
+      "disappear",
+      "biến mất"
+    ],
+    [
+      "distress",
+      "nỗi đau khổ"
+    ],
+    [
+      "equipment",
+      "thiết bị"
+    ],
+    [
+      "examine",
+      "khám"
+    ],
+    [
+      "fatal",
+      "gây tử vong"
+    ],
+    [
+      "fibre",
+      "chất xơ"
+    ],
+    [
+      "fresh",
+      "tươi, sạch"
+    ],
+    [
+      "gentle",
+      "nhẹ nhàng"
+    ],
+    [
+      "guilty",
+      "có lỗi"
+    ],
+    [
+      "handle",
+      "xử lý, cầm"
+    ],
+    [
+      "healthy",
+      "khỏe mạnh"
+    ],
+    [
+      "honest",
+      "trung thực"
+    ],
+    [
+      "hurry",
+      "vội vàng"
+    ],
+    [
+      "identify",
+      "nhận dạng"
+    ],
+    [
+      "infect",
+      "lây nhiễm"
+    ],
+    [
+      "injection",
+      "mũi tiêm"
+    ],
+    [
+      "injury",
+      "chấn thương"
+    ],
+    [
+      "itchy",
+      "ngứa"
+    ],
+    [
+      "lick",
+      "liếm"
+    ],
+    [
+      "mild",
+      "nhẹ"
+    ],
+    [
+      "notice",
+      "nhận thấy"
+    ],
+    [
+      "nutrient",
+      "chất dinh dưỡng"
+    ],
+    [
+      "pale",
+      "nhợt nhạt"
+    ],
+    [
+      "prevent",
+      "ngăn ngừa"
+    ],
+    [
+      "protect",
+      "bảo vệ"
+    ],
+    [
+      "quiet",
+      "yên tĩnh"
+    ],
+    [
+      "receive",
+      "nhận"
+    ],
+    [
+      "recommend",
+      "khuyên"
+    ],
+    [
+      "reduce",
+      "giảm"
+    ],
+    [
+      "remove",
+      "loại bỏ"
+    ],
+    [
+      "require",
+      "đòi hỏi"
+    ],
+    [
+      "rest",
+      "nghỉ ngơi"
+    ],
+    [
+      "rescue",
+      "giải cứu"
+    ],
+    [
+      "scratch",
+      "gãi"
+    ],
+    [
+      "seriously",
+      "nghiêm trọng"
+    ],
+    [
+      "slightly",
+      "một chút"
+    ],
+    [
+      "spread",
+      "lan truyền"
+    ],
+    [
+      "suffer",
+      "chịu đựng"
+    ],
+    [
+      "swollen",
+      "sưng"
+    ],
+    [
+      "tablet",
+      "viên thuốc"
+    ],
+    [
+      "tired",
+      "mệt"
+    ],
+    [
+      "unwanted",
+      "không mong muốn"
+    ],
+    [
+      "weak",
+      "yếu"
+    ],
+    [
+      "wild",
+      "hoang dã"
+    ],
+    [
+      "worried",
+      "lo lắng"
+    ],
+    [
+      "vomit",
+      "nôn"
+    ],
+    [
+      "breath",
+      "hơi thở"
+    ],
+    [
+      "bleed",
+      "chảy máu"
+    ],
+    [
+      "calm",
+      "bình tĩnh"
+    ],
+    [
+      "collapse",
+      "ngã quỵ"
+    ],
+    [
+      "recover",
+      "hồi phục"
+    ],
+    [
+      "regularly",
+      "thường xuyên"
+    ],
+    [
+      "slowly",
+      "chậm rãi"
+    ],
+    [
+      "gently",
+      "nhẹ nhàng"
+    ],
+    [
+      "farmer",
+      "nông dân"
+    ],
+    [
+      "weigh",
+      "cân"
+    ],
+    [
+      "owner",
+      "chủ"
+    ],
+    [
+      "vaccinate",
+      "tiêm phòng"
+    ],
+    [
+      "disease",
+      "bệnh"
+    ],
+    [
+      "illness",
+      "bệnh tật"
+    ],
+    [
+      "swallow",
+      "nuốt"
+    ],
+    [
+      "sudden",
+      "đột ngột"
+    ],
+    [
+      "billions",
+      "hàng tỷ"
+    ],
+    [
+      "expert",
+      "chuyên gia"
+    ],
+    [
+      "legal",
+      "hợp pháp"
+    ],
+    [
+      "duty",
+      "nghĩa vụ"
+    ],
+    [
+      "relative",
+      "người thân"
+    ],
+    [
+      "angry",
+      "tức giận"
+    ],
+    [
+      "cry",
+      "khóc"
+    ],
+    [
+      "sad",
+      "buồn"
+    ],
+    [
+      "fear",
+      "nỗi sợ"
+    ]
+  ]
+}

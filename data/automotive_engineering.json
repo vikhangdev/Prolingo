@@ -1,0 +1,4242 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "automotive-engineering",
+    "name": "Automotive Engineering",
+    "name_vi": "Kỹ thuật ô tô",
+    "icon": "🚗",
+    "hue": 5,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành kỹ thuật ô tô: các hệ thống trên xe, động cơ & truyền động, sản xuất & lắp ráp, an toàn & quy định, xe điện & xe tự lái, chẩn đoán & bảo dưỡng."
+  },
+  "units": [
+    {
+      "name": "Vehicle Systems Overview",
+      "name_vi": "Tổng quan các hệ thống trên xe",
+      "icon": "🚗",
+      "hue": 5,
+      "words": [
+        {
+          "en": "vehicle",
+          "vi": "phương tiện, xe"
+        },
+        {
+          "en": "chassis",
+          "vi": "khung gầm"
+        },
+        {
+          "en": "bodywork",
+          "vi": "thân vỏ xe"
+        },
+        {
+          "en": "engine",
+          "vi": "động cơ"
+        },
+        {
+          "en": "transmission",
+          "vi": "hộp số, hệ truyền động"
+        },
+        {
+          "en": "drivetrain",
+          "vi": "hệ thống truyền lực"
+        },
+        {
+          "en": "suspension",
+          "vi": "hệ thống treo"
+        },
+        {
+          "en": "shock absorber",
+          "vi": "giảm xóc"
+        },
+        {
+          "en": "steering",
+          "vi": "hệ thống lái"
+        },
+        {
+          "en": "brake",
+          "vi": "phanh"
+        },
+        {
+          "en": "brake pad",
+          "vi": "má phanh"
+        },
+        {
+          "en": "wheel",
+          "vi": "bánh xe"
+        },
+        {
+          "en": "tire",
+          "vi": "lốp xe"
+        },
+        {
+          "en": "axle",
+          "vi": "trục xe"
+        },
+        {
+          "en": "clutch",
+          "vi": "ly hợp"
+        },
+        {
+          "en": "gearbox",
+          "vi": "hộp số"
+        },
+        {
+          "en": "differential",
+          "vi": "vi sai"
+        },
+        {
+          "en": "exhaust",
+          "vi": "hệ thống xả"
+        },
+        {
+          "en": "fuel tank",
+          "vi": "thùng nhiên liệu"
+        },
+        {
+          "en": "radiator",
+          "vi": "két nước làm mát"
+        },
+        {
+          "en": "battery",
+          "vi": "ắc quy, pin"
+        },
+        {
+          "en": "alternator",
+          "vi": "máy phát điện"
+        },
+        {
+          "en": "dashboard",
+          "vi": "bảng điều khiển"
+        },
+        {
+          "en": "cabin",
+          "vi": "khoang hành khách"
+        },
+        {
+          "en": "windshield",
+          "vi": "kính chắn gió"
+        },
+        {
+          "en": "bumper",
+          "vi": "cản xe"
+        },
+        {
+          "en": "sedan",
+          "vi": "xe sedan"
+        },
+        {
+          "en": "SUV",
+          "vi": "xe SUV"
+        },
+        {
+          "en": "pickup truck",
+          "vi": "xe bán tải"
+        },
+        {
+          "en": "hatchback",
+          "vi": "xe hatchback"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the main structure that supports the engine, body and wheels.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**chassis** = khung gầm.",
+                "opts": [
+                  "dashboard",
+                  "chassis",
+                  "exhaust"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ transfers power from the engine to the wheels.",
+                "ans": [
+                  0
+                ],
+                "tip": "drive + train.",
+                "why": "**drivetrain** = hệ thống truyền lực.",
+                "opts": [
+                  "drivetrain",
+                  "bumper",
+                  "radiator"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ absorbs bumps from the road and makes the ride more comfortable.",
+                "ans": [
+                  2
+                ],
+                "tip": "absorb = hấp thụ.",
+                "why": "**shock absorber** = giảm xóc.",
+                "opts": [
+                  "alternator",
+                  "gearbox",
+                  "shock absorber"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ cools the engine by passing coolant through thin pipes.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**radiator** = két nước làm mát.",
+                "opts": [
+                  "radiator",
+                  "alternator",
+                  "exhaust"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ presses against the disc to slow the wheel.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**brake pad** = má phanh.",
+                "opts": [
+                  "brake pad",
+                  "axle",
+                  "bumper"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ charges the battery while the engine is running.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**alternator** = máy phát điện.",
+                "opts": [
+                  "alternator",
+                  "differential",
+                  "clutch"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ allows the left and right wheels to turn at different speeds in a corner.",
+                "ans": [
+                  0
+                ],
+                "tip": "differ = khác nhau.",
+                "why": "**differential** = vi sai.",
+                "opts": [
+                  "differential",
+                  "clutch",
+                  "axle"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ has a rear door that opens upward together with the rear window.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**hatchback** = xe có cửa hậu mở lên.",
+                "opts": [
+                  "sedan",
+                  "pickup truck",
+                  "hatchback"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "axle",
+                "b": "a rod on which a pair of wheels turns",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "clutch",
+                "b": "a device that connects and disconnects the engine from the gearbox",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gearbox",
+                "b": "a unit that changes the gear ratio between the engine and the wheels",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "exhaust",
+                "b": "the system that carries waste gases away from the engine",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "fuel tank",
+                "b": "the container that stores fuel",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bumper",
+                "b": "a bar at the front or rear that absorbs impact",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "dashboard",
+                "b": "the panel in front of the driver with instruments and controls",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "steering",
+                "b": "the system that lets the driver change the direction of the vehicle",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The engine ___ power to the wheels through the transmission.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Sự thật kỹ thuật → **sends**.",
+                "opts": [
+                  "sends",
+                  "is sending",
+                  "send"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Right now, the mechanic ___ the brake pads.",
+                "ans": [
+                  1
+                ],
+                "tip": "now → be + V-ing.",
+                "why": "'Right now' → **is checking**.",
+                "opts": [
+                  "checks",
+                  "is checking",
+                  "checked"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A radiator usually ___ the engine.",
+                "ans": [
+                  0
+                ],
+                "tip": "usually → hiện tại đơn.",
+                "why": "'usually' → **cools**.",
+                "opts": [
+                  "cools",
+                  "is cooling",
+                  "cool"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ a new chassis design this month.",
+                "ans": [
+                  2
+                ],
+                "tip": "this month (tạm thời) → tiếp diễn.",
+                "why": "Việc đang diễn ra → **are testing**.",
+                "opts": [
+                  "test",
+                  "tested",
+                  "are testing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The alternator ___ electricity for the whole car.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Chức năng cố định → **produces**.",
+                "opts": [
+                  "produces",
+                  "is producing",
+                  "produce"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Listen! The engine ___ a strange noise.",
+                "ans": [
+                  1
+                ],
+                "tip": "Listen! → đang xảy ra.",
+                "why": "'Listen!' → **is making**.",
+                "opts": [
+                  "makes",
+                  "is making",
+                  "made"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The steering system ___ (let) the driver control the direction.",
+                "ans": [
+                  [
+                    "lets"
+                  ]
+                ],
+                "tip": "He/She/It + V-s.",
+                "why": "Sự thật chung → **lets**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "At the moment, the technician ___ (replace) the tires.",
+                "ans": [
+                  [
+                    "is replacing",
+                    "'s replacing"
+                  ]
+                ],
+                "tip": "be + V-ing.",
+                "why": "'At the moment' → **is replacing**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Most sedans ___ (have) four doors.",
+                "ans": [
+                  [
+                    "have"
+                  ]
+                ],
+                "tip": "Chủ ngữ số nhiều.",
+                "why": "Sự thật chung, số nhiều → **have**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The car ___ (not / start) because the battery is flat.",
+                "ans": [
+                  [
+                    "isn't starting",
+                    "is not starting",
+                    "doesn't start",
+                    "does not start"
+                  ]
+                ],
+                "tip": "",
+                "why": "Hiện tượng đang xảy ra → **isn't starting** (hoặc doesn't start)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The company ___ (produce) 500 vehicles every day.",
+                "ans": [
+                  [
+                    "produces"
+                  ]
+                ],
+                "tip": "every day → hiện tại đơn.",
+                "why": "'every day' → **produces**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · What is inside a car?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A modern vehicle is a complex system of many parts that work together. The chassis is the frame that carries everything else, and the bodywork protects the passengers. The engine produces power, and the transmission sends it through the drivetrain to the wheels. The gearbox and the clutch let the driver change gear, while the differential allows the wheels to turn at different speeds in a corner.\n\nOther systems keep the car safe and comfortable. The suspension, with its shock absorbers, absorbs bumps from the road. The steering system lets the driver choose the direction, and the brakes slow the vehicle down. The radiator cools the engine, and the alternator charges the battery while the engine is running.\n\nToday, many manufacturers are developing new types of vehicles. For example, at the moment they are adding more electronics to the dashboard and are changing the way drivers interact with their cars.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The chassis carries the other parts of the vehicle.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: khung gầm mang các bộ phận còn lại."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The differential makes all wheels turn at the same speed.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vi sai cho phép bánh xe quay với tốc độ **khác nhau** ở góc cua."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The radiator cools the engine.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: két nước làm mát động cơ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The alternator slows the vehicle down.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: máy phát điện sạc ắc quy; **phanh** làm xe chậm lại."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the bodywork do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vỏ xe bảo vệ hành khách.",
+                "opts": [
+                  "Produces power",
+                  "Protects the passengers",
+                  "Charges the battery"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do the gearbox and clutch allow the driver to do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cho phép người lái chuyển số.",
+                "opts": [
+                  "Cool the engine",
+                  "Change gear",
+                  "Absorb bumps"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the suspension do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hệ thống treo hấp thụ xóc từ mặt đường.",
+                "opts": [
+                  "Slows the vehicle down",
+                  "Charges the battery",
+                  "Absorbs bumps from the road"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are manufacturers doing at the moment?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: đang bổ sung thêm thiết bị điện tử vào bảng điều khiển.",
+                "opts": [
+                  "Removing all electronics",
+                  "Removing the steering system",
+                  "Adding more electronics to the dashboard"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Engines & Powertrain",
+      "name_vi": "Động cơ & hệ truyền động",
+      "icon": "🔥",
+      "hue": 25,
+      "words": [
+        {
+          "en": "internal combustion engine",
+          "vi": "động cơ đốt trong"
+        },
+        {
+          "en": "cylinder",
+          "vi": "xi lanh"
+        },
+        {
+          "en": "piston",
+          "vi": "pít-tông"
+        },
+        {
+          "en": "crankshaft",
+          "vi": "trục khuỷu"
+        },
+        {
+          "en": "camshaft",
+          "vi": "trục cam"
+        },
+        {
+          "en": "valve",
+          "vi": "van, xu-páp"
+        },
+        {
+          "en": "spark plug",
+          "vi": "bugi"
+        },
+        {
+          "en": "fuel injector",
+          "vi": "kim phun nhiên liệu"
+        },
+        {
+          "en": "combustion",
+          "vi": "sự cháy, quá trình đốt"
+        },
+        {
+          "en": "intake",
+          "vi": "nạp (khí)"
+        },
+        {
+          "en": "turbocharger",
+          "vi": "bộ tăng áp"
+        },
+        {
+          "en": "horsepower",
+          "vi": "mã lực"
+        },
+        {
+          "en": "torque",
+          "vi": "mô-men xoắn"
+        },
+        {
+          "en": "displacement",
+          "vi": "dung tích xi lanh"
+        },
+        {
+          "en": "compression ratio",
+          "vi": "tỷ số nén"
+        },
+        {
+          "en": "four-stroke cycle",
+          "vi": "chu trình bốn kỳ"
+        },
+        {
+          "en": "diesel",
+          "vi": "dầu diesel, động cơ diesel"
+        },
+        {
+          "en": "petrol",
+          "vi": "xăng"
+        },
+        {
+          "en": "fuel consumption",
+          "vi": "mức tiêu hao nhiên liệu"
+        },
+        {
+          "en": "emissions",
+          "vi": "khí thải"
+        },
+        {
+          "en": "catalytic converter",
+          "vi": "bộ xúc tác khí xả"
+        },
+        {
+          "en": "cooling system",
+          "vi": "hệ thống làm mát"
+        },
+        {
+          "en": "engine oil",
+          "vi": "dầu động cơ"
+        },
+        {
+          "en": "ignition",
+          "vi": "đánh lửa"
+        },
+        {
+          "en": "throttle",
+          "vi": "bướm ga"
+        },
+        {
+          "en": "engine control unit (ECU)",
+          "vi": "bộ điều khiển động cơ (ECU)"
+        },
+        {
+          "en": "manual transmission",
+          "vi": "hộp số sàn"
+        },
+        {
+          "en": "automatic transmission",
+          "vi": "hộp số tự động"
+        },
+        {
+          "en": "efficiency",
+          "vi": "hiệu suất"
+        },
+        {
+          "en": "power output",
+          "vi": "công suất đầu ra"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ moves up and down inside the cylinder.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**piston** = pít-tông.",
+                "opts": [
+                  "camshaft",
+                  "spark plug",
+                  "piston"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ converts the up-and-down movement of the pistons into rotation.",
+                "ans": [
+                  0
+                ],
+                "tip": "crank = tay quay.",
+                "why": "**crankshaft** = trục khuỷu.",
+                "opts": [
+                  "crankshaft",
+                  "valve",
+                  "fuel injector"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ ignites the mixture of fuel and air in a petrol engine.",
+                "ans": [
+                  0
+                ],
+                "tip": "spark = tia lửa.",
+                "why": "**spark plug** = bugi.",
+                "opts": [
+                  "spark plug",
+                  "turbocharger",
+                  "piston"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ uses exhaust gases to force more air into the engine.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**turbocharger** = bộ tăng áp.",
+                "opts": [
+                  "catalytic converter",
+                  "throttle",
+                  "turbocharger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the turning force produced by the engine.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**torque** = mô-men xoắn.",
+                "opts": [
+                  "torque",
+                  "intake",
+                  "emissions"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ reduces harmful gases in the exhaust.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**catalytic converter** = bộ xúc tác khí xả.",
+                "opts": [
+                  "catalytic converter",
+                  "turbocharger",
+                  "fuel injector"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the amount of fuel that a vehicle uses over a certain distance.",
+                "ans": [
+                  0
+                ],
+                "tip": "consume = tiêu thụ.",
+                "why": "**Fuel consumption** = mức tiêu hao nhiên liệu.",
+                "opts": [
+                  "Fuel consumption",
+                  "Compression ratio",
+                  "Horsepower"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the computer that controls fuel injection and ignition timing.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**ECU** = bộ điều khiển động cơ.",
+                "opts": [
+                  "engine control unit (ECU)",
+                  "throttle",
+                  "crankshaft"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cylinder",
+                "b": "a chamber in which the piston moves",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "camshaft",
+                "b": "a rotating shaft that opens and closes the valves",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "valve",
+                "b": "a part that controls the flow of air or gas into or out of the cylinder",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "combustion",
+                "b": "the burning of fuel and air to produce energy",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "displacement",
+                "b": "the total volume of all the cylinders in an engine",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "compression ratio",
+                "b": "the ratio of the cylinder volume before and after compression",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "horsepower",
+                "b": "a unit used to measure the power of an engine",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "fuel injector",
+                "b": "a device that sprays fuel into the engine",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A diesel engine is usually ___ than a petrol engine.",
+                "ans": [
+                  0
+                ],
+                "tip": "Tính từ dài + more.",
+                "why": "efficient dài → **more efficient than**.",
+                "opts": [
+                  "more efficient",
+                  "efficienter",
+                  "most efficient"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This is the ___ engine in the range.",
+                "ans": [
+                  1
+                ],
+                "tip": "the + most + tính từ dài.",
+                "why": "'the' → **most powerful**.",
+                "opts": [
+                  "more powerful",
+                  "most powerful",
+                  "powerfulest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ the displacement, the more fuel the engine usually uses.",
+                "ans": [
+                  2
+                ],
+                "tip": "the + so sánh hơn, the + so sánh hơn.",
+                "why": "Cấu trúc 'the ... the ...' → **bigger**.",
+                "opts": [
+                  "big",
+                  "biggest",
+                  "bigger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Automatic transmissions are ___ to drive than manual ones in heavy traffic.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "easy → **easier than**.",
+                "opts": [
+                  "more easy",
+                  "easier",
+                  "easiest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This engine is as ___ as the old one.",
+                "ans": [
+                  1
+                ],
+                "tip": "as + tính từ gốc + as.",
+                "why": "So sánh bằng: as **quiet** as.",
+                "opts": [
+                  "quieter",
+                  "quiet",
+                  "quietest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A smaller engine is usually ___ than a larger one.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "light → **lighter than**.",
+                "opts": [
+                  "lighter",
+                  "more light",
+                  "lightest"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct comparative or superlative form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A diesel engine produces ___ (much) torque than a petrol engine of the same size.",
+                "ans": [
+                  [
+                    "more"
+                  ]
+                ],
+                "tip": "much – more – most.",
+                "why": "**more** torque."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This new engine is ___ (quiet) than the old model.",
+                "ans": [
+                  [
+                    "quieter"
+                  ]
+                ],
+                "tip": "Tính từ ngắn + -er.",
+                "why": "**quieter**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "That is the ___ (fuel-efficient) car in its class.",
+                "ans": [
+                  [
+                    "most fuel-efficient"
+                  ]
+                ],
+                "tip": "the + most + tính từ dài.",
+                "why": "**most fuel-efficient**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A sports car is ___ (fast) than a family sedan.",
+                "ans": [
+                  [
+                    "faster"
+                  ]
+                ],
+                "tip": "",
+                "why": "fast → **faster**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Hybrid engines are ___ (good) for the environment than diesel engines.",
+                "ans": [
+                  [
+                    "better"
+                  ]
+                ],
+                "tip": "good – better – best.",
+                "why": "**better**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How an engine works",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Most cars still use an internal combustion engine. Inside the engine, fuel and air are mixed and burned in the cylinders. This combustion pushes the pistons down, and the crankshaft converts their movement into rotation. The camshaft opens and closes the valves so that air enters and exhaust gases leave at the right moment.\n\nMost engines use a four-stroke cycle: intake, compression, combustion and exhaust. In a petrol engine, a spark plug ignites the mixture. A diesel engine does not need a spark plug because the air is compressed much more strongly, so it becomes hotter. As a result, diesel engines are usually more efficient than petrol engines, but they are also noisier.\n\nEngineers always try to make engines more powerful and cleaner. A turbocharger forces more air into the cylinders, so a small engine can produce as much power as a larger one. A catalytic converter reduces harmful emissions, and the ECU controls the whole process.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Combustion pushes the pistons down.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: quá trình cháy đẩy pít-tông xuống."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A diesel engine needs a spark plug.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: động cơ diesel **không cần** bugi vì không khí bị nén nóng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Diesel engines are usually noisier than petrol engines.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: diesel thường hiệu quả hơn nhưng ồn hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A turbocharger removes air from the cylinders.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bộ tăng áp ép **thêm** không khí vào xi lanh."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the crankshaft do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: chuyển chuyển động của pít-tông thành chuyển động quay.",
+                "opts": [
+                  "Opens the valves",
+                  "Converts the movement of the pistons into rotation",
+                  "Ignites the mixture"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are the four strokes?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nạp, nén, cháy, xả.",
+                "opts": [
+                  "Start, stop, turn and brake",
+                  "Intake, compression, combustion and exhaust",
+                  "Pump, cool, ignite and charge"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why can a small turbocharged engine produce as much power as a larger one?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bộ tăng áp ép thêm khí vào xi lanh.",
+                "opts": [
+                  "It has bigger pistons",
+                  "It burns less air",
+                  "A turbocharger forces more air into the cylinders"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a catalytic converter do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: giảm khí thải độc hại.",
+                "opts": [
+                  "Controls the valves",
+                  "Reduces harmful emissions",
+                  "Charges the battery"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manufacturing & Assembly",
+      "name_vi": "Sản xuất & lắp ráp ô tô",
+      "icon": "🏭",
+      "hue": 200,
+      "words": [
+        {
+          "en": "assembly line",
+          "vi": "dây chuyền lắp ráp"
+        },
+        {
+          "en": "stamping",
+          "vi": "dập (tấm kim loại)"
+        },
+        {
+          "en": "welding",
+          "vi": "hàn"
+        },
+        {
+          "en": "casting",
+          "vi": "đúc"
+        },
+        {
+          "en": "forging",
+          "vi": "rèn"
+        },
+        {
+          "en": "machining",
+          "vi": "gia công cắt gọt"
+        },
+        {
+          "en": "painting",
+          "vi": "sơn"
+        },
+        {
+          "en": "quality control",
+          "vi": "kiểm soát chất lượng"
+        },
+        {
+          "en": "inspection",
+          "vi": "kiểm tra"
+        },
+        {
+          "en": "tolerance",
+          "vi": "dung sai"
+        },
+        {
+          "en": "mass production",
+          "vi": "sản xuất hàng loạt"
+        },
+        {
+          "en": "lean manufacturing",
+          "vi": "sản xuất tinh gọn"
+        },
+        {
+          "en": "just-in-time (JIT)",
+          "vi": "đúng lúc (JIT)"
+        },
+        {
+          "en": "supplier",
+          "vi": "nhà cung cấp"
+        },
+        {
+          "en": "component",
+          "vi": "linh kiện"
+        },
+        {
+          "en": "prototype",
+          "vi": "mẫu thử"
+        },
+        {
+          "en": "computer-aided design (CAD)",
+          "vi": "thiết kế có sự hỗ trợ máy tính"
+        },
+        {
+          "en": "CNC machine",
+          "vi": "máy CNC"
+        },
+        {
+          "en": "die",
+          "vi": "khuôn dập"
+        },
+        {
+          "en": "mold",
+          "vi": "khuôn đúc"
+        },
+        {
+          "en": "fastener",
+          "vi": "chi tiết kẹp chặt (vít, bu-lông)"
+        },
+        {
+          "en": "bolt",
+          "vi": "bu-lông"
+        },
+        {
+          "en": "torque wrench",
+          "vi": "cờ lê lực"
+        },
+        {
+          "en": "workstation",
+          "vi": "trạm làm việc"
+        },
+        {
+          "en": "cycle time",
+          "vi": "thời gian chu kỳ"
+        },
+        {
+          "en": "defect",
+          "vi": "lỗi, khuyết tật"
+        },
+        {
+          "en": "recall",
+          "vi": "triệu hồi (sản phẩm)"
+        },
+        {
+          "en": "body shop",
+          "vi": "xưởng thân vỏ"
+        },
+        {
+          "en": "paint shop",
+          "vi": "xưởng sơn"
+        },
+        {
+          "en": "tooling",
+          "vi": "dụng cụ, khuôn gá"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "On an ___, the vehicle moves from one workstation to the next.",
+                "ans": [
+                  2
+                ],
+                "tip": "assemble = lắp ráp.",
+                "why": "**assembly line** = dây chuyền lắp ráp.",
+                "opts": [
+                  "tooling",
+                  "body shop",
+                  "assembly line"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In ___, flat sheets of steel are pressed into the shape of body panels.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**stamping** = dập tấm kim loại.",
+                "opts": [
+                  "stamping",
+                  "casting",
+                  "forging"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In ___, liquid metal is poured into a mold to make an engine block.",
+                "ans": [
+                  2
+                ],
+                "tip": "cast = đúc.",
+                "why": "**casting** = đúc.",
+                "opts": [
+                  "stamping",
+                  "machining",
+                  "casting"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ joins metal parts together using heat.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**Welding** = hàn.",
+                "opts": [
+                  "Forging",
+                  "Welding",
+                  "Painting"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ checks that every product meets the required standards.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**Quality control** = kiểm soát chất lượng.",
+                "opts": [
+                  "Mass production",
+                  "Lean manufacturing",
+                  "Quality control"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a fault in a product that does not meet the specification.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**defect** = lỗi, khuyết tật.",
+                "opts": [
+                  "tolerance",
+                  "fastener",
+                  "defect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The manufacturer announced a ___ because of a faulty airbag.",
+                "ans": [
+                  2
+                ],
+                "tip": "re + call = gọi lại.",
+                "why": "**recall** = triệu hồi sản phẩm lỗi.",
+                "opts": [
+                  "prototype",
+                  "inspection",
+                  "recall"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Using the ___ system, parts arrive at the factory just when they are needed.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**JIT** = giao đúng lúc cần dùng.",
+                "opts": [
+                  "mass production",
+                  "quality control",
+                  "just-in-time (JIT)"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "forging",
+                "b": "shaping hot metal by hammering or pressing",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "machining",
+                "b": "cutting metal to an exact shape with machine tools",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tolerance",
+                "b": "the allowed difference from an exact measurement",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lean manufacturing",
+                "b": "a method that reduces waste in production",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "supplier",
+                "b": "a company that provides parts or materials",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "fastener",
+                "b": "a part such as a bolt that holds components together",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "torque wrench",
+                "b": "a tool that tightens a bolt with a measured force",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tooling",
+                "b": "the dies, molds and tools used to make parts",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The body panels ___ by a large press.",
+                "ans": [
+                  2
+                ],
+                "tip": "Hiện tại bị động: are + V3.",
+                "why": "**are stamped**.",
+                "opts": [
+                  "stamp",
+                  "are stamping",
+                  "are stamped"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The doors ___ by robots at the moment.",
+                "ans": [
+                  1
+                ],
+                "tip": "are being + V3.",
+                "why": "'at the moment' → **are being welded**.",
+                "opts": [
+                  "are welding",
+                  "are being welded",
+                  "weld"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The new model ___ at the plant last year.",
+                "ans": [
+                  1
+                ],
+                "tip": "was + V3.",
+                "why": "'last year' → **was introduced**.",
+                "opts": [
+                  "introduced",
+                  "was introduced",
+                  "is introducing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Each engine ___ before it leaves the factory.",
+                "ans": [
+                  2
+                ],
+                "tip": "is + V3.",
+                "why": "**is tested**.",
+                "opts": [
+                  "tests",
+                  "is testing",
+                  "is tested"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The paint ___ yet.",
+                "ans": [
+                  2
+                ],
+                "tip": "has been + V3.",
+                "why": "'yet' → **hasn't been applied**.",
+                "opts": [
+                  "hasn't applied",
+                  "didn't applied",
+                  "hasn't been applied"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The prototype ___ next month.",
+                "ans": [
+                  1
+                ],
+                "tip": "will be + V3.",
+                "why": "'next month' → **will be built**.",
+                "opts": [
+                  "will build",
+                  "will be built",
+                  "is building"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct passive form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Car bodies ___ (paint) in the paint shop.",
+                "ans": [
+                  [
+                    "are painted"
+                  ]
+                ],
+                "tip": "are + V3.",
+                "why": "**are painted**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The engine block ___ (cast) from aluminium.",
+                "ans": [
+                  [
+                    "is cast"
+                  ]
+                ],
+                "tip": "cast – cast – cast.",
+                "why": "**is cast**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The defective parts ___ (reject) by the inspector yesterday.",
+                "ans": [
+                  [
+                    "were rejected"
+                  ]
+                ],
+                "tip": "were + V3.",
+                "why": "'yesterday' → **were rejected**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A new assembly line ___ (install) next year.",
+                "ans": [
+                  [
+                    "will be installed",
+                    "is going to be installed"
+                  ]
+                ],
+                "tip": "will be + V3.",
+                "why": "'next year' → **will be installed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The bolts ___ (tighten) with a torque wrench at the moment.",
+                "ans": [
+                  [
+                    "are being tightened"
+                  ]
+                ],
+                "tip": "are being + V3.",
+                "why": "'at the moment' → **are being tightened**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Building a car",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Car manufacturing is a complex process. First, steel sheets are stamped into body panels by large presses. The panels are then welded together in the body shop, where most of the work is done by robots. Engine blocks are made by casting, and many parts are machined to an exact tolerance.\n\nAfter welding, the body is cleaned and painted in the paint shop. Then it is moved to the assembly line, where engines, seats, wiring and wheels are installed. Components are delivered by suppliers just in time, so factories do not need to store large quantities.\n\nQuality is checked at every stage. Each car is inspected, and the engine is tested before the vehicle leaves the plant. If a defect is found, the part is replaced. When a serious problem is discovered after sale, the manufacturer may recall the cars so that they can be repaired free of charge.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Steel sheets are stamped into body panels.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: tấm thép được dập thành tấm thân vỏ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Most of the welding in the body shop is done by hand.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: phần lớn công việc do **robot** thực hiện."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Components are delivered by suppliers just in time.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhà cung cấp giao linh kiện đúng lúc."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Cars are inspected only after they are sold.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: chất lượng được kiểm tra ở **mọi giai đoạn**, trước khi xe rời nhà máy."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How are engine blocks made?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: khối động cơ được làm bằng phương pháp đúc.",
+                "opts": [
+                  "By stamping",
+                  "By painting",
+                  "By casting"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens in the paint shop?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thân xe được làm sạch và sơn.",
+                "opts": [
+                  "The body is cleaned and painted",
+                  "Engines are tested",
+                  "Seats are installed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do factories not need to store large quantities of components?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhà cung cấp giao đúng lúc.",
+                "opts": [
+                  "Robots make all parts",
+                  "Suppliers deliver them just in time",
+                  "Parts are never used"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why may a manufacturer recall cars?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phát hiện vấn đề nghiêm trọng sau khi bán.",
+                "opts": [
+                  "The paint is dry",
+                  "The plant is closed",
+                  "A serious problem is discovered after sale"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vehicle Safety & Regulations",
+      "name_vi": "An toàn xe & quy định",
+      "icon": "🚦",
+      "hue": 130,
+      "words": [
+        {
+          "en": "seat belt",
+          "vi": "dây an toàn"
+        },
+        {
+          "en": "airbag",
+          "vi": "túi khí"
+        },
+        {
+          "en": "crumple zone",
+          "vi": "vùng hấp thụ va chạm"
+        },
+        {
+          "en": "anti-lock braking system (ABS)",
+          "vi": "hệ thống chống bó cứng phanh (ABS)"
+        },
+        {
+          "en": "electronic stability control (ESC)",
+          "vi": "hệ thống cân bằng điện tử (ESC)"
+        },
+        {
+          "en": "collision",
+          "vi": "va chạm"
+        },
+        {
+          "en": "crash test",
+          "vi": "thử nghiệm va chạm"
+        },
+        {
+          "en": "impact",
+          "vi": "lực va đập"
+        },
+        {
+          "en": "rollover",
+          "vi": "lật xe"
+        },
+        {
+          "en": "child seat",
+          "vi": "ghế trẻ em"
+        },
+        {
+          "en": "headlight",
+          "vi": "đèn pha"
+        },
+        {
+          "en": "brake light",
+          "vi": "đèn phanh"
+        },
+        {
+          "en": "turn signal",
+          "vi": "đèn xi-nhan"
+        },
+        {
+          "en": "speed limit",
+          "vi": "giới hạn tốc độ"
+        },
+        {
+          "en": "traffic law",
+          "vi": "luật giao thông"
+        },
+        {
+          "en": "driver's license",
+          "vi": "bằng lái xe"
+        },
+        {
+          "en": "roadworthy",
+          "vi": "đủ điều kiện lưu hành"
+        },
+        {
+          "en": "vehicle inspection",
+          "vi": "đăng kiểm xe"
+        },
+        {
+          "en": "emission standard",
+          "vi": "tiêu chuẩn khí thải"
+        },
+        {
+          "en": "type approval",
+          "vi": "chứng nhận kiểu loại"
+        },
+        {
+          "en": "safety rating",
+          "vi": "xếp hạng an toàn"
+        },
+        {
+          "en": "pedestrian protection",
+          "vi": "bảo vệ người đi bộ"
+        },
+        {
+          "en": "blind spot",
+          "vi": "điểm mù"
+        },
+        {
+          "en": "driver assistance system",
+          "vi": "hệ thống hỗ trợ người lái"
+        },
+        {
+          "en": "lane departure warning",
+          "vi": "cảnh báo chệch làn"
+        },
+        {
+          "en": "adaptive cruise control",
+          "vi": "kiểm soát hành trình thích ứng"
+        },
+        {
+          "en": "tire pressure",
+          "vi": "áp suất lốp"
+        },
+        {
+          "en": "visibility",
+          "vi": "tầm nhìn"
+        },
+        {
+          "en": "hazard lights",
+          "vi": "đèn báo nguy hiểm"
+        },
+        {
+          "en": "injury",
+          "vi": "thương tích"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ holds the passengers in their seats during a crash.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**seat belt** = dây an toàn.",
+                "opts": [
+                  "headlight",
+                  "speed limit",
+                  "seat belt"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ inflates quickly in a collision to protect the driver's head and chest.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**airbag** = túi khí.",
+                "opts": [
+                  "crumple zone",
+                  "airbag",
+                  "child seat"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ at the front of the car is designed to absorb energy in a crash.",
+                "ans": [
+                  2
+                ],
+                "tip": "crumple = nhàu, bị gấp.",
+                "why": "**crumple zone** = vùng hấp thụ va chạm.",
+                "opts": [
+                  "airbag",
+                  "blind spot",
+                  "crumple zone"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ prevents the wheels from locking when the driver brakes hard.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**ABS** = chống bó cứng phanh.",
+                "opts": [
+                  "adaptive cruise control",
+                  "lane departure warning",
+                  "anti-lock braking system (ABS)"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a controlled test in which a vehicle hits a barrier.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**crash test** = thử nghiệm va chạm.",
+                "opts": [
+                  "vehicle inspection",
+                  "crash test",
+                  "safety rating"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is the part of the road around the car that the driver cannot see in the mirrors.",
+                "ans": [
+                  1
+                ],
+                "tip": "blind = mù.",
+                "why": "**blind spot** = điểm mù.",
+                "opts": [
+                  "visibility",
+                  "blind spot",
+                  "impact"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A car must receive ___ before it can be sold in a country.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**type approval** = chứng nhận kiểu loại.",
+                "opts": [
+                  "safety rating",
+                  "tire pressure",
+                  "type approval"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Drivers must keep the right ___ in the tires to drive safely.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**tire pressure** = áp suất lốp.",
+                "opts": [
+                  "visibility",
+                  "speed limit",
+                  "tire pressure"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "collision",
+                "b": "an accident in which vehicles hit each other",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "rollover",
+                "b": "an accident in which a vehicle turns over",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "electronic stability control (ESC)",
+                "b": "a system that helps to prevent skidding",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "emission standard",
+                "b": "a legal limit on the pollution that a vehicle may produce",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "safety rating",
+                "b": "a score that shows how well a car protects its occupants",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pedestrian protection",
+                "b": "features that reduce injury to people hit by a vehicle",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lane departure warning",
+                "b": "a system that alerts the driver when the car leaves its lane",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "hazard lights",
+                "b": "flashing lights that warn other drivers of a danger",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All passengers ___ wear a seat belt. It is the law.",
+                "ans": [
+                  1
+                ],
+                "tip": "Luật bắt buộc → must.",
+                "why": "Luật định → **must**.",
+                "opts": [
+                  "mustn't",
+                  "must",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ drive faster than the speed limit.",
+                "ans": [
+                  1
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "must",
+                  "mustn't",
+                  "have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ buy a child seat for a teenager. It is not required.",
+                "ans": [
+                  0
+                ],
+                "tip": "don't have to = không cần.",
+                "why": "Không bắt buộc → **don't have to**.",
+                "opts": [
+                  "don't have to",
+                  "must",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I think you ___ check your tire pressure every month.",
+                "ans": [
+                  2
+                ],
+                "tip": "should = lời khuyên.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "New cars ___ pass a crash test before they are sold.",
+                "ans": [
+                  1
+                ],
+                "tip": "have to = bắt buộc theo quy định.",
+                "why": "Quy định → **have to**.",
+                "opts": [
+                  "mustn't",
+                  "have to",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Drivers ___ use a handheld phone while driving.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "mustn't",
+                  "have to",
+                  "should"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền từ đúng",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Drivers ___ stop at a red light. It is a legal requirement.",
+                "ans": [
+                  [
+                    "must",
+                    "have to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Bắt buộc → **must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ wear a helmet in a car. It is only required on motorcycles.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't",
+                    "need not"
+                  ]
+                ],
+                "tip": "",
+                "why": "Không bắt buộc → **don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Drivers ___ drive under the influence of alcohol.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot"
+                  ]
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Manufacturers ___ meet emission standards. The law requires it.",
+                "ans": [
+                  [
+                    "must",
+                    "have to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Luật yêu cầu → **must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "It is a good idea to service your car regularly, so you ___ do it.",
+                "ans": [
+                  [
+                    "should",
+                    "ought to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Lời khuyên → **should**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Keeping drivers safe",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Road safety depends on drivers, roads and vehicles. Modern cars have many safety systems. A seat belt and an airbag protect the passengers in a collision, and the crumple zone absorbs energy so that the cabin stays strong. ABS prevents the wheels from locking when the driver brakes hard, and stability control helps to prevent skidding.\n\nBefore a new model is sold, it has to pass crash tests and must receive type approval. Manufacturers must also meet emission standards. Safety organizations give each car a safety rating so that buyers can compare models.\n\nDrivers have responsibilities too. They must wear a seat belt, and they mustn't use a phone while driving. They don't have to buy the most expensive car, but they should check the tire pressure regularly and have the vehicle inspected. Many new cars also have driver assistance systems, such as lane departure warning and adaptive cruise control, which should help to reduce accidents.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The crumple zone absorbs energy in a crash.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vùng hấp thụ va chạm hấp thụ năng lượng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "New models don't have to pass crash tests.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: mẫu xe mới **phải** vượt qua thử nghiệm va chạm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Drivers mustn't use a phone while driving.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người lái không được dùng điện thoại khi lái xe."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Drivers have to buy the most expensive car.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: họ **không cần** mua xe đắt nhất."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does ABS do?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ngăn bánh xe bị bó cứng khi phanh gấp.",
+                "opts": [
+                  "Prevents the wheels from locking when the driver brakes hard",
+                  "Opens the airbag",
+                  "Warns about the lane"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a safety rating for?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: giúp người mua so sánh các mẫu xe.",
+                "opts": [
+                  "To set the speed limit",
+                  "To let buyers compare models",
+                  "To replace type approval"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should drivers do regularly?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: kiểm tra áp suất lốp thường xuyên.",
+                "opts": [
+                  "Buy a new car",
+                  "Check the tire pressure",
+                  "Disable the airbags"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can lane departure warning and adaptive cruise control do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: góp phần giảm tai nạn.",
+                "opts": [
+                  "Replace the driver completely",
+                  "Increase fuel consumption",
+                  "Help to reduce accidents"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electric & Autonomous Vehicles",
+      "name_vi": "Xe điện & xe tự lái",
+      "icon": "🔋",
+      "hue": 160,
+      "words": [
+        {
+          "en": "electric vehicle (EV)",
+          "vi": "xe điện"
+        },
+        {
+          "en": "hybrid",
+          "vi": "xe hybrid (lai)"
+        },
+        {
+          "en": "plug-in hybrid",
+          "vi": "xe hybrid sạc ngoài"
+        },
+        {
+          "en": "battery pack",
+          "vi": "bộ pin"
+        },
+        {
+          "en": "lithium-ion battery",
+          "vi": "pin lithium-ion"
+        },
+        {
+          "en": "charging station",
+          "vi": "trạm sạc"
+        },
+        {
+          "en": "fast charging",
+          "vi": "sạc nhanh"
+        },
+        {
+          "en": "range",
+          "vi": "quãng đường di chuyển tối đa"
+        },
+        {
+          "en": "regenerative braking",
+          "vi": "phanh tái sinh"
+        },
+        {
+          "en": "electric motor",
+          "vi": "động cơ điện"
+        },
+        {
+          "en": "inverter",
+          "vi": "bộ nghịch lưu"
+        },
+        {
+          "en": "battery management system (BMS)",
+          "vi": "hệ thống quản lý pin (BMS)"
+        },
+        {
+          "en": "energy density",
+          "vi": "mật độ năng lượng"
+        },
+        {
+          "en": "charging time",
+          "vi": "thời gian sạc"
+        },
+        {
+          "en": "zero emissions",
+          "vi": "không phát thải"
+        },
+        {
+          "en": "autonomous vehicle",
+          "vi": "xe tự hành"
+        },
+        {
+          "en": "self-driving",
+          "vi": "tự lái"
+        },
+        {
+          "en": "lidar",
+          "vi": "cảm biến lidar"
+        },
+        {
+          "en": "radar",
+          "vi": "ra-đa"
+        },
+        {
+          "en": "sensor fusion",
+          "vi": "hợp nhất dữ liệu cảm biến"
+        },
+        {
+          "en": "artificial intelligence",
+          "vi": "trí tuệ nhân tạo"
+        },
+        {
+          "en": "over-the-air update",
+          "vi": "cập nhật phần mềm từ xa"
+        },
+        {
+          "en": "connectivity",
+          "vi": "khả năng kết nối"
+        },
+        {
+          "en": "ride-sharing",
+          "vi": "dùng chung xe"
+        },
+        {
+          "en": "hydrogen fuel cell",
+          "vi": "pin nhiên liệu hydro"
+        },
+        {
+          "en": "range anxiety",
+          "vi": "nỗi lo hết pin giữa đường"
+        },
+        {
+          "en": "power grid",
+          "vi": "lưới điện"
+        },
+        {
+          "en": "carbon footprint",
+          "vi": "dấu chân carbon"
+        },
+        {
+          "en": "sustainable",
+          "vi": "bền vững"
+        },
+        {
+          "en": "battery recycling",
+          "vi": "tái chế pin"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An ___ runs on electricity stored in a battery pack.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**EV** = xe điện.",
+                "opts": [
+                  "hybrid",
+                  "electric vehicle (EV)",
+                  "power grid"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ combines a petrol engine with an electric motor.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**hybrid** = xe lai xăng–điện.",
+                "opts": [
+                  "charging station",
+                  "hybrid",
+                  "inverter"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The distance an EV can travel on one full charge is its ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**range** = quãng đường tối đa mỗi lần sạc.",
+                "opts": [
+                  "energy density",
+                  "range",
+                  "charging time"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ recovers energy when the vehicle slows down and stores it in the battery.",
+                "ans": [
+                  0
+                ],
+                "tip": "regenerate = tái tạo.",
+                "why": "**Regenerative braking** = phanh tái sinh.",
+                "opts": [
+                  "Regenerative braking",
+                  "Fast charging",
+                  "Zero emissions"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ converts direct current from the battery into alternating current for the motor.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**inverter** = bộ nghịch lưu.",
+                "opts": [
+                  "inverter",
+                  "charging station",
+                  "lidar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ uses laser light to measure the distance to objects around a car.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**lidar** = đo khoảng cách bằng tia laser.",
+                "opts": [
+                  "radar",
+                  "inverter",
+                  "lidar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Drivers who worry that the battery will run out before they reach a charger suffer from ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "anxiety = lo âu.",
+                "why": "**range anxiety** = lo hết pin giữa đường.",
+                "opts": [
+                  "zero emissions",
+                  "range anxiety",
+                  "connectivity"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Software can be improved without a visit to the workshop through an ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**over-the-air update** = cập nhật từ xa.",
+                "opts": [
+                  "battery recycling",
+                  "over-the-air update",
+                  "ride-sharing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "lithium-ion battery",
+                "b": "a rechargeable battery commonly used in electric vehicles",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "battery management system (BMS)",
+                "b": "electronics that monitor and protect a battery",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "energy density",
+                "b": "the amount of energy stored in a given weight or volume",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "charging time",
+                "b": "how long a battery needs to be fully charged",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "zero emissions",
+                "b": "producing no exhaust pollution while driving",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sensor fusion",
+                "b": "combining data from several sensors to understand the surroundings",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "carbon footprint",
+                "b": "the total greenhouse gases produced by a person, product or activity",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "power grid",
+                "b": "the network that distributes electricity",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you charge the battery overnight, it ___ ready in the morning.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: If + hiện tại, will + V.",
+                "why": "Loại 1 → **will be**.",
+                "opts": [
+                  "would be",
+                  "was",
+                  "will be"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I had an electric car, I ___ it at home.",
+                "ans": [
+                  1
+                ],
+                "tip": "Loại 2: If + quá khứ, would + V.",
+                "why": "Giả định → **would charge**.",
+                "opts": [
+                  "will charge",
+                  "would charge",
+                  "charged"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the lidar ___ an obstacle, the car will brake.",
+                "ans": [
+                  1
+                ],
+                "tip": "Mệnh đề If không dùng will.",
+                "why": "Loại 1 → **detects**.",
+                "opts": [
+                  "will detect",
+                  "detects",
+                  "would detect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the range were longer, more people ___ EVs.",
+                "ans": [
+                  2
+                ],
+                "tip": "were → would + V.",
+                "why": "Loại 2 → **would buy**.",
+                "opts": [
+                  "will buy",
+                  "bought",
+                  "would buy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would happen if the sensors ___?",
+                "ans": [
+                  0
+                ],
+                "tip": "would → If + quá khứ.",
+                "why": "Loại 2 → **failed**.",
+                "opts": [
+                  "failed",
+                  "fail",
+                  "will fail"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the battery overheats, the BMS ___ the charging.",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 1.",
+                "why": "Loại 1 → **will stop**.",
+                "opts": [
+                  "will stop",
+                  "would stop",
+                  "stopped"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the battery is empty, the car ___ (stop).",
+                "ans": [
+                  [
+                    "will stop",
+                    "'ll stop"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **will stop**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If we ___ (have) more charging stations, EV sales would rise.",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "Loại 2 → **had**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the road is wet, the autonomous car ___ (slow down).",
+                "ans": [
+                  [
+                    "will slow down",
+                    "'ll slow down"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **will slow down**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) you, I would choose a plug-in hybrid.",
+                "ans": [
+                  [
+                    "were",
+                    "was"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **were** (hoặc was)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The car would be cheaper if the battery ___ (cost) less.",
+                "ans": [
+                  [
+                    "cost",
+                    "cost less"
+                  ]
+                ],
+                "tip": "cost – cost – cost.",
+                "why": "Loại 2 → **cost**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · The future of mobility",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Electric vehicles are becoming more popular every year. An EV has no exhaust, so it produces zero emissions while driving, and an electric motor is quieter and more efficient than a petrol engine. If drivers use renewable energy to charge the battery, the carbon footprint of the vehicle will be much smaller.\n\nHowever, there are challenges. If the range is too short, people suffer from range anxiety. If there are not enough charging stations, long journeys become difficult. Many experts say that if batteries had higher energy density and charged faster, more people would buy EVs. Regenerative braking helps because it recovers energy when the car slows down.\n\nAutonomous vehicles use lidar, radar and cameras, and software combines the data in a process called sensor fusion. If the system detects an obstacle, the vehicle brakes automatically. If cars were fully self-driving, there would probably be fewer accidents, but the technology must still be tested carefully.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An EV produces zero emissions while driving.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: xe điện không có ống xả nên không phát thải khi chạy."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "If the range is too short, people may suffer from range anxiety.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phạm vi ngắn gây lo lắng về quãng đường."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Regenerative braking uses more energy from the battery.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phanh tái sinh **thu hồi** năng lượng khi xe giảm tốc."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Autonomous vehicles use only one sensor.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: dùng lidar, radar và camera, kết hợp bằng sensor fusion."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would make the carbon footprint smaller?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: dùng năng lượng tái tạo để sạc.",
+                "opts": [
+                  "Using a longer exhaust",
+                  "Removing the electric motor",
+                  "Charging the battery with renewable energy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would happen if batteries had higher energy density and charged faster?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhiều người sẽ mua xe điện hơn.",
+                "opts": [
+                  "More people would buy EVs",
+                  "Range anxiety would increase",
+                  "Charging stations would disappear"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does regenerative braking do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thu hồi năng lượng khi xe giảm tốc.",
+                "opts": [
+                  "Cools the battery",
+                  "Charges the car from the grid",
+                  "Recovers energy when the car slows down"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the vehicle do if the system detects an obstacle?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: xe tự động phanh.",
+                "opts": [
+                  "It brakes automatically",
+                  "It turns off the lidar",
+                  "It accelerates"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diagnostics & Maintenance",
+      "name_vi": "Chẩn đoán & bảo dưỡng",
+      "icon": "🔧",
+      "hue": 60,
+      "words": [
+        {
+          "en": "diagnostic tool",
+          "vi": "thiết bị chẩn đoán"
+        },
+        {
+          "en": "on-board diagnostics (OBD)",
+          "vi": "hệ thống chẩn đoán trên xe (OBD)"
+        },
+        {
+          "en": "fault code",
+          "vi": "mã lỗi"
+        },
+        {
+          "en": "warning light",
+          "vi": "đèn cảnh báo"
+        },
+        {
+          "en": "oil change",
+          "vi": "thay dầu"
+        },
+        {
+          "en": "filter",
+          "vi": "bộ lọc"
+        },
+        {
+          "en": "brake fluid",
+          "vi": "dầu phanh"
+        },
+        {
+          "en": "coolant",
+          "vi": "nước làm mát"
+        },
+        {
+          "en": "timing belt",
+          "vi": "dây curoa cam"
+        },
+        {
+          "en": "wheel alignment",
+          "vi": "cân chỉnh góc đặt bánh xe"
+        },
+        {
+          "en": "wheel balancing",
+          "vi": "cân bằng bánh xe"
+        },
+        {
+          "en": "tire rotation",
+          "vi": "đảo lốp"
+        },
+        {
+          "en": "tread",
+          "vi": "gai lốp"
+        },
+        {
+          "en": "puncture",
+          "vi": "thủng lốp"
+        },
+        {
+          "en": "leak",
+          "vi": "rò rỉ"
+        },
+        {
+          "en": "misfire",
+          "vi": "hiện tượng bỏ máy, đánh lửa sai"
+        },
+        {
+          "en": "stall",
+          "vi": "chết máy"
+        },
+        {
+          "en": "service interval",
+          "vi": "chu kỳ bảo dưỡng"
+        },
+        {
+          "en": "warranty",
+          "vi": "bảo hành"
+        },
+        {
+          "en": "mechanic",
+          "vi": "thợ cơ khí"
+        },
+        {
+          "en": "workshop",
+          "vi": "xưởng sửa chữa"
+        },
+        {
+          "en": "spare part",
+          "vi": "phụ tùng thay thế"
+        },
+        {
+          "en": "repair manual",
+          "vi": "sách hướng dẫn sửa chữa"
+        },
+        {
+          "en": "road test",
+          "vi": "chạy thử trên đường"
+        },
+        {
+          "en": "overheating",
+          "vi": "quá nhiệt"
+        },
+        {
+          "en": "worn",
+          "vi": "bị mòn"
+        },
+        {
+          "en": "replace",
+          "vi": "thay thế"
+        },
+        {
+          "en": "tighten",
+          "vi": "siết chặt"
+        },
+        {
+          "en": "inspect",
+          "vi": "kiểm tra"
+        },
+        {
+          "en": "mileage",
+          "vi": "số km đã đi"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A mechanic connects a ___ to the car's computer to read error messages.",
+                "ans": [
+                  0
+                ],
+                "tip": "diagnose = chẩn đoán.",
+                "why": "**diagnostic tool** = thiết bị chẩn đoán.",
+                "opts": [
+                  "diagnostic tool",
+                  "repair manual",
+                  "coolant"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a code stored by the car's computer when it detects a problem.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**fault code** = mã lỗi.",
+                "opts": [
+                  "service interval",
+                  "tread",
+                  "fault code"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ on the dashboard came on, so the driver stopped at a workshop.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**warning light** = đèn cảnh báo.",
+                "opts": [
+                  "mileage",
+                  "warranty",
+                  "warning light"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Regular ___ keeps the engine clean and well lubricated.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**oil change** = thay dầu.",
+                "opts": [
+                  "tire rotation",
+                  "oil change",
+                  "wheel alignment"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the liquid that prevents the engine from overheating.",
+                "ans": [
+                  1
+                ],
+                "tip": "cool = làm mát.",
+                "why": "**Coolant** = nước làm mát động cơ.",
+                "opts": [
+                  "Brake fluid",
+                  "Coolant",
+                  "Tread"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the car pulls to one side, it may need a ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**wheel alignment** = cân chỉnh góc đặt bánh xe.",
+                "opts": [
+                  "fault code",
+                  "warranty",
+                  "wheel alignment"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The engine began to ___ at every traffic light.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**stall** = chết máy.",
+                "opts": [
+                  "stall",
+                  "leak",
+                  "replace"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the number of kilometres that a car has traveled.",
+                "ans": [
+                  1
+                ],
+                "tip": "mile + age.",
+                "why": "**mileage** = số km đã đi.",
+                "opts": [
+                  "tread",
+                  "mileage",
+                  "coolant"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "timing belt",
+                "b": "a rubber belt that synchronizes the crankshaft and the camshaft",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tread",
+                "b": "the pattern on the surface of a tire",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "puncture",
+                "b": "a hole in a tire that lets air escape",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "leak",
+                "b": "an accidental escape of liquid or gas",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "misfire",
+                "b": "a failure of the fuel to burn properly in a cylinder",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "service interval",
+                "b": "the recommended time or distance between services",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "warranty",
+                "b": "a promise by the maker to repair faults for a period of time",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "repair manual",
+                "b": "a book that explains how to fix a vehicle",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The mechanic ___ the leak yesterday.",
+                "ans": [
+                  0
+                ],
+                "tip": "yesterday → quá khứ đơn.",
+                "why": "'yesterday' → **found**.",
+                "opts": [
+                  "found",
+                  "has found",
+                  "finds"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ the oil three times this year.",
+                "ans": [
+                  2
+                ],
+                "tip": "this year (chưa kết thúc) → hiện tại hoàn thành.",
+                "why": "'this year' → **have changed**.",
+                "opts": [
+                  "changed",
+                  "did change",
+                  "have changed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The check engine light ___ on two days ago.",
+                "ans": [
+                  0
+                ],
+                "tip": "ago → quá khứ đơn.",
+                "why": "'two days ago' → **came**.",
+                "opts": [
+                  "came",
+                  "has come",
+                  "comes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ you owned this car?",
+                "ans": [
+                  2
+                ],
+                "tip": "How long + have + V3.",
+                "why": "Còn kéo dài đến nay → **have**.",
+                "opts": [
+                  "did",
+                  "do",
+                  "have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ the tires yet.",
+                "ans": [
+                  2
+                ],
+                "tip": "yet → hiện tại hoàn thành.",
+                "why": "'yet' → **haven't replaced**.",
+                "opts": [
+                  "didn't replaced",
+                  "not replaced",
+                  "haven't replaced"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The workshop ___ the timing belt in 2023.",
+                "ans": [
+                  1
+                ],
+                "tip": "Mốc xác định → quá khứ đơn.",
+                "why": "'in 2023' → **replaced**.",
+                "opts": [
+                  "has replaced",
+                  "replaced",
+                  "has been replacing"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets (past simple or present perfect).",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The mechanic ___ (change) the brake pads last week.",
+                "ans": [
+                  [
+                    "changed"
+                  ]
+                ],
+                "tip": "last week → quá khứ đơn.",
+                "why": "'last week' → **changed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (not / find) the cause of the noise yet.",
+                "ans": [
+                  [
+                    "haven't found",
+                    "have not found"
+                  ]
+                ],
+                "tip": "yet → present perfect.",
+                "why": "'yet' → **haven't found**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The car ___ (stall) twice this morning.",
+                "ans": [
+                  [
+                    "has stalled"
+                  ]
+                ],
+                "tip": "this morning (chưa kết thúc).",
+                "why": "'this morning' → **has stalled**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "In 2022, the company ___ (introduce) a longer warranty.",
+                "ans": [
+                  [
+                    "introduced"
+                  ]
+                ],
+                "tip": "in + năm → quá khứ đơn.",
+                "why": "'In 2022' → **introduced**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Since January, the workshop ___ (repair) over 200 vehicles.",
+                "ans": [
+                  [
+                    "has repaired"
+                  ]
+                ],
+                "tip": "since → present perfect.",
+                "why": "'Since January' → **has repaired**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · A car that wouldn't start",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Last Friday, Minh's car stalled on the way to work. A warning light came on, and the engine would not start again. He called a mechanic, who arrived within an hour. The mechanic connected a diagnostic tool to the on-board diagnostics port and read a fault code. It showed that one cylinder had a misfire.\n\nThe mechanic checked the spark plugs and found that they were badly worn. He also noticed a small oil leak. He replaced all four spark plugs, changed the oil and did a road test. After that, the engine ran smoothly.\n\nSince then, Minh has followed the service interval in the repair manual. He has changed the oil twice, and he has also rotated the tires. He has learned that regular maintenance is cheaper than a breakdown. The warranty did not cover the problem, because the car was already five years old.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Minh's car stalled on the way to work.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: xe chết máy trên đường đi làm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The mechanic arrived after a whole day.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thợ đến trong vòng một giờ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The fault code showed a misfire in one cylinder.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: mã lỗi cho thấy một xi lanh bị bỏ máy."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The warranty covered the problem.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bảo hành **không** bao gồm vì xe đã năm tuổi."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the mechanic connect to the car?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thiết bị chẩn đoán.",
+                "opts": [
+                  "A new timing belt",
+                  "A spare tire",
+                  "A diagnostic tool"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the mechanic find when he checked the spark plugs?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bugi bị mòn nặng.",
+                "opts": [
+                  "They were badly worn",
+                  "They were missing",
+                  "They were new"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What has Minh done since then?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: theo chu kỳ bảo dưỡng và thay dầu hai lần.",
+                "opts": [
+                  "Sold the car",
+                  "Followed the service interval and changed the oil twice",
+                  "Ignored the repair manual"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why did the warranty not cover the problem?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: xe đã năm tuổi.",
+                "opts": [
+                  "The mechanic was late",
+                  "The car was already five years old",
+                  "The tires were flat"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "complex",
+      "phức tạp"
+    ],
+    [
+      "passenger",
+      "hành khách"
+    ],
+    [
+      "protect",
+      "bảo vệ"
+    ],
+    [
+      "absorb",
+      "hấp thụ"
+    ],
+    [
+      "bump",
+      "chỗ xóc"
+    ],
+    [
+      "comfortable",
+      "thoải mái"
+    ],
+    [
+      "direction",
+      "hướng"
+    ],
+    [
+      "slow down",
+      "giảm tốc"
+    ],
+    [
+      "develop",
+      "phát triển"
+    ],
+    [
+      "interact",
+      "tương tác"
+    ],
+    [
+      "structure",
+      "cấu trúc"
+    ],
+    [
+      "support",
+      "chống đỡ"
+    ],
+    [
+      "produce",
+      "tạo ra, sản xuất"
+    ],
+    [
+      "corner",
+      "khúc cua"
+    ],
+    [
+      "mix",
+      "trộn"
+    ],
+    [
+      "burn",
+      "đốt cháy"
+    ],
+    [
+      "push",
+      "đẩy"
+    ],
+    [
+      "rotation",
+      "chuyển động quay"
+    ],
+    [
+      "compress",
+      "nén"
+    ],
+    [
+      "harmful",
+      "có hại"
+    ],
+    [
+      "noisy",
+      "ồn ào"
+    ],
+    [
+      "efficient",
+      "hiệu quả"
+    ],
+    [
+      "force",
+      "ép, lực"
+    ],
+    [
+      "strongly",
+      "mạnh mẽ"
+    ],
+    [
+      "cleaner",
+      "sạch hơn"
+    ],
+    [
+      "moment",
+      "thời điểm"
+    ],
+    [
+      "sheet",
+      "tấm"
+    ],
+    [
+      "press",
+      "máy ép; ép"
+    ],
+    [
+      "large",
+      "lớn"
+    ],
+    [
+      "quantity",
+      "số lượng"
+    ],
+    [
+      "deliver",
+      "giao hàng"
+    ],
+    [
+      "store",
+      "lưu trữ"
+    ],
+    [
+      "stage",
+      "giai đoạn"
+    ],
+    [
+      "serious",
+      "nghiêm trọng"
+    ],
+    [
+      "discover",
+      "phát hiện"
+    ],
+    [
+      "free of charge",
+      "miễn phí"
+    ],
+    [
+      "plant",
+      "nhà máy"
+    ],
+    [
+      "clean",
+      "làm sạch"
+    ],
+    [
+      "depend",
+      "phụ thuộc"
+    ],
+    [
+      "strong",
+      "chắc chắn"
+    ],
+    [
+      "skid",
+      "trượt bánh"
+    ],
+    [
+      "compare",
+      "so sánh"
+    ],
+    [
+      "responsibility",
+      "trách nhiệm"
+    ],
+    [
+      "expensive",
+      "đắt"
+    ],
+    [
+      "legal",
+      "hợp pháp"
+    ],
+    [
+      "requirement",
+      "yêu cầu"
+    ],
+    [
+      "accident",
+      "tai nạn"
+    ],
+    [
+      "regularly",
+      "thường xuyên"
+    ],
+    [
+      "buyer",
+      "người mua"
+    ],
+    [
+      "popular",
+      "phổ biến"
+    ],
+    [
+      "quiet",
+      "yên tĩnh"
+    ],
+    [
+      "challenge",
+      "thách thức"
+    ],
+    [
+      "journey",
+      "chuyến đi"
+    ],
+    [
+      "expert",
+      "chuyên gia"
+    ],
+    [
+      "obstacle",
+      "chướng ngại vật"
+    ],
+    [
+      "automatically",
+      "tự động"
+    ],
+    [
+      "carefully",
+      "cẩn thận"
+    ],
+    [
+      "recover",
+      "thu hồi"
+    ],
+    [
+      "renewable",
+      "tái tạo được"
+    ],
+    [
+      "process",
+      "quy trình"
+    ],
+    [
+      "arrive",
+      "đến nơi"
+    ],
+    [
+      "notice",
+      "nhận thấy"
+    ],
+    [
+      "smoothly",
+      "trơn tru"
+    ],
+    [
+      "cover",
+      "bao gồm (bảo hành)"
+    ],
+    [
+      "badly",
+      "nghiêm trọng, tệ"
+    ],
+    [
+      "cost",
+      "tốn kém"
+    ],
+    [
+      "cheaper",
+      "rẻ hơn"
+    ],
+    [
+      "breakdown",
+      "sự hỏng xe"
+    ],
+    [
+      "follow",
+      "tuân theo"
+    ],
+    [
+      "learn",
+      "học được"
+    ],
+    [
+      "rotate",
+      "đảo, xoay"
+    ]
+  ]
+}

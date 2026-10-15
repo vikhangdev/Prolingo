@@ -1,0 +1,4287 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "finance",
+  "name": "Finance & Investment",
+  "name_vi": "Tài chính & Đầu tư",
+  "icon": "💹",
+  "hue": 150,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành tài chính & đầu tư: tài chính cơ bản, cổ phiếu & trái phiếu, báo cáo tài chính, ngân hàng & tuân thủ, quản trị rủi ro & định giá, fintech và thị trường."
+ },
+ "units": [
+  {
+   "name": "Finance Fundamentals",
+   "name_vi": "Nền tảng tài chính",
+   "icon": "💰",
+   "hue": 150,
+   "words": [
+    {
+     "en": "asset",
+     "vi": "tài sản"
+    },
+    {
+     "en": "liability",
+     "vi": "nợ phải trả"
+    },
+    {
+     "en": "equity",
+     "vi": "vốn chủ sở hữu"
+    },
+    {
+     "en": "income",
+     "vi": "thu nhập"
+    },
+    {
+     "en": "expense",
+     "vi": "chi phí"
+    },
+    {
+     "en": "budget",
+     "vi": "ngân sách"
+    },
+    {
+     "en": "saving",
+     "vi": "khoản tiết kiệm"
+    },
+    {
+     "en": "interest",
+     "vi": "lãi suất; tiền lãi"
+    },
+    {
+     "en": "principal",
+     "vi": "tiền gốc"
+    },
+    {
+     "en": "compound interest",
+     "vi": "lãi kép"
+    },
+    {
+     "en": "inflation",
+     "vi": "lạm phát"
+    },
+    {
+     "en": "liquidity",
+     "vi": "tính thanh khoản"
+    },
+    {
+     "en": "capital",
+     "vi": "vốn"
+    },
+    {
+     "en": "revenue",
+     "vi": "doanh thu"
+    },
+    {
+     "en": "profit",
+     "vi": "lợi nhuận"
+    },
+    {
+     "en": "loss",
+     "vi": "khoản lỗ"
+    },
+    {
+     "en": "cash flow",
+     "vi": "dòng tiền"
+    },
+    {
+     "en": "debt",
+     "vi": "khoản nợ"
+    },
+    {
+     "en": "credit",
+     "vi": "tín dụng"
+    },
+    {
+     "en": "net worth",
+     "vi": "giá trị tài sản ròng"
+    },
+    {
+     "en": "investment",
+     "vi": "khoản đầu tư"
+    },
+    {
+     "en": "return",
+     "vi": "lợi tức, tỷ suất sinh lời"
+    },
+    {
+     "en": "risk",
+     "vi": "rủi ro"
+    },
+    {
+     "en": "diversification",
+     "vi": "sự đa dạng hóa"
+    },
+    {
+     "en": "financial plan",
+     "vi": "kế hoạch tài chính"
+    },
+    {
+     "en": "emergency fund",
+     "vi": "quỹ khẩn cấp"
+    },
+    {
+     "en": "retirement",
+     "vi": "việc nghỉ hưu"
+    },
+    {
+     "en": "tax",
+     "vi": "thuế"
+    },
+    {
+     "en": "wealth",
+     "vi": "sự giàu có, tài sản"
+    },
+    {
+     "en": "currency",
+     "vi": "tiền tệ"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Your house, car and savings are all examples of a personal ___.",
+        "ans": [
+         0
+        ],
+        "tip": "asset = của cải có giá trị.",
+        "why": "**asset** = tài sản, thứ có giá trị mà bạn sở hữu.",
+        "opts": [
+         "asset",
+         "liability",
+         "expense"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A credit card balance is a ___ because you must pay it back.",
+        "ans": [
+         2
+        ],
+        "tip": "liable = có trách nhiệm phải trả.",
+        "why": "**liability** = nợ phải trả, khoản bạn có nghĩa vụ thanh toán.",
+        "opts": [
+         "asset",
+         "income",
+         "liability"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Because of ___, the same $100 buys fewer goods than it did last year.",
+        "ans": [
+         1
+        ],
+        "tip": "inflate = bơm phồng → giá cả 'phồng' lên.",
+        "why": "**inflation** = lạm phát, mặt bằng giá tăng làm tiền mất giá.",
+        "opts": [
+         "liquidity",
+         "inflation",
+         "retirement"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ means you earn interest on your original money and on the interest already added.",
+        "ans": [
+         2
+        ],
+        "tip": "compound = gộp lại → lãi gộp vào gốc.",
+        "why": "**compound interest** = lãi kép, lãi sinh lãi.",
+        "opts": [
+         "Diversification",
+         "Net worth",
+         "Compound interest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Cash has the highest ___ because you can spend it immediately.",
+        "ans": [
+         0
+        ],
+        "tip": "liquid = chất lỏng → dễ 'chảy' thành tiền.",
+        "why": "**liquidity** = tính thanh khoản, mức độ dễ đổi thành tiền mặt.",
+        "opts": [
+         "liquidity",
+         "revenue",
+         "principal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Experts advise keeping three to six months of expenses in an ___.",
+        "ans": [
+         2
+        ],
+        "tip": "emergency = tình huống khẩn cấp.",
+        "why": "**emergency fund** = quỹ khẩn cấp, dùng khi mất việc hay có sự cố.",
+        "opts": [
+         "cash flow",
+         "financial plan",
+         "emergency fund"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Her monthly ___ is positive: she receives more cash than she spends.",
+        "ans": [
+         0
+        ],
+        "tip": "cash + flow = tiền chảy vào/ra.",
+        "why": "**cash flow** = dòng tiền, chênh lệch giữa tiền vào và tiền ra.",
+        "opts": [
+         "cash flow",
+         "principal",
+         "debt"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do not put all your money into one stock. ___ reduces risk.",
+        "ans": [
+         0
+        ],
+        "tip": "diverse = đa dạng.",
+        "why": "**diversification** = đa dạng hóa, chia tiền vào nhiều loại tài sản.",
+        "opts": [
+         "Diversification",
+         "Inflation",
+         "Retirement"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "revenue",
+        "b": "the total money a company earns from selling goods or services",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "expense",
+        "b": "money that is spent to run a business or a household",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "equity",
+        "b": "the value of an owner's share after debts are subtracted",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "principal",
+        "b": "the original amount of money borrowed or invested",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "net worth",
+        "b": "total assets minus total liabilities",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "budget",
+        "b": "a plan for how to spend and save money",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "retirement",
+        "b": "the period of life after you stop working",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "currency",
+        "b": "the system of money used in a country",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A bank ___ interest on savings accounts every month.",
+        "ans": [
+         2
+        ],
+        "tip": "every month → V(s/es).",
+        "why": "'every month' = thói quen lặp lại → **hiện tại đơn**: pays.",
+        "opts": [
+         "paid",
+         "is paying",
+         "pays"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the stock market ___ because of the new inflation data.",
+        "ans": [
+         0
+        ],
+        "tip": "right now → be + V-ing.",
+        "why": "'Right now' = đang diễn ra → **hiện tại tiếp diễn**: is falling.",
+        "opts": [
+         "is falling",
+         "falls",
+         "fell"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our accountant ___ the tax returns this week.",
+        "ans": [
+         0
+        ],
+        "tip": "this week = tạm thời, đang diễn ra.",
+        "why": "'this week' = việc đang làm trong giai đoạn này → **is preparing**.",
+        "opts": [
+         "is preparing",
+         "prepares",
+         "prepared"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Money usually ___ value when inflation is high.",
+        "ans": [
+         2
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' + chủ ngữ số ít (money) → **loses**.",
+        "opts": [
+         "is losing",
+         "lose",
+         "loses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The share price ___ rapidly.",
+        "ans": [
+         0
+        ],
+        "tip": "Look! → hành động đang xảy ra.",
+        "why": "'Look!' báo hiệu việc đang diễn ra → **is rising**.",
+        "opts": [
+         "is rising",
+         "rises",
+         "rise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ in a pension fund every month.",
+        "ans": [
+         1
+        ],
+        "tip": "She + V-s.",
+        "why": "'every month' = thói quen; chủ ngữ ngôi thứ ba số ít → **invests**.",
+        "opts": [
+         "is investing",
+         "invests",
+         "invest"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Compound interest ___ (help) your savings grow faster over time.",
+        "ans": [
+         [
+          "helps"
+         ]
+        ],
+        "tip": "It/He/She + V-s.",
+        "why": "Sự thật chung → hiện tại đơn, chủ ngữ số ít: **helps**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the central bank ___ (discuss) a new interest rate.",
+        "ans": [
+         [
+          "is discussing"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **is discussing**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Many people ___ (not / save) enough for retirement.",
+        "ans": [
+         [
+          "do not save",
+          "don't save"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số nhiều: **do not save**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "He ___ (work) as a financial analyst for a large bank.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp = sự thật → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This year, prices ___ (rise) faster than wages.",
+        "ans": [
+         [
+          "are rising"
+         ]
+        ],
+        "tip": "",
+        "why": "'This year' = xu hướng đang diễn ra → **are rising**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Where does your money go?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Maria earns a monthly income of $2,000. At the start of every month, she makes a budget and writes down her expenses: rent, food, transport and bills. Whatever is left becomes her saving.\n\nMaria follows a simple rule. First, she builds an emergency fund that covers three months of expenses. Then she pays off her debt, because high interest on a credit card can quickly turn into a heavy liability. Finally, she invests a small amount each month in an index fund. Thanks to compound interest, even small amounts can grow into a large sum over many years.\n\nMaria also knows that inflation reduces the value of money, so keeping all her cash in a drawer is not wise. She checks her net worth once a year: her assets minus her liabilities. She is not rich yet, but her net worth is growing every year.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Maria spends all of her income on expenses.",
+        "ans": [
+         1
+        ],
+        "tip": "whatever is left ≠ nothing is left.",
+        "why": "Đoạn 1: phần còn lại sau chi phí trở thành **saving**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Her emergency fund covers three months of expenses.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'covers three months of expenses'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "High interest on a credit card can become a heavy liability.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: lãi cao của thẻ tín dụng có thể thành một **liability** nặng nề."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Inflation increases the value of money.",
+        "ans": [
+         1
+        ],
+        "tip": "inflation làm tiền mất giá.",
+        "why": "Đoạn 3: inflation **reduces** the value of money."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Maria do first?",
+        "ans": [
+         1
+        ],
+        "tip": "First → bước đầu tiên.",
+        "why": "Đoạn 2: 'First, she builds an emergency fund'.",
+        "opts": [
+         "She invests in an index fund",
+         "She builds an emergency fund",
+         "She pays off her debt"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is net worth in the text?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: net worth = assets minus liabilities.",
+        "opts": [
+         "Her assets minus her liabilities",
+         "Her monthly income",
+         "Her yearly expenses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is keeping all cash in a drawer not wise?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lạm phát làm giảm giá trị tiền, nên không nên để tiền mặt không sinh lời.",
+        "opts": [
+         "Because inflation reduces the value of money",
+         "Because tax is too high",
+         "Because cash earns a dividend"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What helps small investments grow into a large sum?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhờ **compound interest**, khoản nhỏ có thể thành khoản lớn sau nhiều năm.",
+        "opts": [
+         "Compound interest",
+         "A budget",
+         "A credit card"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Stocks, Bonds & Funds",
+   "name_vi": "Cổ phiếu, trái phiếu & quỹ đầu tư",
+   "icon": "📈",
+   "hue": 215,
+   "words": [
+    {
+     "en": "stock",
+     "vi": "cổ phiếu"
+    },
+    {
+     "en": "share",
+     "vi": "cổ phần, cổ phiếu"
+    },
+    {
+     "en": "shareholder",
+     "vi": "cổ đông"
+    },
+    {
+     "en": "dividend",
+     "vi": "cổ tức"
+    },
+    {
+     "en": "bond",
+     "vi": "trái phiếu"
+    },
+    {
+     "en": "coupon",
+     "vi": "lãi suất trái phiếu (tiền lãi định kỳ)"
+    },
+    {
+     "en": "yield",
+     "vi": "lợi suất"
+    },
+    {
+     "en": "maturity",
+     "vi": "ngày đáo hạn"
+    },
+    {
+     "en": "issuer",
+     "vi": "tổ chức phát hành"
+    },
+    {
+     "en": "portfolio",
+     "vi": "danh mục đầu tư"
+    },
+    {
+     "en": "mutual fund",
+     "vi": "quỹ tương hỗ"
+    },
+    {
+     "en": "exchange-traded fund (ETF)",
+     "vi": "quỹ hoán đổi danh mục"
+    },
+    {
+     "en": "index",
+     "vi": "chỉ số (thị trường)"
+    },
+    {
+     "en": "stock exchange",
+     "vi": "sở giao dịch chứng khoán"
+    },
+    {
+     "en": "broker",
+     "vi": "nhà môi giới"
+    },
+    {
+     "en": "bull market",
+     "vi": "thị trường giá lên"
+    },
+    {
+     "en": "bear market",
+     "vi": "thị trường giá xuống"
+    },
+    {
+     "en": "volatility",
+     "vi": "sự biến động"
+    },
+    {
+     "en": "blue-chip",
+     "vi": "(cổ phiếu) blue-chip, công ty lớn uy tín"
+    },
+    {
+     "en": "market capitalisation",
+     "vi": "vốn hóa thị trường"
+    },
+    {
+     "en": "initial public offering (IPO)",
+     "vi": "phát hành cổ phiếu lần đầu ra công chúng"
+    },
+    {
+     "en": "ticker",
+     "vi": "mã chứng khoán"
+    },
+    {
+     "en": "capital gain",
+     "vi": "lãi vốn"
+    },
+    {
+     "en": "trade",
+     "vi": "giao dịch mua bán"
+    },
+    {
+     "en": "bid price",
+     "vi": "giá đặt mua"
+    },
+    {
+     "en": "ask price",
+     "vi": "giá chào bán"
+    },
+    {
+     "en": "sector",
+     "vi": "ngành, lĩnh vực"
+    },
+    {
+     "en": "fund manager",
+     "vi": "người quản lý quỹ"
+    },
+    {
+     "en": "expense ratio",
+     "vi": "tỷ lệ chi phí quỹ"
+    },
+    {
+     "en": "passive investing",
+     "vi": "đầu tư thụ động"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A company pays a ___ to its shareholders out of its profit.",
+        "ans": [
+         0
+        ],
+        "tip": "divide = chia → chia lợi nhuận.",
+        "why": "**dividend** = cổ tức, phần lợi nhuận chia cho cổ đông.",
+        "opts": [
+         "dividend",
+         "coupon",
+         "ticker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When you buy a ___, you lend money to a government or company and receive regular interest.",
+        "ans": [
+         0
+        ],
+        "tip": "bond = ràng buộc/giấy cam kết nợ.",
+        "why": "**bond** = trái phiếu, bạn cho bên phát hành vay và nhận lãi.",
+        "opts": [
+         "bond",
+         "share",
+         "index"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bond's ___ is in 2032, when the issuer will repay the principal.",
+        "ans": [
+         2
+        ],
+        "tip": "mature = chín muồi → đến hạn.",
+        "why": "**maturity** = ngày đáo hạn, lúc bên phát hành hoàn trả tiền gốc.",
+        "opts": [
+         "coupon",
+         "yield",
+         "maturity"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a ___, share prices fall for months and investors feel pessimistic.",
+        "ans": [
+         0
+        ],
+        "tip": "bear = gấu, tấn công từ trên xuống → giá giảm.",
+        "why": "**bear market** = thị trường giá xuống; **bull market** = giá lên.",
+        "opts": [
+         "bear market",
+         "bull market",
+         "blue-chip"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Daily price swings were very large, which shows high ___.",
+        "ans": [
+         2
+        ],
+        "tip": "volatile = dễ bay hơi, thay đổi nhanh.",
+        "why": "**volatility** = sự biến động của giá.",
+        "opts": [
+         "maturity",
+         "dividend",
+         "volatility"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ pools money from many investors to buy a variety of stocks and bonds.",
+        "ans": [
+         2
+        ],
+        "tip": "mutual = chung, cùng nhau.",
+        "why": "**mutual fund** = quỹ tương hỗ, gom tiền nhiều nhà đầu tư.",
+        "opts": [
+         "ticker",
+         "broker",
+         "mutual fund"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A company's ___ is its share price multiplied by the number of shares.",
+        "ans": [
+         1
+        ],
+        "tip": "capital = vốn; -isation = quá trình/giá trị.",
+        "why": "**market capitalisation** = vốn hóa thị trường.",
+        "opts": [
+         "dividend",
+         "market capitalisation",
+         "index"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The S&P 500 is a stock market ___ that tracks 500 large companies.",
+        "ans": [
+         1
+        ],
+        "tip": "index = chỉ số, bảng chỉ dẫn.",
+        "why": "**index** = chỉ số thị trường, đo hiệu suất một nhóm cổ phiếu.",
+        "opts": [
+         "coupon",
+         "index",
+         "ticker"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shareholder",
+        "b": "a person or company that owns shares in a business",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "yield",
+        "b": "the income from an investment, shown as a percentage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "broker",
+        "b": "a person or firm that buys and sells securities for clients",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "initial public offering (IPO)",
+        "b": "the first time a company sells its shares to the public",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "blue-chip",
+        "b": "a large, well-established and financially stable company",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "capital gain",
+        "b": "profit made when you sell an asset for more than you paid",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "exchange-traded fund (ETF)",
+        "b": "a fund that is traded on a stock exchange like a single share",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "issuer",
+        "b": "the organisation that creates and sells bonds or shares",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Government bonds are usually ___ than stocks.",
+        "ans": [
+         2
+        ],
+        "tip": "short adj + -er + than.",
+        "why": "So sánh hơn với tính từ ngắn + than → **safer**.",
+        "opts": [
+         "safe",
+         "the safest",
+         "safer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Small-company shares are ___ volatile than blue-chip shares.",
+        "ans": [
+         2
+        ],
+        "tip": "adj dài → more + adj + than.",
+        "why": "'volatile' là tính từ dài, so sánh hơn dùng **more volatile**.",
+        "opts": [
+         "most",
+         "much",
+         "more"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Over the long term, stocks have produced the ___ return of all the main asset classes.",
+        "ans": [
+         1
+        ],
+        "tip": "the + -est (so sánh nhất).",
+        "why": "So sánh nhất của 'high' → **the highest**.",
+        "opts": [
+         "higher",
+         "highest",
+         "most high"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ETF is usually ___ than an actively managed fund.",
+        "ans": [
+         1
+        ],
+        "tip": "cheap → cheaper.",
+        "why": "Tính từ ngắn: **cheaper than**.",
+        "opts": [
+         "more cheap",
+         "cheaper",
+         "the cheapest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "It was the ___ IPO of the year, raising $5 billion.",
+        "ans": [
+         1
+        ],
+        "tip": "the + -est; large → largest.",
+        "why": "Có 'the … of the year' → so sánh nhất: **largest**.",
+        "opts": [
+         "larger",
+         "largest",
+         "more large"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Bonds are not as ___ as stocks.",
+        "ans": [
+         0
+        ],
+        "tip": "as + adj gốc + as.",
+        "why": "Cấu trúc **not as … as** dùng tính từ nguyên mẫu: risky.",
+        "opts": [
+         "risky",
+         "riskier",
+         "riskiest"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Bonds are ___ (safe) than stocks, but they usually pay lower returns.",
+        "ans": [
+         [
+          "safer"
+         ]
+        ],
+        "tip": "",
+        "why": "So sánh hơn: **safer than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This fund has the ___ (low) fees in the market.",
+        "ans": [
+         [
+          "lowest"
+         ]
+        ],
+        "tip": "",
+        "why": "'the … in the market' → so sánh nhất: **lowest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Technology stocks are ___ (volatile) than utility stocks.",
+        "ans": [
+         [
+          "more volatile"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ dài: **more volatile than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The bear market was ___ (bad) than analysts expected.",
+        "ans": [
+         [
+          "worse"
+         ]
+        ],
+        "tip": "bad → worse → worst.",
+        "why": "'bad' bất quy tắc: **worse**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Index funds are one of the ___ (popular) ways to invest.",
+        "ans": [
+         [
+          "most popular"
+         ]
+        ],
+        "tip": "",
+        "why": "'one of the …' + so sánh nhất: **most popular**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Stocks or bonds?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Investors often ask: should I buy stocks or bonds? Stocks represent ownership in a company. When you hold shares, you can earn a dividend, and you can also make a capital gain if the price rises. However, stocks are more volatile than bonds, and in a bear market their prices can fall sharply.\n\nBonds work differently. When you buy a bond, you lend money to the issuer, which may be a government or a company. The issuer pays you a coupon every year and repays the principal at maturity. Bonds are usually safer than stocks, but their yield is often lower.\n\nMany investors do not choose just one. A typical portfolio mixes both, and the proportion depends on age and goals. A young investor may hold 80% stocks because she has more time to recover from losses. A retiree may prefer bonds for stable income. For beginners, an ETF is one of the cheapest and simplest ways to buy a wide mix of assets with a single trade.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Stocks represent ownership in a company.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'Stocks represent ownership in a company'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Stocks are less volatile than bonds.",
+        "ans": [
+         1
+        ],
+        "tip": "more volatile ≠ less volatile.",
+        "why": "Đoạn 1: cổ phiếu **more volatile** than bonds."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A bond issuer repays the principal at maturity.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bên phát hành hoàn trả tiền gốc khi đáo hạn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A retiree always holds only stocks.",
+        "ans": [
+         1
+        ],
+        "tip": "may prefer ≠ always.",
+        "why": "Đoạn 3: người nghỉ hưu **may prefer bonds** để có thu nhập ổn định."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a bond investor receive every year?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bên phát hành trả cho bạn một **coupon** mỗi năm.",
+        "opts": [
+         "A ticker",
+         "A coupon",
+         "A dividend"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why may a young investor hold more stocks?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: người trẻ có nhiều thời gian hơn để phục hồi sau thua lỗ.",
+        "opts": [
+         "Stocks never lose value",
+         "Bonds are illegal for young people",
+         "She has more time to recover from losses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may a retiree prefer?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: người nghỉ hưu có thể thích trái phiếu vì thu nhập ổn định.",
+        "opts": [
+         "Bonds for stable income",
+         "Only small-company shares",
+         "A bear market"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is an ETF good for beginners?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ETF rẻ, đơn giản, mua được nhiều loại tài sản chỉ với một giao dịch.",
+        "opts": [
+         "It guarantees a high yield",
+         "It is cheap and gives a wide mix of assets with one trade",
+         "It pays no fees at all"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Financial Statements & Analysis",
+   "name_vi": "Báo cáo tài chính & phân tích",
+   "icon": "📊",
+   "hue": 265,
+   "words": [
+    {
+     "en": "financial statement",
+     "vi": "báo cáo tài chính"
+    },
+    {
+     "en": "balance sheet",
+     "vi": "bảng cân đối kế toán"
+    },
+    {
+     "en": "income statement",
+     "vi": "báo cáo kết quả kinh doanh"
+    },
+    {
+     "en": "cash flow statement",
+     "vi": "báo cáo lưu chuyển tiền tệ"
+    },
+    {
+     "en": "auditor",
+     "vi": "kiểm toán viên"
+    },
+    {
+     "en": "audit",
+     "vi": "cuộc kiểm toán; kiểm toán"
+    },
+    {
+     "en": "accountant",
+     "vi": "kế toán viên"
+    },
+    {
+     "en": "gross profit",
+     "vi": "lợi nhuận gộp"
+    },
+    {
+     "en": "net income",
+     "vi": "lợi nhuận ròng"
+    },
+    {
+     "en": "operating cost",
+     "vi": "chi phí hoạt động"
+    },
+    {
+     "en": "depreciation",
+     "vi": "khấu hao"
+    },
+    {
+     "en": "accounts receivable",
+     "vi": "các khoản phải thu"
+    },
+    {
+     "en": "accounts payable",
+     "vi": "các khoản phải trả"
+    },
+    {
+     "en": "inventory",
+     "vi": "hàng tồn kho"
+    },
+    {
+     "en": "current assets",
+     "vi": "tài sản ngắn hạn"
+    },
+    {
+     "en": "fixed assets",
+     "vi": "tài sản cố định"
+    },
+    {
+     "en": "retained earnings",
+     "vi": "lợi nhuận giữ lại"
+    },
+    {
+     "en": "earnings per share (EPS)",
+     "vi": "lợi nhuận trên mỗi cổ phiếu"
+    },
+    {
+     "en": "profit margin",
+     "vi": "biên lợi nhuận"
+    },
+    {
+     "en": "ratio",
+     "vi": "tỷ số"
+    },
+    {
+     "en": "price-to-earnings (P/E) ratio",
+     "vi": "tỷ số giá trên thu nhập"
+    },
+    {
+     "en": "return on equity (ROE)",
+     "vi": "tỷ suất sinh lời trên vốn chủ sở hữu"
+    },
+    {
+     "en": "solvency",
+     "vi": "khả năng thanh toán nợ"
+    },
+    {
+     "en": "fiscal year",
+     "vi": "năm tài chính"
+    },
+    {
+     "en": "quarterly report",
+     "vi": "báo cáo quý"
+    },
+    {
+     "en": "annual report",
+     "vi": "báo cáo thường niên"
+    },
+    {
+     "en": "disclosure",
+     "vi": "sự công bố thông tin"
+    },
+    {
+     "en": "footnote",
+     "vi": "chú thích (trong báo cáo)"
+    },
+    {
+     "en": "write-off",
+     "vi": "việc xóa sổ (khoản nợ/tài sản)"
+    },
+    {
+     "en": "overhead",
+     "vi": "chi phí chung"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows what a company owns and owes on a specific date.",
+        "ans": [
+         2
+        ],
+        "tip": "balance = cân bằng: tài sản = nợ + vốn.",
+        "why": "**balance sheet** = bảng cân đối kế toán, 'ảnh chụp' tại một ngày.",
+        "opts": [
+         "income statement",
+         "annual report",
+         "balance sheet"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An independent ___ checks whether a company's accounts are accurate.",
+        "ans": [
+         0
+        ],
+        "tip": "audit = kiểm tra, rà soát.",
+        "why": "**auditor** = kiểm toán viên, người kiểm tra tính chính xác của sổ sách.",
+        "opts": [
+         "auditor",
+         "shareholder",
+         "broker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After subtracting all costs and tax, the company's ___ was $2 million.",
+        "ans": [
+         1
+        ],
+        "tip": "net = ròng, sau khi trừ hết.",
+        "why": "**net income** = lợi nhuận ròng, sau mọi chi phí và thuế.",
+        "opts": [
+         "gross profit",
+         "net income",
+         "accounts payable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The delivery vans lose value every year, so the firm records ___.",
+        "ans": [
+         0
+        ],
+        "tip": "de + preciate = giảm giá.",
+        "why": "**depreciation** = khấu hao, ghi nhận tài sản mất giá dần.",
+        "opts": [
+         "depreciation",
+         "disclosure",
+         "solvency"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Money that customers owe the company is recorded as ___.",
+        "ans": [
+         0
+        ],
+        "tip": "receive = nhận → khoản sẽ nhận.",
+        "why": "**accounts receivable** = các khoản phải thu từ khách hàng.",
+        "opts": [
+         "accounts receivable",
+         "accounts payable",
+         "retained earnings"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A high ___ means the company keeps more cents of profit from each dollar of sales.",
+        "ans": [
+         0
+        ],
+        "tip": "margin = phần chênh lệch/biên.",
+        "why": "**profit margin** = biên lợi nhuận.",
+        "opts": [
+         "profit margin",
+         "fiscal year",
+         "write-off"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Profit that is not paid as dividends but kept in the business is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "retain = giữ lại.",
+        "why": "**retained earnings** = lợi nhuận giữ lại.",
+        "opts": [
+         "retained earnings",
+         "depreciation",
+         "operating cost"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The firm's ___ ends on 31 December, so its accounts cover January to December.",
+        "ans": [
+         0
+        ],
+        "tip": "fiscal = thuộc tài chính/thuế.",
+        "why": "**fiscal year** = năm tài chính, kỳ 12 tháng để lập báo cáo.",
+        "opts": [
+         "fiscal year",
+         "quarterly report",
+         "disclosure"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "accountant",
+        "b": "a professional who records and reports financial information",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "solvency",
+        "b": "the ability of a company to pay its long-term debts",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "inventory",
+        "b": "the goods a company holds ready for sale",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "accounts payable",
+        "b": "money a company owes to its suppliers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "earnings per share (EPS)",
+        "b": "a company's profit divided by its number of shares",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fixed assets",
+        "b": "long-term items such as buildings and machines",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "disclosure",
+        "b": "the act of making financial information public",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "overhead",
+        "b": "regular costs that are not linked directly to making a product",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The annual report ___ to shareholders every March.",
+        "ans": [
+         2
+        ],
+        "tip": "be + V3 (hiện tại đơn bị động).",
+        "why": "Báo cáo **được gửi** (thói quen hằng năm) → **is sent**.",
+        "opts": [
+         "sends",
+         "is sending",
+         "is sent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The accounts ___ by an independent auditor last year.",
+        "ans": [
+         2
+        ],
+        "tip": "quá khứ bị động: was/were + V3.",
+        "why": "'last year' + chủ ngữ số nhiều → **were audited**.",
+        "opts": [
+         "audited",
+         "are audited",
+         "were audited"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "New accounting rules ___ next year.",
+        "ans": [
+         0
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be introduced**.",
+        "opts": [
+         "will be introduced",
+         "will introduce",
+         "are introduced"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The results ___ yet, so we cannot compare them.",
+        "ans": [
+         1
+        ],
+        "tip": "have/has + been + V3.",
+        "why": "Hiện tại hoàn thành bị động: **have not been published**.",
+        "opts": [
+         "have not published",
+         "have not been published",
+         "are not publishing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Depreciation ___ in the income statement as an expense.",
+        "ans": [
+         1
+        ],
+        "tip": "be + V3.",
+        "why": "Khấu hao **được ghi nhận** → **is recorded**.",
+        "opts": [
+         "records",
+         "is recorded",
+         "is recording"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The mistake ___ before the report was published.",
+        "ans": [
+         1
+        ],
+        "tip": "was/were + V3.",
+        "why": "Lỗi **bị phát hiện** trong quá khứ → **was found**.",
+        "opts": [
+         "found",
+         "was found",
+         "has found"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Financial statements ___ (prepare) at the end of each quarter.",
+        "ans": [
+         [
+          "are prepared"
+         ]
+        ],
+        "tip": "be + V3.",
+        "why": "Hiện tại đơn bị động, số nhiều: **are prepared**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The audit ___ (complete) last week.",
+        "ans": [
+         [
+          "was completed"
+         ]
+        ],
+        "tip": "",
+        "why": "Quá khứ bị động, số ít: **was completed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our figures ___ (check) by two accountants right now.",
+        "ans": [
+         [
+          "are being checked"
+         ]
+        ],
+        "tip": "be + being + V3.",
+        "why": "Hiện tại tiếp diễn bị động: **are being checked**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All major risks ___ (must / disclose) in the annual report.",
+        "ans": [
+         [
+          "must be disclosed"
+         ]
+        ],
+        "tip": "must + be + V3.",
+        "why": "Động từ khuyết thiếu bị động: **must be disclosed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The results ___ (announce) tomorrow morning.",
+        "ans": [
+         [
+          "will be announced",
+          "are going to be announced"
+         ]
+        ],
+        "tip": "",
+        "why": "Tương lai bị động: **will be announced**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How to read a company's report",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every listed company must publish financial statements, and investors read them carefully. The balance sheet is a snapshot: it shows assets, liabilities and equity on one date. The income statement is different. It shows revenue, costs and net income over a period such as a quarter or a fiscal year. A third report, the cash flow statement, tracks how cash enters and leaves the business.\n\nBefore the annual report is released, the accounts are audited by an independent auditor. The auditor checks that the numbers are accurate and that all important risks are disclosed.\n\nAnalysts then use ratios to compare companies. For example, the profit margin shows how much profit is earned from each dollar of sales, and the P/E ratio compares the share price with earnings per share. A high P/E ratio may mean that investors expect fast growth, but it can also mean that the shares are expensive. No single ratio tells the whole story, so ratios should be compared with a company's past results and with its competitors.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The balance sheet shows assets, liabilities and equity on one date.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: balance sheet là 'snapshot' tại một thời điểm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The income statement shows a company's position on a single day.",
+        "ans": [
+         1
+        ],
+        "tip": "income statement = theo một kỳ.",
+        "why": "Đoạn 1: income statement thể hiện kết quả **over a period** (quý hoặc năm tài chính)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The accounts are audited after the annual report is released.",
+        "ans": [
+         1
+        ],
+        "tip": "before ≠ after.",
+        "why": "Đoạn 2: kiểm toán diễn ra **before** báo cáo thường niên được công bố."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ratios should be compared with past results and with competitors.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: so sánh tỷ số với kết quả quá khứ và đối thủ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the cash flow statement track?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cash flow statement theo dõi tiền vào và ra.",
+        "opts": [
+         "The price of the shares",
+         "The salary of the auditor",
+         "How cash enters and leaves the business"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who checks that the numbers are accurate?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kiểm toán viên độc lập kiểm tra số liệu.",
+        "opts": [
+         "An independent auditor",
+         "A shareholder",
+         "The broker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the profit margin show?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: biên lợi nhuận cho biết lợi nhuận trên mỗi đô la doanh thu.",
+        "opts": [
+         "How many shares exist",
+         "How much profit is earned from each dollar of sales",
+         "When the fiscal year ends"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may a high P/E ratio mean?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: P/E cao có thể nghĩa là nhà đầu tư kỳ vọng tăng trưởng nhanh.",
+        "opts": [
+         "The company is losing money",
+         "Investors may expect fast growth",
+         "The audit has failed"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Banking, Regulation & Compliance",
+   "name_vi": "Ngân hàng, quy định & tuân thủ",
+   "icon": "🏦",
+   "hue": 190,
+   "words": [
+    {
+     "en": "commercial bank",
+     "vi": "ngân hàng thương mại"
+    },
+    {
+     "en": "central bank",
+     "vi": "ngân hàng trung ương"
+    },
+    {
+     "en": "deposit",
+     "vi": "tiền gửi; gửi tiền"
+    },
+    {
+     "en": "withdrawal",
+     "vi": "việc rút tiền"
+    },
+    {
+     "en": "loan",
+     "vi": "khoản vay"
+    },
+    {
+     "en": "mortgage",
+     "vi": "khoản vay thế chấp (mua nhà)"
+    },
+    {
+     "en": "collateral",
+     "vi": "tài sản thế chấp"
+    },
+    {
+     "en": "borrower",
+     "vi": "người vay"
+    },
+    {
+     "en": "lender",
+     "vi": "bên cho vay"
+    },
+    {
+     "en": "credit score",
+     "vi": "điểm tín dụng"
+    },
+    {
+     "en": "overdraft",
+     "vi": "thấu chi"
+    },
+    {
+     "en": "interest rate",
+     "vi": "lãi suất"
+    },
+    {
+     "en": "default",
+     "vi": "vỡ nợ, không trả được nợ"
+    },
+    {
+     "en": "repayment",
+     "vi": "việc trả nợ"
+    },
+    {
+     "en": "instalment",
+     "vi": "khoản trả góp"
+    },
+    {
+     "en": "wire transfer",
+     "vi": "chuyển khoản điện tử"
+    },
+    {
+     "en": "account holder",
+     "vi": "chủ tài khoản"
+    },
+    {
+     "en": "know your customer (KYC)",
+     "vi": "nhận biết khách hàng"
+    },
+    {
+     "en": "anti-money laundering (AML)",
+     "vi": "phòng chống rửa tiền"
+    },
+    {
+     "en": "compliance",
+     "vi": "sự tuân thủ"
+    },
+    {
+     "en": "regulator",
+     "vi": "cơ quan quản lý"
+    },
+    {
+     "en": "licence",
+     "vi": "giấy phép"
+    },
+    {
+     "en": "capital requirement",
+     "vi": "yêu cầu vốn tối thiểu"
+    },
+    {
+     "en": "reserve requirement",
+     "vi": "tỷ lệ dự trữ bắt buộc"
+    },
+    {
+     "en": "fraud",
+     "vi": "gian lận"
+    },
+    {
+     "en": "penalty",
+     "vi": "hình phạt, khoản phạt"
+    },
+    {
+     "en": "audit trail",
+     "vi": "dấu vết kiểm toán"
+    },
+    {
+     "en": "transaction",
+     "vi": "giao dịch"
+    },
+    {
+     "en": "confidential",
+     "vi": "bảo mật"
+    },
+    {
+     "en": "supervision",
+     "vi": "sự giám sát"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bank asked for her house as ___ before approving the loan.",
+        "ans": [
+         0
+        ],
+        "tip": "co + lateral = đi kèm, bảo chứng.",
+        "why": "**collateral** = tài sản thế chấp, bảo đảm cho khoản vay.",
+        "opts": [
+         "collateral",
+         "deposit",
+         "penalty"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A high ___ shows that a borrower has a good record of repaying debts.",
+        "ans": [
+         0
+        ],
+        "tip": "score = điểm số.",
+        "why": "**credit score** = điểm tín dụng, phản ánh lịch sử trả nợ.",
+        "opts": [
+         "credit score",
+         "wire transfer",
+         "overdraft"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ sets the main interest rate for the whole economy.",
+        "ans": [
+         0
+        ],
+        "tip": "central = trung tâm.",
+        "why": "**central bank** = ngân hàng trung ương, điều hành chính sách tiền tệ.",
+        "opts": [
+         "central bank",
+         "lender",
+         "commercial bank"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Banks must follow KYC and ___ rules to stop criminals from hiding illegal money.",
+        "ans": [
+         1
+        ],
+        "tip": "launder = giặt → 'rửa' tiền bẩn.",
+        "why": "**anti-money laundering (AML)** = phòng chống rửa tiền.",
+        "opts": [
+         "fraud",
+         "anti-money laundering",
+         "withdrawal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bank received a heavy ___ for breaking the rules.",
+        "ans": [
+         2
+        ],
+        "tip": "penal = hình phạt.",
+        "why": "**penalty** = khoản phạt, hình phạt.",
+        "opts": [
+         "licence",
+         "deposit",
+         "penalty"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She pays her mortgage in monthly ___ of $400.",
+        "ans": [
+         0
+        ],
+        "tip": "in + stall = đặt vào từng phần.",
+        "why": "**instalment** = khoản trả góp theo kỳ.",
+        "opts": [
+         "instalments",
+         "overdrafts",
+         "deposits"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers should keep their PIN ___ and never tell anyone.",
+        "ans": [
+         0
+        ],
+        "tip": "confide = tâm sự, giữ kín.",
+        "why": "**confidential** = bí mật, bảo mật.",
+        "opts": [
+         "confidential",
+         "fraud",
+         "supervision"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ checks banks regularly to make sure they obey the law.",
+        "ans": [
+         2
+        ],
+        "tip": "regulate = điều chỉnh, quản lý.",
+        "why": "**regulator** = cơ quan quản lý/giám sát ngân hàng.",
+        "opts": [
+         "borrower",
+         "account holder",
+         "regulator"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "borrower",
+        "b": "a person or company that receives money and must pay it back",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lender",
+        "b": "a person or institution that gives money to be paid back later",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "overdraft",
+        "b": "an arrangement that lets you spend more than the money in your account",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mortgage",
+        "b": "a loan used to buy property, secured on that property",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fraud",
+        "b": "the crime of getting money by lying or cheating",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "licence",
+        "b": "official permission to run a business or an activity",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "wire transfer",
+        "b": "an electronic way of sending money between banks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "compliance",
+        "b": "following laws, rules and standards",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Banks ___ verify the identity of every new customer. It is the law.",
+        "ans": [
+         2
+        ],
+        "tip": "luật bắt buộc → must.",
+        "why": "Quy định pháp luật bắt buộc → **must**.",
+        "opts": [
+         "should",
+         "don't have to",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ pay a fee if you keep $1,000 in your account. It is free.",
+        "ans": [
+         0
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Miễn phí = không bắt buộc phải trả → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "must",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff ___ share a customer's personal data. It is strictly forbidden.",
+        "ans": [
+         0
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "'forbidden' = bị cấm → **mustn't**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ compare interest rates before choosing a loan. It is good advice.",
+        "ans": [
+         0
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Lời khuyên hợp lý → **should**.",
+        "opts": [
+         "should",
+         "mustn't",
+         "have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under the law, customers ___ show a valid ID to open an account.",
+        "ans": [
+         2
+        ],
+        "tip": "have to = bắt buộc (do quy định).",
+        "why": "Quy định bắt buộc → **have to**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ keep large amounts of cash at home. It is safer to deposit it.",
+        "ans": [
+         1
+        ],
+        "tip": "shouldn't = không nên.",
+        "why": "Lời khuyên tránh làm → **shouldn't**.",
+        "opts": [
+         "must",
+         "shouldn't",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A borrower ___ repay the loan on time, or the bank may charge a penalty.",
+        "ans": [
+         [
+          "must",
+          "has to"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghĩa vụ → **must** (hoặc has to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ visit the branch. You can open an account online.",
+        "ans": [
+         [
+          "don't have to",
+          "do not have to",
+          "needn't",
+          "need not"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Employees ___ discuss customers' accounts with strangers. It is against the rules.",
+        "ans": [
+         [
+          "mustn't",
+          "must not"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The law says banks ___ keep enough capital to protect depositors.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Luật quy định bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ never share your online banking password with anyone.",
+        "ans": [
+         [
+          "should",
+          "must"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên/cảnh báo mạnh → **should** (hoặc must)."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Applying for a business loan",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Linh wants to expand her bakery, so she applies for a loan at a commercial bank. First, she has to fill in an application form and show proof of her identity. This is part of the bank's KYC procedure, which helps to fight fraud and money laundering. A compliance officer checks every document carefully.\n\nNext, the bank looks at Linh's credit score and the cash flow of her business. A strong score and regular income make it easier to get a lower interest rate. The bank may also ask for collateral, such as equipment. If the borrower falls into default, the lender can sell the collateral to recover its money.\n\nBanks must also obey rules set by the regulator and the central bank. For example, they must keep a minimum level of capital and report suspicious transactions. A bank that breaks the rules may pay a heavy penalty or even lose its licence. Linh does not have to understand every regulation, but she should read her loan contract carefully before she signs.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Linh has to prove her identity when she applies for the loan.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cô ấy phải điền đơn và chứng minh danh tính (KYC)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A weak credit score makes it easier to get a lower interest rate.",
+        "ans": [
+         1
+        ],
+        "tip": "strong score → lãi thấp.",
+        "why": "Đoạn 2: **điểm mạnh** và thu nhập đều đặn mới giúp có lãi suất thấp hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If a borrower defaults, the lender can sell the collateral.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bên cho vay có thể bán tài sản thế chấp để thu hồi tiền."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A bank that breaks the rules can never lose its licence.",
+        "ans": [
+         1
+        ],
+        "tip": "may … or even lose its licence.",
+        "why": "Đoạn 3: ngân hàng vi phạm có thể bị phạt nặng hoặc **mất giấy phép**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the KYC procedure help to fight?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: KYC giúp chống gian lận và rửa tiền.",
+        "opts": [
+         "Inflation and recession",
+         "Volatility and risk",
+         "Fraud and money laundering"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may the bank ask Linh for as collateral?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ngân hàng có thể yêu cầu tài sản thế chấp như thiết bị.",
+        "opts": [
+         "A credit score",
+         "A dividend",
+         "Equipment"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must banks do?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngân hàng phải báo cáo các giao dịch đáng ngờ.",
+        "opts": [
+         "Report suspicious transactions",
+         "Sell collateral every month",
+         "Set the main interest rate"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should Linh do before she signs?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'she should read her loan contract carefully before she signs'.",
+        "opts": [
+         "Ask the regulator for a licence",
+         "Sell her bakery",
+         "Read her loan contract carefully"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Risk, Portfolio & Valuation",
+   "name_vi": "Rủi ro, danh mục đầu tư & định giá",
+   "icon": "⚖️",
+   "hue": 20,
+   "words": [
+    {
+     "en": "risk tolerance",
+     "vi": "khả năng chịu rủi ro"
+    },
+    {
+     "en": "asset allocation",
+     "vi": "phân bổ tài sản"
+    },
+    {
+     "en": "diversify",
+     "vi": "đa dạng hóa (danh mục)"
+    },
+    {
+     "en": "hedge",
+     "vi": "phòng ngừa rủi ro"
+    },
+    {
+     "en": "derivative",
+     "vi": "công cụ phái sinh"
+    },
+    {
+     "en": "option",
+     "vi": "quyền chọn"
+    },
+    {
+     "en": "futures contract",
+     "vi": "hợp đồng tương lai"
+    },
+    {
+     "en": "leverage",
+     "vi": "đòn bẩy tài chính"
+    },
+    {
+     "en": "margin call",
+     "vi": "lệnh gọi ký quỹ"
+    },
+    {
+     "en": "speculation",
+     "vi": "sự đầu cơ"
+    },
+    {
+     "en": "market risk",
+     "vi": "rủi ro thị trường"
+    },
+    {
+     "en": "credit risk",
+     "vi": "rủi ro tín dụng"
+    },
+    {
+     "en": "liquidity risk",
+     "vi": "rủi ro thanh khoản"
+    },
+    {
+     "en": "interest rate risk",
+     "vi": "rủi ro lãi suất"
+    },
+    {
+     "en": "exchange rate",
+     "vi": "tỷ giá hối đoái"
+    },
+    {
+     "en": "valuation",
+     "vi": "việc định giá"
+    },
+    {
+     "en": "intrinsic value",
+     "vi": "giá trị nội tại"
+    },
+    {
+     "en": "discounted cash flow (DCF)",
+     "vi": "dòng tiền chiết khấu"
+    },
+    {
+     "en": "present value",
+     "vi": "giá trị hiện tại"
+    },
+    {
+     "en": "time value of money",
+     "vi": "giá trị thời gian của tiền"
+    },
+    {
+     "en": "rate of return",
+     "vi": "tỷ suất sinh lời"
+    },
+    {
+     "en": "benchmark",
+     "vi": "chỉ số chuẩn để so sánh"
+    },
+    {
+     "en": "correlation",
+     "vi": "mức độ tương quan"
+    },
+    {
+     "en": "rebalancing",
+     "vi": "việc tái cân bằng danh mục"
+    },
+    {
+     "en": "stop-loss order",
+     "vi": "lệnh cắt lỗ"
+    },
+    {
+     "en": "drawdown",
+     "vi": "mức sụt giảm (từ đỉnh)"
+    },
+    {
+     "en": "undervalued",
+     "vi": "bị định giá thấp"
+    },
+    {
+     "en": "overvalued",
+     "vi": "bị định giá cao"
+    },
+    {
+     "en": "due diligence",
+     "vi": "thẩm định kỹ lưỡng"
+    },
+    {
+     "en": "investment horizon",
+     "vi": "kỳ hạn đầu tư"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An investor with low ___ prefers safe assets because she cannot accept big losses.",
+        "ans": [
+         1
+        ],
+        "tip": "tolerate = chịu đựng.",
+        "why": "**risk tolerance** = mức độ rủi ro mà nhà đầu tư chấp nhận được.",
+        "opts": [
+         "leverage",
+         "risk tolerance",
+         "drawdown"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Airlines often use futures contracts to ___ against rising fuel prices.",
+        "ans": [
+         2
+        ],
+        "tip": "hedge = hàng rào → bảo vệ.",
+        "why": "**hedge** = phòng ngừa rủi ro giá.",
+        "opts": [
+         "valuation",
+         "correlation",
+         "hedge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Using borrowed money to increase possible returns is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "lever = đòn bẩy.",
+        "why": "**leverage** = đòn bẩy tài chính, khuếch đại cả lãi lẫn lỗ.",
+        "opts": [
+         "rebalancing",
+         "leverage",
+         "due diligence"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the broker sends a ___, you must add more money to your account immediately.",
+        "ans": [
+         1
+        ],
+        "tip": "margin = tiền ký quỹ.",
+        "why": "**margin call** = yêu cầu nộp thêm tiền ký quỹ.",
+        "opts": [
+         "stop-loss order",
+         "margin call",
+         "benchmark"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The share looks ___: its price is lower than its intrinsic value.",
+        "ans": [
+         0
+        ],
+        "tip": "under + valued = bị đánh giá thấp.",
+        "why": "**undervalued** = bị định giá thấp so với giá trị thực.",
+        "opts": [
+         "undervalued",
+         "overvalued",
+         "derivative"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Analysts use the ___ method to estimate a company's value from its future cash flows.",
+        "ans": [
+         1
+        ],
+        "tip": "discount = chiết khấu về hiện tại.",
+        "why": "**discounted cash flow (DCF)** = phương pháp chiết khấu dòng tiền.",
+        "opts": [
+         "rate of return",
+         "discounted cash flow",
+         "exchange rate"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ automatically sells a share if its price falls to a set level.",
+        "ans": [
+         0
+        ],
+        "tip": "stop + loss = dừng lỗ.",
+        "why": "**stop-loss order** = lệnh cắt lỗ tự động.",
+        "opts": [
+         "stop-loss order",
+         "option",
+         "margin call"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of $100 received next year is less than $100 today.",
+        "ans": [
+         0
+        ],
+        "tip": "present = hiện tại.",
+        "why": "**present value** = giá trị hiện tại của tiền nhận trong tương lai.",
+        "opts": [
+         "present value",
+         "drawdown",
+         "correlation"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "option",
+        "b": "the right, but not the duty, to buy or sell an asset at a set price",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "derivative",
+        "b": "a financial contract whose value depends on another asset",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "speculation",
+        "b": "buying assets in the hope of a quick profit, despite high risk",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "asset allocation",
+        "b": "dividing money between stocks, bonds, cash and other assets",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "due diligence",
+        "b": "careful research before making an investment decision",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "drawdown",
+        "b": "the fall in value from a peak to a low point",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "correlation",
+        "b": "how closely the prices of two assets move together",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "benchmark",
+        "b": "a standard used to compare the performance of an investment",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If interest rates rise, bond prices ___.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại, will + V.",
+        "why": "Điều kiện loại 1 (có thể xảy ra) → **will fall**.",
+        "opts": [
+         "will fall",
+         "would fall",
+         "fell"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I had $1 million, I ___ in a diversified portfolio.",
+        "ans": [
+         1
+        ],
+        "tip": "If + quá khứ, would + V.",
+        "why": "Điều kiện loại 2 (giả định không có thật) → **would invest**.",
+        "opts": [
+         "will invest",
+         "would invest",
+         "invest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the company ___ its profit target, the share price will jump.",
+        "ans": [
+         2
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn → **meets**.",
+        "opts": [
+         "met",
+         "would meet",
+         "meets"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If you diversified your portfolio, you ___ your risk.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ → would + V.",
+        "why": "Loại 2 → **would reduce**.",
+        "opts": [
+         "will reduce",
+         "reduce",
+         "would reduce"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the central bank ___ rates, mortgages would become more expensive.",
+        "ans": [
+         0
+        ],
+        "tip": "If + quá khứ đơn, would + V.",
+        "why": "Loại 2: mệnh đề If dùng quá khứ đơn → **raised**.",
+        "opts": [
+         "raised",
+         "raises",
+         "would raise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will you do if the market ___ by 20% next month?",
+        "ans": [
+         1
+        ],
+        "tip": "Không dùng will sau If.",
+        "why": "Loại 1: sau 'if' dùng hiện tại đơn → **falls**.",
+        "opts": [
+         "fell",
+         "falls",
+         "will fall"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the word in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If inflation ___ (increase), central banks will probably raise interest rates.",
+        "ans": [
+         [
+          "increases",
+          "rises"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1: **increases**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) you, I would sell that overvalued stock.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were you…",
+        "why": "Loại 2: **were** (dùng được cho mọi ngôi; 'was' cũng được chấp nhận)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the company ___ (go) bankrupt, shareholders will lose their money.",
+        "ans": [
+         [
+          "goes"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **goes**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She would buy more shares if she ___ (have) extra cash.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: mệnh đề If dùng quá khứ đơn → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If you ___ (invest) early, compound interest will work for you.",
+        "ans": [
+         [
+          "invest"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: **invest**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What if the market falls?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Imagine two investors, Tom and Anna. Tom puts all his savings into one technology stock. If the share price falls, he will lose a large part of his wealth. Anna spreads her money across stocks, bonds and cash. If one asset loses value, the others may protect her portfolio. This is the idea behind diversification and asset allocation.\n\nAnna also knows her risk tolerance. If she were a more aggressive investor, she would use leverage, but she thinks borrowing to invest is too dangerous. A margin call could force her to sell at the worst time. Instead, she does rebalancing once a year, and she sets a stop-loss order to limit her drawdown.\n\nBefore she buys a share, Anna does her due diligence. She estimates its intrinsic value with a DCF model. If the market price is lower than that value, the share is undervalued and she may buy it. If it is higher, she will wait. Tom, however, says he would rather follow the news and invest quickly.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Tom invests all his savings in one technology stock.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Tom đặt toàn bộ tiền vào **một** cổ phiếu công nghệ."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Anna keeps all her money in bonds.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Anna chia tiền vào cổ phiếu, trái phiếu **và** tiền mặt."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Anna thinks using leverage is too dangerous.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'she thinks borrowing to invest is too dangerous'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If the market price is higher than the intrinsic value, Anna will buy the share.",
+        "ans": [
+         1
+        ],
+        "tip": "higher → she will wait.",
+        "why": "Đoạn 3: nếu giá cao hơn giá trị nội tại, Anna sẽ **chờ**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the idea behind diversification?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chia tiền vào nhiều tài sản để bảo vệ danh mục.",
+        "opts": [
+         "Spreading money across different assets",
+         "Putting all money in one stock",
+         "Borrowing money to invest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Anna do once a year?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Anna tái cân bằng danh mục mỗi năm.",
+        "opts": [
+         "She rebalances her portfolio",
+         "She sells all her bonds",
+         "She applies for a loan"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a stop-loss order help her limit?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: lệnh cắt lỗ giúp hạn chế mức sụt giảm (drawdown).",
+        "opts": [
+         "Her dividends",
+         "Her drawdown",
+         "Her tax"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When may Anna buy a share?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cổ phiếu undervalued (giá thấp hơn giá trị nội tại) thì Anna có thể mua.",
+        "opts": [
+         "When everybody is talking about it",
+         "When its price is lower than its intrinsic value",
+         "When it pays a high coupon"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fintech & Modern Markets",
+   "name_vi": "Fintech & thị trường hiện đại",
+   "icon": "💳",
+   "hue": 320,
+   "words": [
+    {
+     "en": "fintech",
+     "vi": "công nghệ tài chính"
+    },
+    {
+     "en": "mobile banking",
+     "vi": "ngân hàng di động"
+    },
+    {
+     "en": "digital wallet",
+     "vi": "ví điện tử"
+    },
+    {
+     "en": "contactless payment",
+     "vi": "thanh toán không tiếp xúc"
+    },
+    {
+     "en": "cryptocurrency",
+     "vi": "tiền mã hóa"
+    },
+    {
+     "en": "blockchain",
+     "vi": "chuỗi khối"
+    },
+    {
+     "en": "stablecoin",
+     "vi": "đồng tiền mã hóa ổn định"
+    },
+    {
+     "en": "peer-to-peer (P2P) lending",
+     "vi": "cho vay ngang hàng"
+    },
+    {
+     "en": "crowdfunding",
+     "vi": "gây quỹ cộng đồng"
+    },
+    {
+     "en": "robo-advisor",
+     "vi": "cố vấn đầu tư tự động"
+    },
+    {
+     "en": "algorithmic trading",
+     "vi": "giao dịch thuật toán"
+    },
+    {
+     "en": "venture capital",
+     "vi": "vốn đầu tư mạo hiểm"
+    },
+    {
+     "en": "start-up",
+     "vi": "công ty khởi nghiệp"
+    },
+    {
+     "en": "private equity",
+     "vi": "vốn cổ phần tư nhân"
+    },
+    {
+     "en": "merger",
+     "vi": "sự sáp nhập"
+    },
+    {
+     "en": "acquisition",
+     "vi": "sự thâu tóm, mua lại"
+    },
+    {
+     "en": "recession",
+     "vi": "suy thoái kinh tế"
+    },
+    {
+     "en": "economic growth",
+     "vi": "tăng trưởng kinh tế"
+    },
+    {
+     "en": "gross domestic product (GDP)",
+     "vi": "tổng sản phẩm quốc nội"
+    },
+    {
+     "en": "unemployment rate",
+     "vi": "tỷ lệ thất nghiệp"
+    },
+    {
+     "en": "monetary policy",
+     "vi": "chính sách tiền tệ"
+    },
+    {
+     "en": "quantitative easing",
+     "vi": "nới lỏng định lượng"
+    },
+    {
+     "en": "bubble",
+     "vi": "bong bóng (thị trường)"
+    },
+    {
+     "en": "crash",
+     "vi": "sự sụp đổ (thị trường)"
+    },
+    {
+     "en": "rally",
+     "vi": "đợt tăng giá mạnh"
+    },
+    {
+     "en": "sustainable investing",
+     "vi": "đầu tư bền vững"
+    },
+    {
+     "en": "environmental, social and governance (ESG)",
+     "vi": "tiêu chí môi trường, xã hội và quản trị"
+    },
+    {
+     "en": "financial inclusion",
+     "vi": "tài chính toàn diện"
+    },
+    {
+     "en": "cybersecurity",
+     "vi": "an ninh mạng"
+    },
+    {
+     "en": "market sentiment",
+     "vi": "tâm lý thị trường"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ tài chính phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ lets you pay with your phone instead of a physical card.",
+        "ans": [
+         1
+        ],
+        "tip": "wallet = ví tiền.",
+        "why": "**digital wallet** = ví điện tử.",
+        "opts": [
+         "blockchain",
+         "digital wallet",
+         "merger"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ records transactions in a shared digital ledger that is very hard to change.",
+        "ans": [
+         1
+        ],
+        "tip": "block + chain = chuỗi các khối dữ liệu.",
+        "why": "**blockchain** = chuỗi khối, công nghệ nền tảng của tiền mã hóa.",
+        "opts": [
+         "crowdfunding",
+         "blockchain",
+         "bubble"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ uses software to give low-cost investment advice automatically.",
+        "ans": [
+         0
+        ],
+        "tip": "robot + advisor.",
+        "why": "**robo-advisor** = cố vấn đầu tư tự động.",
+        "opts": [
+         "robo-advisor",
+         "stablecoin",
+         "venture capital"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Early-stage start-ups often raise money from ___ firms.",
+        "ans": [
+         0
+        ],
+        "tip": "venture = dự án mạo hiểm.",
+        "why": "**venture capital** = vốn đầu tư mạo hiểm cho công ty khởi nghiệp.",
+        "opts": [
+         "venture capital",
+         "GDP",
+         "rally"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When one company buys another and takes control, the deal is called an ___.",
+        "ans": [
+         1
+        ],
+        "tip": "acquire = giành được.",
+        "why": "**acquisition** = thâu tóm; khác **merger** (hai công ty hợp nhất).",
+        "opts": [
+         "crash",
+         "acquisition",
+         "stablecoin"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Two quarters of falling GDP usually mean the economy is in a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "recede = lùi lại.",
+        "why": "**recession** = suy thoái kinh tế.",
+        "opts": [
+         "rally",
+         "recession",
+         "merger"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Prices rose far above real value; then the ___ burst and many investors lost money.",
+        "ans": [
+         2
+        ],
+        "tip": "bubble = bong bóng, vỡ là hết.",
+        "why": "**bubble** = bong bóng giá tài sản.",
+        "opts": [
+         "rally",
+         "ESG",
+         "bubble"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Investors who care about ___ factors look at a company's effect on the environment and society.",
+        "ans": [
+         2
+        ],
+        "tip": "E-S-G = Environmental, Social, Governance.",
+        "why": "**ESG** = tiêu chí môi trường, xã hội và quản trị.",
+        "opts": [
+         "GDP",
+         "P2P",
+         "ESG"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cryptocurrency",
+        "b": "digital money that uses cryptography and is not controlled by a central bank",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "crowdfunding",
+        "b": "raising small amounts of money from many people, usually online",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stablecoin",
+        "b": "a cryptocurrency designed to keep a steady value",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "monetary policy",
+        "b": "actions by a central bank to control money supply and interest rates",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "unemployment rate",
+        "b": "the percentage of people who want to work but have no job",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "financial inclusion",
+        "b": "giving everyone access to useful and affordable financial services",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "algorithmic trading",
+        "b": "buying and selling automatically using computer programs",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cybersecurity",
+        "b": "protection of computer systems and data from attacks",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mobile payments ___ very popular in the last five years.",
+        "ans": [
+         2
+        ],
+        "tip": "in the last five years → hiện tại hoàn thành.",
+        "why": "Khoảng thời gian kéo dài đến hiện tại → **have become**.",
+        "opts": [
+         "became",
+         "were becoming",
+         "have become"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The stock market ___ in 2008 and many banks failed.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2008 → quá khứ đơn.",
+        "why": "Mốc thời gian đã qua → **crashed**.",
+        "opts": [
+         "has crashed",
+         "has been crashing",
+         "crashed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The fintech start-up ___ $20 million in funding so far this year.",
+        "ans": [
+         1
+        ],
+        "tip": "so far this year → hiện tại hoàn thành.",
+        "why": "'so far this year' (năm chưa hết) → **has raised**.",
+        "opts": [
+         "raised",
+         "has raised",
+         "was raising"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The first Bitcoin ___ in 2009.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2009 → quá khứ đơn.",
+        "why": "Mốc thời gian cụ thể → **appeared**.",
+        "opts": [
+         "has appeared",
+         "appears",
+         "appeared"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our bank ___ a new app last month.",
+        "ans": [
+         2
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' đã kết thúc → **launched**.",
+        "opts": [
+         "has launched",
+         "launches",
+         "launched"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Interest rates ___ since the central bank changed its policy.",
+        "ans": [
+         1
+        ],
+        "tip": "since + mốc → hiện tại hoàn thành.",
+        "why": "'since …' → **have risen**.",
+        "opts": [
+         "rose",
+         "have risen",
+         "rise"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company ___ (go) public in 2021.",
+        "ans": [
+         [
+          "went"
+         ]
+        ],
+        "tip": "go – went – gone.",
+        "why": "Mốc 'in 2021' → quá khứ đơn: **went**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Digital banks ___ (change) the way people save and borrow since 2010.",
+        "ans": [
+         [
+          "have changed"
+         ]
+        ],
+        "tip": "",
+        "why": "'since 2010' → **have changed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "How many users ___ (join) the app so far this month?",
+        "ans": [
+         [
+          "have joined"
+         ]
+        ],
+        "tip": "",
+        "why": "'so far this month' → hiện tại hoàn thành: **have joined**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last year, the central bank ___ (raise) interest rates three times.",
+        "ans": [
+         [
+          "raised"
+         ]
+        ],
+        "tip": "",
+        "why": "'Last year' → quá khứ đơn: **raised**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (not / invest) in cryptocurrency yet.",
+        "ans": [
+         [
+          "has not invested",
+          "hasn't invested"
+         ]
+        ],
+        "tip": "yet → thường dùng hiện tại hoàn thành.",
+        "why": "'yet' → **has not invested**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · The rise of fintech",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Ten years ago, most people visited a bank branch to open an account or ask for a loan. Today, fintech companies have changed that habit. Millions of customers now use mobile banking and digital wallets, and contactless payment has become normal in many cities. In 2020, the use of online payments grew rapidly as many shops closed.\n\nTechnology has also changed investing. Robo-advisors have made investment advice cheaper, and algorithmic trading now accounts for a large part of the trades on many exchanges. Cryptocurrencies appeared in 2009, and since then the market has experienced several rallies and crashes. Some experts have warned that prices in some periods were a bubble, and many regulators have introduced stricter rules.\n\nFintech has also helped financial inclusion: people without a bank account can now send money or borrow small amounts by phone. However, cybersecurity remains a major concern. Companies have invested billions of dollars in protecting data, but fraud has not disappeared.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ten years ago, most people visited a bank branch to open an account.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'most people visited a bank branch'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Cryptocurrencies appeared before 2005.",
+        "ans": [
+         1
+        ],
+        "tip": "appeared in 2009.",
+        "why": "Đoạn 2: tiền mã hóa xuất hiện năm **2009**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Robo-advisors have made investment advice cheaper.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'Robo-advisors have made investment advice cheaper'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Cybersecurity is no longer a concern.",
+        "ans": [
+         1
+        ],
+        "tip": "remains a major concern.",
+        "why": "Đoạn 3: an ninh mạng vẫn là **mối lo lớn**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happened to online payments in 2020?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thanh toán trực tuyến tăng nhanh khi nhiều cửa hàng đóng cửa.",
+        "opts": [
+         "They disappeared",
+         "They grew rapidly",
+         "They became illegal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What has algorithmic trading become?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giao dịch thuật toán chiếm phần lớn giao dịch trên nhiều sàn.",
+        "opts": [
+         "A large part of the trades on many exchanges",
+         "A type of bond",
+         "A kind of bank loan"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How has fintech helped financial inclusion?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: người chưa có tài khoản ngân hàng có thể chuyển tiền hoặc vay nhỏ qua điện thoại.",
+        "opts": [
+         "People without a bank account can send money or borrow by phone",
+         "Everyone now has a high income",
+         "Banks have closed all branches"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What have many regulators done about cryptocurrency?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhiều cơ quan quản lý đã ban hành quy định chặt chẽ hơn.",
+        "opts": [
+         "Banned all banks",
+         "Created new bubbles",
+         "Introduced stricter rules"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "earn",
+   "kiếm được"
+  ],
+  [
+   "rent",
+   "tiền thuê nhà"
+  ],
+  [
+   "bill",
+   "hóa đơn"
+  ],
+  [
+   "wise",
+   "khôn ngoan"
+  ],
+  [
+   "drawer",
+   "ngăn kéo"
+  ],
+  [
+   "sum",
+   "khoản tiền, tổng số"
+  ],
+  [
+   "pay off",
+   "trả hết (nợ)"
+  ],
+  [
+   "cover",
+   "đủ để chi trả; bao phủ"
+  ],
+  [
+   "spread",
+   "dàn trải, phân bổ"
+  ],
+  [
+   "recover",
+   "phục hồi, lấy lại"
+  ],
+  [
+   "retiree",
+   "người đã nghỉ hưu"
+  ],
+  [
+   "stable",
+   "ổn định"
+  ],
+  [
+   "beginner",
+   "người mới bắt đầu"
+  ],
+  [
+   "sharply",
+   "mạnh, đột ngột"
+  ],
+  [
+   "fall",
+   "giảm, rơi"
+  ],
+  [
+   "rise",
+   "tăng"
+  ],
+  [
+   "ownership",
+   "quyền sở hữu"
+  ],
+  [
+   "hold",
+   "nắm giữ"
+  ],
+  [
+   "mix",
+   "kết hợp; hỗn hợp"
+  ],
+  [
+   "proportion",
+   "tỷ lệ"
+  ],
+  [
+   "goal",
+   "mục tiêu"
+  ],
+  [
+   "simple",
+   "đơn giản"
+  ],
+  [
+   "wide",
+   "rộng, đa dạng"
+  ],
+  [
+   "snapshot",
+   "bức ảnh chụp nhanh, bức tranh tức thời"
+  ],
+  [
+   "period",
+   "khoảng thời gian"
+  ],
+  [
+   "track",
+   "theo dõi"
+  ],
+  [
+   "independent",
+   "độc lập"
+  ],
+  [
+   "accurate",
+   "chính xác"
+  ],
+  [
+   "release",
+   "công bố, phát hành"
+  ],
+  [
+   "compare",
+   "so sánh"
+  ],
+  [
+   "competitor",
+   "đối thủ cạnh tranh"
+  ],
+  [
+   "growth",
+   "sự tăng trưởng"
+  ],
+  [
+   "expect",
+   "mong đợi"
+  ],
+  [
+   "whole",
+   "toàn bộ"
+  ],
+  [
+   "past",
+   "quá khứ"
+  ],
+  [
+   "identity",
+   "danh tính"
+  ],
+  [
+   "proof",
+   "bằng chứng"
+  ],
+  [
+   "application form",
+   "đơn đăng ký"
+  ],
+  [
+   "procedure",
+   "quy trình"
+  ],
+  [
+   "carefully",
+   "cẩn thận"
+  ],
+  [
+   "equipment",
+   "thiết bị"
+  ],
+  [
+   "contract",
+   "hợp đồng"
+  ],
+  [
+   "sign",
+   "ký"
+  ],
+  [
+   "suspicious",
+   "đáng ngờ"
+  ],
+  [
+   "forbidden",
+   "bị cấm"
+  ],
+  [
+   "law",
+   "luật"
+  ],
+  [
+   "obey",
+   "tuân theo"
+  ],
+  [
+   "verify",
+   "xác minh"
+  ],
+  [
+   "protect",
+   "bảo vệ"
+  ],
+  [
+   "advice",
+   "lời khuyên"
+  ],
+  [
+   "dangerous",
+   "nguy hiểm"
+  ],
+  [
+   "force",
+   "buộc, ép"
+  ],
+  [
+   "limit",
+   "giới hạn"
+  ],
+  [
+   "estimate",
+   "ước tính"
+  ],
+  [
+   "aggressive",
+   "mạo hiểm, quyết liệt"
+  ],
+  [
+   "borrow",
+   "vay mượn"
+  ],
+  [
+   "spend",
+   "chi tiêu"
+  ],
+  [
+   "receive",
+   "nhận"
+  ],
+  [
+   "raise",
+   "gọi vốn; tăng"
+  ],
+  [
+   "habit",
+   "thói quen"
+  ],
+  [
+   "millions",
+   "hàng triệu"
+  ],
+  [
+   "rapidly",
+   "nhanh chóng"
+  ],
+  [
+   "warn",
+   "cảnh báo"
+  ],
+  [
+   "stricter",
+   "nghiêm ngặt hơn"
+  ],
+  [
+   "billion",
+   "tỷ (1.000 triệu)"
+  ],
+  [
+   "concern",
+   "mối lo ngại"
+  ],
+  [
+   "data",
+   "dữ liệu"
+  ],
+  [
+   "disappear",
+   "biến mất"
+  ],
+  [
+   "experience",
+   "trải qua; kinh nghiệm"
+  ],
+  [
+   "online",
+   "trực tuyến"
+  ],
+  [
+   "branch",
+   "chi nhánh"
+  ],
+  [
+   "customer",
+   "khách hàng"
+  ],
+  [
+   "bankrupt",
+   "phá sản"
+  ],
+  [
+   "target",
+   "mục tiêu"
+  ],
+  [
+   "jump",
+   "tăng vọt"
+  ],
+  [
+   "cheap",
+   "rẻ"
+  ],
+  [
+   "cost",
+   "chi phí; tốn"
+  ],
+  [
+   "fee",
+   "phí"
+  ],
+  [
+   "account",
+   "tài khoản"
+  ],
+  [
+   "approve",
+   "phê duyệt"
+  ],
+  [
+   "amount",
+   "số lượng, khoản"
+  ],
+  [
+   "afford",
+   "đủ khả năng chi trả"
+  ],
+  [
+   "pension",
+   "lương hưu"
+  ],
+  [
+   "sale",
+   "việc bán, doanh số"
+  ]
+ ]
+}

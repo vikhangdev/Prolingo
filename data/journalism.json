@@ -1,0 +1,4291 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "journalism",
+  "name": "Journalism & Media",
+  "name_vi": "Báo chí & Truyền thông",
+  "icon": "📰",
+  "hue": 345,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành báo chí – truyền thông: tòa soạn & tin tức, phỏng vấn & tác nghiệp, viết tin & tiêu đề, đạo đức & kiểm chứng thông tin, truyền thông số & mạng xã hội, ngành truyền thông & khán giả."
+ },
+ "units": [
+  {
+   "name": "Newsroom & News Basics",
+   "name_vi": "Tòa soạn & kiến thức tin tức cơ bản",
+   "icon": "📰",
+   "hue": 345,
+   "words": [
+    {
+     "en": "journalism",
+     "vi": "báo chí"
+    },
+    {
+     "en": "journalist",
+     "vi": "nhà báo"
+    },
+    {
+     "en": "reporter",
+     "vi": "phóng viên"
+    },
+    {
+     "en": "editor",
+     "vi": "biên tập viên"
+    },
+    {
+     "en": "newsroom",
+     "vi": "tòa soạn"
+    },
+    {
+     "en": "news story",
+     "vi": "bài tin"
+    },
+    {
+     "en": "headline",
+     "vi": "tiêu đề"
+    },
+    {
+     "en": "byline",
+     "vi": "dòng ghi tên tác giả bài viết"
+    },
+    {
+     "en": "deadline",
+     "vi": "hạn chót"
+    },
+    {
+     "en": "scoop",
+     "vi": "tin độc quyền"
+    },
+    {
+     "en": "breaking news",
+     "vi": "tin nóng"
+    },
+    {
+     "en": "beat",
+     "vi": "mảng phụ trách của phóng viên"
+    },
+    {
+     "en": "source",
+     "vi": "nguồn tin"
+    },
+    {
+     "en": "press release",
+     "vi": "thông cáo báo chí"
+    },
+    {
+     "en": "press conference",
+     "vi": "họp báo"
+    },
+    {
+     "en": "lead",
+     "vi": "đoạn mở đầu của bài báo"
+    },
+    {
+     "en": "angle",
+     "vi": "góc tiếp cận"
+    },
+    {
+     "en": "newsworthy",
+     "vi": "đáng đưa tin"
+    },
+    {
+     "en": "news value",
+     "vi": "giá trị tin tức"
+    },
+    {
+     "en": "publication",
+     "vi": "ấn phẩm; sự xuất bản"
+    },
+    {
+     "en": "circulation",
+     "vi": "lượng phát hành"
+    },
+    {
+     "en": "columnist",
+     "vi": "người viết chuyên mục"
+    },
+    {
+     "en": "correspondent",
+     "vi": "phóng viên thường trú"
+    },
+    {
+     "en": "freelancer",
+     "vi": "nhà báo tự do"
+    },
+    {
+     "en": "editorial",
+     "vi": "bài xã luận"
+    },
+    {
+     "en": "feature",
+     "vi": "bài phóng sự, bài chuyên đề"
+    },
+    {
+     "en": "coverage",
+     "vi": "sự đưa tin"
+    },
+    {
+     "en": "current affairs",
+     "vi": "thời sự"
+    },
+    {
+     "en": "front page",
+     "vi": "trang nhất"
+    },
+    {
+     "en": "audience",
+     "vi": "khán giả, độc giả"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ decides which stories are published and checks the writing.",
+        "ans": [
+         0
+        ],
+        "tip": "edit = biên tập.",
+        "why": "**editor** = biên tập viên, chọn bài và kiểm tra nội dung.",
+        "opts": [
+         "editor",
+         "byline",
+         "scoop"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The reporter has a tight ___: the story must be ready by 6 p.m.",
+        "ans": [
+         1
+        ],
+        "tip": "dead + line = hạn không thể vượt.",
+        "why": "**deadline** = hạn chót nộp bài.",
+        "opts": [
+         "scoop",
+         "deadline",
+         "feature"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She got a ___ when she learned about the merger before every other newspaper.",
+        "ans": [
+         2
+        ],
+        "tip": "scoop = múc trước người khác.",
+        "why": "**scoop** = tin độc quyền, đưa trước mọi báo khác.",
+        "opts": [
+         "editorial",
+         "circulation",
+         "scoop"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "TV channels interrupted their programmes to show ___ about the earthquake.",
+        "ans": [
+         2
+        ],
+        "tip": "breaking = vừa mới xảy ra.",
+        "why": "**breaking news** = tin nóng, vừa xảy ra và được đưa ngay.",
+        "opts": [
+         "a press release",
+         "a feature",
+         "breaking news"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company sent a ___ to announce its new product.",
+        "ans": [
+         0
+        ],
+        "tip": "release = phát hành, công bố.",
+        "why": "**press release** = thông cáo báo chí do tổ chức gửi cho báo giới.",
+        "opts": [
+         "press release",
+         "headline",
+         "byline"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The sports reporter's ___ is football and tennis.",
+        "ans": [
+         1
+        ],
+        "tip": "beat = khu vực/lĩnh vực đi tuần.",
+        "why": "**beat** = mảng phụ trách cố định của phóng viên.",
+        "opts": [
+         "lead",
+         "beat",
+         "angle"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the newspaper is 50,000 copies a day.",
+        "ans": [
+         0
+        ],
+        "tip": "circulate = lưu hành.",
+        "why": "**circulation** = lượng phát hành, số bản báo bán ra.",
+        "opts": [
+         "circulation",
+         "coverage",
+         "correspondent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A story is ___ if it is important, new or interesting to the audience.",
+        "ans": [
+         1
+        ],
+        "tip": "news + worthy = xứng đáng là tin.",
+        "why": "**newsworthy** = đáng đưa tin.",
+        "opts": [
+         "editorial",
+         "newsworthy",
+         "front page"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "source",
+        "b": "a person or document that gives information to a journalist",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "headline",
+        "b": "the title of a news story, printed in large letters",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "byline",
+        "b": "a line that gives the name of the writer of an article",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lead",
+        "b": "the opening sentence or paragraph of a news story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "angle",
+        "b": "the particular way a reporter approaches a story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "correspondent",
+        "b": "a reporter who sends news from a distant place or another country",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "freelancer",
+        "b": "a journalist who works for several publications and is not an employee",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "editorial",
+        "b": "an article that expresses the opinion of a newspaper",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Reporters usually ___ their stories before 5 p.m.",
+        "ans": [
+         2
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' = thói quen → **hiện tại đơn**; chủ ngữ số nhiều: file (nộp bài).",
+        "opts": [
+         "files",
+         "are filing",
+         "file"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Listen! The editor ___ the team about tomorrow's front page.",
+        "ans": [
+         2
+        ],
+        "tip": "Listen! → đang diễn ra.",
+        "why": "'Listen!' báo hiệu việc đang xảy ra → **is briefing**.",
+        "opts": [
+         "briefs",
+         "brief",
+         "is briefing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The newspaper ___ 100,000 copies every day.",
+        "ans": [
+         1
+        ],
+        "tip": "every day → hiện tại đơn.",
+        "why": "'every day' → hiện tại đơn; chủ ngữ số ít: **sells**.",
+        "opts": [
+         "is selling",
+         "sells",
+         "sell"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the moment, our correspondent ___ live from the city centre.",
+        "ans": [
+         0
+        ],
+        "tip": "at the moment → be + V-ing.",
+        "why": "'At the moment' → **is reporting**.",
+        "opts": [
+         "is reporting",
+         "reports",
+         "report"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This week, we ___ a special series on climate change.",
+        "ans": [
+         2
+        ],
+        "tip": "this week = tạm thời.",
+        "why": "'This week' = việc tạm thời, đang tiến hành → **are producing**.",
+        "opts": [
+         "produce",
+         "produces",
+         "are producing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A good journalist always ___ sources before publishing a story.",
+        "ans": [
+         1
+        ],
+        "tip": "always → hiện tại đơn.",
+        "why": "'always' = thói quen → hiện tại đơn; chủ ngữ số ít: **checks**.",
+        "opts": [
+         "is checking",
+         "checks",
+         "check"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The editor ___ (read) every story before it goes online.",
+        "ans": [
+         [
+          "reads"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every story' → thói quen, chủ ngữ số ít: **reads**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the reporters ___ (wait) outside the courthouse.",
+        "ans": [
+         [
+          "are waiting",
+          "'re waiting"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **are waiting**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our website ___ (not / publish) stories at night.",
+        "ans": [
+         [
+          "does not publish",
+          "doesn't publish"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số ít: **does not publish**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) as a political correspondent.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Look! The presenter ___ (introduce) the guest.",
+        "ans": [
+         [
+          "is introducing",
+          "'s introducing"
+         ]
+        ],
+        "tip": "",
+        "why": "'Look!' → hành động đang xảy ra: **is introducing**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Inside a newsroom",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A newsroom never sleeps. Every morning, editors meet to decide which stories to cover. They look at press releases, check what other publications are reporting and listen to ideas from reporters. A story must be newsworthy: it is new, important or interesting to the audience.\n\nEach reporter has a beat, for example politics, sport or health. Reporters talk to sources, attend press conferences and look for a strong angle. Then they write the story, starting with a clear lead that gives the most important facts. Every story has a deadline, and the editor checks the writing, adds a headline and decides where to put it. The best stories may appear on the front page.\n\nSome journalists work abroad as correspondents, while freelancers sell their stories to several publications. Today, many newsrooms are also learning to produce video and social media posts. Right now, most readers get their news online, so breaking news must be published within minutes.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Editors meet in the morning to decide which stories to cover.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mỗi sáng biên tập viên họp để quyết định đưa tin gì."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A reporter's beat is the headline of a story.",
+        "ans": [
+         1
+        ],
+        "tip": "beat ≠ headline.",
+        "why": "Đoạn 2: **beat** là mảng phụ trách (chính trị, thể thao, y tế…), không phải tiêu đề."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The lead gives the most important facts.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: lead rõ ràng nêu những thông tin quan trọng nhất."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Freelancers work for only one publication.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: freelancer bán bài cho **nhiều** ấn phẩm."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When is a story newsworthy?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: newsworthy = mới, quan trọng hoặc thú vị với độc giả.",
+        "opts": [
+         "When it is new, important or interesting to the audience",
+         "When it has a long headline",
+         "When it comes from a press release"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does an editor do after a reporter writes the story?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: biên tập viên kiểm tra bài, đặt tiêu đề và quyết định vị trí đăng.",
+        "opts": [
+         "Checks the writing, adds a headline and decides where to put it",
+         "Attends the press conference",
+         "Chooses a new beat for the reporter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do correspondents do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: một số nhà báo làm việc ở nước ngoài với vai trò correspondent.",
+        "opts": [
+         "They sell stories to several publications",
+         "They write the headlines",
+         "They work abroad and report from there"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why must breaking news be published quickly?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hầu hết độc giả đọc tin trực tuyến nên tin nóng phải đăng trong vài phút.",
+        "opts": [
+         "Because editors meet every morning",
+         "Because most readers get their news online",
+         "Because freelancers need money"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Reporting & Interviewing",
+   "name_vi": "Tác nghiệp & phỏng vấn",
+   "icon": "🎙️",
+   "hue": 200,
+   "words": [
+    {
+     "en": "interview",
+     "vi": "phỏng vấn; cuộc phỏng vấn"
+    },
+    {
+     "en": "interviewee",
+     "vi": "người được phỏng vấn"
+    },
+    {
+     "en": "interviewer",
+     "vi": "người phỏng vấn"
+    },
+    {
+     "en": "quote",
+     "vi": "lời trích dẫn"
+    },
+    {
+     "en": "reported speech",
+     "vi": "lời tường thuật (gián tiếp)"
+    },
+    {
+     "en": "paraphrase",
+     "vi": "diễn đạt lại bằng lời của mình"
+    },
+    {
+     "en": "attribution",
+     "vi": "sự ghi nguồn (ai nói/ai cung cấp)"
+    },
+    {
+     "en": "on the record",
+     "vi": "chính thức (được phép đưa tin)"
+    },
+    {
+     "en": "off the record",
+     "vi": "không chính thức (không được đưa tin)"
+    },
+    {
+     "en": "anonymous source",
+     "vi": "nguồn tin ẩn danh"
+    },
+    {
+     "en": "eyewitness",
+     "vi": "nhân chứng tận mắt"
+    },
+    {
+     "en": "spokesperson",
+     "vi": "người phát ngôn"
+    },
+    {
+     "en": "statement",
+     "vi": "tuyên bố, phát biểu"
+    },
+    {
+     "en": "transcript",
+     "vi": "bản ghi chép lại lời nói"
+    },
+    {
+     "en": "recording",
+     "vi": "bản ghi âm, ghi hình"
+    },
+    {
+     "en": "shorthand",
+     "vi": "tốc ký"
+    },
+    {
+     "en": "on the scene",
+     "vi": "tại hiện trường"
+    },
+    {
+     "en": "tip-off",
+     "vi": "tin báo, manh mối bí mật"
+    },
+    {
+     "en": "follow-up question",
+     "vi": "câu hỏi tiếp nối"
+    },
+    {
+     "en": "open-ended question",
+     "vi": "câu hỏi mở"
+    },
+    {
+     "en": "closed question",
+     "vi": "câu hỏi đóng (trả lời có/không)"
+    },
+    {
+     "en": "background",
+     "vi": "thông tin nền, bối cảnh"
+    },
+    {
+     "en": "embargo",
+     "vi": "lệnh cấm đưa tin trước thời điểm quy định"
+    },
+    {
+     "en": "leak",
+     "vi": "sự rò rỉ thông tin; rò rỉ"
+    },
+    {
+     "en": "press pass",
+     "vi": "thẻ phóng viên"
+    },
+    {
+     "en": "verify",
+     "vi": "xác minh"
+    },
+    {
+     "en": "confirm",
+     "vi": "xác nhận"
+    },
+    {
+     "en": "deny",
+     "vi": "phủ nhận"
+    },
+    {
+     "en": "claim",
+     "vi": "khẳng định, tuyên bố; lời khẳng định"
+    },
+    {
+     "en": "reveal",
+     "vi": "tiết lộ"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The minister's ___ said that the government would not comment on the case.",
+        "ans": [
+         2
+        ],
+        "tip": "spokes = nói thay + person.",
+        "why": "**spokesperson** = người phát ngôn, nói thay cho tổ chức.",
+        "opts": [
+         "eyewitness",
+         "shorthand",
+         "spokesperson"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ saw the accident and described it to the police.",
+        "ans": [
+         0
+        ],
+        "tip": "eye + witness = nhân chứng bằng mắt.",
+        "why": "**eyewitness** = nhân chứng tận mắt.",
+        "opts": [
+         "eyewitness",
+         "interviewer",
+         "spokesperson"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The official told us this ___, so we cannot publish it.",
+        "ans": [
+         1
+        ],
+        "tip": "off = tắt → không được đưa tin.",
+        "why": "**off the record** = không chính thức, không được công bố.",
+        "opts": [
+         "on the record",
+         "off the record",
+         "on the scene"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ question, such as 'What happened next?', encourages a long answer.",
+        "ans": [
+         0
+        ],
+        "tip": "open-ended = không bó hẹp câu trả lời.",
+        "why": "**open-ended question** = câu hỏi mở, cho câu trả lời dài; closed question chỉ cần có/không.",
+        "opts": [
+         "open-ended",
+         "closed",
+         "shorthand"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The reporter listened to the ___ twice to make sure the quote was exact.",
+        "ans": [
+         1
+        ],
+        "tip": "record = ghi lại.",
+        "why": "**recording** = bản ghi âm, giúp kiểm tra lời trích chính xác.",
+        "opts": [
+         "embargo",
+         "recording",
+         "attribution"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The news must not be published before 9 a.m. because of an ___.",
+        "ans": [
+         2
+        ],
+        "tip": "embargo = lệnh cấm.",
+        "why": "**embargo** = lệnh cấm đưa tin trước thời điểm quy định.",
+        "opts": [
+         "attribution",
+         "tip-off",
+         "embargo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Always ___ the facts with a second source before publishing.",
+        "ans": [
+         0
+        ],
+        "tip": "veri = sự thật.",
+        "why": "**verify** = xác minh thông tin bằng nguồn thứ hai.",
+        "opts": [
+         "verify",
+         "deny",
+         "paraphrase"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A secret document was given to the press by someone inside the company. This is a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "leak = chỗ rò.",
+        "why": "**leak** = rò rỉ thông tin mật cho báo chí.",
+        "opts": [
+         "transcript",
+         "leak",
+         "background"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "attribution",
+        "b": "saying where information or a quote comes from",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "paraphrase",
+        "b": "to express someone's words in your own words",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transcript",
+        "b": "a written copy of spoken words",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "anonymous source",
+        "b": "a person who gives information but whose name is not published",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tip-off",
+        "b": "a secret piece of information that leads a journalist to a story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "background",
+        "b": "information that helps explain the context of a story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "claim",
+        "b": "to say that something is true without proving it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "deny",
+        "b": "to say that something is not true",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu tường thuật (reported speech)",
+     "instruction": "Choose the correct reported form.",
+     "instruction_vi": "Ngữ pháp: lùi thì (hiện tại → quá khứ, quá khứ → quá khứ hoàn thành, will → would); đổi trạng từ thời gian; câu hỏi dùng if/whether hoặc từ để hỏi + trật tự câu khẳng định.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'I am attending the meeting,' said the mayor. → The mayor said that he ___ the meeting.",
+        "ans": [
+         2
+        ],
+        "tip": "Hiện tại tiếp diễn → quá khứ tiếp diễn.",
+        "why": "Lùi thì: am attending → **was attending**.",
+        "opts": [
+         "is attending",
+         "attended",
+         "was attending"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'We will publish the results tomorrow,' said the editor. → The editor said that they ___ the results the next day.",
+        "ans": [
+         0
+        ],
+        "tip": "will → would.",
+        "why": "Lùi thì: will → **would**; 'tomorrow' → 'the next day'.",
+        "opts": [
+         "would publish",
+         "will publish",
+         "published"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'I have seen the documents,' she told us. → She told us that she ___ the documents.",
+        "ans": [
+         1
+        ],
+        "tip": "Hiện tại hoàn thành → quá khứ hoàn thành.",
+        "why": "Lùi thì: have seen → **had seen**.",
+        "opts": [
+         "has seen",
+         "had seen",
+         "will see"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'Where do you work?' the reporter asked him. → The reporter asked him where he ___.",
+        "ans": [
+         2
+        ],
+        "tip": "Câu hỏi tường thuật: trật tự câu khẳng định.",
+        "why": "Không đảo ngữ trong câu hỏi tường thuật; lùi thì: do work → **worked**.",
+        "opts": [
+         "did he work",
+         "does he work",
+         "worked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'Did you see the suspect?' she asked me. → She asked me ___ I had seen the suspect.",
+        "ans": [
+         2
+        ],
+        "tip": "Câu hỏi Yes/No → if / whether.",
+        "why": "Câu hỏi có/không được tường thuật bằng **if** (hoặc whether).",
+        "opts": [
+         "that",
+         "did",
+         "if"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'I saw the car yesterday,' the witness said. → The witness said that he had seen the car ___.",
+        "ans": [
+         1
+        ],
+        "tip": "yesterday → the day before.",
+        "why": "Đổi trạng từ: yesterday → **the day before**.",
+        "opts": [
+         "yesterday",
+         "the day before",
+         "the next day"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each reported sentence.",
+     "instruction_vi": "Gõ dạng đúng của động từ/từ trong câu tường thuật.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "'I am writing a story about housing,' said Anna. → Anna said that she ___ (write) a story about housing.",
+        "ans": [
+         [
+          "was writing"
+         ]
+        ],
+        "tip": "Lùi thì.",
+        "why": "am writing → **was writing**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "'We can't comment,' said the spokesperson. → The spokesperson said that they ___ comment.",
+        "ans": [
+         [
+          "could not",
+          "couldn't"
+         ]
+        ],
+        "tip": "can → could.",
+        "why": "can't → **couldn't / could not**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "'I will call you later,' the minister told the reporter. → The minister told the reporter that he ___ (call) her later.",
+        "ans": [
+         [
+          "would call",
+          "'d call"
+         ]
+        ],
+        "tip": "will → would.",
+        "why": "will call → **would call**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "'Where is the press conference?' she asked. → She asked where the press conference ___.",
+        "ans": [
+         [
+          "was"
+         ]
+        ],
+        "tip": "Trật tự câu khẳng định.",
+        "why": "is → **was**; không đảo ngữ."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "'Have you read the report?' the editor asked. → The editor asked if I ___ (read) the report.",
+        "ans": [
+         [
+          "had read"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại hoàn thành → quá khứ hoàn thành: **had read**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · The art of the interview",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A good interview can turn a simple story into a powerful one. Before the meeting, reporters research the topic and prepare their questions. They try to ask open-ended questions, such as 'What did you see?', because these give longer and more interesting answers. Closed questions usually get only 'yes' or 'no'.\n\nDuring the interview, journalists record the conversation or take notes in shorthand. Afterwards, they check the transcript carefully. A direct quote must use the speaker's exact words, but reporters can also paraphrase and use reported speech. Every quote needs attribution, so readers know who said it.\n\nSometimes a source asks to speak off the record, which means the information cannot be published. Others prefer to be an anonymous source because they fear problems at work. In that case, the reporter must verify the information with a second source. If a spokesperson denies a claim, the journalist should report both sides.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Open-ended questions usually get longer answers than closed questions.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: câu hỏi mở cho câu trả lời dài và thú vị hơn; câu hỏi đóng thường chỉ được 'yes/no'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A direct quote can change the speaker's words.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: trích dẫn trực tiếp phải dùng **đúng nguyên văn** lời người nói."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Information given off the record can be published.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: off the record nghĩa là thông tin **không được** đăng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If a spokesperson denies a claim, the journalist should report both sides.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhà báo nên đưa tin cả hai phía."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do reporters do before an interview?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: trước cuộc gặp, phóng viên tìm hiểu chủ đề và chuẩn bị câu hỏi.",
+        "opts": [
+         "They research the topic and prepare questions",
+         "They check the transcript",
+         "They ask the source to speak off the record"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the purpose of attribution?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mỗi lời trích cần ghi nguồn để độc giả biết ai là người nói.",
+        "opts": [
+         "To show readers who said the words",
+         "To shorten the quote",
+         "To hide the source"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do some people choose to be anonymous sources?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: họ lo gặp rắc rối ở nơi làm việc.",
+        "opts": [
+         "They want a longer interview",
+         "They fear problems at work",
+         "They are reporters"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must a reporter do with information from an anonymous source?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: phóng viên phải xác minh bằng nguồn thứ hai.",
+        "opts": [
+         "Publish it immediately",
+         "Ask for a transcript",
+         "Verify it with a second source"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Headlines & News Writing",
+   "name_vi": "Tiêu đề & viết tin",
+   "icon": "🗞️",
+   "hue": 40,
+   "words": [
+    {
+     "en": "article",
+     "vi": "bài báo"
+    },
+    {
+     "en": "inverted pyramid",
+     "vi": "kim tự tháp ngược (ý quan trọng nhất đặt trước)"
+    },
+    {
+     "en": "five Ws",
+     "vi": "năm câu hỏi W (who, what, where, when, why)"
+    },
+    {
+     "en": "subheading",
+     "vi": "tiêu đề phụ"
+    },
+    {
+     "en": "caption",
+     "vi": "chú thích ảnh"
+    },
+    {
+     "en": "dateline",
+     "vi": "dòng ghi địa điểm và ngày viết tin"
+    },
+    {
+     "en": "paragraph",
+     "vi": "đoạn văn"
+    },
+    {
+     "en": "copy",
+     "vi": "bản thảo, nội dung bài viết"
+    },
+    {
+     "en": "draft",
+     "vi": "bản nháp; viết nháp"
+    },
+    {
+     "en": "proofread",
+     "vi": "hiệu đính, soát lỗi"
+    },
+    {
+     "en": "edit",
+     "vi": "biên tập"
+    },
+    {
+     "en": "rewrite",
+     "vi": "viết lại"
+    },
+    {
+     "en": "sidebar",
+     "vi": "bài phụ, khung bên cạnh bài chính"
+    },
+    {
+     "en": "pull quote",
+     "vi": "trích dẫn nổi bật trình bày cỡ lớn"
+    },
+    {
+     "en": "tone",
+     "vi": "giọng văn"
+    },
+    {
+     "en": "objective",
+     "vi": "khách quan"
+    },
+    {
+     "en": "bias",
+     "vi": "thiên kiến"
+    },
+    {
+     "en": "neutral",
+     "vi": "trung lập"
+    },
+    {
+     "en": "concise",
+     "vi": "súc tích"
+    },
+    {
+     "en": "style guide",
+     "vi": "cẩm nang văn phong"
+    },
+    {
+     "en": "jargon",
+     "vi": "biệt ngữ, thuật ngữ khó hiểu"
+    },
+    {
+     "en": "clickbait",
+     "vi": "tiêu đề giật gân câu lượt nhấp"
+    },
+    {
+     "en": "sensational",
+     "vi": "giật gân"
+    },
+    {
+     "en": "op-ed",
+     "vi": "bài bình luận nêu ý kiến cá nhân"
+    },
+    {
+     "en": "obituary",
+     "vi": "cáo phó"
+    },
+    {
+     "en": "profile",
+     "vi": "bài chân dung"
+    },
+    {
+     "en": "investigative report",
+     "vi": "phóng sự điều tra"
+    },
+    {
+     "en": "human interest story",
+     "vi": "bài chuyện đời thường, gây xúc động"
+    },
+    {
+     "en": "wire service",
+     "vi": "hãng thông tấn"
+    },
+    {
+     "en": "copyright",
+     "vi": "bản quyền"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "News stories use the ___: the most important facts come first and the details follow.",
+        "ans": [
+         1
+        ],
+        "tip": "Đáy lớn (ý chính) ở trên, đỉnh nhọn (chi tiết) ở dưới.",
+        "why": "**inverted pyramid** = kim tự tháp ngược: thông tin quan trọng nhất đặt trước.",
+        "opts": [
+         "pull quote",
+         "inverted pyramid",
+         "style guide"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ under the photo explains who is in the picture.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**caption** = chú thích ảnh.",
+        "opts": [
+         "dateline",
+         "sidebar",
+         "caption"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Please ___ the article carefully to find spelling mistakes before it is printed.",
+        "ans": [
+         0
+        ],
+        "tip": "proof + read = đọc để soát lỗi.",
+        "why": "**proofread** = hiệu đính, soát lỗi chính tả và ngữ pháp.",
+        "opts": [
+         "proofread",
+         "draft",
+         "jargon"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A good news report is ___: it presents the facts without the writer's personal opinion.",
+        "ans": [
+         1
+        ],
+        "tip": "objective ≠ subjective.",
+        "why": "**objective** = khách quan, nêu sự kiện không kèm ý kiến cá nhân.",
+        "opts": [
+         "sensational",
+         "objective",
+         "clickbait"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Avoid ___ such as 'liquidity ratio' because ordinary readers may not understand it.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**jargon** = biệt ngữ chuyên ngành mà độc giả bình thường khó hiểu.",
+        "opts": [
+         "caption",
+         "dateline",
+         "jargon"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The headline 'You won't believe what this mayor did!' is ___ because it only tries to get clicks.",
+        "ans": [
+         0
+        ],
+        "tip": "click + bait = mồi nhử lượt nhấp.",
+        "why": "**clickbait** = tiêu đề giật gân chỉ để câu lượt nhấp.",
+        "opts": [
+         "clickbait",
+         "neutral",
+         "concise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a long, detailed article about one person's life and character.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**profile** = bài chân dung về một người.",
+        "opts": [
+         "caption",
+         "dateline",
+         "profile"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many small newspapers buy international news from a ___ such as Reuters.",
+        "ans": [
+         0
+        ],
+        "tip": "wire = đường dây điện báo.",
+        "why": "**wire service** = hãng thông tấn cung cấp tin cho nhiều tờ báo.",
+        "opts": [
+         "wire service",
+         "style guide",
+         "pull quote"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dateline",
+        "b": "a line at the start of a story giving the place and date",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sidebar",
+        "b": "a short extra article placed beside a main story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pull quote",
+        "b": "a short, striking quotation shown in large type in an article",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "style guide",
+        "b": "a set of rules for spelling, grammar and tone in a publication",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bias",
+        "b": "unfair support for or against one side",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "op-ed",
+        "b": "an article that gives the writer's own opinion",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "obituary",
+        "b": "a news article about a person who has recently died",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "investigative report",
+        "b": "a long, in-depth story that uncovers hidden facts",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động trong bản tin",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: bị động = be + V3. Quá khứ: was/were + V3; hiện tại: am/is/are + V3; tương lai: will be + V3; đang xảy ra: is/are being + V3.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Two men ___ by police after the robbery.",
+        "ans": [
+         1
+        ],
+        "tip": "Người bị bắt → bị động.",
+        "why": "Hai người đàn ông là đối tượng bị tác động → bị động quá khứ: **were arrested**.",
+        "opts": [
+         "arrested",
+         "were arrested",
+         "were arresting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The new law ___ by parliament yesterday.",
+        "ans": [
+         2
+        ],
+        "tip": "yesterday → was/were + V3.",
+        "why": "'yesterday' + luật là đối tượng bị tác động → **was passed**.",
+        "opts": [
+         "passed",
+         "is passed",
+         "was passed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The story ___ on the front page tomorrow.",
+        "ans": [
+         1
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be published**.",
+        "opts": [
+         "will published",
+         "will be published",
+         "has publish"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The winners ___ at the end of the show every year.",
+        "ans": [
+         0
+        ],
+        "tip": "every year → hiện tại đơn.",
+        "why": "'every year' → bị động hiện tại: **are announced**.",
+        "opts": [
+         "are announced",
+         "announce",
+         "were announced"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The photographs ___ by a freelancer.",
+        "ans": [
+         0
+        ],
+        "tip": "Photographs được chụp → bị động.",
+        "why": "Ảnh được chụp bởi một freelancer → **were taken**.",
+        "opts": [
+         "were taken",
+         "took",
+         "has taken"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The article ___ right now by the editor.",
+        "ans": [
+         1
+        ],
+        "tip": "right now → is/are being + V3.",
+        "why": "Đang diễn ra + bị động → **is being edited**.",
+        "opts": [
+         "is editing",
+         "is being edited",
+         "are edited"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The newspaper ___ (print) every night.",
+        "ans": [
+         [
+          "is printed"
+         ]
+        ],
+        "tip": "every night → hiện tại đơn.",
+        "why": "Bị động hiện tại, số ít: **is printed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The headline ___ (change) by the editor last night.",
+        "ans": [
+         [
+          "was changed"
+         ]
+        ],
+        "tip": "last night → quá khứ.",
+        "why": "Bị động quá khứ, số ít: **was changed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The results of the election ___ (announce) tomorrow.",
+        "ans": [
+         [
+          "will be announced"
+         ]
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be announced**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The report ___ (read) by millions of people last year.",
+        "ans": [
+         [
+          "was read"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị động quá khứ: **was read**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A new reporter ___ (hire) at the moment.",
+        "ans": [
+         [
+          "is being hired"
+         ]
+        ],
+        "tip": "at the moment → is being + V3.",
+        "why": "Đang diễn ra + bị động → **is being hired**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a news story is written",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "News stories are written in a special style. Most reports use the inverted pyramid: the most important facts come first, and less important details follow. In the first paragraph, the journalist answers the five Ws: who, what, where, when and why. If readers stop after two sentences, they still know the main story.\n\nLanguage must be clear, concise and neutral. Jargon is avoided, and sensational words are not used. The headline is usually written last by the editor. It should be accurate and short; clickbait is not accepted by serious newspapers. Photos are published with a caption, and a dateline shows where the story was written.\n\nBefore publication, the draft is proofread and checked against the style guide. Then the story is sent to the website and the print edition. Some stories, such as an obituary or a profile, are written in a more personal style, but the facts must still be correct.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In the inverted pyramid, the most important facts come first.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thông tin quan trọng nhất đứng đầu, chi tiết nhỏ hơn theo sau."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The five Ws are answered in the last paragraph.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: năm câu hỏi W được trả lời ngay ở **đoạn đầu**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Serious newspapers accept clickbait headlines.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: báo nghiêm túc không chấp nhận clickbait."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A dateline shows where the story was written.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: dateline cho biết bài được viết ở đâu."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the journalist answer the five Ws in the first paragraph?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nếu độc giả dừng sau hai câu, họ vẫn nắm được nội dung chính.",
+        "opts": [
+         "Because headlines are written first",
+         "Because the editor dislikes details",
+         "Readers who stop early still know the main story"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which kind of language is recommended?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ngôn ngữ phải rõ ràng, súc tích và trung lập.",
+        "opts": [
+         "Sensational and emotional",
+         "Clear, concise and neutral",
+         "Full of jargon"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens before publication?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: bản nháp được hiệu đính và đối chiếu với cẩm nang văn phong.",
+        "opts": [
+         "The headline is removed",
+         "The caption is deleted",
+         "The draft is proofread and checked against the style guide"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How are obituaries and profiles written?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: văn phong cá nhân hơn, nhưng sự kiện vẫn phải chính xác.",
+        "opts": [
+         "In a more personal style, but the facts must be correct",
+         "Without any facts",
+         "Only as clickbait"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Ethics & Fact-checking",
+   "name_vi": "Đạo đức nghề báo & kiểm chứng thông tin",
+   "icon": "🔍",
+   "hue": 150,
+   "words": [
+    {
+     "en": "ethics",
+     "vi": "đạo đức, đạo đức nghề nghiệp"
+    },
+    {
+     "en": "code of ethics",
+     "vi": "bộ quy tắc đạo đức"
+    },
+    {
+     "en": "accuracy",
+     "vi": "tính chính xác"
+    },
+    {
+     "en": "fairness",
+     "vi": "tính công bằng"
+    },
+    {
+     "en": "impartiality",
+     "vi": "sự vô tư, không thiên vị"
+    },
+    {
+     "en": "integrity",
+     "vi": "sự liêm chính"
+    },
+    {
+     "en": "credibility",
+     "vi": "độ tin cậy, uy tín"
+    },
+    {
+     "en": "fact-checking",
+     "vi": "kiểm chứng thông tin"
+    },
+    {
+     "en": "misinformation",
+     "vi": "thông tin sai lệch (không cố ý)"
+    },
+    {
+     "en": "disinformation",
+     "vi": "thông tin sai lệch có chủ đích"
+    },
+    {
+     "en": "fake news",
+     "vi": "tin giả"
+    },
+    {
+     "en": "rumour",
+     "vi": "tin đồn"
+    },
+    {
+     "en": "propaganda",
+     "vi": "tuyên truyền"
+    },
+    {
+     "en": "conflict of interest",
+     "vi": "xung đột lợi ích"
+    },
+    {
+     "en": "plagiarism",
+     "vi": "đạo văn"
+    },
+    {
+     "en": "libel",
+     "vi": "phỉ báng bằng văn bản"
+    },
+    {
+     "en": "defamation",
+     "vi": "sự bôi nhọ danh dự"
+    },
+    {
+     "en": "retraction",
+     "vi": "việc rút lại bài báo vì sai"
+    },
+    {
+     "en": "correction",
+     "vi": "đính chính"
+    },
+    {
+     "en": "right of reply",
+     "vi": "quyền phản hồi"
+    },
+    {
+     "en": "privacy",
+     "vi": "quyền riêng tư"
+    },
+    {
+     "en": "consent",
+     "vi": "sự đồng ý"
+    },
+    {
+     "en": "public interest",
+     "vi": "lợi ích công chúng"
+    },
+    {
+     "en": "whistleblower",
+     "vi": "người tố giác"
+    },
+    {
+     "en": "transparency",
+     "vi": "sự minh bạch"
+    },
+    {
+     "en": "accountability",
+     "vi": "trách nhiệm giải trình"
+    },
+    {
+     "en": "sensationalism",
+     "vi": "lối đưa tin giật gân"
+    },
+    {
+     "en": "manipulate",
+     "vi": "thao túng"
+    },
+    {
+     "en": "censorship",
+     "vi": "sự kiểm duyệt"
+    },
+    {
+     "en": "press freedom",
+     "vi": "tự do báo chí"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Journalists must follow a ___ that sets standards for honesty and fairness.",
+        "ans": [
+         0
+        ],
+        "tip": "ethics = đạo đức.",
+        "why": "**code of ethics** = bộ quy tắc đạo đức nghề nghiệp.",
+        "opts": [
+         "code of ethics",
+         "retraction",
+         "propaganda"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The reporter copied whole paragraphs from another website. This is ___.",
+        "ans": [
+         1
+        ],
+        "tip": "plagiarise = đạo văn.",
+        "why": "**plagiarism** = đạo văn, sao chép mà không ghi nguồn.",
+        "opts": [
+         "censorship",
+         "plagiarism",
+         "transparency"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is false information that is spread on purpose to deceive people.",
+        "ans": [
+         2
+        ],
+        "tip": "dis- = cố ý làm sai lệch; mis- = nhầm lẫn.",
+        "why": "**Disinformation** = thông tin sai có chủ đích; misinformation là sai nhưng không cố ý.",
+        "opts": [
+         "Misinformation",
+         "Transparency",
+         "Disinformation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The newspaper published a ___ after it discovered the figures were wrong.",
+        "ans": [
+         0
+        ],
+        "tip": "correct = sửa.",
+        "why": "**correction** = đính chính sai sót đã đăng.",
+        "opts": [
+         "correction",
+         "consent",
+         "rumour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Printing a false statement that damages someone's reputation can lead to a ___ case.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**libel** = phỉ báng bằng văn bản, có thể bị kiện.",
+        "opts": [
+         "consent",
+         "libel",
+         "censorship"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A TV reporter who also owns shares in the company she is covering has a ___.",
+        "ans": [
+         2
+        ],
+        "tip": "conflict = xung đột.",
+        "why": "**conflict of interest** = xung đột lợi ích, ảnh hưởng đến tính khách quan.",
+        "opts": [
+         "right of reply",
+         "press freedom",
+         "conflict of interest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ gave the newspaper secret documents showing that the company was dumping waste.",
+        "ans": [
+         1
+        ],
+        "tip": "whistle + blower = người thổi còi.",
+        "why": "**whistleblower** = người tố giác hành vi sai trái từ bên trong.",
+        "opts": [
+         "propaganda",
+         "whistleblower",
+         "plagiarism"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government blocked several news websites. Journalists say this is ___ and a threat to press freedom.",
+        "ans": [
+         2
+        ],
+        "tip": "censor = kiểm duyệt.",
+        "why": "**censorship** = kiểm duyệt, chặn thông tin.",
+        "opts": [
+         "accountability",
+         "fairness",
+         "censorship"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "credibility",
+        "b": "the quality of being trusted and believed",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "impartiality",
+        "b": "not supporting any one side in a story",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "misinformation",
+        "b": "false information shared without the intention to deceive",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "retraction",
+        "b": "an official withdrawal of a published story because it was wrong",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "consent",
+        "b": "permission that is given freely and knowingly",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "public interest",
+        "b": "the general welfare or well-being of the public",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transparency",
+        "b": "being open about how information was obtained and produced",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "accountability",
+        "b": "being responsible for your actions and ready to explain them",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm, lời khuyên",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't (cấm), don't have to / needn't (không cần), should / shouldn't (nên / không nên).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Journalists ___ check every fact before they publish a story.",
+        "ans": [
+         0
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy tắc nghề nghiệp bắt buộc → **must**.",
+        "opts": [
+         "must",
+         "mustn't",
+         "needn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Reporters ___ accept gifts from the people they are covering. It is against the code of ethics.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Bị cấm bởi quy tắc đạo đức → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ name the victim if you do not want to. It is up to you.",
+        "ans": [
+         0
+        ],
+        "tip": "don't have to = không bắt buộc.",
+        "why": "Không bắt buộc, tùy bạn → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ ask for the source's permission before you use the photo.",
+        "ans": [
+         2
+        ],
+        "tip": "should + V nguyên mẫu.",
+        "why": "Lời khuyên → **should** + V (không có 'to').",
+        "opts": [
+         "should to",
+         "must to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The editor ___ publish a correction as soon as an error is found.",
+        "ans": [
+         1
+        ],
+        "tip": "Chủ ngữ số ít → has to.",
+        "why": "Bắt buộc + chủ ngữ số ít → **has to**.",
+        "opts": [
+         "have to",
+         "has to",
+         "must to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ publish a rumour without checking it first.",
+        "ans": [
+         2
+        ],
+        "tip": "shouldn't = không nên.",
+        "why": "Lời khuyên không nên làm → **shouldn't**.",
+        "opts": [
+         "don't have to",
+         "needn't",
+         "shouldn't"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu phù hợp với nghĩa của câu.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "It is a rule: journalists ___ respect people's privacy.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy tắc bắt buộc → **must / have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ publish a photo of a child without the parents' consent. It is illegal in many countries.",
+        "ans": [
+         [
+          "must not",
+          "mustn't",
+          "cannot",
+          "can't"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The story is already confirmed, so you ___ call the source again.",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to",
+          "need not",
+          "needn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think the newspaper ___ apologise for the mistake.",
+        "ans": [
+         [
+          "should",
+          "ought to"
+         ]
+        ],
+        "tip": "Lời khuyên.",
+        "why": "Lời khuyên → **should** + V."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last week, the editor ___ stay late to correct the story.",
+        "ans": [
+         [
+          "had to"
+         ]
+        ],
+        "tip": "Quá khứ của must / have to.",
+        "why": "Bắt buộc trong quá khứ → **had to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Trust is everything",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Trust is the most valuable thing a news organisation has. To protect its credibility, a newsroom follows a code of ethics. The main principles are accuracy, fairness, impartiality and accountability. Journalists must verify facts before publishing, and they should give people a right of reply if a story criticises them.\n\nMisinformation spreads quickly online. Some false stories are shared by mistake, but disinformation is created on purpose, often as propaganda. Fact-checking teams therefore check claims, photos and videos. When a mistake is found, a good newspaper publishes a correction and, in serious cases, a retraction.\n\nEthical journalists also avoid conflicts of interest and never plagiarise. They should respect privacy and ask for consent, unless the public interest is very strong. Whistleblowers sometimes need protection, because they may lose their jobs. In many countries, press freedom is limited by censorship, which makes honest reporting more difficult.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A code of ethics helps protect a newsroom's credibility.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: để bảo vệ uy tín, tòa soạn tuân theo bộ quy tắc đạo đức."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Misinformation is created on purpose.",
+        "ans": [
+         1
+        ],
+        "tip": "disinformation mới là có chủ đích.",
+        "why": "Đoạn 2: tin sai do nhầm lẫn là misinformation; **disinformation** mới là cố ý."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Journalists should give people a right of reply if a story criticises them.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nên cho người bị chỉ trích quyền phản hồi."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Press freedom is protected in every country.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ở nhiều nước tự do báo chí bị hạn chế bởi kiểm duyệt."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do fact-checking teams check?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: họ kiểm tra các tuyên bố, hình ảnh và video.",
+        "opts": [
+         "Claims, photos and videos",
+         "Only headlines",
+         "Only advertisements"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a good newspaper do when it finds a mistake?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tờ báo tốt đăng đính chính, và trong trường hợp nghiêm trọng thì rút bài.",
+        "opts": [
+         "It publishes a correction",
+         "It deletes its archive",
+         "It blames the reader"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why may whistleblowers need protection?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: người tố giác có thể mất việc.",
+        "opts": [
+         "They write the headlines",
+         "They may lose their jobs",
+         "They are always wrong"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What makes honest reporting more difficult in many countries?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: kiểm duyệt khiến việc đưa tin trung thực khó khăn hơn.",
+        "opts": [
+         "A code of ethics",
+         "Fact-checking teams",
+         "Censorship"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Digital & Social Media",
+   "name_vi": "Truyền thông số & mạng xã hội",
+   "icon": "📱",
+   "hue": 270,
+   "words": [
+    {
+     "en": "digital media",
+     "vi": "truyền thông số"
+    },
+    {
+     "en": "social media",
+     "vi": "mạng xã hội"
+    },
+    {
+     "en": "platform",
+     "vi": "nền tảng"
+    },
+    {
+     "en": "algorithm",
+     "vi": "thuật toán"
+    },
+    {
+     "en": "viral",
+     "vi": "lan truyền nhanh"
+    },
+    {
+     "en": "trending",
+     "vi": "đang thịnh hành"
+    },
+    {
+     "en": "hashtag",
+     "vi": "thẻ hashtag (#)"
+    },
+    {
+     "en": "follower",
+     "vi": "người theo dõi"
+    },
+    {
+     "en": "influencer",
+     "vi": "người có sức ảnh hưởng"
+    },
+    {
+     "en": "post",
+     "vi": "bài đăng; đăng bài"
+    },
+    {
+     "en": "share",
+     "vi": "chia sẻ"
+    },
+    {
+     "en": "engagement",
+     "vi": "mức độ tương tác"
+    },
+    {
+     "en": "click-through rate",
+     "vi": "tỷ lệ nhấp chuột"
+    },
+    {
+     "en": "traffic",
+     "vi": "lưu lượng truy cập"
+    },
+    {
+     "en": "paywall",
+     "vi": "tường phí"
+    },
+    {
+     "en": "subscription",
+     "vi": "gói đăng ký trả phí"
+    },
+    {
+     "en": "newsletter",
+     "vi": "bản tin gửi qua email"
+    },
+    {
+     "en": "push notification",
+     "vi": "thông báo đẩy"
+    },
+    {
+     "en": "live stream",
+     "vi": "phát trực tiếp"
+    },
+    {
+     "en": "podcast",
+     "vi": "podcast, chương trình âm thanh theo yêu cầu"
+    },
+    {
+     "en": "citizen journalism",
+     "vi": "báo chí công dân"
+    },
+    {
+     "en": "user-generated content",
+     "vi": "nội dung do người dùng tạo ra"
+    },
+    {
+     "en": "moderation",
+     "vi": "việc kiểm duyệt bình luận, nội dung"
+    },
+    {
+     "en": "troll",
+     "vi": "người cố tình gây hấn trên mạng"
+    },
+    {
+     "en": "deepfake",
+     "vi": "video/âm thanh giả mạo bằng AI"
+    },
+    {
+     "en": "verification",
+     "vi": "sự xác minh"
+    },
+    {
+     "en": "multimedia",
+     "vi": "đa phương tiện"
+    },
+    {
+     "en": "infographic",
+     "vi": "đồ họa thông tin"
+    },
+    {
+     "en": "data journalism",
+     "vi": "báo chí dữ liệu"
+    },
+    {
+     "en": "search engine optimisation (SEO)",
+     "vi": "tối ưu hóa công cụ tìm kiếm"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The video went ___ and was watched ten million times in a day.",
+        "ans": [
+         2
+        ],
+        "tip": "viral = lan nhanh như virus.",
+        "why": "**viral** = lan truyền chóng mặt trên mạng.",
+        "opts": [
+         "multimedia",
+         "paywall",
+         "viral"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many news websites use a ___, so readers must pay to read all the articles.",
+        "ans": [
+         1
+        ],
+        "tip": "pay + wall = bức tường thu phí.",
+        "why": "**paywall** = tường phí, chặn nội dung với người chưa trả tiền.",
+        "opts": [
+         "hashtag",
+         "paywall",
+         "troll"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The platform's ___ decides which posts appear first in your feed.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**algorithm** = thuật toán sắp xếp nội dung hiển thị.",
+        "opts": [
+         "algorithm",
+         "subscription",
+         "infographic"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Add a ___ such as #election2026 so people can find your post.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**hashtag** = thẻ # giúp phân loại, tìm kiếm bài đăng.",
+        "opts": [
+         "podcast",
+         "hashtag",
+         "newsletter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The journalist used a ___ to broadcast the protest as it happened.",
+        "ans": [
+         2
+        ],
+        "tip": "live = trực tiếp.",
+        "why": "**live stream** = phát trực tiếp sự kiện đang diễn ra.",
+        "opts": [
+         "paywall",
+         "infographic",
+         "live stream"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a fake video or audio made with AI that looks real.",
+        "ans": [
+         0
+        ],
+        "tip": "deep learning + fake.",
+        "why": "**deepfake** = sản phẩm giả mạo bằng AI trông như thật.",
+        "opts": [
+         "deepfake",
+         "newsletter",
+         "podcast"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The page has high ___: thousands of readers like, comment and share every story.",
+        "ans": [
+         1
+        ],
+        "tip": "engage = thu hút, gắn kết.",
+        "why": "**engagement** = mức độ tương tác (thích, bình luận, chia sẻ).",
+        "opts": [
+         "moderation",
+         "engagement",
+         "traffic"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a chart or picture that explains complicated data in a simple way.",
+        "ans": [
+         2
+        ],
+        "tip": "info + graphic.",
+        "why": "**infographic** = đồ họa thông tin.",
+        "opts": [
+         "troll",
+         "podcast",
+         "infographic"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "influencer",
+        "b": "a person with many followers who can affect other people's opinions",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "citizen journalism",
+        "b": "news collected and shared by ordinary people, not professionals",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "moderation",
+        "b": "checking and removing unsuitable comments or posts",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "push notification",
+        "b": "a short message sent to a phone to alert a user to news",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "traffic",
+        "b": "the number of visitors to a website",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "subscription",
+        "b": "a regular payment to receive a service or content",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "click-through rate",
+        "b": "the percentage of people who click on a link they see",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "user-generated content",
+        "b": "material such as photos and videos created by the audience",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm xác định: yesterday, last night, ago, in 2022); hiện tại hoàn thành (since, for, ever, yet, kết quả còn đến nay).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The video ___ viral last night.",
+        "ans": [
+         0
+        ],
+        "tip": "last night → quá khứ đơn.",
+        "why": "'last night' = thời điểm xác định → **quá khứ đơn**: went.",
+        "opts": [
+         "went",
+         "has gone",
+         "is going"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The newspaper ___ a new app, so readers can now get alerts.",
+        "ans": [
+         2
+        ],
+        "tip": "now → kết quả ở hiện tại.",
+        "why": "Hành động đã xong, kết quả còn đến nay → **hiện tại hoàn thành**: has launched.",
+        "opts": [
+         "launches",
+         "was launching",
+         "has launched"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ over 2 million followers since January.",
+        "ans": [
+         0
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since January' → **have gained**.",
+        "opts": [
+         "have gained",
+         "gained",
+         "are gaining"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The editor ___ the story to social media at 8 a.m.",
+        "ans": [
+         1
+        ],
+        "tip": "at 8 a.m. = thời điểm xác định.",
+        "why": "Có mốc giờ xác định → **quá khứ đơn**: posted.",
+        "opts": [
+         "has posted",
+         "posted",
+         "posts"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Have you ever ___ a deepfake video?",
+        "ans": [
+         2
+        ],
+        "tip": "Have you ever + V3.",
+        "why": "'Have you ever' + V3 → **seen**.",
+        "opts": [
+         "saw",
+         "see",
+         "seen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The mayor ___ the false post two days ago.",
+        "ans": [
+         0
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'two days ago' → **quá khứ đơn**: denied.",
+        "opts": [
+         "denied",
+         "has denied",
+         "denies"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The journalist ___ (publish) three stories this week.",
+        "ans": [
+         [
+          "has published"
+         ]
+        ],
+        "tip": "this week (chưa hết) → hiện tại hoàn thành.",
+        "why": "'this week' (tuần vẫn đang diễn ra) → **has published**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (post) the photo yesterday afternoon.",
+        "ans": [
+         [
+          "posted"
+         ]
+        ],
+        "tip": "yesterday → quá khứ đơn.",
+        "why": "'yesterday afternoon' → **posted**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The site ___ (not / reach) a million visitors yet.",
+        "ans": [
+         [
+          "has not reached",
+          "hasn't reached"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **has not reached**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (start) the podcast in 2022.",
+        "ans": [
+         [
+          "started"
+         ]
+        ],
+        "tip": "in 2022 → quá khứ đơn.",
+        "why": "Mốc thời gian xác định 'in 2022' → **started**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The video ___ (be) online for two hours, and it already has 50,000 views.",
+        "ans": [
+         [
+          "has been"
+         ]
+        ],
+        "tip": "for two hours → hiện tại hoàn thành.",
+        "why": "'for two hours' (kéo dài đến nay) → **has been**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · News in the age of social media",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Ten years ago, most people read the news in a newspaper or watched it on TV. Today, social media has changed everything. Millions of readers now find stories on platforms such as Facebook, TikTok and X, and an algorithm decides which posts they see first. A story can go viral in minutes, which brings huge traffic to a website.\n\nNewsrooms have adapted quickly. They have launched newsletters, podcasts and live streams, and they send push notifications when there is breaking news. Many have also introduced a paywall and sell subscriptions to earn money. Journalists measure engagement and click-through rates to see which stories readers like.\n\nHowever, the new tools have created problems. Anyone can post, so false stories and deepfakes spread fast. Last year, a fake video of a politician reached ten million views before moderators removed it. As a result, many newsrooms have hired verification teams, and they also work with citizen journalists, who send photos and videos from the scene.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An algorithm decides which posts users see first.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thuật toán quyết định bài đăng nào hiển thị trước."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A story can go viral only after several days.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: một bài có thể lan truyền chỉ trong vài **phút**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Many newsrooms have introduced paywalls.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhiều tòa soạn đã áp dụng paywall và bán gói đăng ký."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The fake video of the politician was removed before anyone saw it.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: video giả đạt mười triệu lượt xem **trước khi** bị gỡ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How do newsrooms earn money, according to the text?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: họ áp dụng paywall và bán gói đăng ký để kiếm tiền.",
+        "opts": [
+         "By removing deepfakes",
+         "By selling subscriptions",
+         "By sending fewer notifications"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do journalists measure to see which stories readers like?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhà báo đo mức tương tác và tỷ lệ nhấp chuột.",
+        "opts": [
+         "Engagement and click-through rates",
+         "Paywalls and podcasts",
+         "Hashtags and followers"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why have many newsrooms hired verification teams?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: bài sai và deepfake lan nhanh nên cần đội xác minh.",
+        "opts": [
+         "Citizen journalists no longer send photos",
+         "Push notifications are illegal",
+         "False stories and deepfakes spread fast"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do citizen journalists send to newsrooms?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: họ gửi ảnh và video từ hiện trường.",
+        "opts": [
+         "Newsletters and podcasts",
+         "Photos and videos from the scene",
+         "Click-through rates"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Media Industry & Audience",
+   "name_vi": "Ngành truyền thông & khán giả",
+   "icon": "📺",
+   "hue": 20,
+   "words": [
+    {
+     "en": "media outlet",
+     "vi": "cơ quan truyền thông"
+    },
+    {
+     "en": "mass media",
+     "vi": "truyền thông đại chúng"
+    },
+    {
+     "en": "print media",
+     "vi": "báo in"
+    },
+    {
+     "en": "broadcast",
+     "vi": "phát sóng"
+    },
+    {
+     "en": "broadcaster",
+     "vi": "đài phát sóng"
+    },
+    {
+     "en": "channel",
+     "vi": "kênh"
+    },
+    {
+     "en": "programme",
+     "vi": "chương trình"
+    },
+    {
+     "en": "presenter",
+     "vi": "người dẫn chương trình"
+    },
+    {
+     "en": "anchor",
+     "vi": "người dẫn bản tin chính"
+    },
+    {
+     "en": "producer",
+     "vi": "nhà sản xuất chương trình"
+    },
+    {
+     "en": "camera operator",
+     "vi": "người quay phim"
+    },
+    {
+     "en": "crew",
+     "vi": "êkíp, đội ngũ thực hiện"
+    },
+    {
+     "en": "studio",
+     "vi": "trường quay, phòng thu"
+    },
+    {
+     "en": "on air",
+     "vi": "đang phát sóng"
+    },
+    {
+     "en": "prime time",
+     "vi": "khung giờ vàng"
+    },
+    {
+     "en": "ratings",
+     "vi": "tỷ suất người xem"
+    },
+    {
+     "en": "viewership",
+     "vi": "lượng người xem"
+    },
+    {
+     "en": "readership",
+     "vi": "lượng độc giả"
+    },
+    {
+     "en": "target audience",
+     "vi": "đối tượng khán giả mục tiêu"
+    },
+    {
+     "en": "demographic",
+     "vi": "nhóm nhân khẩu học"
+    },
+    {
+     "en": "advertising",
+     "vi": "quảng cáo"
+    },
+    {
+     "en": "advertiser",
+     "vi": "nhà quảng cáo"
+    },
+    {
+     "en": "sponsorship",
+     "vi": "sự tài trợ"
+    },
+    {
+     "en": "revenue",
+     "vi": "doanh thu"
+    },
+    {
+     "en": "media ownership",
+     "vi": "quyền sở hữu truyền thông"
+    },
+    {
+     "en": "media bias",
+     "vi": "thiên vị trong truyền thông"
+    },
+    {
+     "en": "public relations (PR)",
+     "vi": "quan hệ công chúng"
+    },
+    {
+     "en": "press kit",
+     "vi": "bộ tài liệu dành cho báo chí"
+    },
+    {
+     "en": "crisis communication",
+     "vi": "truyền thông khủng hoảng"
+    },
+    {
+     "en": "brand",
+     "vi": "thương hiệu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ báo chí – truyền thông phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The news ___ reads the main bulletin at 9 p.m.",
+        "ans": [
+         2
+        ],
+        "tip": "anchor = neo giữ bản tin.",
+        "why": "**anchor** = người dẫn bản tin chính.",
+        "opts": [
+         "advertiser",
+         "crew",
+         "anchor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The show is on at 8 p.m., ___, when the most people are watching TV.",
+        "ans": [
+         0
+        ],
+        "tip": "prime = tốt nhất.",
+        "why": "**prime time** = khung giờ vàng, nhiều người xem nhất.",
+        "opts": [
+         "prime time",
+         "sponsorship",
+         "press kit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The channel's ___ fell last month, so fewer people watched the news.",
+        "ans": [
+         1
+        ],
+        "tip": "rate = đánh giá, xếp hạng.",
+        "why": "**ratings** = tỷ suất người xem.",
+        "opts": [
+         "studio",
+         "ratings",
+         "press kit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Most newspapers earn money from ___ and from sales of copies.",
+        "ans": [
+         2
+        ],
+        "tip": "advert = quảng cáo.",
+        "why": "**advertising** = quảng cáo, nguồn thu chính của báo chí.",
+        "opts": [
+         "crew",
+         "broadcast",
+         "advertising"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company's total ___ rose by 10 % last year because of digital subscriptions.",
+        "ans": [
+         1
+        ],
+        "tip": "revenue = tiền thu về.",
+        "why": "**revenue** = doanh thu.",
+        "opts": [
+         "studio",
+         "revenue",
+         "crew"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a group of people with similar age, income or lifestyle.",
+        "ans": [
+         0
+        ],
+        "tip": "demo + graphic = số liệu dân cư.",
+        "why": "**demographic** = nhóm nhân khẩu học.",
+        "opts": [
+         "demographic",
+         "press kit",
+         "programme"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Young professionals are the magazine's ___.",
+        "ans": [
+         1
+        ],
+        "tip": "target = mục tiêu.",
+        "why": "**target audience** = đối tượng khán giả mục tiêu.",
+        "opts": [
+         "media outlet",
+         "target audience",
+         "camera operator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company hired a PR firm to manage ___ after the product recall.",
+        "ans": [
+         0
+        ],
+        "tip": "crisis = khủng hoảng.",
+        "why": "**crisis communication** = truyền thông khủng hoảng.",
+        "opts": [
+         "crisis communication",
+         "prime time",
+         "sponsorship"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "media outlet",
+        "b": "a newspaper, TV channel, website or radio station that publishes news",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "print media",
+        "b": "newspapers and magazines printed on paper",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "broadcast",
+        "b": "to send out programmes by television or radio",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "presenter",
+        "b": "a person who introduces and hosts a TV or radio programme",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sponsorship",
+        "b": "money paid by a company to support a programme or event in return for publicity",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "readership",
+        "b": "the number or type of people who read a publication",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "media ownership",
+        "b": "the question of who owns and controls media companies",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "press kit",
+        "b": "a package of information given to journalists about a company or event",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (có thể xảy ra): If + hiện tại đơn, will + V. Loại 2 (không có thật/ít khả năng): If + quá khứ đơn, would + V.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the ratings ___, the channel will cancel the programme.",
+        "ans": [
+         2
+        ],
+        "tip": "will ở mệnh đề chính → loại 1.",
+        "why": "Loại 1: If + **hiện tại đơn** (fall), will + V.",
+        "opts": [
+         "fell",
+         "would fall",
+         "fall"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we ___ more video, we would reach a younger audience.",
+        "ans": [
+         1
+        ],
+        "tip": "would ở mệnh đề chính → loại 2.",
+        "why": "Loại 2: If + **quá khứ đơn** (published), would + V.",
+        "opts": [
+         "publish",
+         "published",
+         "will publish"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were the editor, I ___ the front page.",
+        "ans": [
+         0
+        ],
+        "tip": "If I were → loại 2.",
+        "why": "Loại 2: mệnh đề chính dùng **would + V**.",
+        "opts": [
+         "would change",
+         "will change",
+         "changed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The newspaper will lose readers if it ___ a paywall.",
+        "ans": [
+         2
+        ],
+        "tip": "will → If + hiện tại đơn.",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn: **introduces**.",
+        "opts": [
+         "would introduce",
+         "introduced",
+         "introduces"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If advertisers ___ their money, the website could not survive.",
+        "ans": [
+         0
+        ],
+        "tip": "could not → loại 2.",
+        "why": "Loại 2: If + quá khứ đơn → **withdrew**.",
+        "opts": [
+         "withdrew",
+         "withdraw",
+         "will withdraw"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What ___ if the story turned out to be false?",
+        "ans": [
+         1
+        ],
+        "tip": "turned out → loại 2.",
+        "why": "Loại 2: mệnh đề chính **would + S + V**.",
+        "opts": [
+         "will you do",
+         "would you do",
+         "did you do"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong câu điều kiện loại 1 và 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the story ___ (go) viral, our traffic will double.",
+        "ans": [
+         [
+          "goes"
+         ]
+        ],
+        "tip": "Loại 1, chủ ngữ số ít.",
+        "why": "Loại 1: If + hiện tại đơn, chủ ngữ số ít → **goes**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (have) a bigger budget, we would hire more reporters.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "Loại 2.",
+        "why": "Loại 2: If + quá khứ đơn → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The channel would lose viewers if it ___ (move) the news from prime time.",
+        "ans": [
+         [
+          "moved"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: If + quá khứ đơn → **moved**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If you ___ (not / check) the facts, readers will stop trusting you.",
+        "ans": [
+         [
+          "do not check",
+          "don't check"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, phủ định hiện tại đơn → **don't check**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) you, I would ask for the audience data first.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were you…",
+        "why": "Loại 2: **were** cho mọi ngôi (was cũng được trong văn nói)."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Who pays for the news?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Producing news is expensive. A newspaper needs reporters, editors and printing machines, and a TV news programme needs a studio, a crew, a producer and an anchor. So, who pays for it all? Traditionally, most media outlets earned money from advertising. If many people read or watch a programme, advertisers pay more to appear next to it. That is why prime time and ratings are so important to broadcasters.\n\nToday, however, advertising revenue is falling because many advertisers prefer social media platforms. If a newspaper lost its advertisers, it would need more income from subscriptions or sponsorship. Some media outlets are owned by a few large companies, and critics say that media ownership can affect the news and cause media bias.\n\nTo succeed, a media outlet must understand its target audience. Editors study readership and viewership data and the demographics of their audience. If they know what people want, they can produce programmes that attract and keep them.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Traditionally, most media outlets earned money from advertising.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: theo truyền thống, hầu hết cơ quan báo chí kiếm tiền từ quảng cáo."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Advertisers pay less when many people watch a programme.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nhiều người xem thì nhà quảng cáo trả **nhiều hơn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Advertising revenue is rising because advertisers prefer newspapers.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: doanh thu quảng cáo đang **giảm** vì nhà quảng cáo chuộng mạng xã hội."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Editors study audience data to understand their target audience.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: biên tập viên nghiên cứu dữ liệu về độc giả, khán giả."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are prime time and ratings important to broadcasters?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nhiều người xem thì nhà quảng cáo trả nhiều hơn.",
+        "opts": [
+         "They decide the size of the studio",
+         "They reduce the size of the crew",
+         "Advertisers pay more when many people watch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would a newspaper need if it lost its advertisers?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tờ báo sẽ cần thêm thu nhập từ gói đăng ký hoặc tài trợ.",
+        "opts": [
+         "A larger studio",
+         "More camera operators",
+         "More income from subscriptions or sponsorship"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do critics say about media ownership?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giới phê bình cho rằng quyền sở hữu có thể ảnh hưởng đến tin tức và gây thiên vị.",
+        "opts": [
+         "It always improves ratings",
+         "It can affect the news and cause media bias",
+         "It removes advertising"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do editors study audience data?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hiểu khán giả giúp làm chương trình thu hút và giữ chân họ.",
+        "opts": [
+         "To produce programmes that attract and keep people",
+         "To increase printing costs",
+         "To avoid subscriptions"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "morning",
+   "buổi sáng"
+  ],
+  [
+   "meeting",
+   "cuộc họp"
+  ],
+  [
+   "idea",
+   "ý tưởng"
+  ],
+  [
+   "decide",
+   "quyết định"
+  ],
+  [
+   "publish",
+   "xuất bản, đăng"
+  ],
+  [
+   "important",
+   "quan trọng"
+  ],
+  [
+   "abroad",
+   "ở nước ngoài"
+  ],
+  [
+   "online",
+   "trực tuyến"
+  ],
+  [
+   "video",
+   "video"
+  ],
+  [
+   "minute",
+   "phút"
+  ],
+  [
+   "research",
+   "tìm hiểu, nghiên cứu"
+  ],
+  [
+   "prepare",
+   "chuẩn bị"
+  ],
+  [
+   "conversation",
+   "cuộc trò chuyện"
+  ],
+  [
+   "exact",
+   "chính xác, nguyên văn"
+  ],
+  [
+   "carefully",
+   "cẩn thận"
+  ],
+  [
+   "fear",
+   "lo sợ"
+  ],
+  [
+   "powerful",
+   "mạnh mẽ, có sức tác động"
+  ],
+  [
+   "simple",
+   "đơn giản"
+  ],
+  [
+   "special",
+   "đặc biệt"
+  ],
+  [
+   "style",
+   "văn phong, phong cách"
+  ],
+  [
+   "clear",
+   "rõ ràng"
+  ],
+  [
+   "avoid",
+   "tránh"
+  ],
+  [
+   "accurate",
+   "chính xác"
+  ],
+  [
+   "serious",
+   "nghiêm túc, nghiêm trọng"
+  ],
+  [
+   "personal",
+   "cá nhân"
+  ],
+  [
+   "spelling",
+   "chính tả"
+  ],
+  [
+   "mistake",
+   "lỗi, sai sót"
+  ],
+  [
+   "print",
+   "in"
+  ],
+  [
+   "website",
+   "trang web"
+  ],
+  [
+   "valuable",
+   "có giá trị"
+  ],
+  [
+   "protect",
+   "bảo vệ"
+  ],
+  [
+   "principle",
+   "nguyên tắc"
+  ],
+  [
+   "criticise",
+   "chỉ trích"
+  ],
+  [
+   "quickly",
+   "nhanh chóng"
+  ],
+  [
+   "spread",
+   "lan truyền"
+  ],
+  [
+   "false",
+   "sai, giả"
+  ],
+  [
+   "remove",
+   "gỡ bỏ"
+  ],
+  [
+   "respect",
+   "tôn trọng"
+  ],
+  [
+   "limit",
+   "hạn chế"
+  ],
+  [
+   "honest",
+   "trung thực"
+  ],
+  [
+   "difficult",
+   "khó khăn"
+  ],
+  [
+   "traditionally",
+   "theo truyền thống"
+  ],
+  [
+   "expensive",
+   "đắt đỏ"
+  ],
+  [
+   "income",
+   "thu nhập"
+  ],
+  [
+   "succeed",
+   "thành công"
+  ],
+  [
+   "attract",
+   "thu hút"
+  ],
+  [
+   "owned",
+   "được sở hữu"
+  ],
+  [
+   "critic",
+   "nhà phê bình"
+  ],
+  [
+   "budget",
+   "ngân sách"
+  ],
+  [
+   "double",
+   "tăng gấp đôi"
+  ],
+  [
+   "survive",
+   "tồn tại"
+  ],
+  [
+   "cancel",
+   "hủy"
+  ],
+  [
+   "fall",
+   "giảm, rơi"
+  ],
+  [
+   "rise",
+   "tăng"
+  ],
+  [
+   "younger",
+   "trẻ hơn"
+  ],
+  [
+   "million",
+   "triệu"
+  ],
+  [
+   "adapt",
+   "thích nghi"
+  ],
+  [
+   "launch",
+   "ra mắt"
+  ],
+  [
+   "earn",
+   "kiếm (tiền)"
+  ],
+  [
+   "measure",
+   "đo lường"
+  ],
+  [
+   "alert",
+   "cảnh báo, thông báo nhanh"
+  ],
+  [
+   "politician",
+   "chính trị gia"
+  ],
+  [
+   "scene",
+   "hiện trường"
+  ],
+  [
+   "fake",
+   "giả"
+  ],
+  [
+   "protest",
+   "cuộc biểu tình"
+  ],
+  [
+   "robbery",
+   "vụ cướp"
+  ],
+  [
+   "arrest",
+   "bắt giữ"
+  ],
+  [
+   "law",
+   "luật"
+  ],
+  [
+   "parliament",
+   "quốc hội"
+  ],
+  [
+   "mayor",
+   "thị trưởng"
+  ],
+  [
+   "minister",
+   "bộ trưởng"
+  ],
+  [
+   "police",
+   "cảnh sát"
+  ],
+  [
+   "suspect",
+   "nghi phạm"
+  ],
+  [
+   "courthouse",
+   "tòa án"
+  ],
+  [
+   "victim",
+   "nạn nhân"
+  ],
+  [
+   "election",
+   "cuộc bầu cử"
+  ],
+  [
+   "housing",
+   "nhà ở"
+  ],
+  [
+   "climate change",
+   "biến đổi khí hậu"
+  ],
+  [
+   "gift",
+   "quà tặng"
+  ],
+  [
+   "permission",
+   "sự cho phép"
+  ],
+  [
+   "illegal",
+   "bất hợp pháp"
+  ],
+  [
+   "apologise",
+   "xin lỗi"
+  ],
+  [
+   "reputation",
+   "danh tiếng"
+  ],
+  [
+   "deceive",
+   "đánh lừa"
+  ]
+ ]
+}

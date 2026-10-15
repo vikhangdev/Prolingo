@@ -2,6 +2,7 @@
    MAIN — khởi động ứng dụng, header, route, phân quyền
    ============================================================ */
 import { configured } from "./supabase.js";
+import * as api from "./api.js";
 import { APP_NAME } from "./config.js";
 import { $, esc, avatarHtml } from "./utils.js";
 import { Auth } from "./auth.js";
@@ -18,6 +19,7 @@ import { viewAdminUnits } from "./views/admin/units.js";
 import { viewAdminWords } from "./views/admin/words.js";
 import { viewAdminExercises } from "./views/admin/exercises.js";
 import { viewAdminUsers } from "./views/admin/users.js";
+import { viewAdminSignupAlerts } from "./views/admin/signup-alerts.js";
 import { viewAdminStudent } from "./views/admin/student.js";
 import { viewAdminUserAccount } from "./views/admin/user-account.js";
 import { viewAdminData } from "./views/admin/data.js";
@@ -91,6 +93,7 @@ route("/admin/units", viewAdminUnits);
 route("/admin/words", viewAdminWords);
 route("/admin/exercises", viewAdminExercises);
 route("/admin/users", viewAdminUsers);
+route("/admin/signup-alerts", viewAdminSignupAlerts);
 route("/admin/users/:id", viewAdminStudent);
 route("/admin/users/:id/manage", viewAdminUserAccount);
 route("/admin/data", viewAdminData);
@@ -101,11 +104,47 @@ onNotFound(() => {
 
 /* ---------- Khởi động ---------- */
 let lastUser = undefined;
+let presenceUserId = null;
+let presenceTimer = null;
+
+async function updatePresence() {
+  try {
+    await api.touchOnlinePresence();
+  } catch (error) {
+    console.warn("Không cập nhật được trạng thái truy cập:", error.message || error);
+  }
+}
+
+function trackPresence(userId) {
+  if (presenceUserId === userId) return;
+  if (presenceTimer) clearInterval(presenceTimer);
+  if (presenceUserId) {
+    api.clearOnlinePresence(presenceUserId).catch((error) => {
+      console.warn("Không xóa được trạng thái truy cập:", error.message || error);
+    });
+  }
+
+  presenceUserId = userId;
+  presenceTimer = null;
+  if (!userId) return;
+
+  updatePresence();
+  presenceTimer = setInterval(updatePresence, 60_000);
+}
+
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible" && presenceUserId) updatePresence();
+});
+window.addEventListener("focus", () => {
+  if (presenceUserId) updatePresence();
+});
+
 async function onAuth() {
   const uid = Auth.user?.id || null;
   const changed = uid !== lastUser;
   lastUser = uid;
   if (changed) {
+    trackPresence(uid);
     if (uid) {
       await Promise.all([Progress.load().catch((e) => console.warn(e.message)), loadGlossary()]);
       startMascot();
@@ -123,6 +162,7 @@ initTooltip();
 Auth.onChange(onAuth);
 await Auth.init();
 lastUser = Auth.user?.id || null;
+trackPresence(lastUser);
 if (Auth.user) {
   await Promise.all([Progress.load().catch((e) => console.warn(e.message)), loadGlossary()]);
   startMascot();

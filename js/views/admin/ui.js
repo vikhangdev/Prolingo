@@ -5,7 +5,8 @@ import { app, setCrumbs, theme } from "../shared.js";
 
 const NAV = [
   ["", "📊", "Tổng quan"], ["fields", "🗂️", "Ngành"], ["units", "📘", "Unit"],
-  ["words", "🔤", "Từ vựng"], ["exercises", "📝", "Bài tập & bài đọc"], ["users", "👥", "Người dùng"], ["data", "💾", "Quản lý dữ liệu"],
+  ["words", "🔤", "Từ vựng"], ["exercises", "📝", "Bài tập & bài đọc"], ["users", "👥", "Người dùng"],
+  ["data", "💾", "Quản lý dữ liệu"],
 ];
 
 export function shell(active, title, actions = "") {

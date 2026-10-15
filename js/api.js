@@ -236,6 +236,15 @@ export async function studentWrongDetail(userId, qIds, wIds) {
 
 /* ---------- Người dùng ---------- */
 export const adminUsers = async () => unwrap(await sb.rpc("admin_users"));
+export const touchOnlinePresence = async () =>
+  unwrap(await sb.rpc("touch_online_presence"));
+export const clearOnlinePresence = async (userId) =>
+  unwrap(await sb.from("online_presence").delete().eq("user_id", userId));
+export const adminOnlineUserCount = async () => unwrap(await sb.rpc("admin_online_user_count"));
+export const adminSignupEmailAlerts = async () =>
+  unwrap(await sb.from("signup_email_alerts").select("*").order("last_seen_at", { ascending: false }));
+export const reviewSignupEmailAlert = async (id) =>
+  unwrap(await sb.rpc("admin_review_signup_email_alert", { target_id: id }));
 export const adminUser = async (id) =>
   unwrap(await sb.from("profiles").select("id, email, display_name, role, created_at, is_active, primary_field_id, avatar_url").eq("id", id).maybeSingle());
 export const setUserRole = async (id, role) => unwrap(await sb.from("profiles").update({ role }).eq("id", id).select().single());

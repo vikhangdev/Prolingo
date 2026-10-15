@@ -1,0 +1,4285 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "computer-science",
+  "name": "Computer Science",
+  "name_vi": "Khoa học máy tính",
+  "icon": "💻",
+  "hue": 215,
+  "description": "Từ vựng, ngữ pháp và bài đọc chuyên ngành khoa học máy tính: hệ thống & phần cứng, lập trình, cơ sở dữ liệu, thực hành kỹ thuật phần mềm, thuật toán & cấu trúc dữ liệu, an ninh mạng, điện toán đám mây & AI."
+ },
+ "units": [
+  {
+   "name": "Computer Systems & Hardware",
+   "name_vi": "Hệ thống máy tính & phần cứng",
+   "icon": "💻",
+   "hue": 215,
+   "words": [
+    {
+     "en": "CPU",
+     "vi": "bộ xử lý trung tâm"
+    },
+    {
+     "en": "GPU",
+     "vi": "bộ xử lý đồ họa"
+    },
+    {
+     "en": "motherboard",
+     "vi": "bo mạch chủ"
+    },
+    {
+     "en": "RAM",
+     "vi": "bộ nhớ truy cập ngẫu nhiên"
+    },
+    {
+     "en": "cache",
+     "vi": "bộ nhớ đệm"
+    },
+    {
+     "en": "hard drive",
+     "vi": "ổ cứng cơ"
+    },
+    {
+     "en": "SSD",
+     "vi": "ổ cứng thể rắn"
+    },
+    {
+     "en": "storage capacity",
+     "vi": "dung lượng lưu trữ"
+    },
+    {
+     "en": "processor core",
+     "vi": "nhân xử lý"
+    },
+    {
+     "en": "clock speed",
+     "vi": "tốc độ xung nhịp"
+    },
+    {
+     "en": "operating system",
+     "vi": "hệ điều hành"
+    },
+    {
+     "en": "kernel",
+     "vi": "nhân hệ điều hành"
+    },
+    {
+     "en": "process",
+     "vi": "tiến trình"
+    },
+    {
+     "en": "thread",
+     "vi": "luồng xử lý"
+    },
+    {
+     "en": "memory management",
+     "vi": "quản lý bộ nhớ"
+    },
+    {
+     "en": "file system",
+     "vi": "hệ thống tệp"
+    },
+    {
+     "en": "driver",
+     "vi": "trình điều khiển thiết bị"
+    },
+    {
+     "en": "firmware",
+     "vi": "phần sụn"
+    },
+    {
+     "en": "BIOS",
+     "vi": "hệ thống nhập xuất cơ bản"
+    },
+    {
+     "en": "boot",
+     "vi": "khởi động máy"
+    },
+    {
+     "en": "input device",
+     "vi": "thiết bị đầu vào"
+    },
+    {
+     "en": "output device",
+     "vi": "thiết bị đầu ra"
+    },
+    {
+     "en": "peripheral",
+     "vi": "thiết bị ngoại vi"
+    },
+    {
+     "en": "USB port",
+     "vi": "cổng USB"
+    },
+    {
+     "en": "bus",
+     "vi": "bus dữ liệu"
+    },
+    {
+     "en": "binary",
+     "vi": "nhị phân"
+    },
+    {
+     "en": "bit",
+     "vi": "bit"
+    },
+    {
+     "en": "byte",
+     "vi": "byte"
+    },
+    {
+     "en": "virtual machine",
+     "vi": "máy ảo"
+    },
+    {
+     "en": "server",
+     "vi": "máy chủ"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the main chip that executes program instructions.",
+        "ans": [
+         2
+        ],
+        "tip": "Central Processing Unit.",
+        "why": "**CPU** = bộ xử lý trung tâm, thực thi các lệnh của chương trình.",
+        "opts": [
+         "SSD",
+         "BIOS",
+         "CPU"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is fast temporary memory that is cleared when the computer is switched off.",
+        "ans": [
+         1
+        ],
+        "tip": "Random Access Memory.",
+        "why": "**RAM** = bộ nhớ tạm, mất dữ liệu khi tắt máy.",
+        "opts": [
+         "SSD",
+         "RAM",
+         "motherboard"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ stores files permanently and has no moving parts.",
+        "ans": [
+         0
+        ],
+        "tip": "Solid State Drive: thể rắn.",
+        "why": "**SSD** = ổ cứng thể rắn, không có bộ phận chuyển động.",
+        "opts": [
+         "SSD",
+         "hard drive",
+         "RAM"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ connects all the main components of a computer.",
+        "ans": [
+         0
+        ],
+        "tip": "mother = mẹ: bo mạch gốc.",
+        "why": "**motherboard** = bo mạch chủ.",
+        "opts": [
+         "motherboard",
+         "peripheral",
+         "kernel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the core of the operating system and manages hardware.",
+        "ans": [
+         2
+        ],
+        "tip": "kernel = hạt nhân.",
+        "why": "**kernel** = nhân hệ điều hành.",
+        "opts": [
+         "driver",
+         "BIOS",
+         "kernel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ lets the operating system communicate with a printer.",
+        "ans": [
+         1
+        ],
+        "tip": "drive = điều khiển.",
+        "why": "**driver** = trình điều khiển thiết bị.",
+        "opts": [
+         "thread",
+         "driver",
+         "cache"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A keyboard is an ___, while a monitor is an output device.",
+        "ans": [
+         1
+        ],
+        "tip": "input = đưa vào.",
+        "why": "**input device** = thiết bị đầu vào.",
+        "opts": [
+         "USB port",
+         "input device",
+         "file system"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ lets one physical computer run several separate operating systems.",
+        "ans": [
+         0
+        ],
+        "tip": "virtual = ảo.",
+        "why": "**virtual machine** = máy ảo.",
+        "opts": [
+         "virtual machine",
+         "motherboard",
+         "process"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "GPU",
+        "b": "a processor designed to handle graphics and parallel calculations",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cache",
+        "b": "very fast memory that stores frequently used data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "clock speed",
+        "b": "the number of cycles a processor performs per second",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "thread",
+        "b": "the smallest sequence of instructions a CPU can manage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "BIOS",
+        "b": "basic software that starts the computer and checks hardware",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "file system",
+        "b": "the method an operating system uses to organise and store files",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "byte",
+        "b": "a unit of digital information made of eight bits",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "firmware",
+        "b": "permanent software built into a hardware device",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The CPU ___ instructions at billions of cycles per second.",
+        "ans": [
+         2
+        ],
+        "tip": "Sự thật → V(s/es).",
+        "why": "Sự thật chung, chủ ngữ số ít → **hiện tại đơn**: executes.",
+        "opts": [
+         "is executing",
+         "execute",
+         "executes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the operating system ___ several processes.",
+        "ans": [
+         2
+        ],
+        "tip": "now → be + V-ing.",
+        "why": "'Right now' = đang xảy ra → **is running**.",
+        "opts": [
+         "runs",
+         "run",
+         "is running"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A hard drive usually ___ data on spinning disks.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "'usually' → hiện tại đơn, số ít: **stores**.",
+        "opts": [
+         "is storing",
+         "stores",
+         "store"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The computer ___ itself.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'Look!' báo hiệu hành động đang diễn ra → **is restarting**.",
+        "opts": [
+         "is restarting",
+         "restarts",
+         "restart"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This week, I ___ a new SSD in my laptop.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'This week' = việc đang làm trong tuần → **am installing**.",
+        "opts": [
+         "am installing",
+         "install",
+         "installs"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A bit ___ either 0 or 1.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Sự thật khoa học, chủ ngữ số ít → hiện tại đơn: **is**.",
+        "opts": [
+         "is being",
+         "are",
+         "is"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The motherboard ___ (connect) all the components.",
+        "ans": [
+         [
+          "connects"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "Sự thật chung, số ít: **connects**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the server ___ (handle) 5,000 requests.",
+        "ans": [
+         [
+          "is handling",
+          "'s handling"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **is handling**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Laptops ___ (not / use) desktop-size fans.",
+        "ans": [
+         [
+          "do not use",
+          "don't use"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, số nhiều: **do not use**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (study) computer architecture.",
+        "ans": [
+         [
+          "studies"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn, ngôi số ít: **studies**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the system ___ (load) the drivers.",
+        "ans": [
+         [
+          "is loading",
+          "'s loading"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **is loading**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What happens when you press the power button",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When you press the power button, the computer starts the boot process. First, the BIOS checks the hardware, such as the RAM and the keyboard. Then it looks for the operating system on the SSD or hard drive and loads the kernel into memory.\n\nThe CPU is the brain of the computer. It executes instructions from programs, and each processor core can run several threads. Because the CPU is much faster than storage, it uses a small, very fast cache to keep frequently used data close by. The GPU handles graphics and other tasks that can be done in parallel.\n\nAll data inside a computer is stored in binary, using bits that are either 0 or 1. Eight bits form one byte. The operating system manages memory, files and peripherals, and drivers help it communicate with devices such as printers. On a server, a virtual machine can run a separate operating system so that one computer can serve many users.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The BIOS checks the hardware at startup.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: BIOS kiểm tra phần cứng như RAM và bàn phím."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The kernel is loaded before the BIOS runs.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: BIOS chạy **trước**, sau đó mới nạp nhân hệ điều hành."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A byte consists of eight bits.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tám bit tạo thành một byte."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The cache is slower than the SSD.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cache là bộ nhớ **rất nhanh**, nhanh hơn bộ lưu trữ nhiều."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the CPU do?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: CPU thực thi các lệnh của chương trình.",
+        "opts": [
+         "Stores files permanently",
+         "Executes instructions from programs",
+         "Prints documents"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the CPU use a cache?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: CPU nhanh hơn bộ lưu trữ nên dùng cache để giữ dữ liệu hay dùng gần bên.",
+        "opts": [
+         "To save electricity only",
+         "To keep frequently used data close by",
+         "To connect to the internet"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do drivers do?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: trình điều khiển giúp hệ điều hành giao tiếp với thiết bị như máy in.",
+        "opts": [
+         "Help the operating system communicate with devices",
+         "Increase the clock speed",
+         "Store binary data"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can a virtual machine do on a server?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: máy ảo chạy một hệ điều hành riêng để một máy phục vụ nhiều người dùng.",
+        "opts": [
+         "Replace the motherboard",
+         "Create new bits",
+         "Run a separate operating system"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Programming & Software Development",
+   "name_vi": "Lập trình & phát triển phần mềm",
+   "icon": "👨‍💻",
+   "hue": 280,
+   "words": [
+    {
+     "en": "programming language",
+     "vi": "ngôn ngữ lập trình"
+    },
+    {
+     "en": "source code",
+     "vi": "mã nguồn"
+    },
+    {
+     "en": "syntax",
+     "vi": "cú pháp"
+    },
+    {
+     "en": "variable",
+     "vi": "biến"
+    },
+    {
+     "en": "data type",
+     "vi": "kiểu dữ liệu"
+    },
+    {
+     "en": "function",
+     "vi": "hàm"
+    },
+    {
+     "en": "parameter",
+     "vi": "tham số"
+    },
+    {
+     "en": "return value",
+     "vi": "giá trị trả về"
+    },
+    {
+     "en": "loop",
+     "vi": "vòng lặp"
+    },
+    {
+     "en": "conditional statement",
+     "vi": "câu lệnh điều kiện"
+    },
+    {
+     "en": "array",
+     "vi": "mảng"
+    },
+    {
+     "en": "string",
+     "vi": "chuỗi ký tự"
+    },
+    {
+     "en": "class",
+     "vi": "lớp"
+    },
+    {
+     "en": "object",
+     "vi": "đối tượng"
+    },
+    {
+     "en": "inheritance",
+     "vi": "kế thừa"
+    },
+    {
+     "en": "compiler",
+     "vi": "trình biên dịch"
+    },
+    {
+     "en": "interpreter",
+     "vi": "trình thông dịch"
+    },
+    {
+     "en": "IDE",
+     "vi": "môi trường phát triển tích hợp"
+    },
+    {
+     "en": "debugging",
+     "vi": "gỡ lỗi"
+    },
+    {
+     "en": "bug",
+     "vi": "lỗi phần mềm"
+    },
+    {
+     "en": "syntax error",
+     "vi": "lỗi cú pháp"
+    },
+    {
+     "en": "runtime error",
+     "vi": "lỗi khi chạy chương trình"
+    },
+    {
+     "en": "library",
+     "vi": "thư viện"
+    },
+    {
+     "en": "framework",
+     "vi": "khung phát triển"
+    },
+    {
+     "en": "API",
+     "vi": "giao diện lập trình ứng dụng"
+    },
+    {
+     "en": "module",
+     "vi": "mô-đun"
+    },
+    {
+     "en": "open source",
+     "vi": "mã nguồn mở"
+    },
+    {
+     "en": "script",
+     "vi": "tập lệnh"
+    },
+    {
+     "en": "comment",
+     "vi": "chú thích trong mã"
+    },
+    {
+     "en": "exception",
+     "vi": "ngoại lệ"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ stores a value that can change while the program runs.",
+        "ans": [
+         2
+        ],
+        "tip": "vary = thay đổi.",
+        "why": "**variable** = biến, lưu giá trị có thể thay đổi.",
+        "opts": [
+         "loop",
+         "comment",
+         "variable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ repeats a block of code several times.",
+        "ans": [
+         1
+        ],
+        "tip": "loop = vòng.",
+        "why": "**loop** = vòng lặp.",
+        "opts": [
+         "string",
+         "loop",
+         "parameter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a reusable block of code that performs a specific task.",
+        "ans": [
+         0
+        ],
+        "tip": "function = chức năng.",
+        "why": "**function** = hàm, khối mã tái sử dụng.",
+        "opts": [
+         "function",
+         "variable",
+         "bug"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ translates the whole source code into machine code before running.",
+        "ans": [
+         0
+        ],
+        "tip": "compile = biên soạn toàn bộ.",
+        "why": "**compiler** = trình biên dịch.",
+        "opts": [
+         "compiler",
+         "interpreter",
+         "IDE"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ runs the code line by line instead of translating it all first.",
+        "ans": [
+         2
+        ],
+        "tip": "interpret = thông dịch.",
+        "why": "**interpreter** = trình thông dịch, chạy từng dòng.",
+        "opts": [
+         "library",
+         "exception",
+         "interpreter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Finding and fixing errors in a program is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "de + bug = loại bỏ lỗi.",
+        "why": "**debugging** = gỡ lỗi.",
+        "opts": [
+         "inheritance",
+         "debugging",
+         "scripting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Forgetting a closing bracket causes a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "syntax = cú pháp.",
+        "why": "**syntax error** = lỗi cú pháp, phát hiện trước khi chạy.",
+        "opts": [
+         "runtime error",
+         "syntax error",
+         "comment"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ lets two different programs communicate with each other.",
+        "ans": [
+         0
+        ],
+        "tip": "Application Programming Interface.",
+        "why": "**API** = giao diện lập trình ứng dụng.",
+        "opts": [
+         "API",
+         "IDE",
+         "array"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "syntax",
+        "b": "the set of rules that define how code must be written",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "data type",
+        "b": "a classification such as integer or string that tells how a value is used",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "parameter",
+        "b": "a value passed into a function",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "array",
+        "b": "an ordered collection of items stored under one name",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "class",
+        "b": "a blueprint for creating objects",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "inheritance",
+        "b": "a way for one class to reuse the features of another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "library",
+        "b": "a collection of ready-made code you can reuse",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "framework",
+        "b": "a structured platform that provides tools for building applications",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn dùng -er/more + than; so sánh nhất dùng the + -est/most.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Python is ___ than C++ for beginners.",
+        "ans": [
+         2
+        ],
+        "tip": "easy → easier.",
+        "why": "Tính từ ngắn tận cùng -y: **easier than**.",
+        "opts": [
+         "more easy",
+         "easiest",
+         "easier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "C is usually ___ than Python at runtime.",
+        "ans": [
+         2
+        ],
+        "tip": "adj ngắn + -er.",
+        "why": "Tính từ ngắn: **faster than**.",
+        "opts": [
+         "more fast",
+         "fastest",
+         "faster"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is ___ function in our project.",
+        "ans": [
+         1
+        ],
+        "tip": "the + adj-est.",
+        "why": "So sánh nhất tính từ ngắn: **the longest**.",
+        "opts": [
+         "longer",
+         "the longest",
+         "more long"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A compiled program is often ___ than an interpreted one.",
+        "ans": [
+         0
+        ],
+        "tip": "adj dài + more + than.",
+        "why": "Tính từ dài: **more efficient than**.",
+        "opts": [
+         "more efficient",
+         "efficienter",
+         "most efficient"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "JavaScript is not as strict ___ Java about data types.",
+        "ans": [
+         0
+        ],
+        "tip": "not as ... as.",
+        "why": "So sánh bằng phủ định: **not as strict as**.",
+        "opts": [
+         "as",
+         "than",
+         "that"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fixing bugs early is ___ than fixing them after release.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn: **cheaper than**.",
+        "opts": [
+         "more cheap",
+         "cheapest",
+         "cheaper"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Viết dạng so sánh hơn hoặc so sánh nhất của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Python code is usually ___ (short) than Java code.",
+        "ans": [
+         [
+          "shorter"
+         ]
+        ],
+        "tip": "adj ngắn + -er.",
+        "why": "Tính từ ngắn: **shorter**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (popular) programming language in our class.",
+        "ans": [
+         [
+          "most popular"
+         ]
+        ],
+        "tip": "the + most + adj dài.",
+        "why": "So sánh nhất tính từ dài: **most popular**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Debugging is ___ (hard) than writing the first version.",
+        "ans": [
+         [
+          "harder"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn: **harder**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The new IDE is ___ (good) than the old one.",
+        "ans": [
+         [
+          "better"
+         ]
+        ],
+        "tip": "good → better.",
+        "why": "Bất quy tắc: good → **better**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "That was the ___ (difficult) bug to fix.",
+        "ans": [
+         [
+          "most difficult"
+         ]
+        ],
+        "tip": "",
+        "why": "So sánh nhất tính từ dài: **most difficult**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing a first programming language",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Beginners often ask which programming language is the best. Python is usually easier than most languages because its syntax is simple and its code is shorter. It is an interpreted language, so you can run each line immediately, which makes debugging faster. Python also has a large library of ready-made modules.\n\nJava and C++ are more complex, but they are faster and stricter about data types. They are compiled, so the compiler finds many syntax errors before the program runs. This makes large systems safer, although the first steps are harder for beginners. JavaScript is the most widely used language for websites, and it works with many frameworks.\n\nNo language is the best for every task. A mobile app, a game and a data analysis project need different tools. Most professional developers learn more than one language, and they know that good habits, such as writing comments and testing code, matter more than the language itself.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Python code is usually longer than Java code.",
+        "ans": [
+         1
+        ],
+        "tip": "shorter ≠ longer.",
+        "why": "Đoạn 1: mã Python thường **ngắn hơn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Java is a compiled language.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Java và C++ được biên dịch."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "JavaScript is the most widely used language for websites.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: JavaScript được dùng rộng rãi nhất cho website."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "One language is the best for every task.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: **không** có ngôn ngữ nào tốt nhất cho mọi tác vụ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is debugging faster in Python?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Python là ngôn ngữ thông dịch, chạy từng dòng ngay.",
+        "opts": [
+         "It has no bugs",
+         "Each line can be run immediately",
+         "The compiler runs twice"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the compiler do before the program runs?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: trình biên dịch tìm nhiều lỗi cú pháp trước khi chạy.",
+        "opts": [
+         "Deletes comments",
+         "Finds many syntax errors",
+         "Installs libraries"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are Java and C++ harder for beginners?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: chúng phức tạp hơn và chặt chẽ hơn về kiểu dữ liệu.",
+        "opts": [
+         "They are more complex and stricter",
+         "They have no data types",
+         "They cannot run on computers"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What matters more than the language itself?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: thói quen tốt như viết chú thích và kiểm thử mã.",
+        "opts": [
+         "The colour of the IDE",
+         "The length of the variable names",
+         "Good habits such as comments and testing"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Databases & Data Management",
+   "name_vi": "Cơ sở dữ liệu & quản lý dữ liệu",
+   "icon": "🗄️",
+   "hue": 150,
+   "words": [
+    {
+     "en": "database",
+     "vi": "cơ sở dữ liệu"
+    },
+    {
+     "en": "DBMS",
+     "vi": "hệ quản trị cơ sở dữ liệu"
+    },
+    {
+     "en": "relational database",
+     "vi": "cơ sở dữ liệu quan hệ"
+    },
+    {
+     "en": "NoSQL",
+     "vi": "cơ sở dữ liệu phi quan hệ"
+    },
+    {
+     "en": "SQL",
+     "vi": "ngôn ngữ truy vấn có cấu trúc"
+    },
+    {
+     "en": "table",
+     "vi": "bảng dữ liệu"
+    },
+    {
+     "en": "record",
+     "vi": "bản ghi"
+    },
+    {
+     "en": "field",
+     "vi": "trường dữ liệu"
+    },
+    {
+     "en": "primary key",
+     "vi": "khóa chính"
+    },
+    {
+     "en": "foreign key",
+     "vi": "khóa ngoại"
+    },
+    {
+     "en": "index",
+     "vi": "chỉ mục"
+    },
+    {
+     "en": "query",
+     "vi": "truy vấn"
+    },
+    {
+     "en": "join",
+     "vi": "phép nối bảng"
+    },
+    {
+     "en": "schema",
+     "vi": "lược đồ"
+    },
+    {
+     "en": "normalization",
+     "vi": "chuẩn hóa dữ liệu"
+    },
+    {
+     "en": "transaction",
+     "vi": "giao dịch"
+    },
+    {
+     "en": "ACID",
+     "vi": "bộ thuộc tính ACID"
+    },
+    {
+     "en": "commit",
+     "vi": "xác nhận giao dịch"
+    },
+    {
+     "en": "rollback",
+     "vi": "hoàn tác giao dịch"
+    },
+    {
+     "en": "backup",
+     "vi": "bản sao lưu"
+    },
+    {
+     "en": "data integrity",
+     "vi": "tính toàn vẹn dữ liệu"
+    },
+    {
+     "en": "data warehouse",
+     "vi": "kho dữ liệu"
+    },
+    {
+     "en": "big data",
+     "vi": "dữ liệu lớn"
+    },
+    {
+     "en": "data mining",
+     "vi": "khai phá dữ liệu"
+    },
+    {
+     "en": "data model",
+     "vi": "mô hình dữ liệu"
+    },
+    {
+     "en": "entity",
+     "vi": "thực thể"
+    },
+    {
+     "en": "duplicate",
+     "vi": "bản trùng lặp"
+    },
+    {
+     "en": "constraint",
+     "vi": "ràng buộc"
+    },
+    {
+     "en": "stored procedure",
+     "vi": "thủ tục lưu sẵn"
+    },
+    {
+     "en": "replication",
+     "vi": "sao chép đồng bộ"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a unique identifier for each row in a table.",
+        "ans": [
+         2
+        ],
+        "tip": "primary = chính.",
+        "why": "**primary key** = khóa chính, định danh duy nhất mỗi bản ghi.",
+        "opts": [
+         "foreign key",
+         "schema",
+         "primary key"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ links a column in one table to the primary key of another.",
+        "ans": [
+         1
+        ],
+        "tip": "foreign = bên ngoài.",
+        "why": "**foreign key** = khóa ngoại, liên kết bảng này với bảng khác.",
+        "opts": [
+         "query",
+         "foreign key",
+         "backup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We wrote a ___ to find all customers from Hanoi.",
+        "ans": [
+         0
+        ],
+        "tip": "query = câu hỏi.",
+        "why": "**query** = truy vấn dữ liệu.",
+        "opts": [
+         "query",
+         "schema",
+         "replication"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ speeds up searches on a large table.",
+        "ans": [
+         0
+        ],
+        "tip": "index = mục lục.",
+        "why": "**index** = chỉ mục, giúp tìm kiếm nhanh hơn.",
+        "opts": [
+         "index",
+         "entity",
+         "commit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If a payment fails halfway, the system performs a ___ to undo the changes.",
+        "ans": [
+         2
+        ],
+        "tip": "roll back = cuộn lại.",
+        "why": "**rollback** = hoàn tác các thay đổi của giao dịch.",
+        "opts": [
+         "commit",
+         "join",
+         "rollback"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ combines rows from two tables based on a related column.",
+        "ans": [
+         1
+        ],
+        "tip": "join = nối.",
+        "why": "**join** = phép nối bảng.",
+        "opts": [
+         "field",
+         "join",
+         "backup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ removes duplicate data by organising tables into smaller related ones.",
+        "ans": [
+         1
+        ],
+        "tip": "normal = chuẩn.",
+        "why": "**Normalization** = chuẩn hóa dữ liệu.",
+        "opts": [
+         "Replication",
+         "Normalization",
+         "Data mining"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ stores large amounts of historical data for analysis and reports.",
+        "ans": [
+         0
+        ],
+        "tip": "warehouse = nhà kho.",
+        "why": "**data warehouse** = kho dữ liệu.",
+        "opts": [
+         "data warehouse",
+         "stored procedure",
+         "foreign key"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "record",
+        "b": "a single row of data in a table",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "field",
+        "b": "a column that holds one type of information",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "schema",
+        "b": "the structure that defines tables and relationships",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transaction",
+        "b": "a group of database operations treated as a single unit",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "data integrity",
+        "b": "the accuracy and consistency of data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "NoSQL",
+        "b": "a database type that does not use fixed tables",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "replication",
+        "b": "copying data to other servers to keep them in sync",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "data mining",
+        "b": "searching large data sets to find patterns",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động = be + V3/ed (chủ ngữ chịu tác động của hành động).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customer data ___ in a relational database.",
+        "ans": [
+         2
+        ],
+        "tip": "be + V3/ed.",
+        "why": "Dữ liệu 'được lưu' → bị động hiện tại đơn: **is stored**.",
+        "opts": [
+         "stores",
+         "is storing",
+         "is stored"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The table ___ by the database administrator yesterday.",
+        "ans": [
+         2
+        ],
+        "tip": "yesterday → was + V3.",
+        "why": "'yesterday' → bị động quá khứ đơn: **was created**.",
+        "opts": [
+         "created",
+         "is created",
+         "was created"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Backups ___ every night at 2 a.m.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Bản sao lưu 'được tạo' → **are made**.",
+        "opts": [
+         "make",
+         "are made",
+         "are making"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All changes must ___ before the system is shut down.",
+        "ans": [
+         0
+        ],
+        "tip": "modal + be + V3.",
+        "why": "Sau modal dùng **be + V3**: must be saved.",
+        "opts": [
+         "be saved",
+         "save",
+         "saved"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A new index ___ next week.",
+        "ans": [
+         0
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be added**.",
+        "opts": [
+         "will be added",
+         "will add",
+         "is adding"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The duplicate records ___ last month.",
+        "ans": [
+         2
+        ],
+        "tip": "last month → quá khứ.",
+        "why": "Bị động quá khứ, số nhiều: **were deleted**.",
+        "opts": [
+         "deleted",
+         "are delete",
+         "were deleted"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở thể bị động (be + V3/ed) với thì phù hợp.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Queries ___ (write) in SQL.",
+        "ans": [
+         [
+          "are written"
+         ]
+        ],
+        "tip": "be + V3/ed.",
+        "why": "Hiện tại đơn bị động: **are written**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The old database ___ (replace) last year.",
+        "ans": [
+         [
+          "was replaced"
+         ]
+        ],
+        "tip": "",
+        "why": "'last year' → quá khứ bị động: **was replaced**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Sensitive data ___ (encrypt) before storage.",
+        "ans": [
+         [
+          "is encrypted"
+         ]
+        ],
+        "tip": "",
+        "why": "'data' dùng như số ít, hiện tại bị động: **is encrypted**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The schema ___ (update) tomorrow.",
+        "ans": [
+         [
+          "will be updated"
+         ]
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be updated**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Several errors ___ (find) during the test last week.",
+        "ans": [
+         [
+          "were found"
+         ]
+        ],
+        "tip": "",
+        "why": "'last week' → quá khứ bị động, số nhiều: **were found**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Inside an online shop's database",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "An online shop stores its information in a relational database. Data is organised in tables: one table for customers, one for products and one for orders. Each record is identified by a primary key, and the orders table is linked to the customers table by a foreign key.\n\nWhen a customer places an order, a transaction is started. The stock is reduced, the payment is recorded and the order is saved. If any step fails, the transaction is rolled back, so the data is never left in a half-finished state. This property is called data integrity, and it is guaranteed by the ACID rules.\n\nQueries are written in SQL, and indexes are created to make searches faster. Backups are made every night, and the data is replicated to a second server. For analysis, the data is copied into a data warehouse, where big data techniques are used to find patterns in customer behaviour.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Each record is identified by a primary key.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mỗi bản ghi được xác định bằng khóa chính."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A transaction is committed even if one step fails.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nếu một bước lỗi, giao dịch bị **hoàn tác (rolled back)**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Backups are made every night.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sao lưu được thực hiện mỗi đêm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Queries are written in Java.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: truy vấn được viết bằng **SQL**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How is the orders table linked to the customers table?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bảng đơn hàng liên kết với bảng khách hàng bằng khóa ngoại.",
+        "opts": [
+         "By an index",
+         "By a foreign key",
+         "By a backup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens if a step in a transaction fails?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giao dịch bị hoàn tác để dữ liệu không rơi vào trạng thái dở dang.",
+        "opts": [
+         "The database is deleted",
+         "The transaction is rolled back",
+         "The step is repeated forever"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are indexes created?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chỉ mục giúp tìm kiếm nhanh hơn.",
+        "opts": [
+         "To make searches faster",
+         "To delete duplicates",
+         "To encrypt data"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where is data copied for analysis?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: dữ liệu được sao chép vào kho dữ liệu để phân tích.",
+        "opts": [
+         "Into a foreign key",
+         "Into the kernel",
+         "Into a data warehouse"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Software Engineering Practices",
+   "name_vi": "Quy trình & thực hành kỹ thuật phần mềm",
+   "icon": "🛠️",
+   "hue": 40,
+   "words": [
+    {
+     "en": "software engineering",
+     "vi": "kỹ thuật phần mềm"
+    },
+    {
+     "en": "SDLC",
+     "vi": "vòng đời phát triển phần mềm"
+    },
+    {
+     "en": "requirement",
+     "vi": "yêu cầu"
+    },
+    {
+     "en": "specification",
+     "vi": "bản đặc tả"
+    },
+    {
+     "en": "design pattern",
+     "vi": "mẫu thiết kế"
+    },
+    {
+     "en": "architecture",
+     "vi": "kiến trúc hệ thống"
+    },
+    {
+     "en": "agile",
+     "vi": "phương pháp linh hoạt (Agile)"
+    },
+    {
+     "en": "scrum",
+     "vi": "khung làm việc Scrum"
+    },
+    {
+     "en": "sprint",
+     "vi": "chu kỳ phát triển ngắn"
+    },
+    {
+     "en": "user story",
+     "vi": "câu chuyện người dùng"
+    },
+    {
+     "en": "backlog",
+     "vi": "danh sách công việc tồn"
+    },
+    {
+     "en": "stand-up meeting",
+     "vi": "buổi họp đứng hằng ngày"
+    },
+    {
+     "en": "version control",
+     "vi": "quản lý phiên bản"
+    },
+    {
+     "en": "repository",
+     "vi": "kho mã nguồn"
+    },
+    {
+     "en": "branch",
+     "vi": "nhánh mã nguồn"
+    },
+    {
+     "en": "merge",
+     "vi": "hợp nhất mã"
+    },
+    {
+     "en": "pull request",
+     "vi": "yêu cầu hợp nhất mã"
+    },
+    {
+     "en": "code review",
+     "vi": "rà soát mã nguồn"
+    },
+    {
+     "en": "coding standard",
+     "vi": "chuẩn viết mã"
+    },
+    {
+     "en": "refactoring",
+     "vi": "tái cấu trúc mã"
+    },
+    {
+     "en": "unit test",
+     "vi": "kiểm thử đơn vị"
+    },
+    {
+     "en": "integration test",
+     "vi": "kiểm thử tích hợp"
+    },
+    {
+     "en": "test coverage",
+     "vi": "độ phủ kiểm thử"
+    },
+    {
+     "en": "continuous integration (CI)",
+     "vi": "tích hợp liên tục"
+    },
+    {
+     "en": "deployment",
+     "vi": "triển khai"
+    },
+    {
+     "en": "release",
+     "vi": "phát hành"
+    },
+    {
+     "en": "documentation",
+     "vi": "tài liệu"
+    },
+    {
+     "en": "technical debt",
+     "vi": "nợ kỹ thuật"
+    },
+    {
+     "en": "maintenance",
+     "vi": "bảo trì"
+    },
+    {
+     "en": "stakeholder",
+     "vi": "bên liên quan"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a short description of a feature from the user's point of view.",
+        "ans": [
+         2
+        ],
+        "tip": "story = câu chuyện.",
+        "why": "**user story** = mô tả tính năng từ góc nhìn người dùng.",
+        "opts": [
+         "repository",
+         "sprint",
+         "user story"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In Scrum, a ___ is a short period, usually two weeks, in which the team completes planned work.",
+        "ans": [
+         1
+        ],
+        "tip": "sprint = chạy nước rút.",
+        "why": "**sprint** = chu kỳ phát triển ngắn.",
+        "opts": [
+         "backlog",
+         "sprint",
+         "release"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The team keeps a list of all planned work in the product ___.",
+        "ans": [
+         0
+        ],
+        "tip": "back + log = sổ ghi tồn đọng.",
+        "why": "**backlog** = danh sách công việc cần làm.",
+        "opts": [
+         "backlog",
+         "branch",
+         "merge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Developers create a new ___ to work on a feature without affecting the main code.",
+        "ans": [
+         0
+        ],
+        "tip": "branch = nhánh cây.",
+        "why": "**branch** = nhánh mã nguồn.",
+        "opts": [
+         "branch",
+         "release",
+         "stand-up"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before code is merged, another developer must do a ___.",
+        "ans": [
+         2
+        ],
+        "tip": "review = xem xét lại.",
+        "why": "**code review** = rà soát mã nguồn.",
+        "opts": [
+         "deployment",
+         "refactoring",
+         "code review"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Improving the structure of code without changing what it does is ___.",
+        "ans": [
+         1
+        ],
+        "tip": "re + factor = cấu trúc lại.",
+        "why": "**refactoring** = tái cấu trúc mã.",
+        "opts": [
+         "documentation",
+         "refactoring",
+         "integration test"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ checks that one small part of the code works correctly.",
+        "ans": [
+         1
+        ],
+        "tip": "unit = đơn vị nhỏ.",
+        "why": "**unit test** = kiểm thử một đơn vị mã nhỏ.",
+        "opts": [
+         "integration test",
+         "unit test",
+         "sprint"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Quick, messy solutions that cause extra work later create ___.",
+        "ans": [
+         0
+        ],
+        "tip": "debt = nợ.",
+        "why": "**technical debt** = nợ kỹ thuật.",
+        "opts": [
+         "technical debt",
+         "test coverage",
+         "architecture"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "agile",
+        "b": "an approach that delivers software in small, flexible steps",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "version control",
+        "b": "a system that tracks changes to code over time",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pull request",
+        "b": "a proposal to merge code changes into the main branch",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "coding standard",
+        "b": "agreed rules for how code should be written",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "continuous integration",
+        "b": "automatically building and testing code whenever it changes",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "deployment",
+        "b": "putting software into the live environment where users can use it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "test coverage",
+        "b": "the percentage of code that is checked by tests",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stakeholder",
+        "b": "a person with an interest in the project's success",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must/have to = bắt buộc; mustn't = cấm; don't have to = không cần; should = nên.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Developers ___ follow the coding standard. It is a team rule.",
+        "ans": [
+         2
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy tắc của nhóm → bắt buộc: **must**.",
+        "opts": [
+         "might",
+         "may",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ push code directly to the main branch. It is not allowed.",
+        "ans": [
+         2
+        ],
+        "tip": "must not = cấm.",
+        "why": "Không được phép → **must not**.",
+        "opts": [
+         "don't have to",
+         "should",
+         "must not"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ write comments for every line; only for complex parts.",
+        "ans": [
+         1
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Chỉ cần ở phần phức tạp → **don't have to**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think we ___ add more unit tests before the release.",
+        "ans": [
+         0
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Gợi ý hợp lý → **should**.",
+        "opts": [
+         "should",
+         "must not",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Every pull request ___ be approved by two reviewers.",
+        "ans": [
+         0
+        ],
+        "tip": "has to = bắt buộc.",
+        "why": "Quy trình bắt buộc, chủ ngữ số ít → **has to**.",
+        "opts": [
+         "has to",
+         "can",
+         "might"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do we ___ update the documentation after each change?",
+        "ans": [
+         2
+        ],
+        "tip": "Do/Does + S + have to + V.",
+        "why": "Câu hỏi với have to mượn trợ động từ Do: **Do we have to**.",
+        "opts": [
+         "must",
+         "should to",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu hợp nghĩa (nội dung trong ngoặc là gợi ý).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All code ___ pass the tests before the merge. (obligation)",
+        "ans": [
+         [
+          "must",
+          "has to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc: **must** hoặc **has to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ store passwords in the repository. (prohibition)",
+        "ans": [
+         [
+          "must not",
+          "mustn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Cấm: **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ attend the stand-up if you are on leave. (no necessity)",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết: **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think you ___ refactor this function. (advice)",
+        "ans": [
+         [
+          "should"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên: **should**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Team members ___ finish their tasks before the sprint ends. (obligation)",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc: **must** hoặc **have to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Working in an agile team",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Lan has just joined a software team that uses Scrum. The team works in two-week sprints. At the start of each sprint, the product owner explains the user stories from the backlog, and the developers must choose the tasks they can complete. Every morning there is a short stand-up meeting, and everyone has to say what they did and what blocks them. Lan doesn't have to talk for long; one minute is enough.\n\nThe team uses version control. Lan must create a new branch for each task, and she mustn't push code directly to the main branch. When she finishes, she opens a pull request, and at least one colleague has to do a code review. The code must follow the coding standard, and new features should have unit tests.\n\nBefore each release, continuous integration runs all the tests automatically. If a test fails, the team must fix it before deployment. Lan should also update the documentation, because good documentation helps new members and reduces technical debt.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The team works in two-week sprints.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nhóm làm việc theo sprint hai tuần."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Lan can push code directly to the main branch.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Đoạn 2: Lan **mustn't** đẩy mã thẳng vào nhánh chính."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "At least one colleague has to review her code.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ít nhất một đồng nghiệp phải rà soát mã."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Lan has to talk for ten minutes at the stand-up.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Lan **không phải** nói lâu, một phút là đủ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who explains the user stories?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chủ sản phẩm giải thích các user story.",
+        "opts": [
+         "The compiler",
+         "The product owner",
+         "A new branch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must Lan create for each task?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phải tạo một nhánh mới cho mỗi nhiệm vụ.",
+        "opts": [
+         "A new database",
+         "A new branch",
+         "A new sprint"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens if a test fails before deployment?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhóm phải sửa trước khi triển khai.",
+        "opts": [
+         "The team must fix it",
+         "The release goes ahead anyway",
+         "The test is deleted"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why should Lan update the documentation?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tài liệu tốt giúp thành viên mới và giảm nợ kỹ thuật.",
+        "opts": [
+         "It makes the code run faster",
+         "It replaces the unit tests",
+         "It helps new members and reduces technical debt"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Algorithms & Data Structures",
+   "name_vi": "Thuật toán & cấu trúc dữ liệu",
+   "icon": "🧮",
+   "hue": 340,
+   "words": [
+    {
+     "en": "algorithm",
+     "vi": "thuật toán"
+    },
+    {
+     "en": "data structure",
+     "vi": "cấu trúc dữ liệu"
+    },
+    {
+     "en": "stack",
+     "vi": "ngăn xếp"
+    },
+    {
+     "en": "queue",
+     "vi": "hàng đợi"
+    },
+    {
+     "en": "linked list",
+     "vi": "danh sách liên kết"
+    },
+    {
+     "en": "hash table",
+     "vi": "bảng băm"
+    },
+    {
+     "en": "tree",
+     "vi": "cây"
+    },
+    {
+     "en": "binary tree",
+     "vi": "cây nhị phân"
+    },
+    {
+     "en": "graph",
+     "vi": "đồ thị"
+    },
+    {
+     "en": "node",
+     "vi": "nút"
+    },
+    {
+     "en": "pointer",
+     "vi": "con trỏ"
+    },
+    {
+     "en": "sorting",
+     "vi": "sắp xếp"
+    },
+    {
+     "en": "searching",
+     "vi": "tìm kiếm"
+    },
+    {
+     "en": "binary search",
+     "vi": "tìm kiếm nhị phân"
+    },
+    {
+     "en": "linear search",
+     "vi": "tìm kiếm tuần tự"
+    },
+    {
+     "en": "bubble sort",
+     "vi": "sắp xếp nổi bọt"
+    },
+    {
+     "en": "recursion",
+     "vi": "đệ quy"
+    },
+    {
+     "en": "iteration",
+     "vi": "phép lặp"
+    },
+    {
+     "en": "time complexity",
+     "vi": "độ phức tạp thời gian"
+    },
+    {
+     "en": "space complexity",
+     "vi": "độ phức tạp không gian"
+    },
+    {
+     "en": "Big O notation",
+     "vi": "ký hiệu Big O"
+    },
+    {
+     "en": "best case",
+     "vi": "trường hợp tốt nhất"
+    },
+    {
+     "en": "worst case",
+     "vi": "trường hợp xấu nhất"
+    },
+    {
+     "en": "optimization",
+     "vi": "tối ưu hóa"
+    },
+    {
+     "en": "brute force",
+     "vi": "phương pháp vét cạn"
+    },
+    {
+     "en": "divide and conquer",
+     "vi": "chia để trị"
+    },
+    {
+     "en": "dynamic programming",
+     "vi": "quy hoạch động"
+    },
+    {
+     "en": "greedy algorithm",
+     "vi": "thuật toán tham lam"
+    },
+    {
+     "en": "heap",
+     "vi": "cấu trúc đống (heap)"
+    },
+    {
+     "en": "traversal",
+     "vi": "phép duyệt"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ follows the rule 'last in, first out'.",
+        "ans": [
+         2
+        ],
+        "tip": "stack = chồng.",
+        "why": "**stack** = ngăn xếp, vào sau ra trước (LIFO).",
+        "opts": [
+         "queue",
+         "graph",
+         "stack"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ follows the rule 'first in, first out'.",
+        "ans": [
+         1
+        ],
+        "tip": "queue = hàng người xếp hàng.",
+        "why": "**queue** = hàng đợi, vào trước ra trước (FIFO).",
+        "opts": [
+         "tree",
+         "queue",
+         "heap"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a ___, each node contains data and a pointer to the next node.",
+        "ans": [
+         0
+        ],
+        "tip": "link = móc nối.",
+        "why": "**linked list** = danh sách liên kết.",
+        "opts": [
+         "linked list",
+         "hash table",
+         "binary tree"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ uses a key to find a value almost instantly.",
+        "ans": [
+         0
+        ],
+        "tip": "hash = băm nhỏ, ánh xạ.",
+        "why": "**hash table** = bảng băm, tra cứu gần như tức thì.",
+        "opts": [
+         "hash table",
+         "linked list",
+         "stack"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ repeatedly halves a sorted list to find an item.",
+        "ans": [
+         2
+        ],
+        "tip": "binary = chia đôi.",
+        "why": "**Binary search** = tìm kiếm nhị phân.",
+        "opts": [
+         "Linear search",
+         "Bubble sort",
+         "Binary search"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A function that calls itself uses ___.",
+        "ans": [
+         1
+        ],
+        "tip": "re + cur = chạy lại.",
+        "why": "**recursion** = đệ quy.",
+        "opts": [
+         "iteration",
+         "recursion",
+         "traversal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We use Big O notation to describe an algorithm's ___.",
+        "ans": [
+         1
+        ],
+        "tip": "complexity = độ phức tạp.",
+        "why": "**time complexity** = độ phức tạp thời gian.",
+        "opts": [
+         "pointer",
+         "time complexity",
+         "node"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Trying every possible solution until one works is a ___ approach.",
+        "ans": [
+         0
+        ],
+        "tip": "brute = thô bạo.",
+        "why": "**brute force** = vét cạn.",
+        "opts": [
+         "brute force",
+         "greedy",
+         "divide and conquer"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "node",
+        "b": "a basic unit in a data structure that holds data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pointer",
+        "b": "a variable that stores the memory address of another value",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "graph",
+        "b": "a data structure of nodes connected by edges",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "traversal",
+        "b": "visiting every node of a data structure in order",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "divide and conquer",
+        "b": "solving a big problem by splitting it into smaller ones",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dynamic programming",
+        "b": "solving problems by storing results of smaller subproblems",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "greedy algorithm",
+        "b": "choosing the best option at each step without looking ahead",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "worst case",
+        "b": "the situation in which an algorithm takes the longest time",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 = If + hiện tại đơn, will + V (có thể xảy ra); loại 2 = If + quá khứ đơn, would + V (không có thật/khó xảy ra).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the list is sorted, binary search ___ much faster.",
+        "ans": [
+         2
+        ],
+        "tip": "If + hiện tại đơn, will + V.",
+        "why": "Khả năng có thật → loại 1: **will be**.",
+        "opts": [
+         "would be",
+         "was",
+         "will be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I had more memory, I ___ a hash table.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ đơn, would + V.",
+        "why": "Giả định không có thật → loại 2: **would use**.",
+        "opts": [
+         "will use",
+         "used",
+         "would use"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the stack ___ empty, the program will show an error.",
+        "ans": [
+         1
+        ],
+        "tip": "Mệnh đề if không dùng will.",
+        "why": "Loại 1: mệnh đề if dùng hiện tại đơn → **is**.",
+        "opts": [
+         "will be",
+         "is",
+         "would be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we used a better algorithm, the program ___ faster.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'used' (quá khứ) → loại 2: **would run**.",
+        "opts": [
+         "would run",
+         "will run",
+         "ran"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What ___ you do if the recursion never stopped?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'stopped' (quá khứ) là dấu hiệu loại 2 → **would**.",
+        "opts": [
+         "would",
+         "will",
+         "did"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Unless we add a base case, the function ___ forever.",
+        "ans": [
+         2
+        ],
+        "tip": "unless = if not.",
+        "why": "Loại 1 với unless: **will run**.",
+        "opts": [
+         "would run",
+         "ran",
+         "will run"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ trong câu điều kiện loại 1 hoặc loại 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the array ___ (be) sorted, we will use binary search.",
+        "ans": [
+         [
+          "is"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1, chủ ngữ số ít: **is**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (have) a faster computer, I would test larger inputs.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "If + quá khứ đơn.",
+        "why": "Loại 2 → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The program will crash if the input ___ (be) negative.",
+        "ans": [
+         [
+          "is"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **is**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If she ___ (know) dynamic programming, she would solve it quickly.",
+        "ans": [
+         [
+          "knew"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2 → **knew**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (not / sort) the data, searching will take longer.",
+        "ans": [
+         [
+          "do not sort",
+          "don't sort"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1 phủ định, số nhiều: **do not sort**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing the right algorithm",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A programmer has a list of one million names and must find a particular one. If she uses linear search, the program will check names one by one. In the worst case, it will look at all one million names. If the list is sorted, binary search will be much faster, because each step halves the number of names left. Only about twenty steps would be needed.\n\nThe choice of data structure matters too. If she stores the names in a hash table, a lookup will take almost constant time, but sorting the names will be harder. If she used a linked list, inserting names would be easy, but searching would be slow, because each node must be visited in turn.\n\nProgrammers describe this using Big O notation and time complexity. If an algorithm is O(n²), doubling the input will make it four times slower. Therefore, if the data is large, a better algorithm will matter more than a faster computer.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In linear search, the program checks names one by one.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tìm tuần tự kiểm tra từng tên một."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Binary search halves the number of names left at each step.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mỗi bước tìm kiếm nhị phân chia đôi số tên còn lại."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Linear search is always faster than binary search.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: với danh sách đã sắp xếp, tìm kiếm nhị phân **nhanh hơn nhiều**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A hash table makes sorting names easier.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: với bảng băm, việc sắp xếp tên sẽ **khó hơn**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "About how many steps would binary search need?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khoảng hai mươi bước.",
+        "opts": [
+         "One million",
+         "About twenty",
+         "About two thousand"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is easy with a linked list?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: chèn thêm tên rất dễ, còn tìm kiếm thì chậm.",
+        "opts": [
+         "Searching",
+         "Inserting names",
+         "Sorting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If an algorithm is O(n²), what happens when the input doubles?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhân đôi đầu vào làm thuật toán chậm gấp bốn.",
+        "opts": [
+         "It becomes four times slower",
+         "It becomes twice as fast",
+         "Nothing changes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will matter more than a faster computer for large data?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: thuật toán tốt hơn quan trọng hơn máy nhanh hơn.",
+        "opts": [
+         "A bigger monitor",
+         "A longer variable name",
+         "A better algorithm"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cybersecurity, Cloud & AI",
+   "name_vi": "An ninh mạng, điện toán đám mây & AI",
+   "icon": "🔐",
+   "hue": 100,
+   "words": [
+    {
+     "en": "cybersecurity",
+     "vi": "an ninh mạng"
+    },
+    {
+     "en": "vulnerability",
+     "vi": "lỗ hổng bảo mật"
+    },
+    {
+     "en": "exploit",
+     "vi": "khai thác lỗ hổng"
+    },
+    {
+     "en": "malware",
+     "vi": "phần mềm độc hại"
+    },
+    {
+     "en": "ransomware",
+     "vi": "mã độc tống tiền"
+    },
+    {
+     "en": "virus",
+     "vi": "virus máy tính"
+    },
+    {
+     "en": "phishing",
+     "vi": "lừa đảo giả mạo"
+    },
+    {
+     "en": "firewall",
+     "vi": "tường lửa"
+    },
+    {
+     "en": "encryption",
+     "vi": "mã hóa"
+    },
+    {
+     "en": "password manager",
+     "vi": "trình quản lý mật khẩu"
+    },
+    {
+     "en": "two-factor authentication",
+     "vi": "xác thực hai yếu tố"
+    },
+    {
+     "en": "penetration testing",
+     "vi": "kiểm thử xâm nhập"
+    },
+    {
+     "en": "data breach",
+     "vi": "vụ rò rỉ dữ liệu"
+    },
+    {
+     "en": "patch",
+     "vi": "bản vá lỗi"
+    },
+    {
+     "en": "zero-day",
+     "vi": "lỗ hổng chưa có bản vá (zero-day)"
+    },
+    {
+     "en": "cloud computing",
+     "vi": "điện toán đám mây"
+    },
+    {
+     "en": "IaaS",
+     "vi": "hạ tầng như một dịch vụ"
+    },
+    {
+     "en": "PaaS",
+     "vi": "nền tảng như một dịch vụ"
+    },
+    {
+     "en": "SaaS",
+     "vi": "phần mềm như một dịch vụ"
+    },
+    {
+     "en": "container",
+     "vi": "container đóng gói ứng dụng"
+    },
+    {
+     "en": "microservice",
+     "vi": "vi dịch vụ"
+    },
+    {
+     "en": "scalability",
+     "vi": "khả năng mở rộng"
+    },
+    {
+     "en": "DevOps",
+     "vi": "văn hóa/quy trình DevOps"
+    },
+    {
+     "en": "artificial intelligence (AI)",
+     "vi": "trí tuệ nhân tạo"
+    },
+    {
+     "en": "machine learning",
+     "vi": "học máy"
+    },
+    {
+     "en": "neural network",
+     "vi": "mạng nơ-ron"
+    },
+    {
+     "en": "training data",
+     "vi": "dữ liệu huấn luyện"
+    },
+    {
+     "en": "model",
+     "vi": "mô hình AI"
+    },
+    {
+     "en": "algorithmic bias",
+     "vi": "thiên kiến thuật toán"
+    },
+    {
+     "en": "generative AI",
+     "vi": "AI tạo sinh"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a weakness in software that attackers can use.",
+        "ans": [
+         2
+        ],
+        "tip": "vulnerable = dễ bị tổn thương.",
+        "why": "**vulnerability** = lỗ hổng bảo mật.",
+        "opts": [
+         "patch",
+         "firewall",
+         "vulnerability"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Developers released a ___ to fix the security hole.",
+        "ans": [
+         1
+        ],
+        "tip": "patch = miếng vá.",
+        "why": "**patch** = bản vá lỗi.",
+        "opts": [
+         "virus",
+         "patch",
+         "container"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ locks a victim's files and demands money to unlock them.",
+        "ans": [
+         0
+        ],
+        "tip": "ransom = tiền chuộc.",
+        "why": "**Ransomware** = mã độc tống tiền.",
+        "opts": [
+         "Ransomware",
+         "Phishing",
+         "Penetration testing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Hackers stole millions of customers' records in a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "breach = chỗ vỡ, sự xâm phạm.",
+        "why": "**data breach** = vụ rò rỉ dữ liệu.",
+        "opts": [
+         "data breach",
+         "zero-day",
+         "microservice"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Experts are hired to attack a system legally to find weaknesses. This is ___.",
+        "ans": [
+         2
+        ],
+        "tip": "penetrate = xâm nhập.",
+        "why": "**penetration testing** = kiểm thử xâm nhập.",
+        "opts": [
+         "algorithmic bias",
+         "SaaS",
+         "penetration testing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Gmail is an example of ___, software used over the internet.",
+        "ans": [
+         1
+        ],
+        "tip": "Software as a Service.",
+        "why": "**SaaS** = phần mềm như một dịch vụ.",
+        "opts": [
+         "IaaS",
+         "SaaS",
+         "PaaS"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ packages an application with everything it needs to run anywhere.",
+        "ans": [
+         1
+        ],
+        "tip": "container = thùng chứa.",
+        "why": "**container** = đóng gói ứng dụng cùng môi trường chạy.",
+        "opts": [
+         "model",
+         "container",
+         "exploit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When training data is unfair, the model may show ___.",
+        "ans": [
+         0
+        ],
+        "tip": "bias = thiên vị.",
+        "why": "**algorithmic bias** = thiên kiến thuật toán.",
+        "opts": [
+         "algorithmic bias",
+         "scalability",
+         "encryption"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "exploit",
+        "b": "a method or code that takes advantage of a vulnerability",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "firewall",
+        "b": "a system that filters network traffic to block threats",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "two-factor authentication",
+        "b": "login security that requires two different proofs of identity",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "zero-day",
+        "b": "a flaw that attackers use before the developer knows about it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "scalability",
+        "b": "the ability of a system to handle growing demand",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "DevOps",
+        "b": "practices that join software development and IT operations",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "machine learning",
+        "b": "a method in which computers learn patterns from data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "generative AI",
+        "b": "AI that creates new text, images or code",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: mốc thời gian đã kết thúc (in March, ago, last...) → quá khứ đơn; so far / since / ever / already → hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company ___ a data breach in March.",
+        "ans": [
+         2
+        ],
+        "tip": "in March = mốc quá khứ xác định.",
+        "why": "'in March' → **quá khứ đơn**: suffered.",
+        "opts": [
+         "has suffered",
+         "suffers",
+         "suffered"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Hackers ___ thousands of accounts so far this year.",
+        "ans": [
+         2
+        ],
+        "tip": "so far → have/has + V3.",
+        "why": "'so far this year' → **hiện tại hoàn thành**: have compromised.",
+        "opts": [
+         "compromised",
+         "compromise",
+         "have compromised"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ the security patch two days ago.",
+        "ans": [
+         1
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'two days ago' → quá khứ đơn: **installed**.",
+        "opts": [
+         "have installed",
+         "installed",
+         "install"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ in cybersecurity since 2018.",
+        "ans": [
+         0
+        ],
+        "tip": "since + mốc thời gian → hiện tại hoàn thành.",
+        "why": "'since 2018' → **has worked** (vẫn đang làm).",
+        "opts": [
+         "has worked",
+         "worked",
+         "works"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ you ever used a password manager?",
+        "ans": [
+         0
+        ],
+        "tip": "ever → Have you ever + V3?",
+        "why": "Kinh nghiệm đến hiện tại → **Have you ever used...?**",
+        "opts": [
+         "Have",
+         "Did",
+         "Do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The team ___ the application to the cloud last year.",
+        "ans": [
+         2
+        ],
+        "tip": "last year → quá khứ đơn.",
+        "why": "'last year' → quá khứ đơn: **moved**.",
+        "opts": [
+         "has moved",
+         "moves",
+         "moved"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở quá khứ đơn hoặc hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The attacker ___ (exploit) a zero-day vulnerability last week.",
+        "ans": [
+         [
+          "exploited"
+         ]
+        ],
+        "tip": "last week → quá khứ đơn.",
+        "why": "Mốc quá khứ xác định → **exploited**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (not / find) the cause of the bug yet.",
+        "ans": [
+         [
+          "have not found",
+          "haven't found"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **have not found**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The engineers ___ (train) the model last month.",
+        "ans": [
+         [
+          "trained"
+         ]
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' → **trained**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Cloud costs ___ (rise) twice this year.",
+        "ans": [
+         [
+          "have risen"
+         ]
+        ],
+        "tip": "rise → rose → risen.",
+        "why": "'this year' (chưa kết thúc) → hiện tại hoàn thành: **have risen**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The security team ___ (already / fix) the vulnerability.",
+        "ans": [
+         [
+          "has already fixed",
+          "'s already fixed"
+         ]
+        ],
+        "tip": "",
+        "why": "'already' → **has already fixed**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From a data breach to a safer system",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Last year, an online store suffered a serious data breach. Attackers used a phishing email to steal an employee's password, and then they exploited a vulnerability in an old server. They stole customer records and demanded money in a ransomware attack.\n\nThe company responded quickly. It installed security patches, introduced two-factor authentication and hired experts for penetration testing. It has also moved its application to the cloud, using containers and microservices, so that the system can scale when demand grows. The team has adopted DevOps, which means that updates are released more often and security tests run automatically.\n\nRecently the company has started to use machine learning to detect unusual logins. Engineers have trained a model on past attack data, but they have also checked it for algorithmic bias. So far, the system has blocked hundreds of suspicious attempts, and no new breach has occurred.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Attackers used a phishing email to steal a password.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: kẻ tấn công dùng email lừa đảo để đánh cắp mật khẩu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The company ignored the breach.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: công ty **phản ứng nhanh chóng** với nhiều biện pháp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The company has moved its application to the cloud.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ứng dụng đã được chuyển lên đám mây."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A new breach has occurred since then.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: **không có** vụ rò rỉ mới nào xảy ra."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the attackers exploit?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: họ khai thác lỗ hổng trên một máy chủ cũ.",
+        "opts": [
+         "A new container",
+         "A vulnerability in an old server",
+         "A password manager"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the company introduce?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: công ty đưa vào xác thực hai yếu tố.",
+        "opts": [
+         "Ransomware",
+         "Two-factor authentication",
+         "A zero-day"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does DevOps mean for the team?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cập nhật phát hành thường xuyên hơn và các bài kiểm thử bảo mật chạy tự động.",
+        "opts": [
+         "Updates are released more often and tests run automatically",
+         "Updates are released once a year",
+         "Security tests are removed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What has the machine learning system done so far?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hệ thống đã chặn hàng trăm lần đăng nhập đáng ngờ.",
+        "opts": [
+         "Created a new breach",
+         "Deleted the training data",
+         "Blocked hundreds of suspicious attempts"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "press",
+   "nhấn"
+  ],
+  [
+   "brain",
+   "bộ não"
+  ],
+  [
+   "frequently",
+   "thường xuyên"
+  ],
+  [
+   "parallel",
+   "song song"
+  ],
+  [
+   "instruction",
+   "lệnh, chỉ thị"
+  ],
+  [
+   "spinning",
+   "đang quay"
+  ],
+  [
+   "temporary",
+   "tạm thời"
+  ],
+  [
+   "permanent",
+   "vĩnh viễn"
+  ],
+  [
+   "component",
+   "linh kiện"
+  ],
+  [
+   "execute",
+   "thực thi"
+  ],
+  [
+   "load",
+   "nạp"
+  ],
+  [
+   "check",
+   "kiểm tra"
+  ],
+  [
+   "printer",
+   "máy in"
+  ],
+  [
+   "request",
+   "yêu cầu"
+  ],
+  [
+   "beginner",
+   "người mới học"
+  ],
+  [
+   "ready-made",
+   "có sẵn"
+  ],
+  [
+   "complex",
+   "phức tạp"
+  ],
+  [
+   "strict",
+   "nghiêm ngặt"
+  ],
+  [
+   "widely",
+   "rộng rãi"
+  ],
+  [
+   "website",
+   "trang web"
+  ],
+  [
+   "habit",
+   "thói quen"
+  ],
+  [
+   "matter",
+   "quan trọng"
+  ],
+  [
+   "tool",
+   "công cụ"
+  ],
+  [
+   "immediately",
+   "ngay lập tức"
+  ],
+  [
+   "mobile app",
+   "ứng dụng di động"
+  ],
+  [
+   "data analysis",
+   "phân tích dữ liệu"
+  ],
+  [
+   "professional",
+   "chuyên nghiệp"
+  ],
+  [
+   "safe",
+   "an toàn"
+  ],
+  [
+   "organise",
+   "tổ chức, sắp xếp"
+  ],
+  [
+   "identify",
+   "định danh"
+  ],
+  [
+   "stock",
+   "hàng tồn kho"
+  ],
+  [
+   "reduce",
+   "giảm"
+  ],
+  [
+   "half-finished",
+   "dở dang"
+  ],
+  [
+   "guarantee",
+   "đảm bảo"
+  ],
+  [
+   "property",
+   "thuộc tính"
+  ],
+  [
+   "pattern",
+   "mẫu hình"
+  ],
+  [
+   "behaviour",
+   "hành vi"
+  ],
+  [
+   "technique",
+   "kỹ thuật"
+  ],
+  [
+   "step",
+   "bước"
+  ],
+  [
+   "place an order",
+   "đặt hàng"
+  ],
+  [
+   "analyse",
+   "phân tích"
+  ],
+  [
+   "administrator",
+   "quản trị viên"
+  ],
+  [
+   "product owner",
+   "chủ sản phẩm"
+  ],
+  [
+   "task",
+   "nhiệm vụ"
+  ],
+  [
+   "block",
+   "cản trở"
+  ],
+  [
+   "enough",
+   "đủ"
+  ],
+  [
+   "automatically",
+   "tự động"
+  ],
+  [
+   "fail",
+   "thất bại"
+  ],
+  [
+   "feature",
+   "tính năng"
+  ],
+  [
+   "colleague",
+   "đồng nghiệp"
+  ],
+  [
+   "join",
+   "tham gia"
+  ],
+  [
+   "complete",
+   "hoàn thành"
+  ],
+  [
+   "explain",
+   "giải thích"
+  ],
+  [
+   "at least",
+   "ít nhất"
+  ],
+  [
+   "leave",
+   "nghỉ phép"
+  ],
+  [
+   "reviewer",
+   "người rà soát"
+  ],
+  [
+   "particular",
+   "cụ thể, nhất định"
+  ],
+  [
+   "one by one",
+   "từng cái một"
+  ],
+  [
+   "halve",
+   "chia đôi"
+  ],
+  [
+   "constant",
+   "không đổi"
+  ],
+  [
+   "lookup",
+   "tra cứu"
+  ],
+  [
+   "insert",
+   "chèn"
+  ],
+  [
+   "in turn",
+   "lần lượt"
+  ],
+  [
+   "input",
+   "đầu vào"
+  ],
+  [
+   "double",
+   "nhân đôi"
+  ],
+  [
+   "choice",
+   "lựa chọn"
+  ],
+  [
+   "describe",
+   "mô tả"
+  ],
+  [
+   "slow",
+   "chậm"
+  ],
+  [
+   "visit",
+   "ghé qua, duyệt qua"
+  ],
+  [
+   "lookup table",
+   "bảng tra cứu"
+  ],
+  [
+   "attacker",
+   "kẻ tấn công"
+  ],
+  [
+   "steal",
+   "đánh cắp"
+  ],
+  [
+   "respond",
+   "phản ứng"
+  ],
+  [
+   "adopt",
+   "áp dụng"
+  ],
+  [
+   "unusual",
+   "bất thường"
+  ],
+  [
+   "detect",
+   "phát hiện"
+  ],
+  [
+   "login",
+   "đăng nhập"
+  ],
+  [
+   "recently",
+   "gần đây"
+  ],
+  [
+   "past",
+   "trong quá khứ"
+  ],
+  [
+   "attempt",
+   "lần thử"
+  ],
+  [
+   "demand",
+   "nhu cầu"
+  ],
+  [
+   "occur",
+   "xảy ra"
+  ],
+  [
+   "serious",
+   "nghiêm trọng"
+  ],
+  [
+   "scale",
+   "mở rộng quy mô"
+  ]
+ ]
+}

@@ -1,0 +1,4296 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "civil-engineering",
+  "name": "Civil Engineering",
+  "name_vi": "Kỹ thuật Xây dựng",
+  "icon": "🏗️",
+  "hue": 50,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành xây dựng: nền tảng ngành & công trình, vật liệu xây dựng, kỹ thuật kết cấu, địa kỹ thuật & nền móng, quản lý & lập kế hoạch thi công, an toàn công trường & quy định."
+ },
+ "units": [
+  {
+   "name": "Civil Engineering Basics",
+   "name_vi": "Kỹ thuật xây dựng cơ bản",
+   "icon": "🏗️",
+   "hue": 50,
+   "words": [
+    {
+     "en": "civil engineering",
+     "vi": "kỹ thuật xây dựng (dân dụng)"
+    },
+    {
+     "en": "civil engineer",
+     "vi": "kỹ sư xây dựng"
+    },
+    {
+     "en": "structure",
+     "vi": "kết cấu, công trình"
+    },
+    {
+     "en": "infrastructure",
+     "vi": "hạ tầng"
+    },
+    {
+     "en": "bridge",
+     "vi": "cầu"
+    },
+    {
+     "en": "road",
+     "vi": "đường"
+    },
+    {
+     "en": "tunnel",
+     "vi": "hầm, đường hầm"
+    },
+    {
+     "en": "dam",
+     "vi": "đập"
+    },
+    {
+     "en": "highway",
+     "vi": "đường cao tốc, đường trục chính"
+    },
+    {
+     "en": "railway",
+     "vi": "đường sắt"
+    },
+    {
+     "en": "pipeline",
+     "vi": "đường ống"
+    },
+    {
+     "en": "drainage",
+     "vi": "hệ thống thoát nước"
+    },
+    {
+     "en": "water supply",
+     "vi": "cấp nước"
+    },
+    {
+     "en": "sewage",
+     "vi": "nước thải"
+    },
+    {
+     "en": "site",
+     "vi": "công trường"
+    },
+    {
+     "en": "contractor",
+     "vi": "nhà thầu"
+    },
+    {
+     "en": "client",
+     "vi": "chủ đầu tư, khách hàng"
+    },
+    {
+     "en": "consultant",
+     "vi": "tư vấn"
+    },
+    {
+     "en": "architect",
+     "vi": "kiến trúc sư"
+    },
+    {
+     "en": "surveyor",
+     "vi": "kỹ sư trắc địa"
+    },
+    {
+     "en": "blueprint",
+     "vi": "bản vẽ thiết kế"
+    },
+    {
+     "en": "drawing",
+     "vi": "bản vẽ"
+    },
+    {
+     "en": "specification",
+     "vi": "thông số kỹ thuật, yêu cầu kỹ thuật"
+    },
+    {
+     "en": "design",
+     "vi": "thiết kế"
+    },
+    {
+     "en": "construction",
+     "vi": "xây dựng, thi công"
+    },
+    {
+     "en": "project",
+     "vi": "dự án"
+    },
+    {
+     "en": "equipment",
+     "vi": "thiết bị, máy móc"
+    },
+    {
+     "en": "excavator",
+     "vi": "máy xúc"
+    },
+    {
+     "en": "crane",
+     "vi": "cần cẩu"
+    },
+    {
+     "en": "bulldozer",
+     "vi": "máy ủi"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ pays for the project and decides what should be built.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**client** = chủ đầu tư/khách hàng, người trả tiền và đưa ra yêu cầu.",
+        "opts": [
+         "client",
+         "excavator",
+         "drainage"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the company that does the actual building work.",
+        "ans": [
+         1
+        ],
+        "tip": "contract = hợp đồng → bên nhận làm theo hợp đồng.",
+        "why": "**contractor** = nhà thầu, đơn vị thực hiện thi công.",
+        "opts": [
+         "blueprint",
+         "contractor",
+         "pipeline"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ measures the land and marks the exact position of a new building.",
+        "ans": [
+         2
+        ],
+        "tip": "survey = khảo sát, đo đạc.",
+        "why": "**surveyor** = kỹ sư trắc địa, đo đạc và định vị công trình.",
+        "opts": [
+         "crane",
+         "specification",
+         "surveyor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The workers followed the ___ carefully.",
+        "ans": [
+         2
+        ],
+        "tip": "blue + print = bản in xanh (bản vẽ kỹ thuật).",
+        "why": "**blueprint** = bản vẽ thiết kế mà công nhân phải làm theo.",
+        "opts": [
+         "drainage",
+         "highway",
+         "blueprint"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ holds back water to make a reservoir and can produce electricity.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**dam** = đập, chặn nước tạo hồ chứa và phát điện.",
+        "opts": [
+         "dam",
+         "tunnel",
+         "railway"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Heavy objects were lifted onto the roof by a tower ___.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**crane** = cần cẩu, nâng vật nặng lên cao.",
+        "opts": [
+         "sewage",
+         "crane",
+         "drainage"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is digging a deep hole on the site.",
+        "ans": [
+         0
+        ],
+        "tip": "excavate = đào.",
+        "why": "**excavator** = máy xúc, đào đất.",
+        "opts": [
+         "excavator",
+         "tunnel",
+         "infrastructure"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Roads, bridges, water systems and power networks are all part of a country's ___.",
+        "ans": [
+         1
+        ],
+        "tip": "infra = bên dưới + structure.",
+        "why": "**infrastructure** = hạ tầng, nền tảng của xã hội và kinh tế.",
+        "opts": [
+         "specification",
+         "infrastructure",
+         "consultant"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pipeline",
+        "b": "a long pipe used to carry water, oil or gas",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sewage",
+        "b": "waste water and waste matter from homes and factories",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "specification",
+        "b": "a detailed description of the materials and standards required for a project",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "architect",
+        "b": "a person who designs buildings and prepares their plans",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "consultant",
+        "b": "an expert who gives professional advice to a project team",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bulldozer",
+        "b": "a powerful vehicle with a wide blade for pushing soil and rubble",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tunnel",
+        "b": "an underground passage built through a hill or under a river",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "highway",
+        "b": "a major road designed for fast traffic over long distances",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật khoa học dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A civil engineer usually ___ the design before construction starts.",
+        "ans": [
+         2
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' = thói quen → **hiện tại đơn**; chủ ngữ số ít: checks.",
+        "opts": [
+         "is checking",
+         "check",
+         "checks"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Listen! The excavator ___ a lot of noise on the site.",
+        "ans": [
+         2
+        ],
+        "tip": "Listen! → đang diễn ra.",
+        "why": "'Listen!' báo hiệu việc đang xảy ra → **is making**.",
+        "opts": [
+         "makes",
+         "make",
+         "is making"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Concrete ___ slowly when the temperature is low.",
+        "ans": [
+         1
+        ],
+        "tip": "Sự thật kỹ thuật → hiện tại đơn.",
+        "why": "Hiện tượng chung → **hiện tại đơn**; chủ ngữ số ít: hardens.",
+        "opts": [
+         "is hardening",
+         "hardens",
+         "harden"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the moment, workers ___ the foundations for the new bridge.",
+        "ans": [
+         0
+        ],
+        "tip": "at the moment → be + V-ing.",
+        "why": "'At the moment' → **are digging**.",
+        "opts": [
+         "are digging",
+         "dig",
+         "digs"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This year, our company ___ a new metro line in the city.",
+        "ans": [
+         2
+        ],
+        "tip": "this year = dự án đang tiến hành.",
+        "why": "'This year' + dự án đang thực hiện → **is constructing**.",
+        "opts": [
+         "constructs",
+         "construct",
+         "is constructing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Bridges usually ___ heavy traffic loads.",
+        "ans": [
+         1
+        ],
+        "tip": "Chủ ngữ số nhiều → V nguyên mẫu.",
+        "why": "Sự thật chung, chủ ngữ số nhiều → **carry**.",
+        "opts": [
+         "carries",
+         "carry",
+         "are carrying"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The surveyor ___ (measure) the site every morning.",
+        "ans": [
+         [
+          "measures"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every morning' → hiện tại đơn, số ít: **measures**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the crane ___ (lift) a steel beam.",
+        "ans": [
+         [
+          "is lifting",
+          "'s lifting"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **is lifting**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our team ___ (not / work) on Sundays.",
+        "ans": [
+         [
+          "does not work",
+          "doesn't work"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số ít: **does not work**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Water ___ (flow) downhill because of gravity.",
+        "ans": [
+         [
+          "flows"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật khoa học → hiện tại đơn: **flows**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Look! The workers ___ (pour) concrete into the formwork.",
+        "ans": [
+         [
+          "are pouring",
+          "'re pouring"
+         ]
+        ],
+        "tip": "",
+        "why": "'Look!' → đang xảy ra: **are pouring**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What do civil engineers do?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Civil engineers design, build and maintain the structures that we use every day: roads, bridges, tunnels, dams, airports, water supply systems and drainage networks. These structures are called infrastructure, and they are essential for a modern city.\n\nA typical project has several stages. First, the client explains what is needed, and a consultant studies the idea. Surveyors measure the site, and engineers prepare drawings and specifications. After that, a contractor builds the project on site, using equipment such as excavators, cranes and bulldozers. The engineer visits the site regularly to check that the work follows the design.\n\nCivil engineers also work in different branches. Some specialise in structures, others in transport, water or the environment. Today, many engineers are using computer models to test their designs before construction starts. This makes projects safer, cheaper and faster.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Roads, tunnels and dams are examples of infrastructure.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: các công trình này được gọi là hạ tầng (infrastructure)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The contractor explains what the project needs.",
+        "ans": [
+         1
+        ],
+        "tip": "client ≠ contractor.",
+        "why": "Đoạn 2: **client** nêu nhu cầu; contractor là bên thi công."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Engineers visit the site to check that the work follows the design.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kỹ sư đến công trường định kỳ để kiểm tra việc thi công đúng thiết kế."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "All civil engineers work only on buildings.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: có kỹ sư chuyên về kết cấu, giao thông, nước hoặc môi trường."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a consultant do at the beginning of a project?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: client nêu nhu cầu, rồi consultant nghiên cứu ý tưởng.",
+        "opts": [
+         "Studies the client's idea",
+         "Builds the project on site",
+         "Operates the crane"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which machines are mentioned as construction equipment?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: máy xúc, cần cẩu và máy ủi.",
+        "opts": [
+         "Excavators, cranes and bulldozers",
+         "Computers, printers and cameras",
+         "Pipelines, dams and tunnels"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do surveyors do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: surveyor đo đạc công trường.",
+        "opts": [
+         "Pay for the project",
+         "Pour the concrete",
+         "Measure the site"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are many engineers using computer models?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: mô hình máy tính giúp thử thiết kế trước khi thi công, làm dự án an toàn, rẻ và nhanh hơn.",
+        "opts": [
+         "To replace the contractor",
+         "To test their designs before construction starts",
+         "To make the site noisier"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Construction Materials",
+   "name_vi": "Vật liệu xây dựng",
+   "icon": "🧱",
+   "hue": 200,
+   "words": [
+    {
+     "en": "concrete",
+     "vi": "bê tông"
+    },
+    {
+     "en": "reinforced concrete",
+     "vi": "bê tông cốt thép"
+    },
+    {
+     "en": "precast concrete",
+     "vi": "bê tông đúc sẵn"
+    },
+    {
+     "en": "cement",
+     "vi": "xi măng"
+    },
+    {
+     "en": "aggregate",
+     "vi": "cốt liệu (cát, sỏi, đá dăm)"
+    },
+    {
+     "en": "sand",
+     "vi": "cát"
+    },
+    {
+     "en": "gravel",
+     "vi": "sỏi"
+    },
+    {
+     "en": "steel",
+     "vi": "thép"
+    },
+    {
+     "en": "rebar",
+     "vi": "thép cốt (thép thanh)"
+    },
+    {
+     "en": "timber",
+     "vi": "gỗ xây dựng"
+    },
+    {
+     "en": "brick",
+     "vi": "gạch"
+    },
+    {
+     "en": "masonry",
+     "vi": "khối xây (gạch, đá)"
+    },
+    {
+     "en": "asphalt",
+     "vi": "nhựa đường, bê tông nhựa"
+    },
+    {
+     "en": "mortar",
+     "vi": "vữa xây"
+    },
+    {
+     "en": "formwork",
+     "vi": "ván khuôn, cốp pha"
+    },
+    {
+     "en": "admixture",
+     "vi": "phụ gia"
+    },
+    {
+     "en": "curing",
+     "vi": "bảo dưỡng (bê tông)"
+    },
+    {
+     "en": "slump test",
+     "vi": "thí nghiệm độ sụt"
+    },
+    {
+     "en": "compressive strength",
+     "vi": "cường độ chịu nén"
+    },
+    {
+     "en": "tensile strength",
+     "vi": "cường độ chịu kéo"
+    },
+    {
+     "en": "durability",
+     "vi": "độ bền lâu"
+    },
+    {
+     "en": "corrosion",
+     "vi": "sự ăn mòn"
+    },
+    {
+     "en": "density",
+     "vi": "khối lượng riêng, mật độ"
+    },
+    {
+     "en": "brittle",
+     "vi": "giòn"
+    },
+    {
+     "en": "ductile",
+     "vi": "dẻo, dễ kéo giãn"
+    },
+    {
+     "en": "elastic",
+     "vi": "đàn hồi"
+    },
+    {
+     "en": "lightweight",
+     "vi": "nhẹ"
+    },
+    {
+     "en": "waterproof",
+     "vi": "chống thấm"
+    },
+    {
+     "en": "insulation",
+     "vi": "cách nhiệt, cách âm"
+    },
+    {
+     "en": "composite",
+     "vi": "vật liệu composite"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is made by mixing cement, sand, gravel and water.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**Concrete** = bê tông, hỗn hợp xi măng, cát, sỏi và nước.",
+        "opts": [
+         "Steel",
+         "Brick",
+         "Concrete"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Steel bars called ___ are placed inside concrete to give it tensile strength.",
+        "ans": [
+         0
+        ],
+        "tip": "re-bar = reinforcing bar.",
+        "why": "**rebar** = thép cốt đặt trong bê tông để chịu kéo.",
+        "opts": [
+         "rebar",
+         "gravel",
+         "formwork"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers built the ___ and then poured wet concrete into it.",
+        "ans": [
+         1
+        ],
+        "tip": "form = tạo hình.",
+        "why": "**formwork** = ván khuôn, định hình bê tông tươi.",
+        "opts": [
+         "masonry",
+         "formwork",
+         "insulation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Concrete must be kept moist for several days. This process is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "cure = ủ, dưỡng.",
+        "why": "**curing** = bảo dưỡng bê tông để đạt cường độ.",
+        "opts": [
+         "curing",
+         "corrosion",
+         "density"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is the ability of a material to resist crushing loads.",
+        "ans": [
+         1
+        ],
+        "tip": "compress = nén.",
+        "why": "**Compressive strength** = cường độ chịu nén; tensile là chịu kéo.",
+        "opts": [
+         "Tensile strength",
+         "Compressive strength",
+         "Durability"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Steel is ___: it can stretch a lot before it breaks.",
+        "ans": [
+         2
+        ],
+        "tip": "ductile = dẻo, kéo giãn được.",
+        "why": "**ductile** = dẻo, biến dạng nhiều trước khi đứt.",
+        "opts": [
+         "brittle",
+         "waterproof",
+         "ductile"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Glass and cast iron are ___: they break suddenly without bending first.",
+        "ans": [
+         0
+        ],
+        "tip": "brittle = giòn.",
+        "why": "**brittle** = giòn, vỡ đột ngột mà không báo trước.",
+        "opts": [
+         "brittle",
+         "ductile",
+         "elastic"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ membrane on the roof stops rain from entering the building.",
+        "ans": [
+         1
+        ],
+        "tip": "water + proof = chống nước.",
+        "why": "**waterproof** = chống thấm.",
+        "opts": [
+         "brittle",
+         "waterproof",
+         "precast"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "aggregate",
+        "b": "sand, gravel or crushed stone mixed into concrete",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mortar",
+        "b": "a mixture of cement, sand and water used to join bricks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "timber",
+        "b": "wood prepared for use in construction",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "asphalt",
+        "b": "a black material made from bitumen and stones, used to surface roads",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "corrosion",
+        "b": "the gradual destruction of metal by chemical reaction, such as rusting",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "admixture",
+        "b": "a chemical added to concrete to change its properties",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "durability",
+        "b": "the ability of a material to last a long time without damage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tensile strength",
+        "b": "the ability of a material to resist being pulled apart",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: -er/more … than, the -est/the most …, as … as, the + so sánh hơn … the + so sánh hơn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Steel is ___ than concrete in tension.",
+        "ans": [
+         2
+        ],
+        "tip": "than → so sánh hơn.",
+        "why": "Có 'than' → **so sánh hơn**: stronger.",
+        "opts": [
+         "strong",
+         "strongest",
+         "stronger"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Timber is ___ than steel, so it is easier to lift.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Có 'than' → **lighter**.",
+        "opts": [
+         "lighter",
+         "light",
+         "lightest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Reinforced concrete is one of the ___ materials in the world.",
+        "ans": [
+         1
+        ],
+        "tip": "one of the + so sánh nhất.",
+        "why": "'one of the …' → so sánh nhất: **most widely used**.",
+        "opts": [
+         "more widely used",
+         "most widely used",
+         "widest used"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Bricks are not as ___ as steel, but they are cheaper.",
+        "ans": [
+         2
+        ],
+        "tip": "as + adj + as.",
+        "why": "So sánh bằng: not as + tính từ nguyên mẫu + as → **strong**.",
+        "opts": [
+         "stronger",
+         "strongly",
+         "strong"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The more water you add to concrete, the ___ it becomes.",
+        "ans": [
+         2
+        ],
+        "tip": "The + so sánh hơn, the + so sánh hơn.",
+        "why": "Cấu trúc 'càng … càng …' → **the weaker**.",
+        "opts": [
+         "weak",
+         "weakest",
+         "weaker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which is ___, steel or timber?",
+        "ans": [
+         1
+        ],
+        "tip": "Hai đối tượng → so sánh hơn.",
+        "why": "So sánh hai vật → so sánh hơn: **heavier** (heavy → heavier).",
+        "opts": [
+         "heaviest",
+         "heavier",
+         "more heavy"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the comparative or superlative form of the adjective in brackets.",
+     "instruction_vi": "Gõ dạng so sánh hơn hoặc so sánh nhất của tính từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Concrete is ___ (heavy) than timber.",
+        "ans": [
+         [
+          "heavier"
+         ]
+        ],
+        "tip": "heavy → heavier.",
+        "why": "Có 'than' → **heavier**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Precast elements are ___ (quick) to install than cast-in-place concrete.",
+        "ans": [
+         [
+          "quicker"
+         ]
+        ],
+        "tip": "",
+        "why": "Có 'than' → **quicker**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Granite is one of ___ (hard) natural stones.",
+        "ans": [
+         [
+          "the hardest"
+         ]
+        ],
+        "tip": "one of the + so sánh nhất.",
+        "why": "'one of the …' → **the hardest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Ductile materials are ___ (safe) than brittle materials because they give a warning before failing.",
+        "ans": [
+         [
+          "safer"
+         ]
+        ],
+        "tip": "",
+        "why": "Có 'than' → **safer**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is ___ (durable) pavement material in our region.",
+        "ans": [
+         [
+          "the most durable"
+         ]
+        ],
+        "tip": "Tính từ dài → the most + adj.",
+        "why": "So sánh nhất của tính từ dài: **the most durable**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing the right material",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every structure starts with a choice of materials. The most common material is concrete, a mixture of cement, sand, gravel and water. Concrete has very high compressive strength, but its tensile strength is low. For this reason, engineers place steel rebar inside the concrete to make reinforced concrete, which is stronger and more durable than plain concrete.\n\nSteel is much stronger than concrete in tension, and it is ductile, so it bends before it breaks. However, corrosion is its biggest problem, and steel needs protection. Timber is the lightest of the three materials and has good insulation, but it can burn or rot. Bricks and mortar are used for walls, while asphalt is the best choice for most road surfaces.\n\nEngineers compare cost, strength, weight and durability before they decide. They also test samples. For example, a slump test shows whether fresh concrete is workable, and cylinders of hardened concrete are crushed to measure compressive strength.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Concrete has a high tensile strength.",
+        "ans": [
+         1
+        ],
+        "tip": "compressive ≠ tensile.",
+        "why": "Đoạn 1: bê tông chịu nén rất tốt nhưng cường độ chịu kéo **thấp**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Reinforced concrete is stronger and more durable than plain concrete.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thép cốt giúp bê tông cốt thép bền và khỏe hơn bê tông thường."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Steel is ductile, so it bends before it breaks.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thép dẻo nên uốn cong trước khi đứt."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A slump test measures the compressive strength of hardened concrete.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: slump test kiểm tra độ dẻo thi công của bê tông **tươi**; cường độ nén đo bằng cách nén mẫu hình trụ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do engineers put rebar inside concrete?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bê tông chịu kéo kém nên cần thép cốt.",
+        "opts": [
+         "To make it stronger in tension",
+         "To make it lighter",
+         "To protect it from rain"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the biggest problem of steel?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: vấn đề lớn nhất của thép là ăn mòn (corrosion).",
+        "opts": [
+         "Corrosion",
+         "It is brittle",
+         "It is the lightest material"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which material is the best choice for most road surfaces?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: asphalt là lựa chọn tốt nhất cho hầu hết mặt đường.",
+        "opts": [
+         "Timber",
+         "Asphalt",
+         "Mortar"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How is the compressive strength of hardened concrete measured?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: các mẫu hình trụ bê tông đã cứng được nén đến phá hoại để đo cường độ.",
+        "opts": [
+         "By a slump test",
+         "By adding more rebar",
+         "Cylinders of concrete are crushed"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Structural Engineering",
+   "name_vi": "Kỹ thuật kết cấu",
+   "icon": "🏛️",
+   "hue": 15,
+   "words": [
+    {
+     "en": "structural engineering",
+     "vi": "kỹ thuật kết cấu"
+    },
+    {
+     "en": "load",
+     "vi": "tải trọng"
+    },
+    {
+     "en": "dead load",
+     "vi": "tĩnh tải"
+    },
+    {
+     "en": "live load",
+     "vi": "hoạt tải"
+    },
+    {
+     "en": "wind load",
+     "vi": "tải trọng gió"
+    },
+    {
+     "en": "seismic load",
+     "vi": "tải trọng động đất"
+    },
+    {
+     "en": "force",
+     "vi": "lực"
+    },
+    {
+     "en": "stress",
+     "vi": "ứng suất"
+    },
+    {
+     "en": "strain",
+     "vi": "biến dạng tương đối"
+    },
+    {
+     "en": "tension",
+     "vi": "lực kéo"
+    },
+    {
+     "en": "compression",
+     "vi": "lực nén"
+    },
+    {
+     "en": "shear",
+     "vi": "lực cắt"
+    },
+    {
+     "en": "bending moment",
+     "vi": "mô-men uốn"
+    },
+    {
+     "en": "beam",
+     "vi": "dầm"
+    },
+    {
+     "en": "column",
+     "vi": "cột"
+    },
+    {
+     "en": "slab",
+     "vi": "sàn, tấm bản"
+    },
+    {
+     "en": "truss",
+     "vi": "giàn (kết cấu giàn)"
+    },
+    {
+     "en": "arch",
+     "vi": "vòm"
+    },
+    {
+     "en": "frame",
+     "vi": "khung"
+    },
+    {
+     "en": "load-bearing wall",
+     "vi": "tường chịu lực"
+    },
+    {
+     "en": "span",
+     "vi": "nhịp (khoảng cách giữa hai gối đỡ)"
+    },
+    {
+     "en": "deflection",
+     "vi": "độ võng"
+    },
+    {
+     "en": "stability",
+     "vi": "tính ổn định"
+    },
+    {
+     "en": "equilibrium",
+     "vi": "trạng thái cân bằng"
+    },
+    {
+     "en": "safety factor",
+     "vi": "hệ số an toàn"
+    },
+    {
+     "en": "capacity",
+     "vi": "khả năng chịu lực"
+    },
+    {
+     "en": "failure",
+     "vi": "sự phá hoại, hỏng hóc"
+    },
+    {
+     "en": "collapse",
+     "vi": "sự sụp đổ"
+    },
+    {
+     "en": "buckling",
+     "vi": "sự oằn, mất ổn định"
+    },
+    {
+     "en": "fatigue",
+     "vi": "sự mỏi (của vật liệu)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of a building is the weight of the structure itself, such as walls and floors.",
+        "ans": [
+         1
+        ],
+        "tip": "dead = tĩnh, không thay đổi.",
+        "why": "**dead load** = tĩnh tải, trọng lượng bản thân kết cấu.",
+        "opts": [
+         "live load",
+         "dead load",
+         "wind load"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "People, furniture and vehicles that move around are called the ___.",
+        "ans": [
+         2
+        ],
+        "tip": "live = thay đổi, di động.",
+        "why": "**live load** = hoạt tải, tải do người và đồ vật di chuyển.",
+        "opts": [
+         "dead load",
+         "seismic load",
+         "live load"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a horizontal member that carries loads across an opening.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**beam** = dầm, cấu kiện nằm ngang chịu tải qua nhịp.",
+        "opts": [
+         "beam",
+         "column",
+         "arch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a vertical member that carries loads down to the foundation.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**column** = cột, cấu kiện thẳng đứng truyền tải xuống móng.",
+        "opts": [
+         "slab",
+         "column",
+         "span"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is made of triangles of steel or timber and is used in roofs and bridges.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**truss** = giàn, gồm các thanh tạo thành tam giác.",
+        "opts": [
+         "slab",
+         "shear",
+         "truss"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the beam was 12 mm under the load, which is within the limit.",
+        "ans": [
+         0
+        ],
+        "tip": "deflect = lệch, võng.",
+        "why": "**deflection** = độ võng của dầm dưới tải.",
+        "opts": [
+         "deflection",
+         "fatigue",
+         "collapse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Engineers use a ___ of 1.5 so that the structure is stronger than the minimum needed.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**safety factor** = hệ số an toàn, tạo biên độ dự trữ cho kết cấu.",
+        "opts": [
+         "bending moment",
+         "wind load",
+         "safety factor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A long thin column may fail by ___ under compression.",
+        "ans": [
+         0
+        ],
+        "tip": "buckle = oằn cong.",
+        "why": "**buckling** = oằn, cột mảnh mất ổn định khi chịu nén.",
+        "opts": [
+         "buckling",
+         "tension",
+         "equilibrium"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stress",
+        "b": "the force acting on each unit of area inside a material",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "strain",
+        "b": "the amount a material deforms compared with its original size",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tension",
+        "b": "a pulling force that stretches a material",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "compression",
+        "b": "a pushing force that squeezes a material",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shear",
+        "b": "a force that makes one part of a material slide past another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "seismic load",
+        "b": "the force on a structure caused by an earthquake",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "span",
+        "b": "the distance between two supports of a bridge or beam",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fatigue",
+        "b": "damage that builds up in a material after repeated loading",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: bị động = be + V3. Hiện tại: am/is/are + V3; quá khứ: was/were + V3; tương lai: will be + V3; đang xảy ra: is/are being + V3.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The loads ___ from the slab to the beams and then to the columns.",
+        "ans": [
+         1
+        ],
+        "tip": "Loads được truyền → bị động.",
+        "why": "Tải trọng là đối tượng bị tác động, số nhiều → **are transferred**.",
+        "opts": [
+         "transfer",
+         "are transferred",
+         "are transferring"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bridge ___ in 1998 and still carries heavy traffic.",
+        "ans": [
+         2
+        ],
+        "tip": "in 1998 → quá khứ.",
+        "why": "'in 1998' → bị động quá khứ: **was built**.",
+        "opts": [
+         "built",
+         "is built",
+         "was built"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Wind loads ___ in the design of every tall building.",
+        "ans": [
+         1
+        ],
+        "tip": "Chủ ngữ số nhiều.",
+        "why": "Bị động hiện tại, chủ ngữ số nhiều: **are considered**.",
+        "opts": [
+         "consider",
+         "are considered",
+         "is considered"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The beam ___ by a crane at the moment.",
+        "ans": [
+         0
+        ],
+        "tip": "at the moment → is being + V3.",
+        "why": "Đang diễn ra + bị động → **is being lifted**.",
+        "opts": [
+         "is being lifted",
+         "is lifted",
+         "is lifting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The columns ___ with steel bars last week.",
+        "ans": [
+         0
+        ],
+        "tip": "last week → was/were + V3.",
+        "why": "'last week' + cột là đối tượng bị tác động → **were reinforced**.",
+        "opts": [
+         "were reinforced",
+         "reinforced",
+         "are reinforced"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The new stadium ___ next year.",
+        "ans": [
+         1
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be completed**.",
+        "opts": [
+         "will completed",
+         "will be completed",
+         "is completing"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Dead loads ___ (calculate) from the weight of the materials.",
+        "ans": [
+         [
+          "are calculated"
+         ]
+        ],
+        "tip": "Chủ ngữ số nhiều → are + V3.",
+        "why": "Bị động hiện tại, số nhiều: **are calculated**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The truss ___ (assemble) on the ground yesterday.",
+        "ans": [
+         [
+          "was assembled"
+         ]
+        ],
+        "tip": "yesterday → quá khứ.",
+        "why": "Bị động quá khứ, số ít: **was assembled**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The foundations ___ (inspect) before the concrete is poured.",
+        "ans": [
+         [
+          "are inspected"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy trình thông thường → bị động hiện tại, số nhiều: **are inspected**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A model of the bridge ___ (test) in a wind tunnel at the moment.",
+        "ans": [
+         [
+          "is being tested"
+         ]
+        ],
+        "tip": "at the moment → is being + V3.",
+        "why": "Đang diễn ra + bị động → **is being tested**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All the drawings ___ (approve) by the engineer last week.",
+        "ans": [
+         [
+          "were approved"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị động quá khứ, số nhiều: **were approved**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a building carries its weight",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every building must carry its own weight and the loads that act on it. The weight of the structure itself is called the dead load. The live load includes people, furniture and vehicles, and wind and seismic loads are caused by nature. All these loads are considered in the design.\n\nIn a typical building, the loads are transferred through a clear path. The floor slab is supported by beams, and the beams are supported by columns. The columns carry the loads down to the foundation, and the foundation spreads them into the ground. Inside the members, forces appear as tension, compression or shear. Concrete is strong in compression, while steel is added to resist tension.\n\nEngineers calculate stress and deflection to check the design. A safety factor is always used, because materials are not perfect and loads can be higher than expected. If a design is not checked carefully, a column may buckle and the whole structure may collapse. For this reason, structures are inspected regularly, even many years after they are built.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The dead load is the weight of people and furniture.",
+        "ans": [
+         1
+        ],
+        "tip": "dead ≠ live.",
+        "why": "Đoạn 1: **dead load** là trọng lượng bản thân kết cấu; người và đồ đạc thuộc live load."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Beams are supported by columns.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sàn tựa lên dầm, dầm tựa lên cột."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A safety factor is used because loads can be higher than expected.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: vật liệu không hoàn hảo và tải có thể lớn hơn dự kiến nên dùng hệ số an toàn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Structures are inspected only when they are first built.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: công trình được kiểm tra định kỳ, kể cả nhiều năm sau khi xây."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where do the columns carry the loads?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cột truyền tải xuống móng.",
+        "opts": [
+         "Up to the slab",
+         "Into the wind",
+         "Down to the foundation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which statement about concrete and steel is correct?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bê tông chịu nén tốt, thép được thêm vào để chịu kéo.",
+        "opts": [
+         "Steel is used to resist compression only",
+         "Concrete resists compression, and steel is added to resist tension",
+         "Concrete is added to resist tension"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may happen if a design is not checked carefully?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu không kiểm tra kỹ, cột có thể oằn và toàn bộ kết cấu có thể sụp đổ.",
+        "opts": [
+         "The safety factor will disappear",
+         "The dead load will become zero",
+         "A column may buckle and the structure may collapse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the foundation do?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: móng dàn tải trọng vào nền đất.",
+        "opts": [
+         "It spreads the loads into the ground",
+         "It measures the deflection",
+         "It creates the wind load"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Geotechnical Engineering & Foundations",
+   "name_vi": "Địa kỹ thuật & nền móng",
+   "icon": "⛰️",
+   "hue": 160,
+   "words": [
+    {
+     "en": "geotechnical engineering",
+     "vi": "kỹ thuật địa kỹ thuật"
+    },
+    {
+     "en": "soil",
+     "vi": "đất"
+    },
+    {
+     "en": "clay",
+     "vi": "đất sét"
+    },
+    {
+     "en": "silt",
+     "vi": "đất bột, bùn mịn"
+    },
+    {
+     "en": "bedrock",
+     "vi": "đá gốc"
+    },
+    {
+     "en": "groundwater",
+     "vi": "nước ngầm"
+    },
+    {
+     "en": "water table",
+     "vi": "mực nước ngầm"
+    },
+    {
+     "en": "site investigation",
+     "vi": "khảo sát hiện trường"
+    },
+    {
+     "en": "borehole",
+     "vi": "lỗ khoan khảo sát"
+    },
+    {
+     "en": "soil sample",
+     "vi": "mẫu đất"
+    },
+    {
+     "en": "bearing capacity",
+     "vi": "sức chịu tải của đất"
+    },
+    {
+     "en": "settlement",
+     "vi": "sự lún"
+    },
+    {
+     "en": "shallow foundation",
+     "vi": "móng nông"
+    },
+    {
+     "en": "deep foundation",
+     "vi": "móng sâu"
+    },
+    {
+     "en": "pile",
+     "vi": "cọc"
+    },
+    {
+     "en": "footing",
+     "vi": "móng đơn"
+    },
+    {
+     "en": "raft foundation",
+     "vi": "móng bè"
+    },
+    {
+     "en": "retaining wall",
+     "vi": "tường chắn"
+    },
+    {
+     "en": "excavation",
+     "vi": "việc đào, hố đào"
+    },
+    {
+     "en": "embankment",
+     "vi": "nền đắp, đê"
+    },
+    {
+     "en": "slope",
+     "vi": "mái dốc, độ dốc"
+    },
+    {
+     "en": "landslide",
+     "vi": "sạt lở đất"
+    },
+    {
+     "en": "erosion",
+     "vi": "sự xói mòn"
+    },
+    {
+     "en": "compaction",
+     "vi": "sự đầm nén"
+    },
+    {
+     "en": "permeability",
+     "vi": "độ thấm"
+    },
+    {
+     "en": "liquefaction",
+     "vi": "hiện tượng hóa lỏng (đất)"
+    },
+    {
+     "en": "survey",
+     "vi": "khảo sát, đo đạc"
+    },
+    {
+     "en": "benchmark",
+     "vi": "mốc cao độ chuẩn"
+    },
+    {
+     "en": "elevation",
+     "vi": "cao độ"
+    },
+    {
+     "en": "contour",
+     "vi": "đường đồng mức"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Engineers drill a ___ to collect soil samples from deep underground.",
+        "ans": [
+         0
+        ],
+        "tip": "bore = khoan.",
+        "why": "**borehole** = lỗ khoan khảo sát để lấy mẫu đất.",
+        "opts": [
+         "borehole",
+         "footing",
+         "contour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the soil is the maximum load per unit area that it can support safely.",
+        "ans": [
+         1
+        ],
+        "tip": "bear = chịu, mang.",
+        "why": "**bearing capacity** = sức chịu tải của đất.",
+        "opts": [
+         "permeability",
+         "bearing capacity",
+         "elevation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The building sank 30 mm in the first year. This ___ was larger than expected.",
+        "ans": [
+         2
+        ],
+        "tip": "settle = lún xuống.",
+        "why": "**settlement** = sự lún của công trình.",
+        "opts": [
+         "landslide",
+         "compaction",
+         "settlement"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When the soil is weak, engineers often use ___ foundations that transfer the load to strong layers far below.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**deep foundation** = móng sâu (như cọc), truyền tải xuống lớp đất tốt phía dưới.",
+        "opts": [
+         "deep",
+         "shallow",
+         "temporary"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a long column driven into the ground to support a structure.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**pile** = cọc, đóng hoặc khoan xuống đất để đỡ công trình.",
+        "opts": [
+         "slab",
+         "pile",
+         "benchmark"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Heavy rain caused a ___ and a large mass of soil slid down the hill.",
+        "ans": [
+         2
+        ],
+        "tip": "land + slide = đất trượt.",
+        "why": "**landslide** = sạt lở đất.",
+        "opts": [
+         "excavation",
+         "compaction",
+         "landslide"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ wall stops the soil behind the road from sliding.",
+        "ans": [
+         1
+        ],
+        "tip": "retain = giữ lại.",
+        "why": "**retaining wall** = tường chắn đất.",
+        "opts": [
+         "raft",
+         "retaining",
+         "contour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "During an earthquake, saturated sandy soil can lose strength and behave like a liquid. This is called ___.",
+        "ans": [
+         2
+        ],
+        "tip": "liquid → liquefy.",
+        "why": "**liquefaction** = hóa lỏng, đất cát bão hòa mất cường độ khi động đất.",
+        "opts": [
+         "erosion",
+         "compaction",
+         "liquefaction"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "clay",
+        "b": "a fine soil that is sticky when wet and hard when dry",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bedrock",
+        "b": "solid rock that lies under the soil",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "water table",
+        "b": "the upper level of underground water",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "raft foundation",
+        "b": "a thick concrete slab that spreads the load over the whole building area",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "compaction",
+        "b": "pressing soil to make it denser and stronger",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "contour",
+        "b": "a line on a map that joins points of equal height",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "benchmark",
+        "b": "a fixed point of known height used as a reference in surveying",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "permeability",
+        "b": "the ability of soil to allow water to pass through it",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (có thể xảy ra): If + hiện tại đơn, will + V. Loại 2 (không có thật/ít khả năng): If + quá khứ đơn, would + V.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the groundwater level rises, the foundation ___ more.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại đơn → will.",
+        "why": "Loại 1: If + hiện tại đơn (rises), mệnh đề chính **will + V**.",
+        "opts": [
+         "will settle",
+         "would settle",
+         "settled"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the soil ___ stronger, we would use shallow foundations.",
+        "ans": [
+         1
+        ],
+        "tip": "would ở mệnh đề chính → loại 2.",
+        "why": "Loại 2: If + quá khứ đơn; với be dùng **were** cho mọi ngôi.",
+        "opts": [
+         "is",
+         "were",
+         "will be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If it rains heavily this week, we ___ the excavation.",
+        "ans": [
+         0
+        ],
+        "tip": "Mệnh đề If ở hiện tại → loại 1.",
+        "why": "Loại 1: kết quả dùng **will + V**.",
+        "opts": [
+         "will postpone",
+         "would postpone",
+         "postponed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the site had no clay, the settlement ___ much smaller.",
+        "ans": [
+         2
+        ],
+        "tip": "had → loại 2 → would.",
+        "why": "Loại 2: If + quá khứ đơn (had), mệnh đề chính **would be**.",
+        "opts": [
+         "will be",
+         "is",
+         "would be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The slope will fail if the water pressure ___ too high.",
+        "ans": [
+         1
+        ],
+        "tip": "will → If + hiện tại đơn.",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn: **becomes**.",
+        "opts": [
+         "would become",
+         "becomes",
+         "became"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would you do if the borehole ___ bedrock at 5 m?",
+        "ans": [
+         2
+        ],
+        "tip": "would ở mệnh đề chính → quá khứ đơn.",
+        "why": "Loại 2: If + quá khứ đơn → **hit**.",
+        "opts": [
+         "hits",
+         "will hit",
+         "hit"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong câu điều kiện loại 1 và 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the soil ___ (be) too soft, we will use piles.",
+        "ans": [
+         [
+          "is"
+         ]
+        ],
+        "tip": "Loại 1.",
+        "why": "Loại 1: If + hiện tại đơn → **is**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (have) more time, we would drill more boreholes.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "Loại 2.",
+        "why": "Loại 2: If + quá khứ đơn → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The embankment ___ (collapse) if the compaction is poor.",
+        "ans": [
+         [
+          "will collapse"
+         ]
+        ],
+        "tip": "Loại 1: will + V.",
+        "why": "Mệnh đề If ở hiện tại → mệnh đề chính **will collapse**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) the designer, I would choose a raft foundation.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were …",
+        "why": "Loại 2: **were** cho mọi ngôi (was cũng được trong văn nói)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the test results ___ (show) a low bearing capacity, the engineer will change the design.",
+        "ans": [
+         [
+          "show"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: If + hiện tại đơn, chủ ngữ số nhiều → **show**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What lies beneath",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Before engineers design a foundation, they need to understand the ground. A site investigation usually starts with a survey of the area, which shows elevation and contours. Then the team drills boreholes and takes soil samples. In the laboratory, they test the samples to find the soil type, its permeability and its bearing capacity.\n\nThe results guide the choice of foundation. If the soil is strong, a shallow foundation such as a footing or a raft may be enough. If the soil is soft, engineers normally use piles that reach bedrock or another strong layer. The water table is also important: if it rises, the soil may become weaker and the building may settle.\n\nGeotechnical problems can be serious. Heavy rain can cause erosion or a landslide on a slope, so engineers build retaining walls and use compaction to make embankments stronger. In earthquake zones, loose, wet sand can suffer liquefaction. A good site investigation costs money, but it is much cheaper than repairing a damaged building.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A site investigation usually starts with a survey.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khảo sát hiện trường thường bắt đầu bằng đo đạc khu vực."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Piles are normally used when the soil is strong.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: khi đất **yếu** thường dùng cọc xuống đá gốc hoặc lớp đất tốt."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If the water table rises, the soil may become weaker.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mực nước ngầm dâng làm đất yếu đi và công trình có thể lún."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A site investigation is more expensive than repairing a damaged building.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khảo sát tốn tiền nhưng **rẻ hơn nhiều** so với sửa công trình hư hỏng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do engineers learn from laboratory tests on soil samples?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thí nghiệm cho biết loại đất, độ thấm và sức chịu tải.",
+        "opts": [
+         "Soil type, permeability and bearing capacity",
+         "Only the wind load",
+         "The price of concrete"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When may a shallow foundation be enough?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: đất tốt thì móng nông như móng đơn hay móng bè có thể đủ.",
+        "opts": [
+         "If the soil is strong",
+         "If the water table rises",
+         "If liquefaction happens"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is used to make embankments stronger?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: dùng đầm nén (compaction) để nền đắp chắc hơn.",
+        "opts": [
+         "Erosion",
+         "Compaction",
+         "Liquefaction"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can happen to loose, wet sand in earthquake zones?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cát rời và ướt có thể bị hóa lỏng khi động đất.",
+        "opts": [
+         "It becomes bedrock",
+         "It turns into a retaining wall",
+         "It can suffer liquefaction"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Construction Management & Planning",
+   "name_vi": "Quản lý & lập kế hoạch thi công",
+   "icon": "📋",
+   "hue": 280,
+   "words": [
+    {
+     "en": "project manager",
+     "vi": "quản lý dự án"
+    },
+    {
+     "en": "site manager",
+     "vi": "chỉ huy trưởng công trường"
+    },
+    {
+     "en": "foreman",
+     "vi": "đốc công"
+    },
+    {
+     "en": "tender",
+     "vi": "đấu thầu; hồ sơ dự thầu"
+    },
+    {
+     "en": "bid",
+     "vi": "giá thầu; đấu thầu"
+    },
+    {
+     "en": "contract",
+     "vi": "hợp đồng"
+    },
+    {
+     "en": "subcontractor",
+     "vi": "nhà thầu phụ"
+    },
+    {
+     "en": "budget",
+     "vi": "ngân sách"
+    },
+    {
+     "en": "cost estimate",
+     "vi": "dự toán chi phí"
+    },
+    {
+     "en": "bill of quantities (BOQ)",
+     "vi": "bảng khối lượng"
+    },
+    {
+     "en": "schedule",
+     "vi": "tiến độ, lịch trình"
+    },
+    {
+     "en": "milestone",
+     "vi": "mốc tiến độ"
+    },
+    {
+     "en": "Gantt chart",
+     "vi": "biểu đồ Gantt"
+    },
+    {
+     "en": "critical path",
+     "vi": "đường găng"
+    },
+    {
+     "en": "delay",
+     "vi": "sự chậm trễ"
+    },
+    {
+     "en": "handover",
+     "vi": "sự bàn giao"
+    },
+    {
+     "en": "progress report",
+     "vi": "báo cáo tiến độ"
+    },
+    {
+     "en": "inspection",
+     "vi": "nghiệm thu, kiểm tra"
+    },
+    {
+     "en": "quality control",
+     "vi": "kiểm soát chất lượng"
+    },
+    {
+     "en": "variation order",
+     "vi": "lệnh thay đổi, phát sinh"
+    },
+    {
+     "en": "permit",
+     "vi": "giấy phép"
+    },
+    {
+     "en": "regulation",
+     "vi": "quy định"
+    },
+    {
+     "en": "building code",
+     "vi": "tiêu chuẩn xây dựng"
+    },
+    {
+     "en": "supervision",
+     "vi": "sự giám sát"
+    },
+    {
+     "en": "payment certificate",
+     "vi": "chứng nhận thanh toán"
+    },
+    {
+     "en": "retention",
+     "vi": "tiền giữ lại bảo hành"
+    },
+    {
+     "en": "warranty",
+     "vi": "bảo hành"
+    },
+    {
+     "en": "defect",
+     "vi": "khiếm khuyết, lỗi"
+    },
+    {
+     "en": "snag list",
+     "vi": "danh sách tồn đọng cần sửa"
+    },
+    {
+     "en": "workforce",
+     "vi": "lực lượng lao động"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Several companies took part in the ___ for the new hospital.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**tender** = đấu thầu; các công ty nộp hồ sơ dự thầu.",
+        "opts": [
+         "handover",
+         "warranty",
+         "tender"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The project is on schedule: we reached the second ___ last week.",
+        "ans": [
+         1
+        ],
+        "tip": "mile + stone = cột mốc.",
+        "why": "**milestone** = mốc tiến độ quan trọng.",
+        "opts": [
+         "defect",
+         "milestone",
+         "retention"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Heavy rain caused a two-week ___ in the concrete work.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**delay** = sự chậm trễ.",
+        "opts": [
+         "delay",
+         "bid",
+         "foreman"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ took place on 5 May, when the finished building was given to the client.",
+        "ans": [
+         1
+        ],
+        "tip": "hand + over = trao lại.",
+        "why": "**handover** = bàn giao công trình cho chủ đầu tư.",
+        "opts": [
+         "tender",
+         "handover",
+         "retention"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The project is over ___: it cost 10 % more than planned.",
+        "ans": [
+         2
+        ],
+        "tip": "over budget = vượt ngân sách.",
+        "why": "**over budget** = vượt ngân sách.",
+        "opts": [
+         "milestone",
+         "warranty",
+         "budget"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a fault in the work that must be corrected, such as a crack in a wall.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**defect** = khiếm khuyết, lỗi cần sửa.",
+        "opts": [
+         "defect",
+         "permit",
+         "handover"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The engineer issued a ___ because the client wanted a larger car park.",
+        "ans": [
+         1
+        ],
+        "tip": "variation = sự thay đổi.",
+        "why": "**variation order** = lệnh thay đổi/phát sinh so với hợp đồng ban đầu.",
+        "opts": [
+         "snag list",
+         "variation order",
+         "quality control"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You need a building ___ from the local authority before you start work.",
+        "ans": [
+         2
+        ],
+        "tip": "permit = cho phép.",
+        "why": "**permit** = giấy phép xây dựng.",
+        "opts": [
+         "bid",
+         "foreman",
+         "permit"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "foreman",
+        "b": "a person who supervises a group of workers on site",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "subcontractor",
+        "b": "a company hired by the main contractor to do a part of the work",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "Gantt chart",
+        "b": "a bar chart that shows the tasks of a project over time",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "critical path",
+        "b": "the longest sequence of tasks that decides the project's finish date",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bill of quantities (BOQ)",
+        "b": "a document listing the materials and work items with their amounts",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "warranty",
+        "b": "a promise to repair defects for a fixed period after completion",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "retention",
+        "b": "money held back from the contractor until defects are corrected",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "snag list",
+        "b": "a list of small faults to be fixed before final handover",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm xác định: last month, on Monday, in 2020); hiện tại hoàn thành (since, for, so far, yet, this week; kết quả còn đến nay).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ the foundation work this week, so we can start the columns.",
+        "ans": [
+         0
+        ],
+        "tip": "this week + kết quả hiện tại.",
+        "why": "Việc đã xong, kết quả còn đến nay → **hiện tại hoàn thành**: have finished.",
+        "opts": [
+         "have finished",
+         "finish",
+         "were finishing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The crew ___ the concrete on Monday morning.",
+        "ans": [
+         2
+        ],
+        "tip": "on Monday morning = thời điểm xác định.",
+        "why": "Có mốc thời gian xác định → **quá khứ đơn**: poured.",
+        "opts": [
+         "has poured",
+         "pours",
+         "poured"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The project ___ two delays so far.",
+        "ans": [
+         0
+        ],
+        "tip": "so far → hiện tại hoàn thành.",
+        "why": "'so far' → **has had**.",
+        "opts": [
+         "has had",
+         "had",
+         "is having"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ as a site manager since 2015.",
+        "ans": [
+         1
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since 2015' (kéo dài đến nay) → **has worked**.",
+        "opts": [
+         "worked",
+         "has worked",
+         "is working"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The client ___ the contract last month.",
+        "ans": [
+         2
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' = thời điểm xác định → **signed**.",
+        "opts": [
+         "has signed",
+         "signs",
+         "signed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The subcontractor ___ the roof yet.",
+        "ans": [
+         0
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **hasn't finished** (has not + V3).",
+        "opts": [
+         "hasn't finished",
+         "hasn't finish",
+         "didn't finished"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The team ___ (complete) 60 % of the work since January.",
+        "ans": [
+         [
+          "has completed"
+         ]
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since January' → **has completed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The inspector ___ (visit) the site last Friday.",
+        "ans": [
+         [
+          "visited"
+         ]
+        ],
+        "tip": "last Friday → quá khứ đơn.",
+        "why": "'last Friday' → **visited**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (not / receive) the payment certificate yet.",
+        "ans": [
+         [
+          "have not received",
+          "haven't received"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **have not received**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The old bridge ___ (collapse) in 2010.",
+        "ans": [
+         [
+          "collapsed"
+         ]
+        ],
+        "tip": "in 2010 → quá khứ đơn.",
+        "why": "Mốc xác định 'in 2010' → **collapsed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The project ___ (be) ahead of schedule since March.",
+        "ans": [
+         [
+          "has been"
+         ]
+        ],
+        "tip": "since March → hiện tại hoàn thành.",
+        "why": "'since March' → **has been**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · The Friday progress meeting",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every Friday, the project manager holds a progress meeting on site. The site manager, the foreman and the main subcontractors attend, and the client's representative sometimes joins them. They compare the progress report with the schedule and the budget.\n\nThis week, the news is mixed. The crew has finished the foundations and has started the first-floor columns. The concrete was poured on Wednesday, and the inspector approved the work on Thursday. However, the steel delivery arrived four days late, so the project has lost some time. The critical path shows that any further delay will move the handover date. To recover time, the manager has asked the subcontractor for extra workers.\n\nThe meeting also covers quality control and variation orders. The client has requested a larger lobby, and the cost estimate has been updated. At the end of the project, a snag list is prepared, and the contractor repairs all defects before the final payment.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The progress meeting is held every Friday.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: quản lý dự án họp tiến độ mỗi thứ Sáu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The steel delivery arrived on time.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thép giao **trễ bốn ngày**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The inspector approved the concrete work on Thursday.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bê tông đổ hôm thứ Tư, thanh tra phê duyệt hôm thứ Năm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The client has requested a smaller lobby.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chủ đầu tư yêu cầu sảnh **lớn hơn**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is compared at the meeting?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: họ đối chiếu báo cáo tiến độ với tiến độ kế hoạch và ngân sách.",
+        "opts": [
+         "The foundations with the columns",
+         "The progress report with the schedule and budget",
+         "The lobby with the car park"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why has the project lost some time?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thép đến trễ bốn ngày.",
+        "opts": [
+         "The steel delivery arrived four days late",
+         "The inspector refused the work",
+         "The client reduced the budget"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the critical path show?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bất kỳ chậm trễ thêm nào cũng làm lùi ngày bàn giao.",
+        "opts": [
+         "The foundations are complete",
+         "The budget is unlimited",
+         "Any further delay will move the handover date"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens at the end of the project?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lập snag list và nhà thầu sửa mọi khiếm khuyết trước thanh toán cuối cùng.",
+        "opts": [
+         "The permit is cancelled",
+         "A snag list is prepared and defects are repaired",
+         "The budget is increased"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Site Safety & Regulations",
+   "name_vi": "An toàn công trường & quy định",
+   "icon": "🦺",
+   "hue": 330,
+   "words": [
+    {
+     "en": "health and safety",
+     "vi": "an toàn và sức khỏe nghề nghiệp"
+    },
+    {
+     "en": "hazard",
+     "vi": "mối nguy hiểm"
+    },
+    {
+     "en": "risk assessment",
+     "vi": "đánh giá rủi ro"
+    },
+    {
+     "en": "accident",
+     "vi": "tai nạn"
+    },
+    {
+     "en": "near miss",
+     "vi": "sự cố suýt xảy ra tai nạn"
+    },
+    {
+     "en": "personal protective equipment (PPE)",
+     "vi": "thiết bị bảo hộ cá nhân"
+    },
+    {
+     "en": "hard hat",
+     "vi": "mũ bảo hộ"
+    },
+    {
+     "en": "safety harness",
+     "vi": "dây đai an toàn"
+    },
+    {
+     "en": "safety boots",
+     "vi": "giày bảo hộ"
+    },
+    {
+     "en": "high-visibility vest",
+     "vi": "áo phản quang"
+    },
+    {
+     "en": "gloves",
+     "vi": "găng tay"
+    },
+    {
+     "en": "goggles",
+     "vi": "kính bảo hộ"
+    },
+    {
+     "en": "ear protection",
+     "vi": "dụng cụ bảo vệ tai"
+    },
+    {
+     "en": "scaffolding",
+     "vi": "giàn giáo"
+    },
+    {
+     "en": "guardrail",
+     "vi": "lan can bảo vệ"
+    },
+    {
+     "en": "fall protection",
+     "vi": "biện pháp chống ngã"
+    },
+    {
+     "en": "trench",
+     "vi": "rãnh đào"
+    },
+    {
+     "en": "confined space",
+     "vi": "không gian hạn chế"
+    },
+    {
+     "en": "fire extinguisher",
+     "vi": "bình chữa cháy"
+    },
+    {
+     "en": "first aid",
+     "vi": "sơ cứu"
+    },
+    {
+     "en": "emergency exit",
+     "vi": "lối thoát hiểm"
+    },
+    {
+     "en": "warning sign",
+     "vi": "biển cảnh báo"
+    },
+    {
+     "en": "toolbox talk",
+     "vi": "buổi họp an toàn ngắn đầu ca"
+    },
+    {
+     "en": "permit to work",
+     "vi": "giấy phép làm việc (cho công việc nguy hiểm)"
+    },
+    {
+     "en": "safety officer",
+     "vi": "cán bộ an toàn"
+    },
+    {
+     "en": "dust",
+     "vi": "bụi"
+    },
+    {
+     "en": "noise",
+     "vi": "tiếng ồn"
+    },
+    {
+     "en": "hazardous material",
+     "vi": "vật liệu nguy hại"
+    },
+    {
+     "en": "environmental impact",
+     "vi": "tác động môi trường"
+    },
+    {
+     "en": "sustainability",
+     "vi": "tính bền vững"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xây dựng phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers on the roof must wear a safety ___ attached to a strong anchor point.",
+        "ans": [
+         2
+        ],
+        "tip": "harness = dây đai.",
+        "why": "**safety harness** = dây đai an toàn khi làm việc trên cao.",
+        "opts": [
+         "trench",
+         "dust",
+         "harness"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a temporary structure of poles and platforms that workers stand on at height.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**scaffolding** = giàn giáo.",
+        "opts": [
+         "scaffolding",
+         "trench",
+         "toolbox talk"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before work starts, the supervisor carries out a ___ to identify hazards and decide how to control them.",
+        "ans": [
+         1
+        ],
+        "tip": "assess = đánh giá.",
+        "why": "**risk assessment** = đánh giá rủi ro trước khi làm việc.",
+        "opts": [
+         "first aid",
+         "risk assessment",
+         "near miss"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ happened yesterday: a brick fell from the scaffold, but nobody was hurt.",
+        "ans": [
+         2
+        ],
+        "tip": "near + miss = suýt trúng.",
+        "why": "**near miss** = sự cố suýt gây tai nạn nhưng không ai bị thương.",
+        "opts": [
+         "permit to work",
+         "hazard",
+         "near miss"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers must wear ___ in noisy areas to protect their hearing.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**ear protection** = dụng cụ bảo vệ tai, chống ồn.",
+        "opts": [
+         "goggles",
+         "ear protection",
+         "a hard hat"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Deep ___ can collapse, so the sides must be supported before anyone goes inside.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**trench** = rãnh đào sâu, có nguy cơ sập vách.",
+        "opts": [
+         "trenches",
+         "guardrails",
+         "gloves"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Entering a tank or a sewer is dangerous, so a ___ space needs a special permit.",
+        "ans": [
+         1
+        ],
+        "tip": "confine = giới hạn.",
+        "why": "**confined space** = không gian hạn chế (bể, cống, hầm kín).",
+        "opts": [
+         "warning",
+         "confined",
+         "hazardous"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company reduced its ___ by using recycled aggregate and cutting waste.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**environmental impact** = tác động môi trường.",
+        "opts": [
+         "environmental impact",
+         "toolbox talk",
+         "near miss"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hazard",
+        "b": "a source of possible harm or danger",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "personal protective equipment (PPE)",
+        "b": "clothing and equipment that protect a worker from injury",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "guardrail",
+        "b": "a barrier at the edge of a platform that prevents falls",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "toolbox talk",
+        "b": "a short safety meeting held before work starts",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "permit to work",
+        "b": "a formal document that allows dangerous work to start under controlled conditions",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "first aid",
+        "b": "emergency help given to an injured person before medical staff arrive",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hazardous material",
+        "b": "a substance that can harm health or the environment",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sustainability",
+        "b": "meeting present needs without damaging the environment for the future",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm, lời khuyên",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't (cấm), don't have to (không cần), should (nên).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All visitors ___ wear a hard hat on site.",
+        "ans": [
+         2
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy định an toàn bắt buộc → **must**.",
+        "opts": [
+         "mustn't",
+         "needn't",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ enter a trench until the sides are supported. It is extremely dangerous.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Bị cấm vì nguy hiểm → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ wear goggles when you are only measuring, but they are required when cutting.",
+        "ans": [
+         0
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Không bắt buộc trong trường hợp này → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ report that near miss to the safety officer.",
+        "ans": [
+         2
+        ],
+        "tip": "should + V nguyên mẫu.",
+        "why": "Lời khuyên → **should** + V (không có 'to').",
+        "opts": [
+         "should to",
+         "must to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers ___ attend the toolbox talk every morning.",
+        "ans": [
+         0
+        ],
+        "tip": "Chủ ngữ số nhiều → have to.",
+        "why": "Bắt buộc + chủ ngữ số nhiều → **have to**.",
+        "opts": [
+         "have to",
+         "has to",
+         "must to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The scaffold ___ be inspected before use. It is a legal requirement.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Yêu cầu pháp lý → **must**.",
+        "opts": [
+         "needn't",
+         "must",
+         "shouldn't"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu phù hợp với nghĩa của câu.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Everyone ___ wear PPE in the work area. It is company policy.",
+        "ans": [
+         [
+          "must",
+          "has to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **must / has to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ smoke near the fuel store. It is forbidden.",
+        "ans": [
+         [
+          "must not",
+          "mustn't",
+          "cannot",
+          "can't"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The inspection was cancelled, so we ___ prepare the report today.",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to",
+          "need not",
+          "needn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think you ___ take a first aid course.",
+        "ans": [
+         [
+          "should",
+          "ought to"
+         ]
+        ],
+        "tip": "Lời khuyên.",
+        "why": "Lời khuyên → **should** + V."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last year, all workers ___ attend a safety course after the accident.",
+        "ans": [
+         [
+          "had to"
+         ]
+        ],
+        "tip": "Quá khứ của must / have to.",
+        "why": "Bắt buộc trong quá khứ → **had to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Safety first",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Construction is one of the most dangerous industries in the world, so health and safety are a top priority. Before any job starts, the supervisor carries out a risk assessment to identify hazards, such as falls from height, falling objects, trenches that may collapse and confined spaces. Each hazard must be controlled with a clear method.\n\nEvery worker must wear PPE: a hard hat, safety boots and a high-visibility vest, and goggles, gloves or ear protection when necessary. Workers who work at height must use a safety harness, and scaffolding needs guardrails and regular inspections. Dangerous jobs, such as work in a confined space, need a permit to work. You mustn't start without one.\n\nSafety is also a team habit. Every morning, the crew has a short toolbox talk. If someone sees a near miss, they should report it immediately, so the accident does not happen next time. Good sites also protect the environment: they control dust and noise, store hazardous material safely and reduce waste, because sustainability is now part of every project.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A risk assessment is carried out before a job starts.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: trước khi bắt đầu, giám sát viên thực hiện đánh giá rủi ro."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Workers must use a safety harness when working at height.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: người làm việc trên cao phải dùng dây đai an toàn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A permit to work is needed only for easy jobs.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giấy phép làm việc dành cho công việc **nguy hiểm**, như trong không gian hạn chế."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Workers should ignore a near miss because nobody was hurt.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: gặp near miss phải báo ngay để tai nạn không xảy ra lần sau."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a toolbox talk?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: mỗi sáng đội thi công họp an toàn ngắn (toolbox talk).",
+        "opts": [
+         "A type of scaffold",
+         "A permit to work",
+         "A short safety meeting at the start of the day"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does scaffolding need?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: giàn giáo cần lan can và kiểm tra thường xuyên.",
+        "opts": [
+         "Dust and noise",
+         "Hazardous materials",
+         "Guardrails and regular inspections"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why should near misses be reported?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: báo ngay để ngăn tai nạn lần sau.",
+        "opts": [
+         "So workers can avoid PPE",
+         "So the accident does not happen next time",
+         "So the site can ignore them"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How do good sites protect the environment?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: kiểm soát bụi, tiếng ồn, cất giữ vật liệu nguy hại an toàn và giảm chất thải.",
+        "opts": [
+         "They control dust and noise and reduce waste",
+         "They stop using PPE",
+         "They remove all guardrails"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "plan",
+   "lên kế hoạch; kế hoạch"
+  ],
+  [
+   "maintain",
+   "bảo trì, duy trì"
+  ],
+  [
+   "essential",
+   "thiết yếu"
+  ],
+  [
+   "typical",
+   "điển hình"
+  ],
+  [
+   "stage",
+   "giai đoạn"
+  ],
+  [
+   "explain",
+   "giải thích"
+  ],
+  [
+   "specialise",
+   "chuyên về"
+  ],
+  [
+   "branch",
+   "nhánh, lĩnh vực"
+  ],
+  [
+   "environment",
+   "môi trường"
+  ],
+  [
+   "cheaper",
+   "rẻ hơn"
+  ],
+  [
+   "faster",
+   "nhanh hơn"
+  ],
+  [
+   "stretch",
+   "kéo giãn"
+  ],
+  [
+   "bend",
+   "uốn cong"
+  ],
+  [
+   "rust",
+   "gỉ sét"
+  ],
+  [
+   "mix",
+   "trộn"
+  ],
+  [
+   "mixture",
+   "hỗn hợp"
+  ],
+  [
+   "wet",
+   "ướt"
+  ],
+  [
+   "moist",
+   "ẩm"
+  ],
+  [
+   "sample",
+   "mẫu"
+  ],
+  [
+   "crush",
+   "nghiền, nén vỡ"
+  ],
+  [
+   "surface",
+   "bề mặt"
+  ],
+  [
+   "roof",
+   "mái nhà"
+  ],
+  [
+   "floor",
+   "sàn nhà"
+  ],
+  [
+   "weight",
+   "trọng lượng"
+  ],
+  [
+   "carry",
+   "mang, chịu (tải)"
+  ],
+  [
+   "support",
+   "đỡ, chống đỡ"
+  ],
+  [
+   "spread",
+   "dàn trải"
+  ],
+  [
+   "ground",
+   "mặt đất, nền đất"
+  ],
+  [
+   "inspect",
+   "kiểm tra"
+  ],
+  [
+   "calculate",
+   "tính toán"
+  ],
+  [
+   "expected",
+   "được dự kiến"
+  ],
+  [
+   "repair",
+   "sửa chữa"
+  ],
+  [
+   "fail",
+   "hỏng, phá hoại"
+  ],
+  [
+   "stadium",
+   "sân vận động"
+  ],
+  [
+   "model",
+   "mô hình"
+  ],
+  [
+   "assemble",
+   "lắp ráp"
+  ],
+  [
+   "drill",
+   "khoan"
+  ],
+  [
+   "layer",
+   "lớp"
+  ],
+  [
+   "reach",
+   "chạm tới, đạt tới"
+  ],
+  [
+   "slide",
+   "trượt"
+  ],
+  [
+   "area",
+   "khu vực"
+  ],
+  [
+   "recover",
+   "lấy lại, bù lại"
+  ],
+  [
+   "extra",
+   "thêm"
+  ],
+  [
+   "request",
+   "yêu cầu"
+  ],
+  [
+   "approve",
+   "phê duyệt"
+  ],
+  [
+   "delivery",
+   "việc giao hàng"
+  ],
+  [
+   "payment",
+   "thanh toán"
+  ],
+  [
+   "final",
+   "cuối cùng"
+  ],
+  [
+   "identify",
+   "xác định"
+  ],
+  [
+   "control",
+   "kiểm soát"
+  ],
+  [
+   "habit",
+   "thói quen"
+  ],
+  [
+   "immediately",
+   "ngay lập tức"
+  ],
+  [
+   "waste",
+   "chất thải"
+  ],
+  [
+   "store",
+   "cất giữ"
+  ],
+  [
+   "harm",
+   "gây hại"
+  ],
+  [
+   "hurt",
+   "bị thương"
+  ],
+  [
+   "forbidden",
+   "bị cấm"
+  ],
+  [
+   "legal",
+   "hợp pháp"
+  ],
+  [
+   "hearing",
+   "thính giác"
+  ],
+  [
+   "platform",
+   "sàn làm việc, nền tảng"
+  ],
+  [
+   "height",
+   "độ cao"
+  ],
+  [
+   "temporary",
+   "tạm thời"
+  ],
+  [
+   "hill",
+   "đồi"
+  ],
+  [
+   "river",
+   "sông"
+  ],
+  [
+   "rain",
+   "mưa"
+  ],
+  [
+   "heavy",
+   "nặng"
+  ],
+  [
+   "traffic",
+   "giao thông"
+  ],
+  [
+   "crack",
+   "vết nứt"
+  ],
+  [
+   "lobby",
+   "sảnh"
+  ],
+  [
+   "hospital",
+   "bệnh viện"
+  ],
+  [
+   "pour",
+   "đổ"
+  ],
+  [
+   "lift",
+   "nâng"
+  ],
+  [
+   "measure",
+   "đo"
+  ],
+  [
+   "noisy",
+   "ồn ào"
+  ],
+  [
+   "attend",
+   "tham dự"
+  ],
+  [
+   "morning",
+   "buổi sáng"
+  ],
+  [
+   "wind",
+   "gió"
+  ],
+  [
+   "earthquake",
+   "động đất"
+  ],
+  [
+   "dangerous",
+   "nguy hiểm"
+  ],
+  [
+   "policy",
+   "chính sách, quy định"
+  ],
+  [
+   "visitor",
+   "khách tham quan"
+  ],
+  [
+   "edge",
+   "mép, rìa"
+  ],
+  [
+   "barrier",
+   "rào chắn"
+  ],
+  [
+   "injury",
+   "chấn thương"
+  ],
+  [
+   "injured",
+   "bị thương"
+  ],
+  [
+   "fault",
+   "lỗi"
+  ]
+ ]
+}

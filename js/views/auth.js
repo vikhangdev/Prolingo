@@ -1,5 +1,5 @@
 import { $, esc, toast, fieldColor, avatarHtml } from "../utils.js";
-import { Auth, authError } from "../auth.js";
+import { Auth, authError, isAllowedRegistrationEmail } from "../auth.js";
 import * as api from "../api.js";
 import { go } from "../router.js";
 import { APP_NAME } from "../config.js";
@@ -55,6 +55,24 @@ export async function viewWelcome(mode = "login") {
     showMsg("msg", "", "");
     const email = $("#em").value.trim(), pw = $("#pw") && $("#pw").value;
     if (!email) return showMsg("msg", "err", "Vui lòng nhập email.");
+    if (mode === "register") {
+      const normalizedEmail = email.toLowerCase();
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(normalizedEmail)) {
+        return showMsg("msg", "err", "Vui lòng nhập địa chỉ email hợp lệ.");
+      }
+      if (!isAllowedRegistrationEmail(normalizedEmail)) {
+        busy(btn, true, label);
+        try {
+          await Auth.reportBlockedSignupEmail(normalizedEmail);
+          showMsg("msg", "err", "Email này chưa được hỗ trợ. Vui lòng dùng Gmail cá nhân (@gmail.com) hoặc email sinh viên được phép: @student.ctu.edu.vn, @student.ctuet.edu.vn, @student.ctump.edu.vn, @student.nctu.edu.vn, @st.tdu.edu.vn. Admin đã được thông báo.");
+        } catch (err) {
+          showMsg("msg", "err", `Email này chưa được hỗ trợ nên đăng ký đã bị chặn, nhưng chưa lưu được cảnh báo cho admin: ${authError(err)}`);
+        } finally {
+          busy(btn, false, label);
+        }
+        return;
+      }
+    }
     try {
       busy(btn, true, label);
       if (mode === "login") {
@@ -66,7 +84,7 @@ export async function viewWelcome(mode = "login") {
         if (!name) throw new Error("Vui lòng nhập tên hiển thị.");
         if (pw.length < 6) throw new Error("Mật khẩu tối thiểu 6 ký tự.");
         if (pw !== $("#pw2").value) throw new Error("Hai mật khẩu chưa giống nhau.");
-        const { needsConfirm } = await Auth.signUp({ email, password: pw, name, primaryFieldId: $("#primary-field").value || null });
+        const { needsConfirm } = await Auth.signUp({ email: email.toLowerCase(), password: pw, name, primaryFieldId: $("#primary-field").value || null });
         if (needsConfirm) { f.reset(); showMsg("msg", "ok", "Đăng ký thành công! Hãy mở email và bấm vào liên kết xác nhận, sau đó đăng nhập."); }
         else afterLogin();
       } else {

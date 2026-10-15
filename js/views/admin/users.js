@@ -8,6 +8,8 @@ export async function viewAdminUsers() {
   body.innerHTML = '<div class="loading"><div class="spin"></div>Đang tải danh sách tài khoản…</div>';
 
   let rows = [], fields = [], search = "", role = "all", fieldId = "all", status = "all";
+  let pendingAlertCount = null, alertLoadError = null;
+  let onlineUserCount = null, onlineLoadError = null;
   const draw = () => {
     const list = rows.filter((user) => {
       const matchesSearch = !search ||
@@ -24,7 +26,14 @@ export async function viewAdminUsers() {
     body.innerHTML = `<div class="kpis">
         <div class="kpi"><b>${rows.length}</b><span>Tổng tài khoản</span></div>
         <div class="kpi"><b>${activeCount}</b><span>Đang hoạt động</span></div>
-        <div class="kpi"><b>${lockedCount}</b><span>Đã khóa</span></div>
+        <div class="kpi"><b id="online-user-count">${onlineUserCount ?? "—"}</b><span>Đang truy cập · 3 phút</span>
+          ${onlineLoadError ? `<small>${esc(onlineLoadError)}</small>` : ""}
+        </div>
+        <div class="kpi"><b>${lockedCount}</b><span>Đã khóa</span></div>        
+        <div class="kpi warn"><b>${pendingAlertCount ?? "—"}</b><span>Cảnh báo email chưa xử lý</span>
+          ${alertLoadError ? `<small>${esc(alertLoadError)}</small>` : ""}
+          <a class="btn ghost sm" style="display:inline-flex;margin-top:8px" href="#/admin/signup-alerts">Mở cảnh báo email</a>
+        </div>
       </div>
       <div class="filters">
         <div class="fld" style="flex:2 1 240px"><label for="user-search">Tìm tên hoặc email</label><input class="input" id="user-search" value="${esc(search)}" placeholder="Nhập tên hoặc email…"></div>
@@ -61,7 +70,39 @@ export async function viewAdminUsers() {
     [rows, fields] = await Promise.all([api.adminUsers(), api.listFields()]);
     rows = rows || [];
     fields = fields || [];
+    try {
+      const alerts = await api.adminSignupEmailAlerts();
+      pendingAlertCount = alerts.filter((alert) => !alert.reviewed_at).length;
+    } catch (error) {
+      alertLoadError = error.message || String(error);
+    }
     draw();
+    const refreshOnlineCount = async () => {
+      try {
+        const count = await api.adminOnlineUserCount();
+        onlineUserCount = count;
+        onlineLoadError = null;
+      } catch (error) {
+        onlineLoadError = `Không tải được số liệu: ${error.message || error}`;
+      }
+      const countElement = $("#online-user-count", body);
+      if (countElement) countElement.textContent = onlineUserCount ?? "—";
+      const errorElement = countElement?.parentElement?.querySelector("small");
+      if (errorElement) errorElement.textContent = onlineLoadError || "";
+      else if (onlineLoadError && countElement) {
+        const message = document.createElement("small");
+        message.textContent = onlineLoadError;
+        countElement.parentElement.append(message);
+      }
+    };
+    await refreshOnlineCount();
+    const refreshTimer = setInterval(() => {
+      if (!body.isConnected) {
+        clearInterval(refreshTimer);
+        return;
+      }
+      refreshOnlineCount();
+    }, 30_000);
   } catch (error) {
     body.innerHTML = `<div class="alert err">${esc(error.message || error)}. Hãy chắc chắn đã chạy các migration Supabase cần thiết.</div>`;
   }

@@ -1,0 +1,4273 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "architecture",
+  "name": "Architecture & Urban Planning",
+  "name_vi": "Kiến trúc & Quy hoạch đô thị",
+  "icon": "🏛️",
+  "hue": 30,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành kiến trúc & quy hoạch đô thị: kiến trúc cơ bản, vật liệu & kết cấu, quy trình thiết kế & bản vẽ, quy chuẩn & an toàn, quy hoạch & phân khu, đô thị bền vững và thông minh."
+ },
+ "units": [
+  {
+   "name": "Architecture Basics",
+   "name_vi": "Kiến trúc cơ bản",
+   "icon": "🏛️",
+   "hue": 30,
+   "words": [
+    {
+     "en": "architect",
+     "vi": "kiến trúc sư"
+    },
+    {
+     "en": "architecture",
+     "vi": "kiến trúc"
+    },
+    {
+     "en": "design",
+     "vi": "thiết kế"
+    },
+    {
+     "en": "building",
+     "vi": "công trình, tòa nhà"
+    },
+    {
+     "en": "structure",
+     "vi": "kết cấu; công trình"
+    },
+    {
+     "en": "facade",
+     "vi": "mặt tiền"
+    },
+    {
+     "en": "foundation",
+     "vi": "móng"
+    },
+    {
+     "en": "floor plan",
+     "vi": "mặt bằng tầng"
+    },
+    {
+     "en": "elevation",
+     "vi": "mặt đứng"
+    },
+    {
+     "en": "section",
+     "vi": "mặt cắt"
+    },
+    {
+     "en": "site",
+     "vi": "khu đất, công trường"
+    },
+    {
+     "en": "layout",
+     "vi": "bố cục"
+    },
+    {
+     "en": "space",
+     "vi": "không gian"
+    },
+    {
+     "en": "proportion",
+     "vi": "tỷ lệ (giữa các phần)"
+    },
+    {
+     "en": "scale",
+     "vi": "tỷ lệ bản vẽ; quy mô"
+    },
+    {
+     "en": "symmetry",
+     "vi": "tính đối xứng"
+    },
+    {
+     "en": "style",
+     "vi": "phong cách"
+    },
+    {
+     "en": "form",
+     "vi": "hình khối"
+    },
+    {
+     "en": "function",
+     "vi": "công năng"
+    },
+    {
+     "en": "aesthetics",
+     "vi": "tính thẩm mỹ"
+    },
+    {
+     "en": "landmark",
+     "vi": "công trình biểu tượng"
+    },
+    {
+     "en": "skyscraper",
+     "vi": "nhà chọc trời"
+    },
+    {
+     "en": "residential",
+     "vi": "thuộc nhà ở"
+    },
+    {
+     "en": "commercial",
+     "vi": "thuộc thương mại"
+    },
+    {
+     "en": "interior",
+     "vi": "nội thất; bên trong"
+    },
+    {
+     "en": "exterior",
+     "vi": "bên ngoài"
+    },
+    {
+     "en": "ceiling",
+     "vi": "trần nhà"
+    },
+    {
+     "en": "column",
+     "vi": "cột"
+    },
+    {
+     "en": "arch",
+     "vi": "vòm"
+    },
+    {
+     "en": "roof",
+     "vi": "mái nhà"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ designs buildings and supervises their construction.",
+        "ans": [
+         1
+        ],
+        "tip": "architect = kiến trúc sư.",
+        "why": "**architect** = kiến trúc sư.",
+        "opts": [
+         "facade",
+         "architect",
+         "landmark"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The front of a building that faces the street is called the ___.",
+        "ans": [
+         2
+        ],
+        "tip": "facade (từ Pháp) = mặt tiền.",
+        "why": "**facade** = mặt tiền công trình.",
+        "opts": [
+         "foundation",
+         "ceiling",
+         "facade"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ shows the layout of rooms as seen from above.",
+        "ans": [
+         2
+        ],
+        "tip": "plan = bản vẽ mặt bằng.",
+        "why": "**floor plan** = mặt bằng tầng, nhìn từ trên xuống.",
+        "opts": [
+         "elevation",
+         "section",
+         "floor plan"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ is a drawing of one side of a building, seen from the front, back or sides.",
+        "ans": [
+         2
+        ],
+        "tip": "elevate = nâng lên → nhìn thẳng đứng.",
+        "why": "**elevation** = mặt đứng.",
+        "opts": [
+         "floor plan",
+         "layout",
+         "elevation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the strong base underground that supports the whole building.",
+        "ans": [
+         1
+        ],
+        "tip": "found = đặt nền.",
+        "why": "**foundation** = móng công trình.",
+        "opts": [
+         "roof",
+         "foundation",
+         "arch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The Eiffel Tower is a famous ___ that millions of tourists visit.",
+        "ans": [
+         2
+        ],
+        "tip": "land + mark = dấu mốc.",
+        "why": "**landmark** = công trình biểu tượng của một địa điểm.",
+        "opts": [
+         "interior",
+         "symmetry",
+         "landmark"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a very tall building with many floors.",
+        "ans": [
+         0
+        ],
+        "tip": "sky + scrape = chạm trời.",
+        "why": "**skyscraper** = nhà chọc trời.",
+        "opts": [
+         "skyscraper",
+         "column",
+         "arch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a building with perfect ___, the left side mirrors the right side.",
+        "ans": [
+         1
+        ],
+        "tip": "sym + metry = cùng số đo.",
+        "why": "**symmetry** = tính đối xứng.",
+        "opts": [
+         "scale",
+         "symmetry",
+         "function"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "aesthetics",
+        "b": "the quality of being beautiful or pleasing to look at",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "function",
+        "b": "the purpose that a building or space is designed to serve",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "residential",
+        "b": "used for people to live in",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "commercial",
+        "b": "used for business, such as shops and offices",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "column",
+        "b": "a tall vertical support, often round",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "arch",
+        "b": "a curved structure that spans an opening",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "scale",
+        "b": "the ratio between a drawing and the real object",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "site",
+        "b": "the piece of land where a building will be constructed",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An architect usually ___ with clients before starting a design.",
+        "ans": [
+         0
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' + ngôi thứ ba số ít → **meets**.",
+        "opts": [
+         "meets",
+         "is meeting",
+         "meet"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the team ___ a model of the new library.",
+        "ans": [
+         2
+        ],
+        "tip": "right now → be + V-ing.",
+        "why": "'Right now' → **is building**.",
+        "opts": [
+         "builds",
+         "built",
+         "is building"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The sun ___ in the east, so the architect puts the bedrooms there.",
+        "ans": [
+         1
+        ],
+        "tip": "sự thật khoa học → hiện tại đơn.",
+        "why": "Sự thật tự nhiên → **rises**.",
+        "opts": [
+         "is rising",
+         "rises",
+         "rise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This month, we ___ on a residential tower downtown.",
+        "ans": [
+         1
+        ],
+        "tip": "this month → tạm thời.",
+        "why": "'This month' = giai đoạn hiện tại → **are working**.",
+        "opts": [
+         "work",
+         "are working",
+         "works"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A good facade always ___ the character of the building.",
+        "ans": [
+         0
+        ],
+        "tip": "always → hiện tại đơn.",
+        "why": "'always' + số ít → **reflects**.",
+        "opts": [
+         "reflects",
+         "is reflecting",
+         "reflect"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The workers ___ the first column.",
+        "ans": [
+         1
+        ],
+        "tip": "Look! → đang xảy ra.",
+        "why": "'Look!' → **are lifting**.",
+        "opts": [
+         "lift",
+         "are lifting",
+         "lifts"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The architect ___ (draw) sketches at her desk every morning.",
+        "ans": [
+         [
+          "draws"
+         ]
+        ],
+        "tip": "",
+        "why": "'every morning' → hiện tại đơn: **draws**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the engineers ___ (check) the foundation.",
+        "ans": [
+         [
+          "are checking"
+         ]
+        ],
+        "tip": "",
+        "why": "'At the moment' → **are checking**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our studio ___ (not / design) industrial buildings.",
+        "ans": [
+         [
+          "does not design",
+          "doesn't design"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định số ít: **does not design**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Many people ___ (prefer) open-plan spaces.",
+        "ans": [
+         [
+          "prefer"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật chung, số nhiều: **prefer**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The city ___ (build) a new bridge this year.",
+        "ans": [
+         [
+          "is building"
+         ]
+        ],
+        "tip": "",
+        "why": "'this year' (đang diễn ra) → **is building**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What does an architect do?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "An architect does much more than draw beautiful buildings. First, the architect meets the client and visits the site to study the land, the climate and the surroundings. Then the architect develops a design that balances function and aesthetics: a building must work well, and it must also look good.\n\nThe architect prepares drawings such as the floor plan, the elevation and the section. The floor plan shows the layout of rooms, while the elevation shows the facade. Good proportion and scale help the building feel comfortable to people. Some designs use symmetry, while others use irregular forms to create a modern style.\n\nMany cities are famous for their landmarks, from old buildings with arches and columns to modern skyscrapers. A residential building must provide a comfortable interior, but a commercial building also needs to attract customers. That is why architects think about both the exterior and the interior of every project.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An architect only draws beautiful buildings.",
+        "ans": [
+         1
+        ],
+        "tip": "does much more.",
+        "why": "Đoạn 1: kiến trúc sư làm **nhiều việc hơn** là vẽ công trình đẹp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The architect visits the site to study the land and the climate.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: kiến trúc sư đến khu đất để nghiên cứu đất và khí hậu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The elevation shows the layout of the rooms from above.",
+        "ans": [
+         1
+        ],
+        "tip": "floor plan ≠ elevation.",
+        "why": "Đoạn 2: **floor plan** thể hiện bố cục phòng; elevation thể hiện mặt tiền."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Some designs use symmetry.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'Some designs use symmetry'."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must a design balance?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thiết kế phải cân bằng công năng và thẩm mỹ.",
+        "opts": [
+         "Land and climate",
+         "Budget and schedule",
+         "Function and aesthetics"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the floor plan show?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: floor plan thể hiện bố cục các phòng.",
+        "opts": [
+         "The layout of rooms",
+         "The facade",
+         "The roof"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do good proportion and scale help with?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tỷ lệ tốt giúp công trình tạo cảm giác thoải mái.",
+        "opts": [
+         "They make the building cheaper",
+         "They remove the need for a roof",
+         "They help the building feel comfortable to people"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a commercial building also need to do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: công trình thương mại còn cần thu hút khách hàng.",
+        "opts": [
+         "Provide a residential interior",
+         "Avoid all windows",
+         "Attract customers"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Building Materials & Structure",
+   "name_vi": "Vật liệu xây dựng & kết cấu",
+   "icon": "🧱",
+   "hue": 15,
+   "words": [
+    {
+     "en": "concrete",
+     "vi": "bê tông"
+    },
+    {
+     "en": "reinforced concrete",
+     "vi": "bê tông cốt thép"
+    },
+    {
+     "en": "steel",
+     "vi": "thép"
+    },
+    {
+     "en": "brick",
+     "vi": "gạch"
+    },
+    {
+     "en": "timber",
+     "vi": "gỗ xây dựng"
+    },
+    {
+     "en": "glass",
+     "vi": "kính"
+    },
+    {
+     "en": "stone",
+     "vi": "đá"
+    },
+    {
+     "en": "cement",
+     "vi": "xi măng"
+    },
+    {
+     "en": "mortar",
+     "vi": "vữa"
+    },
+    {
+     "en": "aluminium",
+     "vi": "nhôm"
+    },
+    {
+     "en": "insulation",
+     "vi": "vật liệu/lớp cách nhiệt"
+    },
+    {
+     "en": "load",
+     "vi": "tải trọng"
+    },
+    {
+     "en": "beam",
+     "vi": "dầm"
+    },
+    {
+     "en": "truss",
+     "vi": "giàn (mái, cầu)"
+    },
+    {
+     "en": "slab",
+     "vi": "tấm sàn"
+    },
+    {
+     "en": "load-bearing wall",
+     "vi": "tường chịu lực"
+    },
+    {
+     "en": "frame",
+     "vi": "khung"
+    },
+    {
+     "en": "pillar",
+     "vi": "trụ"
+    },
+    {
+     "en": "scaffolding",
+     "vi": "giàn giáo"
+    },
+    {
+     "en": "formwork",
+     "vi": "ván khuôn"
+    },
+    {
+     "en": "reinforcement",
+     "vi": "cốt thép gia cường"
+    },
+    {
+     "en": "durability",
+     "vi": "độ bền lâu"
+    },
+    {
+     "en": "strength",
+     "vi": "độ bền chịu lực"
+    },
+    {
+     "en": "tension",
+     "vi": "lực kéo"
+    },
+    {
+     "en": "compression",
+     "vi": "lực nén"
+    },
+    {
+     "en": "settlement",
+     "vi": "sự lún (của công trình)"
+    },
+    {
+     "en": "corrosion",
+     "vi": "sự ăn mòn"
+    },
+    {
+     "en": "waterproofing",
+     "vi": "việc chống thấm"
+    },
+    {
+     "en": "prefabricated",
+     "vi": "được đúc/chế tạo sẵn"
+    },
+    {
+     "en": "composite",
+     "vi": "vật liệu composite"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is made by mixing cement, sand, gravel and water.",
+        "ans": [
+         1
+        ],
+        "tip": "concrete = bê tông.",
+        "why": "**concrete** = bê tông.",
+        "opts": [
+         "Timber",
+         "Concrete",
+         "Glass"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In ___ concrete, steel bars are placed inside to make it stronger.",
+        "ans": [
+         1
+        ],
+        "tip": "reinforce = tăng cường.",
+        "why": "**reinforced concrete** = bê tông cốt thép.",
+        "opts": [
+         "prefabricated",
+         "reinforced",
+         "composite"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A horizontal ___ carries the weight of the floor above and passes it to the columns.",
+        "ans": [
+         0
+        ],
+        "tip": "beam = dầm ngang.",
+        "why": "**beam** = dầm, chịu tải của sàn.",
+        "opts": [
+         "beam",
+         "truss",
+         "formwork"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A roof ___ is made of triangles so it can span a wide space with less material.",
+        "ans": [
+         2
+        ],
+        "tip": "truss = giàn tam giác.",
+        "why": "**truss** = giàn mái/giàn cầu.",
+        "opts": [
+         "slab",
+         "mortar",
+         "truss"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers use ___ to stand safely while they build the upper floors.",
+        "ans": [
+         0
+        ],
+        "tip": "scaffold = giàn giáo.",
+        "why": "**scaffolding** = giàn giáo công trình.",
+        "opts": [
+         "scaffolding",
+         "insulation",
+         "cement"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Metal in damp air can suffer from ___ and lose its strength over time.",
+        "ans": [
+         1
+        ],
+        "tip": "corrode = ăn mòn.",
+        "why": "**corrosion** = sự ăn mòn kim loại.",
+        "opts": [
+         "settlement",
+         "corrosion",
+         "compression"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Good ___ keeps heat inside the building in winter and outside in summer.",
+        "ans": [
+         0
+        ],
+        "tip": "insulate = cách ly.",
+        "why": "**insulation** = lớp cách nhiệt.",
+        "opts": [
+         "insulation",
+         "durability",
+         "tension"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ forces push material together, while tension forces pull it apart.",
+        "ans": [
+         2
+        ],
+        "tip": "compress = nén.",
+        "why": "**compression** = lực nén; **tension** = lực kéo.",
+        "opts": [
+         "Corrosion",
+         "Reinforcement",
+         "Compression"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "timber",
+        "b": "wood that is cut and prepared for building",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "brick",
+        "b": "a small block made of baked clay",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "durability",
+        "b": "the ability to last a long time without damage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "load-bearing wall",
+        "b": "a wall that supports the weight above it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "formwork",
+        "b": "a temporary mould into which concrete is poured",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "prefabricated",
+        "b": "made in a factory and assembled on site",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "waterproofing",
+        "b": "treatment that stops water from passing through",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "settlement",
+        "b": "the slow sinking of a building into the ground",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Steel is ___ than timber.",
+        "ans": [
+         1
+        ],
+        "tip": "short adj + -er + than.",
+        "why": "So sánh hơn → **stronger than**.",
+        "opts": [
+         "strong",
+         "stronger",
+         "the strongest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Concrete is usually ___ than glass.",
+        "ans": [
+         0
+        ],
+        "tip": "heavy → heavier.",
+        "why": "Tính từ kết thúc -y: **heavier**.",
+        "opts": [
+         "heavier",
+         "heavy",
+         "more heavy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Reinforced concrete is one of the ___ materials in modern construction.",
+        "ans": [
+         2
+        ],
+        "tip": "the most + adj dài.",
+        "why": "So sánh nhất: **the most common**.",
+        "opts": [
+         "more common",
+         "commonest",
+         "most common"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Prefabricated walls are ___ to install than bricks laid on site.",
+        "ans": [
+         0
+        ],
+        "tip": "quick → quicker.",
+        "why": "So sánh hơn → **quicker**.",
+        "opts": [
+         "quicker",
+         "quick",
+         "more quick"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Aluminium is ___ than steel, so it is easier to carry.",
+        "ans": [
+         2
+        ],
+        "tip": "light → lighter.",
+        "why": "So sánh hơn → **lighter than**.",
+        "opts": [
+         "light",
+         "the lightest",
+         "lighter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is the ___ bridge in the country; it is 2 km long.",
+        "ans": [
+         1
+        ],
+        "tip": "the + -est.",
+        "why": "So sánh nhất → **the longest**.",
+        "opts": [
+         "longer",
+         "longest",
+         "more long"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Stone is ___ (durable) than timber.",
+        "ans": [
+         [
+          "more durable"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ dài: **more durable than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Glass is ___ (expensive) than brick.",
+        "ans": [
+         [
+          "more expensive"
+         ]
+        ],
+        "tip": "",
+        "why": "**more expensive than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "That is the ___ (tall) steel frame in the city.",
+        "ans": [
+         [
+          "tallest"
+         ]
+        ],
+        "tip": "",
+        "why": "So sánh nhất: **the tallest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A truss is ___ (light) than a solid beam of the same size.",
+        "ans": [
+         [
+          "lighter"
+         ]
+        ],
+        "tip": "",
+        "why": "**lighter than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Timber is ___ (good) for insulation than steel.",
+        "ans": [
+         [
+          "better"
+         ]
+        ],
+        "tip": "good – better – best.",
+        "why": "'good' bất quy tắc: **better**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing the right material",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every material has advantages and disadvantages, so architects and engineers compare them carefully. Concrete is one of the most common building materials because it is cheap and very strong in compression. However, it is weaker in tension, so engineers add steel reinforcement inside it. This material, called reinforced concrete, is stronger than plain concrete and can be used for beams, slabs and foundations.\n\nSteel is lighter than concrete and can span longer distances, so it is popular for skyscrapers and bridges. Its main problem is corrosion, which means it needs protection. Timber is the most natural material and gives good insulation, and modern timber buildings are safer and more durable than many people think. Glass lets in light, but it is more expensive than brick and needs good insulation.\n\nToday, many builders prefer prefabricated parts because they are made in a factory and installed on site more quickly. Whatever material is chosen, the structure must carry its load safely and the foundation must prevent harmful settlement.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Concrete is very strong in compression.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bê tông rất chịu nén tốt."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Concrete is stronger than steel in tension.",
+        "ans": [
+         1
+        ],
+        "tip": "weaker in tension.",
+        "why": "Đoạn 1: bê tông **yếu** khi chịu kéo, nên cần cốt thép."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Steel is heavier than concrete.",
+        "ans": [
+         1
+        ],
+        "tip": "lighter.",
+        "why": "Đoạn 2: thép **nhẹ hơn** bê tông."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Glass is more expensive than brick.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kính đắt hơn gạch."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do engineers add steel to concrete?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bê tông chịu kéo kém nên được gia cường bằng thép.",
+        "opts": [
+         "Concrete is weaker in tension",
+         "Concrete is too light",
+         "Concrete cannot carry any load"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the main problem of steel?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: vấn đề chính của thép là bị ăn mòn.",
+        "opts": [
+         "Corrosion",
+         "Settlement",
+         "Insulation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do many builders prefer prefabricated parts?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cấu kiện đúc sẵn được lắp đặt nhanh hơn.",
+        "opts": [
+         "They can be installed more quickly",
+         "They are always cheaper than timber",
+         "They never need a foundation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must the foundation prevent?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: móng phải ngăn sự lún gây hại.",
+        "opts": [
+         "Harmful settlement",
+         "Natural light",
+         "Corrosion of glass"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Design Process & Drawings",
+   "name_vi": "Quy trình thiết kế & bản vẽ",
+   "icon": "📐",
+   "hue": 200,
+   "words": [
+    {
+     "en": "brief",
+     "vi": "bản yêu cầu thiết kế"
+    },
+    {
+     "en": "client",
+     "vi": "chủ đầu tư, khách hàng"
+    },
+    {
+     "en": "concept",
+     "vi": "ý tưởng thiết kế"
+    },
+    {
+     "en": "sketch",
+     "vi": "bản phác thảo"
+    },
+    {
+     "en": "draft",
+     "vi": "bản nháp"
+    },
+    {
+     "en": "blueprint",
+     "vi": "bản vẽ kỹ thuật chi tiết"
+    },
+    {
+     "en": "technical drawing",
+     "vi": "bản vẽ kỹ thuật"
+    },
+    {
+     "en": "computer-aided design (CAD)",
+     "vi": "thiết kế có sự hỗ trợ của máy tính"
+    },
+    {
+     "en": "building information modelling (BIM)",
+     "vi": "mô hình thông tin công trình"
+    },
+    {
+     "en": "3D model",
+     "vi": "mô hình ba chiều"
+    },
+    {
+     "en": "rendering",
+     "vi": "hình ảnh phối cảnh"
+    },
+    {
+     "en": "mock-up",
+     "vi": "mô hình thử nghiệm"
+    },
+    {
+     "en": "perspective",
+     "vi": "phối cảnh"
+    },
+    {
+     "en": "site plan",
+     "vi": "mặt bằng tổng thể"
+    },
+    {
+     "en": "detail drawing",
+     "vi": "bản vẽ chi tiết"
+    },
+    {
+     "en": "specification",
+     "vi": "bản đặc tả kỹ thuật"
+    },
+    {
+     "en": "dimension",
+     "vi": "kích thước"
+    },
+    {
+     "en": "tolerance",
+     "vi": "dung sai"
+    },
+    {
+     "en": "legend",
+     "vi": "bảng chú giải"
+    },
+    {
+     "en": "revision",
+     "vi": "bản chỉnh sửa"
+    },
+    {
+     "en": "approval",
+     "vi": "sự phê duyệt"
+    },
+    {
+     "en": "feasibility study",
+     "vi": "nghiên cứu khả thi"
+    },
+    {
+     "en": "budget",
+     "vi": "ngân sách"
+    },
+    {
+     "en": "schedule",
+     "vi": "tiến độ"
+    },
+    {
+     "en": "tender",
+     "vi": "đấu thầu; hồ sơ dự thầu"
+    },
+    {
+     "en": "contractor",
+     "vi": "nhà thầu"
+    },
+    {
+     "en": "consultant",
+     "vi": "tư vấn"
+    },
+    {
+     "en": "supervision",
+     "vi": "sự giám sát thi công"
+    },
+    {
+     "en": "handover",
+     "vi": "việc bàn giao"
+    },
+    {
+     "en": "stakeholder",
+     "vi": "bên liên quan"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The client gave the architect a ___ that listed the needs, budget and deadline.",
+        "ans": [
+         2
+        ],
+        "tip": "brief = ngắn gọn, bản tóm tắt yêu cầu.",
+        "why": "**brief** = bản yêu cầu thiết kế.",
+        "opts": [
+         "tender",
+         "legend",
+         "brief"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "First, she drew a quick ___ to show her initial idea.",
+        "ans": [
+         0
+        ],
+        "tip": "sketch = phác thảo nhanh.",
+        "why": "**sketch** = bản phác thảo.",
+        "opts": [
+         "sketch",
+         "handover",
+         "tolerance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ shows how the finished building will look, with realistic colours and light.",
+        "ans": [
+         1
+        ],
+        "tip": "render = thể hiện bằng hình ảnh.",
+        "why": "**rendering** = hình ảnh phối cảnh.",
+        "opts": [
+         "specification",
+         "rendering",
+         "revision"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ lists the quality and type of materials the builders must use.",
+        "ans": [
+         0
+        ],
+        "tip": "specify = chỉ rõ.",
+        "why": "**specification** = bản đặc tả kỹ thuật.",
+        "opts": [
+         "specification",
+         "dimension",
+         "concept"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ explains the symbols used on the drawing.",
+        "ans": [
+         2
+        ],
+        "tip": "legend = chú giải bản đồ/bản vẽ.",
+        "why": "**legend** = bảng chú giải ký hiệu.",
+        "opts": [
+         "schedule",
+         "consultant",
+         "legend"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before investing, the client ordered a ___ to check whether the project was possible.",
+        "ans": [
+         0
+        ],
+        "tip": "feasible = khả thi.",
+        "why": "**feasibility study** = nghiên cứu khả thi.",
+        "opts": [
+         "feasibility study",
+         "mock-up",
+         "site plan"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Several contractors submit a ___ with their price to win the project.",
+        "ans": [
+         1
+        ],
+        "tip": "tender = hồ sơ dự thầu.",
+        "why": "**tender** = đấu thầu/hồ sơ dự thầu.",
+        "opts": [
+         "approval",
+         "tender",
+         "perspective"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After the final inspection, the builder gave the keys to the owner at the ___.",
+        "ans": [
+         1
+        ],
+        "tip": "hand + over = trao lại.",
+        "why": "**handover** = bàn giao công trình.",
+        "opts": [
+         "revision",
+         "handover",
+         "brief"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "concept",
+        "b": "the main idea behind a design",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "blueprint",
+        "b": "a detailed technical plan of a building",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "building information modelling (BIM)",
+        "b": "a digital method that builds a 3D model containing project data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mock-up",
+        "b": "a model, often full-size, used to test a design",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dimension",
+        "b": "a measurement of length, width or height",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "revision",
+        "b": "a changed version of a drawing or plan",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "approval",
+        "b": "official permission to go ahead",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stakeholder",
+        "b": "a person or group with an interest in a project",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The design brief ___ by the client last week.",
+        "ans": [
+         1
+        ],
+        "tip": "was/were + V3.",
+        "why": "'last week' → quá khứ bị động: **was written**.",
+        "opts": [
+         "wrote",
+         "was written",
+         "is written"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The drawings ___ in CAD software.",
+        "ans": [
+         0
+        ],
+        "tip": "be + V3.",
+        "why": "Hiện tại đơn bị động: **are prepared**.",
+        "opts": [
+         "are prepared",
+         "prepare",
+         "are preparing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A new 3D model ___ next Monday.",
+        "ans": [
+         2
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be presented**.",
+        "opts": [
+         "will present",
+         "is presented",
+         "will be presented"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The site plan ___ yet, so we cannot start.",
+        "ans": [
+         1
+        ],
+        "tip": "have/has + been + V3.",
+        "why": "Hiện tại hoàn thành bị động: **has not been approved**.",
+        "opts": [
+         "has not approved",
+         "has not been approved",
+         "is not approving"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The foundation details ___ by the engineer at the moment.",
+        "ans": [
+         1
+        ],
+        "tip": "be + being + V3.",
+        "why": "'at the moment' → hiện tại tiếp diễn bị động: **are being checked**.",
+        "opts": [
+         "are checked",
+         "are being checked",
+         "check"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All dimensions ___ in millimetres.",
+        "ans": [
+         0
+        ],
+        "tip": "be + V3.",
+        "why": "Kích thước **được thể hiện** → **are shown**.",
+        "opts": [
+         "are shown",
+         "show",
+         "are showing"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The sketches ___ (draw) by hand.",
+        "ans": [
+         [
+          "are drawn"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn bị động: **are drawn**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The tender ___ (win) by a local company last year.",
+        "ans": [
+         [
+          "was won"
+         ]
+        ],
+        "tip": "win – won – won.",
+        "why": "Quá khứ bị động: **was won**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The building ___ (hand over) to the owner next month.",
+        "ans": [
+         [
+          "will be handed over",
+          "is going to be handed over"
+         ]
+        ],
+        "tip": "",
+        "why": "Tương lai bị động: **will be handed over**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The drawings ___ (must / check) before construction starts.",
+        "ans": [
+         [
+          "must be checked"
+         ]
+        ],
+        "tip": "",
+        "why": "Khuyết thiếu bị động: **must be checked**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The model ___ (revise) twice since March.",
+        "ans": [
+         [
+          "has been revised"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại hoàn thành bị động: **has been revised**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From idea to drawing",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every project begins with a brief. The client explains the needs, the budget and the schedule, and a feasibility study is carried out to see if the project is possible. After that, the concept is developed. Ideas are first explored in sketches, and then a rough draft is drawn.\n\nNext, the design is turned into technical drawings. The site plan, floor plans, elevations and sections are produced in CAD or BIM software. In BIM, a 3D model is created, and all the project information is stored in it. Dimensions and materials are written on the drawings, and a legend is added so that the symbols can be understood. Photo-realistic renderings are often prepared, so the client can see the building before it is built.\n\nWhen the drawings are completed, they are reviewed by consultants and the client. Revisions are made if mistakes are found, and final approval is given. The project is then offered for tender, and a contractor is chosen. During construction, the work is supervised, and finally the building is handed over to the client.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A feasibility study is carried out after the building is finished.",
+        "ans": [
+         1
+        ],
+        "tip": "before the concept.",
+        "why": "Đoạn 1: nghiên cứu khả thi được thực hiện **ngay từ đầu**, trước khi phát triển ý tưởng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Sketches are used to explore ideas.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ý tưởng được thể hiện trước bằng sketch."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In BIM, project information is stored in the 3D model.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mọi thông tin dự án được lưu trong mô hình 3D."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The drawings are approved before they are reviewed.",
+        "ans": [
+         1
+        ],
+        "tip": "reviewed → revised → approved.",
+        "why": "Đoạn 3: bản vẽ được **rà soát**, chỉnh sửa, rồi mới phê duyệt."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the client explain in the brief?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chủ đầu tư nêu nhu cầu, ngân sách và tiến độ.",
+        "opts": [
+         "The structure and the legend",
+         "The tender and the handover",
+         "The needs, the budget and the schedule"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a legend used for?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bảng chú giải giúp hiểu các ký hiệu.",
+        "opts": [
+         "To store the project budget",
+         "So that the symbols can be understood",
+         "To choose a contractor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are renderings prepared?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phối cảnh giúp chủ đầu tư hình dung công trình trước khi xây.",
+        "opts": [
+         "So the client can see the building before it is built",
+         "To replace the floor plans",
+         "To check the foundation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens after final approval?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sau khi phê duyệt, dự án được đưa ra đấu thầu.",
+        "opts": [
+         "The building is handed over",
+         "The brief is written",
+         "The project is offered for tender"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Building Codes, Safety & Permits",
+   "name_vi": "Quy chuẩn xây dựng, an toàn & giấy phép",
+   "icon": "📋",
+   "hue": 340,
+   "words": [
+    {
+     "en": "building code",
+     "vi": "quy chuẩn xây dựng"
+    },
+    {
+     "en": "building permit",
+     "vi": "giấy phép xây dựng"
+    },
+    {
+     "en": "regulation",
+     "vi": "quy định"
+    },
+    {
+     "en": "inspection",
+     "vi": "việc kiểm tra, thanh tra"
+    },
+    {
+     "en": "inspector",
+     "vi": "thanh tra viên"
+    },
+    {
+     "en": "compliance",
+     "vi": "sự tuân thủ"
+    },
+    {
+     "en": "fire safety",
+     "vi": "an toàn phòng cháy"
+    },
+    {
+     "en": "fire exit",
+     "vi": "lối thoát hiểm"
+    },
+    {
+     "en": "fire alarm",
+     "vi": "chuông báo cháy"
+    },
+    {
+     "en": "sprinkler",
+     "vi": "đầu phun nước chữa cháy"
+    },
+    {
+     "en": "evacuation",
+     "vi": "việc sơ tán"
+    },
+    {
+     "en": "escape route",
+     "vi": "lối thoát"
+    },
+    {
+     "en": "accessibility",
+     "vi": "khả năng tiếp cận (cho mọi người)"
+    },
+    {
+     "en": "ramp",
+     "vi": "đường dốc"
+    },
+    {
+     "en": "handrail",
+     "vi": "tay vịn"
+    },
+    {
+     "en": "structural safety",
+     "vi": "an toàn kết cấu"
+    },
+    {
+     "en": "safety factor",
+     "vi": "hệ số an toàn"
+    },
+    {
+     "en": "hazard",
+     "vi": "mối nguy hiểm"
+    },
+    {
+     "en": "risk assessment",
+     "vi": "đánh giá rủi ro"
+    },
+    {
+     "en": "protective equipment",
+     "vi": "thiết bị bảo hộ"
+    },
+    {
+     "en": "hard hat",
+     "vi": "mũ bảo hộ"
+    },
+    {
+     "en": "site safety",
+     "vi": "an toàn công trường"
+    },
+    {
+     "en": "ventilation",
+     "vi": "thông gió"
+    },
+    {
+     "en": "natural light",
+     "vi": "ánh sáng tự nhiên"
+    },
+    {
+     "en": "noise level",
+     "vi": "mức độ ồn"
+    },
+    {
+     "en": "setback",
+     "vi": "khoảng lùi xây dựng"
+    },
+    {
+     "en": "height limit",
+     "vi": "giới hạn chiều cao"
+    },
+    {
+     "en": "certificate of occupancy",
+     "vi": "giấy chứng nhận đủ điều kiện sử dụng"
+    },
+    {
+     "en": "penalty",
+     "vi": "khoản phạt"
+    },
+    {
+     "en": "violation",
+     "vi": "sự vi phạm"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You must get a ___ from the authorities before you start building.",
+        "ans": [
+         0
+        ],
+        "tip": "permit = cho phép.",
+        "why": "**building permit** = giấy phép xây dựng.",
+        "opts": [
+         "building permit",
+         "handrail",
+         "ramp"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ visits the site to check that the work follows the rules.",
+        "ans": [
+         0
+        ],
+        "tip": "inspect = kiểm tra.",
+        "why": "**inspector** = thanh tra viên.",
+        "opts": [
+         "inspector",
+         "hazard",
+         "penalty"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ automatically sprays water when it detects the heat of a fire.",
+        "ans": [
+         0
+        ],
+        "tip": "sprinkle = rắc, phun.",
+        "why": "**sprinkler** = đầu phun chữa cháy tự động.",
+        "opts": [
+         "sprinkler",
+         "ramp",
+         "setback"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A fire drill practises ___, the quick and safe movement of people out of a building.",
+        "ans": [
+         0
+        ],
+        "tip": "evacuate = sơ tán.",
+        "why": "**evacuation** = sự sơ tán.",
+        "opts": [
+         "evacuation",
+         "inspection",
+         "ventilation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ lets wheelchair users enter the building without climbing steps.",
+        "ans": [
+         2
+        ],
+        "tip": "ramp = đường dốc.",
+        "why": "**ramp** = đường dốc cho xe lăn.",
+        "opts": [
+         "sprinkler",
+         "handrail",
+         "ramp"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is the minimum distance between a building and the edge of the plot.",
+        "ans": [
+         2
+        ],
+        "tip": "set + back = lùi vào.",
+        "why": "**setback** = khoảng lùi xây dựng.",
+        "opts": [
+         "height limit",
+         "hazard",
+         "setback"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Wet floors are a ___ that can cause accidents.",
+        "ans": [
+         0
+        ],
+        "tip": "hazard = mối nguy.",
+        "why": "**hazard** = mối nguy hiểm.",
+        "opts": [
+         "hazard",
+         "compliance",
+         "violation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Good ___ brings fresh air into rooms and removes bad smells.",
+        "ans": [
+         0
+        ],
+        "tip": "vent = lỗ thông hơi.",
+        "why": "**ventilation** = thông gió.",
+        "opts": [
+         "ventilation",
+         "evacuation",
+         "setback"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "building code",
+        "b": "a set of rules for how buildings must be designed and built",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fire alarm",
+        "b": "a device that makes a loud sound to warn of a fire",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "accessibility",
+        "b": "being easy to enter and use for everyone, including disabled people",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "handrail",
+        "b": "a bar that you hold for support on stairs",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "risk assessment",
+        "b": "a study of possible dangers and how to reduce them",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hard hat",
+        "b": "a helmet that protects the head on a construction site",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "certificate of occupancy",
+        "b": "an official document saying that a building is safe to use",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "violation",
+        "b": "an act of breaking a rule or law",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Every new building ___ meet the fire safety code. It is the law.",
+        "ans": [
+         0
+        ],
+        "tip": "luật bắt buộc → must.",
+        "why": "Quy định pháp luật → **must**.",
+        "opts": [
+         "must",
+         "should",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ wear a hard hat in the office area. It is only required on site.",
+        "ans": [
+         0
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Chỉ bắt buộc ngoài công trường → ở văn phòng **don't have to**.",
+        "opts": [
+         "don't have to",
+         "must",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Visitors ___ enter the site without protective equipment. It is forbidden.",
+        "ans": [
+         0
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "'forbidden' → **mustn't**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Architects ___ check the local height limit before they start designing.",
+        "ans": [
+         2
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Lời khuyên hợp lý → **should**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In most cities, owners ___ get a building permit before construction.",
+        "ans": [
+         1
+        ],
+        "tip": "have to = bắt buộc.",
+        "why": "Quy định bắt buộc → **have to**.",
+        "opts": [
+         "mustn't",
+         "have to",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ leave tools on the stairs. Someone could fall.",
+        "ans": [
+         1
+        ],
+        "tip": "shouldn't = không nên.",
+        "why": "Lời khuyên tránh nguy hiểm → **shouldn't**.",
+        "opts": [
+         "must",
+         "shouldn't",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All workers ___ wear protective equipment on site.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ get a permit for small repairs. It is not required.",
+        "ans": [
+         [
+          "don't have to",
+          "do not have to",
+          "needn't",
+          "need not"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "People ___ use the lift during a fire. It is dangerous.",
+        "ans": [
+         [
+          "mustn't",
+          "must not",
+          "shouldn't",
+          "should not"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm/nguy hiểm → **mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The inspector says we ___ fix the handrail before the final inspection.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Yêu cầu bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ always check the weather before working on a roof.",
+        "ans": [
+         [
+          "should",
+          "must"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên → **should**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Why do we need building codes?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Buildings must be safe for the people who use them, so every country has a building code. The code explains how strong a structure must be, how many fire exits a building must have, and how wide the stairs have to be. Before construction can begin, the owner has to apply for a building permit, and the plans must be approved by the authorities.\n\nSafety does not stop at the design stage. On site, workers must wear protective equipment such as a hard hat, and a risk assessment should be done to find every hazard. Inspectors visit the site to check compliance. If they find a violation, the builder must correct it, and sometimes has to pay a penalty. After the final inspection, the owner receives a certificate of occupancy; without it, people mustn't use the building.\n\nModern codes also require accessibility. A building should have ramps and handrails, so that everyone can use it. Good ventilation and natural light aren't compulsory in every country, but designers should include them because they improve health and comfort.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The owner has to apply for a building permit before construction begins.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chủ công trình phải xin giấy phép xây dựng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Workers don't have to wear protective equipment on site.",
+        "ans": [
+         1
+        ],
+        "tip": "must wear.",
+        "why": "Đoạn 2: công nhân **phải** đeo thiết bị bảo hộ."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Without a certificate of occupancy, people mustn't use the building.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: chưa có giấy chứng nhận thì không được sử dụng công trình."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ventilation and natural light are compulsory in every country.",
+        "ans": [
+         1
+        ],
+        "tip": "aren't compulsory in every country.",
+        "why": "Đoạn 3: không phải nước nào cũng **bắt buộc**, nhưng nên có."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the building code explain?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: quy chuẩn nêu độ bền kết cấu, số lối thoát hiểm, bề rộng cầu thang.",
+        "opts": [
+         "How to sell a building",
+         "Which colour the facade must be",
+         "How strong a structure must be, and how many fire exits it must have"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do inspectors do?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thanh tra đến công trường để kiểm tra sự tuân thủ.",
+        "opts": [
+         "They design the building",
+         "They visit the site to check compliance",
+         "They pay the penalty"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must a builder do if inspectors find a violation?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhà thầu phải sửa lỗi, đôi khi còn bị phạt.",
+        "opts": [
+         "Ignore it",
+         "Stop using hard hats",
+         "Correct it"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why should a building have ramps and handrails?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: để mọi người đều sử dụng được công trình.",
+        "opts": [
+         "So that everyone can use it",
+         "To reduce the noise level",
+         "To increase the height limit"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Urban Planning & Zoning",
+   "name_vi": "Quy hoạch đô thị & phân khu",
+   "icon": "🏙️",
+   "hue": 265,
+   "words": [
+    {
+     "en": "urban planning",
+     "vi": "quy hoạch đô thị"
+    },
+    {
+     "en": "urban planner",
+     "vi": "nhà quy hoạch đô thị"
+    },
+    {
+     "en": "zoning",
+     "vi": "việc phân vùng quy hoạch"
+    },
+    {
+     "en": "land use",
+     "vi": "sử dụng đất"
+    },
+    {
+     "en": "master plan",
+     "vi": "quy hoạch tổng thể"
+    },
+    {
+     "en": "urban sprawl",
+     "vi": "sự đô thị hóa lan tràn"
+    },
+    {
+     "en": "density",
+     "vi": "mật độ"
+    },
+    {
+     "en": "population growth",
+     "vi": "tăng dân số"
+    },
+    {
+     "en": "infrastructure",
+     "vi": "cơ sở hạ tầng"
+    },
+    {
+     "en": "public transport",
+     "vi": "giao thông công cộng"
+    },
+    {
+     "en": "road network",
+     "vi": "mạng lưới đường bộ"
+    },
+    {
+     "en": "traffic congestion",
+     "vi": "tắc nghẽn giao thông"
+    },
+    {
+     "en": "pedestrian",
+     "vi": "người đi bộ"
+    },
+    {
+     "en": "green space",
+     "vi": "không gian xanh"
+    },
+    {
+     "en": "public space",
+     "vi": "không gian công cộng"
+    },
+    {
+     "en": "mixed-use",
+     "vi": "đa chức năng (nhà ở + thương mại)"
+    },
+    {
+     "en": "suburb",
+     "vi": "vùng ngoại ô"
+    },
+    {
+     "en": "downtown",
+     "vi": "trung tâm thành phố"
+    },
+    {
+     "en": "neighbourhood",
+     "vi": "khu dân cư"
+    },
+    {
+     "en": "affordable housing",
+     "vi": "nhà ở giá phải chăng"
+    },
+    {
+     "en": "slum",
+     "vi": "khu ổ chuột"
+    },
+    {
+     "en": "urban renewal",
+     "vi": "tái phát triển đô thị"
+    },
+    {
+     "en": "gentrification",
+     "vi": "quá trình cải tạo khu dân cư làm tăng giá"
+    },
+    {
+     "en": "heritage",
+     "vi": "di sản"
+    },
+    {
+     "en": "conservation",
+     "vi": "việc bảo tồn"
+    },
+    {
+     "en": "public consultation",
+     "vi": "việc lấy ý kiến cộng đồng"
+    },
+    {
+     "en": "land value",
+     "vi": "giá trị đất"
+    },
+    {
+     "en": "commuter",
+     "vi": "người đi làm xa"
+    },
+    {
+     "en": "ring road",
+     "vi": "đường vành đai"
+    },
+    {
+     "en": "utilities",
+     "vi": "các tiện ích hạ tầng (điện, nước…)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ divides a city into areas for housing, business and industry.",
+        "ans": [
+         0
+        ],
+        "tip": "zone = khu vực.",
+        "why": "**zoning** = phân vùng sử dụng đất.",
+        "opts": [
+         "Zoning",
+         "Heritage",
+         "Density"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The city's ___ sets goals for growth over the next 20 years.",
+        "ans": [
+         1
+        ],
+        "tip": "master = chủ đạo.",
+        "why": "**master plan** = quy hoạch tổng thể.",
+        "opts": [
+         "ring road",
+         "master plan",
+         "slum"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When a city grows outward with low-density housing, it is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "sprawl = lan rộng bừa bãi.",
+        "why": "**urban sprawl** = đô thị lan tràn.",
+        "opts": [
+         "urban sprawl",
+         "urban renewal",
+         "gentrification"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A new metro line would reduce ___ in the city centre.",
+        "ans": [
+         2
+        ],
+        "tip": "congest = tắc nghẽn.",
+        "why": "**traffic congestion** = tắc nghẽn giao thông.",
+        "opts": [
+         "conservation",
+         "utilities",
+         "traffic congestion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ area combines homes, shops and offices in the same neighbourhood.",
+        "ans": [
+         2
+        ],
+        "tip": "mixed = pha trộn.",
+        "why": "**mixed-use** = khu đa chức năng.",
+        "opts": [
+         "suburb",
+         "slum",
+         "mixed-use"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many young families cannot afford high rents, so the city needs more ___.",
+        "ans": [
+         2
+        ],
+        "tip": "afford = đủ khả năng chi trả.",
+        "why": "**affordable housing** = nhà ở giá phải chăng.",
+        "opts": [
+         "green space",
+         "ring road",
+         "affordable housing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a person who travels regularly between home and work.",
+        "ans": [
+         1
+        ],
+        "tip": "commute = đi làm đều đặn.",
+        "why": "**commuter** = người đi làm xa hằng ngày.",
+        "opts": [
+         "pedestrian",
+         "commuter",
+         "urban planner"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The old market was protected as part of the city's ___.",
+        "ans": [
+         0
+        ],
+        "tip": "heritage = di sản thừa hưởng.",
+        "why": "**heritage** = di sản.",
+        "opts": [
+         "heritage",
+         "density",
+         "zoning"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "infrastructure",
+        "b": "basic systems such as roads, power and water supply",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "density",
+        "b": "the number of people or buildings in a given area",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pedestrian",
+        "b": "a person who travels on foot",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "green space",
+        "b": "an area of parks, gardens or trees",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "gentrification",
+        "b": "when wealthier people move into an area and prices rise",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "urban renewal",
+        "b": "rebuilding or improving old parts of a city",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "public consultation",
+        "b": "asking local people for their opinions about a plan",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ring road",
+        "b": "a road that goes around a town or city",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the city builds a metro line, traffic congestion ___.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại, will + V.",
+        "why": "Điều kiện loại 1 → **will fall**.",
+        "opts": [
+         "will fall",
+         "would fall",
+         "fell"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were the mayor, I ___ more parks.",
+        "ans": [
+         1
+        ],
+        "tip": "If + quá khứ, would + V.",
+        "why": "Loại 2 → **would build**.",
+        "opts": [
+         "will build",
+         "would build",
+         "built"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the population ___ quickly, the city will need more housing.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1: **grows**.",
+        "opts": [
+         "grows",
+         "grew",
+         "would grow"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If zoning laws were stricter, urban sprawl ___ slower.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ → would.",
+        "why": "Loại 2 → **would be**.",
+        "opts": [
+         "will be",
+         "is",
+         "would be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If planners ___ local people, they would understand the real needs of the neighbourhood.",
+        "ans": [
+         1
+        ],
+        "tip": "If + quá khứ đơn.",
+        "why": "Loại 2: **consulted**.",
+        "opts": [
+         "consult",
+         "consulted",
+         "would consult"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will happen if the government ___ the road network?",
+        "ans": [
+         0
+        ],
+        "tip": "không dùng will sau If.",
+        "why": "Loại 1: **expands**.",
+        "opts": [
+         "expands",
+         "expanded",
+         "will expand"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the word in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If land values ___ (rise), housing will become less affordable.",
+        "ans": [
+         [
+          "rise",
+          "increase"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: **rise**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (protect) heritage buildings, future generations will enjoy them.",
+        "ans": [
+         [
+          "protect"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: **protect**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) the planner, I would build a pedestrian zone.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were…",
+        "why": "Loại 2: **were** (was cũng được)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "More people would cycle if the city ___ (have) safe bike lanes.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If public transport ___ (improve), fewer people will drive.",
+        "ans": [
+         [
+          "improves"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, số ít: **improves**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Planning a growing city",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A fast-growing city faces many problems. If the population keeps growing, the city will need more housing, more roads and more utilities. Urban planners prepare a master plan to guide this growth. The plan uses zoning to decide which land is for housing, business, industry or green space.\n\nOne big challenge is urban sprawl. If the city spreads outward without control, commuters will travel longer distances and traffic congestion will get worse. Many planners say that if cities encouraged higher density and mixed-use neighbourhoods, people would live closer to work and use public transport more. A well-planned ring road can help, but it won't solve every problem.\n\nPlanners must also protect people and heritage. If the city carries out urban renewal without care, gentrification may push poorer residents out and affordable housing will disappear. That is why public consultation is important: if local people are asked for their opinions early, the final plan will be more successful and fairer.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A master plan guides a city's growth.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: quy hoạch tổng thể định hướng sự phát triển của thành phố."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Zoning only decides where roads are built.",
+        "ans": [
+         1
+        ],
+        "tip": "housing, business, industry or green space.",
+        "why": "Đoạn 1: zoning xác định đất dành cho **nhà ở, kinh doanh, công nghiệp hoặc không gian xanh**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If urban sprawl is uncontrolled, commuters will travel longer distances.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nếu thành phố lan rộng không kiểm soát, người đi làm sẽ đi xa hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Gentrification always creates affordable housing.",
+        "ans": [
+         1
+        ],
+        "tip": "may push residents out.",
+        "why": "Đoạn 3: gentrification có thể **đẩy cư dân nghèo ra ngoài** và làm mất nhà ở giá rẻ."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will the city need if the population keeps growing?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cần thêm nhà ở, đường sá và tiện ích.",
+        "opts": [
+         "Fewer schools",
+         "More housing, more roads and more utilities",
+         "A smaller master plan"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would happen if cities encouraged higher density and mixed-use areas?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: người dân sống gần nơi làm việc và dùng giao thông công cộng nhiều hơn.",
+        "opts": [
+         "Everyone would drive more",
+         "People would live closer to work and use public transport more",
+         "Heritage would be lost"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may gentrification do?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: gentrification có thể đẩy cư dân nghèo ra khỏi khu vực.",
+        "opts": [
+         "Reduce land value everywhere",
+         "Push poorer residents out",
+         "Stop urban renewal"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is public consultation important?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hỏi ý kiến sớm giúp quy hoạch thành công và công bằng hơn.",
+        "opts": [
+         "It makes the project cheaper to build",
+         "Early opinions make the plan more successful and fairer",
+         "It replaces the master plan"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sustainable & Smart Cities",
+   "name_vi": "Đô thị bền vững & thông minh",
+   "icon": "🌱",
+   "hue": 150,
+   "words": [
+    {
+     "en": "sustainability",
+     "vi": "tính bền vững"
+    },
+    {
+     "en": "green building",
+     "vi": "công trình xanh"
+    },
+    {
+     "en": "energy efficiency",
+     "vi": "hiệu quả sử dụng năng lượng"
+    },
+    {
+     "en": "renewable energy",
+     "vi": "năng lượng tái tạo"
+    },
+    {
+     "en": "solar panel",
+     "vi": "tấm pin mặt trời"
+    },
+    {
+     "en": "carbon footprint",
+     "vi": "dấu chân carbon"
+    },
+    {
+     "en": "emissions",
+     "vi": "khí thải"
+    },
+    {
+     "en": "passive design",
+     "vi": "thiết kế thụ động"
+    },
+    {
+     "en": "green roof",
+     "vi": "mái xanh"
+    },
+    {
+     "en": "rainwater harvesting",
+     "vi": "thu gom nước mưa"
+    },
+    {
+     "en": "recycling",
+     "vi": "việc tái chế"
+    },
+    {
+     "en": "retrofit",
+     "vi": "cải tạo công trình cũ"
+    },
+    {
+     "en": "green certification",
+     "vi": "chứng nhận công trình xanh"
+    },
+    {
+     "en": "smart city",
+     "vi": "thành phố thông minh"
+    },
+    {
+     "en": "sensor",
+     "vi": "cảm biến"
+    },
+    {
+     "en": "Internet of Things (IoT)",
+     "vi": "Internet vạn vật"
+    },
+    {
+     "en": "big data",
+     "vi": "dữ liệu lớn"
+    },
+    {
+     "en": "smart grid",
+     "vi": "lưới điện thông minh"
+    },
+    {
+     "en": "electric vehicle (EV)",
+     "vi": "xe điện"
+    },
+    {
+     "en": "bike lane",
+     "vi": "làn xe đạp"
+    },
+    {
+     "en": "walkability",
+     "vi": "mức độ thuận tiện cho người đi bộ"
+    },
+    {
+     "en": "urban heat island",
+     "vi": "đảo nhiệt đô thị"
+    },
+    {
+     "en": "flood",
+     "vi": "lũ lụt"
+    },
+    {
+     "en": "climate change",
+     "vi": "biến đổi khí hậu"
+    },
+    {
+     "en": "resilience",
+     "vi": "khả năng chống chịu"
+    },
+    {
+     "en": "circular economy",
+     "vi": "kinh tế tuần hoàn"
+    },
+    {
+     "en": "vertical garden",
+     "vi": "vườn thẳng đứng"
+    },
+    {
+     "en": "15-minute city",
+     "vi": "thành phố 15 phút"
+    },
+    {
+     "en": "digital twin",
+     "vi": "bản sao số"
+    },
+    {
+     "en": "modular construction",
+     "vi": "xây dựng theo mô-đun"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ kiến trúc – quy hoạch phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ uses less energy and water and is built with eco-friendly materials.",
+        "ans": [
+         0
+        ],
+        "tip": "green = thân thiện môi trường.",
+        "why": "**green building** = công trình xanh.",
+        "opts": [
+         "green building",
+         "flood",
+         "sensor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Solar panels and wind turbines produce ___ that never runs out.",
+        "ans": [
+         1
+        ],
+        "tip": "renew = làm mới.",
+        "why": "**renewable energy** = năng lượng tái tạo.",
+        "opts": [
+         "emissions",
+         "renewable energy",
+         "recycling"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Your ___ is the total amount of greenhouse gases your activities produce.",
+        "ans": [
+         1
+        ],
+        "tip": "footprint = dấu chân.",
+        "why": "**carbon footprint** = dấu chân carbon.",
+        "opts": [
+         "walkability",
+         "carbon footprint",
+         "sensor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is covered with plants to reduce heat and absorb rainwater.",
+        "ans": [
+         0
+        ],
+        "tip": "green + roof.",
+        "why": "**green roof** = mái phủ cây xanh.",
+        "opts": [
+         "green roof",
+         "smart grid",
+         "bike lane"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The city decided to ___ its old offices with better insulation and new windows.",
+        "ans": [
+         2
+        ],
+        "tip": "retro + fit = lắp thêm vào đồ cũ.",
+        "why": "**retrofit** = cải tạo công trình cũ.",
+        "opts": [
+         "sensor",
+         "big data",
+         "retrofit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a ___, sensors and data are used to manage traffic, energy and waste.",
+        "ans": [
+         0
+        ],
+        "tip": "smart = thông minh.",
+        "why": "**smart city** = thành phố thông minh.",
+        "opts": [
+         "smart city",
+         "urban heat island",
+         "vertical garden"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Dark roads and concrete make districts hotter than the countryside, causing the ___ effect.",
+        "ans": [
+         2
+        ],
+        "tip": "heat island = hòn đảo nóng.",
+        "why": "**urban heat island** = đảo nhiệt đô thị.",
+        "opts": [
+         "circular economy",
+         "resilience",
+         "urban heat island"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A city with strong ___ can recover quickly after storms or floods.",
+        "ans": [
+         2
+        ],
+        "tip": "resilient = đàn hồi, phục hồi nhanh.",
+        "why": "**resilience** = khả năng chống chịu.",
+        "opts": [
+         "emissions",
+         "modular construction",
+         "resilience"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sustainability",
+        "b": "meeting present needs without harming the future",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "emissions",
+        "b": "gases released into the air",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "passive design",
+        "b": "using sunlight and airflow to heat and cool a building naturally",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "rainwater harvesting",
+        "b": "collecting rain for later use",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sensor",
+        "b": "a device that detects changes such as heat or movement",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "walkability",
+        "b": "how easy and pleasant it is to walk around an area",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "circular economy",
+        "b": "a system that reuses materials instead of throwing them away",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "digital twin",
+        "b": "a virtual copy of a real building or city, used for testing",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many cities ___ green roofs in the last decade.",
+        "ans": [
+         0
+        ],
+        "tip": "in the last decade → hiện tại hoàn thành.",
+        "why": "Khoảng thời gian kéo dài đến nay → **have built**.",
+        "opts": [
+         "have built",
+         "built",
+         "were building"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The council ___ the new bike lanes in 2022.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2022 → quá khứ đơn.",
+        "why": "Mốc thời gian đã qua → **opened**.",
+        "opts": [
+         "has opened",
+         "opens",
+         "opened"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "So far, the city ___ its carbon emissions by 15%.",
+        "ans": [
+         1
+        ],
+        "tip": "so far → hiện tại hoàn thành.",
+        "why": "'So far' → **has reduced**.",
+        "opts": [
+         "reduced",
+         "has reduced",
+         "was reducing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The architect ___ a solar facade for the museum last year.",
+        "ans": [
+         1
+        ],
+        "tip": "last year → quá khứ đơn.",
+        "why": "'last year' → **designed**.",
+        "opts": [
+         "has designed",
+         "designed",
+         "designs"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Rainfall ___ more extreme since the 1990s.",
+        "ans": [
+         1
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since the 1990s' → **has become**.",
+        "opts": [
+         "became",
+         "has become",
+         "becomes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ the old factory into apartments in 2019.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2019 → quá khứ đơn.",
+        "why": "Mốc 'in 2019' → **converted**.",
+        "opts": [
+         "have converted",
+         "convert",
+         "converted"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The city ___ (install) 5,000 sensors last year.",
+        "ans": [
+         [
+          "installed"
+         ]
+        ],
+        "tip": "",
+        "why": "'last year' → quá khứ đơn: **installed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Sea levels ___ (rise) since 1900.",
+        "ans": [
+         [
+          "have risen"
+         ]
+        ],
+        "tip": "rise – rose – risen.",
+        "why": "'since 1900' → **have risen**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The school ___ (not / switch) to renewable energy yet.",
+        "ans": [
+         [
+          "has not switched",
+          "hasn't switched"
+         ]
+        ],
+        "tip": "",
+        "why": "'yet' → **has not switched**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "In 2015, the government ___ (launch) a recycling programme.",
+        "ans": [
+         [
+          "launched"
+         ]
+        ],
+        "tip": "",
+        "why": "Mốc 'In 2015' → **launched**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Smart technology ___ (change) the way cities are managed.",
+        "ans": [
+         [
+          "has changed"
+         ]
+        ],
+        "tip": "",
+        "why": "Ảnh hưởng đến hiện tại → **has changed**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Cities that learn",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "In the past, cities grew quickly and polluted the air and water. In the twentieth century, many factories and cars filled the streets, and urban heat islands and floods became common problems. Today, planners have changed their approach. They have introduced sustainability goals, and many architects have designed green buildings that use renewable energy and save water.\n\nSeveral cities have gone further. Copenhagen built hundreds of kilometres of bike lanes, and many European cities have created low-emission zones. In recent years, planners have also started to use smart technology. Sensors collect data about traffic, air quality and energy use, and a digital twin lets the city test new ideas before building them. The idea of the 15-minute city has become popular because it improves walkability and reduces the carbon footprint.\n\nHowever, challenges remain. Climate change has made floods and heat waves more frequent, so cities must improve their resilience. Many old buildings have been retrofitted, but millions still waste energy. Experts say that a circular economy and modular construction can help, and cities have only begun to use them.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In the past, cities grew quickly and polluted the air and water.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: các thành phố từng phát triển nhanh và gây ô nhiễm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Planners have not introduced any sustainability goals.",
+        "ans": [
+         1
+        ],
+        "tip": "have introduced.",
+        "why": "Đoạn 1: các nhà quy hoạch **đã đưa ra** mục tiêu bền vững."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A digital twin lets a city test new ideas before building them.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bản sao số cho phép thử ý tưởng trước khi xây dựng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "All old buildings have already been retrofitted.",
+        "ans": [
+         1
+        ],
+        "tip": "millions still waste energy.",
+        "why": "Đoạn 3: nhiều tòa nhà đã được cải tạo, nhưng **hàng triệu** tòa vẫn lãng phí năng lượng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What have many architects designed?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: kiến trúc sư đã thiết kế công trình xanh.",
+        "opts": [
+         "Only skyscrapers",
+         "Factories with high emissions",
+         "Green buildings that use renewable energy and save water"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do sensors collect?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cảm biến thu thập dữ liệu giao thông, không khí, năng lượng.",
+        "opts": [
+         "Data about traffic, air quality and energy use",
+         "Money from commuters",
+         "Rainwater for gardens"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why has the 15-minute city become popular?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nó cải thiện khả năng đi bộ và giảm dấu chân carbon.",
+        "opts": [
+         "It removes all bike lanes",
+         "It improves walkability and reduces the carbon footprint",
+         "It increases traffic congestion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What has climate change made more frequent?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: biến đổi khí hậu khiến lũ lụt và sóng nóng thường xuyên hơn.",
+        "opts": [
+         "Recycling programmes",
+         "Smart grids",
+         "Floods and heat waves"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "surroundings",
+   "vùng xung quanh"
+  ],
+  [
+   "climate",
+   "khí hậu"
+  ],
+  [
+   "balance",
+   "cân bằng"
+  ],
+  [
+   "comfortable",
+   "thoải mái"
+  ],
+  [
+   "irregular",
+   "không đều, bất quy tắc"
+  ],
+  [
+   "attract",
+   "thu hút"
+  ],
+  [
+   "customer",
+   "khách hàng"
+  ],
+  [
+   "famous",
+   "nổi tiếng"
+  ],
+  [
+   "tourist",
+   "khách du lịch"
+  ],
+  [
+   "mirror",
+   "phản chiếu"
+  ],
+  [
+   "carry",
+   "chịu (tải); mang"
+  ],
+  [
+   "span",
+   "bắc qua, vượt nhịp"
+  ],
+  [
+   "damp",
+   "ẩm ướt"
+  ],
+  [
+   "install",
+   "lắp đặt"
+  ],
+  [
+   "harmful",
+   "có hại"
+  ],
+  [
+   "advantage",
+   "ưu điểm"
+  ],
+  [
+   "disadvantage",
+   "nhược điểm"
+  ],
+  [
+   "compare",
+   "so sánh"
+  ],
+  [
+   "natural",
+   "tự nhiên"
+  ],
+  [
+   "safe",
+   "an toàn"
+  ],
+  [
+   "protect",
+   "bảo vệ"
+  ],
+  [
+   "rough",
+   "sơ bộ, thô"
+  ],
+  [
+   "realistic",
+   "chân thực"
+  ],
+  [
+   "explore",
+   "khám phá, tìm tòi"
+  ],
+  [
+   "mistake",
+   "lỗi, sai sót"
+  ],
+  [
+   "review",
+   "rà soát"
+  ],
+  [
+   "deadline",
+   "hạn chót"
+  ],
+  [
+   "authority",
+   "cơ quan chức năng"
+  ],
+  [
+   "apply for",
+   "nộp đơn xin"
+  ],
+  [
+   "approve",
+   "phê duyệt"
+  ],
+  [
+   "correct",
+   "sửa chữa; đúng"
+  ],
+  [
+   "compulsory",
+   "bắt buộc"
+  ],
+  [
+   "improve",
+   "cải thiện"
+  ],
+  [
+   "comfort",
+   "sự thoải mái"
+  ],
+  [
+   "fresh air",
+   "không khí trong lành"
+  ],
+  [
+   "stair",
+   "bậc thang"
+  ],
+  [
+   "wheelchair",
+   "xe lăn"
+  ],
+  [
+   "disabled",
+   "khuyết tật"
+  ],
+  [
+   "drill",
+   "buổi diễn tập"
+  ],
+  [
+   "smell",
+   "mùi"
+  ],
+  [
+   "wet",
+   "ướt"
+  ],
+  [
+   "growth",
+   "sự tăng trưởng"
+  ],
+  [
+   "outward",
+   "ra phía ngoài"
+  ],
+  [
+   "control",
+   "kiểm soát"
+  ],
+  [
+   "challenge",
+   "thách thức"
+  ],
+  [
+   "spread",
+   "lan rộng"
+  ],
+  [
+   "resident",
+   "cư dân"
+  ],
+  [
+   "mayor",
+   "thị trưởng"
+  ],
+  [
+   "council",
+   "hội đồng"
+  ],
+  [
+   "pollute",
+   "gây ô nhiễm"
+  ],
+  [
+   "approach",
+   "cách tiếp cận"
+  ],
+  [
+   "goal",
+   "mục tiêu"
+  ],
+  [
+   "collect",
+   "thu thập"
+  ],
+  [
+   "recent",
+   "gần đây"
+  ],
+  [
+   "frequent",
+   "thường xuyên"
+  ],
+  [
+   "heat wave",
+   "đợt nắng nóng"
+  ],
+  [
+   "waste",
+   "lãng phí; rác thải"
+  ],
+  [
+   "rainfall",
+   "lượng mưa"
+  ],
+  [
+   "extreme",
+   "cực đoan"
+  ],
+  [
+   "convert",
+   "chuyển đổi"
+  ],
+  [
+   "factory",
+   "nhà máy"
+  ],
+  [
+   "tower",
+   "tòa tháp"
+  ],
+  [
+   "bridge",
+   "cầu"
+  ],
+  [
+   "library",
+   "thư viện"
+  ],
+  [
+   "survey",
+   "khảo sát"
+  ],
+  [
+   "pavement",
+   "vỉa hè"
+  ],
+  [
+   "junction",
+   "ngã giao"
+  ],
+  [
+   "metro",
+   "tàu điện ngầm"
+  ],
+  [
+   "parking",
+   "chỗ đỗ xe"
+  ],
+  [
+   "rent",
+   "tiền thuê"
+  ],
+  [
+   "afford",
+   "đủ khả năng chi trả"
+  ],
+  [
+   "household",
+   "hộ gia đình"
+  ],
+  [
+   "gravel",
+   "sỏi"
+  ],
+  [
+   "sand",
+   "cát"
+  ],
+  [
+   "bar",
+   "thanh (thép)"
+  ],
+  [
+   "horizontal",
+   "nằm ngang"
+  ],
+  [
+   "vertical",
+   "thẳng đứng"
+  ],
+  [
+   "triangle",
+   "hình tam giác"
+  ],
+  [
+   "damage",
+   "hư hại"
+  ],
+  [
+   "upper",
+   "ở trên, tầng trên"
+  ]
+ ]
+}

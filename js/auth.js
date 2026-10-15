@@ -5,6 +5,20 @@ import { sb } from "./supabase.js";
 import { toast } from "./utils.js";
 import { uploadAvatar } from "./api.js";
 
+const REGISTRATION_EMAIL_DOMAINS = new Set([
+  "gmail.com",
+  "student.ctu.edu.vn",
+  "student.ctuet.edu.vn",
+  "student.ctump.edu.vn",
+  "student.nctu.edu.vn",
+  "st.tdu.edu.vn",
+]);
+
+export function isAllowedRegistrationEmail(email) {
+  const parts = email.trim().toLowerCase().split("@");
+  return parts.length === 2 && REGISTRATION_EMAIL_DOMAINS.has(parts[1]);
+}
+
 export const Auth = {
   user: null, // auth user
   profile: null, // { id, email, display_name, role }
@@ -67,6 +81,11 @@ export const Auth = {
     if (error) throw error;
     // Nếu Supabase bật "Confirm email" → chưa có session, cần xác nhận qua email
     return { needsConfirm: !data.session };
+  },
+
+  async reportBlockedSignupEmail(email) {
+    const { error } = await sb.rpc("report_blocked_signup_email", { attempted_email: email.trim().toLowerCase() });
+    if (error) throw error;
   },
 
   async signIn({ email, password }) {

@@ -1,0 +1,4287 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "marketing",
+  "name": "Marketing",
+  "name_vi": "Marketing (Tiếp thị)",
+  "icon": "🎯",
+  "hue": 345,
+  "description": "Từ vựng, ngữ pháp và bài đọc chuyên ngành Marketing: chiến lược & thấu hiểu khách hàng, thương hiệu & định vị, nội dung & mạng xã hội, quảng cáo & hoạch định truyền thông, SEO & phân tích dữ liệu, quản lý chiến dịch & ROI."
+ },
+ "units": [
+  {
+   "name": "Marketing Strategy & Consumer Insight",
+   "name_vi": "Chiến lược marketing & thấu hiểu khách hàng",
+   "icon": "🎯",
+   "hue": 345,
+   "words": [
+    {
+     "en": "marketing strategy",
+     "vi": "chiến lược marketing"
+    },
+    {
+     "en": "market analysis",
+     "vi": "phân tích thị trường"
+    },
+    {
+     "en": "consumer insight",
+     "vi": "sự thấu hiểu người tiêu dùng"
+    },
+    {
+     "en": "buyer persona",
+     "vi": "chân dung khách hàng điển hình"
+    },
+    {
+     "en": "target audience",
+     "vi": "đối tượng mục tiêu"
+    },
+    {
+     "en": "market segment",
+     "vi": "phân khúc thị trường"
+    },
+    {
+     "en": "niche market",
+     "vi": "thị trường ngách"
+    },
+    {
+     "en": "customer journey",
+     "vi": "hành trình khách hàng"
+    },
+    {
+     "en": "touchpoint",
+     "vi": "điểm chạm với khách hàng"
+    },
+    {
+     "en": "pain point",
+     "vi": "điểm đau của khách hàng"
+    },
+    {
+     "en": "purchase intent",
+     "vi": "ý định mua hàng"
+    },
+    {
+     "en": "buying decision",
+     "vi": "quyết định mua"
+    },
+    {
+     "en": "consumer behavior",
+     "vi": "hành vi người tiêu dùng"
+    },
+    {
+     "en": "brand preference",
+     "vi": "sự ưa chuộng thương hiệu"
+    },
+    {
+     "en": "focus group",
+     "vi": "nhóm thảo luận"
+    },
+    {
+     "en": "questionnaire",
+     "vi": "bảng câu hỏi khảo sát"
+    },
+    {
+     "en": "primary research",
+     "vi": "nghiên cứu sơ cấp"
+    },
+    {
+     "en": "secondary research",
+     "vi": "nghiên cứu thứ cấp"
+    },
+    {
+     "en": "sample",
+     "vi": "mẫu khảo sát"
+    },
+    {
+     "en": "respondent",
+     "vi": "người trả lời khảo sát"
+    },
+    {
+     "en": "psychographic",
+     "vi": "thuộc tâm lý học (lối sống, giá trị)"
+    },
+    {
+     "en": "demand",
+     "vi": "nhu cầu thị trường"
+    },
+    {
+     "en": "market size",
+     "vi": "quy mô thị trường"
+    },
+    {
+     "en": "market trend",
+     "vi": "xu hướng thị trường"
+    },
+    {
+     "en": "competitor analysis",
+     "vi": "phân tích đối thủ"
+    },
+    {
+     "en": "benchmarking",
+     "vi": "so chuẩn"
+    },
+    {
+     "en": "value proposition",
+     "vi": "đề xuất giá trị"
+    },
+    {
+     "en": "marketing objective",
+     "vi": "mục tiêu marketing"
+    },
+    {
+     "en": "marketing budget",
+     "vi": "ngân sách marketing"
+    },
+    {
+     "en": "early adopter",
+     "vi": "người dùng tiên phong"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a fictional profile of a typical customer, with a name, age, job and goals.",
+        "ans": [
+         2
+        ],
+        "tip": "persona = nhân vật đại diện.",
+        "why": "**buyer persona** = chân dung khách hàng điển hình do doanh nghiệp xây dựng.",
+        "opts": [
+         "touchpoint",
+         "questionnaire",
+         "buyer persona"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A small group of people discuss a product in a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "focus = tập trung vào một chủ đề.",
+        "why": "**focus group** = nhóm thảo luận để thu thập ý kiến về sản phẩm.",
+        "opts": [
+         "touchpoint",
+         "focus group",
+         "pain point"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Every time a customer meets the brand, such as on the website or in a store, is a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "touch + point = điểm chạm.",
+        "why": "**touchpoint** = điểm chạm, mọi lần khách hàng tiếp xúc với thương hiệu.",
+        "opts": [
+         "touchpoint",
+         "respondent",
+         "sample"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Slow delivery is a major ___ for online shoppers.",
+        "ans": [
+         0
+        ],
+        "tip": "pain = đau.",
+        "why": "**pain point** = điểm đau, vấn đề gây khó chịu cho khách hàng.",
+        "opts": [
+         "pain point",
+         "niche market",
+         "value proposition"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We designed a ___ with twenty questions and sent it to 800 people.",
+        "ans": [
+         2
+        ],
+        "tip": "question + naire = bảng câu hỏi.",
+        "why": "**questionnaire** = bảng câu hỏi dùng để khảo sát.",
+        "opts": [
+         "pain point",
+         "early adopter",
+         "questionnaire"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each person who answers a survey is called a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "respond = trả lời.",
+        "why": "**respondent** = người trả lời khảo sát.",
+        "opts": [
+         "competitor",
+         "respondent",
+         "early adopter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ explains why customers should choose your product instead of others.",
+        "ans": [
+         1
+        ],
+        "tip": "proposition = lời đề xuất.",
+        "why": "**value proposition** = đề xuất giá trị, lý do khách hàng nên chọn bạn.",
+        "opts": [
+         "market size",
+         "value proposition",
+         "purchase intent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ focuses on a small, specialised group of customers.",
+        "ans": [
+         0
+        ],
+        "tip": "niche = ngách nhỏ.",
+        "why": "**niche market** = thị trường ngách.",
+        "opts": [
+         "niche market",
+         "customer journey",
+         "brand preference"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "customer journey",
+        "b": "the steps a customer goes through from first hearing about a brand to buying",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "purchase intent",
+        "b": "how likely a customer is to buy a product",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "primary research",
+        "b": "collecting new data directly from customers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "secondary research",
+        "b": "using data that already exists, such as reports",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "psychographic",
+        "b": "relating to people's attitudes, values and lifestyles",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "early adopter",
+        "b": "a person who starts using a new product before most others",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "benchmarking",
+        "b": "comparing your performance with the best in the industry",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "market size",
+        "b": "the total number of potential buyers or the value of sales in a market",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The research team ___ a focus group every quarter.",
+        "ans": [
+         2
+        ],
+        "tip": "every quarter → V(s/es).",
+        "why": "'every quarter' = thói quen → **hiện tại đơn**: runs.",
+        "opts": [
+         "is running",
+         "ran",
+         "runs"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the moment, we ___ customer data from the survey.",
+        "ans": [
+         2
+        ],
+        "tip": "at the moment → be + V-ing.",
+        "why": "'At the moment' = đang xảy ra → **are analysing**.",
+        "opts": [
+         "analyse",
+         "analyses",
+         "are analysing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Most consumers ___ online reviews before they buy.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Thói quen chung, chủ ngữ số nhiều → hiện tại đơn: **read**.",
+        "opts": [
+         "are reading",
+         "read",
+         "reads"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The respondents ___ the questionnaire.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'Look!' báo hiệu hành động đang diễn ra → **are completing**.",
+        "opts": [
+         "are completing",
+         "complete",
+         "completes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our target audience usually ___ products on mobile.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'usually' → hiện tại đơn, 'audience' số ít: **buys**.",
+        "opts": [
+         "buys",
+         "is buying",
+         "buy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This month, the market ___ quickly because of a new trend.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "'This month' = giai đoạn đang diễn ra → **is changing**.",
+        "opts": [
+         "changes",
+         "change",
+         "is changing"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The strategist ___ (study) consumer behavior every day.",
+        "ans": [
+         [
+          "studies"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every day' → hiện tại đơn, ngôi số ít: **studies**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the team ___ (build) a new buyer persona.",
+        "ans": [
+         [
+          "is building",
+          "'s building"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'Right now' → **is building**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our competitors ___ (not / target) this niche market.",
+        "ans": [
+         [
+          "do not target",
+          "don't target"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số nhiều: **do not target**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (specialise) in consumer insight.",
+        "ans": [
+         [
+          "specialises",
+          "specializes"
+         ]
+        ],
+        "tip": "",
+        "why": "Chuyên môn → hiện tại đơn: **specialises**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, we ___ (compare) two value propositions.",
+        "ans": [
+         [
+          "are comparing",
+          "'re comparing"
+         ]
+        ],
+        "tip": "",
+        "why": "'At the moment' → **are comparing**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From insight to strategy",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every good marketing strategy starts with consumer insight. A marketing team first collects data in two ways. Primary research means asking customers directly, for example in a focus group or with a questionnaire. Secondary research uses existing reports about market size and market trends.\n\nNext, the team creates buyer personas. Each persona describes a typical customer: age, job, lifestyle and pain points. The team then maps the customer journey and lists every touchpoint, such as social media, the website and the shop. This shows where customers feel confused or leave the brand.\n\nFinally, the team writes a clear value proposition and sets marketing objectives and a marketing budget. Many companies also study their competitors and use benchmarking to see how they compare. Strategy is not a one-time task: the team keeps testing and updating it as customers change.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Primary research uses existing reports.",
+        "ans": [
+         1
+        ],
+        "tip": "primary ≠ secondary.",
+        "why": "Đoạn 1: nghiên cứu sơ cấp là hỏi trực tiếp khách hàng; **thứ cấp** mới dùng báo cáo có sẵn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A buyer persona describes a typical customer.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mỗi persona mô tả một khách hàng điển hình."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Touchpoints include the website and social media.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: touchpoint gồm mạng xã hội, website và cửa hàng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Strategy is a one-time task.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chiến lược **không phải** việc làm một lần; đội ngũ liên tục thử nghiệm và cập nhật."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is an example of primary research?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: focus group hoặc bảng câu hỏi là nghiên cứu sơ cấp.",
+        "opts": [
+         "A report about market size",
+         "A questionnaire sent to customers",
+         "A competitor's website"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the customer journey map show?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bản đồ cho thấy chỗ khách hàng bối rối hoặc rời bỏ thương hiệu.",
+        "opts": [
+         "How much each employee earns",
+         "Where customers feel confused or leave the brand",
+         "Which products are cheapest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the team set after writing the value proposition?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đội ngũ đặt mục tiêu marketing và ngân sách.",
+        "opts": [
+         "Marketing objectives and a budget",
+         "A new company name",
+         "The final sales report"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the team keep updating the strategy?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chiến lược được cập nhật khi khách hàng thay đổi.",
+        "opts": [
+         "Because the budget is unlimited",
+         "Because competitors never change",
+         "Because customers change"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Branding & Positioning",
+   "name_vi": "Thương hiệu & định vị",
+   "icon": "🏷️",
+   "hue": 280,
+   "words": [
+    {
+     "en": "brand identity",
+     "vi": "nhận diện thương hiệu"
+    },
+    {
+     "en": "brand image",
+     "vi": "hình ảnh thương hiệu"
+    },
+    {
+     "en": "brand equity",
+     "vi": "giá trị thương hiệu"
+    },
+    {
+     "en": "brand awareness",
+     "vi": "độ nhận biết thương hiệu"
+    },
+    {
+     "en": "brand loyalty",
+     "vi": "lòng trung thành với thương hiệu"
+    },
+    {
+     "en": "brand personality",
+     "vi": "cá tính thương hiệu"
+    },
+    {
+     "en": "brand voice",
+     "vi": "giọng điệu thương hiệu"
+    },
+    {
+     "en": "logo",
+     "vi": "biểu tượng thương hiệu"
+    },
+    {
+     "en": "tagline",
+     "vi": "khẩu hiệu"
+    },
+    {
+     "en": "visual identity",
+     "vi": "nhận diện hình ảnh"
+    },
+    {
+     "en": "brand guidelines",
+     "vi": "bộ quy chuẩn thương hiệu"
+    },
+    {
+     "en": "rebranding",
+     "vi": "làm mới thương hiệu"
+    },
+    {
+     "en": "brand extension",
+     "vi": "mở rộng thương hiệu"
+    },
+    {
+     "en": "private label",
+     "vi": "nhãn hàng riêng"
+    },
+    {
+     "en": "premium",
+     "vi": "cao cấp"
+    },
+    {
+     "en": "luxury",
+     "vi": "xa xỉ"
+    },
+    {
+     "en": "mass market",
+     "vi": "thị trường đại chúng"
+    },
+    {
+     "en": "positioning statement",
+     "vi": "tuyên ngôn định vị"
+    },
+    {
+     "en": "differentiation",
+     "vi": "sự khác biệt hóa"
+    },
+    {
+     "en": "brand ambassador",
+     "vi": "đại sứ thương hiệu"
+    },
+    {
+     "en": "endorsement",
+     "vi": "sự chứng thực của người nổi tiếng"
+    },
+    {
+     "en": "packaging",
+     "vi": "bao bì"
+    },
+    {
+     "en": "trust",
+     "vi": "niềm tin"
+    },
+    {
+     "en": "credibility",
+     "vi": "độ tin cậy"
+    },
+    {
+     "en": "consistency",
+     "vi": "sự nhất quán"
+    },
+    {
+     "en": "emotional connection",
+     "vi": "kết nối cảm xúc"
+    },
+    {
+     "en": "storytelling",
+     "vi": "kể chuyện thương hiệu"
+    },
+    {
+     "en": "brand recall",
+     "vi": "khả năng nhớ thương hiệu"
+    },
+    {
+     "en": "co-branding",
+     "vi": "hợp tác thương hiệu"
+    },
+    {
+     "en": "trademark",
+     "vi": "nhãn hiệu đã đăng ký"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Coca-Cola's red logo and fonts are part of its ___.",
+        "ans": [
+         2
+        ],
+        "tip": "identity = bản sắc.",
+        "why": "**brand identity** = bộ nhận diện: logo, màu sắc, phông chữ...",
+        "opts": [
+         "mass market",
+         "endorsement",
+         "brand identity"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A famous actor who represents a company is a brand ___.",
+        "ans": [
+         1
+        ],
+        "tip": "ambassador = đại sứ.",
+        "why": "**brand ambassador** = đại sứ thương hiệu.",
+        "opts": [
+         "equity",
+         "ambassador",
+         "guidelines"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The brand's ___ is friendly and humorous in all its posts.",
+        "ans": [
+         0
+        ],
+        "tip": "voice = giọng nói/giọng điệu.",
+        "why": "**brand voice** = giọng điệu thương hiệu thể hiện trong nội dung.",
+        "opts": [
+         "voice",
+         "packaging",
+         "logo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After its image became old-fashioned, the company decided on ___.",
+        "ans": [
+         0
+        ],
+        "tip": "re + brand = làm mới thương hiệu.",
+        "why": "**rebranding** = làm mới hình ảnh, nhận diện thương hiệu.",
+        "opts": [
+         "rebranding",
+         "co-branding",
+         "endorsement"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Two companies launched a limited-edition product together, an example of ___.",
+        "ans": [
+         2
+        ],
+        "tip": "co = cùng.",
+        "why": "**co-branding** = hai thương hiệu hợp tác ra sản phẩm chung.",
+        "opts": [
+         "rebranding",
+         "storytelling",
+         "co-branding"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Supermarkets sell cheaper products under their own name. These are ___ products.",
+        "ans": [
+         1
+        ],
+        "tip": "private = riêng.",
+        "why": "**private label** = nhãn hàng riêng của nhà bán lẻ.",
+        "opts": [
+         "luxury",
+         "private label",
+         "premium"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Strong ___ means a brand is worth more because customers trust it.",
+        "ans": [
+         1
+        ],
+        "tip": "equity = giá trị tài sản.",
+        "why": "**brand equity** = giá trị thương hiệu.",
+        "opts": [
+         "brand recall",
+         "brand equity",
+         "consistency"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Using the same logo, colours and tone everywhere shows ___.",
+        "ans": [
+         0
+        ],
+        "tip": "consistent = nhất quán.",
+        "why": "**consistency** = sự nhất quán trong mọi điểm chạm.",
+        "opts": [
+         "consistency",
+         "differentiation",
+         "endorsement"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "positioning statement",
+        "b": "a short sentence that explains how a brand is different for its target customers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "differentiation",
+        "b": "making a product stand out from similar ones",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "credibility",
+        "b": "the quality of being believable and trusted",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "brand loyalty",
+        "b": "the habit of repeatedly choosing the same brand",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "storytelling",
+        "b": "using a story to make a brand more memorable",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "brand extension",
+        "b": "using an existing brand name for a new product category",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mass market",
+        "b": "a very large group of ordinary consumers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "brand guidelines",
+        "b": "a document that sets rules for how the brand looks and sounds",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn dùng -er/more + than; so sánh nhất dùng the + -est/most.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A premium brand is usually ___ than a mass-market brand.",
+        "ans": [
+         2
+        ],
+        "tip": "adj dài + more + than.",
+        "why": "Tính từ dài → **more expensive than**.",
+        "opts": [
+         "expensiver",
+         "most expensive",
+         "more expensive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is ___ logo in our industry.",
+        "ans": [
+         2
+        ],
+        "tip": "the + most + adj dài.",
+        "why": "So sánh nhất tính từ dài: **the most recognisable**.",
+        "opts": [
+         "more recognisable",
+         "most recognisable",
+         "the most recognisable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our new tagline is ___ than the old one.",
+        "ans": [
+         1
+        ],
+        "tip": "catchy → catchier.",
+        "why": "Tính từ ngắn tận cùng -y: **catchier than**.",
+        "opts": [
+         "more catch",
+         "catchier",
+         "most catchy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers trust friends' reviews ___ than adverts.",
+        "ans": [
+         0
+        ],
+        "tip": "trust ... more than.",
+        "why": "Trạng từ so sánh hơn của 'much' là **more**.",
+        "opts": [
+         "more",
+         "most",
+         "much"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This campaign was not as successful ___ the last one.",
+        "ans": [
+         0
+        ],
+        "tip": "not as ... as.",
+        "why": "So sánh bằng phủ định: **not as successful as**.",
+        "opts": [
+         "as",
+         "than",
+         "like"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Luxury brands are ___ to copy than basic brands.",
+        "ans": [
+         2
+        ],
+        "tip": "adj ngắn + -er.",
+        "why": "Tính từ ngắn: **harder than**.",
+        "opts": [
+         "more hard",
+         "hardest",
+         "harder"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Viết dạng so sánh hơn hoặc so sánh nhất của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A strong brand is ___ (valuable) than a weak one.",
+        "ans": [
+         [
+          "more valuable"
+         ]
+        ],
+        "tip": "adj dài + more.",
+        "why": "Tính từ dài: **more valuable**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Ours is the ___ (colourful) packaging in the market.",
+        "ans": [
+         [
+          "most colourful",
+          "most colorful"
+         ]
+        ],
+        "tip": "the + most + adj dài.",
+        "why": "So sánh nhất tính từ dài: **most colourful**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Her storytelling is ___ (emotional) than his.",
+        "ans": [
+         [
+          "more emotional"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ dài: **more emotional**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The rebrand made the logo ___ (simple) than before.",
+        "ans": [
+         [
+          "simpler"
+         ]
+        ],
+        "tip": "adj ngắn + -er.",
+        "why": "Tính từ ngắn: **simpler**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (good) brand ambassador we have ever had.",
+        "ans": [
+         [
+          "best"
+         ]
+        ],
+        "tip": "good → better → best.",
+        "why": "Bất quy tắc: good → better → **best**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Two coffee brands",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Two coffee brands compete in the same city. Brand A is a premium brand. Its packaging is simpler and more elegant, and its prices are higher than those of Brand B. Its storytelling is about farmers and the origin of each bean, so the emotional connection with customers is stronger.\n\nBrand B is a mass-market brand. It is cheaper, and its shops are more numerous, so it is easier to find. However, its brand image is less distinctive, and many customers cannot remember its tagline. Last year it hired a famous singer as brand ambassador, which made its brand awareness higher than before.\n\nMarketing experts say that Brand A has the stronger positioning because it is clearer about who it serves. Brand B is trying to improve its credibility by keeping a consistent voice and quality in every shop.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Brand A's prices are lower than Brand B's.",
+        "ans": [
+         1
+        ],
+        "tip": "higher ≠ lower.",
+        "why": "Đoạn 1: giá của Brand A **cao hơn** Brand B."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Brand B has more shops than Brand A.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cửa hàng của Brand B nhiều hơn nên dễ tìm hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Many customers cannot remember Brand B's tagline.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhiều khách hàng không nhớ khẩu hiệu của Brand B."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Brand B hired a farmer as brand ambassador.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Brand B thuê một **ca sĩ nổi tiếng**, không phải nông dân."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is Brand A's storytelling about?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: câu chuyện của Brand A nói về nông dân và nguồn gốc hạt cà phê.",
+        "opts": [
+         "Cheap prices and many shops",
+         "Farmers and the origin of each bean",
+         "A famous singer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is Brand B easier to find?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cửa hàng của Brand B nhiều hơn.",
+        "opts": [
+         "It has a simpler logo",
+         "It has more shops",
+         "It has a higher price"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the singer do for Brand B?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhờ ca sĩ, độ nhận biết thương hiệu cao hơn trước.",
+        "opts": [
+         "Raised its brand awareness",
+         "Lowered its prices",
+         "Created its packaging"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do experts say Brand A has the stronger positioning?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: Brand A rõ ràng hơn về đối tượng mình phục vụ.",
+        "opts": [
+         "It sells more coffee",
+         "It spends more on ads",
+         "It is clearer about who it serves"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Content & Social Media Marketing",
+   "name_vi": "Tiếp thị nội dung & mạng xã hội",
+   "icon": "📱",
+   "hue": 190,
+   "words": [
+    {
+     "en": "content strategy",
+     "vi": "chiến lược nội dung"
+    },
+    {
+     "en": "content calendar",
+     "vi": "lịch nội dung"
+    },
+    {
+     "en": "blog post",
+     "vi": "bài viết blog"
+    },
+    {
+     "en": "caption",
+     "vi": "chú thích bài đăng"
+    },
+    {
+     "en": "headline",
+     "vi": "tiêu đề"
+    },
+    {
+     "en": "thumbnail",
+     "vi": "ảnh thu nhỏ"
+    },
+    {
+     "en": "infographic",
+     "vi": "đồ họa thông tin"
+    },
+    {
+     "en": "short-form video",
+     "vi": "video ngắn"
+    },
+    {
+     "en": "livestream",
+     "vi": "phát trực tiếp"
+    },
+    {
+     "en": "podcast",
+     "vi": "podcast"
+    },
+    {
+     "en": "user-generated content (UGC)",
+     "vi": "nội dung do người dùng tạo"
+    },
+    {
+     "en": "influencer marketing",
+     "vi": "tiếp thị người ảnh hưởng"
+    },
+    {
+     "en": "micro-influencer",
+     "vi": "người ảnh hưởng quy mô nhỏ"
+    },
+    {
+     "en": "community management",
+     "vi": "quản lý cộng đồng"
+    },
+    {
+     "en": "engagement rate",
+     "vi": "tỷ lệ tương tác"
+    },
+    {
+     "en": "like",
+     "vi": "lượt thích"
+    },
+    {
+     "en": "share",
+     "vi": "lượt chia sẻ"
+    },
+    {
+     "en": "comment",
+     "vi": "bình luận"
+    },
+    {
+     "en": "follower",
+     "vi": "người theo dõi"
+    },
+    {
+     "en": "hashtag",
+     "vi": "thẻ hashtag"
+    },
+    {
+     "en": "trending",
+     "vi": "đang thịnh hành"
+    },
+    {
+     "en": "viral post",
+     "vi": "bài đăng lan truyền"
+    },
+    {
+     "en": "organic reach",
+     "vi": "lượt tiếp cận tự nhiên"
+    },
+    {
+     "en": "social listening",
+     "vi": "lắng nghe mạng xã hội"
+    },
+    {
+     "en": "brand mention",
+     "vi": "lượt nhắc đến thương hiệu"
+    },
+    {
+     "en": "giveaway",
+     "vi": "chương trình tặng quà"
+    },
+    {
+     "en": "collaboration",
+     "vi": "sự hợp tác"
+    },
+    {
+     "en": "repurpose",
+     "vi": "tái sử dụng nội dung"
+    },
+    {
+     "en": "evergreen content",
+     "vi": "nội dung bền vững theo thời gian"
+    },
+    {
+     "en": "publishing schedule",
+     "vi": "lịch đăng bài"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The team plans every post in a ___ so nothing is forgotten.",
+        "ans": [
+         2
+        ],
+        "tip": "calendar = lịch.",
+        "why": "**content calendar** = lịch lên kế hoạch nội dung.",
+        "opts": [
+         "giveaway",
+         "thumbnail",
+         "content calendar"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A catchy ___ makes people want to click and read the article.",
+        "ans": [
+         1
+        ],
+        "tip": "head + line = dòng đầu.",
+        "why": "**headline** = tiêu đề thu hút người đọc.",
+        "opts": [
+         "livestream",
+         "headline",
+         "brand mention"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers' photos shared with our hashtag are ___.",
+        "ans": [
+         0
+        ],
+        "tip": "user-generated = do người dùng tạo.",
+        "why": "**user-generated content (UGC)** = nội dung do khách hàng tự tạo ra.",
+        "opts": [
+         "user-generated content",
+         "evergreen content",
+         "giveaway"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ has between 5,000 and 50,000 followers and a very loyal audience.",
+        "ans": [
+         0
+        ],
+        "tip": "micro = nhỏ.",
+        "why": "**micro-influencer** = người ảnh hưởng quy mô nhỏ nhưng tương tác cao.",
+        "opts": [
+         "micro-influencer",
+         "brand mention",
+         "thumbnail"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Tools for ___ show what people say about our brand online.",
+        "ans": [
+         2
+        ],
+        "tip": "listen = lắng nghe.",
+        "why": "**social listening** = theo dõi và phân tích những gì người dùng nói về thương hiệu.",
+        "opts": [
+         "repurposing",
+         "collaboration",
+         "social listening"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Unlike a ___ topic, evergreen content stays useful for years.",
+        "ans": [
+         1
+        ],
+        "tip": "trend = xu hướng.",
+        "why": "**trending** = đang thịnh hành, chóng qua; evergreen thì bền lâu.",
+        "opts": [
+         "thumbnail",
+         "trending",
+         "comment"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ one long video into five short clips for social media.",
+        "ans": [
+         1
+        ],
+        "tip": "re + purpose = dùng lại cho mục đích khác.",
+        "why": "**repurpose** = tái sử dụng nội dung theo định dạng khác.",
+        "opts": [
+         "livestream",
+         "repurpose",
+         "comment"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The brand ran a ___ where followers could win a free product.",
+        "ans": [
+         0
+        ],
+        "tip": "give + away = tặng đi.",
+        "why": "**giveaway** = chương trình tặng quà.",
+        "opts": [
+         "giveaway",
+         "infographic",
+         "engagement rate"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "engagement rate",
+        "b": "the percentage of followers who interact with a post",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "organic reach",
+        "b": "the number of people who see a post without paid promotion",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "infographic",
+        "b": "a picture that explains data or ideas visually",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "livestream",
+        "b": "a video broadcast shown online in real time",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "community management",
+        "b": "building relationships with online followers and answering them",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "brand mention",
+        "b": "a time when someone talks about a brand online",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "viral post",
+        "b": "content that spreads quickly and is shared by many people",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "publishing schedule",
+        "b": "a plan for when each piece of content goes online",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động = be + V3/ed (chủ ngữ chịu tác động của hành động).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Photos ___ by thousands of users every day.",
+        "ans": [
+         2
+        ],
+        "tip": "be + V3/ed.",
+        "why": "Ảnh 'được tải lên' → bị động hiện tại đơn: **are uploaded**.",
+        "opts": [
+         "upload",
+         "are uploading",
+         "are uploaded"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The video ___ last night.",
+        "ans": [
+         2
+        ],
+        "tip": "last night → was/were + V3.",
+        "why": "'last night' → bị động quá khứ đơn: **was published**.",
+        "opts": [
+         "published",
+         "is published",
+         "was published"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The content calendar ___ by the whole team.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Lịch 'được cập nhật' → bị động hiện tại đơn: **is updated**.",
+        "opts": [
+         "updates",
+         "is updated",
+         "is updating"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "New posts must ___ before 9 a.m.",
+        "ans": [
+         0
+        ],
+        "tip": "modal + be + V3.",
+        "why": "Sau modal dùng **be + V3**: must be approved.",
+        "opts": [
+         "be approved",
+         "approve",
+         "approved"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The winners of the giveaway ___ tomorrow.",
+        "ans": [
+         0
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be announced**.",
+        "opts": [
+         "will be announced",
+         "will announce",
+         "are announcing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Comments ___ by the community manager within an hour.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Bình luận 'được trả lời' → **are answered**.",
+        "opts": [
+         "answer",
+         "are answering",
+         "are answered"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở thể bị động (be + V3/ed) với thì phù hợp.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The posts ___ (schedule) a week in advance.",
+        "ans": [
+         [
+          "are scheduled"
+         ]
+        ],
+        "tip": "be + V3/ed.",
+        "why": "Hiện tại đơn bị động: **are scheduled**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This infographic ___ (design) by our intern last month.",
+        "ans": [
+         [
+          "was designed"
+         ]
+        ],
+        "tip": "",
+        "why": "'last month' → quá khứ bị động: **was designed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All comments ___ (read) by the team.",
+        "ans": [
+         [
+          "are read"
+         ]
+        ],
+        "tip": "",
+        "why": "Hiện tại đơn bị động, chủ ngữ số nhiều: **are read**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A new podcast ___ (launch) next month.",
+        "ans": [
+         [
+          "will be launched"
+         ]
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be launched**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The photo ___ (share) over 2,000 times yesterday.",
+        "ans": [
+         [
+          "was shared"
+         ]
+        ],
+        "tip": "",
+        "why": "'yesterday' → quá khứ bị động: **was shared**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Behind a viral post",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A viral post is rarely an accident. Behind it, a content strategy is carefully planned. First, a content calendar is created, and each post is assigned a topic, a format and a publishing time. Short-form videos are used for reach, while blog posts and infographics are written for people who want more detail.\n\nWhen a post is published, the engagement rate is watched closely. Comments are answered by the community manager, and useful ideas from followers are collected. Social listening tools are used to find brand mentions, so that both praise and complaints can be seen quickly.\n\nGood content is often repurposed. A long livestream can be cut into short clips, and customers' photos are shared as user-generated content after permission is given. In this way, a small team can keep a steady flow of content without losing quality.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A viral post is usually an accident.",
+        "ans": [
+         1
+        ],
+        "tip": "rarely ≠ usually.",
+        "why": "Đoạn 1: bài lan truyền **hiếm khi** là tình cờ; đằng sau là chiến lược được lên kế hoạch kỹ."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Short-form videos are used for reach.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: video ngắn được dùng để tăng tiếp cận."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Social listening tools are used to find brand mentions.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: công cụ lắng nghe mạng xã hội giúp tìm lượt nhắc đến thương hiệu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Customers' photos are shared without permission.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ảnh khách hàng chỉ được chia sẻ **sau khi được cho phép**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is assigned to each post in the calendar?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mỗi bài có chủ đề, định dạng và thời điểm đăng.",
+        "opts": [
+         "A budget and a salary",
+         "A topic, a format and a publishing time",
+         "A trademark and a patent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who answers the comments?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: người quản lý cộng đồng trả lời bình luận.",
+        "opts": [
+         "The influencer",
+         "The community manager",
+         "The CEO"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How can a long livestream be repurposed?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: livestream dài có thể được cắt thành các clip ngắn.",
+        "opts": [
+         "It can be cut into short clips",
+         "It can be deleted",
+         "It can be turned into a trademark"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the benefit of repurposing?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhóm nhỏ vẫn duy trì lượng nội dung đều đặn mà không giảm chất lượng.",
+        "opts": [
+         "Fewer customers see the brand",
+         "The team needs more staff",
+         "A small team can keep a steady flow of content"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Advertising & Media Planning",
+   "name_vi": "Quảng cáo & hoạch định truyền thông",
+   "icon": "📺",
+   "hue": 40,
+   "words": [
+    {
+     "en": "advertisement",
+     "vi": "quảng cáo"
+    },
+    {
+     "en": "advertiser",
+     "vi": "nhà quảng cáo"
+    },
+    {
+     "en": "advertising agency",
+     "vi": "công ty quảng cáo"
+    },
+    {
+     "en": "creative brief",
+     "vi": "bản tóm tắt sáng tạo"
+    },
+    {
+     "en": "copywriter",
+     "vi": "người viết nội dung quảng cáo"
+    },
+    {
+     "en": "art director",
+     "vi": "giám đốc nghệ thuật"
+    },
+    {
+     "en": "storyboard",
+     "vi": "kịch bản phân cảnh"
+    },
+    {
+     "en": "TV commercial",
+     "vi": "quảng cáo truyền hình"
+    },
+    {
+     "en": "radio spot",
+     "vi": "quảng cáo phát thanh"
+    },
+    {
+     "en": "billboard",
+     "vi": "bảng quảng cáo ngoài trời"
+    },
+    {
+     "en": "print ad",
+     "vi": "quảng cáo in ấn"
+    },
+    {
+     "en": "outdoor advertising",
+     "vi": "quảng cáo ngoài trời"
+    },
+    {
+     "en": "media plan",
+     "vi": "kế hoạch truyền thông"
+    },
+    {
+     "en": "media buying",
+     "vi": "mua phương tiện truyền thông"
+    },
+    {
+     "en": "ad placement",
+     "vi": "vị trí đặt quảng cáo"
+    },
+    {
+     "en": "airtime",
+     "vi": "thời lượng phát sóng"
+    },
+    {
+     "en": "prime time",
+     "vi": "giờ vàng"
+    },
+    {
+     "en": "frequency",
+     "vi": "tần suất hiển thị"
+    },
+    {
+     "en": "circulation",
+     "vi": "số lượng phát hành"
+    },
+    {
+     "en": "sponsorship",
+     "vi": "tài trợ"
+    },
+    {
+     "en": "product placement",
+     "vi": "quảng cáo sản phẩm lồng ghép"
+    },
+    {
+     "en": "public relations (PR)",
+     "vi": "quan hệ công chúng"
+    },
+    {
+     "en": "press release",
+     "vi": "thông cáo báo chí"
+    },
+    {
+     "en": "crisis management",
+     "vi": "quản lý khủng hoảng"
+    },
+    {
+     "en": "advertising regulation",
+     "vi": "quy định về quảng cáo"
+    },
+    {
+     "en": "misleading claim",
+     "vi": "tuyên bố gây hiểu lầm"
+    },
+    {
+     "en": "disclaimer",
+     "vi": "tuyên bố miễn trừ"
+    },
+    {
+     "en": "testimonial",
+     "vi": "lời chứng thực của khách hàng"
+    },
+    {
+     "en": "ad budget",
+     "vi": "ngân sách quảng cáo"
+    },
+    {
+     "en": "slot",
+     "vi": "khung giờ quảng cáo"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The agency's ___ writes the slogans and the text of the ads.",
+        "ans": [
+         2
+        ],
+        "tip": "copy = nội dung chữ trong quảng cáo.",
+        "why": "**copywriter** = người viết nội dung quảng cáo.",
+        "opts": [
+         "art director",
+         "advertiser",
+         "copywriter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The creative team draws a ___ to show each scene of the TV commercial.",
+        "ans": [
+         1
+        ],
+        "tip": "story + board = bảng kể chuyện.",
+        "why": "**storyboard** = kịch bản phân cảnh bằng hình.",
+        "opts": [
+         "media plan",
+         "storyboard",
+         "press release"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A big sign next to the highway is a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "bill + board = tấm bảng dán áp phích.",
+        "why": "**billboard** = bảng quảng cáo ngoài trời.",
+        "opts": [
+         "billboard",
+         "radio spot",
+         "print ad"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows which channels will be used, when and how often.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**media plan** = kế hoạch truyền thông: kênh, thời điểm, tần suất.",
+        "opts": [
+         "media plan",
+         "disclaimer",
+         "testimonial"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Ads shown at 8 p.m., when most people watch TV, appear in ___.",
+        "ans": [
+         2
+        ],
+        "tip": "prime = quan trọng nhất.",
+        "why": "**prime time** = giờ vàng, nhiều người xem nhất.",
+        "opts": [
+         "circulation",
+         "frequency",
+         "prime time"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company sent a ___ to journalists to announce its new product.",
+        "ans": [
+         1
+        ],
+        "tip": "press = báo chí.",
+        "why": "**press release** = thông cáo báo chí.",
+        "opts": [
+         "storyboard",
+         "press release",
+         "disclaimer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ad that says 'the best in the world' without proof may be a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "mislead = dẫn dắt sai.",
+        "why": "**misleading claim** = tuyên bố gây hiểu lầm, thiếu bằng chứng.",
+        "opts": [
+         "testimonial",
+         "misleading claim",
+         "sponsorship"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "'Results may vary' is a ___ at the bottom of the ad.",
+        "ans": [
+         0
+        ],
+        "tip": "dis + claim = từ chối nhận trách nhiệm.",
+        "why": "**disclaimer** = tuyên bố miễn trừ trách nhiệm.",
+        "opts": [
+         "disclaimer",
+         "billboard",
+         "slot"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "advertiser",
+        "b": "a company that pays to promote its products",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "creative brief",
+        "b": "a short document that explains the goals and message of an ad",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "media buying",
+        "b": "purchasing space or time for ads in the media",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "frequency",
+        "b": "the number of times a person sees the same ad",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sponsorship",
+        "b": "paying to support an event in exchange for exposure",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "product placement",
+        "b": "showing a brand inside a film or TV show",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "crisis management",
+        "b": "protecting a company's image during a serious problem",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "testimonial",
+        "b": "a statement from a customer praising a product",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must/have to = bắt buộc; mustn't = cấm; don't have to = không cần; should = nên.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Advertisers ___ tell the truth about their products. It is the law.",
+        "ans": [
+         2
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy định pháp luật → bắt buộc: **must**.",
+        "opts": [
+         "might",
+         "may",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ad ___ include false claims. It is not allowed.",
+        "ans": [
+         2
+        ],
+        "tip": "must not = cấm.",
+        "why": "Không được phép → **must not**.",
+        "opts": [
+         "don't have to",
+         "should",
+         "must not"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ use a celebrity in your ad; a real customer can be just as effective.",
+        "ans": [
+         1
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Không bắt buộc dùng người nổi tiếng → **don't have to**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think we ___ test the ad with a small group first.",
+        "ans": [
+         0
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Gợi ý hợp lý → **should**.",
+        "opts": [
+         "should",
+         "must not",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Ads for medicines ___ show clear safety information in many countries.",
+        "ans": [
+         0
+        ],
+        "tip": "have to = bắt buộc theo quy định.",
+        "why": "Quy định bắt buộc → **have to**.",
+        "opts": [
+         "have to",
+         "can",
+         "might"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do we ___ get approval before the ad goes on TV?",
+        "ans": [
+         2
+        ],
+        "tip": "Do/Does + S + have to + V.",
+        "why": "Câu hỏi với have to mượn trợ động từ Do: **Do we have to**.",
+        "opts": [
+         "must",
+         "should to",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu hợp nghĩa (nội dung trong ngoặc là gợi ý).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Every ad ___ be honest and clear. (obligation)",
+        "ans": [
+         [
+          "must",
+          "has to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc: **must** hoặc **has to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ use another company's logo without permission. (prohibition)",
+        "ans": [
+         [
+          "must not",
+          "mustn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Cấm: **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ buy prime time; cheaper slots also work. (no necessity)",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết: **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think you ___ add a disclaimer to this offer. (advice)",
+        "ans": [
+         [
+          "should"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên: **should**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Agencies ___ follow advertising regulations. (obligation)",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc: **must** hoặc **have to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Planning an ad campaign",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Linh works at an advertising agency. This week the team is preparing a campaign for a new sports drink. First, the client gives them a creative brief. The copywriter must write a short, clear message, and the art director has to design the visuals. They draw a storyboard for a TV commercial and plan posters for outdoor advertising.\n\nNext, the media planner decides where the ads should appear. She must choose channels that reach young adults, so she buys slots in prime time and on popular websites. Frequency is also important: people should see the ad several times, but not too often.\n\nThe team must follow advertising regulations. They mustn't make a misleading claim, such as saying the drink cures tiredness. If they mention results, they have to add a disclaimer. They also don't have to use a celebrity, because the client prefers real customers' testimonials.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The client gives the agency a creative brief.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khách hàng đưa bản tóm tắt sáng tạo."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The art director writes the message.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: **copywriter** viết thông điệp; art director thiết kế hình ảnh."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Linh's team can make a misleading claim.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Đoạn 3: họ **mustn't** đưa ra tuyên bố gây hiểu lầm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The client wants to use a celebrity.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khách hàng thích lời chứng thực từ khách hàng thật hơn người nổi tiếng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who designs the visuals?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: giám đốc nghệ thuật thiết kế hình ảnh.",
+        "opts": [
+         "The copywriter",
+         "The art director",
+         "The client"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the media planner buy prime time slots?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cô chọn kênh tiếp cận người trẻ nên mua khung giờ vàng.",
+        "opts": [
+         "To save money",
+         "To reach young adults",
+         "To avoid regulations"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must the team add if they mention results?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: họ phải thêm tuyên bố miễn trừ.",
+        "opts": [
+         "A disclaimer",
+         "A storyboard",
+         "A press release"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the client prefer instead of a celebrity?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khách hàng ưa chuộng lời chứng thực của khách hàng thật.",
+        "opts": [
+         "A billboard",
+         "A radio spot",
+         "Real customers' testimonials"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "SEO, Performance & Analytics",
+   "name_vi": "SEO, hiệu suất & phân tích dữ liệu",
+   "icon": "📈",
+   "hue": 130,
+   "words": [
+    {
+     "en": "search engine",
+     "vi": "công cụ tìm kiếm"
+    },
+    {
+     "en": "SERP",
+     "vi": "trang kết quả tìm kiếm"
+    },
+    {
+     "en": "keyword research",
+     "vi": "nghiên cứu từ khóa"
+    },
+    {
+     "en": "long-tail keyword",
+     "vi": "từ khóa dài, cụ thể"
+    },
+    {
+     "en": "search volume",
+     "vi": "lượng tìm kiếm"
+    },
+    {
+     "en": "search intent",
+     "vi": "ý định tìm kiếm"
+    },
+    {
+     "en": "on-page SEO",
+     "vi": "SEO trên trang"
+    },
+    {
+     "en": "off-page SEO",
+     "vi": "SEO ngoài trang"
+    },
+    {
+     "en": "backlink",
+     "vi": "liên kết ngược"
+    },
+    {
+     "en": "meta description",
+     "vi": "mô tả meta"
+    },
+    {
+     "en": "page speed",
+     "vi": "tốc độ tải trang"
+    },
+    {
+     "en": "bounce rate",
+     "vi": "tỷ lệ thoát"
+    },
+    {
+     "en": "organic ranking",
+     "vi": "thứ hạng tự nhiên"
+    },
+    {
+     "en": "crawl",
+     "vi": "thu thập dữ liệu trang (bot)"
+    },
+    {
+     "en": "index",
+     "vi": "lập chỉ mục"
+    },
+    {
+     "en": "domain authority",
+     "vi": "độ uy tín của tên miền"
+    },
+    {
+     "en": "pay-per-click (PPC)",
+     "vi": "quảng cáo trả tiền theo lượt nhấp"
+    },
+    {
+     "en": "cost per click (CPC)",
+     "vi": "chi phí mỗi lượt nhấp"
+    },
+    {
+     "en": "click-through rate (CTR)",
+     "vi": "tỷ lệ nhấp chuột"
+    },
+    {
+     "en": "conversion rate",
+     "vi": "tỷ lệ chuyển đổi"
+    },
+    {
+     "en": "conversion funnel",
+     "vi": "phễu chuyển đổi"
+    },
+    {
+     "en": "lead generation",
+     "vi": "tạo khách hàng tiềm năng"
+    },
+    {
+     "en": "landing page optimization",
+     "vi": "tối ưu trang đích"
+    },
+    {
+     "en": "A/B test",
+     "vi": "thử nghiệm A/B"
+    },
+    {
+     "en": "attribution",
+     "vi": "phân bổ đóng góp cho chuyển đổi"
+    },
+    {
+     "en": "dashboard",
+     "vi": "bảng điều khiển số liệu"
+    },
+    {
+     "en": "KPI",
+     "vi": "chỉ số đo lường hiệu quả"
+    },
+    {
+     "en": "segment",
+     "vi": "phân nhóm dữ liệu"
+    },
+    {
+     "en": "retargeting audience",
+     "vi": "tệp đối tượng tiếp thị lại"
+    },
+    {
+     "en": "heatmap",
+     "vi": "bản đồ nhiệt"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "People who search 'best running shoes for flat feet' use a ___ keyword.",
+        "ans": [
+         2
+        ],
+        "tip": "long tail = đuôi dài (cụ thể).",
+        "why": "**long-tail keyword** = từ khóa dài, cụ thể, ít cạnh tranh hơn.",
+        "opts": [
+         "off-page",
+         "domain authority",
+         "long-tail"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Links from other websites to ours are called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "back + link = liên kết trỏ về.",
+        "why": "**backlinks** = liên kết ngược từ website khác trỏ về bạn.",
+        "opts": [
+         "meta descriptions",
+         "backlinks",
+         "heatmaps"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A high ___ means many visitors leave after viewing only one page.",
+        "ans": [
+         0
+        ],
+        "tip": "bounce = nảy ra.",
+        "why": "**bounce rate** = tỷ lệ thoát.",
+        "opts": [
+         "bounce rate",
+         "search volume",
+         "page speed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If a page loads slowly, its ___ is poor and users may leave.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**page speed** = tốc độ tải trang.",
+        "opts": [
+         "page speed",
+         "attribution",
+         "backlink"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows how many people search for a keyword each month.",
+        "ans": [
+         2
+        ],
+        "tip": "volume = khối lượng.",
+        "why": "**search volume** = lượng tìm kiếm của một từ khóa.",
+        "opts": [
+         "CPC",
+         "KPI",
+         "search volume"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ shows where users click and scroll on a web page using colours.",
+        "ans": [
+         1
+        ],
+        "tip": "heat + map = bản đồ nhiệt.",
+        "why": "**heatmap** = bản đồ nhiệt hành vi người dùng.",
+        "opts": [
+         "backlink",
+         "heatmap",
+         "dashboard"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ describes the steps from visitor to lead to buyer.",
+        "ans": [
+         1
+        ],
+        "tip": "funnel = cái phễu.",
+        "why": "**conversion funnel** = phễu chuyển đổi.",
+        "opts": [
+         "SERP",
+         "conversion funnel",
+         "search intent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We pay on average 2,000 dong for each click. This is our ___.",
+        "ans": [
+         0
+        ],
+        "tip": "cost per click.",
+        "why": "**CPC** = chi phí cho mỗi lượt nhấp.",
+        "opts": [
+         "CPC",
+         "CTR",
+         "bounce rate"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "SERP",
+        "b": "the page a search engine shows after you search",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "search intent",
+        "b": "the reason why a person types a query",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "on-page SEO",
+        "b": "improving content and code inside your own web page",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "off-page SEO",
+        "b": "actions outside your website that raise its ranking, such as backlinks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "domain authority",
+        "b": "a score that predicts how well a website will rank",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "attribution",
+        "b": "deciding which channel deserves credit for a sale",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lead generation",
+        "b": "attracting people who may become customers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "A/B test",
+        "b": "comparing two versions of a page to see which performs better",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 = If + hiện tại đơn, will + V (có thể xảy ra); loại 2 = If + quá khứ đơn, would + V (không có thật/khó xảy ra).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we improve our page speed, our bounce rate ___.",
+        "ans": [
+         2
+        ],
+        "tip": "If + hiện tại đơn, will + V.",
+        "why": "Khả năng có thật → loại 1: **will fall**.",
+        "opts": [
+         "would fall",
+         "fell",
+         "will fall"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I had a bigger budget, I ___ more backlinks.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ đơn, would + V.",
+        "why": "Giả định không có thật → loại 2: **would build**.",
+        "opts": [
+         "will build",
+         "built",
+         "would build"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the headline ___ clear, more visitors will click.",
+        "ans": [
+         1
+        ],
+        "tip": "Mệnh đề if không dùng will.",
+        "why": "Loại 1: mệnh đề if dùng hiện tại đơn → **is**.",
+        "opts": [
+         "will be",
+         "is",
+         "would be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If our site had more authority, it ___ higher on the SERP.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'had' (quá khứ) → loại 2: **would rank**.",
+        "opts": [
+         "would rank",
+         "will rank",
+         "ranked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What ___ you do if your organic traffic dropped by 50%?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'dropped' (quá khứ) là dấu hiệu loại 2 → **would**.",
+        "opts": [
+         "would",
+         "will",
+         "did"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Unless we fix the broken links, search engines ___ our pages.",
+        "ans": [
+         2
+        ],
+        "tip": "unless = if not.",
+        "why": "Loại 1 với unless: **will not index**.",
+        "opts": [
+         "would not index",
+         "did not index",
+         "will not index"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ trong câu điều kiện loại 1 hoặc loại 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (publish) more articles, our traffic will grow.",
+        "ans": [
+         [
+          "publish"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1 → mệnh đề if dùng hiện tại đơn: **publish**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) the SEO manager, I would start with keyword research.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: dùng **were** (hoặc was trong văn nói)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the ad ___ (get) more clicks, the CPC will fall.",
+        "ans": [
+         [
+          "gets"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **gets**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we had a heatmap tool, we ___ (understand) user behavior better.",
+        "ans": [
+         [
+          "would understand"
+         ]
+        ],
+        "tip": "would + V.",
+        "why": "Loại 2: **would understand**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The page will rank higher if it ___ (have) quality backlinks.",
+        "ans": [
+         [
+          "has"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **has**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Improving a website's performance",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "An online shoe shop wants more organic traffic. The marketing analyst starts with keyword research. If the shop targets long-tail keywords, such as 'waterproof running shoes for women', it will face less competition and attract visitors who are ready to buy.\n\nNext, the analyst checks the site. Page speed is slow, and the bounce rate is high. If the pages load faster, more visitors will stay and the conversion rate will rise. She also notices that the shop has very few backlinks. If the shop earned links from fashion blogs, its domain authority would improve.\n\nThe analyst sets up a dashboard with KPIs such as organic ranking, CTR and conversion rate. She plans an A/B test of two landing pages. If the new page performs better, the shop will use it for all its ads. If the test fails, the team will try another version.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The shop wants more organic traffic.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cửa hàng muốn tăng lưu lượng tự nhiên."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Long-tail keywords face more competition.",
+        "ans": [
+         1
+        ],
+        "tip": "less ≠ more.",
+        "why": "Đoạn 1: từ khóa dài gặp **ít** cạnh tranh hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The shop has a lot of backlinks.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cửa hàng có **rất ít** backlink."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If the new landing page performs better, the shop will use it.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: trang mới tốt hơn sẽ được dùng cho mọi quảng cáo."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens if pages load faster?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tải nhanh hơn thì khách ở lại nhiều hơn và tỷ lệ chuyển đổi tăng.",
+        "opts": [
+         "The bounce rate gets worse",
+         "More visitors stay and conversion rises",
+         "The shop loses all backlinks"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would improve the domain authority?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nếu có liên kết từ blog thời trang, độ uy tín tên miền sẽ tăng.",
+        "opts": [
+         "More discount codes",
+         "Links from fashion blogs",
+         "A new logo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is on the dashboard?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: bảng điều khiển gồm KPI như thứ hạng, CTR và tỷ lệ chuyển đổi.",
+        "opts": [
+         "KPIs such as ranking, CTR and conversion rate",
+         "Employee salaries",
+         "Customer addresses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will the team do if the test fails?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu thử nghiệm thất bại, đội ngũ sẽ thử phiên bản khác.",
+        "opts": [
+         "Close the shop",
+         "Stop analysing",
+         "Try another version"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Campaign Management & ROI",
+   "name_vi": "Quản lý chiến dịch & hiệu quả đầu tư",
+   "icon": "🚀",
+   "hue": 220,
+   "words": [
+    {
+     "en": "campaign plan",
+     "vi": "kế hoạch chiến dịch"
+    },
+    {
+     "en": "campaign brief",
+     "vi": "bản tóm tắt chiến dịch"
+    },
+    {
+     "en": "launch date",
+     "vi": "ngày ra mắt"
+    },
+    {
+     "en": "milestone",
+     "vi": "cột mốc"
+    },
+    {
+     "en": "deadline",
+     "vi": "hạn chót"
+    },
+    {
+     "en": "project manager",
+     "vi": "quản lý dự án"
+    },
+    {
+     "en": "stakeholder",
+     "vi": "bên liên quan"
+    },
+    {
+     "en": "approval process",
+     "vi": "quy trình phê duyệt"
+    },
+    {
+     "en": "creative asset",
+     "vi": "tài sản sáng tạo (hình ảnh, video)"
+    },
+    {
+     "en": "media spend",
+     "vi": "chi tiêu cho truyền thông"
+    },
+    {
+     "en": "return on investment (ROI)",
+     "vi": "tỷ suất hoàn vốn"
+    },
+    {
+     "en": "return on ad spend (ROAS)",
+     "vi": "tỷ suất doanh thu trên chi phí quảng cáo"
+    },
+    {
+     "en": "customer acquisition cost (CAC)",
+     "vi": "chi phí thu hút một khách hàng mới"
+    },
+    {
+     "en": "customer lifetime value (CLV)",
+     "vi": "giá trị vòng đời khách hàng"
+    },
+    {
+     "en": "cost per lead",
+     "vi": "chi phí mỗi khách tiềm năng"
+    },
+    {
+     "en": "revenue",
+     "vi": "doanh thu"
+    },
+    {
+     "en": "profit",
+     "vi": "lợi nhuận"
+    },
+    {
+     "en": "sales uplift",
+     "vi": "mức tăng doanh số"
+    },
+    {
+     "en": "market share",
+     "vi": "thị phần"
+    },
+    {
+     "en": "brand lift",
+     "vi": "mức tăng nhận biết thương hiệu"
+    },
+    {
+     "en": "target",
+     "vi": "chỉ tiêu mục tiêu"
+    },
+    {
+     "en": "benchmark",
+     "vi": "mốc chuẩn"
+    },
+    {
+     "en": "performance report",
+     "vi": "báo cáo hiệu suất"
+    },
+    {
+     "en": "post-campaign analysis",
+     "vi": "phân tích sau chiến dịch"
+    },
+    {
+     "en": "lessons learned",
+     "vi": "bài học kinh nghiệm"
+    },
+    {
+     "en": "underperform",
+     "vi": "hoạt động kém hơn kỳ vọng"
+    },
+    {
+     "en": "exceed",
+     "vi": "vượt qua"
+    },
+    {
+     "en": "optimise",
+     "vi": "tối ưu hóa"
+    },
+    {
+     "en": "reallocate",
+     "vi": "phân bổ lại"
+    },
+    {
+     "en": "scale",
+     "vi": "mở rộng quy mô"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The campaign must be ready before the ___, or the launch will be delayed.",
+        "ans": [
+         2
+        ],
+        "tip": "dead + line = hạn cuối.",
+        "why": "**deadline** = hạn chót.",
+        "opts": [
+         "benchmark",
+         "CLV",
+         "deadline"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Reaching the first 10,000 sign-ups was an important ___ in the plan.",
+        "ans": [
+         1
+        ],
+        "tip": "mile + stone = cột mốc dọc đường.",
+        "why": "**milestone** = cột mốc quan trọng.",
+        "opts": [
+         "stakeholder",
+         "milestone",
+         "revenue"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "For every 1 million dong spent on ads, we earned 4 million in sales, so our ___ is 4.",
+        "ans": [
+         0
+        ],
+        "tip": "return on ad spend.",
+        "why": "**ROAS** = doanh thu thu về trên mỗi đồng chi cho quảng cáo.",
+        "opts": [
+         "ROAS",
+         "CAC",
+         "CLV"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We spent 50 million dong and gained 100 customers, so our ___ is 500,000 dong.",
+        "ans": [
+         0
+        ],
+        "tip": "acquisition = việc có được.",
+        "why": "**CAC** = chi phí thu hút mỗi khách hàng mới.",
+        "opts": [
+         "CAC",
+         "ROAS",
+         "brand lift"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A loyal customer who buys for years has a high ___.",
+        "ans": [
+         2
+        ],
+        "tip": "lifetime = suốt đời.",
+        "why": "**CLV** = giá trị vòng đời khách hàng.",
+        "opts": [
+         "CAC",
+         "deadline",
+         "CLV"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The surveys showed a clear ___ in brand awareness after the campaign.",
+        "ans": [
+         1
+        ],
+        "tip": "lift = nâng lên.",
+        "why": "**brand lift** = mức tăng nhận biết thương hiệu.",
+        "opts": [
+         "media spend",
+         "brand lift",
+         "approval process"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The video ads ___ and got fewer views than expected.",
+        "ans": [
+         1
+        ],
+        "tip": "under + perform = làm kém hơn.",
+        "why": "**underperformed** = hoạt động kém hơn kỳ vọng (quá khứ đơn).",
+        "opts": [
+         "exceeded",
+         "underperformed",
+         "scaled"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Because the search ads worked well, the team decided to ___ money from social media to search.",
+        "ans": [
+         0
+        ],
+        "tip": "re + allocate = phân bổ lại.",
+        "why": "**reallocate** = phân bổ lại ngân sách.",
+        "opts": [
+         "reallocate",
+         "exceed",
+         "underperform"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stakeholder",
+        "b": "a person or group with an interest in the campaign's results",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "media spend",
+        "b": "the money used to buy advertising space or time",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sales uplift",
+        "b": "the increase in sales caused by a campaign",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cost per lead",
+        "b": "the average cost of getting one potential customer's contact details",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "post-campaign analysis",
+        "b": "a review of results after a campaign has ended",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lessons learned",
+        "b": "useful knowledge gained from what went well or badly",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "optimise",
+        "b": "to make something work as well as possible",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "scale",
+        "b": "to expand a successful activity to reach more people",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: mốc thời gian đã kết thúc (on 1 March, ago, last...) → quá khứ đơn; so far / already / ever → hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ the campaign on 1 March.",
+        "ans": [
+         2
+        ],
+        "tip": "on 1 March = mốc xác định.",
+        "why": "'on 1 March' → **quá khứ đơn**: launched.",
+        "opts": [
+         "have launched",
+         "launch",
+         "launched"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The campaign ___ over 2,000 leads so far.",
+        "ans": [
+         2
+        ],
+        "tip": "so far → have/has + V3.",
+        "why": "'so far' → **hiện tại hoàn thành**: has generated.",
+        "opts": [
+         "generated",
+         "generates",
+         "has generated"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sales ___ by 12% after the TV commercial last month.",
+        "ans": [
+         1
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' → quá khứ đơn: **rose**.",
+        "opts": [
+         "have risen",
+         "rose",
+         "rise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The team ___ the post-campaign analysis already.",
+        "ans": [
+         0
+        ],
+        "tip": "already → hiện tại hoàn thành.",
+        "why": "'already' → **has completed**.",
+        "opts": [
+         "has completed",
+         "completed",
+         "completes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ you ever worked on a campaign with a limited budget?",
+        "ans": [
+         0
+        ],
+        "tip": "ever → Have you ever + V3?",
+        "why": "Kinh nghiệm đến hiện tại → **Have you ever worked...?**",
+        "opts": [
+         "Have",
+         "Did",
+         "Do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ the performance report two days ago.",
+        "ans": [
+         2
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'two days ago' → quá khứ đơn: **sent**.",
+        "opts": [
+         "has sent",
+         "sends",
+         "sent"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở quá khứ đơn hoặc hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The agency ___ (deliver) all creative assets on time last week.",
+        "ans": [
+         [
+          "delivered"
+         ]
+        ],
+        "tip": "last week → quá khứ đơn.",
+        "why": "Mốc quá khứ xác định → **delivered**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our ROAS ___ (not / reach) the target yet.",
+        "ans": [
+         [
+          "has not reached",
+          "hasn't reached"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **has not reached**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (change) the headline two days ago.",
+        "ans": [
+         [
+          "changed"
+         ]
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'two days ago' → **changed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The cost per lead ___ (fall) three times this quarter.",
+        "ans": [
+         [
+          "has fallen"
+         ]
+        ],
+        "tip": "fall → fell → fallen.",
+        "why": "'this quarter' (chưa kết thúc) → hiện tại hoàn thành: **has fallen**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The manager ___ (already / approve) the final plan.",
+        "ans": [
+         [
+          "has already approved",
+          "'s already approved"
+         ]
+        ],
+        "tip": "",
+        "why": "'already' → **has already approved**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Campaign review",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Last spring, a fashion brand launched a four-week campaign to attract new customers. The team set clear targets: 5,000 new customers and a ROAS of 3. They spent 200 million dong on media and worked with a project manager to meet every deadline.\n\nAfter two weeks, the team noticed that the Facebook ads underperformed, so they reallocated part of the budget to short videos. This change worked. By the end of the campaign, the brand gained 6,200 new customers, and the ROAS reached 3.5. Brand lift surveys also showed a clear rise in awareness.\n\nThe team has now finished the post-campaign analysis and has shared the results with all stakeholders. The most important lesson learned was to test early and move money quickly to what works. The brand has already decided to scale the campaign to two new cities.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The campaign lasted four weeks.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chiến dịch kéo dài bốn tuần."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The brand set a target of 6,200 new customers.",
+        "ans": [
+         1
+        ],
+        "tip": "6,200 = kết quả.",
+        "why": "Đoạn 1: mục tiêu là **5,000** khách hàng mới; 6,200 là kết quả đạt được."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The team moved part of the budget to short videos.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: một phần ngân sách được chuyển sang video ngắn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The results have not been shared yet.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đội ngũ **đã chia sẻ** kết quả với tất cả bên liên quan."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did the team reallocate the budget?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: quảng cáo Facebook hoạt động kém nên ngân sách được chuyển đi.",
+        "opts": [
+         "The deadline was cancelled",
+         "The Facebook ads underperformed",
+         "The ROAS was too high"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What was the final ROAS?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ROAS cuối cùng đạt 3,5.",
+        "opts": [
+         "3",
+         "3.5",
+         "6.2"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What was the most important lesson learned?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: thử nghiệm sớm và chuyển tiền nhanh sang kênh hiệu quả.",
+        "opts": [
+         "Test early and move money to what works",
+         "Spend the whole budget in week one",
+         "Avoid short videos"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What has the brand decided to do next?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: thương hiệu quyết định mở rộng chiến dịch sang hai thành phố mới.",
+        "opts": [
+         "Stop all advertising",
+         "Reduce its targets",
+         "Scale the campaign to two new cities"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "collect",
+   "thu thập"
+  ],
+  [
+   "existing",
+   "hiện có"
+  ],
+  [
+   "directly",
+   "trực tiếp"
+  ],
+  [
+   "lifestyle",
+   "lối sống"
+  ],
+  [
+   "confused",
+   "bối rối"
+  ],
+  [
+   "leave",
+   "rời bỏ"
+  ],
+  [
+   "list",
+   "liệt kê"
+  ],
+  [
+   "compare",
+   "so sánh"
+  ],
+  [
+   "test",
+   "thử nghiệm"
+  ],
+  [
+   "update",
+   "cập nhật"
+  ],
+  [
+   "typical",
+   "điển hình"
+  ],
+  [
+   "map",
+   "lập sơ đồ"
+  ],
+  [
+   "clear",
+   "rõ ràng"
+  ],
+  [
+   "data",
+   "dữ liệu"
+  ],
+  [
+   "compete",
+   "cạnh tranh"
+  ],
+  [
+   "elegant",
+   "thanh lịch"
+  ],
+  [
+   "origin",
+   "nguồn gốc"
+  ],
+  [
+   "bean",
+   "hạt cà phê"
+  ],
+  [
+   "numerous",
+   "nhiều"
+  ],
+  [
+   "distinctive",
+   "đặc trưng, nổi bật"
+  ],
+  [
+   "expert",
+   "chuyên gia"
+  ],
+  [
+   "serve",
+   "phục vụ"
+  ],
+  [
+   "improve",
+   "cải thiện"
+  ],
+  [
+   "keep",
+   "duy trì"
+  ],
+  [
+   "singer",
+   "ca sĩ"
+  ],
+  [
+   "farmer",
+   "nông dân"
+  ],
+  [
+   "simple",
+   "đơn giản"
+  ],
+  [
+   "hire",
+   "thuê"
+  ],
+  [
+   "rarely",
+   "hiếm khi"
+  ],
+  [
+   "accident",
+   "sự tình cờ"
+  ],
+  [
+   "assign",
+   "giao, gán"
+  ],
+  [
+   "detail",
+   "chi tiết"
+  ],
+  [
+   "praise",
+   "lời khen"
+  ],
+  [
+   "complaint",
+   "lời phàn nàn"
+  ],
+  [
+   "permission",
+   "sự cho phép"
+  ],
+  [
+   "steady",
+   "ổn định, đều đặn"
+  ],
+  [
+   "flow",
+   "dòng chảy"
+  ],
+  [
+   "intern",
+   "thực tập sinh"
+  ],
+  [
+   "schedule",
+   "lên lịch"
+  ],
+  [
+   "announce",
+   "công bố"
+  ],
+  [
+   "clip",
+   "đoạn clip"
+  ],
+  [
+   "quality",
+   "chất lượng"
+  ],
+  [
+   "sports drink",
+   "nước uống thể thao"
+  ],
+  [
+   "client",
+   "khách hàng (của công ty dịch vụ)"
+  ],
+  [
+   "message",
+   "thông điệp"
+  ],
+  [
+   "visuals",
+   "hình ảnh, yếu tố thị giác"
+  ],
+  [
+   "poster",
+   "áp phích"
+  ],
+  [
+   "planner",
+   "người lập kế hoạch"
+  ],
+  [
+   "channel",
+   "kênh"
+  ],
+  [
+   "reach",
+   "tiếp cận"
+  ],
+  [
+   "popular",
+   "phổ biến"
+  ],
+  [
+   "cure",
+   "chữa khỏi"
+  ],
+  [
+   "tiredness",
+   "sự mệt mỏi"
+  ],
+  [
+   "mention",
+   "đề cập"
+  ],
+  [
+   "prefer",
+   "thích hơn"
+  ],
+  [
+   "several",
+   "một vài"
+  ],
+  [
+   "waterproof",
+   "chống nước"
+  ],
+  [
+   "competition",
+   "sự cạnh tranh"
+  ],
+  [
+   "attract",
+   "thu hút"
+  ],
+  [
+   "ready",
+   "sẵn sàng"
+  ],
+  [
+   "notice",
+   "nhận thấy"
+  ],
+  [
+   "few",
+   "ít"
+  ],
+  [
+   "earn",
+   "giành được"
+  ],
+  [
+   "blog",
+   "blog"
+  ],
+  [
+   "perform",
+   "vận hành, đạt hiệu quả"
+  ],
+  [
+   "fail",
+   "thất bại"
+  ],
+  [
+   "version",
+   "phiên bản"
+  ],
+  [
+   "analyst",
+   "chuyên viên phân tích"
+  ],
+  [
+   "slow",
+   "chậm"
+  ],
+  [
+   "traffic",
+   "lưu lượng truy cập"
+  ],
+  [
+   "spring",
+   "mùa xuân"
+  ],
+  [
+   "set",
+   "đặt ra"
+  ],
+  [
+   "meet",
+   "đáp ứng"
+  ],
+  [
+   "part",
+   "một phần"
+  ],
+  [
+   "gain",
+   "đạt được"
+  ],
+  [
+   "rise",
+   "sự tăng lên"
+  ],
+  [
+   "awareness",
+   "sự nhận biết"
+  ],
+  [
+   "result",
+   "kết quả"
+  ],
+  [
+   "lesson",
+   "bài học"
+  ],
+  [
+   "quickly",
+   "nhanh chóng"
+  ],
+  [
+   "fashion",
+   "thời trang"
+  ],
+  [
+   "noticed",
+   "đã nhận thấy"
+  ],
+  [
+   "survey",
+   "khảo sát"
+  ],
+  [
+   "move",
+   "chuyển"
+  ]
+ ]
+}

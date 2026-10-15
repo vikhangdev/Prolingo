@@ -1,0 +1,8073 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "nursing",
+  "name": "Nursing",
+  "name_vi": "Điều dưỡng",
+  "icon": "🩺",
+  "hue": 175,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành điều dưỡng: tiếp nhận bệnh nhân, triệu chứng, dấu hiệu sinh tồn, dùng thuốc, kiểm soát nhiễm khuẩn, ghi hồ sơ & bàn giao ca, cấp cứu, giáo dục sức khỏe và đạo đức nghề nghiệp."
+ },
+ "units": [
+  {
+   "name": "Patient Admission & Communication",
+   "name_vi": "Tiếp nhận bệnh nhân & giao tiếp",
+   "icon": "🏥",
+   "hue": 175,
+   "words": [
+    {
+     "en": "nurse",
+     "vi": "điều dưỡng, y tá"
+    },
+    {
+     "en": "patient",
+     "vi": "bệnh nhân"
+    },
+    {
+     "en": "ward",
+     "vi": "khoa, phòng bệnh"
+    },
+    {
+     "en": "admission",
+     "vi": "việc nhập viện"
+    },
+    {
+     "en": "discharge",
+     "vi": "xuất viện"
+    },
+    {
+     "en": "referral",
+     "vi": "giấy giới thiệu chuyển khám"
+    },
+    {
+     "en": "appointment",
+     "vi": "cuộc hẹn khám"
+    },
+    {
+     "en": "medical history",
+     "vi": "tiền sử bệnh"
+    },
+    {
+     "en": "allergy",
+     "vi": "dị ứng"
+    },
+    {
+     "en": "symptom",
+     "vi": "triệu chứng"
+    },
+    {
+     "en": "chief complaint",
+     "vi": "lý do khám chính"
+    },
+    {
+     "en": "consent form",
+     "vi": "phiếu đồng ý"
+    },
+    {
+     "en": "next of kin",
+     "vi": "thân nhân gần nhất"
+    },
+    {
+     "en": "ID wristband",
+     "vi": "vòng tay định danh"
+    },
+    {
+     "en": "bedside manner",
+     "vi": "thái độ ứng xử bên giường bệnh"
+    },
+    {
+     "en": "triage",
+     "vi": "phân loại ưu tiên"
+    },
+    {
+     "en": "outpatient",
+     "vi": "bệnh nhân ngoại trú"
+    },
+    {
+     "en": "inpatient",
+     "vi": "bệnh nhân nội trú"
+    },
+    {
+     "en": "general practitioner (GP)",
+     "vi": "bác sĩ đa khoa"
+    },
+    {
+     "en": "specialist",
+     "vi": "bác sĩ chuyên khoa"
+    },
+    {
+     "en": "interpreter",
+     "vi": "phiên dịch viên"
+    },
+    {
+     "en": "privacy",
+     "vi": "quyền riêng tư"
+    },
+    {
+     "en": "confidentiality",
+     "vi": "tính bảo mật thông tin"
+    },
+    {
+     "en": "insurance",
+     "vi": "bảo hiểm"
+    },
+    {
+     "en": "emergency contact",
+     "vi": "người liên lạc khi khẩn cấp"
+    },
+    {
+     "en": "assessment",
+     "vi": "đánh giá (tình trạng)"
+    },
+    {
+     "en": "care plan",
+     "vi": "kế hoạch chăm sóc"
+    },
+    {
+     "en": "visiting hours",
+     "vi": "giờ thăm bệnh"
+    },
+    {
+     "en": "reception desk",
+     "vi": "quầy tiếp tân"
+    },
+    {
+     "en": "clinic",
+     "vi": "phòng khám"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mrs Lan was admitted to the ___ on the third floor, where she will stay for two nights.",
+        "ans": [
+         0
+        ],
+        "tip": "ward = khu điều trị nội trú.",
+        "why": "**ward** = khoa/phòng bệnh nơi bệnh nhân nằm viện.",
+        "opts": [
+         "ward",
+         "clinic",
+         "triage"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before treatment, the nurse asked about her ___ to find out about past illnesses and operations.",
+        "ans": [
+         1
+        ],
+        "tip": "history = quá khứ.",
+        "why": "**medical history** = tiền sử bệnh.",
+        "opts": [
+         "care plan",
+         "medical history",
+         "insurance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient has an ___ to penicillin and gets a rash when he takes it.",
+        "ans": [
+         0
+        ],
+        "tip": "allergy = dị ứng.",
+        "why": "**allergy** = dị ứng.",
+        "opts": [
+         "allergy",
+         "appointment",
+         "admission"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In the emergency department, the nurse does ___ to decide who needs treatment first.",
+        "ans": [
+         0
+        ],
+        "tip": "triage = phân loại theo mức khẩn cấp.",
+        "why": "**triage** = phân loại ưu tiên.",
+        "opts": [
+         "triage",
+         "discharge",
+         "referral"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A patient who stays overnight in hospital is an ___.",
+        "ans": [
+         2
+        ],
+        "tip": "in = ở trong viện.",
+        "why": "**inpatient** = bệnh nhân nội trú.",
+        "opts": [
+         "outpatient",
+         "interpreter",
+         "inpatient"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The GP wrote a ___ so that the patient could see a heart specialist.",
+        "ans": [
+         1
+        ],
+        "tip": "refer = giới thiệu, chuyển đi.",
+        "why": "**referral** = giấy giới thiệu chuyển khám.",
+        "opts": [
+         "discharge",
+         "referral",
+         "consent form"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before the operation, the patient must sign a ___ to show that he agrees to it.",
+        "ans": [
+         1
+        ],
+        "tip": "consent = đồng ý.",
+        "why": "**consent form** = phiếu đồng ý.",
+        "opts": [
+         "care plan",
+         "consent form",
+         "visiting hours"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Please give us the name of your ___; we will call him or her if there is an emergency.",
+        "ans": [
+         0
+        ],
+        "tip": "kin = họ hàng.",
+        "why": "**next of kin** = thân nhân gần nhất.",
+        "opts": [
+         "next of kin",
+         "specialist",
+         "interpreter"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "discharge",
+        "b": "the time when a patient is allowed to leave hospital",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "outpatient",
+        "b": "a patient who visits a hospital for treatment but does not stay overnight",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "interpreter",
+        "b": "a person who translates spoken words between two languages",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "confidentiality",
+        "b": "keeping patient information private",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "chief complaint",
+        "b": "the main problem that makes a patient seek care",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bedside manner",
+        "b": "the way a nurse or doctor behaves and speaks to patients",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ID wristband",
+        "b": "a band worn on the wrist that shows the patient's name and details",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "emergency contact",
+        "b": "a person to call if something serious happens to the patient",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A visit to a doctor that is arranged for a specific time is an ___ (a).",
+        "ans": [
+         [
+          "appointment"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'a'.",
+        "why": "**appointment** = cuộc hẹn khám."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A ___ (s) is a doctor with advanced training in one area, such as cardiology.",
+        "ans": [
+         [
+          "specialist"
+         ]
+        ],
+        "tip": "special + ist.",
+        "why": "**specialist** = bác sĩ chuyên khoa."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A sign that something is wrong with the body, such as pain or fever, is a ___ (s).",
+        "ans": [
+         [
+          "symptom"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 's'.",
+        "why": "**symptom** = triệu chứng."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A written plan of the nursing care a patient needs is a care ___ (p).",
+        "ans": [
+         [
+          "plan"
+         ]
+        ],
+        "tip": "care p…",
+        "why": "**care plan** = kế hoạch chăm sóc."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Information about a patient must be kept private. This is called ___ (c).",
+        "ans": [
+         [
+          "confidentiality"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'c'.",
+        "why": "**confidentiality** = tính bảo mật."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu hỏi trực tiếp và gián tiếp khi hỏi bệnh",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: câu hỏi Yes/No và Wh- với do/does/are; câu hỏi gián tiếp lịch sự (Can you tell me when…?) dùng trật tự câu khẳng định.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ you have any allergies?",
+        "ans": [
+         2
+        ],
+        "tip": "have → mượn trợ động từ do.",
+        "why": "Câu hỏi hiện tại đơn với you → **Do you have…?**",
+        "opts": [
+         "Are",
+         "Does",
+         "Do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ does it hurt?",
+        "ans": [
+         2
+        ],
+        "tip": "Hỏi vị trí → where.",
+        "why": "Hỏi vị trí đau → **Where**.",
+        "opts": [
+         "Who",
+         "Whose",
+         "Where"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Can you tell me when the pain ___?",
+        "ans": [
+         2
+        ],
+        "tip": "Câu hỏi gián tiếp: trật tự như câu thường, không đảo trợ động từ.",
+        "why": "Sau 'Can you tell me when' dùng trật tự khẳng định: **started**.",
+        "opts": [
+         "did it start",
+         "it started",
+         "started"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Could you tell me what medication you ___ at the moment?",
+        "ans": [
+         1
+        ],
+        "tip": "Gián tiếp: what + S + V.",
+        "why": "Không đảo: **you are taking**.",
+        "opts": [
+         "are you taking",
+         "are taking",
+         "do taking"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ long have you had the cough?",
+        "ans": [
+         2
+        ],
+        "tip": "How long = bao lâu.",
+        "why": "**How long** = bao lâu.",
+        "opts": [
+         "What",
+         "Which",
+         "How"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do you know what he ___ allergic to?",
+        "ans": [
+         1
+        ],
+        "tip": "Gián tiếp: what he is allergic to.",
+        "why": "**what he is allergic to**, không đảo.",
+        "opts": [
+         "does",
+         "is",
+         "was been"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ trợ động từ hoặc dạng động từ đúng trong câu hỏi.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "___ you taking any medication at the moment? (Do / Are)",
+        "ans": [
+         [
+          "Are"
+         ]
+        ],
+        "tip": "taking → be + V-ing.",
+        "why": "'taking' là V-ing → **Are you taking…?**"
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "___ she have a fever? (Do / Does)",
+        "ans": [
+         [
+          "Does"
+         ]
+        ],
+        "tip": "she → does.",
+        "why": "Chủ ngữ she → **Does**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "How often ___ you get headaches? (do / are)",
+        "ans": [
+         [
+          "do"
+         ]
+        ],
+        "tip": "get là động từ thường.",
+        "why": "**do you get**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Can you tell me where it ___ (hurt)?",
+        "ans": [
+         [
+          "hurts"
+         ]
+        ],
+        "tip": "Gián tiếp: it hurts.",
+        "why": "Trật tự khẳng định, chủ ngữ it → **hurts**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I'd like to know whether he ___ (have) any allergies.",
+        "ans": [
+         [
+          "has"
+         ]
+        ],
+        "tip": "Gián tiếp: he has.",
+        "why": "Không dùng does: **whether he has…**"
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Yêu cầu lịch sự và lời đề nghị",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: Could you…? Would you mind + V-ing? Shall I…? Would you like me to…? Do you mind if…? I'll…",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ you roll up your sleeve, please?",
+        "ans": [
+         2
+        ],
+        "tip": "Could you + V nguyên mẫu.",
+        "why": "**Could you roll up…?** = yêu cầu lịch sự.",
+        "opts": [
+         "Should",
+         "Would to",
+         "Could"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Would you mind ___ your sleeve, please?",
+        "ans": [
+         0
+        ],
+        "tip": "mind + V-ing.",
+        "why": "**mind + V-ing**: rolling up.",
+        "opts": [
+         "rolling up",
+         "to roll up",
+         "roll up"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ I help you to the bathroom?",
+        "ans": [
+         2
+        ],
+        "tip": "Shall I… = để tôi… nhé?",
+        "why": "**Shall I…?** dùng để đề nghị giúp.",
+        "opts": [
+         "Might",
+         "Ought",
+         "Shall"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Would you like me ___ you to sit up?",
+        "ans": [
+         2
+        ],
+        "tip": "would like + O + to V.",
+        "why": "**would like me to help**.",
+        "opts": [
+         "help",
+         "helping",
+         "to help"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do you mind ___ I check your wound?",
+        "ans": [
+         2
+        ],
+        "tip": "Do you mind if I…?",
+        "why": "**Do you mind if I…?** = tôi… có được không?",
+        "opts": [
+         "to",
+         "for",
+         "if"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I'll ___ the doctor right away.",
+        "ans": [
+         2
+        ],
+        "tip": "will + V nguyên mẫu.",
+        "why": "**I'll tell** = lời hứa/đề nghị tức thời.",
+        "opts": [
+         "telling",
+         "to tell",
+         "tell"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Admitting a new patient",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Mr Tran, aged 68, arrives at the hospital with chest tightness. At the reception desk, a nurse checks his ID and puts an ID wristband on his arm. She asks him to sit down and says, \"Could you tell me what the problem is?\" Mr Tran explains that he has felt pain in his chest since the morning.\n\nIn the triage area, the nurse takes his blood pressure and asks about his medical history. Mr Tran says that he has diabetes and that he is allergic to penicillin. The nurse writes both facts on his chart and puts a red allergy label on it. She also asks for the name of his next of kin. His daughter, Hoa, is his emergency contact, and the nurse calls her at once.\n\nBecause his symptoms may be serious, Mr Tran is admitted to the cardiology ward. Before he is taken there, the nurse explains the plan: \"The doctors will do some tests, and I will stay with you until the porter arrives. Is that all right?\" Mr Tran nods and says that he feels safer already.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Tran has had chest pain since the evening.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: anh ấy đau ngực **since the morning**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Tran is allergic to penicillin.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'he is allergic to penicillin'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse calls Mr Tran's daughter.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Hoa là người liên lạc khẩn cấp và được gọi ngay."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Tran is sent home after triage.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ông được **nhập khoa tim mạch**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse put on Mr Tran's arm?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: vòng tay định danh.",
+        "opts": [
+         "A blood pressure cuff",
+         "An ID wristband",
+         "A red allergy label"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who is Mr Tran's emergency contact?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: con gái ông, Hoa.",
+        "opts": [
+         "His GP",
+         "The porter",
+         "His daughter, Hoa"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is Mr Tran admitted to the cardiology ward?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: triệu chứng có thể nghiêm trọng.",
+        "opts": [
+         "His symptoms may be serious",
+         "He asked to stay",
+         "He has no insurance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse do before he goes to the ward?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nữ điều dưỡng giải thích kế hoạch.",
+        "opts": [
+         "She discharges him",
+         "She explains the plan",
+         "She calls an interpreter"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · Talking to a worried patient",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Ms Pham speaks little English, so the nurse, Anna, asks an interpreter to join them. Anna explains that she would like to ask a few questions, and she promises that everything will stay confidential.\n\n\"Would you mind telling me what brought you here today?\" Anna asks. Ms Pham says that she has had a bad cough for three weeks and that she feels tired all the time. Anna asks how often she coughs at night and whether she has a fever. Ms Pham coughs mostly at night, and she does not know if she has a fever, because she has no thermometer at home.\n\nAfter the interview, Anna says, \"I'll take your temperature now. Could you open your mouth, please?\" The temperature is 38.4°C. Anna tells Ms Pham that the doctor will see her soon and offers her a glass of water. Before she leaves, she asks, \"Is there anything else that worries you?\" Ms Pham smiles and answers that she understands everything now. Good bedside manner, Anna says later, is mostly about listening.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ms Pham speaks fluent English.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bà nói **little English**, nên cần phiên dịch."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Anna promises that the conversation will be confidential.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'everything will stay confidential'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ms Pham has had a cough for three weeks.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'a bad cough for three weeks'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Ms Pham's temperature is normal.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhiệt độ **38.4°C**, cao hơn bình thường."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does Anna ask an interpreter to join them?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Ms Pham nói ít tiếng Anh.",
+        "opts": [
+         "Ms Pham has a fever",
+         "Ms Pham speaks little English",
+         "Anna is a new nurse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When does Ms Pham cough most?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'coughs mostly at night'.",
+        "opts": [
+         "At night",
+         "In the morning",
+         "After meals"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does Ms Pham not know if she has a fever?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bà không có nhiệt kế ở nhà.",
+        "opts": [
+         "She never feels tired",
+         "The doctor forgot",
+         "She has no thermometer at home"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Anna say good bedside manner is mostly about?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'is mostly about listening'.",
+        "opts": [
+         "Writing notes",
+         "Listening",
+         "Speaking quickly"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Body Systems & Symptoms",
+   "name_vi": "Hệ cơ quan & triệu chứng",
+   "icon": "🫀",
+   "hue": 350,
+   "words": [
+    {
+     "en": "heart",
+     "vi": "tim"
+    },
+    {
+     "en": "lungs",
+     "vi": "phổi"
+    },
+    {
+     "en": "kidney",
+     "vi": "thận"
+    },
+    {
+     "en": "liver",
+     "vi": "gan"
+    },
+    {
+     "en": "stomach",
+     "vi": "dạ dày"
+    },
+    {
+     "en": "bone",
+     "vi": "xương"
+    },
+    {
+     "en": "joint",
+     "vi": "khớp"
+    },
+    {
+     "en": "muscle",
+     "vi": "cơ"
+    },
+    {
+     "en": "skin",
+     "vi": "da"
+    },
+    {
+     "en": "blood vessel",
+     "vi": "mạch máu"
+    },
+    {
+     "en": "nerve",
+     "vi": "dây thần kinh"
+    },
+    {
+     "en": "digestive system",
+     "vi": "hệ tiêu hóa"
+    },
+    {
+     "en": "respiratory system",
+     "vi": "hệ hô hấp"
+    },
+    {
+     "en": "circulatory system",
+     "vi": "hệ tuần hoàn"
+    },
+    {
+     "en": "nervous system",
+     "vi": "hệ thần kinh"
+    },
+    {
+     "en": "chest pain",
+     "vi": "đau ngực"
+    },
+    {
+     "en": "shortness of breath",
+     "vi": "khó thở, hụt hơi"
+    },
+    {
+     "en": "nausea",
+     "vi": "buồn nôn"
+    },
+    {
+     "en": "vomiting",
+     "vi": "nôn"
+    },
+    {
+     "en": "dizziness",
+     "vi": "chóng mặt"
+    },
+    {
+     "en": "fatigue",
+     "vi": "mệt mỏi"
+    },
+    {
+     "en": "fever",
+     "vi": "sốt"
+    },
+    {
+     "en": "cough",
+     "vi": "ho"
+    },
+    {
+     "en": "rash",
+     "vi": "phát ban"
+    },
+    {
+     "en": "swelling",
+     "vi": "sưng"
+    },
+    {
+     "en": "numbness",
+     "vi": "tê, mất cảm giác"
+    },
+    {
+     "en": "sore throat",
+     "vi": "đau họng"
+    },
+    {
+     "en": "abdominal pain",
+     "vi": "đau bụng"
+    },
+    {
+     "en": "diarrhoea",
+     "vi": "tiêu chảy"
+    },
+    {
+     "en": "headache",
+     "vi": "đau đầu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ pumps blood around the body.",
+        "ans": [
+         1
+        ],
+        "tip": "heart = tim.",
+        "why": "**heart** = tim.",
+        "opts": [
+         "liver",
+         "heart",
+         "kidney"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We breathe air into our ___.",
+        "ans": [
+         0
+        ],
+        "tip": "lung = phổi (hay dùng số nhiều).",
+        "why": "**lungs** = phổi.",
+        "opts": [
+         "lungs",
+         "stomach",
+         "kidneys"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ system includes the stomach and the intestines.",
+        "ans": [
+         1
+        ],
+        "tip": "digest = tiêu hóa.",
+        "why": "**digestive system** = hệ tiêu hóa.",
+        "opts": [
+         "nervous",
+         "digestive",
+         "circulatory"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He has ___, so he feels sick and may vomit.",
+        "ans": [
+         2
+        ],
+        "tip": "nausea = cảm giác buồn nôn.",
+        "why": "**nausea** = buồn nôn.",
+        "opts": [
+         "numbness",
+         "swelling",
+         "nausea"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After the fall, her ankle showed ___ and looked bigger than usual.",
+        "ans": [
+         2
+        ],
+        "tip": "swell = sưng lên.",
+        "why": "**swelling** = sưng.",
+        "opts": [
+         "rash",
+         "dizziness",
+         "swelling"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She had a feeling of ___ and had to sit down because the room seemed to spin.",
+        "ans": [
+         2
+        ],
+        "tip": "dizzy = chóng mặt.",
+        "why": "**dizziness** = chóng mặt.",
+        "opts": [
+         "fatigue",
+         "cough",
+         "dizziness"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He feels extreme ___ and has no energy, even after sleeping for ten hours.",
+        "ans": [
+         0
+        ],
+        "tip": "fatigue = mệt lả.",
+        "why": "**fatigue** = mệt mỏi kéo dài.",
+        "opts": [
+         "fatigue",
+         "fever",
+         "rash"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A red, itchy area on the skin is called a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "rash = phát ban.",
+        "why": "**rash** = phát ban.",
+        "opts": [
+         "rash",
+         "cough",
+         "nerve"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "circulatory system",
+        "b": "the system that carries blood around the body",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "respiratory system",
+        "b": "the organs that help us breathe",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "nervous system",
+        "b": "the brain and nerves that send messages around the body",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shortness of breath",
+        "b": "difficulty breathing in enough air",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "abdominal pain",
+        "b": "pain in the area between the chest and the hips",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "numbness",
+        "b": "loss of feeling in a part of the body",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "blood vessel",
+        "b": "a tube that carries blood through the body",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "vomiting",
+        "b": "bringing food up from the stomach through the mouth",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A body temperature higher than normal is a ___ (f).",
+        "ans": [
+         [
+          "fever"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'f'.",
+        "why": "**fever** = sốt."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A ___ (s) throat hurts when you swallow.",
+        "ans": [
+         [
+          "sore"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 's'.",
+        "why": "**sore throat** = đau họng."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The place where two bones meet is a ___ (j).",
+        "ans": [
+         [
+          "joint"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'j'.",
+        "why": "**joint** = khớp."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Having loose, watery stools is called ___ (d).",
+        "ans": [
+         [
+          "diarrhoea",
+          "diarrhea"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'd'.",
+        "why": "**diarrhoea** (Anh-Mỹ: diarrhea) = tiêu chảy."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A ___ (m) is a soft tissue that helps the body move.",
+        "ans": [
+         [
+          "muscle"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'm'.",
+        "why": "**muscle** = cơ."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Mô tả triệu chứng: tính từ và giới từ",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: sharp pain in / at / on…; feel + tính từ; swollen, nauseous; complain of; worse at night.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I have a sharp pain ___ my chest.",
+        "ans": [
+         0
+        ],
+        "tip": "in + bộ phận bên trong cơ thể.",
+        "why": "**in my chest**.",
+        "opts": [
+         "in",
+         "at",
+         "by"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The pain moves ___ my left arm.",
+        "ans": [
+         2
+        ],
+        "tip": "move down = lan xuống.",
+        "why": "**moves down my left arm** = lan xuống cánh tay trái.",
+        "opts": [
+         "at",
+         "for",
+         "down"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She feels ___ in the morning.",
+        "ans": [
+         1
+        ],
+        "tip": "feel + tính từ.",
+        "why": "**feel nauseous**: dùng tính từ sau feel.",
+        "opts": [
+         "nausea",
+         "nauseous",
+         "nauseously"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "His ankle is ___.",
+        "ans": [
+         2
+        ],
+        "tip": "be + tính từ (V3 của swell).",
+        "why": "**swollen** = bị sưng.",
+        "opts": [
+         "swelling",
+         "swell",
+         "swollen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The pain is worse ___ night.",
+        "ans": [
+         2
+        ],
+        "tip": "at night.",
+        "why": "**at night** = vào ban đêm.",
+        "opts": [
+         "in",
+         "on",
+         "at"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He complains ___ chest pain.",
+        "ans": [
+         0
+        ],
+        "tip": "complain of/about.",
+        "why": "**complain of** + triệu chứng.",
+        "opts": [
+         "of",
+         "at",
+         "to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ tính từ hoặc giới từ đúng để mô tả triệu chứng.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I feel ___ (dizziness) when I stand up quickly.",
+        "ans": [
+         [
+          "dizzy"
+         ]
+        ],
+        "tip": "feel + tính từ.",
+        "why": "Sau feel dùng tính từ: **dizzy**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Her feet are ___ (swell).",
+        "ans": [
+         [
+          "swollen"
+         ]
+        ],
+        "tip": "V3 của swell.",
+        "why": "**swollen**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "It hurts ___ (bad) when I breathe in.",
+        "ans": [
+         [
+          "badly"
+         ]
+        ],
+        "tip": "Trạng từ bổ nghĩa cho hurts.",
+        "why": "**hurts badly** = đau nhiều."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I have a burning pain ___ the back of my head. (at / in)",
+        "ans": [
+         [
+          "at"
+         ]
+        ],
+        "tip": "at the back of.",
+        "why": "Cụm cố định **at the back of**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She has a rash ___ her arms. (on / in)",
+        "ans": [
+         [
+          "on"
+         ]
+        ],
+        "tip": "on + bề mặt da.",
+        "why": "**on her arms** = trên cánh tay."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Hiện tại hoàn thành để nói về thời gian xuất hiện triệu chứng",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: have/has + V3 với for (khoảng thời gian), since (mốc thời gian), How long…? và never/ever.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I ___ this cough for two weeks.",
+        "ans": [
+         1
+        ],
+        "tip": "for + khoảng thời gian → hiện tại hoàn thành.",
+        "why": "**have had** … for two weeks.",
+        "opts": [
+         "had",
+         "have had",
+         "am having"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He has felt dizzy ___ yesterday.",
+        "ans": [
+         0
+        ],
+        "tip": "since + mốc thời gian.",
+        "why": "**since yesterday** (mốc thời gian).",
+        "opts": [
+         "since",
+         "for",
+         "from"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How long ___ you had the pain?",
+        "ans": [
+         2
+        ],
+        "tip": "How long + have + S + V3.",
+        "why": "**How long have you had…?**",
+        "opts": [
+         "did",
+         "do",
+         "have"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ vomiting since the morning.",
+        "ans": [
+         2
+        ],
+        "tip": "has been + V-ing nhấn mạnh sự kéo dài.",
+        "why": "**has been vomiting since…**",
+        "opts": [
+         "was",
+         "is being",
+         "has been"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The swelling has not gone down ___ three days.",
+        "ans": [
+         2
+        ],
+        "tip": "for + khoảng thời gian.",
+        "why": "**for three days**.",
+        "opts": [
+         "since",
+         "ago",
+         "for"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I ___ never had chest pain before.",
+        "ans": [
+         0
+        ],
+        "tip": "never + have + V3.",
+        "why": "**have never had** = chưa từng bị.",
+        "opts": [
+         "have",
+         "did",
+         "was"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How patients describe pain",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When patients describe pain, nurses listen for several details. First, the location: does it hurt in the chest, in the abdomen or in a joint? Second, the type of pain. Patients often say that the pain is sharp, dull, burning or throbbing. These words give the care team important clues.\n\nNext, the nurse asks how long the symptoms have lasted. A patient who has had a fever for three days needs different care from someone who has had one since this morning. The nurse also asks whether anything makes the pain better or worse, for example movement, food or rest. Finally, she uses a pain scale from 0 to 10, where 0 means no pain and 10 means the worst pain imaginable.\n\nSome symptoms are urgent. Chest pain, shortness of breath, sudden numbness on one side of the body and heavy bleeding need immediate attention. In these cases, the nurse must call a doctor at once.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse asks only about the location of the pain.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1–2: còn hỏi **loại đau**, **thời gian**, yếu tố làm đau nặng/nhẹ hơn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The pain scale goes from 0 to 10.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'a pain scale from 0 to 10'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Chest pain is an urgent symptom.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đau ngực cần chú ý ngay."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In urgent cases, the nurse should wait before calling a doctor.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô ấy **must call a doctor at once**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which type of pain is mentioned in the text?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: sharp, dull, burning hoặc **throbbing**.",
+        "opts": [
+         "Frozen",
+         "Soft",
+         "Throbbing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does 10 mean on the pain scale?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 10 = cơn đau tồi tệ nhất có thể tưởng tượng.",
+        "opts": [
+         "No pain",
+         "The worst pain imaginable",
+         "Mild pain"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the nurse ask how long the symptoms have lasted?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thời gian khác nhau cần cách chăm sóc khác nhau.",
+        "opts": [
+         "To fill in the insurance form",
+         "To call the interpreter",
+         "Different durations need different care"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which symptom needs immediate attention?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tê đột ngột một bên cơ thể là triệu chứng khẩn cấp.",
+        "opts": [
+         "A mild cough",
+         "Sudden numbness on one side of the body",
+         "Slight tiredness"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · A patient with abdominal pain",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Last night, Mr Binh, aged 45, came to the emergency department with abdominal pain. He told the nurse that the pain had started two days earlier. At first it was dull, but it has become sharper, and it is now on the lower right side of his abdomen. He has also had nausea since yesterday, and he vomited twice this morning. He has not eaten anything for twenty-four hours.\n\nThe nurse measured his temperature, which was 38.1°C, and his pulse, which was 104 beats per minute. She noticed that he was pale and that he felt dizzy when he stood up. She asked whether he had diarrhoea, and he said that he had not. She also asked about his medical history. Mr Binh said that he had never had surgery and that he was not taking any medication.\n\nBecause his symptoms were getting worse, the nurse reported them to the doctor immediately. The doctor ordered blood tests and a scan. Mr Binh was told not to eat or drink anything until the doctors had examined him.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The pain started two days earlier.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cơn đau bắt đầu **two days earlier**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Binh has diarrhoea.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ông nói là **không** bị tiêu chảy."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "His temperature was 38.1°C.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhiệt độ **38.1°C**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Binh has had surgery before.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ông **never had surgery**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where is the pain now?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: vùng bụng dưới bên phải.",
+        "opts": [
+         "In the chest",
+         "In the left arm",
+         "On the lower right side of the abdomen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How many times did he vomit this morning?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'vomited twice this morning'.",
+        "opts": [
+         "Once",
+         "Twice",
+         "Three times"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did the nurse report to the doctor immediately?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: triệu chứng đang nặng lên.",
+        "opts": [
+         "His symptoms were getting worse",
+         "He asked for a doctor",
+         "He had no insurance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What was Mr Binh told?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: không ăn uống cho đến khi bác sĩ khám.",
+        "opts": [
+         "To go home",
+         "To take a painkiller",
+         "Not to eat or drink until he had been examined"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Vital Signs & Assessment",
+   "name_vi": "Dấu hiệu sinh tồn & đánh giá",
+   "icon": "🌡️",
+   "hue": 28,
+   "words": [
+    {
+     "en": "vital signs",
+     "vi": "dấu hiệu sinh tồn"
+    },
+    {
+     "en": "temperature",
+     "vi": "nhiệt độ cơ thể"
+    },
+    {
+     "en": "pulse",
+     "vi": "mạch"
+    },
+    {
+     "en": "hypertension",
+     "vi": "tăng huyết áp"
+    },
+    {
+     "en": "blood pressure",
+     "vi": "huyết áp"
+    },
+    {
+     "en": "respiratory rate",
+     "vi": "nhịp thở"
+    },
+    {
+     "en": "oxygen saturation",
+     "vi": "độ bão hòa oxy (SpO₂)"
+    },
+    {
+     "en": "thermometer",
+     "vi": "nhiệt kế"
+    },
+    {
+     "en": "stethoscope",
+     "vi": "ống nghe"
+    },
+    {
+     "en": "blood pressure cuff",
+     "vi": "băng quấn đo huyết áp"
+    },
+    {
+     "en": "pulse oximeter",
+     "vi": "máy đo SpO₂ đầu ngón tay"
+    },
+    {
+     "en": "normal range",
+     "vi": "khoảng giá trị bình thường"
+    },
+    {
+     "en": "elevated",
+     "vi": "cao hơn bình thường"
+    },
+    {
+     "en": "irregular",
+     "vi": "không đều"
+    },
+    {
+     "en": "weight",
+     "vi": "cân nặng"
+    },
+    {
+     "en": "height",
+     "vi": "chiều cao"
+    },
+    {
+     "en": "BMI",
+     "vi": "chỉ số khối cơ thể"
+    },
+    {
+     "en": "pain scale",
+     "vi": "thang điểm đau"
+    },
+    {
+     "en": "level of consciousness",
+     "vi": "mức độ tỉnh táo"
+    },
+    {
+     "en": "alert",
+     "vi": "tỉnh táo"
+    },
+    {
+     "en": "drowsy",
+     "vi": "lơ mơ, buồn ngủ"
+    },
+    {
+     "en": "unresponsive",
+     "vi": "không đáp ứng"
+    },
+    {
+     "en": "pupil",
+     "vi": "đồng tử"
+    },
+    {
+     "en": "reflex",
+     "vi": "phản xạ"
+    },
+    {
+     "en": "palpate",
+     "vi": "sờ nắn khám"
+    },
+    {
+     "en": "auscultate",
+     "vi": "nghe (tim, phổi)"
+    },
+    {
+     "en": "baseline",
+     "vi": "số đo nền (để so sánh)"
+    },
+    {
+     "en": "monitor",
+     "vi": "theo dõi"
+    },
+    {
+     "en": "hypotension",
+     "vi": "hạ huyết áp"
+    },
+    {
+     "en": "abnormal",
+     "vi": "bất thường"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse uses a ___ to measure the patient's body temperature.",
+        "ans": [
+         2
+        ],
+        "tip": "thermo = nhiệt; meter = đo.",
+        "why": "**thermometer** = nhiệt kế.",
+        "opts": [
+         "stethoscope",
+         "blood pressure cuff",
+         "thermometer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is used to listen to the sounds of the heart and lungs.",
+        "ans": [
+         1
+        ],
+        "tip": "stetho = ngực; scope = quan sát.",
+        "why": "**stethoscope** = ống nghe.",
+        "opts": [
+         "thermometer",
+         "stethoscope",
+         "pulse oximeter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ clips onto the finger and shows the level of oxygen in the blood.",
+        "ans": [
+         0
+        ],
+        "tip": "oxi + meter = đo oxy.",
+        "why": "**pulse oximeter** = máy đo SpO₂.",
+        "opts": [
+         "pulse oximeter",
+         "blood pressure cuff",
+         "stethoscope"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The number of times a person breathes in one minute is the ___ rate.",
+        "ans": [
+         1
+        ],
+        "tip": "respire = thở.",
+        "why": "**respiratory rate** = nhịp thở.",
+        "opts": [
+         "baseline",
+         "respiratory",
+         "drowsy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Blood pressure that is too high is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "hyper = quá cao.",
+        "why": "**hypertension** = tăng huyết áp. (hypo = thấp)",
+        "opts": [
+         "hypotension",
+         "hypertension",
+         "irregular"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "His pulse was ___: it was sometimes fast, sometimes slow, with no pattern.",
+        "ans": [
+         0
+        ],
+        "tip": "ir + regular = không đều.",
+        "why": "**irregular** = không đều.",
+        "opts": [
+         "irregular",
+         "alert",
+         "elevated"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient is ___ and can answer questions clearly.",
+        "ans": [
+         0
+        ],
+        "tip": "alert = tỉnh táo.",
+        "why": "**alert** = tỉnh táo, phản ứng tốt.",
+        "opts": [
+         "alert",
+         "drowsy",
+         "unresponsive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse recorded the first readings as a ___ to compare with later results.",
+        "ans": [
+         2
+        ],
+        "tip": "base + line = mức nền.",
+        "why": "**baseline** = số đo nền để so sánh.",
+        "opts": [
+         "reflex",
+         "pupil",
+         "baseline"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "blood pressure",
+        "b": "the force of blood against the walls of the arteries",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "oxygen saturation",
+        "b": "the percentage of oxygen carried by the blood",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "normal range",
+        "b": "the set of values that is expected in a healthy person",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pain scale",
+        "b": "a tool that helps patients rate their pain from 0 to 10",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "level of consciousness",
+        "b": "how awake and aware a patient is",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "palpate",
+        "b": "to examine a part of the body by touching it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "auscultate",
+        "b": "to listen to sounds inside the body, usually with a stethoscope",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "BMI",
+        "b": "a number that uses weight and height to estimate body fat",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A patient who is very sleepy and hard to keep awake is ___ (d).",
+        "ans": [
+         [
+          "drowsy"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'd'.",
+        "why": "**drowsy** = lơ mơ, buồn ngủ."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A patient who does not react to voice or touch is ___ (u).",
+        "ans": [
+         [
+          "unresponsive"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'u'.",
+        "why": "**unresponsive** = không đáp ứng."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A value outside the normal range is ___ (a).",
+        "ans": [
+         [
+          "abnormal"
+         ]
+        ],
+        "tip": "ab + normal.",
+        "why": "**abnormal** = bất thường."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The black circle in the centre of the eye is the ___ (p).",
+        "ans": [
+         [
+          "pupil"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'p'.",
+        "why": "**pupil** = đồng tử."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A pulse that is higher than usual is ___ (e).",
+        "ans": [
+         [
+          "elevated"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'e'.",
+        "why": "**elevated** = cao hơn bình thường."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Báo cáo số đo: con số, đơn vị và so sánh",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (higher than), within / above / below the normal range, per minute, by + mức thay đổi, from…to…",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "His temperature is 38.5°C, which is ___ than normal.",
+        "ans": [
+         2
+        ],
+        "tip": "Có than → so sánh hơn.",
+        "why": "Có **than** → **higher**.",
+        "opts": [
+         "high",
+         "the highest",
+         "higher"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Her blood pressure is ___ the normal range.",
+        "ans": [
+         0
+        ],
+        "tip": "within = trong phạm vi.",
+        "why": "**within the normal range** = trong giới hạn bình thường.",
+        "opts": [
+         "within",
+         "between",
+         "among"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The oxygen saturation is 91%, ___ the normal level of 95% or above.",
+        "ans": [
+         1
+        ],
+        "tip": "below = thấp hơn mức.",
+        "why": "**below the normal level**.",
+        "opts": [
+         "beneath",
+         "below",
+         "lower"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The pulse is 72 beats ___ minute.",
+        "ans": [
+         1
+        ],
+        "tip": "per = mỗi.",
+        "why": "**per minute** = mỗi phút.",
+        "opts": [
+         "for",
+         "per",
+         "on"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "His weight has increased ___ 3 kg since last month.",
+        "ans": [
+         2
+        ],
+        "tip": "by = chênh lệch.",
+        "why": "**increased by 3 kg**.",
+        "opts": [
+         "at",
+         "to",
+         "by"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Her respiratory rate is not as ___ as it was yesterday.",
+        "ans": [
+         1
+        ],
+        "tip": "as + tính từ gốc + as.",
+        "why": "**not as high as** = không cao bằng.",
+        "opts": [
+         "higher",
+         "high",
+         "highest"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng so sánh hoặc giới từ đúng khi báo cáo số đo.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The pulse is ___ (slow) than 60 beats per minute, so the nurse tells the doctor.",
+        "ans": [
+         [
+          "slower"
+         ]
+        ],
+        "tip": "slow → slower.",
+        "why": "Có than → **slower**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Her temperature fell ___ 39.2°C to 37.4°C.",
+        "ans": [
+         [
+          "from"
+         ]
+        ],
+        "tip": "from … to …",
+        "why": "**fell from … to …**"
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The patient's pulse is between 60 ___ 100 beats per minute.",
+        "ans": [
+         [
+          "and"
+         ]
+        ],
+        "tip": "between … and …",
+        "why": "**between 60 and 100**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "His blood pressure is much ___ (high) than yesterday.",
+        "ans": [
+         [
+          "higher"
+         ]
+        ],
+        "tip": "Có than → so sánh hơn.",
+        "why": "**higher than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The reading is ___ (slight) above normal.",
+        "ans": [
+         [
+          "slightly"
+         ]
+        ],
+        "tip": "Trạng từ bổ nghĩa cho above.",
+        "why": "**slightly above normal**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Mệnh lệnh và động từ khuyết thiếu khi hướng dẫn bệnh nhân",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: câu mệnh lệnh (Take…, Don't move), should, need to, can, mustn't khi hướng dẫn bệnh nhân.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ a deep breath and hold it.",
+        "ans": [
+         1
+        ],
+        "tip": "Mệnh lệnh: V nguyên mẫu.",
+        "why": "Câu mệnh lệnh dùng **V nguyên mẫu**: Take.",
+        "opts": [
+         "Taking",
+         "Take",
+         "To take"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Please ___ move while I take your blood pressure.",
+        "ans": [
+         0
+        ],
+        "tip": "Phủ định mệnh lệnh: don't + V.",
+        "why": "**Please don't move**.",
+        "opts": [
+         "don't",
+         "not",
+         "no"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ fast for eight hours before the blood test.",
+        "ans": [
+         0
+        ],
+        "tip": "need to + V.",
+        "why": "**need to fast** = cần nhịn ăn.",
+        "opts": [
+         "need to",
+         "are need",
+         "needing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ keep your arm still.",
+        "ans": [
+         2
+        ],
+        "tip": "should + V.",
+        "why": "**should keep** = nên giữ yên.",
+        "opts": [
+         "did",
+         "would to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ forget to tell me if you feel dizzy.",
+        "ans": [
+         0
+        ],
+        "tip": "Don't + V.",
+        "why": "**Don't forget**.",
+        "opts": [
+         "Don't",
+         "Not",
+         "Doesn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ drink water before the test; that is allowed.",
+        "ans": [
+         2
+        ],
+        "tip": "can = được phép.",
+        "why": "**can** = được phép (mustn't là cấm).",
+        "opts": [
+         "mustn't",
+         "would not",
+         "can"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Measuring vital signs",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Vital signs give the nursing team a quick picture of a patient's condition. The four main measurements are temperature, pulse, respiratory rate and blood pressure. Many hospitals also check oxygen saturation, and some use a pain scale.\n\nA normal adult pulse is usually between 60 and 100 beats per minute, and a normal respiratory rate is between 12 and 20 breaths per minute. A healthy adult's temperature is around 37°C, and a reading above 38°C is called a fever. Blood pressure is written as two numbers, for example 120/80. A reading that is much higher than normal may indicate hypertension, and one that is much lower may indicate hypotension.\n\nThe nurse must follow a few rules. First, she explains the procedure and asks the patient to sit quietly for a few minutes. Next, she measures carefully, using clean equipment. Finally, she records each result at once on the chart and compares it with the baseline. If a value is abnormal, she should inform the doctor without delay.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The four main vital signs are temperature, pulse, respiratory rate and blood pressure.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A reading above 38°C is called a fever.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: trên 38°C gọi là sốt."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse records the results at the end of the day.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô ghi kết quả **at once** (ngay lập tức)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Blood pressure is written as one number.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: huyết áp viết bằng **hai số**, ví dụ 120/80."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a normal adult pulse?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mạch người lớn thường 60–100 lần/phút.",
+        "opts": [
+         "60 to 100 beats per minute",
+         "12 to 20 beats per minute",
+         "Over 120 beats per minute"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse do first?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: trước hết giải thích và cho bệnh nhân ngồi yên.",
+        "opts": [
+         "She records the result",
+         "She explains the procedure and asks the patient to sit quietly",
+         "She calls the doctor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should the nurse compare each result with?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: so sánh với **baseline**.",
+        "opts": [
+         "The insurance form",
+         "The pain scale",
+         "The baseline"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should she do if a value is abnormal?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: báo bác sĩ ngay.",
+        "opts": [
+         "Wait until tomorrow",
+         "Inform the doctor without delay",
+         "Ignore it"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · Checking on Mrs Hanh",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "At 8 a.m., the nurse, Linh, measured Mrs Hanh's vital signs after her operation. Her temperature was 36.8°C, her pulse was 78 beats per minute and her blood pressure was 118/76. Her oxygen saturation was 97%. These readings were all within the normal range.\n\nAt 2 p.m., Mrs Hanh said that she felt hot and weak. Linh checked her again. Her temperature had risen to 38.6°C, her pulse was now 112, and her oxygen saturation had fallen to 93%. She was also breathing faster than before. The patient was drowsy, but she answered when Linh spoke to her.\n\nLinh did not wait. She told Mrs Hanh to stay in bed and not to get up alone. Then she called the doctor and gave a clear report: the temperature was higher than in the morning, the pulse was faster, and the oxygen level was lower. The doctor arrived within ten minutes and ordered tests. Linh checked the vital signs every thirty minutes until the patient's condition improved.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "At 8 a.m. all of Mrs Hanh's readings were within the normal range.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Her oxygen saturation rose in the afternoon.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: SpO₂ **fell** xuống 93%."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Linh waited until the evening to call the doctor.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'Linh did not wait'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Linh measured the vital signs every thirty minutes afterwards.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đo mỗi 30 phút cho đến khi tình trạng cải thiện."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What was Mrs Hanh's temperature at 2 p.m.?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhiệt độ tăng lên **38.6°C**.",
+        "opts": [
+         "36.8°C",
+         "93°C",
+         "38.6°C"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How did Mrs Hanh feel in the afternoon?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bà thấy nóng và yếu.",
+        "opts": [
+         "Hot and weak",
+         "Cold and hungry",
+         "Full of energy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Linh tell Mrs Hanh to do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nằm yên trên giường, không tự ý đứng dậy.",
+        "opts": [
+         "Walk around the ward",
+         "Go home",
+         "Stay in bed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How soon did the doctor arrive?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: trong vòng 10 phút.",
+        "opts": [
+         "Within ten minutes",
+         "After two hours",
+         "The next morning"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Medication & Administration",
+   "name_vi": "Thuốc & cách dùng",
+   "icon": "💊",
+   "hue": 265,
+   "words": [
+    {
+     "en": "medication",
+     "vi": "thuốc, dược phẩm"
+    },
+    {
+     "en": "prescription",
+     "vi": "đơn thuốc"
+    },
+    {
+     "en": "dose",
+     "vi": "liều"
+    },
+    {
+     "en": "tablet",
+     "vi": "viên nén"
+    },
+    {
+     "en": "capsule",
+     "vi": "viên nang"
+    },
+    {
+     "en": "syrup",
+     "vi": "siro"
+    },
+    {
+     "en": "injection",
+     "vi": "mũi tiêm"
+    },
+    {
+     "en": "IV drip",
+     "vi": "truyền dịch tĩnh mạch"
+    },
+    {
+     "en": "ointment",
+     "vi": "thuốc mỡ"
+    },
+    {
+     "en": "inhaler",
+     "vi": "ống hít"
+    },
+    {
+     "en": "painkiller",
+     "vi": "thuốc giảm đau"
+    },
+    {
+     "en": "antibiotic",
+     "vi": "kháng sinh"
+    },
+    {
+     "en": "side effect",
+     "vi": "tác dụng phụ"
+    },
+    {
+     "en": "contraindication",
+     "vi": "chống chỉ định"
+    },
+    {
+     "en": "expiry date",
+     "vi": "hạn sử dụng"
+    },
+    {
+     "en": "pharmacist",
+     "vi": "dược sĩ"
+    },
+    {
+     "en": "over-the-counter",
+     "vi": "không cần kê đơn"
+    },
+    {
+     "en": "route of administration",
+     "vi": "đường dùng thuốc"
+    },
+    {
+     "en": "allergic reaction",
+     "vi": "phản ứng dị ứng"
+    },
+    {
+     "en": "overdose",
+     "vi": "quá liều"
+    },
+    {
+     "en": "dosage schedule",
+     "vi": "lịch dùng thuốc"
+    },
+    {
+     "en": "before meals",
+     "vi": "trước bữa ăn"
+    },
+    {
+     "en": "as needed (PRN)",
+     "vi": "khi cần"
+    },
+    {
+     "en": "oral",
+     "vi": "đường uống"
+    },
+    {
+     "en": "refill",
+     "vi": "đơn cấp thêm thuốc"
+    },
+    {
+     "en": "label",
+     "vi": "nhãn thuốc"
+    },
+    {
+     "en": "five rights",
+     "vi": "năm đúng (nguyên tắc dùng thuốc)"
+    },
+    {
+     "en": "controlled drug",
+     "vi": "thuốc kiểm soát đặc biệt"
+    },
+    {
+     "en": "adverse reaction",
+     "vi": "phản ứng có hại"
+    },
+    {
+     "en": "dissolve",
+     "vi": "hòa tan"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The doctor wrote a ___ for an antibiotic.",
+        "ans": [
+         2
+        ],
+        "tip": "pre + scribe = viết trước.",
+        "why": "**prescription** = đơn thuốc.",
+        "opts": [
+         "label",
+         "refill",
+         "prescription"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Children often take medicine as ___, a sweet liquid.",
+        "ans": [
+         2
+        ],
+        "tip": "syrup = siro.",
+        "why": "**syrup** = siro thuốc.",
+        "opts": [
+         "tablets",
+         "injections",
+         "syrup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ gives a medicine through a needle.",
+        "ans": [
+         1
+        ],
+        "tip": "inject = tiêm.",
+        "why": "**injection** = mũi tiêm.",
+        "opts": [
+         "inhaler",
+         "injection",
+         "ointment"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You put an ___ on the skin, for example on a burn or a rash.",
+        "ans": [
+         0
+        ],
+        "tip": "ointment = thuốc mỡ.",
+        "why": "**ointment** = thuốc mỡ bôi ngoài da.",
+        "opts": [
+         "ointment",
+         "capsule",
+         "inhaler"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient had a rash and difficulty breathing after the medicine, so it was an ___.",
+        "ans": [
+         2
+        ],
+        "tip": "allergic = dị ứng.",
+        "why": "**allergic reaction** = phản ứng dị ứng.",
+        "opts": [
+         "expiry date",
+         "controlled drug",
+         "allergic reaction"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do not use the medicine after the ___ printed on the box.",
+        "ans": [
+         2
+        ],
+        "tip": "expire = hết hạn.",
+        "why": "**expiry date** = hạn sử dụng.",
+        "opts": [
+         "refill",
+         "dose",
+         "expiry date"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Check the five ___ before you give any medication: patient, drug, dose, route and time.",
+        "ans": [
+         0
+        ],
+        "tip": "Five rights = năm đúng.",
+        "why": "**five rights** = năm nguyên tắc: đúng người, thuốc, liều, đường dùng, thời gian.",
+        "opts": [
+         "rights",
+         "routes",
+         "refills"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a medicine that kills bacteria or stops them from growing.",
+        "ans": [
+         2
+        ],
+        "tip": "anti = chống; bio = sự sống (vi khuẩn).",
+        "why": "**antibiotic** = kháng sinh.",
+        "opts": [
+         "painkiller",
+         "syrup",
+         "antibiotic"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "painkiller",
+        "b": "a medicine that reduces pain",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "antibiotic",
+        "b": "a medicine that kills bacteria or stops them growing",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "side effect",
+        "b": "an unwanted effect of a medicine",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "contraindication",
+        "b": "a reason why a certain medicine should not be given",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "over-the-counter",
+        "b": "available without a prescription",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "overdose",
+        "b": "taking too much of a medicine",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "controlled drug",
+        "b": "a medicine with strict legal rules because it can be misused",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dose",
+        "b": "the amount of medicine given at one time",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A medicine that you breathe in through the mouth, for example for asthma, is given with an ___ (i).",
+        "ans": [
+         [
+          "inhaler"
+         ]
+        ],
+        "tip": "in + hale = hít vào.",
+        "why": "**inhaler** = ống hít."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Give the medicine ___ (o), which means by mouth.",
+        "ans": [
+         [
+          "orally",
+          "oral"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'o'.",
+        "why": "**orally / oral** = đường uống."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "An ___ drip puts fluid directly into a vein. (IV / intravenous)",
+        "ans": [
+         [
+          "IV",
+          "intravenous"
+         ]
+        ],
+        "tip": "Viết tắt: IV.",
+        "why": "**IV drip** = truyền tĩnh mạch."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A ___ (c) is a medicine in a small shell that dissolves in the stomach.",
+        "ans": [
+         [
+          "capsule"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'c'.",
+        "why": "**capsule** = viên nang."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "When a tablet ___ (d) in water, it breaks up and mixes with the liquid.",
+        "ans": [
+         [
+          "dissolves"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'd'.",
+        "why": "**dissolves** = hòa tan."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Tần suất, liều dùng và giới từ chỉ thời gian",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: twice a day, every 8 hours, before meals, as needed; trạng từ chỉ tần suất; for / in / at khi nói về thời gian dùng thuốc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Take one tablet ___ a day, in the morning and at night.",
+        "ans": [
+         0
+        ],
+        "tip": "twice = hai lần.",
+        "why": "**twice a day** = hai lần mỗi ngày.",
+        "opts": [
+         "twice",
+         "two",
+         "second"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Take the capsule ___ meals.",
+        "ans": [
+         0
+        ],
+        "tip": "before meals = trước bữa ăn.",
+        "why": "**before meals**.",
+        "opts": [
+         "before",
+         "by",
+         "up"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Give the medicine ___ eight hours.",
+        "ans": [
+         2
+        ],
+        "tip": "every + khoảng thời gian.",
+        "why": "**every eight hours** = cách mỗi 8 giờ.",
+        "opts": [
+         "each of",
+         "all",
+         "every"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She takes her inhaler ___ needed.",
+        "ans": [
+         2
+        ],
+        "tip": "as needed = khi cần.",
+        "why": "**as needed** (PRN).",
+        "opts": [
+         "like",
+         "so",
+         "as"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He ___ forgets to take his tablets, so we gave him a reminder.",
+        "ans": [
+         2
+        ],
+        "tip": "Trạng từ tần suất đứng trước động từ thường.",
+        "why": "**often forgets** = thường quên.",
+        "opts": [
+         "oftenly",
+         "ever",
+         "often"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Take the antibiotic ___ seven days.",
+        "ans": [
+         0
+        ],
+        "tip": "for + khoảng thời gian.",
+        "why": "**for seven days** = trong bảy ngày.",
+        "opts": [
+         "for",
+         "since",
+         "in"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ từ chỉ tần suất hoặc giới từ đúng.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Take one tablet three times ___ day. (a / the)",
+        "ans": [
+         [
+          "a"
+         ]
+        ],
+        "tip": "three times a day.",
+        "why": "**three times a day** = ba lần mỗi ngày."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The injection is given ___ six hours.",
+        "ans": [
+         [
+          "every"
+         ]
+        ],
+        "tip": "every + khoảng thời gian.",
+        "why": "**every six hours**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She takes the pills ___ (usual) with food.",
+        "ans": [
+         [
+          "usually"
+         ]
+        ],
+        "tip": "Trạng từ.",
+        "why": "**usually** = thường."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Take the syrup ___ the evening. (in / at)",
+        "ans": [
+         [
+          "in"
+         ]
+        ],
+        "tip": "in the evening.",
+        "why": "**in the evening**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Take two tablets ___ night. (at / in)",
+        "ans": [
+         [
+          "at"
+         ]
+        ],
+        "tip": "at night.",
+        "why": "**at night**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Thể bị động khi ghi chép dùng thuốc",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: bị động (was administered, was given, must be stored, has been given, should be reported) trong hồ sơ và tường trình.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The medication ___ at 8 a.m.",
+        "ans": [
+         0
+        ],
+        "tip": "Thuốc 'được' dùng → bị động quá khứ.",
+        "why": "**was administered** = đã được dùng.",
+        "opts": [
+         "was administered",
+         "administered",
+         "has administering"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient ___ a painkiller an hour ago.",
+        "ans": [
+         2
+        ],
+        "tip": "an hour ago → quá khứ đơn.",
+        "why": "'an hour ago' → **was given**.",
+        "opts": [
+         "gave",
+         "has been given",
+         "was given"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All controlled drugs must ___ in a locked cabinet.",
+        "ans": [
+         0
+        ],
+        "tip": "must + be + V3.",
+        "why": "**must be stored**.",
+        "opts": [
+         "be stored",
+         "store",
+         "stored"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The dose ___ before it is given.",
+        "ans": [
+         1
+        ],
+        "tip": "Liều 'được' kiểm tra.",
+        "why": "**is checked** = được kiểm tra.",
+        "opts": [
+         "checks",
+         "is checked",
+         "is checking"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The antibiotic has not ___ yet.",
+        "ans": [
+         1
+        ],
+        "tip": "has not been + V3.",
+        "why": "**has not been given** yet.",
+        "opts": [
+         "given",
+         "been given",
+         "be given"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Side effects should ___ to the doctor.",
+        "ans": [
+         0
+        ],
+        "tip": "should + be + V3.",
+        "why": "**should be reported**.",
+        "opts": [
+         "be reported",
+         "report",
+         "reported"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Giving medication safely",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Giving medication is one of a nurse's most important tasks, and mistakes can be dangerous. That is why nurses follow the five rights: the right patient, the right drug, the right dose, the right route and the right time.\n\nBefore giving a drug, the nurse reads the prescription carefully and checks the patient's ID wristband. She also asks about allergies and reads the label on the box. If the expiry date has passed, the medicine must not be used. The nurse then prepares the correct dose. Tablets and capsules are given orally, syrups are measured in a small cup, and injections are given with a needle and syringe.\n\nAfter the patient has taken the drug, the nurse records the time, the dose and the route on the chart. She stays alert for side effects, such as a rash, vomiting or dizziness. If the patient has an allergic reaction, the nurse must stop the medication and call the doctor immediately. Controlled drugs are kept in a locked cabinet, and every dose is counted and signed for.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The five rights include the right dose and the right route.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse may use medicine after its expiry date.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thuốc hết hạn **must not be used**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Controlled drugs are kept in a locked cabinet.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse records the dose before the patient takes the drug.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ghi **sau khi** bệnh nhân đã uống thuốc."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse check on the patient's arm?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kiểm tra vòng tay định danh.",
+        "opts": [
+         "The blood pressure cuff",
+         "The ID wristband",
+         "The consent form"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How are syrups given?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: siro được đong bằng cốc nhỏ.",
+        "opts": [
+         "They are measured in a small cup",
+         "Only with a syringe",
+         "With an inhaler"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should the nurse do if the patient has an allergic reaction?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: dừng thuốc và gọi bác sĩ ngay.",
+        "opts": [
+         "Stop the medication and call the doctor",
+         "Give a bigger dose",
+         "Wait an hour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is recorded on the chart?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: giờ, liều và đường dùng thuốc.",
+        "opts": [
+         "Only the patient's name",
+         "The pharmacist's address",
+         "The time, the dose and the route"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · A near miss on the ward",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Last Tuesday, a medication error was almost made on a surgical ward. Nurse Minh was preparing the evening medicines when she noticed that a dose of insulin in the syringe was larger than the one in the doctor's order. The order said 6 units, but 16 units had been drawn up. She stopped immediately.\n\nMinh did not give the injection. Instead, she showed the syringe to a second nurse, who confirmed the mistake. The syringe was thrown away in the sharps bin, and a new dose was prepared and checked by both nurses. The injection was given safely fifteen minutes later, and the patient's blood sugar was monitored.\n\nAn incident report was completed before the end of the shift. It explained what had happened: the prescription had been read in a hurry, and the number had been written unclearly. After the incident, the ward introduced a new rule: all insulin doses must be double-checked by two nurses. The manager thanked Minh and said that reporting near misses helps to keep patients safe.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The patient received the wrong dose.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Minh **did not give** mũi tiêm sai liều."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A second nurse confirmed the mistake.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: y tá thứ hai xác nhận sai sót."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The syringe was thrown away in the sharps bin.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ống tiêm được bỏ vào **sharps bin**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The ward did not change any rules.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khoa **đưa ra quy định mới**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Minh notice?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: liều trong ống tiêm lớn hơn y lệnh.",
+        "opts": [
+         "The dose in the syringe was larger than the order",
+         "The patient was allergic",
+         "The label was missing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why was the number wrong?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đọc vội và số bị viết không rõ.",
+        "opts": [
+         "The patient changed his mind",
+         "The sharps bin was full",
+         "The prescription had been read in a hurry and written unclearly"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When was the injection given safely?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 15 phút sau.",
+        "opts": [
+         "The next day",
+         "Before the second nurse came",
+         "Fifteen minutes later"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What new rule was introduced?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: mọi liều insulin phải được hai y tá kiểm tra chéo.",
+        "opts": [
+         "Insulin is no longer used",
+         "Nurses must work in pairs",
+         "Insulin doses must be double-checked by two nurses"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Procedures & Infection Control",
+   "name_vi": "Thủ thuật & kiểm soát nhiễm khuẩn",
+   "icon": "🧼",
+   "hue": 160,
+   "words": [
+    {
+     "en": "infection",
+     "vi": "nhiễm trùng"
+    },
+    {
+     "en": "hand hygiene",
+     "vi": "vệ sinh tay"
+    },
+    {
+     "en": "sterile",
+     "vi": "vô trùng"
+    },
+    {
+     "en": "disinfect",
+     "vi": "khử khuẩn"
+    },
+    {
+     "en": "gloves",
+     "vi": "găng tay"
+    },
+    {
+     "en": "mask",
+     "vi": "khẩu trang"
+    },
+    {
+     "en": "gown",
+     "vi": "áo choàng bảo hộ"
+    },
+    {
+     "en": "PPE (personal protective equipment)",
+     "vi": "phương tiện phòng hộ cá nhân"
+    },
+    {
+     "en": "sharps bin",
+     "vi": "thùng đựng vật sắc nhọn"
+    },
+    {
+     "en": "needle",
+     "vi": "kim tiêm"
+    },
+    {
+     "en": "syringe",
+     "vi": "ống tiêm"
+    },
+    {
+     "en": "catheter",
+     "vi": "ống thông"
+    },
+    {
+     "en": "dressing",
+     "vi": "băng gạc che vết thương"
+    },
+    {
+     "en": "wound",
+     "vi": "vết thương"
+    },
+    {
+     "en": "suture",
+     "vi": "chỉ khâu; khâu vết thương"
+    },
+    {
+     "en": "bandage",
+     "vi": "băng"
+    },
+    {
+     "en": "swab",
+     "vi": "tăm bông, gạc nhỏ"
+    },
+    {
+     "en": "specimen",
+     "vi": "mẫu bệnh phẩm"
+    },
+    {
+     "en": "isolation",
+     "vi": "cách ly"
+    },
+    {
+     "en": "contaminate",
+     "vi": "làm nhiễm bẩn"
+    },
+    {
+     "en": "cross-infection",
+     "vi": "lây nhiễm chéo"
+    },
+    {
+     "en": "transmission",
+     "vi": "sự lây truyền"
+    },
+    {
+     "en": "airborne",
+     "vi": "lây qua không khí"
+    },
+    {
+     "en": "disposable",
+     "vi": "dùng một lần"
+    },
+    {
+     "en": "sterilise",
+     "vi": "tiệt trùng"
+    },
+    {
+     "en": "aseptic technique",
+     "vi": "kỹ thuật vô khuẩn"
+    },
+    {
+     "en": "blood sample",
+     "vi": "mẫu máu"
+    },
+    {
+     "en": "cannula",
+     "vi": "ống thông tĩnh mạch ngoại vi"
+    },
+    {
+     "en": "pressure ulcer",
+     "vi": "loét tì đè"
+    },
+    {
+     "en": "biohazard waste",
+     "vi": "chất thải y tế nguy hại"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Cleaning your hands with soap or alcohol gel is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "hygiene = vệ sinh.",
+        "why": "**hand hygiene** = vệ sinh tay.",
+        "opts": [
+         "hand hygiene",
+         "isolation",
+         "swab"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Surgical instruments must be ___, with no living germs on them.",
+        "ans": [
+         2
+        ],
+        "tip": "sterile = vô trùng.",
+        "why": "**sterile** = vô trùng.",
+        "opts": [
+         "disposable",
+         "airborne",
+         "sterile"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse put on ___ to protect her hands.",
+        "ans": [
+         0
+        ],
+        "tip": "glove = găng tay.",
+        "why": "**gloves** = găng tay.",
+        "opts": [
+         "gloves",
+         "a specimen",
+         "a suture"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Used needles go into the ___.",
+        "ans": [
+         0
+        ],
+        "tip": "sharp = sắc nhọn.",
+        "why": "**sharps bin** = thùng đựng vật sắc nhọn.",
+        "opts": [
+         "sharps bin",
+         "gown",
+         "blood sample"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse changed the ___ on his wound and checked for redness.",
+        "ans": [
+         2
+        ],
+        "tip": "dress = băng bó.",
+        "why": "**dressing** = băng gạc.",
+        "opts": [
+         "suture",
+         "cannula",
+         "dressing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A thin tube is inserted into the bladder to drain urine. It is a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "catheter = ống thông.",
+        "why": "**catheter** = ống thông (tiểu).",
+        "opts": [
+         "catheter",
+         "swab",
+         "bandage"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A patient with a highly infectious illness is kept in ___ to protect others.",
+        "ans": [
+         2
+        ],
+        "tip": "isolate = cách ly.",
+        "why": "**isolation** = cách ly.",
+        "opts": [
+         "dressing",
+         "specimen",
+         "isolation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse took a blood ___ and sent it to the laboratory.",
+        "ans": [
+         2
+        ],
+        "tip": "sample = mẫu.",
+        "why": "**blood sample** = mẫu máu.",
+        "opts": [
+         "isolation",
+         "transmission",
+         "sample"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "disinfect",
+        "b": "to clean a surface to kill germs",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "PPE (personal protective equipment)",
+        "b": "equipment such as gloves and masks that protects staff from infection",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cross-infection",
+        "b": "the spread of germs from one patient to another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "contaminate",
+        "b": "to make something dirty or unsafe by adding germs",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "aseptic technique",
+        "b": "a way of working that prevents germs from entering the body",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transmission",
+        "b": "the passing of an infection from one person to another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cannula",
+        "b": "a thin tube put into a vein to give fluids or medicine",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "swab",
+        "b": "a small piece of cotton used to clean a wound or take a sample",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A thin, sharp tool used with a syringe for injections is a ___ (n).",
+        "ans": [
+         [
+          "needle"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'n'.",
+        "why": "**needle** = kim tiêm."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A medical tool that is used only once is ___ (d).",
+        "ans": [
+         [
+          "disposable"
+         ]
+        ],
+        "tip": "dispose = vứt bỏ.",
+        "why": "**disposable** = dùng một lần."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "To make something completely free from living germs is to ___ (s) it.",
+        "ans": [
+         [
+          "sterilise",
+          "sterilize"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 's'.",
+        "why": "**sterilise** (Mỹ: sterilize) = tiệt trùng."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A large piece of clothing worn over the uniform for protection is a ___ (g).",
+        "ans": [
+         [
+          "gown"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'g'.",
+        "why": "**gown** = áo choàng bảo hộ."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "An infection that spreads through the air is ___ (a).",
+        "ans": [
+         [
+          "airborne"
+         ]
+        ],
+        "tip": "air + borne.",
+        "why": "**airborne** = lây qua không khí."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 0 và 1 trong quy trình",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: If + hiện tại, hiện tại / will / mệnh lệnh; unless = if … not.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If a patient has a fever, the nurse ___ the doctor.",
+        "ans": [
+         0
+        ],
+        "tip": "Quy trình thường lệ → hiện tại đơn.",
+        "why": "Quy trình chung → **informs**.",
+        "opts": [
+         "informs",
+         "will informing",
+         "would inform"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If you touch a contaminated surface, you ___ wash your hands.",
+        "ans": [
+         2
+        ],
+        "tip": "Mệnh đề chính: must + V.",
+        "why": "**must wash** = bắt buộc rửa tay.",
+        "opts": [
+         "would",
+         "did",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the wound ___ red and swollen, tell the doctor.",
+        "ans": [
+         1
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Sau **If** dùng hiện tại: **becomes**.",
+        "opts": [
+         "will become",
+         "becomes",
+         "became"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The infection will not spread ___ we follow the rules.",
+        "ans": [
+         0
+        ],
+        "tip": "if = nếu.",
+        "why": "**if we follow the rules** = nếu chúng ta tuân thủ. (unless = nếu không)",
+        "opts": [
+         "if",
+         "unless",
+         "although"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If gloves ___ torn, replace them immediately.",
+        "ans": [
+         1
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "**are torn** (bị động hiện tại).",
+        "opts": [
+         "will be",
+         "are",
+         "would be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the patient ___ a high temperature tomorrow, we will take a blood sample.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại đơn, will + V.",
+        "why": "Điều kiện loại 1 → **has**.",
+        "opts": [
+         "has",
+         "will have",
+         "had"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong câu điều kiện.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If you ___ (see) blood on the floor, clean it with disinfectant.",
+        "ans": [
+         [
+          "see"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "**see**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the patient ___ (develop) a rash, we will stop the medicine.",
+        "ans": [
+         [
+          "develops"
+         ]
+        ],
+        "tip": "Chủ ngữ số ít.",
+        "why": "**develops**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Unless gloves ___ (be) changed between patients, germs will spread.",
+        "ans": [
+         [
+          "are"
+         ]
+        ],
+        "tip": "Unless + hiện tại.",
+        "why": "**are changed** (bị động); ở đây điền **are**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the wound ___ (not / heal), we will ask the doctor to see it.",
+        "ans": [
+         [
+          "does not heal",
+          "doesn't heal"
+         ]
+        ],
+        "tip": "Phủ định hiện tại đơn.",
+        "why": "**does not heal**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If a patient ___ (have) diarrhoea, we put him in a single room.",
+        "ans": [
+         [
+          "has"
+         ]
+        ],
+        "tip": "Chủ ngữ số ít.",
+        "why": "**has**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Mệnh đề chỉ mục đích và lý do",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: to + V, in order to + V, so that + mệnh đề, for + V-ing, because (+ mệnh đề).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We wear gloves ___ the spread of infection.",
+        "ans": [
+         1
+        ],
+        "tip": "Mục đích: to + V.",
+        "why": "**to prevent** = để ngăn ngừa.",
+        "opts": [
+         "for prevent",
+         "to prevent",
+         "prevent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse washes her hands ___ she does not carry germs between patients.",
+        "ans": [
+         2
+        ],
+        "tip": "so that + mệnh đề.",
+        "why": "**so that** + mệnh đề: để mà.",
+        "opts": [
+         "in order",
+         "because of",
+         "so that"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Patients are isolated in order ___ other people from infection.",
+        "ans": [
+         2
+        ],
+        "tip": "in order to + V.",
+        "why": "**in order to protect**.",
+        "opts": [
+         "protecting",
+         "for protect",
+         "to protect"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Use a clean dressing ___ infection.",
+        "ans": [
+         2
+        ],
+        "tip": "to + V chỉ mục đích.",
+        "why": "**to avoid** = để tránh.",
+        "opts": [
+         "for avoid",
+         "avoiding to",
+         "to avoid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He used alcohol gel ___ he could not reach the sink.",
+        "ans": [
+         2
+        ],
+        "tip": "because + lý do.",
+        "why": "**because** + mệnh đề chỉ lý do.",
+        "opts": [
+         "so that",
+         "in order to",
+         "because"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff change their gloves between patients ___ preventing cross-infection.",
+        "ans": [
+         1
+        ],
+        "tip": "for + V-ing.",
+        "why": "**for preventing** = để (nhằm) ngăn ngừa.",
+        "opts": [
+         "to for",
+         "for",
+         "so that"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Preventing infection in hospital",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Hospitals care for people who are sick, and many of them are very weak. For this reason, preventing infection is a priority. Infections can be spread by touch, by the air or by contaminated equipment, and this is called transmission.\n\nThe most effective measure is hand hygiene. Nurses must clean their hands before touching a patient, before any aseptic procedure, after touching a patient and after touching the patient's surroundings. If their hands look dirty, they wash them with soap and water. Otherwise, they can use alcohol gel.\n\nStaff also wear personal protective equipment, or PPE, such as gloves, masks and gowns, to protect themselves and the patients. Gloves must be changed between patients; if they are not, cross-infection may occur. Used needles go into a sharps bin, and surfaces are disinfected regularly. Patients with highly infectious illnesses are kept in isolation so that the infection does not spread to others.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Infections can spread through the air.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: lây qua chạm, không khí hoặc dụng cụ nhiễm bẩn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Nurses use alcohol gel if their hands look dirty.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tay bẩn thì **rửa bằng xà phòng và nước**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Gloves must be changed between patients.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Highly infectious patients are kept in isolation.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: được cách ly."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is the most effective measure mentioned?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: vệ sinh tay.",
+        "opts": [
+         "Hand hygiene",
+         "Isolation",
+         "Disinfecting surfaces"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where do used needles go?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: bỏ vào **sharps bin**.",
+        "opts": [
+         "Into a laundry bag",
+         "Onto the trolley",
+         "Into a sharps bin"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can happen if gloves are not changed between patients?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: có thể xảy ra lây nhiễm chéo.",
+        "opts": [
+         "A drug error",
+         "Cross-infection",
+         "An allergic reaction"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are infectious patients kept in isolation?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: để bệnh không lây sang người khác.",
+        "opts": [
+         "So that they can sleep",
+         "So that the infection does not spread to others",
+         "To save money"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · Changing a wound dressing",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Nurse Thu has to change a dressing on Mr Long's leg wound. First, she explains the procedure and asks whether he has any pain. If he does, she gives a painkiller about thirty minutes before the procedure, as ordered. Then she washes her hands and puts on a clean apron and gloves.\n\nShe removes the old dressing carefully and puts it in a yellow waste bag. Next, she looks at the wound. If it is red, hot or swollen, or if there is a bad smell, she will report it to the doctor. Today the wound looks clean. She cleans it with a sterile swab and saline, moving from the cleanest area outwards. She changes her gloves, dries the skin around the wound and applies a new sterile dressing.\n\nFinally, she disposes of the waste, washes her hands again and writes a note on the chart: the date, the time, the condition of the wound and the type of dressing used. She also tells Mr Long to keep the dressing dry and to call a nurse if it becomes loose.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Thu puts on gloves before washing her hands.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cô **rửa tay trước**, sau đó mới mang găng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The old dressing is put in a waste bag.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bỏ vào túi rác y tế màu vàng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The wound looks infected today.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'Today the wound looks clean'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Thu writes a note on the chart.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô ghi ngày, giờ, tình trạng vết thương và loại băng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When does Thu give a painkiller if the patient has pain?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khoảng 30 phút trước thủ thuật.",
+        "opts": [
+         "About thirty minutes before the procedure",
+         "After the procedure",
+         "Never"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Thu use to clean the wound?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: gạc vô trùng và nước muối sinh lý.",
+        "opts": [
+         "A sterile swab and saline",
+         "Soap and a towel",
+         "Alcohol gel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In which direction does she clean the wound?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: từ vùng sạch nhất ra ngoài.",
+        "opts": [
+         "From the edge towards the dirtiest part",
+         "Only in the centre",
+         "From the cleanest area outwards"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does she tell Mr Long?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: giữ băng khô và gọi y tá nếu băng bị lỏng.",
+        "opts": [
+         "To remove it tonight",
+         "To keep the dressing dry",
+         "To wash the wound daily"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Charting, Handover & Documentation",
+   "name_vi": "Ghi hồ sơ, bàn giao ca & tường trình",
+   "icon": "📋",
+   "hue": 210,
+   "words": [
+    {
+     "en": "chart",
+     "vi": "hồ sơ theo dõi; ghi chép vào hồ sơ"
+    },
+    {
+     "en": "medical record",
+     "vi": "bệnh án"
+    },
+    {
+     "en": "handover",
+     "vi": "bàn giao ca"
+    },
+    {
+     "en": "shift",
+     "vi": "ca làm việc"
+    },
+    {
+     "en": "SBAR",
+     "vi": "khung báo cáo SBAR"
+    },
+    {
+     "en": "progress note",
+     "vi": "ghi chú diễn tiến"
+    },
+    {
+     "en": "incident report",
+     "vi": "báo cáo sự cố"
+    },
+    {
+     "en": "intake and output",
+     "vi": "dịch vào – dịch ra"
+    },
+    {
+     "en": "care team",
+     "vi": "nhóm chăm sóc"
+    },
+    {
+     "en": "doctor's order",
+     "vi": "y lệnh"
+    },
+    {
+     "en": "on call",
+     "vi": "trực (sẵn sàng khi cần)"
+    },
+    {
+     "en": "night shift",
+     "vi": "ca đêm"
+    },
+    {
+     "en": "document",
+     "vi": "ghi chép, lập hồ sơ"
+    },
+    {
+     "en": "observation",
+     "vi": "quan sát, theo dõi"
+    },
+    {
+     "en": "deteriorate",
+     "vi": "xấu đi"
+    },
+    {
+     "en": "stable",
+     "vi": "ổn định"
+    },
+    {
+     "en": "transfer",
+     "vi": "chuyển (bệnh nhân)"
+    },
+    {
+     "en": "escalate",
+     "vi": "báo cáo lên cấp cao hơn"
+    },
+    {
+     "en": "abbreviation",
+     "vi": "từ viết tắt"
+    },
+    {
+     "en": "legible",
+     "vi": "dễ đọc"
+    },
+    {
+     "en": "accurate",
+     "vi": "chính xác"
+    },
+    {
+     "en": "timely",
+     "vi": "kịp thời"
+    },
+    {
+     "en": "signature",
+     "vi": "chữ ký"
+    },
+    {
+     "en": "fall risk",
+     "vi": "nguy cơ té ngã"
+    },
+    {
+     "en": "allergy alert",
+     "vi": "cảnh báo dị ứng"
+    },
+    {
+     "en": "verbal order",
+     "vi": "y lệnh bằng lời"
+    },
+    {
+     "en": "update",
+     "vi": "cập nhật"
+    },
+    {
+     "en": "outcome",
+     "vi": "kết quả"
+    },
+    {
+     "en": "discrepancy",
+     "vi": "sự sai lệch, không khớp"
+    },
+    {
+     "en": "witness",
+     "vi": "người chứng kiến (ký xác nhận)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the end of her shift, the nurse gave a ___ to the nurse on the night shift.",
+        "ans": [
+         2
+        ],
+        "tip": "hand + over = trao lại.",
+        "why": "**handover** = bàn giao ca.",
+        "opts": [
+         "signature",
+         "outcome",
+         "handover"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Doctors and nurses write in the patient's ___ so that everyone knows his history.",
+        "ans": [
+         0
+        ],
+        "tip": "record = bản ghi.",
+        "why": "**medical record** = bệnh án.",
+        "opts": [
+         "medical record",
+         "fall risk",
+         "shift"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse used the ___ format to give a clear, short report to the doctor.",
+        "ans": [
+         0
+        ],
+        "tip": "S-B-A-R: Situation, Background, Assessment, Recommendation.",
+        "why": "**SBAR** = khung báo cáo ngắn gọn, rõ ràng.",
+        "opts": [
+         "SBAR",
+         "abbreviation",
+         "signature"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse wrote a ___ to describe how the patient had slept and eaten.",
+        "ans": [
+         0
+        ],
+        "tip": "progress = tiến triển.",
+        "why": "**progress note** = ghi chú diễn tiến.",
+        "opts": [
+         "progress note",
+         "incident report",
+         "verbal order"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ is completed when something goes wrong, such as a patient falling.",
+        "ans": [
+         1
+        ],
+        "tip": "incident = sự cố.",
+        "why": "**incident report** = báo cáo sự cố.",
+        "opts": [
+         "progress note",
+         "incident report",
+         "signature"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Use only approved ___ so that other staff can understand your notes.",
+        "ans": [
+         0
+        ],
+        "tip": "abbreviation = từ viết tắt.",
+        "why": "**abbreviations** = các từ viết tắt được chấp thuận.",
+        "opts": [
+         "abbreviations",
+         "signatures",
+         "shifts"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Your handwriting must be ___ so that others can read it.",
+        "ans": [
+         1
+        ],
+        "tip": "legible = đọc được.",
+        "why": "**legible** = dễ đọc.",
+        "opts": [
+         "timely",
+         "legible",
+         "stable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient's condition began to ___: his blood pressure fell and his pulse rose.",
+        "ans": [
+         0
+        ],
+        "tip": "de + teriorate = xấu đi.",
+        "why": "**deteriorate** = xấu đi.",
+        "opts": [
+         "deteriorate",
+         "transfer",
+         "update"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "shift",
+        "b": "a period of time when a nurse works, such as a day or night",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "intake and output",
+        "b": "a record of the fluids a patient takes in and passes out",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "doctor's order",
+        "b": "a written instruction from a doctor about the patient's treatment",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "on call",
+        "b": "available to come to work if needed",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "escalate",
+        "b": "to report a problem to a more senior person",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fall risk",
+        "b": "a patient who is likely to fall and be injured",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "discrepancy",
+        "b": "a difference between two records that should be the same",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "verbal order",
+        "b": "an instruction given by speaking rather than in writing",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A patient whose condition is not changing is ___ (s).",
+        "ans": [
+         [
+          "stable"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 's'.",
+        "why": "**stable** = ổn định."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A record must be ___ (a): it must contain correct information.",
+        "ans": [
+         [
+          "accurate"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'a'.",
+        "why": "**accurate** = chính xác."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A patient's ___ (c) is the document where nurses record observations and care.",
+        "ans": [
+         [
+          "chart"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'c'.",
+        "why": "**chart** = hồ sơ theo dõi."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Please ___ (u) the family about any change in his condition.",
+        "ans": [
+         [
+          "update"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'u'.",
+        "why": "**update** = cập nhật thông tin."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Every entry in the record must have the nurse's ___ (s) and the date.",
+        "ans": [
+         [
+          "signature"
+         ]
+        ],
+        "tip": "sign + ature.",
+        "why": "**signature** = chữ ký."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và quá khứ tiếp diễn trong ghi chép",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ tiếp diễn (was/were + V-ing) cho việc đang diễn ra; quá khứ đơn cho việc xen vào hoặc nối tiếp.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When the nurse ___ the room, the patient was sleeping.",
+        "ans": [
+         1
+        ],
+        "tip": "Hành động xen vào → quá khứ đơn.",
+        "why": "**entered** = hành động xen vào việc đang diễn ra.",
+        "opts": [
+         "was entering",
+         "entered",
+         "has entered"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient ___ when he fell.",
+        "ans": [
+         1
+        ],
+        "tip": "Việc đang diễn ra khi có việc xen vào.",
+        "why": "**was walking** = đang đi thì ngã.",
+        "opts": [
+         "walked",
+         "was walking",
+         "has walked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "While I was taking his blood pressure, he suddenly ___ dizzy.",
+        "ans": [
+         1
+        ],
+        "tip": "Hành động xảy ra bất ngờ → quá khứ đơn.",
+        "why": "**felt** = chợt thấy chóng mặt.",
+        "opts": [
+         "was feeling",
+         "felt",
+         "feels"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At 3 a.m., the patient ___ because of pain.",
+        "ans": [
+         2
+        ],
+        "tip": "Việc đang diễn ra lúc 3 giờ sáng.",
+        "why": "**was not sleeping** = đang không ngủ được.",
+        "opts": [
+         "did not slept",
+         "not slept",
+         "was not sleeping"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ the dressing when the alarm sounded.",
+        "ans": [
+         1
+        ],
+        "tip": "Đang làm thì chuông reo.",
+        "why": "**was changing** = đang thay băng.",
+        "opts": [
+         "changed",
+         "was changing",
+         "changes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The doctor ___ the order, and the nurse gave the medication.",
+        "ans": [
+         0
+        ],
+        "tip": "Hai việc nối tiếp → quá khứ đơn.",
+        "why": "**wrote … gave** = hai việc nối tiếp nhau.",
+        "opts": [
+         "wrote",
+         "was writing",
+         "has written"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng quá khứ đơn hoặc quá khứ tiếp diễn đúng.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The patient ___ (sit) in a chair when he fainted.",
+        "ans": [
+         [
+          "was sitting"
+         ]
+        ],
+        "tip": "Đang ngồi thì ngất.",
+        "why": "**was sitting**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I ___ (give) the medication at 9 a.m. and recorded it at once.",
+        "ans": [
+         [
+          "gave"
+         ]
+        ],
+        "tip": "Hai việc nối tiếp.",
+        "why": "**gave**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "While the nurse ___ (check) his pulse, the alarm went off.",
+        "ans": [
+         [
+          "was checking"
+         ]
+        ],
+        "tip": "While + quá khứ tiếp diễn.",
+        "why": "**was checking**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "He ___ (not / eat) when I arrived.",
+        "ans": [
+         [
+          "was not eating",
+          "wasn't eating"
+         ]
+        ],
+        "tip": "Đang không ăn lúc tôi đến.",
+        "why": "**wasn't eating**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I ___ (find) the patient on the floor and called for help.",
+        "ans": [
+         [
+          "found"
+         ]
+        ],
+        "tip": "Hai việc nối tiếp.",
+        "why": "**found**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Câu tường thuật trong bàn giao và báo cáo",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: said that…, asked if/where…, told sb to…; lùi thì (present → past, past → past perfect, will → would).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient said, \"I feel dizzy.\" → The patient said that he ___ dizzy.",
+        "ans": [
+         0
+        ],
+        "tip": "Lùi thì: hiện tại → quá khứ.",
+        "why": "**felt** (lùi một thì).",
+        "opts": [
+         "felt",
+         "feels",
+         "has felt"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She asked me, \"Where is the toilet?\" → She asked me where the toilet ___.",
+        "ans": [
+         0
+        ],
+        "tip": "Lùi thì và không đảo ngữ.",
+        "why": "**where the toilet was**.",
+        "opts": [
+         "was",
+         "is",
+         "were"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mr Lee told the nurse that he ___ not eaten since the morning.",
+        "ans": [
+         2
+        ],
+        "tip": "Quá khứ hoàn thành khi tường thuật.",
+        "why": "**had not eaten**.",
+        "opts": [
+         "has",
+         "did",
+         "had"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The doctor said that she ___ review the patient later.",
+        "ans": [
+         1
+        ],
+        "tip": "will → would.",
+        "why": "**would review**.",
+        "opts": [
+         "will",
+         "would",
+         "is"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He asked ___ he could go home.",
+        "ans": [
+         2
+        ],
+        "tip": "Câu hỏi Yes/No → if/whether.",
+        "why": "**asked if**.",
+        "opts": [
+         "what",
+         "that",
+         "if"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse told the patient ___ lie flat.",
+        "ans": [
+         1
+        ],
+        "tip": "tell sb to + V.",
+        "why": "**told the patient to lie flat**.",
+        "opts": [
+         "that",
+         "to",
+         "for"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A good handover",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A handover is the moment when one nurse gives information about patients to the next nurse at the end of a shift. A poor handover can cause mistakes, so many hospitals teach a simple structure called SBAR.\n\nS stands for Situation: the nurse says who the patient is and what is happening now. B stands for Background: she gives the medical history, such as allergies and recent surgery. A stands for Assessment: she reports the latest vital signs and her own opinion about the patient's condition. R stands for Recommendation: she says what she thinks should be done next, for example: \"I think the doctor should see the patient within the hour.\"\n\nGood handovers are short, accurate and clear. The nurse avoids unusual abbreviations and checks that the other person has understood. Important information is also written in the medical record, because speech can be forgotten, but a legible note stays. If a patient is deteriorating, the nurse must escalate the problem at once and not wait until the next handover.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A handover happens at the end of a shift.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In SBAR, the letter B stands for Background.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: B = Background (bệnh sử, bối cảnh)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Nurses should use as many unusual abbreviations as possible.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nên **tránh** từ viết tắt hiếm gặp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A deteriorating patient should wait until the next handover.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: phải **escalate at once**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse report under Assessment?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: dấu hiệu sinh tồn mới nhất và nhận định của cô.",
+        "opts": [
+         "The latest vital signs and her own opinion",
+         "The patient's insurance",
+         "The family history"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is important information also written in the record?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lời nói có thể bị quên, còn ghi chú thì còn lại.",
+        "opts": [
+         "The doctor cannot speak",
+         "Speech can be forgotten, but a note stays",
+         "Handover is forbidden"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Recommendation mean in SBAR?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: điều nên làm tiếp theo.",
+        "opts": [
+         "What happened yesterday",
+         "Who the patient is",
+         "What the nurse thinks should be done next"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should the nurse do after giving the handover?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: kiểm tra người nhận đã hiểu chưa.",
+        "opts": [
+         "Leave immediately",
+         "Check that the other person has understood",
+         "Write the doctor's order"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · Reporting an incident",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "On Sunday night, Nurse Quang found Mr Duc sitting on the floor next to his bed. Mr Duc said that he had wanted to go to the toilet and that he had not wanted to disturb anyone. He said that he felt a little pain in his hip, but he insisted that he was fine.\n\nQuang called for help and checked Mr Duc's vital signs. Then she asked him whether he had hit his head. He answered that he had not. A doctor was called and examined him. The doctor told Quang to monitor him every hour and ordered an X-ray.\n\nBefore the end of her shift, Quang completed an incident report. She wrote what she had seen, the time, the doctor's name and what the patient had said. She also noted that Mr Duc was a fall risk and that his call bell had been out of reach. In the handover, she told the morning nurse that the patient needed close observation and that the call bell should always be placed within his reach.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Duc said that he had wanted to go to the toilet.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mr Duc told Quang that he had hit his head.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ông trả lời là **không** đập đầu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The doctor ordered an X-ray.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bác sĩ chỉ định chụp X-quang."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Quang told the morning nurse to keep the call bell out of reach.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chuông gọi phải đặt **trong tầm với**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where did Quang find Mr Duc?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ngồi trên sàn cạnh giường.",
+        "opts": [
+         "On the floor next to his bed",
+         "In the toilet",
+         "In the corridor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did Mr Duc not call anyone?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ông không muốn làm phiền ai.",
+        "opts": [
+         "The bell was broken",
+         "He did not want to disturb anyone",
+         "He was asleep"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the doctor tell Quang to do?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: theo dõi mỗi giờ.",
+        "opts": [
+         "Send him home",
+         "Give him a sedative",
+         "Monitor him every hour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Quang note about the call bell?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: chuông gọi đã ở ngoài tầm với.",
+        "opts": [
+         "It had been out of reach",
+         "It was louder than usual",
+         "It was missing"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Emergency & Critical Care",
+   "name_vi": "Cấp cứu & hồi sức",
+   "icon": "🚑",
+   "hue": 0,
+   "words": [
+    {
+     "en": "emergency",
+     "vi": "cấp cứu, tình huống khẩn cấp"
+    },
+    {
+     "en": "ambulance",
+     "vi": "xe cứu thương"
+    },
+    {
+     "en": "cardiac arrest",
+     "vi": "ngừng tim"
+    },
+    {
+     "en": "CPR",
+     "vi": "hồi sức tim phổi"
+    },
+    {
+     "en": "defibrillator",
+     "vi": "máy sốc tim"
+    },
+    {
+     "en": "airway",
+     "vi": "đường thở"
+    },
+    {
+     "en": "resuscitation",
+     "vi": "hồi sức"
+    },
+    {
+     "en": "stroke",
+     "vi": "đột quỵ"
+    },
+    {
+     "en": "heart attack",
+     "vi": "nhồi máu cơ tim"
+    },
+    {
+     "en": "seizure",
+     "vi": "co giật"
+    },
+    {
+     "en": "shock",
+     "vi": "sốc"
+    },
+    {
+     "en": "bleeding",
+     "vi": "chảy máu"
+    },
+    {
+     "en": "fracture",
+     "vi": "gãy xương"
+    },
+    {
+     "en": "burn",
+     "vi": "bỏng"
+    },
+    {
+     "en": "choking",
+     "vi": "nghẹn, hóc dị vật"
+    },
+    {
+     "en": "unconscious",
+     "vi": "bất tỉnh"
+    },
+    {
+     "en": "oxygen mask",
+     "vi": "mặt nạ oxy"
+    },
+    {
+     "en": "ventilator",
+     "vi": "máy thở"
+    },
+    {
+     "en": "ICU",
+     "vi": "khoa hồi sức tích cực"
+    },
+    {
+     "en": "crash cart",
+     "vi": "xe cấp cứu"
+    },
+    {
+     "en": "code blue",
+     "vi": "mã xanh (báo động ngừng tim)"
+    },
+    {
+     "en": "life-threatening",
+     "vi": "đe dọa tính mạng"
+    },
+    {
+     "en": "stabilise",
+     "vi": "ổn định (tình trạng)"
+    },
+    {
+     "en": "intubate",
+     "vi": "đặt nội khí quản"
+    },
+    {
+     "en": "cardiac monitor",
+     "vi": "máy theo dõi tim"
+    },
+    {
+     "en": "trauma",
+     "vi": "chấn thương nặng"
+    },
+    {
+     "en": "first aid",
+     "vi": "sơ cứu"
+    },
+    {
+     "en": "paramedic",
+     "vi": "nhân viên cấp cứu ngoại viện"
+    },
+    {
+     "en": "anaphylaxis",
+     "vi": "sốc phản vệ"
+    },
+    {
+     "en": "tourniquet",
+     "vi": "garô cầm máu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When the heart stops beating suddenly, it is called a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "cardiac = thuộc tim; arrest = ngừng.",
+        "why": "**cardiac arrest** = ngừng tim.",
+        "opts": [
+         "stroke",
+         "cardiac arrest",
+         "seizure"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Nurses give chest compressions during ___ to keep blood moving.",
+        "ans": [
+         1
+        ],
+        "tip": "CPR = cardiopulmonary resuscitation.",
+        "why": "**CPR** = hồi sức tim phổi.",
+        "opts": [
+         "a burn",
+         "CPR",
+         "an airway"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a machine that gives an electric shock to restart a normal heart rhythm.",
+        "ans": [
+         2
+        ],
+        "tip": "de + fibrillate = chặn rung tim.",
+        "why": "**defibrillator** = máy sốc tim.",
+        "opts": [
+         "ventilator",
+         "tourniquet",
+         "defibrillator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ helps a patient to breathe by pushing air into the lungs.",
+        "ans": [
+         0
+        ],
+        "tip": "ventilate = thông khí.",
+        "why": "**ventilator** = máy thở.",
+        "opts": [
+         "ventilator",
+         "defibrillator",
+         "paramedic"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The first thing to check in an emergency is the ___ to make sure it is open.",
+        "ans": [
+         2
+        ],
+        "tip": "air + way = đường cho khí đi.",
+        "why": "**airway** = đường thở.",
+        "opts": [
+         "fracture",
+         "burn",
+         "airway"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ happens when the blood flow to part of the brain is blocked or a vessel bursts.",
+        "ans": [
+         0
+        ],
+        "tip": "stroke = đột quỵ.",
+        "why": "**stroke** = đột quỵ.",
+        "opts": [
+         "stroke",
+         "seizure",
+         "fracture"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient is ___ and does not respond to voice or pain.",
+        "ans": [
+         0
+        ],
+        "tip": "un + conscious = mất ý thức.",
+        "why": "**unconscious** = bất tỉnh.",
+        "opts": [
+         "unconscious",
+         "stable",
+         "alert"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A severe allergic reaction that can stop breathing is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "ana + phylaxis = phản ứng quá mức.",
+        "why": "**anaphylaxis** = sốc phản vệ.",
+        "opts": [
+         "anaphylaxis",
+         "fracture",
+         "choking"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "resuscitation",
+        "b": "the effort to bring a person back to life or consciousness",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "crash cart",
+        "b": "a trolley with equipment and drugs for emergencies",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "code blue",
+        "b": "a hospital call for a patient in cardiac arrest",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "life-threatening",
+        "b": "likely to cause death if not treated",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stabilise",
+        "b": "to make a patient's condition steady and no longer getting worse",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "intubate",
+        "b": "to put a tube into the airway to help breathing",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "tourniquet",
+        "b": "a band tied tightly to stop severe bleeding",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "paramedic",
+        "b": "a trained person who gives emergency treatment outside hospital",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A sudden, uncontrolled shaking of the body is a ___ (s).",
+        "ans": [
+         [
+          "seizure"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 's'.",
+        "why": "**seizure** = cơn co giật."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A broken bone is a ___ (f).",
+        "ans": [
+         [
+          "fracture"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'f'.",
+        "why": "**fracture** = gãy xương."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A person who cannot breathe because food blocks the throat is ___ (c).",
+        "ans": [
+         [
+          "choking"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'c'.",
+        "why": "**choking** = nghẹn, hóc."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Simple help given to an injured person before a doctor arrives is ___ aid. (f)",
+        "ans": [
+         [
+          "first"
+         ]
+        ],
+        "tip": "first aid.",
+        "why": "**first aid** = sơ cứu."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The ___ (I) is the unit for the most seriously ill patients. Three letters.",
+        "ans": [
+         [
+          "ICU"
+         ]
+        ],
+        "tip": "Viết tắt.",
+        "why": "**ICU** = khoa hồi sức tích cực."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm và khẩn cấp",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: must, have to, need to (bắt buộc); mustn't, shouldn't (cấm, không nên); don't have to / don't need to (không cần).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ start CPR immediately if the patient is not breathing.",
+        "ans": [
+         1
+        ],
+        "tip": "Việc khẩn cấp bắt buộc → must.",
+        "why": "**must** = bắt buộc.",
+        "opts": [
+         "might",
+         "must",
+         "may"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff ___ leave the crash cart empty.",
+        "ans": [
+         1
+        ],
+        "tip": "Cấm → must not.",
+        "why": "**must not** = cấm.",
+        "opts": [
+         "don't have to",
+         "must not",
+         "needn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ wait for the doctor before calling a code blue.",
+        "ans": [
+         2
+        ],
+        "tip": "don't have to = không cần thiết.",
+        "why": "**don't have to wait** = không cần chờ.",
+        "opts": [
+         "mustn't",
+         "are able to",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse ___ to call for help at once.",
+        "ans": [
+         2
+        ],
+        "tip": "Chủ ngữ số ít: has to.",
+        "why": "**has to** = phải.",
+        "opts": [
+         "have",
+         "is having",
+         "has"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ move a patient with a suspected neck injury.",
+        "ans": [
+         1
+        ],
+        "tip": "Lời khuyên nên tránh → shouldn't.",
+        "why": "**shouldn't move** = không nên di chuyển.",
+        "opts": [
+         "needn't",
+         "shouldn't",
+         "can't to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ check the airway first.",
+        "ans": [
+         1
+        ],
+        "tip": "need to + V.",
+        "why": "**need to check** = cần kiểm tra.",
+        "opts": [
+         "needing",
+         "need to",
+         "needed to be"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ động từ khuyết thiếu hoặc cụm tương đương đúng.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Anyone who finds an unresponsive patient ___ (must / call) for help immediately.",
+        "ans": [
+         [
+          "must call"
+         ]
+        ],
+        "tip": "must + V.",
+        "why": "**must call**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ (must / not) leave a patient with severe bleeding alone.",
+        "ans": [
+         [
+          "must not",
+          "mustn't"
+         ]
+        ],
+        "tip": "Cấm.",
+        "why": "**must not leave**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The team ___ (have to) act fast yesterday when he stopped breathing.",
+        "ans": [
+         [
+          "had to"
+         ]
+        ],
+        "tip": "have to → had to.",
+        "why": "'yesterday' → **had to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ (not / need) to give oxygen if the saturation is normal.",
+        "ans": [
+         [
+          "do not need",
+          "don't need"
+         ]
+        ],
+        "tip": "Không cần thiết.",
+        "why": "**don't need to give**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (have to) check the defibrillator every morning.",
+        "ans": [
+         [
+          "has to"
+         ]
+        ],
+        "tip": "Chủ ngữ số ít.",
+        "why": "**has to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Từ chỉ thời gian và mệnh đề thời gian trong tình huống khẩn cấp",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: as soon as, until, while, within, by the time, for / during; hiện tại đơn sau as soon as / until trong chỉ dẫn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Call the doctor ___ the patient's condition gets worse.",
+        "ans": [
+         0
+        ],
+        "tip": "as soon as = ngay khi.",
+        "why": "**as soon as** = ngay khi.",
+        "opts": [
+         "as soon as",
+         "until",
+         "since"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Stay with the patient ___ the doctor arrives.",
+        "ans": [
+         0
+        ],
+        "tip": "until = cho đến khi.",
+        "why": "**until** = cho đến khi.",
+        "opts": [
+         "until",
+         "by",
+         "during"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ambulance arrived ___ five minutes.",
+        "ans": [
+         1
+        ],
+        "tip": "within = trong vòng.",
+        "why": "**within five minutes** = trong vòng 5 phút.",
+        "opts": [
+         "during",
+         "within",
+         "for"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ the nurse was giving oxygen, another nurse called the doctor.",
+        "ans": [
+         1
+        ],
+        "tip": "while = trong khi.",
+        "why": "**While** = trong khi (hai việc cùng lúc).",
+        "opts": [
+         "Until",
+         "While",
+         "Unless"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "By the time the paramedics arrived, the nurse ___ CPR for ten minutes.",
+        "ans": [
+         1
+        ],
+        "tip": "By the time + quá khứ → quá khứ hoàn thành tiếp diễn.",
+        "why": "**had been doing** = đã làm được 10 phút.",
+        "opts": [
+         "has been doing",
+         "had been doing",
+         "did"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Apply pressure to the wound ___ the bleeding stops.",
+        "ans": [
+         1
+        ],
+        "tip": "until = cho đến khi.",
+        "why": "**until the bleeding stops**.",
+        "opts": [
+         "while to",
+         "until",
+         "since"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Basic life support",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Cardiac arrest is a life-threatening emergency: the heart stops pumping blood, and the patient becomes unconscious and stops breathing normally. Every minute without treatment reduces the chance of survival, so nurses must act immediately.\n\nFirst, the nurse checks that the area is safe and tries to wake the patient by speaking loudly and touching his shoulders. If there is no response, she calls for help and sends someone to bring the crash cart and the defibrillator. In a hospital, she may call code blue. Then she opens the airway and checks for normal breathing for no more than ten seconds.\n\nIf the patient is not breathing normally, she starts CPR at once. She pushes hard and fast in the centre of the chest and continues until the defibrillator arrives or until the team takes over. As soon as the defibrillator is ready, it must be attached and its instructions must be followed. Nobody should stop CPR unless the patient wakes up or a doctor tells them to stop.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In cardiac arrest, the heart stops pumping blood.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse should check breathing for several minutes.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: **không quá mười giây**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "CPR should continue until the defibrillator arrives or the team takes over.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đúng nguyên văn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse should call for help only after finishing CPR.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: gọi giúp đỡ **trước** khi bắt đầu CPR nếu bệnh nhân không đáp ứng."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse do first?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: kiểm tra an toàn và cố gọi bệnh nhân tỉnh.",
+        "opts": [
+         "She starts CPR",
+         "She checks that the area is safe and tries to wake the patient",
+         "She calls the family"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What equipment is brought to the patient?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: xe cấp cứu và máy sốc tim.",
+        "opts": [
+         "A wheelchair",
+         "A thermometer",
+         "The crash cart and the defibrillator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How long should she check for normal breathing?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: không quá mười giây.",
+        "opts": [
+         "No more than ten seconds",
+         "Two minutes",
+         "Half an hour"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When can CPR be stopped?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khi bệnh nhân tỉnh hoặc bác sĩ yêu cầu dừng.",
+        "opts": [
+         "After one minute",
+         "When the nurse is tired",
+         "If the patient wakes up or a doctor says so"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · A busy night in the emergency department",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "At 11 p.m., an ambulance arrived at the emergency department with a man who had fallen from a motorbike. The paramedics told the triage nurse, Lan, that he was conscious but confused, that he had a bleeding leg and that his breathing was fast.\n\nLan classified him as a high priority and took him straight to the resuscitation room. While a colleague was attaching a cardiac monitor and an oxygen mask, Lan applied pressure to the wound until the bleeding slowed. His blood pressure was low and his pulse was fast, which showed that he was going into shock. The doctor arrived within two minutes and ordered fluids through a cannula, blood tests and an X-ray.\n\nWithin half an hour, the patient's condition was stable. He had a fractured leg and was taken to the operating theatre. Lan then handed over to the surgical team. When she finished, she wrote in the record what she had done, at what time, and what the patient's vital signs had been. \"In an emergency,\" she said later, \"staying calm is as important as acting fast.\"",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The man had fallen from a motorbike.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ông ngã từ xe máy."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "He was unconscious when he arrived.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ông **conscious but confused** (tỉnh nhưng lú lẫn)."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The doctor arrived within two minutes.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bác sĩ đến trong vòng hai phút."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The man had a fractured leg.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ông bị gãy chân."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Where did Lan take the patient?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: đưa thẳng vào phòng hồi sức.",
+        "opts": [
+         "To the waiting area",
+         "To the resuscitation room",
+         "To the pharmacy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Lan do to the wound?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ép vào vết thương cho đến khi máu chảy chậm lại.",
+        "opts": [
+         "She applied pressure until the bleeding slowed",
+         "She put on a plaster",
+         "She left it open"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What showed that he was going into shock?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: huyết áp thấp và mạch nhanh.",
+        "opts": [
+         "A high temperature",
+         "Low blood pressure and a fast pulse",
+         "A loud voice"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did Lan say was as important as acting fast?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: giữ bình tĩnh quan trọng ngang với hành động nhanh.",
+        "opts": [
+         "Writing neatly",
+         "Staying calm",
+         "Calling the family"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Patient Education, Ethics & Care Planning",
+   "name_vi": "Giáo dục sức khỏe, đạo đức & kế hoạch chăm sóc",
+   "icon": "🤝",
+   "hue": 35,
+   "words": [
+    {
+     "en": "patient education",
+     "vi": "giáo dục sức khỏe cho bệnh nhân"
+    },
+    {
+     "en": "informed consent",
+     "vi": "sự đồng ý có hiểu biết"
+    },
+    {
+     "en": "patient rights",
+     "vi": "quyền của người bệnh"
+    },
+    {
+     "en": "dignity",
+     "vi": "phẩm giá, sự tôn trọng"
+    },
+    {
+     "en": "empathy",
+     "vi": "sự đồng cảm"
+    },
+    {
+     "en": "cultural sensitivity",
+     "vi": "sự nhạy cảm văn hóa"
+    },
+    {
+     "en": "advocate",
+     "vi": "bênh vực, đại diện quyền lợi"
+    },
+    {
+     "en": "palliative care",
+     "vi": "chăm sóc giảm nhẹ"
+    },
+    {
+     "en": "end-of-life care",
+     "vi": "chăm sóc cuối đời"
+    },
+    {
+     "en": "chronic disease",
+     "vi": "bệnh mạn tính"
+    },
+    {
+     "en": "diabetes",
+     "vi": "đái tháo đường"
+    },
+    {
+     "en": "self-management",
+     "vi": "tự quản lý bệnh"
+    },
+    {
+     "en": "lifestyle",
+     "vi": "lối sống"
+    },
+    {
+     "en": "diet",
+     "vi": "chế độ ăn"
+    },
+    {
+     "en": "follow-up",
+     "vi": "tái khám, theo dõi tiếp"
+    },
+    {
+     "en": "discharge instructions",
+     "vi": "hướng dẫn khi xuất viện"
+    },
+    {
+     "en": "recovery",
+     "vi": "sự hồi phục"
+    },
+    {
+     "en": "rehabilitation",
+     "vi": "phục hồi chức năng"
+    },
+    {
+     "en": "mobility",
+     "vi": "khả năng vận động"
+    },
+    {
+     "en": "caregiver",
+     "vi": "người chăm sóc"
+    },
+    {
+     "en": "support group",
+     "vi": "nhóm hỗ trợ"
+    },
+    {
+     "en": "mental health",
+     "vi": "sức khỏe tâm thần"
+    },
+    {
+     "en": "adherence",
+     "vi": "sự tuân thủ điều trị"
+    },
+    {
+     "en": "risk factor",
+     "vi": "yếu tố nguy cơ"
+    },
+    {
+     "en": "prevention",
+     "vi": "phòng ngừa"
+    },
+    {
+     "en": "vaccination",
+     "vi": "tiêm chủng"
+    },
+    {
+     "en": "screening",
+     "vi": "tầm soát"
+    },
+    {
+     "en": "code of ethics",
+     "vi": "quy tắc đạo đức nghề nghiệp"
+    },
+    {
+     "en": "wellbeing",
+     "vi": "sức khỏe và hạnh phúc"
+    },
+    {
+     "en": "relapse",
+     "vi": "tái phát"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before any procedure, the patient must give ___ after the risks are explained.",
+        "ans": [
+         1
+        ],
+        "tip": "informed = được thông tin đầy đủ.",
+        "why": "**informed consent** = đồng ý sau khi được giải thích đầy đủ.",
+        "opts": [
+         "empathy",
+         "informed consent",
+         "dignity"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Treating every patient with respect protects their ___.",
+        "ans": [
+         0
+        ],
+        "tip": "dignity = phẩm giá.",
+        "why": "**dignity** = phẩm giá.",
+        "opts": [
+         "dignity",
+         "adherence",
+         "relapse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Understanding and sharing a patient's feelings is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "em + pathy = cảm nhận cùng.",
+        "why": "**empathy** = sự đồng cảm.",
+        "opts": [
+         "screening",
+         "empathy",
+         "mobility"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Nurses with ___ respect the beliefs and customs of patients from different backgrounds.",
+        "ans": [
+         1
+        ],
+        "tip": "culture + sensitive.",
+        "why": "**cultural sensitivity** = nhạy cảm văn hóa.",
+        "opts": [
+         "prevention",
+         "cultural sensitivity",
+         "rehabilitation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Care that focuses on comfort for patients with serious, incurable illness is ___ care.",
+        "ans": [
+         1
+        ],
+        "tip": "palliate = làm dịu.",
+        "why": "**palliative care** = chăm sóc giảm nhẹ.",
+        "opts": [
+         "follow-up",
+         "palliative",
+         "self-management"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Diabetes is a ___ because it lasts for a long time.",
+        "ans": [
+         0
+        ],
+        "tip": "chronic = kéo dài.",
+        "why": "**chronic disease** = bệnh mạn tính.",
+        "opts": [
+         "chronic disease",
+         "risk factor",
+         "vaccination"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient must return for a ___ visit in two weeks to check his recovery.",
+        "ans": [
+         1
+        ],
+        "tip": "follow-up = theo dõi tiếp.",
+        "why": "**follow-up** = tái khám.",
+        "opts": [
+         "lifestyle",
+         "follow-up",
+         "screening"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a person who looks after a sick family member at home.",
+        "ans": [
+         2
+        ],
+        "tip": "care + giver.",
+        "why": "**caregiver** = người chăm sóc.",
+        "opts": [
+         "advocate",
+         "specialist",
+         "caregiver"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "patient rights",
+        "b": "the basic rights that every patient has, such as privacy and respect",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "advocate",
+        "b": "to speak up for a patient's needs and interests",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "discharge instructions",
+        "b": "written directions that tell patients how to care for themselves after leaving hospital",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "rehabilitation",
+        "b": "treatment to help a patient recover movement and daily skills",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "adherence",
+        "b": "how closely a patient follows the treatment plan",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "risk factor",
+        "b": "something that increases the chance of developing a disease",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "screening",
+        "b": "testing healthy people to find a disease early",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "code of ethics",
+        "b": "a set of moral rules that guides professional behaviour",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 3 · Điền thuật ngữ",
+     "instruction": "Type the missing term.",
+     "instruction_vi": "Gõ thuật ngữ còn thiếu (có gợi ý chữ cái đầu).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Giving injections to protect people from diseases is called ___ (v).",
+        "ans": [
+         [
+          "vaccination"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'v'.",
+        "why": "**vaccination** = tiêm chủng."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Avoiding illness before it starts is ___ (p).",
+        "ans": [
+         [
+          "prevention"
+         ]
+        ],
+        "tip": "prevent + ion.",
+        "why": "**prevention** = phòng ngừa."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A support ___ (g) is a meeting where people with the same problem help each other.",
+        "ans": [
+         [
+          "group"
+         ]
+        ],
+        "tip": "support g…",
+        "why": "**support group** = nhóm hỗ trợ."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A person's general physical and emotional state of being well is their ___ (w).",
+        "ans": [
+         [
+          "wellbeing",
+          "well-being"
+         ]
+        ],
+        "tip": "well + being.",
+        "why": "**wellbeing** = sức khỏe và hạnh phúc."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The return of an illness after a period of improvement is a ___ (r).",
+        "ans": [
+         [
+          "relapse"
+         ]
+        ],
+        "tip": "Bắt đầu bằng chữ 'r'.",
+        "why": "**relapse** = tái phát."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Đưa ra lời khuyên cho bệnh nhân",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: should / shouldn't, ought to, had better, It is important to + V, If I were you…",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ drink plenty of water.",
+        "ans": [
+         0
+        ],
+        "tip": "should + V.",
+        "why": "**should drink** = nên uống.",
+        "opts": [
+         "should",
+         "must to",
+         "would to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ lift heavy objects for six weeks.",
+        "ans": [
+         0
+        ],
+        "tip": "Phủ định của should.",
+        "why": "**shouldn't lift** = không nên nâng.",
+        "opts": [
+         "shouldn't",
+         "don't should",
+         "not should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "It is important ___ your medicine every day.",
+        "ans": [
+         1
+        ],
+        "tip": "It is important + to V.",
+        "why": "**It is important to take…**",
+        "opts": [
+         "taking",
+         "to take",
+         "take"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ better rest if you want to recover.",
+        "ans": [
+         1
+        ],
+        "tip": "had better + V.",
+        "why": "**had better rest** = tốt hơn là nên nghỉ.",
+        "opts": [
+         "would",
+         "had",
+         "have"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I ___ you, I would ask for a second opinion.",
+        "ans": [
+         0
+        ],
+        "tip": "If I were you…",
+        "why": "**If I were you** = nếu tôi là bạn.",
+        "opts": [
+         "were",
+         "am",
+         "will be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ought ___ see your GP if the pain continues.",
+        "ans": [
+         2
+        ],
+        "tip": "ought to + V.",
+        "why": "**ought to see**.",
+        "opts": [
+         "for",
+         "that",
+         "to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ cấu trúc đưa lời khuyên đúng.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ (should / not) smoke because it slows the healing.",
+        "ans": [
+         [
+          "should not",
+          "shouldn't"
+         ]
+        ],
+        "tip": "Lời khuyên phủ định.",
+        "why": "**shouldn't smoke**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You'd better ___ (call) us if the fever returns.",
+        "ans": [
+         [
+          "call"
+         ]
+        ],
+        "tip": "had better + V.",
+        "why": "**had better call**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "It is important ___ (keep) the wound clean.",
+        "ans": [
+         [
+          "to keep"
+         ]
+        ],
+        "tip": "It is important to + V.",
+        "why": "**to keep**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ought ___ (rest) for a few days.",
+        "ans": [
+         [
+          "to rest"
+         ]
+        ],
+        "tip": "ought to + V.",
+        "why": "**to rest**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think you ___ (should / eat) more vegetables.",
+        "ans": [
+         [
+          "should eat"
+         ]
+        ],
+        "tip": "should + V.",
+        "why": "**should eat**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 3 · Động từ theo sau bởi V-ing hoặc to + V",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: avoid / stop / be used to + V-ing; remember / decide / help (to) + V.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Avoid ___ heavy objects.",
+        "ans": [
+         0
+        ],
+        "tip": "avoid + V-ing.",
+        "why": "**avoid lifting**.",
+        "opts": [
+         "lifting",
+         "to lift",
+         "lift"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Remember ___ your tablets after breakfast.",
+        "ans": [
+         1
+        ],
+        "tip": "remember to + V = nhớ làm.",
+        "why": "**remember to take** = nhớ uống.",
+        "opts": [
+         "taking",
+         "to take",
+         "take"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "He stopped ___ last year, and his breathing improved.",
+        "ans": [
+         1
+        ],
+        "tip": "stop + V-ing = ngừng hẳn.",
+        "why": "**stopped smoking** = bỏ thuốc.",
+        "opts": [
+         "to smoke",
+         "smoking",
+         "smoke"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The nurse helped him ___ up.",
+        "ans": [
+         1
+        ],
+        "tip": "help + V.",
+        "why": "**help him sit up**.",
+        "opts": [
+         "sat",
+         "sit",
+         "sits"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The patient decided ___ the treatment.",
+        "ans": [
+         0
+        ],
+        "tip": "decide + to V.",
+        "why": "**decided to continue**.",
+        "opts": [
+         "to continue",
+         "continuing to",
+         "continue"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She is used to ___ at night.",
+        "ans": [
+         0
+        ],
+        "tip": "be used to + V-ing.",
+        "why": "**is used to working** = đã quen với việc làm.",
+        "opts": [
+         "working",
+         "work",
+         "worked"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Planning a safe discharge",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Going home from hospital is an important step, and good preparation reduces the risk that a patient will return soon. Discharge planning starts early. Nurses talk to the patient and the family about the patient's needs, the medicines and the help that will be available at home.\n\nBefore discharge, the nurse gives clear discharge instructions. She explains how and when to take each medicine, which side effects to expect and which warning signs mean that the patient should call a doctor, for example a high fever, increasing pain or bleeding. She also gives advice about diet, exercise and rest. The nurse uses simple words, avoids long medical terms and asks the patient to repeat the main points. This method is called \"teach back.\"\n\nIf the patient needs rehabilitation or a caregiver, the nurse arranges it. A follow-up appointment is made, and the patient receives the phone number of the ward. Finally, the nurse asks, \"What questions do you have?\" Patients who understand their care are more likely to follow the plan and recover well.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Discharge planning starts on the day of discharge.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: kế hoạch xuất viện **bắt đầu sớm**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse explains which warning signs mean the patient should call a doctor.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ví dụ sốt cao, đau tăng, chảy máu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The nurse uses long medical terms.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cô dùng từ đơn giản và **tránh** thuật ngữ dài."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A follow-up appointment is made.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hẹn tái khám."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is \"teach back\"?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bệnh nhân nhắc lại các ý chính.",
+        "opts": [
+         "The patient repeats the main points",
+         "The nurse writes a report",
+         "The doctor repeats the order"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which of these is a warning sign?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sốt cao là dấu hiệu cần gọi bác sĩ.",
+        "opts": [
+         "A good appetite",
+         "A high fever",
+         "A short walk"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is discharge planning important?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: giảm nguy cơ phải quay lại viện.",
+        "opts": [
+         "It saves paper",
+         "It replaces the follow-up visit",
+         "It reduces the risk that the patient will return soon"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the nurse ask at the end?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: 'What questions do you have?'",
+        "opts": [
+         "Where is your insurance?",
+         "Who is your GP?",
+         "What questions do you have?"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 2 · An ethical dilemma",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Mrs Mai, aged 82, has a serious illness. Her son asks the nurse, Thao, not to tell his mother about the diagnosis because he is afraid that she will become very sad. Thao listens with empathy and tells him that she understands his worry. However, she explains that patients have the right to information about their own health, and that Mrs Mai must give informed consent before any treatment.\n\nThao speaks to the doctor, and they decide to meet the family together. In the meeting, the doctor asks Mrs Mai how much she would like to know. Mrs Mai says that she wants to hear everything, because she wants to make her own decisions. The doctor explains the diagnosis slowly and in simple language, and Thao stays beside Mrs Mai during the conversation.\n\nAfterwards, Thao writes in the record what was discussed and what Mrs Mai decided. She also arranges support from the palliative care team. Her son says that he is grateful, because he did not realise that his mother was stronger than he thought. For Thao, the case is a reminder that a nurse is an advocate: she protects the patient's dignity and rights, even when it is difficult.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mrs Mai's son wants the nurse to tell his mother everything.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: anh muốn nữ điều dưỡng **không** nói về chẩn đoán."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Patients have the right to information about their own health.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Thao giải thích quyền được biết thông tin."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mrs Mai wants to hear everything.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bà muốn nghe tất cả để tự quyết định."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Thao refuses to listen to the son.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Thao **lắng nghe với sự đồng cảm**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why does the son ask Thao to say nothing?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: anh sợ mẹ sẽ rất buồn.",
+        "opts": [
+         "He is afraid his mother will become very sad",
+         "He is angry with the doctor",
+         "He does not believe the diagnosis"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the doctor ask Mrs Mai?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bà muốn biết đến mức nào.",
+        "opts": [
+         "Whether she has insurance",
+         "Who her GP is",
+         "How much she would like to know"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Thao arrange afterwards?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hỗ trợ từ nhóm chăm sóc giảm nhẹ.",
+        "opts": [
+         "A new diagnosis",
+         "Support from the palliative care team",
+         "A discharge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a nurse, according to the final sentence?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: điều dưỡng là người bênh vực quyền lợi và phẩm giá của bệnh nhân.",
+        "opts": [
+         "A person who decides for the family",
+         "Someone who avoids difficult conversations",
+         "An advocate who protects the patient's dignity and rights"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "tightness",
+   "cảm giác tức, thắt chặt"
+  ],
+  [
+   "porter",
+   "nhân viên hộ lý vận chuyển"
+  ],
+  [
+   "nod",
+   "gật đầu"
+  ],
+  [
+   "aged",
+   "(ở độ tuổi) …"
+  ],
+  [
+   "promise",
+   "hứa"
+  ],
+  [
+   "clue",
+   "manh mối, gợi ý"
+  ],
+  [
+   "imaginable",
+   "có thể tưởng tượng được"
+  ],
+  [
+   "pale",
+   "xanh xao, nhợt nhạt"
+  ],
+  [
+   "scan",
+   "chụp quét (CT, MRI…)"
+  ],
+  [
+   "examine",
+   "khám, kiểm tra"
+  ],
+  [
+   "earlier",
+   "trước đó"
+  ],
+  [
+   "recent",
+   "gần đây"
+  ],
+  [
+   "opinion",
+   "ý kiến"
+  ],
+  [
+   "survival",
+   "sự sống sót"
+  ],
+  [
+   "shoulder",
+   "vai"
+  ],
+  [
+   "calm",
+   "bình tĩnh"
+  ],
+  [
+   "colleague",
+   "đồng nghiệp"
+  ],
+  [
+   "priority",
+   "sự ưu tiên"
+  ],
+  [
+   "confused",
+   "lú lẫn, bối rối"
+  ],
+  [
+   "conscious",
+   "tỉnh táo, có ý thức"
+  ],
+  [
+   "fluid",
+   "dịch, chất lỏng"
+  ],
+  [
+   "attach",
+   "gắn vào"
+  ],
+  [
+   "disturb",
+   "làm phiền"
+  ],
+  [
+   "insist",
+   "khăng khăng"
+  ],
+  [
+   "hip",
+   "hông"
+  ],
+  [
+   "reach",
+   "tầm với; với tới"
+  ],
+  [
+   "hurry",
+   "sự vội vàng"
+  ],
+  [
+   "confirm",
+   "xác nhận"
+  ],
+  [
+   "apron",
+   "tạp dề"
+  ],
+  [
+   "saline",
+   "nước muối sinh lý"
+  ],
+  [
+   "loose",
+   "lỏng"
+  ],
+  [
+   "smell",
+   "mùi"
+  ],
+  [
+   "dry",
+   "khô; làm khô"
+  ],
+  [
+   "apply",
+   "áp dụng, đắp lên"
+  ],
+  [
+   "dispose",
+   "vứt bỏ"
+  ],
+  [
+   "cabinet",
+   "tủ"
+  ],
+  [
+   "locked",
+   "bị khóa"
+  ],
+  [
+   "count",
+   "đếm"
+  ],
+  [
+   "prepare",
+   "chuẩn bị"
+  ],
+  [
+   "mistake",
+   "sai sót"
+  ],
+  [
+   "dangerous",
+   "nguy hiểm"
+  ],
+  [
+   "weak",
+   "yếu"
+  ],
+  [
+   "surroundings",
+   "môi trường xung quanh"
+  ],
+  [
+   "regularly",
+   "thường xuyên"
+  ],
+  [
+   "equipment",
+   "trang thiết bị"
+  ],
+  [
+   "highly",
+   "rất, ở mức cao"
+  ],
+  [
+   "diagnosis",
+   "chẩn đoán"
+  ],
+  [
+   "grateful",
+   "biết ơn"
+  ],
+  [
+   "realise",
+   "nhận ra"
+  ],
+  [
+   "decision",
+   "quyết định"
+  ],
+  [
+   "slowly",
+   "chậm rãi"
+  ],
+  [
+   "language",
+   "ngôn ngữ"
+  ],
+  [
+   "beside",
+   "bên cạnh"
+  ],
+  [
+   "afterwards",
+   "sau đó"
+  ],
+  [
+   "reminder",
+   "lời nhắc"
+  ],
+  [
+   "teach",
+   "dạy"
+  ],
+  [
+   "warning",
+   "cảnh báo"
+  ],
+  [
+   "arrange",
+   "sắp xếp"
+  ],
+  [
+   "likely",
+   "có khả năng"
+  ],
+  [
+   "discuss",
+   "thảo luận"
+  ],
+  [
+   "decide",
+   "quyết định"
+  ],
+  [
+   "worry",
+   "lo lắng; mối lo"
+  ],
+  [
+   "explain",
+   "giải thích"
+  ],
+  [
+   "describe",
+   "mô tả"
+  ],
+  [
+   "detail",
+   "chi tiết"
+  ],
+  [
+   "location",
+   "vị trí"
+  ],
+  [
+   "movement",
+   "sự cử động"
+  ],
+  [
+   "immediate",
+   "tức thì"
+  ],
+  [
+   "urgent",
+   "khẩn cấp"
+  ],
+  [
+   "attention",
+   "sự chú ý"
+  ],
+  [
+   "measure",
+   "đo lường"
+  ],
+  [
+   "quietly",
+   "yên lặng"
+  ],
+  [
+   "remove",
+   "tháo, lấy ra"
+  ],
+  [
+   "carefully",
+   "cẩn thận"
+  ],
+  [
+   "clean",
+   "sạch; làm sạch"
+  ],
+  [
+   "outwards",
+   "hướng ra ngoài"
+  ],
+  [
+   "waste",
+   "rác thải"
+  ],
+  [
+   "avoid",
+   "tránh"
+  ],
+  [
+   "repeat",
+   "lặp lại"
+  ],
+  [
+   "recover",
+   "hồi phục"
+  ],
+  [
+   "difficult",
+   "khó khăn"
+  ],
+  [
+   "sad",
+   "buồn"
+  ],
+  [
+   "afraid",
+   "sợ"
+  ],
+  [
+   "notice",
+   "nhận thấy"
+  ],
+  [
+   "noticed",
+   "đã nhận thấy"
+  ],
+  [
+   "blood sugar",
+   "đường huyết"
+  ],
+  [
+   "insulin",
+   "insulin"
+  ],
+  [
+   "double-check",
+   "kiểm tra lại hai lần"
+  ],
+  [
+   "thank",
+   "cảm ơn"
+  ],
+  [
+   "operating theatre",
+   "phòng mổ"
+  ],
+  [
+   "stands for",
+   "viết tắt của"
+  ],
+  [
+   "incident",
+   "sự cố"
+  ],
+  [
+   "hospital",
+   "bệnh viện"
+  ],
+  [
+   "doctor",
+   "bác sĩ"
+  ],
+  [
+   "family",
+   "gia đình"
+  ],
+  [
+   "call bell",
+   "chuông gọi y tá"
+  ],
+  [
+   "floor",
+   "sàn nhà"
+  ],
+  [
+   "stool",
+   "phân"
+  ],
+  [
+   "pressure",
+   "áp lực; sự ép"
+  ],
+  [
+   "slow",
+   "chậm; làm chậm"
+  ]
+ ]
+}

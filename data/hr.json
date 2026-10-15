@@ -1,0 +1,4301 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "hr",
+  "name": "Human Resource Management",
+  "name_vi": "Quản trị nhân sự",
+  "icon": "👥",
+  "hue": 280,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành quản trị nhân sự (HR): nền tảng HR, tuyển dụng, đào tạo & phát triển, hợp đồng & luật lao động, đánh giá – lương thưởng – giữ chân nhân viên, và xu hướng nơi làm việc hiện đại."
+ },
+ "units": [
+  {
+   "name": "HR Fundamentals",
+   "name_vi": "Nền tảng quản trị nhân sự",
+   "icon": "👥",
+   "hue": 280,
+   "words": [
+    {
+     "en": "human resources",
+     "vi": "nhân sự, nguồn nhân lực"
+    },
+    {
+     "en": "employee",
+     "vi": "nhân viên"
+    },
+    {
+     "en": "employer",
+     "vi": "người sử dụng lao động"
+    },
+    {
+     "en": "workforce",
+     "vi": "lực lượng lao động"
+    },
+    {
+     "en": "staff",
+     "vi": "đội ngũ nhân viên"
+    },
+    {
+     "en": "manager",
+     "vi": "quản lý"
+    },
+    {
+     "en": "department",
+     "vi": "phòng ban"
+    },
+    {
+     "en": "headcount",
+     "vi": "số lượng nhân sự"
+    },
+    {
+     "en": "job description",
+     "vi": "bản mô tả công việc"
+    },
+    {
+     "en": "role",
+     "vi": "vai trò"
+    },
+    {
+     "en": "responsibility",
+     "vi": "trách nhiệm"
+    },
+    {
+     "en": "skill",
+     "vi": "kỹ năng"
+    },
+    {
+     "en": "qualification",
+     "vi": "bằng cấp, trình độ chuyên môn"
+    },
+    {
+     "en": "competency",
+     "vi": "năng lực"
+    },
+    {
+     "en": "talent",
+     "vi": "nhân tài, tài năng"
+    },
+    {
+     "en": "organisational culture",
+     "vi": "văn hóa tổ chức"
+    },
+    {
+     "en": "workplace",
+     "vi": "nơi làm việc"
+    },
+    {
+     "en": "team",
+     "vi": "nhóm"
+    },
+    {
+     "en": "supervisor",
+     "vi": "người giám sát"
+    },
+    {
+     "en": "chain of command",
+     "vi": "hệ thống cấp bậc báo cáo"
+    },
+    {
+     "en": "full-time",
+     "vi": "toàn thời gian"
+    },
+    {
+     "en": "part-time",
+     "vi": "bán thời gian"
+    },
+    {
+     "en": "permanent",
+     "vi": "chính thức, dài hạn"
+    },
+    {
+     "en": "temporary",
+     "vi": "tạm thời"
+    },
+    {
+     "en": "freelancer",
+     "vi": "người làm việc tự do"
+    },
+    {
+     "en": "contractor",
+     "vi": "nhà thầu, lao động hợp đồng"
+    },
+    {
+     "en": "workload",
+     "vi": "khối lượng công việc"
+    },
+    {
+     "en": "turnover",
+     "vi": "tỷ lệ nghỉ việc (luân chuyển nhân sự)"
+    },
+    {
+     "en": "productivity",
+     "vi": "năng suất"
+    },
+    {
+     "en": "human capital",
+     "vi": "vốn nhân lực"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ lists the duties, responsibilities and required skills of a position.",
+        "ans": [
+         1
+        ],
+        "tip": "description = bản mô tả.",
+        "why": "**job description** = bản mô tả công việc.",
+        "opts": [
+         "headcount",
+         "job description",
+         "workload"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "HR reports that the company's ___ is 250, so it has 250 people on the payroll.",
+        "ans": [
+         2
+        ],
+        "tip": "head + count = đếm đầu người.",
+        "why": "**headcount** = số lượng nhân sự.",
+        "opts": [
+         "turnover",
+         "productivity",
+         "headcount"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ works for several clients and is not an employee of any single company.",
+        "ans": [
+         2
+        ],
+        "tip": "free + lance = làm tự do.",
+        "why": "**freelancer** = người làm việc tự do.",
+        "opts": [
+         "supervisor",
+         "manager",
+         "freelancer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "High ___ means that many employees leave the company each year.",
+        "ans": [
+         0
+        ],
+        "tip": "turn over = quay vòng.",
+        "why": "**turnover** = tỷ lệ nghỉ việc/luân chuyển nhân sự.",
+        "opts": [
+         "turnover",
+         "workforce",
+         "qualification"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Her university degree is an important ___ for this job.",
+        "ans": [
+         1
+        ],
+        "tip": "qualify = đủ điều kiện.",
+        "why": "**qualification** = bằng cấp, trình độ.",
+        "opts": [
+         "workload",
+         "qualification",
+         "department"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ contract has no end date.",
+        "ans": [
+         2
+        ],
+        "tip": "permanent = lâu dài.",
+        "why": "**permanent** = chính thức, không giới hạn thời gian.",
+        "opts": [
+         "temporary",
+         "part-time",
+         "permanent"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff are more motivated when the ___ is positive and people respect each other.",
+        "ans": [
+         1
+        ],
+        "tip": "culture = lối sống, giá trị chung.",
+        "why": "**organisational culture** = văn hóa tổ chức.",
+        "opts": [
+         "chain of command",
+         "organisational culture",
+         "headcount"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of an employee is the amount of work he or she completes in a given time.",
+        "ans": [
+         2
+        ],
+        "tip": "produce = tạo ra.",
+        "why": "**productivity** = năng suất lao động.",
+        "opts": [
+         "responsibility",
+         "talent",
+         "productivity"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "employer",
+        "b": "a person or organisation that pays people to work for them",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "supervisor",
+        "b": "a person who watches and directs the work of others",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "competency",
+        "b": "the ability to do something well",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "talent",
+        "b": "a natural ability, or a very skilled person",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "workload",
+        "b": "the amount of work a person has to do",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "part-time",
+        "b": "working fewer hours than a normal full week",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "human capital",
+        "b": "the knowledge, skills and experience of the workforce",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "workforce",
+        "b": "all the people who work in a company or industry",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The HR department ___ every new employee's records.",
+        "ans": [
+         2
+        ],
+        "tip": "every → hiện tại đơn.",
+        "why": "Công việc thường xuyên → **hiện tại đơn**: keeps.",
+        "opts": [
+         "is keeping",
+         "keep",
+         "keeps"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the moment, we ___ for a new marketing manager.",
+        "ans": [
+         0
+        ],
+        "tip": "at the moment → be + V-ing.",
+        "why": "'At the moment' → **are looking**.",
+        "opts": [
+         "are looking",
+         "look",
+         "looked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our staff ___ from 9 a.m. to 5 p.m., Monday to Friday.",
+        "ans": [
+         2
+        ],
+        "tip": "lịch cố định → hiện tại đơn.",
+        "why": "Lịch làm việc cố định; chủ ngữ số nhiều → **work**.",
+        "opts": [
+         "are working",
+         "works",
+         "work"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This week, the manager ___ interviews, so she is not in the office.",
+        "ans": [
+         0
+        ],
+        "tip": "this week → tạm thời.",
+        "why": "'This week' = việc đang diễn ra → **is conducting**.",
+        "opts": [
+         "is conducting",
+         "conducts",
+         "conducted"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A good manager always ___ to her team.",
+        "ans": [
+         0
+        ],
+        "tip": "always → hiện tại đơn.",
+        "why": "'always' + ngôi thứ ba số ít → **listens**.",
+        "opts": [
+         "listens",
+         "is listening",
+         "listen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company ___ its workforce quickly this year.",
+        "ans": [
+         1
+        ],
+        "tip": "this year → xu hướng đang diễn ra.",
+        "why": "'this year' = thay đổi đang xảy ra → **is growing**.",
+        "opts": [
+         "grows",
+         "is growing",
+         "grow"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) as an HR officer in a bank.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (not / hire) new staff at the moment.",
+        "ans": [
+         [
+          "are not hiring",
+          "aren't hiring",
+          "'re not hiring"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'at the moment' → **are not hiring**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Turnover usually ___ (fall) when employees feel valued.",
+        "ans": [
+         [
+          "falls"
+         ]
+        ],
+        "tip": "",
+        "why": "'usually' → hiện tại đơn: **falls**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the supervisor ___ (explain) the new rules to the team.",
+        "ans": [
+         [
+          "is explaining"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **is explaining**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Most employees ___ (prefer) flexible working hours.",
+        "ans": [
+         [
+          "prefer"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật chung, chủ ngữ số nhiều → **prefer**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What does an HR department do?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Many people think that human resources only hires and fires staff, but the HR department does much more. It manages the whole relationship between the employer and its employees. Every company needs a clear job description for each role, so that employees know their responsibilities.\n\nHR also looks after workforce planning. Managers tell HR their headcount needs, and HR checks the budget and the workload of each team. A company may employ full-time, part-time and temporary workers, and sometimes it works with freelancers on special projects.\n\nToday, HR is also responsible for organisational culture and employee wellbeing. A friendly workplace improves productivity and lowers turnover, which saves money, because hiring and training a new person is expensive. That is why many companies see their employees as human capital: an investment, not only a cost.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "HR only hires and fires staff.",
+        "ans": [
+         1
+        ],
+        "tip": "does much more.",
+        "why": "Đoạn 1: HR làm **nhiều việc hơn** là tuyển và sa thải."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A job description helps employees know their responsibilities.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mỗi vai trò cần một job description rõ ràng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A company never works with freelancers.",
+        "ans": [
+         1
+        ],
+        "tip": "sometimes ≠ never.",
+        "why": "Đoạn 2: đôi khi công ty làm việc với **freelancers**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A friendly workplace can lower turnover.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: môi trường thân thiện cải thiện năng suất và giảm turnover."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does HR check when managers ask for more people?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: HR kiểm tra ngân sách và khối lượng công việc của từng nhóm.",
+        "opts": [
+         "The employees' holidays",
+         "The competitors' salaries",
+         "The budget and the workload of each team"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is high turnover expensive?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tuyển và đào tạo người mới tốn kém.",
+        "opts": [
+         "Hiring and training a new person costs a lot",
+         "Employees work too fast",
+         "Managers earn more money"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is HR also responsible for today?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: HR cũng chịu trách nhiệm về văn hóa tổ chức và wellbeing.",
+        "opts": [
+         "Producing the company's goods",
+         "Setting the price of products",
+         "Organisational culture and employee wellbeing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do many companies call employees human capital?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhân viên là một **khoản đầu tư**, không chỉ là chi phí.",
+        "opts": [
+         "They pay them no salary",
+         "They see them as an investment",
+         "They think they are temporary"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recruitment & Selection",
+   "name_vi": "Tuyển dụng & tuyển chọn",
+   "icon": "🔍",
+   "hue": 200,
+   "words": [
+    {
+     "en": "recruitment",
+     "vi": "việc tuyển dụng"
+    },
+    {
+     "en": "selection",
+     "vi": "việc tuyển chọn"
+    },
+    {
+     "en": "vacancy",
+     "vi": "vị trí đang trống"
+    },
+    {
+     "en": "job advertisement",
+     "vi": "tin tuyển dụng"
+    },
+    {
+     "en": "job seeker",
+     "vi": "người tìm việc"
+    },
+    {
+     "en": "applicant",
+     "vi": "ứng viên (người nộp đơn)"
+    },
+    {
+     "en": "candidate",
+     "vi": "ứng viên (được xét tuyển)"
+    },
+    {
+     "en": "CV (curriculum vitae)",
+     "vi": "sơ yếu lý lịch"
+    },
+    {
+     "en": "cover letter",
+     "vi": "thư xin việc"
+    },
+    {
+     "en": "shortlist",
+     "vi": "danh sách rút gọn; lập danh sách rút gọn"
+    },
+    {
+     "en": "screening",
+     "vi": "việc sàng lọc hồ sơ"
+    },
+    {
+     "en": "interview",
+     "vi": "buổi phỏng vấn"
+    },
+    {
+     "en": "panel interview",
+     "vi": "phỏng vấn hội đồng"
+    },
+    {
+     "en": "assessment centre",
+     "vi": "trung tâm đánh giá ứng viên"
+    },
+    {
+     "en": "aptitude test",
+     "vi": "bài kiểm tra năng lực"
+    },
+    {
+     "en": "reference",
+     "vi": "thư/người giới thiệu"
+    },
+    {
+     "en": "background check",
+     "vi": "kiểm tra lý lịch"
+    },
+    {
+     "en": "job offer",
+     "vi": "thư mời nhận việc"
+    },
+    {
+     "en": "negotiation",
+     "vi": "sự thương lượng"
+    },
+    {
+     "en": "probation",
+     "vi": "thời gian thử việc"
+    },
+    {
+     "en": "headhunter",
+     "vi": "chuyên gia săn đầu người"
+    },
+    {
+     "en": "recruitment agency",
+     "vi": "công ty tuyển dụng"
+    },
+    {
+     "en": "referral",
+     "vi": "sự giới thiệu (nhân viên giới thiệu)"
+    },
+    {
+     "en": "internal candidate",
+     "vi": "ứng viên nội bộ"
+    },
+    {
+     "en": "talent pool",
+     "vi": "nguồn nhân tài dự phòng"
+    },
+    {
+     "en": "employer brand",
+     "vi": "thương hiệu nhà tuyển dụng"
+    },
+    {
+     "en": "diversity",
+     "vi": "sự đa dạng"
+    },
+    {
+     "en": "bias",
+     "vi": "thiên kiến"
+    },
+    {
+     "en": "selection criteria",
+     "vi": "tiêu chí tuyển chọn"
+    },
+    {
+     "en": "notice period",
+     "vi": "thời gian báo trước khi nghỉ việc"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company has a ___ for a sales manager, so it published a job advertisement.",
+        "ans": [
+         0
+        ],
+        "tip": "vacant = trống.",
+        "why": "**vacancy** = vị trí đang trống.",
+        "opts": [
+         "vacancy",
+         "probation",
+         "referral"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "HR made a ___ of five candidates for the final interview.",
+        "ans": [
+         2
+        ],
+        "tip": "short + list = danh sách ngắn.",
+        "why": "**shortlist** = danh sách rút gọn những ứng viên tốt nhất.",
+        "opts": [
+         "reference",
+         "bias",
+         "shortlist"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A former manager wrote a ___ to confirm that she was reliable.",
+        "ans": [
+         2
+        ],
+        "tip": "refer = nhắc đến, giới thiệu.",
+        "why": "**reference** = thư/người giới thiệu.",
+        "opts": [
+         "negotiation",
+         "notice period",
+         "reference"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "During the ___, several interviewers ask the candidate questions at the same time.",
+        "ans": [
+         0
+        ],
+        "tip": "panel = hội đồng.",
+        "why": "**panel interview** = phỏng vấn trước hội đồng.",
+        "opts": [
+         "panel interview",
+         "aptitude test",
+         "background check"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The employer verified his education and criminal record in a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "background = lý lịch.",
+        "why": "**background check** = kiểm tra lý lịch.",
+        "opts": [
+         "background check",
+         "headhunter",
+         "talent pool"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ looks for senior executives who already work for other companies.",
+        "ans": [
+         0
+        ],
+        "tip": "head + hunt = săn đầu người.",
+        "why": "**headhunter** = chuyên gia săn người tài.",
+        "opts": [
+         "headhunter",
+         "applicant",
+         "candidate"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A new employee often has a three-month ___ to see if the job is a good fit.",
+        "ans": [
+         0
+        ],
+        "tip": "probation = thời gian thử thách.",
+        "why": "**probation** = thời gian thử việc.",
+        "opts": [
+         "probation",
+         "vacancy",
+         "diversity"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Unfair ___ may make interviewers choose people who are similar to themselves.",
+        "ans": [
+         2
+        ],
+        "tip": "bias = thiên lệch.",
+        "why": "**bias** = thiên kiến, sự thiên vị.",
+        "opts": [
+         "diversity",
+         "referral",
+         "bias"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "applicant",
+        "b": "a person who formally asks for a job",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "cover letter",
+        "b": "a letter that explains why you want a job and why you are suitable",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "aptitude test",
+        "b": "a test that measures a person's ability to do certain tasks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "job offer",
+        "b": "a formal proposal of employment, including pay and conditions",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "notice period",
+        "b": "the time between telling your employer you will leave and your last day",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "referral",
+        "b": "a recommendation of a person for a job, often by a current employee",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "talent pool",
+        "b": "a database of people who may be suitable for future jobs",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "diversity",
+        "b": "having people of different backgrounds, ages and abilities in a group",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Internal candidates are often ___ to hire than external ones.",
+        "ans": [
+         1
+        ],
+        "tip": "adj ngắn + -er + than.",
+        "why": "So sánh hơn với 'than' → **easier**.",
+        "opts": [
+         "easy",
+         "easier",
+         "the easiest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Online applications are ___ than paper forms.",
+        "ans": [
+         1
+        ],
+        "tip": "fast → faster.",
+        "why": "Tính từ ngắn: **faster than**.",
+        "opts": [
+         "fast",
+         "faster",
+         "the fastest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is the ___ vacancy we have ever advertised; we received 800 applications.",
+        "ans": [
+         2
+        ],
+        "tip": "the + most + adj dài.",
+        "why": "So sánh nhất với tính từ dài → **the most popular**.",
+        "opts": [
+         "more popular",
+         "popularest",
+         "most popular"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A panel interview is usually ___ stressful than a one-to-one interview.",
+        "ans": [
+         2
+        ],
+        "tip": "more + adj dài + than.",
+        "why": "'stressful' dài → **more stressful**.",
+        "opts": [
+         "most",
+         "much",
+         "more"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She is the ___ qualified of all the candidates.",
+        "ans": [
+         2
+        ],
+        "tip": "the most + adj dài.",
+        "why": "So sánh nhất: **the most qualified**.",
+        "opts": [
+         "more",
+         "best",
+         "most"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Hiring through referral is not as ___ as using an agency.",
+        "ans": [
+         1
+        ],
+        "tip": "as + adj gốc + as.",
+        "why": "Cấu trúc **not as … as** → expensive.",
+        "opts": [
+         "more expensive",
+         "expensive",
+         "most expensive"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Recruitment agencies are ___ (expensive) than job websites.",
+        "ans": [
+         [
+          "more expensive"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ dài: **more expensive than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "He is the ___ (good) candidate we have interviewed this year.",
+        "ans": [
+         [
+          "best"
+         ]
+        ],
+        "tip": "good – better – best.",
+        "why": "'good' bất quy tắc, so sánh nhất: **best**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The second interview was ___ (difficult) than the first.",
+        "ans": [
+         [
+          "more difficult"
+         ]
+        ],
+        "tip": "",
+        "why": "**more difficult than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our selection process is ___ (short) than our competitors'.",
+        "ans": [
+         [
+          "shorter"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn: **shorter than**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (competitive) job market in ten years.",
+        "ans": [
+         [
+          "most competitive"
+         ]
+        ],
+        "tip": "",
+        "why": "'the … in ten years' → **most competitive**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiring the right person",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When a department has a vacancy, HR starts the recruitment process. First, HR writes a job advertisement with clear selection criteria and publishes it on job websites. Some companies also use a recruitment agency or a headhunter, but this is more expensive than advertising directly. A referral from a current employee is often the cheapest and quickest way to find a good person.\n\nAfter the closing date, HR screens the CVs and cover letters and makes a shortlist. The shortlisted candidates take an aptitude test and attend an interview, sometimes with a panel. To avoid bias, interviewers ask every candidate the same questions and score the answers.\n\nThe final candidate receives a job offer, subject to references and a background check. Then the two sides negotiate the salary and the start date. Most new employees begin with a probation period of two or three months. A diverse team brings different ideas, so many employers now make diversity one of their most important recruitment goals.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "HR writes the job advertisement and publishes it on job websites.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: HR viết tin tuyển dụng và đăng lên các website."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A recruitment agency is cheaper than advertising directly.",
+        "ans": [
+         1
+        ],
+        "tip": "more expensive.",
+        "why": "Đoạn 1: dùng agency hoặc headhunter **đắt hơn** đăng tin trực tiếp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Interviewers ask every candidate different questions to avoid bias.",
+        "ans": [
+         1
+        ],
+        "tip": "the same questions.",
+        "why": "Đoạn 2: để tránh bias, họ hỏi **cùng một bộ câu hỏi**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Most new employees start with a probation period.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đa số nhân viên mới bắt đầu bằng thời gian thử việc."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does HR do after the closing date?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: HR sàng lọc CV, thư xin việc và lập shortlist.",
+        "opts": [
+         "It starts the probation period",
+         "It screens the CVs and makes a shortlist",
+         "It pays the headhunter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do interviewers ask the same questions?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hỏi giống nhau và chấm điểm để tránh thiên kiến.",
+        "opts": [
+         "To save paper",
+         "To avoid bias",
+         "To shorten the job offer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do the two sides negotiate after the job offer?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hai bên thương lượng lương và ngày bắt đầu.",
+        "opts": [
+         "The selection criteria",
+         "The closing date",
+         "The salary and the start date"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do many employers value diverse teams?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: đội ngũ đa dạng mang lại nhiều ý tưởng khác nhau.",
+        "opts": [
+         "They bring different ideas",
+         "They cost less",
+         "They need no training"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Onboarding, Training & Development",
+   "name_vi": "Hội nhập, đào tạo & phát triển",
+   "icon": "🎓",
+   "hue": 140,
+   "words": [
+    {
+     "en": "onboarding",
+     "vi": "việc hội nhập nhân viên mới"
+    },
+    {
+     "en": "induction",
+     "vi": "buổi định hướng nhân viên mới"
+    },
+    {
+     "en": "mentor",
+     "vi": "người hướng dẫn, cố vấn"
+    },
+    {
+     "en": "mentee",
+     "vi": "người được hướng dẫn"
+    },
+    {
+     "en": "training",
+     "vi": "việc đào tạo"
+    },
+    {
+     "en": "on-the-job training",
+     "vi": "đào tạo tại chỗ"
+    },
+    {
+     "en": "workshop",
+     "vi": "buổi thực hành, hội thảo chuyên đề"
+    },
+    {
+     "en": "e-learning",
+     "vi": "học trực tuyến"
+    },
+    {
+     "en": "skills gap",
+     "vi": "khoảng cách kỹ năng"
+    },
+    {
+     "en": "training needs analysis",
+     "vi": "phân tích nhu cầu đào tạo"
+    },
+    {
+     "en": "professional development",
+     "vi": "phát triển chuyên môn"
+    },
+    {
+     "en": "career path",
+     "vi": "lộ trình sự nghiệp"
+    },
+    {
+     "en": "promotion",
+     "vi": "sự thăng chức"
+    },
+    {
+     "en": "succession planning",
+     "vi": "hoạch định người kế nhiệm"
+    },
+    {
+     "en": "upskilling",
+     "vi": "nâng cao kỹ năng hiện có"
+    },
+    {
+     "en": "reskilling",
+     "vi": "đào tạo kỹ năng mới để chuyển việc"
+    },
+    {
+     "en": "coaching",
+     "vi": "huấn luyện cá nhân"
+    },
+    {
+     "en": "certification",
+     "vi": "chứng chỉ, sự chứng nhận"
+    },
+    {
+     "en": "leadership",
+     "vi": "khả năng lãnh đạo"
+    },
+    {
+     "en": "talent management",
+     "vi": "quản trị nhân tài"
+    },
+    {
+     "en": "internship",
+     "vi": "kỳ thực tập"
+    },
+    {
+     "en": "trainee",
+     "vi": "học viên, thực tập sinh"
+    },
+    {
+     "en": "apprenticeship",
+     "vi": "chương trình học nghề"
+    },
+    {
+     "en": "feedback",
+     "vi": "phản hồi"
+    },
+    {
+     "en": "learning objective",
+     "vi": "mục tiêu học tập"
+    },
+    {
+     "en": "evaluation",
+     "vi": "sự đánh giá (hiệu quả đào tạo)"
+    },
+    {
+     "en": "knowledge transfer",
+     "vi": "chuyển giao kiến thức"
+    },
+    {
+     "en": "buddy system",
+     "vi": "hệ thống người đồng hành cho nhân viên mới"
+    },
+    {
+     "en": "high-potential employee",
+     "vi": "nhân viên tiềm năng cao"
+    },
+    {
+     "en": "competency framework",
+     "vi": "khung năng lực"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "New employees attend an ___ on their first day to learn about the company's rules and culture.",
+        "ans": [
+         0
+        ],
+        "tip": "induct = đưa vào.",
+        "why": "**induction** = buổi định hướng cho nhân viên mới.",
+        "opts": [
+         "induction",
+         "apprenticeship",
+         "promotion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A senior manager acts as a ___ and gives advice to a younger colleague.",
+        "ans": [
+         1
+        ],
+        "tip": "mentor = người thầy dẫn dắt.",
+        "why": "**mentor** = người hướng dẫn; người được hướng dẫn là **mentee**.",
+        "opts": [
+         "mentee",
+         "mentor",
+         "trainee"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The survey showed a ___: staff need data skills, but few have them.",
+        "ans": [
+         2
+        ],
+        "tip": "gap = khoảng trống.",
+        "why": "**skills gap** = khoảng cách giữa kỹ năng cần có và hiện có.",
+        "opts": [
+         "career path",
+         "buddy system",
+         "skills gap"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "With ___, employees learn by doing real tasks at their own workplace.",
+        "ans": [
+         2
+        ],
+        "tip": "on the job = ngay tại chỗ làm.",
+        "why": "**on-the-job training** = đào tạo tại nơi làm việc.",
+        "opts": [
+         "e-learning",
+         "succession planning",
+         "on-the-job training"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ teaches people new skills so they can move into a completely different job.",
+        "ans": [
+         0
+        ],
+        "tip": "re + skill = học kỹ năng mới.",
+        "why": "**reskilling** = đào tạo lại; **upskilling** = nâng cao kỹ năng hiện có.",
+        "opts": [
+         "Reskilling",
+         "Upskilling",
+         "Feedback"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ shows the steps an employee may take from junior to senior positions.",
+        "ans": [
+         0
+        ],
+        "tip": "path = con đường.",
+        "why": "**career path** = lộ trình sự nghiệp.",
+        "opts": [
+         "career path",
+         "workshop",
+         "evaluation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "HR uses ___ to prepare people to replace senior managers when they retire.",
+        "ans": [
+         2
+        ],
+        "tip": "succeed = kế tiếp.",
+        "why": "**succession planning** = hoạch định người kế nhiệm.",
+        "opts": [
+         "coaching",
+         "e-learning",
+         "succession planning"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After the course, HR carried out an ___ to see whether the training worked.",
+        "ans": [
+         0
+        ],
+        "tip": "value = giá trị → đánh giá.",
+        "why": "**evaluation** = sự đánh giá hiệu quả.",
+        "opts": [
+         "evaluation",
+         "induction",
+         "mentee"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "onboarding",
+        "b": "the process of helping a new employee settle into a job",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "internship",
+        "b": "a short period of work experience, often for students",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "apprenticeship",
+        "b": "a programme that combines paid work with study to learn a trade",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "workshop",
+        "b": "a short, practical training session",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "e-learning",
+        "b": "learning through online courses",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "certification",
+        "b": "an official document showing that you have completed training or passed an exam",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "feedback",
+        "b": "information about how well someone is doing",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "coaching",
+        "b": "one-to-one support to improve a person's performance",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All new employees ___ an induction pack on their first day.",
+        "ans": [
+         2
+        ],
+        "tip": "be + V3.",
+        "why": "Nhân viên **được phát** → bị động hiện tại đơn: **are given**.",
+        "opts": [
+         "give",
+         "are giving",
+         "are given"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The training course ___ by an external consultant last month.",
+        "ans": [
+         1
+        ],
+        "tip": "was/were + V3.",
+        "why": "'last month' → quá khứ bị động: **was delivered**.",
+        "opts": [
+         "delivered",
+         "was delivered",
+         "is delivered"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A new e-learning platform ___ next quarter.",
+        "ans": [
+         2
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be launched**.",
+        "opts": [
+         "will launch",
+         "is launched",
+         "will be launched"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff ___ about the new policy since January.",
+        "ans": [
+         2
+        ],
+        "tip": "have/has + been + V3.",
+        "why": "'since January' → hiện tại hoàn thành bị động: **have been told**.",
+        "opts": [
+         "have told",
+         "were telling",
+         "have been told"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each trainee ___ a mentor for the first six months.",
+        "ans": [
+         0
+        ],
+        "tip": "be + V3.",
+        "why": "Học viên **được phân công** → **is assigned**.",
+        "opts": [
+         "is assigned",
+         "assigns",
+         "is assigning"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The workshop ___ because too few people registered.",
+        "ans": [
+         2
+        ],
+        "tip": "was + V3.",
+        "why": "Buổi workshop **bị hủy** → **was cancelled**.",
+        "opts": [
+         "cancelled",
+         "has cancelled",
+         "was cancelled"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "New staff ___ (train) by experienced colleagues.",
+        "ans": [
+         [
+          "are trained"
+         ]
+        ],
+        "tip": "be + V3.",
+        "why": "Hiện tại đơn bị động, số nhiều: **are trained**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The leadership programme ___ (design) last year.",
+        "ans": [
+         [
+          "was designed"
+         ]
+        ],
+        "tip": "",
+        "why": "Quá khứ bị động: **was designed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our skills gap ___ (analyse) right now.",
+        "ans": [
+         [
+          "is being analysed",
+          "is being analyzed"
+         ]
+        ],
+        "tip": "be + being + V3.",
+        "why": "Hiện tại tiếp diễn bị động: **is being analysed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All employees ___ (must / give) a copy of the handbook.",
+        "ans": [
+         [
+          "must be given"
+         ]
+        ],
+        "tip": "must + be + V3.",
+        "why": "Động từ khuyết thiếu bị động: **must be given**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The best trainees ___ (promote) next month.",
+        "ans": [
+         [
+          "will be promoted",
+          "are going to be promoted"
+         ]
+        ],
+        "tip": "",
+        "why": "Tương lai bị động: **will be promoted**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A new employee's first month",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Sara joined a retail company as a junior HR assistant. On her first day, she was welcomed by her manager and given a laptop, a staff card and an induction schedule. The onboarding programme lasted four weeks. During the first week, Sara was introduced to the team and taught the company's main policies.\n\nA mentor was assigned to her, a senior HR officer who meets her every week. Sara is also trained on the job: she is shown how to update employee records and how to answer common questions. In addition, several e-learning modules will be completed by her before the end of the month.\n\nAfter three months, Sara's training needs will be reviewed. If a skills gap is found, a workshop or a certification course may be offered. Her manager has already discussed a possible career path with her. If Sara performs well, she will be considered for promotion and for the company's high-potential programme.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Sara was given a laptop and a staff card on her first day.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cô được phát laptop, thẻ nhân viên và lịch định hướng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The onboarding programme lasted one week.",
+        "ans": [
+         1
+        ],
+        "tip": "four weeks.",
+        "why": "Đoạn 1: chương trình onboarding kéo dài **bốn tuần**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Sara's mentor is a senior HR officer.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mentor của cô là một HR officer cấp cao."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Sara learns only through e-learning modules.",
+        "ans": [
+         1
+        ],
+        "tip": "on the job + e-learning.",
+        "why": "Đoạn 2: cô vừa học **tại chỗ** vừa học qua e-learning."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happened in Sara's first week?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tuần đầu cô được giới thiệu với nhóm và học các chính sách chính.",
+        "opts": [
+         "She was promoted",
+         "She left on an internship",
+         "She was introduced to the team and taught the main policies"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How often does Sara meet her mentor?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: 'who meets her every week'.",
+        "opts": [
+         "Every day",
+         "Once a year",
+         "Every week"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may be offered if a skills gap is found?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: có thể được đề nghị workshop hoặc khóa chứng chỉ.",
+        "opts": [
+         "A pay cut",
+         "A new job description",
+         "A workshop or a certification course"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may happen if Sara performs well?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cô sẽ được xem xét thăng chức.",
+        "opts": [
+         "She will be considered for promotion",
+         "She will become a mentee",
+         "She will be dismissed"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Employment Law, Contracts & Policies",
+   "name_vi": "Hợp đồng, luật lao động & chính sách",
+   "icon": "📋",
+   "hue": 35,
+   "words": [
+    {
+     "en": "employment contract",
+     "vi": "hợp đồng lao động"
+    },
+    {
+     "en": "terms and conditions",
+     "vi": "điều khoản và điều kiện"
+    },
+    {
+     "en": "salary",
+     "vi": "lương (tháng/năm)"
+    },
+    {
+     "en": "wage",
+     "vi": "tiền công (theo giờ/ngày)"
+    },
+    {
+     "en": "overtime",
+     "vi": "giờ làm thêm; tiền làm thêm"
+    },
+    {
+     "en": "working hours",
+     "vi": "giờ làm việc"
+    },
+    {
+     "en": "annual leave",
+     "vi": "nghỉ phép năm"
+    },
+    {
+     "en": "sick leave",
+     "vi": "nghỉ ốm"
+    },
+    {
+     "en": "maternity leave",
+     "vi": "nghỉ thai sản"
+    },
+    {
+     "en": "social insurance",
+     "vi": "bảo hiểm xã hội"
+    },
+    {
+     "en": "health insurance",
+     "vi": "bảo hiểm y tế"
+    },
+    {
+     "en": "minimum wage",
+     "vi": "mức lương tối thiểu"
+    },
+    {
+     "en": "trade union",
+     "vi": "công đoàn"
+    },
+    {
+     "en": "collective agreement",
+     "vi": "thỏa ước lao động tập thể"
+    },
+    {
+     "en": "labour law",
+     "vi": "luật lao động"
+    },
+    {
+     "en": "resignation",
+     "vi": "việc từ chức, đơn xin nghỉ việc"
+    },
+    {
+     "en": "dismissal",
+     "vi": "việc sa thải"
+    },
+    {
+     "en": "redundancy",
+     "vi": "việc cắt giảm nhân sự (dôi dư)"
+    },
+    {
+     "en": "severance pay",
+     "vi": "trợ cấp thôi việc"
+    },
+    {
+     "en": "discrimination",
+     "vi": "sự phân biệt đối xử"
+    },
+    {
+     "en": "harassment",
+     "vi": "sự quấy rối"
+    },
+    {
+     "en": "grievance",
+     "vi": "khiếu nại của nhân viên"
+    },
+    {
+     "en": "disciplinary action",
+     "vi": "xử lý kỷ luật"
+    },
+    {
+     "en": "code of conduct",
+     "vi": "quy tắc ứng xử"
+    },
+    {
+     "en": "confidentiality agreement",
+     "vi": "thỏa thuận bảo mật"
+    },
+    {
+     "en": "health and safety",
+     "vi": "an toàn và sức khỏe lao động"
+    },
+    {
+     "en": "equal opportunity",
+     "vi": "cơ hội bình đẳng"
+    },
+    {
+     "en": "whistleblower",
+     "vi": "người tố giác"
+    },
+    {
+     "en": "compliance",
+     "vi": "sự tuân thủ"
+    },
+    {
+     "en": "policy",
+     "vi": "chính sách"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ states the salary, working hours and duties of an employee.",
+        "ans": [
+         2
+        ],
+        "tip": "contract = hợp đồng.",
+        "why": "**employment contract** = hợp đồng lao động.",
+        "opts": [
+         "grievance",
+         "resignation",
+         "employment contract"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Staff who work beyond their normal hours are paid ___ at a higher rate.",
+        "ans": [
+         2
+        ],
+        "tip": "over + time = quá giờ.",
+        "why": "**overtime** = tiền làm thêm giờ.",
+        "opts": [
+         "severance pay",
+         "minimum wage",
+         "overtime"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When a company closes a department, some jobs disappear and workers face ___.",
+        "ans": [
+         2
+        ],
+        "tip": "redundant = dư thừa.",
+        "why": "**redundancy** = bị cắt giảm do vị trí dôi dư.",
+        "opts": [
+         "harassment",
+         "resignation",
+         "redundancy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company paid him ___ when it ended his contract after ten years.",
+        "ans": [
+         2
+        ],
+        "tip": "sever = cắt đứt.",
+        "why": "**severance pay** = trợ cấp thôi việc.",
+        "opts": [
+         "overtime",
+         "sick leave",
+         "severance pay"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An employee who complains formally about unfair treatment files a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "grieve = than phiền.",
+        "why": "**grievance** = khiếu nại chính thức.",
+        "opts": [
+         "whistleblower",
+         "grievance",
+         "wage"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Treating people unfairly because of their gender, age or race is ___.",
+        "ans": [
+         0
+        ],
+        "tip": "discriminate = phân biệt.",
+        "why": "**discrimination** = sự phân biệt đối xử.",
+        "opts": [
+         "discrimination",
+         "compliance",
+         "redundancy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Women have the right to take ___ before and after the birth of a child.",
+        "ans": [
+         1
+        ],
+        "tip": "maternal = thuộc về mẹ.",
+        "why": "**maternity leave** = nghỉ thai sản.",
+        "opts": [
+         "sick leave",
+         "maternity leave",
+         "annual leave"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ reports illegal activity inside the company to the authorities.",
+        "ans": [
+         0
+        ],
+        "tip": "blow the whistle = thổi còi báo động.",
+        "why": "**whistleblower** = người tố giác hành vi sai trái.",
+        "opts": [
+         "whistleblower",
+         "trade union",
+         "wage"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "salary",
+        "b": "fixed pay, usually paid monthly",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "wage",
+        "b": "pay calculated by the hour or the day",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "resignation",
+        "b": "the act of leaving a job by choice",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "dismissal",
+        "b": "when an employer ends a person's employment",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "trade union",
+        "b": "an organisation that protects workers' rights",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "code of conduct",
+        "b": "rules about how employees should behave",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "harassment",
+        "b": "unwanted behaviour that offends or frightens someone",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "confidentiality agreement",
+        "b": "a promise not to share secret company information",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Employers ___ pay at least the minimum wage. It is the law.",
+        "ans": [
+         2
+        ],
+        "tip": "luật bắt buộc → must.",
+        "why": "Quy định pháp luật bắt buộc → **must**.",
+        "opts": [
+         "should",
+         "don't have to",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ work overtime. It is voluntary.",
+        "ans": [
+         1
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Tự nguyện = không bắt buộc → **don't have to**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Employees ___ share confidential information with competitors.",
+        "ans": [
+         0
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Bị cấm → **mustn't**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ read the contract carefully before you sign it.",
+        "ans": [
+         2
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Lời khuyên hợp lý → **should**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In many countries, employers ___ give employees a written contract.",
+        "ans": [
+         1
+        ],
+        "tip": "have to = bắt buộc.",
+        "why": "Quy định bắt buộc → **have to**.",
+        "opts": [
+         "mustn't",
+         "have to",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Managers ___ discuss an employee's salary in public.",
+        "ans": [
+         0
+        ],
+        "tip": "shouldn't = không nên.",
+        "why": "Lời khuyên tránh làm → **shouldn't**.",
+        "opts": [
+         "shouldn't",
+         "must",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Employees ___ arrive on time. It is a company rule.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Staff ___ wear a uniform. They can choose casual clothes.",
+        "ans": [
+         [
+          "don't have to",
+          "do not have to",
+          "needn't",
+          "need not"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Workers ___ ignore safety rules. It is dangerous and illegal.",
+        "ans": [
+         [
+          "mustn't",
+          "must not"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "By law, employers ___ give notice before dismissing a worker.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Luật bắt buộc → **must** (hoặc have to)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ talk to HR if you feel uncomfortable at work.",
+        "ans": [
+         [
+          "should",
+          "must"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên → **should** (must cũng được)."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Know your rights",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Before starting a new job, an employee signs an employment contract. It states the salary, working hours, annual leave and notice period. Employees should read it carefully, and employers have to give them a written copy. Under labour law, all workers must be paid at least the minimum wage, and overtime should be paid at a higher rate.\n\nCompanies also have policies that all staff must follow. The code of conduct explains how employees should behave, and the confidentiality agreement says they mustn't share secret information. Discrimination and harassment are strictly forbidden, and managers have to treat every employee equally. If an employee has a problem, he or she can file a grievance with HR, and the company must investigate it.\n\nIf an employee breaks the rules, the employer may take disciplinary action, but it can't dismiss someone without a fair reason. A worker who resigns does not have to explain why, but he or she should give the correct notice. Workers can also join a trade union, which negotiates a collective agreement on their behalf.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Employers have to give employees a written copy of the contract.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 'employers have to give them a written copy'."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Overtime should be paid at a lower rate.",
+        "ans": [
+         1
+        ],
+        "tip": "higher rate.",
+        "why": "Đoạn 1: làm thêm giờ nên được trả với mức **cao hơn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Employees mustn't share secret company information.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thỏa thuận bảo mật cấm chia sẻ thông tin mật."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A worker who resigns has to explain the reason.",
+        "ans": [
+         1
+        ],
+        "tip": "does not have to.",
+        "why": "Đoạn 3: người từ chức **không phải** giải thích lý do."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the code of conduct explain?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: code of conduct giải thích cách nhân viên nên cư xử.",
+        "opts": [
+         "How much overtime costs",
+         "Who can join a union",
+         "How employees should behave"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can an employee do if he or she has a problem?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nhân viên có thể nộp khiếu nại cho HR.",
+        "opts": [
+         "File a grievance with HR",
+         "Start disciplinary action",
+         "Sign a new contract"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When may an employer take disciplinary action?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhân viên vi phạm quy định thì có thể bị xử lý kỷ luật.",
+        "opts": [
+         "When an employee joins a union",
+         "When an employee breaks the rules",
+         "When an employee takes annual leave"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a trade union negotiate?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: công đoàn thương lượng thỏa ước lao động tập thể.",
+        "opts": [
+         "A collective agreement",
+         "A job offer",
+         "A severance package"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Performance, Compensation & Retention",
+   "name_vi": "Đánh giá, lương thưởng & giữ chân nhân viên",
+   "icon": "💼",
+   "hue": 0,
+   "words": [
+    {
+     "en": "performance appraisal",
+     "vi": "đánh giá hiệu suất"
+    },
+    {
+     "en": "key performance indicator (KPI)",
+     "vi": "chỉ số đo lường hiệu suất chính"
+    },
+    {
+     "en": "target",
+     "vi": "chỉ tiêu"
+    },
+    {
+     "en": "objective",
+     "vi": "mục tiêu"
+    },
+    {
+     "en": "360-degree feedback",
+     "vi": "đánh giá 360 độ"
+    },
+    {
+     "en": "performance improvement plan",
+     "vi": "kế hoạch cải thiện hiệu suất"
+    },
+    {
+     "en": "bonus",
+     "vi": "tiền thưởng"
+    },
+    {
+     "en": "commission",
+     "vi": "hoa hồng"
+    },
+    {
+     "en": "incentive",
+     "vi": "sự khuyến khích, ưu đãi"
+    },
+    {
+     "en": "benefits package",
+     "vi": "gói phúc lợi"
+    },
+    {
+     "en": "perk",
+     "vi": "đặc quyền, phúc lợi nhỏ"
+    },
+    {
+     "en": "pay rise",
+     "vi": "việc tăng lương"
+    },
+    {
+     "en": "pay grade",
+     "vi": "bậc lương"
+    },
+    {
+     "en": "stock option",
+     "vi": "quyền chọn mua cổ phiếu"
+    },
+    {
+     "en": "payroll",
+     "vi": "bảng lương, hệ thống trả lương"
+    },
+    {
+     "en": "gross pay",
+     "vi": "lương gộp (trước khấu trừ)"
+    },
+    {
+     "en": "net pay",
+     "vi": "lương thực nhận"
+    },
+    {
+     "en": "deduction",
+     "vi": "khoản khấu trừ"
+    },
+    {
+     "en": "motivation",
+     "vi": "động lực làm việc"
+    },
+    {
+     "en": "job satisfaction",
+     "vi": "sự hài lòng trong công việc"
+    },
+    {
+     "en": "engagement",
+     "vi": "sự gắn kết"
+    },
+    {
+     "en": "retention",
+     "vi": "sự giữ chân nhân viên"
+    },
+    {
+     "en": "attrition",
+     "vi": "sự hao hụt nhân sự"
+    },
+    {
+     "en": "exit interview",
+     "vi": "phỏng vấn thôi việc"
+    },
+    {
+     "en": "burnout",
+     "vi": "kiệt sức vì công việc"
+    },
+    {
+     "en": "recognition",
+     "vi": "sự ghi nhận"
+    },
+    {
+     "en": "work-life balance",
+     "vi": "cân bằng công việc – cuộc sống"
+    },
+    {
+     "en": "flexible hours",
+     "vi": "giờ làm việc linh hoạt"
+    },
+    {
+     "en": "absenteeism",
+     "vi": "tình trạng nghỉ làm"
+    },
+    {
+     "en": "morale",
+     "vi": "tinh thần làm việc"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Once a year, the manager holds a ___ to review how well each employee has worked.",
+        "ans": [
+         0
+        ],
+        "tip": "appraise = đánh giá.",
+        "why": "**performance appraisal** = buổi đánh giá hiệu suất.",
+        "opts": [
+         "performance appraisal",
+         "exit interview",
+         "payroll"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sales staff receive a ___ of 5% on every contract they close.",
+        "ans": [
+         0
+        ],
+        "tip": "commit → được giao việc → hoa hồng.",
+        "why": "**commission** = hoa hồng tính theo doanh số.",
+        "opts": [
+         "commission",
+         "deduction",
+         "pay grade"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Employees received a year-end ___ because the company made a record profit.",
+        "ans": [
+         0
+        ],
+        "tip": "bonus = phần thưởng thêm.",
+        "why": "**bonus** = tiền thưởng.",
+        "opts": [
+         "bonus",
+         "deduction",
+         "burnout"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After tax and insurance are taken out, what the employee takes home is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "net = ròng.",
+        "why": "**net pay** = lương thực nhận; **gross pay** = lương gộp.",
+        "opts": [
+         "gross pay",
+         "net pay",
+         "stock option"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "HR conducts an ___ when an employee leaves, to learn the real reasons.",
+        "ans": [
+         0
+        ],
+        "tip": "exit = lối ra.",
+        "why": "**exit interview** = phỏng vấn thôi việc.",
+        "opts": [
+         "exit interview",
+         "360-degree feedback",
+         "benefits package"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Long hours and constant pressure can lead to ___, a state of extreme tiredness.",
+        "ans": [
+         2
+        ],
+        "tip": "burn out = cháy hết.",
+        "why": "**burnout** = kiệt sức vì công việc.",
+        "opts": [
+         "absenteeism",
+         "retention",
+         "burnout"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Good ___ means that the company succeeds in keeping its best employees.",
+        "ans": [
+         1
+        ],
+        "tip": "retain = giữ lại.",
+        "why": "**retention** = giữ chân nhân viên; **attrition** là hao hụt.",
+        "opts": [
+         "attrition",
+         "retention",
+         "deduction"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Flexible hours help employees maintain a healthy ___.",
+        "ans": [
+         1
+        ],
+        "tip": "balance = cân bằng.",
+        "why": "**work-life balance** = cân bằng công việc và cuộc sống.",
+        "opts": [
+         "payroll",
+         "work-life balance",
+         "recognition"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "key performance indicator (KPI)",
+        "b": "a measurable value that shows how well someone is achieving a goal",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "motivation",
+        "b": "the reason or desire that makes people work hard",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "absenteeism",
+        "b": "regular absence from work without a good reason",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "morale",
+        "b": "the level of confidence and enthusiasm in a group",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "recognition",
+        "b": "public praise or thanks for good work",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "payroll",
+        "b": "the system for calculating and paying employees' salaries",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "benefits package",
+        "b": "extra rewards such as insurance, holidays and pensions",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "job satisfaction",
+        "b": "the feeling of being happy with your work",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If employees feel valued, they ___ more productive.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại, will + V.",
+        "why": "Điều kiện loại 1 (có thể xảy ra) → **will be**.",
+        "opts": [
+         "will be",
+         "would be",
+         "are being"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were the manager, I ___ the pay system.",
+        "ans": [
+         1
+        ],
+        "tip": "If + quá khứ, would + V.",
+        "why": "Loại 2 (giả định) → **would change**.",
+        "opts": [
+         "will change",
+         "would change",
+         "changed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the company ___ flexible hours, turnover will fall.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn → **offers**.",
+        "opts": [
+         "offers",
+         "offered",
+         "would offer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we paid higher salaries, more talented people ___ to join us.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ → would + V.",
+        "why": "Loại 2 → **would want**.",
+        "opts": [
+         "will want",
+         "want",
+         "would want"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If an employee ___ his targets, he will receive a bonus.",
+        "ans": [
+         1
+        ],
+        "tip": "không dùng will sau If.",
+        "why": "Loại 1: **achieves**.",
+        "opts": [
+         "achieved",
+         "achieves",
+         "will achieve"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What would happen if all our best people ___ at the same time?",
+        "ans": [
+         1
+        ],
+        "tip": "If + quá khứ đơn.",
+        "why": "Loại 2: mệnh đề If dùng quá khứ đơn → **left**.",
+        "opts": [
+         "leave",
+         "left",
+         "would leave"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the word in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If you ___ (work) overtime, you will receive extra pay.",
+        "ans": [
+         [
+          "work"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1: **work**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (offer) better benefits, fewer people would resign.",
+        "ans": [
+         [
+          "offered"
+         ]
+        ],
+        "tip": "If + quá khứ đơn.",
+        "why": "Loại 2: **offered**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If morale ___ (drop), productivity will fall.",
+        "ans": [
+         [
+          "drops"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **drops**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She would accept the job if the salary ___ (be) higher.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If … were …",
+        "why": "Loại 2: **were** (was cũng được chấp nhận)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If employees ___ (get) regular feedback, they usually perform better.",
+        "ans": [
+         [
+          "get"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật chung: **get**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Why do good employees leave?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A software company noticed that its attrition rate was 25%, much higher than the industry average. HR ran exit interviews, and the results were clear. When employees had a heavy workload and no recognition, they started to look for another job. Several people also said they felt burnout because they could not leave work on time.\n\nThe HR manager made a plan. If the company improves its benefits package, more employees will stay. If managers hold regular performance appraisals, employees will know how they are doing. HR also asked for 360-degree feedback so that managers could understand their own weaknesses.\n\nThe company also introduced flexible hours and a small bonus for teams that reach their KPIs. If these changes work, morale and job satisfaction will improve, and absenteeism will fall. The CEO said she would invest even more in retention if the results were good after one year.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The company's attrition rate was 25%.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tỷ lệ hao hụt nhân sự là 25%."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "HR learned the reasons for leaving from exit interviews.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: HR thực hiện exit interview và kết quả rất rõ ràng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "No employee mentioned burnout.",
+        "ans": [
+         1
+        ],
+        "tip": "several people said…",
+        "why": "Đoạn 1: **vài người** nói họ cảm thấy kiệt sức."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The company decided to remove its bonus system.",
+        "ans": [
+         1
+        ],
+        "tip": "introduced a small bonus.",
+        "why": "Đoạn 3: công ty **đưa ra** khoản thưởng nhỏ cho nhóm đạt KPI."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did HR find in the exit interviews?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: khối lượng việc nặng và thiếu ghi nhận khiến nhân viên tìm việc khác.",
+        "opts": [
+         "Employees wanted longer hours",
+         "A heavy workload and no recognition made people look for other jobs",
+         "Employees disliked their salaries only"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why did HR ask for 360-degree feedback?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: để quản lý hiểu điểm yếu của chính mình.",
+        "opts": [
+         "To reduce payroll",
+         "To plan a bonus",
+         "So managers could understand their own weaknesses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did the company introduce?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: giờ làm linh hoạt và thưởng nhỏ cho nhóm đạt KPI.",
+        "opts": [
+         "A four-year contract",
+         "Compulsory overtime",
+         "Flexible hours and a small team bonus"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will happen if the changes work?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tinh thần và sự hài lòng sẽ cải thiện, nghỉ làm giảm.",
+        "opts": [
+         "Attrition will rise",
+         "Morale and job satisfaction will improve",
+         "Absenteeism will increase"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Modern Workplace & HR Trends",
+   "name_vi": "Môi trường làm việc hiện đại & xu hướng HR",
+   "icon": "🌐",
+   "hue": 240,
+   "words": [
+    {
+     "en": "remote work",
+     "vi": "làm việc từ xa"
+    },
+    {
+     "en": "hybrid work",
+     "vi": "làm việc kết hợp (văn phòng + tại nhà)"
+    },
+    {
+     "en": "gig economy",
+     "vi": "nền kinh tế việc làm tự do (gig)"
+    },
+    {
+     "en": "digital transformation",
+     "vi": "chuyển đổi số"
+    },
+    {
+     "en": "HR analytics",
+     "vi": "phân tích dữ liệu nhân sự"
+    },
+    {
+     "en": "applicant tracking system (ATS)",
+     "vi": "hệ thống quản lý ứng viên"
+    },
+    {
+     "en": "artificial intelligence (AI)",
+     "vi": "trí tuệ nhân tạo"
+    },
+    {
+     "en": "automation",
+     "vi": "tự động hóa"
+    },
+    {
+     "en": "employee wellbeing",
+     "vi": "sức khỏe và hạnh phúc của nhân viên"
+    },
+    {
+     "en": "mental health",
+     "vi": "sức khỏe tinh thần"
+    },
+    {
+     "en": "inclusion",
+     "vi": "sự hòa nhập"
+    },
+    {
+     "en": "multigenerational workforce",
+     "vi": "lực lượng lao động đa thế hệ"
+    },
+    {
+     "en": "employee experience",
+     "vi": "trải nghiệm của nhân viên"
+    },
+    {
+     "en": "pulse survey",
+     "vi": "khảo sát nhanh định kỳ"
+    },
+    {
+     "en": "four-day week",
+     "vi": "tuần làm việc bốn ngày"
+    },
+    {
+     "en": "collaboration tool",
+     "vi": "công cụ cộng tác"
+    },
+    {
+     "en": "virtual team",
+     "vi": "nhóm làm việc ảo"
+    },
+    {
+     "en": "time zone",
+     "vi": "múi giờ"
+    },
+    {
+     "en": "digital nomad",
+     "vi": "dân du mục kỹ thuật số"
+    },
+    {
+     "en": "quiet quitting",
+     "vi": "\"nghỉ ngầm\" (chỉ làm tối thiểu)"
+    },
+    {
+     "en": "Great Resignation",
+     "vi": "làn sóng nghỉ việc hàng loạt"
+    },
+    {
+     "en": "talent shortage",
+     "vi": "tình trạng thiếu hụt nhân tài"
+    },
+    {
+     "en": "employer of choice",
+     "vi": "nhà tuyển dụng được ưa chuộng"
+    },
+    {
+     "en": "corporate social responsibility (CSR)",
+     "vi": "trách nhiệm xã hội doanh nghiệp"
+    },
+    {
+     "en": "data privacy",
+     "vi": "quyền riêng tư dữ liệu"
+    },
+    {
+     "en": "algorithm",
+     "vi": "thuật toán"
+    },
+    {
+     "en": "skills-based hiring",
+     "vi": "tuyển dụng dựa trên kỹ năng"
+    },
+    {
+     "en": "gender pay gap",
+     "vi": "chênh lệch lương theo giới"
+    },
+    {
+     "en": "lifelong learning",
+     "vi": "học tập suốt đời"
+    },
+    {
+     "en": "flexibility",
+     "vi": "sự linh hoạt"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ nhân sự phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, employees work partly at home and partly in the office.",
+        "ans": [
+         2
+        ],
+        "tip": "hybrid = lai.",
+        "why": "**hybrid work** = làm việc kết hợp.",
+        "opts": [
+         "gig economy",
+         "data privacy",
+         "hybrid work"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Workers who take short-term jobs through apps belong to the ___.",
+        "ans": [
+         0
+        ],
+        "tip": "gig = việc ngắn hạn.",
+        "why": "**gig economy** = nền kinh tế việc làm ngắn hạn/tự do.",
+        "opts": [
+         "gig economy",
+         "talent shortage",
+         "inclusion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ scans CVs and ranks candidates automatically.",
+        "ans": [
+         1
+        ],
+        "tip": "track = theo dõi.",
+        "why": "**applicant tracking system (ATS)** = hệ thống quản lý ứng viên.",
+        "opts": [
+         "pulse survey",
+         "applicant tracking system",
+         "algorithm"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "HR used ___ to find out which departments have the highest turnover.",
+        "ans": [
+         1
+        ],
+        "tip": "analyse = phân tích.",
+        "why": "**HR analytics** = phân tích dữ liệu nhân sự.",
+        "opts": [
+         "quiet quitting",
+         "HR analytics",
+         "time zone"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Meetings are hard to organise across different ___.",
+        "ans": [
+         1
+        ],
+        "tip": "time + zone = vùng giờ.",
+        "why": "**time zone** = múi giờ.",
+        "opts": [
+         "algorithms",
+         "time zones",
+         "four-day weeks"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A short ___ asks staff every month how they feel about their work.",
+        "ans": [
+         1
+        ],
+        "tip": "pulse = nhịp mạch.",
+        "why": "**pulse survey** = khảo sát nhanh để 'bắt mạch' tinh thần.",
+        "opts": [
+         "gender pay gap",
+         "pulse survey",
+         "digital nomad"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ in some regions has made it hard for companies to find qualified engineers.",
+        "ans": [
+         1
+        ],
+        "tip": "shortage = sự thiếu hụt.",
+        "why": "**talent shortage** = thiếu hụt nhân tài.",
+        "opts": [
+         "automation",
+         "talent shortage",
+         "inclusion"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows that, on average, women earn less than men for similar work.",
+        "ans": [
+         0
+        ],
+        "tip": "gap = khoảng cách.",
+        "why": "**gender pay gap** = chênh lệch lương theo giới.",
+        "opts": [
+         "gender pay gap",
+         "employer of choice",
+         "lifelong learning"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "remote work",
+        "b": "working from home or from another place outside the office",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "digital nomad",
+        "b": "a person who works online while travelling",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "automation",
+        "b": "using machines or software to do tasks without human help",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mental health",
+        "b": "a person's emotional and psychological wellbeing",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "inclusion",
+        "b": "making sure all employees feel welcome and can take part",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "data privacy",
+        "b": "protecting personal information from misuse",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "skills-based hiring",
+        "b": "choosing people for their abilities rather than their degrees",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lifelong learning",
+        "b": "continuing to learn new skills throughout your career",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Many companies ___ remote work during the last few years.",
+        "ans": [
+         2
+        ],
+        "tip": "during the last few years → hiện tại hoàn thành.",
+        "why": "Khoảng thời gian kéo dài đến hiện tại → **have introduced**.",
+        "opts": [
+         "introduced",
+         "were introducing",
+         "have introduced"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company ___ its first hybrid policy in 2021.",
+        "ans": [
+         1
+        ],
+        "tip": "in 2021 → quá khứ đơn.",
+        "why": "Mốc thời gian đã qua → **adopted**.",
+        "opts": [
+         "has adopted",
+         "adopted",
+         "adopts"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "So far this year, HR ___ three new digital tools.",
+        "ans": [
+         2
+        ],
+        "tip": "so far this year → hiện tại hoàn thành.",
+        "why": "'so far this year' → **has bought**.",
+        "opts": [
+         "bought",
+         "was buying",
+         "has bought"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How many employees ___ the pulse survey last week?",
+        "ans": [
+         1
+        ],
+        "tip": "last week → quá khứ đơn.",
+        "why": "'last week' đã kết thúc → **completed**.",
+        "opts": [
+         "have completed",
+         "completed",
+         "complete"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The number of freelancers ___ since the gig economy appeared.",
+        "ans": [
+         0
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since …' → **has grown**.",
+        "opts": [
+         "has grown",
+         "grew",
+         "grows"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ our office in 2020 and have worked remotely since then.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2020 → quá khứ đơn.",
+        "why": "Mốc 'in 2020' → **closed**.",
+        "opts": [
+         "have closed",
+         "close",
+         "closed"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (join) the company in March 2022.",
+        "ans": [
+         [
+          "joined"
+         ]
+        ],
+        "tip": "",
+        "why": "Mốc 'in March 2022' → quá khứ đơn: **joined**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company ___ (introduce) a four-day week since January.",
+        "ans": [
+         [
+          "has introduced",
+          "'s introduced"
+         ]
+        ],
+        "tip": "",
+        "why": "'since January' → **has introduced**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I ___ (never / work) in a virtual team.",
+        "ans": [
+         [
+          "have never worked",
+          "'ve never worked"
+         ]
+        ],
+        "tip": "",
+        "why": "Kinh nghiệm đến nay → **have never worked**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last month, HR ___ (run) a survey about wellbeing.",
+        "ans": [
+         [
+          "ran"
+         ]
+        ],
+        "tip": "run – ran – run.",
+        "why": "'Last month' → quá khứ đơn: **ran**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Remote work ___ (become) very common in the last decade.",
+        "ans": [
+         [
+          "has become"
+         ]
+        ],
+        "tip": "",
+        "why": "'in the last decade' → **has become**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How work has changed",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Ten years ago, most employees worked in an office from nine to five. Then technology changed everything. In 2020, millions of people started to work from home, and many companies discovered that remote work was possible. Since then, hybrid work has become common, and some employers have introduced a four-day week.\n\nHR has also changed. Companies have adopted HR analytics and applicant tracking systems to make decisions with data. AI has helped recruiters to screen thousands of CVs, but experts have warned that an algorithm can repeat human bias, so data privacy and fairness are now important topics.\n\nEmployees' expectations have also changed. Many workers now ask about employee wellbeing, mental health and inclusion before they accept an offer. Employers that have failed to listen have lost talent, while employers of choice have grown stronger. As automation spreads, lifelong learning has become essential, because the skills that were useful five years ago are not always enough today.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In 2020, millions of people started to work from home.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: năm 2020 hàng triệu người bắt đầu làm việc tại nhà."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Hybrid work has become less common since 2020.",
+        "ans": [
+         1
+        ],
+        "tip": "has become common.",
+        "why": "Đoạn 1: hybrid work đã **trở nên phổ biến**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "AI has helped recruiters to screen thousands of CVs.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: AI giúp nhà tuyển dụng sàng lọc hàng nghìn CV."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Experts say that an algorithm can never repeat human bias.",
+        "ans": [
+         1
+        ],
+        "tip": "can repeat.",
+        "why": "Đoạn 2: chuyên gia cảnh báo thuật toán **có thể lặp lại** thiên kiến."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What have some employers introduced?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: một số nhà tuyển dụng đã áp dụng tuần làm việc bốn ngày.",
+        "opts": [
+         "A four-day week",
+         "A six-day week",
+         "A ban on remote work"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are data privacy and fairness important topics?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thuật toán có thể lặp lại thiên kiến của con người.",
+        "opts": [
+         "CVs are too long",
+         "Recruiters work too slowly",
+         "An algorithm can repeat human bias"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do many workers ask about before accepting an offer?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: họ hỏi về wellbeing, sức khỏe tinh thần và hòa nhập.",
+        "opts": [
+         "Wellbeing, mental health and inclusion",
+         "The CEO's salary",
+         "The size of the building"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why has lifelong learning become essential?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tự động hóa lan rộng và kỹ năng cũ có thể không còn đủ.",
+        "opts": [
+         "Companies no longer need skills",
+         "Automation spreads and old skills may not be enough",
+         "Employees dislike working"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "hire",
+   "thuê, tuyển"
+  ],
+  [
+   "fire",
+   "sa thải"
+  ],
+  [
+   "relationship",
+   "mối quan hệ"
+  ],
+  [
+   "clear",
+   "rõ ràng"
+  ],
+  [
+   "planning",
+   "việc lập kế hoạch"
+  ],
+  [
+   "budget",
+   "ngân sách"
+  ],
+  [
+   "expensive",
+   "đắt"
+  ],
+  [
+   "cost",
+   "chi phí"
+  ],
+  [
+   "cheap",
+   "rẻ"
+  ],
+  [
+   "quick",
+   "nhanh"
+  ],
+  [
+   "friendly",
+   "thân thiện"
+  ],
+  [
+   "wellbeing",
+   "sức khỏe và hạnh phúc"
+  ],
+  [
+   "respect",
+   "tôn trọng"
+  ],
+  [
+   "valued",
+   "được trân trọng"
+  ],
+  [
+   "publish",
+   "đăng tải"
+  ],
+  [
+   "closing date",
+   "hạn chót nộp hồ sơ"
+  ],
+  [
+   "score",
+   "chấm điểm; điểm số"
+  ],
+  [
+   "final",
+   "cuối cùng"
+  ],
+  [
+   "subject to",
+   "tùy thuộc vào"
+  ],
+  [
+   "start date",
+   "ngày bắt đầu"
+  ],
+  [
+   "settle in",
+   "làm quen, ổn định"
+  ],
+  [
+   "welcome",
+   "chào đón"
+  ],
+  [
+   "introduce",
+   "giới thiệu"
+  ],
+  [
+   "schedule",
+   "lịch trình"
+  ],
+  [
+   "junior",
+   "cấp dưới, mới vào nghề"
+  ],
+  [
+   "senior",
+   "cấp cao"
+  ],
+  [
+   "assign",
+   "phân công"
+  ],
+  [
+   "review",
+   "xem xét, rà soát"
+  ],
+  [
+   "offer",
+   "đề nghị; đưa ra"
+  ],
+  [
+   "consider",
+   "cân nhắc"
+  ],
+  [
+   "module",
+   "học phần"
+  ],
+  [
+   "register",
+   "đăng ký"
+  ],
+  [
+   "cancel",
+   "hủy"
+  ],
+  [
+   "deliver",
+   "thực hiện, cung cấp"
+  ],
+  [
+   "consultant",
+   "chuyên gia tư vấn"
+  ],
+  [
+   "platform",
+   "nền tảng"
+  ],
+  [
+   "launch",
+   "ra mắt"
+  ],
+  [
+   "copy",
+   "bản sao"
+  ],
+  [
+   "handbook",
+   "sổ tay nhân viên"
+  ],
+  [
+   "state",
+   "nêu rõ"
+  ],
+  [
+   "voluntary",
+   "tự nguyện"
+  ],
+  [
+   "illegal",
+   "bất hợp pháp"
+  ],
+  [
+   "investigate",
+   "điều tra"
+  ],
+  [
+   "fair",
+   "công bằng"
+  ],
+  [
+   "reason",
+   "lý do"
+  ],
+  [
+   "explain",
+   "giải thích"
+  ],
+  [
+   "equal",
+   "bình đẳng"
+  ],
+  [
+   "treat",
+   "đối xử"
+  ],
+  [
+   "complain",
+   "phàn nàn"
+  ],
+  [
+   "rule",
+   "quy tắc"
+  ],
+  [
+   "authority",
+   "cơ quan chức năng"
+  ],
+  [
+   "uncomfortable",
+   "không thoải mái"
+  ],
+  [
+   "casual",
+   "thoải mái, không trang trọng"
+  ],
+  [
+   "notice",
+   "thông báo"
+  ],
+  [
+   "average",
+   "trung bình"
+  ],
+  [
+   "weakness",
+   "điểm yếu"
+  ],
+  [
+   "improve",
+   "cải thiện"
+  ],
+  [
+   "pressure",
+   "áp lực"
+  ],
+  [
+   "tired",
+   "mệt mỏi"
+  ],
+  [
+   "heavy",
+   "nặng"
+  ],
+  [
+   "stay",
+   "ở lại"
+  ],
+  [
+   "resign",
+   "từ chức"
+  ],
+  [
+   "keep",
+   "giữ"
+  ],
+  [
+   "record",
+   "hồ sơ; ghi lại"
+  ],
+  [
+   "decade",
+   "thập kỷ"
+  ],
+  [
+   "expectation",
+   "kỳ vọng"
+  ],
+  [
+   "screen",
+   "sàng lọc"
+  ],
+  [
+   "warn",
+   "cảnh báo"
+  ],
+  [
+   "fairness",
+   "sự công bằng"
+  ],
+  [
+   "spread",
+   "lan rộng"
+  ],
+  [
+   "essential",
+   "thiết yếu"
+  ],
+  [
+   "useful",
+   "hữu ích"
+  ],
+  [
+   "fail",
+   "thất bại"
+  ],
+  [
+   "decision",
+   "quyết định"
+  ],
+  [
+   "tool",
+   "công cụ"
+  ],
+  [
+   "save",
+   "tiết kiệm"
+  ],
+  [
+   "discover",
+   "khám phá"
+  ],
+  [
+   "gender",
+   "giới tính"
+  ],
+  [
+   "interviewer",
+   "người phỏng vấn"
+  ],
+  [
+   "reliable",
+   "đáng tin cậy"
+  ],
+  [
+   "former",
+   "trước đây"
+  ],
+  [
+   "verify",
+   "xác minh"
+  ],
+  [
+   "degree",
+   "bằng đại học"
+  ],
+  [
+   "similar",
+   "tương tự"
+  ],
+  [
+   "encourage",
+   "khuyến khích"
+  ],
+  [
+   "achieve",
+   "đạt được"
+  ],
+  [
+   "colleague",
+   "đồng nghiệp"
+  ]
+ ]
+}

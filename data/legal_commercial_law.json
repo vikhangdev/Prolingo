@@ -1,0 +1,4271 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "legal-commercial-law",
+    "name": "Legal & Commercial Law",
+    "name_vi": "Luật & Luật thương mại",
+    "icon": "⚖️",
+    "hue": 235,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành luật và luật thương mại: hệ thống pháp luật, hợp đồng, doanh nghiệp, giao dịch & thương mại quốc tế, giải quyết tranh chấp, sở hữu trí tuệ & tuân thủ."
+  },
+  "units": [
+    {
+      "name": "The Legal System",
+      "name_vi": "Hệ thống pháp luật",
+      "icon": "⚖️",
+      "hue": 235,
+      "words": [
+        {
+          "en": "law",
+          "vi": "luật, pháp luật"
+        },
+        {
+          "en": "statute",
+          "vi": "đạo luật"
+        },
+        {
+          "en": "legislation",
+          "vi": "văn bản lập pháp, pháp luật"
+        },
+        {
+          "en": "regulation",
+          "vi": "quy định"
+        },
+        {
+          "en": "constitution",
+          "vi": "hiến pháp"
+        },
+        {
+          "en": "court",
+          "vi": "tòa án"
+        },
+        {
+          "en": "judge",
+          "vi": "thẩm phán"
+        },
+        {
+          "en": "jury",
+          "vi": "bồi thẩm đoàn"
+        },
+        {
+          "en": "lawyer",
+          "vi": "luật sư"
+        },
+        {
+          "en": "legal counsel",
+          "vi": "cố vấn pháp lý"
+        },
+        {
+          "en": "plaintiff",
+          "vi": "nguyên đơn"
+        },
+        {
+          "en": "defendant",
+          "vi": "bị đơn, bị cáo"
+        },
+        {
+          "en": "witness",
+          "vi": "nhân chứng"
+        },
+        {
+          "en": "evidence",
+          "vi": "bằng chứng"
+        },
+        {
+          "en": "verdict",
+          "vi": "phán quyết (của bồi thẩm đoàn)"
+        },
+        {
+          "en": "ruling",
+          "vi": "quyết định, phán quyết (của tòa)"
+        },
+        {
+          "en": "appeal",
+          "vi": "kháng cáo"
+        },
+        {
+          "en": "jurisdiction",
+          "vi": "thẩm quyền xét xử"
+        },
+        {
+          "en": "precedent",
+          "vi": "tiền lệ"
+        },
+        {
+          "en": "common law",
+          "vi": "thông luật"
+        },
+        {
+          "en": "civil law",
+          "vi": "luật dân sự; hệ thống dân luật"
+        },
+        {
+          "en": "criminal law",
+          "vi": "luật hình sự"
+        },
+        {
+          "en": "liability",
+          "vi": "trách nhiệm pháp lý"
+        },
+        {
+          "en": "right",
+          "vi": "quyền"
+        },
+        {
+          "en": "obligation",
+          "vi": "nghĩa vụ"
+        },
+        {
+          "en": "enforce",
+          "vi": "thực thi, cưỡng chế thi hành"
+        },
+        {
+          "en": "penalty",
+          "vi": "hình phạt, tiền phạt"
+        },
+        {
+          "en": "lawsuit",
+          "vi": "vụ kiện"
+        },
+        {
+          "en": "legal advice",
+          "vi": "tư vấn pháp lý"
+        },
+        {
+          "en": "tort",
+          "vi": "hành vi gây thiệt hại (dân sự)"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A written law passed by a parliament is called a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**statute** = đạo luật do cơ quan lập pháp ban hành.",
+                "opts": [
+                  "statute",
+                  "verdict",
+                  "jury"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the person who brings a case against someone in court.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**plaintiff** = nguyên đơn, người khởi kiện.",
+                "opts": [
+                  "defendant",
+                  "witness",
+                  "plaintiff"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A group of citizens who decide whether the accused is guilty is called a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**jury** = bồi thẩm đoàn.",
+                "opts": [
+                  "jury",
+                  "precedent",
+                  "verdict"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The judge announced the ___: not guilty.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**verdict** = phán quyết về việc có tội hay không.",
+                "opts": [
+                  "verdict",
+                  "evidence",
+                  "penalty"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you are unhappy with the decision, you can ___ to a higher court.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**appeal** = kháng cáo lên tòa cấp cao hơn.",
+                "opts": [
+                  "appeal",
+                  "enforce",
+                  "comply"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A court's earlier decision that guides later cases is a ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "precede = đi trước.",
+                "why": "**precedent** = tiền lệ pháp.",
+                "opts": [
+                  "statute",
+                  "lawsuit",
+                  "precedent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The court has ___ over disputes that occur in this province.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**jurisdiction** = thẩm quyền xét xử.",
+                "opts": [
+                  "liability",
+                  "legislation",
+                  "jurisdiction"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A company that breaks the rule may have to pay a heavy ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**penalty** = hình phạt, tiền phạt.",
+                "opts": [
+                  "evidence",
+                  "penalty",
+                  "witness"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "legislation",
+                "b": "laws made by a government",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "constitution",
+                "b": "the basic set of principles by which a state is governed",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "witness",
+                "b": "a person who tells the court what he or she saw or knows",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "evidence",
+                "b": "facts or documents used to prove something in court",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "common law",
+                "b": "a legal system based mainly on judges' decisions",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "criminal law",
+                "b": "the law that deals with crimes and their punishment",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "liability",
+                "b": "legal responsibility for something",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "obligation",
+                "b": "a duty that a person is legally bound to perform",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A judge ___ the evidence before making a decision.",
+                "ans": [
+                  2
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Công việc thường lệ của thẩm phán → **considers**.",
+                "opts": [
+                  "is considering",
+                  "consider",
+                  "considers"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "At the moment, the court ___ the case of the two companies.",
+                "ans": [
+                  0
+                ],
+                "tip": "at the moment → be + V-ing.",
+                "why": "'At the moment' → **is hearing**.",
+                "opts": [
+                  "is hearing",
+                  "hears",
+                  "heard"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Lawyers usually ___ their clients before the hearing.",
+                "ans": [
+                  1
+                ],
+                "tip": "usually → hiện tại đơn; chủ ngữ số nhiều.",
+                "why": "'usually' + số nhiều → **meet**.",
+                "opts": [
+                  "meets",
+                  "meet",
+                  "are meeting"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Our legal team ___ a new contract this week.",
+                "ans": [
+                  0
+                ],
+                "tip": "this week (tạm thời) → tiếp diễn.",
+                "why": "Việc đang diễn ra trong tuần này → **is drafting**.",
+                "opts": [
+                  "is drafting",
+                  "drafts",
+                  "draft"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The constitution ___ the basic rights of citizens.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Sự thật chung → **protects**.",
+                "opts": [
+                  "protects",
+                  "is protecting",
+                  "protect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Listen! The judge ___ the verdict.",
+                "ans": [
+                  1
+                ],
+                "tip": "Listen! → đang xảy ra.",
+                "why": "'Listen!' → **is reading**.",
+                "opts": [
+                  "reads",
+                  "is reading",
+                  "read"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A defendant ___ (have) the right to a fair trial.",
+                "ans": [
+                  [
+                    "has"
+                  ]
+                ],
+                "tip": "He/She/It + has.",
+                "why": "Quyền luôn đúng → hiện tại đơn: **has**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The judge ___ (not / accept) gifts from anyone.",
+                "ans": [
+                  [
+                    "doesn't accept",
+                    "does not accept"
+                  ]
+                ],
+                "tip": "",
+                "why": "Quy tắc chung → **doesn't accept**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "At the moment, the witness ___ (answer) questions.",
+                "ans": [
+                  [
+                    "is answering",
+                    "'s answering"
+                  ]
+                ],
+                "tip": "be + V-ing.",
+                "why": "'At the moment' → **is answering**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Statutes ___ (set) out the rules that people must follow.",
+                "ans": [
+                  [
+                    "set"
+                  ]
+                ],
+                "tip": "Chủ ngữ số nhiều.",
+                "why": "Sự thật chung, số nhiều → **set**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Our firm ___ (advise) several foreign investors this month.",
+                "ans": [
+                  [
+                    "is advising",
+                    "'s advising"
+                  ]
+                ],
+                "tip": "",
+                "why": "Việc tạm thời trong tháng này → **is advising**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How the legal system works",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Every country has a legal system, which is a set of rules that people, companies and governments must follow. The highest law is usually the constitution. Below it are statutes, which are written by the legislature, and regulations, which explain how the statutes work in practice.\n\nLegal systems are often divided into two main types. In common law countries, such as the United Kingdom, judges follow precedent, so earlier court decisions are very important. In civil law countries, such as France, courts mainly apply written codes. Vietnam also follows a civil law tradition.\n\nLaw is divided into different areas. Criminal law deals with crimes and punishes offenders, while civil law deals with private disputes, for example between a company and its supplier. In a civil case, the plaintiff brings a claim, and the defendant must respond. A judge listens to the witnesses, examines the evidence and then gives a ruling.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The constitution is usually the highest law in a country.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: 'The highest law is usually the constitution'."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "In common law countries, judges follow precedent.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thẩm phán theo tiền lệ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Criminal law deals with private disputes between companies.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: luật hình sự xử lý tội phạm; tranh chấp tư thuộc luật dân sự."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "In a civil case, the defendant brings the claim.",
+                "ans": [
+                  1
+                ],
+                "tip": "Plaintiff khởi kiện.",
+                "why": "Đoạn 3: **plaintiff** (nguyên đơn) đưa ra yêu cầu, bị đơn phải phản hồi."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are regulations?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: quy định giải thích cách các đạo luật vận hành trong thực tế.",
+                "opts": [
+                  "Decisions of the highest court",
+                  "Another name for the constitution",
+                  "Rules that explain how statutes work in practice"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which country is mentioned as a common law country?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: Vương quốc Anh là nước thông luật; Pháp và Việt Nam theo dân luật.",
+                "opts": [
+                  "The United Kingdom",
+                  "France",
+                  "Vietnam"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a judge do in a civil case?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: thẩm phán nghe nhân chứng, xem bằng chứng và đưa ra phán quyết.",
+                "opts": [
+                  "Brings a claim against the defendant",
+                  "Examines the evidence and gives a ruling",
+                  "Writes the statutes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does criminal law do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: luật hình sự xử lý tội phạm và trừng phạt người phạm tội.",
+                "opts": [
+                  "Explains how companies are registered",
+                  "Applies only in civil law countries",
+                  "Deals with crimes and punishes offenders"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contract Law",
+      "name_vi": "Luật hợp đồng",
+      "icon": "📜",
+      "hue": 35,
+      "words": [
+        {
+          "en": "contract",
+          "vi": "hợp đồng"
+        },
+        {
+          "en": "offer",
+          "vi": "đề nghị (giao kết)"
+        },
+        {
+          "en": "acceptance",
+          "vi": "sự chấp nhận"
+        },
+        {
+          "en": "consideration",
+          "vi": "đối giá, giá trị trao đổi"
+        },
+        {
+          "en": "party",
+          "vi": "bên (trong hợp đồng)"
+        },
+        {
+          "en": "term",
+          "vi": "điều khoản"
+        },
+        {
+          "en": "condition",
+          "vi": "điều kiện"
+        },
+        {
+          "en": "clause",
+          "vi": "điều khoản (mục)"
+        },
+        {
+          "en": "breach",
+          "vi": "vi phạm"
+        },
+        {
+          "en": "void",
+          "vi": "vô hiệu"
+        },
+        {
+          "en": "binding",
+          "vi": "có tính ràng buộc"
+        },
+        {
+          "en": "enforceable",
+          "vi": "có thể cưỡng chế thi hành"
+        },
+        {
+          "en": "agreement",
+          "vi": "thỏa thuận"
+        },
+        {
+          "en": "signature",
+          "vi": "chữ ký"
+        },
+        {
+          "en": "amendment",
+          "vi": "sửa đổi, bổ sung"
+        },
+        {
+          "en": "termination",
+          "vi": "chấm dứt (hợp đồng)"
+        },
+        {
+          "en": "negotiate",
+          "vi": "đàm phán"
+        },
+        {
+          "en": "draft",
+          "vi": "soạn thảo; bản thảo"
+        },
+        {
+          "en": "warranty",
+          "vi": "bảo hành, cam kết bảo đảm"
+        },
+        {
+          "en": "indemnity",
+          "vi": "bồi thường, cam kết bồi hoàn"
+        },
+        {
+          "en": "damages",
+          "vi": "tiền bồi thường thiệt hại"
+        },
+        {
+          "en": "remedy",
+          "vi": "biện pháp khắc phục"
+        },
+        {
+          "en": "force majeure",
+          "vi": "bất khả kháng"
+        },
+        {
+          "en": "confidentiality",
+          "vi": "bảo mật"
+        },
+        {
+          "en": "non-disclosure agreement (NDA)",
+          "vi": "thỏa thuận không tiết lộ thông tin"
+        },
+        {
+          "en": "default",
+          "vi": "vi phạm nghĩa vụ, không thực hiện"
+        },
+        {
+          "en": "renewal",
+          "vi": "gia hạn, tái ký"
+        },
+        {
+          "en": "governing law",
+          "vi": "luật điều chỉnh"
+        },
+        {
+          "en": "performance",
+          "vi": "việc thực hiện hợp đồng"
+        },
+        {
+          "en": "mutual",
+          "vi": "chung, hai bên"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "For a contract to exist, one party must make an ___ and the other must accept it.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**offer** = đề nghị giao kết hợp đồng.",
+                "opts": [
+                  "amendment",
+                  "offer",
+                  "remedy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Something of value that each party gives in a contract is called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**consideration** = đối giá, giá trị mỗi bên trao đổi.",
+                "opts": [
+                  "indemnity",
+                  "default",
+                  "consideration"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is one section of a contract that deals with a specific issue.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**clause** = điều khoản/mục trong hợp đồng.",
+                "opts": [
+                  "party",
+                  "signature",
+                  "clause"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If one party does not do what the contract requires, this is a ___ of contract.",
+                "ans": [
+                  0
+                ],
+                "tip": "to breach = phá vỡ.",
+                "why": "**breach** = vi phạm hợp đồng.",
+                "opts": [
+                  "breach",
+                  "renewal",
+                  "warranty"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A contract that has no legal effect is ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**void** = vô hiệu, không có hiệu lực pháp lý.",
+                "opts": [
+                  "void",
+                  "binding",
+                  "enforceable"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The parties agreed to an ___ to the original contract to extend the delivery date.",
+                "ans": [
+                  2
+                ],
+                "tip": "amend = sửa đổi.",
+                "why": "**amendment** = sửa đổi, bổ sung hợp đồng.",
+                "opts": [
+                  "acceptance",
+                  "damages",
+                  "amendment"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The seller gives a ___ that the goods are free from defects.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**warranty** = cam kết bảo hành, bảo đảm chất lượng.",
+                "opts": [
+                  "signature",
+                  "warranty",
+                  "clause"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The court ordered the company to pay ___ for the loss caused by the breach.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**damages** = tiền bồi thường thiệt hại.",
+                "opts": [
+                  "damages",
+                  "amendment",
+                  "signature"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "party",
+                "b": "a person or company that signs a contract",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "term",
+                "b": "a provision of a contract that sets out a right or duty",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "binding",
+                "b": "legally forcing the parties to obey",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "enforceable",
+                "b": "able to be applied and supported by a court",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "indemnity",
+                "b": "a promise to compensate another party for a loss",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "force majeure",
+                "b": "an unexpected event, such as a flood or a war, that prevents a party from performing",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "confidentiality",
+                "b": "the duty to keep information secret",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "governing law",
+                "b": "the national law that applies to the interpretation of a contract",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The contract ___ by both parties yesterday.",
+                "ans": [
+                  2
+                ],
+                "tip": "Quá khứ bị động: was/were + V3.",
+                "why": "'yesterday' → **was signed**.",
+                "opts": [
+                  "is signing",
+                  "signed",
+                  "was signed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The agreement ___ in English and Vietnamese.",
+                "ans": [
+                  1
+                ],
+                "tip": "Hiện tại bị động: am/is/are + V3.",
+                "why": "Hợp đồng **được** viết → **is written**.",
+                "opts": [
+                  "writes",
+                  "is written",
+                  "is writing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The draft ___ by our legal team at the moment.",
+                "ans": [
+                  0
+                ],
+                "tip": "Tiếp diễn bị động: is being + V3.",
+                "why": "Đang được xem xét → **is being reviewed**.",
+                "opts": [
+                  "is being reviewed",
+                  "is reviewing",
+                  "reviews"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The contract ___ by either party if the other party commits a serious breach.",
+                "ans": [
+                  0
+                ],
+                "tip": "Khuyết thiếu bị động: modal + be + V3.",
+                "why": "**may be terminated** = có thể bị chấm dứt.",
+                "opts": [
+                  "may be terminated",
+                  "may terminate",
+                  "may terminating"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "All disputes ___ by arbitration.",
+                "ans": [
+                  0
+                ],
+                "tip": "Văn bản hợp đồng hay dùng shall be + V3.",
+                "why": "Mọi tranh chấp **sẽ được** giải quyết → **shall be settled**.",
+                "opts": [
+                  "shall be settled",
+                  "shall settle",
+                  "are settling"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The payment ___ yet.",
+                "ans": [
+                  2
+                ],
+                "tip": "Hiện tại hoàn thành bị động: has been + V3.",
+                "why": "'yet' + bị động → **hasn't been received**.",
+                "opts": [
+                  "hasn't received",
+                  "didn't received",
+                  "hasn't been received"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct passive form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The contract ___ (draft) by the lawyer last week.",
+                "ans": [
+                  [
+                    "was drafted"
+                  ]
+                ],
+                "tip": "was/were + V3.",
+                "why": "'last week' → **was drafted**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Contracts ___ (sign) by both parties before work begins.",
+                "ans": [
+                  [
+                    "are signed"
+                  ]
+                ],
+                "tip": "",
+                "why": "Sự thật chung, bị động → **are signed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The terms ___ (negotiate) at the moment.",
+                "ans": [
+                  [
+                    "are being negotiated"
+                  ]
+                ],
+                "tip": "is/are being + V3.",
+                "why": "'at the moment' → **are being negotiated**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A new clause ___ (add) to the contract tomorrow.",
+                "ans": [
+                  [
+                    "will be added",
+                    "is going to be added"
+                  ]
+                ],
+                "tip": "will be + V3.",
+                "why": "'tomorrow' → **will be added**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The company ___ (order) to pay damages last month.",
+                "ans": [
+                  [
+                    "was ordered"
+                  ]
+                ],
+                "tip": "",
+                "why": "'last month' → **was ordered**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How a contract is formed",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A contract is a legally binding agreement between two or more parties. For a contract to be valid, four elements are usually required. First, an offer is made by one party. Second, the offer is accepted by the other party. Third, something of value, called consideration, is exchanged. Finally, both parties must intend to create legal relations.\n\nMost commercial contracts are written. The terms and conditions are negotiated, and then the document is drafted by lawyers and signed by both parties. Important clauses include payment, delivery, confidentiality and governing law. If a contract is changed, an amendment must be signed.\n\nWhen a party fails to perform, a breach of contract has occurred. The other party can ask the court to order damages, which are paid as compensation. However, a party is not responsible if performance is prevented by force majeure, such as a flood or a war.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A contract is a legally binding agreement.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hợp đồng là thỏa thuận ràng buộc về mặt pháp lý."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Consideration means that something of value is exchanged.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: consideration là thứ có giá trị được trao đổi."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A contract can be changed without any written document.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khi hợp đồng thay đổi, phải ký một văn bản sửa đổi (amendment)."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A party is always responsible for a breach, even in the case of force majeure.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bên vi phạm không chịu trách nhiệm nếu bị cản trở bởi bất khả kháng."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who usually drafts commercial contracts?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: văn bản được luật sư soạn thảo.",
+                "opts": [
+                  "Lawyers",
+                  "Judges",
+                  "Witnesses"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which clauses are important?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thanh toán, giao hàng, bảo mật và luật điều chỉnh.",
+                "opts": [
+                  "Offer, verdict and appeal",
+                  "Payment, delivery, confidentiality and governing law",
+                  "Dividend, merger and royalty"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can the other party ask the court to do after a breach?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: yêu cầu tòa án buộc bồi thường thiệt hại.",
+                "opts": [
+                  "Cancel the constitution",
+                  "Order damages",
+                  "Draft the contract"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which event can prevent performance without a breach?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: lũ lụt hoặc chiến tranh là trường hợp bất khả kháng.",
+                "opts": [
+                  "A payment",
+                  "A flood or a war",
+                  "An amendment"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Business Entities & Corporate Law",
+      "name_vi": "Doanh nghiệp & luật công ty",
+      "icon": "🏢",
+      "hue": 160,
+      "words": [
+        {
+          "en": "company",
+          "vi": "công ty"
+        },
+        {
+          "en": "corporation",
+          "vi": "tập đoàn, công ty cổ phần lớn"
+        },
+        {
+          "en": "sole proprietorship",
+          "vi": "doanh nghiệp tư nhân"
+        },
+        {
+          "en": "partnership",
+          "vi": "công ty hợp danh"
+        },
+        {
+          "en": "limited liability company (LLC)",
+          "vi": "công ty trách nhiệm hữu hạn"
+        },
+        {
+          "en": "joint-stock company",
+          "vi": "công ty cổ phần"
+        },
+        {
+          "en": "shareholder",
+          "vi": "cổ đông"
+        },
+        {
+          "en": "board of directors",
+          "vi": "hội đồng quản trị"
+        },
+        {
+          "en": "share",
+          "vi": "cổ phần"
+        },
+        {
+          "en": "dividend",
+          "vi": "cổ tức"
+        },
+        {
+          "en": "capital",
+          "vi": "vốn"
+        },
+        {
+          "en": "equity",
+          "vi": "vốn chủ sở hữu"
+        },
+        {
+          "en": "articles of association",
+          "vi": "điều lệ công ty"
+        },
+        {
+          "en": "legal entity",
+          "vi": "pháp nhân"
+        },
+        {
+          "en": "incorporation",
+          "vi": "việc thành lập công ty"
+        },
+        {
+          "en": "subsidiary",
+          "vi": "công ty con"
+        },
+        {
+          "en": "merger",
+          "vi": "sáp nhập"
+        },
+        {
+          "en": "acquisition",
+          "vi": "mua lại, thâu tóm"
+        },
+        {
+          "en": "liquidation",
+          "vi": "thanh lý, giải thể"
+        },
+        {
+          "en": "bankruptcy",
+          "vi": "phá sản"
+        },
+        {
+          "en": "insolvency",
+          "vi": "mất khả năng thanh toán"
+        },
+        {
+          "en": "creditor",
+          "vi": "chủ nợ"
+        },
+        {
+          "en": "debtor",
+          "vi": "con nợ"
+        },
+        {
+          "en": "limited liability",
+          "vi": "trách nhiệm hữu hạn"
+        },
+        {
+          "en": "fiduciary duty",
+          "vi": "nghĩa vụ ủy thác (trung thực, tận tụy)"
+        },
+        {
+          "en": "audit",
+          "vi": "kiểm toán"
+        },
+        {
+          "en": "annual general meeting (AGM)",
+          "vi": "đại hội đồng cổ đông thường niên"
+        },
+        {
+          "en": "registration",
+          "vi": "đăng ký"
+        },
+        {
+          "en": "director",
+          "vi": "giám đốc, thành viên hội đồng quản trị"
+        },
+        {
+          "en": "quorum",
+          "vi": "số đại biểu tối thiểu (để họp hợp lệ)"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is owned and run by one person, who is personally responsible for all debts.",
+                "ans": [
+                  0
+                ],
+                "tip": "sole = duy nhất.",
+                "why": "**sole proprietorship** = doanh nghiệp tư nhân (một chủ).",
+                "opts": [
+                  "sole proprietorship",
+                  "subsidiary",
+                  "merger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In a ___, two or more people share the ownership, profits and risks of a business.",
+                "ans": [
+                  1
+                ],
+                "tip": "partner = đối tác.",
+                "why": "**partnership** = công ty hợp danh.",
+                "opts": [
+                  "dividend",
+                  "partnership",
+                  "audit"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ owns shares in a company.",
+                "ans": [
+                  2
+                ],
+                "tip": "share + holder.",
+                "why": "**shareholder** = cổ đông.",
+                "opts": [
+                  "creditor",
+                  "debtor",
+                  "shareholder"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A part of the company's profit that is paid to shareholders is a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**dividend** = cổ tức.",
+                "opts": [
+                  "dividend",
+                  "quorum",
+                  "audit"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is elected by the shareholders to manage the company.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**board of directors** = hội đồng quản trị.",
+                "opts": [
+                  "board of directors",
+                  "creditor",
+                  "registration"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A company that is controlled by a larger parent company is a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**subsidiary** = công ty con.",
+                "opts": [
+                  "subsidiary",
+                  "partnership",
+                  "liquidation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When two companies join to form one, it is called a ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "merge = hợp nhất.",
+                "why": "**merger** = sáp nhập.",
+                "opts": [
+                  "audit",
+                  "dividend",
+                  "merger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A company that cannot pay its debts is in ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "solvent = có khả năng thanh toán.",
+                "why": "**insolvency** = mất khả năng thanh toán.",
+                "opts": [
+                  "incorporation",
+                  "equity",
+                  "insolvency"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "limited liability",
+                "b": "owners are responsible for debts only up to the amount they invested",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "legal entity",
+                "b": "an organization that the law treats as a person with its own rights and duties",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "incorporation",
+                "b": "the process of creating a company as a legal entity",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "articles of association",
+                "b": "the document that sets out the rules for running a company",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "liquidation",
+                "b": "the process of closing a company and selling its assets",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "creditor",
+                "b": "a person or company to whom money is owed",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "debtor",
+                "b": "a person or company that owes money",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "quorum",
+                "b": "the minimum number of people needed for a meeting to make valid decisions",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more / less) và so sánh nhất (-est / most).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A sole proprietorship is ___ to set up than a corporation.",
+                "ans": [
+                  1
+                ],
+                "tip": "Tính từ ngắn + -er.",
+                "why": "easy → **easier than**.",
+                "opts": [
+                  "more easy",
+                  "easier",
+                  "easiest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A joint-stock company can usually raise ___ capital than a partnership.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**more** capital than: so sánh hơn của much.",
+                "opts": [
+                  "most",
+                  "more",
+                  "much"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Limited liability companies are ___ risky for owners than sole proprietorships.",
+                "ans": [
+                  0
+                ],
+                "tip": "less + tính từ + than.",
+                "why": "**less risky than** = ít rủi ro hơn.",
+                "opts": [
+                  "less",
+                  "least",
+                  "fewer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ the company, the more complex its structure.",
+                "ans": [
+                  2
+                ],
+                "tip": "the + so sánh hơn, the + so sánh hơn.",
+                "why": "Cấu trúc 'the ... the ...' → **bigger**.",
+                "opts": [
+                  "big",
+                  "biggest",
+                  "bigger"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Of all business forms, a sole proprietorship is the ___ to close.",
+                "ans": [
+                  0
+                ],
+                "tip": "of all → so sánh nhất.",
+                "why": "'Of all' → **the easiest**.",
+                "opts": [
+                  "easiest",
+                  "easier",
+                  "more easy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A partnership is not as ___ as a company for the owners' personal assets.",
+                "ans": [
+                  2
+                ],
+                "tip": "not as + tính từ gốc + as.",
+                "why": "**not as safe as** = không an toàn bằng.",
+                "opts": [
+                  "safer",
+                  "safest",
+                  "safe"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct comparative or superlative form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A corporation is usually ___ (large) than a partnership.",
+                "ans": [
+                  [
+                    "larger"
+                  ]
+                ],
+                "tip": "Tính từ ngắn + -er.",
+                "why": "large → **larger**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Starting a company is ___ (complicated) than registering a household business.",
+                "ans": [
+                  [
+                    "more complicated"
+                  ]
+                ],
+                "tip": "Tính từ dài → more.",
+                "why": "**more complicated**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Which is the ___ (cheap) way to start a business?",
+                "ans": [
+                  [
+                    "cheapest"
+                  ]
+                ],
+                "tip": "the + -est.",
+                "why": "'the' → **cheapest**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Limited liability gives owners ___ (good) protection than unlimited liability.",
+                "ans": [
+                  [
+                    "better"
+                  ]
+                ],
+                "tip": "good – better – best.",
+                "why": "Bất quy tắc: **better**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The more shares you own, the ___ (much) influence you have.",
+                "ans": [
+                  [
+                    "more"
+                  ]
+                ],
+                "tip": "much – more – most.",
+                "why": "'the more ... the more ...' → **more**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Choosing a type of business",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "When entrepreneurs start a business, they have to choose a legal form. The simplest option is a sole proprietorship. It is cheaper and easier to set up than a company, but the owner is personally responsible for all debts. A partnership is similar, although the risks and profits are shared by two or more partners.\n\nA limited liability company (LLC) is usually safer for the owners because their liability is limited to the capital they have invested. It is more complicated to set up, and it must follow stricter rules on registration and accounting. A joint-stock company is the best choice for raising large amounts of capital, because it can sell shares to many investors. The shareholders elect a board of directors, and the more shares a person owns, the more votes he or she has.\n\nIf a company grows, it may create subsidiaries or join another company in a merger.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A sole proprietorship is easier to set up than a company.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: doanh nghiệp tư nhân rẻ và dễ thành lập hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The owner of a sole proprietorship has limited liability.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: chủ sở hữu chịu trách nhiệm cá nhân cho mọi khoản nợ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A joint-stock company can sell shares to many investors.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: công ty cổ phần có thể bán cổ phần cho nhiều nhà đầu tư."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A shareholder with fewer shares has more votes.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: càng sở hữu nhiều cổ phần thì càng có nhiều phiếu bầu."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is an LLC usually safer for owners?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: trách nhiệm chỉ giới hạn trong số vốn đã góp.",
+                "opts": [
+                  "Their liability is limited to the capital they have invested",
+                  "It is cheaper to set up",
+                  "It has no accounting rules"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which type of business is best for raising large capital?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: công ty cổ phần có thể bán cổ phần cho nhiều nhà đầu tư.",
+                "opts": [
+                  "A sole proprietorship",
+                  "A partnership",
+                  "A joint-stock company"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who elects the board of directors?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cổ đông bầu hội đồng quản trị.",
+                "opts": [
+                  "The shareholders",
+                  "The creditors",
+                  "The partners"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may a growing company create?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn cuối: công ty có thể lập công ty con hoặc sáp nhập.",
+                "opts": [
+                  "Precedents",
+                  "Verdicts",
+                  "Subsidiaries"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Commercial Transactions & International Trade",
+      "name_vi": "Giao dịch thương mại & thương mại quốc tế",
+      "icon": "🌐",
+      "hue": 200,
+      "words": [
+        {
+          "en": "sale of goods",
+          "vi": "mua bán hàng hóa"
+        },
+        {
+          "en": "buyer",
+          "vi": "bên mua"
+        },
+        {
+          "en": "seller",
+          "vi": "bên bán"
+        },
+        {
+          "en": "invoice",
+          "vi": "hóa đơn"
+        },
+        {
+          "en": "payment terms",
+          "vi": "điều khoản thanh toán"
+        },
+        {
+          "en": "deposit",
+          "vi": "tiền đặt cọc"
+        },
+        {
+          "en": "installment",
+          "vi": "đợt trả góp"
+        },
+        {
+          "en": "letter of credit (L/C)",
+          "vi": "thư tín dụng"
+        },
+        {
+          "en": "bank guarantee",
+          "vi": "bảo lãnh ngân hàng"
+        },
+        {
+          "en": "delivery",
+          "vi": "giao hàng"
+        },
+        {
+          "en": "title",
+          "vi": "quyền sở hữu (đối với hàng hóa)"
+        },
+        {
+          "en": "risk of loss",
+          "vi": "rủi ro mất mát"
+        },
+        {
+          "en": "tariff",
+          "vi": "thuế quan"
+        },
+        {
+          "en": "import license",
+          "vi": "giấy phép nhập khẩu"
+        },
+        {
+          "en": "customs duty",
+          "vi": "thuế hải quan"
+        },
+        {
+          "en": "anti-dumping duty",
+          "vi": "thuế chống bán phá giá"
+        },
+        {
+          "en": "free trade agreement (FTA)",
+          "vi": "hiệp định thương mại tự do"
+        },
+        {
+          "en": "sanction",
+          "vi": "lệnh trừng phạt"
+        },
+        {
+          "en": "embargo",
+          "vi": "lệnh cấm vận"
+        },
+        {
+          "en": "export control",
+          "vi": "kiểm soát xuất khẩu"
+        },
+        {
+          "en": "distributor",
+          "vi": "nhà phân phối"
+        },
+        {
+          "en": "agent",
+          "vi": "đại lý, đại diện"
+        },
+        {
+          "en": "franchise",
+          "vi": "nhượng quyền thương mại"
+        },
+        {
+          "en": "exclusive",
+          "vi": "độc quyền"
+        },
+        {
+          "en": "commission",
+          "vi": "hoa hồng"
+        },
+        {
+          "en": "late payment",
+          "vi": "thanh toán chậm"
+        },
+        {
+          "en": "receipt",
+          "vi": "biên nhận"
+        },
+        {
+          "en": "counterfeit goods",
+          "vi": "hàng giả"
+        },
+        {
+          "en": "consignment",
+          "vi": "hàng ký gửi, lô hàng gửi"
+        },
+        {
+          "en": "notice",
+          "vi": "thông báo"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A(n) ___ is a document that shows the goods sold, their price and the amount that the buyer owes.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**invoice** = hóa đơn.",
+                "opts": [
+                  "deposit",
+                  "tariff",
+                  "invoice"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ state when and how the buyer must pay, for example 30 days after delivery.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**payment terms** = điều khoản thanh toán.",
+                "opts": [
+                  "sanctions",
+                  "title",
+                  "payment terms"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a bank's promise to pay the seller if the documents are correct.",
+                "ans": [
+                  1
+                ],
+                "tip": "credit = tín dụng.",
+                "why": "**L/C** = thư tín dụng, ngân hàng trả tiền khi bộ chứng từ hợp lệ.",
+                "opts": [
+                  "tariff",
+                  "letter of credit (L/C)",
+                  "commission"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a tax that a country charges on imported goods.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**tariff** = thuế quan.",
+                "opts": [
+                  "royalty",
+                  "deposit",
+                  "tariff"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A government may impose an ___ and stop all trade with another country.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**embargo** = lệnh cấm vận.",
+                "opts": [
+                  "invoice",
+                  "embargo",
+                  "commission"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ to the goods passes to the buyer only after full payment.",
+                "ans": [
+                  2
+                ],
+                "tip": "title = quyền sở hữu.",
+                "why": "**title** = quyền sở hữu hàng hóa.",
+                "opts": [
+                  "tariff",
+                  "notice",
+                  "title"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The supplier gave the distributor ___ rights to sell its products in the region.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**exclusive** = độc quyền.",
+                "opts": [
+                  "exclusive",
+                  "late",
+                  "counterfeit"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Customs officers seized a large number of ___ in the port.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**counterfeit goods** = hàng giả.",
+                "opts": [
+                  "counterfeit goods",
+                  "invoices",
+                  "installments"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "deposit",
+                "b": "an amount of money paid in advance to secure a purchase",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "installment",
+                "b": "one of several payments made over a period of time",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bank guarantee",
+                "b": "a bank's promise to pay a sum of money if a party fails to fulfil its obligations",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "customs duty",
+                "b": "a tax paid on goods that are imported or exported",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "anti-dumping duty",
+                "b": "an extra tax on imports that are sold at unfairly low prices",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "free trade agreement (FTA)",
+                "b": "an agreement between countries to reduce or remove trade barriers",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "consignment",
+                "b": "goods that are sent to someone, for example to be sold",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "commission",
+                "b": "a payment to an agent for the sales that he or she makes",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The buyer ___ pay the invoice within 30 days. It is in the contract.",
+                "ans": [
+                  2
+                ],
+                "tip": "Bắt buộc theo hợp đồng → must.",
+                "why": "Điều khoản hợp đồng → **must**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "must"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Small businesses ___ register for VAT if their income is below the threshold.",
+                "ans": [
+                  0
+                ],
+                "tip": "don't have to = không cần.",
+                "why": "Không bắt buộc → **don't have to**.",
+                "opts": [
+                  "don't have to",
+                  "must",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Companies ___ trade with a country under an embargo. It is illegal.",
+                "ans": [
+                  0
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Bị cấm theo luật → **mustn't**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I think you ___ read the contract carefully before you sign it.",
+                "ans": [
+                  2
+                ],
+                "tip": "should = lời khuyên.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Exporters ___ have an export license for controlled goods.",
+                "ans": [
+                  1
+                ],
+                "tip": "have to = bắt buộc theo quy định.",
+                "why": "Quy định pháp luật → **have to**.",
+                "opts": [
+                  "mustn't",
+                  "have to",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Employees ___ share confidential information with competitors.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "have to",
+                  "should",
+                  "mustn't"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền từ đúng",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The seller ___ deliver the goods on the date in the contract.",
+                "ans": [
+                  [
+                    "must",
+                    "has to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Nghĩa vụ hợp đồng → **must / has to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ pay a deposit, but I recommend it. It is optional.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't",
+                    "need not"
+                  ]
+                ],
+                "tip": "",
+                "why": "Không bắt buộc → **don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Distributors ___ sell counterfeit goods.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot"
+                  ]
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Foreign investors ___ obtain an investment certificate. It is required by law.",
+                "ans": [
+                  [
+                    "must",
+                    "have to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Luật yêu cầu → **must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "It is good advice to ask a lawyer to check the contract, so you ___ do it.",
+                "ans": [
+                  [
+                    "should",
+                    "ought to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Lời khuyên → **should**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · A first international sale",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Linh's company wants to sell furniture to a buyer in Germany. First, the two parties must sign a sales contract. The contract has to state the price, the quantity, the delivery date and the payment terms. The buyer doesn't have to pay the full price in advance, but the seller may ask for a deposit of 30 percent.\n\nFor payment, the buyer can open a letter of credit at its bank. The bank must pay the seller if the seller presents the correct documents. The seller should check every document carefully, because even a small mistake can delay payment.\n\nThe seller also has to follow export rules and must not ship goods to a country under an embargo. In addition, the company should check whether a free trade agreement applies, because it can reduce the tariff. After delivery, the title to the goods passes to the buyer.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The sales contract has to state the price and the delivery date.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hợp đồng phải nêu giá, số lượng, ngày giao hàng và điều khoản thanh toán."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The buyer must pay the full price in advance.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: người mua **không cần** trả toàn bộ trước (don't have to)."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The seller should check the documents carefully for a letter of credit.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: một sai sót nhỏ cũng có thể làm chậm thanh toán."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A company may ship goods to a country under an embargo.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: 'must not ship goods to a country under an embargo'."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How much deposit may the seller ask for?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bên bán có thể yêu cầu đặt cọc 30%.",
+                "opts": [
+                  "30 percent",
+                  "The full price",
+                  "50 percent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When must the bank pay the seller under a letter of credit?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ngân hàng phải trả tiền khi người bán xuất trình đúng chứng từ.",
+                "opts": [
+                  "When the buyer signs the invoice",
+                  "When the seller presents the correct documents",
+                  "When the goods arrive at the port"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why can a free trade agreement be useful?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: FTA có thể giảm thuế quan.",
+                "opts": [
+                  "It can reduce the tariff",
+                  "It cancels the sales contract",
+                  "It increases the deposit"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens after delivery?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: sau khi giao hàng, quyền sở hữu hàng hóa chuyển cho bên mua.",
+                "opts": [
+                  "The embargo is lifted",
+                  "The deposit is returned",
+                  "The title to the goods passes to the buyer"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dispute Resolution",
+      "name_vi": "Giải quyết tranh chấp",
+      "icon": "🤝",
+      "hue": 340,
+      "words": [
+        {
+          "en": "dispute",
+          "vi": "tranh chấp"
+        },
+        {
+          "en": "negotiation",
+          "vi": "đàm phán"
+        },
+        {
+          "en": "mediation",
+          "vi": "hòa giải"
+        },
+        {
+          "en": "arbitration",
+          "vi": "trọng tài"
+        },
+        {
+          "en": "litigation",
+          "vi": "kiện tụng tại tòa"
+        },
+        {
+          "en": "arbitrator",
+          "vi": "trọng tài viên"
+        },
+        {
+          "en": "mediator",
+          "vi": "hòa giải viên"
+        },
+        {
+          "en": "tribunal",
+          "vi": "hội đồng xét xử, hội đồng trọng tài"
+        },
+        {
+          "en": "arbitral award",
+          "vi": "phán quyết trọng tài"
+        },
+        {
+          "en": "claim",
+          "vi": "yêu cầu bồi thường, khiếu nại"
+        },
+        {
+          "en": "counterclaim",
+          "vi": "yêu cầu phản tố"
+        },
+        {
+          "en": "injunction",
+          "vi": "lệnh của tòa (cấm hoặc buộc làm gì)"
+        },
+        {
+          "en": "settlement",
+          "vi": "thỏa thuận giải quyết"
+        },
+        {
+          "en": "hearing",
+          "vi": "phiên điều trần, phiên xét xử"
+        },
+        {
+          "en": "trial",
+          "vi": "phiên tòa, xét xử"
+        },
+        {
+          "en": "burden of proof",
+          "vi": "nghĩa vụ chứng minh"
+        },
+        {
+          "en": "statute of limitations",
+          "vi": "thời hiệu khởi kiện"
+        },
+        {
+          "en": "summons",
+          "vi": "giấy triệu tập"
+        },
+        {
+          "en": "subpoena",
+          "vi": "lệnh triệu tập nhân chứng/tài liệu"
+        },
+        {
+          "en": "discovery",
+          "vi": "thủ tục cung cấp chứng cứ"
+        },
+        {
+          "en": "class action",
+          "vi": "vụ kiện tập thể"
+        },
+        {
+          "en": "compensation",
+          "vi": "tiền bồi thường"
+        },
+        {
+          "en": "legal fees",
+          "vi": "phí luật sư"
+        },
+        {
+          "en": "court costs",
+          "vi": "án phí"
+        },
+        {
+          "en": "default judgment",
+          "vi": "bản án vắng mặt"
+        },
+        {
+          "en": "enforcement",
+          "vi": "việc thi hành"
+        },
+        {
+          "en": "amicable",
+          "vi": "thân thiện, hòa giải"
+        },
+        {
+          "en": "waive",
+          "vi": "từ bỏ (quyền)"
+        },
+        {
+          "en": "liable",
+          "vi": "chịu trách nhiệm pháp lý"
+        },
+        {
+          "en": "sue",
+          "vi": "kiện"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a disagreement between two parties, for example about payment.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**dispute** = tranh chấp.",
+                "opts": [
+                  "dispute",
+                  "settlement",
+                  "verdict"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In ___, a neutral person helps the parties reach an agreement but cannot impose a decision.",
+                "ans": [
+                  0
+                ],
+                "tip": "mediate = đứng giữa.",
+                "why": "**mediation** = hòa giải, hòa giải viên không áp đặt quyết định.",
+                "opts": [
+                  "mediation",
+                  "arbitration",
+                  "litigation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In ___, an independent tribunal makes a final and binding decision.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**arbitration** = trọng tài, phán quyết có tính chung thẩm.",
+                "opts": [
+                  "negotiation",
+                  "arbitration",
+                  "mediation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the process of taking a dispute to court.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**litigation** = kiện tụng tại tòa án.",
+                "opts": [
+                  "Mediation",
+                  "Settlement",
+                  "Litigation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The parties reached a ___ and the case ended without a trial.",
+                "ans": [
+                  0
+                ],
+                "tip": "to settle = dàn xếp.",
+                "why": "**settlement** = thỏa thuận giải quyết.",
+                "opts": [
+                  "settlement",
+                  "summons",
+                  "hearing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The court issued an ___ ordering the company to stop using the logo.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**injunction** = lệnh của tòa buộc dừng một hành vi.",
+                "opts": [
+                  "appeal",
+                  "claim",
+                  "injunction"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The defendant filed a ___ against the plaintiff for unpaid fees.",
+                "ans": [
+                  2
+                ],
+                "tip": "counter = ngược lại.",
+                "why": "**counterclaim** = yêu cầu phản tố.",
+                "opts": [
+                  "subpoena",
+                  "summons",
+                  "counterclaim"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The claimant has the ___ and must prove the facts.",
+                "ans": [
+                  1
+                ],
+                "tip": "burden = gánh nặng.",
+                "why": "**burden of proof** = nghĩa vụ chứng minh.",
+                "opts": [
+                  "default judgment",
+                  "burden of proof",
+                  "legal fees"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "arbitrator",
+                "b": "an independent person who decides a dispute in arbitration",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mediator",
+                "b": "a neutral person who helps the parties find a solution",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tribunal",
+                "b": "a body that has the authority to judge disputes",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "summons",
+                "b": "an official order to appear in court",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "hearing",
+                "b": "a formal meeting where evidence is presented",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "statute of limitations",
+                "b": "a law that sets a time limit for starting legal action",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "default judgment",
+                "b": "a decision in favour of one party because the other did not respond",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "amicable",
+                "b": "done in a friendly way, without conflict",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the parties ___ an agreement, they will avoid a trial.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: mệnh đề If dùng hiện tại đơn.",
+                "why": "Loại 1 → **reach**.",
+                "opts": [
+                  "will reach",
+                  "reached",
+                  "reach"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the buyer doesn't pay, the seller ___ the contract.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: If + hiện tại, will + V.",
+                "why": "Khả năng có thật → **will terminate**.",
+                "opts": [
+                  "would terminate",
+                  "terminated",
+                  "will terminate"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I were the judge, I ___ a different decision.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 2: If + quá khứ, would + V.",
+                "why": "Giả định → **would make**.",
+                "opts": [
+                  "will make",
+                  "made",
+                  "would make"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the court ___ in our favour, we will receive compensation.",
+                "ans": [
+                  1
+                ],
+                "tip": "Mệnh đề If không dùng will.",
+                "why": "Loại 1 → **rules**.",
+                "opts": [
+                  "will rule",
+                  "rules",
+                  "would rule"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would you do if the other party ___ to negotiate?",
+                "ans": [
+                  0
+                ],
+                "tip": "would → If + quá khứ.",
+                "why": "Loại 2 → **refused**.",
+                "opts": [
+                  "refused",
+                  "refuses",
+                  "will refuse"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If we had stronger evidence, we ___ the case.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 2.",
+                "why": "Giả định → **would win**.",
+                "opts": [
+                  "will win",
+                  "won",
+                  "would win"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the mediation fails, we ___ (go) to arbitration.",
+                "ans": [
+                  [
+                    "will go",
+                    "'ll go"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **will go**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) you, I would try mediation first.",
+                "ans": [
+                  [
+                    "were",
+                    "was"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **were** (hoặc was)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the claimant ___ (miss) the deadline, the claim will be time-barred.",
+                "ans": [
+                  [
+                    "misses"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → hiện tại đơn: **misses**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The company would save money if it ___ (settle) out of court.",
+                "ans": [
+                  [
+                    "settled"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **settled**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the tribunal ___ (decide) in our favour, the other party will have to pay our legal fees.",
+                "ans": [
+                  [
+                    "decides"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **decides**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Resolving a commercial dispute",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "When a commercial dispute arises, the parties have several options. The first step is usually negotiation. If the parties reach an amicable solution, they save time and money. If negotiation fails, they may try mediation, in which a neutral mediator helps them find a compromise. The mediator cannot force a decision.\n\nIf the contract has an arbitration clause, the dispute will be sent to an arbitral tribunal. Arbitration is often faster and more confidential than litigation, and the award is final. Many companies prefer arbitration for international contracts, because an arbitral award can be enforced in many countries.\n\nIf there is no arbitration clause, a party can sue in court. However, litigation can be slow and expensive. If a company lost the case, it would usually have to pay the winner's legal fees and court costs. For this reason, many lawyers say that a good settlement is better than a long trial.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Negotiation is usually the first step in resolving a dispute.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bước đầu tiên thường là đàm phán."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A mediator can force the parties to accept a decision.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hòa giải viên không thể ép đưa ra quyết định."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Arbitration is often more confidential than litigation.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: trọng tài thường nhanh và bảo mật hơn kiện tụng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Litigation is always faster than arbitration.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2–3: kiện tụng có thể chậm và tốn kém; trọng tài thường nhanh hơn."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens if the parties reach an amicable solution?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: họ tiết kiệm thời gian và tiền bạc.",
+                "opts": [
+                  "They must go to court",
+                  "They save time and money",
+                  "The mediator decides"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Where will the dispute go if the contract has an arbitration clause?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: tranh chấp được chuyển đến hội đồng trọng tài.",
+                "opts": [
+                  "To an arbitral tribunal",
+                  "To a jury",
+                  "To the legislature"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do many companies prefer arbitration for international contracts?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phán quyết trọng tài có thể được thi hành ở nhiều quốc gia.",
+                "opts": [
+                  "It is always free",
+                  "The mediator makes the award",
+                  "An arbitral award can be enforced in many countries"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would a losing company usually have to pay?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bên thua thường phải trả phí luật sư và án phí của bên thắng.",
+                "opts": [
+                  "A dividend",
+                  "Its own mediator",
+                  "The winner's legal fees and court costs"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Intellectual Property & Compliance",
+      "name_vi": "Sở hữu trí tuệ & tuân thủ pháp luật",
+      "icon": "©️",
+      "hue": 95,
+      "words": [
+        {
+          "en": "intellectual property (IP)",
+          "vi": "sở hữu trí tuệ"
+        },
+        {
+          "en": "copyright",
+          "vi": "quyền tác giả"
+        },
+        {
+          "en": "patent",
+          "vi": "bằng sáng chế"
+        },
+        {
+          "en": "trademark",
+          "vi": "nhãn hiệu"
+        },
+        {
+          "en": "trade secret",
+          "vi": "bí mật kinh doanh"
+        },
+        {
+          "en": "infringement",
+          "vi": "sự xâm phạm"
+        },
+        {
+          "en": "license",
+          "vi": "giấy phép; cấp phép"
+        },
+        {
+          "en": "royalty",
+          "vi": "tiền bản quyền"
+        },
+        {
+          "en": "licensor",
+          "vi": "bên cấp phép"
+        },
+        {
+          "en": "licensee",
+          "vi": "bên được cấp phép"
+        },
+        {
+          "en": "fair use",
+          "vi": "sử dụng hợp lý"
+        },
+        {
+          "en": "public domain",
+          "vi": "phạm vi công cộng"
+        },
+        {
+          "en": "compliance",
+          "vi": "sự tuân thủ"
+        },
+        {
+          "en": "anti-corruption",
+          "vi": "chống tham nhũng"
+        },
+        {
+          "en": "bribery",
+          "vi": "hối lộ"
+        },
+        {
+          "en": "money laundering",
+          "vi": "rửa tiền"
+        },
+        {
+          "en": "whistleblower",
+          "vi": "người tố giác"
+        },
+        {
+          "en": "due diligence",
+          "vi": "thẩm định (thận trọng) trước giao dịch"
+        },
+        {
+          "en": "data protection",
+          "vi": "bảo vệ dữ liệu"
+        },
+        {
+          "en": "personal data",
+          "vi": "dữ liệu cá nhân"
+        },
+        {
+          "en": "consent",
+          "vi": "sự đồng ý"
+        },
+        {
+          "en": "competition law",
+          "vi": "luật cạnh tranh"
+        },
+        {
+          "en": "monopoly",
+          "vi": "độc quyền thị trường"
+        },
+        {
+          "en": "cartel",
+          "vi": "các-ten (liên minh thao túng thị trường)"
+        },
+        {
+          "en": "price fixing",
+          "vi": "ấn định giá"
+        },
+        {
+          "en": "consumer protection",
+          "vi": "bảo vệ người tiêu dùng"
+        },
+        {
+          "en": "code of conduct",
+          "vi": "quy tắc ứng xử"
+        },
+        {
+          "en": "conflict of interest",
+          "vi": "xung đột lợi ích"
+        },
+        {
+          "en": "fine",
+          "vi": "tiền phạt"
+        },
+        {
+          "en": "regulator",
+          "vi": "cơ quan quản lý"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ protects an invention for a fixed period, for example 20 years.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**patent** = bằng sáng chế.",
+                "opts": [
+                  "patent",
+                  "copyright",
+                  "trademark"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ protects a brand name or logo.",
+                "ans": [
+                  2
+                ],
+                "tip": "trade + mark.",
+                "why": "**trademark** = nhãn hiệu.",
+                "opts": [
+                  "patent",
+                  "royalty",
+                  "trademark"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The author owns the ___ in the book.",
+                "ans": [
+                  2
+                ],
+                "tip": "copy + right.",
+                "why": "**copyright** = quyền tác giả.",
+                "opts": [
+                  "patent",
+                  "license",
+                  "copyright"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Using a protected work without permission is an ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "to infringe = xâm phạm.",
+                "why": "**infringement** = hành vi xâm phạm.",
+                "opts": [
+                  "royalty",
+                  "license",
+                  "infringement"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The licensee pays a ___ to the licensor for every product sold.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**royalty** = tiền bản quyền.",
+                "opts": [
+                  "royalty",
+                  "fine",
+                  "consent"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a person who reports illegal or unethical activity inside a company.",
+                "ans": [
+                  2
+                ],
+                "tip": "to blow the whistle = thổi còi, tố giác.",
+                "why": "**whistleblower** = người tố giác.",
+                "opts": [
+                  "regulator",
+                  "licensee",
+                  "whistleblower"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Before buying the company, the buyer carried out ___ to check its legal and financial position.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**due diligence** = thẩm định trước giao dịch.",
+                "opts": [
+                  "price fixing",
+                  "fair use",
+                  "due diligence"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Giving money to an official to gain an unfair advantage is ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**bribery** = hối lộ.",
+                "opts": [
+                  "bribery",
+                  "monopoly",
+                  "cartel"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "trade secret",
+                "b": "confidential business information that gives a company an advantage",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "license",
+                "b": "official permission to use something",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "licensor",
+                "b": "the owner who gives permission to use intellectual property",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "licensee",
+                "b": "the person who receives permission to use intellectual property",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "money laundering",
+                "b": "making illegal money appear to come from a legal source",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cartel",
+                "b": "a group of companies that agree to control prices",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "data protection",
+                "b": "rules that protect personal information",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "conflict of interest",
+                "b": "a situation in which personal interests may affect professional decisions",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The company ___ its trademark in 2019.",
+                "ans": [
+                  2
+                ],
+                "tip": "Mốc quá khứ xác định → quá khứ đơn.",
+                "why": "'in 2019' → **registered**.",
+                "opts": [
+                  "has registered",
+                  "has been registering",
+                  "registered"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "We ___ two patents so far this year.",
+                "ans": [
+                  2
+                ],
+                "tip": "so far → hiện tại hoàn thành.",
+                "why": "'so far this year' → **have filed**.",
+                "opts": [
+                  "filed",
+                  "did file",
+                  "have filed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The regulator ___ a fine yesterday.",
+                "ans": [
+                  1
+                ],
+                "tip": "yesterday → quá khứ đơn.",
+                "why": "'yesterday' → **imposed**.",
+                "opts": [
+                  "has imposed",
+                  "imposed",
+                  "imposes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ the firm held the license?",
+                "ans": [
+                  2
+                ],
+                "tip": "How long + has/have + V3.",
+                "why": "Còn kéo dài đến nay → **has**.",
+                "opts": [
+                  "did",
+                  "does",
+                  "has"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "They ___ a compliance audit yet.",
+                "ans": [
+                  1
+                ],
+                "tip": "yet → hiện tại hoàn thành.",
+                "why": "'yet' → **haven't completed**.",
+                "opts": [
+                  "didn't completed",
+                  "haven't completed",
+                  "not completed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The employee ___ the fraud to the manager last week.",
+                "ans": [
+                  0
+                ],
+                "tip": "last week → quá khứ đơn.",
+                "why": "'last week' → **reported**.",
+                "opts": [
+                  "reported",
+                  "has reported",
+                  "reports"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets (past simple or present perfect).",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The court ___ (find) the company guilty of infringement last year.",
+                "ans": [
+                  [
+                    "found"
+                  ]
+                ],
+                "tip": "last year → quá khứ đơn.",
+                "why": "'last year' → **found**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (not / receive) the royalty payment yet.",
+                "ans": [
+                  [
+                    "haven't received",
+                    "have not received"
+                  ]
+                ],
+                "tip": "yet → present perfect.",
+                "why": "'yet' → **haven't received**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The firm ___ (introduce) a new code of conduct in 2021.",
+                "ans": [
+                  [
+                    "introduced"
+                  ]
+                ],
+                "tip": "",
+                "why": "'in 2021' → **introduced**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The regulator ___ (fine) three companies this month.",
+                "ans": [
+                  [
+                    "has fined"
+                  ]
+                ],
+                "tip": "this month (chưa kết thúc).",
+                "why": "'this month' chưa kết thúc → **has fined**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Since 2020, the government ___ (strengthen) data protection rules.",
+                "ans": [
+                  [
+                    "has strengthened"
+                  ]
+                ],
+                "tip": "since → present perfect.",
+                "why": "'Since 2020' → **has strengthened**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · A trademark case",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "In 2021, a small Vietnamese coffee company registered its logo as a trademark. Two years later, a larger company started to sell coffee with a very similar logo. The owner of the small company felt that this was trademark infringement, so he asked a lawyer for advice.\n\nThe lawyer sent a warning letter and then filed a lawsuit. Since then, the court has held two hearings. The large company has argued that the two logos are different, but the judge has already seen enough evidence of confusion. Last month, the court issued an injunction, which ordered the larger company to stop selling the product.\n\nThis case shows why intellectual property matters. Since the case began, many small businesses have registered their trademarks, and several have introduced compliance programmes to avoid problems. A good company always carries out due diligence before it chooses a brand name.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The small company registered its logo as a trademark in 2021.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: năm 2021 công ty nhỏ đăng ký logo làm nhãn hiệu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The larger company started to sell coffee before the small company registered its logo.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: công ty lớn bắt đầu bán **hai năm sau** khi nhãn hiệu được đăng ký."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The court has held two hearings since the case began.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: 'Since then, the court has held two hearings'."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The court refused to issue an injunction.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: tòa đã ban hành lệnh buộc công ty lớn ngừng bán sản phẩm."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the owner do after he found the similar logo?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ông nhờ luật sư tư vấn.",
+                "opts": [
+                  "He sold the company",
+                  "He asked a lawyer for advice",
+                  "He changed his logo"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the large company argue?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: công ty lớn lập luận hai logo khác nhau.",
+                "opts": [
+                  "That it owned a patent",
+                  "That the two logos are different",
+                  "That the small company had infringed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the injunction order?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: lệnh buộc công ty lớn ngừng bán sản phẩm.",
+                "opts": [
+                  "The larger company to stop selling the product",
+                  "The small company to pay royalties",
+                  "Both companies to merge"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What has happened since the case began?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: nhiều doanh nghiệp nhỏ đã đăng ký nhãn hiệu.",
+                "opts": [
+                  "Many small businesses have registered their trademarks",
+                  "The court has closed all coffee companies",
+                  "Trademarks have been abolished"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "legal system",
+      "hệ thống pháp luật"
+    ],
+    [
+      "government",
+      "chính phủ"
+    ],
+    [
+      "legislature",
+      "cơ quan lập pháp"
+    ],
+    [
+      "divide",
+      "chia"
+    ],
+    [
+      "punish",
+      "trừng phạt"
+    ],
+    [
+      "offender",
+      "người phạm tội"
+    ],
+    [
+      "crime",
+      "tội phạm"
+    ],
+    [
+      "private",
+      "tư, riêng"
+    ],
+    [
+      "respond",
+      "phản hồi"
+    ],
+    [
+      "examine",
+      "xem xét"
+    ],
+    [
+      "tradition",
+      "truyền thống"
+    ],
+    [
+      "citizen",
+      "công dân"
+    ],
+    [
+      "decision",
+      "quyết định"
+    ],
+    [
+      "country",
+      "quốc gia"
+    ],
+    [
+      "element",
+      "yếu tố"
+    ],
+    [
+      "exchange",
+      "trao đổi"
+    ],
+    [
+      "intend",
+      "có ý định"
+    ],
+    [
+      "legal relations",
+      "quan hệ pháp lý"
+    ],
+    [
+      "commercial",
+      "thương mại"
+    ],
+    [
+      "document",
+      "văn bản, tài liệu"
+    ],
+    [
+      "payment",
+      "thanh toán"
+    ],
+    [
+      "fail",
+      "không thực hiện được"
+    ],
+    [
+      "order",
+      "ra lệnh"
+    ],
+    [
+      "prevent",
+      "ngăn cản"
+    ],
+    [
+      "flood",
+      "lũ lụt"
+    ],
+    [
+      "war",
+      "chiến tranh"
+    ],
+    [
+      "responsible",
+      "chịu trách nhiệm"
+    ],
+    [
+      "valid",
+      "hợp lệ"
+    ],
+    [
+      "entrepreneur",
+      "doanh nhân khởi nghiệp"
+    ],
+    [
+      "option",
+      "lựa chọn"
+    ],
+    [
+      "personally",
+      "về mặt cá nhân"
+    ],
+    [
+      "debt",
+      "khoản nợ"
+    ],
+    [
+      "invest",
+      "đầu tư"
+    ],
+    [
+      "accounting",
+      "kế toán"
+    ],
+    [
+      "strict",
+      "nghiêm ngặt"
+    ],
+    [
+      "raise",
+      "huy động"
+    ],
+    [
+      "investor",
+      "nhà đầu tư"
+    ],
+    [
+      "vote",
+      "phiếu bầu"
+    ],
+    [
+      "elect",
+      "bầu chọn"
+    ],
+    [
+      "grow",
+      "phát triển"
+    ],
+    [
+      "household business",
+      "hộ kinh doanh"
+    ],
+    [
+      "furniture",
+      "đồ nội thất"
+    ],
+    [
+      "quantity",
+      "số lượng"
+    ],
+    [
+      "price",
+      "giá"
+    ],
+    [
+      "in advance",
+      "trả trước"
+    ],
+    [
+      "bank",
+      "ngân hàng"
+    ],
+    [
+      "mistake",
+      "sai sót"
+    ],
+    [
+      "delay",
+      "trì hoãn"
+    ],
+    [
+      "ship",
+      "vận chuyển hàng"
+    ],
+    [
+      "apply",
+      "áp dụng"
+    ],
+    [
+      "reduce",
+      "giảm"
+    ],
+    [
+      "carefully",
+      "cẩn thận"
+    ],
+    [
+      "present",
+      "xuất trình"
+    ],
+    [
+      "full",
+      "đầy đủ"
+    ],
+    [
+      "recommend",
+      "khuyên, đề xuất"
+    ],
+    [
+      "neutral",
+      "trung lập"
+    ],
+    [
+      "compromise",
+      "sự thỏa hiệp"
+    ],
+    [
+      "force",
+      "ép buộc"
+    ],
+    [
+      "final",
+      "chung thẩm, cuối cùng"
+    ],
+    [
+      "prefer",
+      "thích hơn, ưu tiên"
+    ],
+    [
+      "slow",
+      "chậm"
+    ],
+    [
+      "winner",
+      "bên thắng"
+    ],
+    [
+      "solution",
+      "giải pháp"
+    ],
+    [
+      "save",
+      "tiết kiệm"
+    ],
+    [
+      "step",
+      "bước"
+    ],
+    [
+      "confidential",
+      "bảo mật"
+    ],
+    [
+      "arise",
+      "phát sinh"
+    ],
+    [
+      "logo",
+      "biểu tượng (logo)"
+    ],
+    [
+      "brand name",
+      "tên thương hiệu"
+    ],
+    [
+      "similar",
+      "tương tự"
+    ],
+    [
+      "warning letter",
+      "thư cảnh cáo"
+    ],
+    [
+      "confusion",
+      "sự nhầm lẫn"
+    ],
+    [
+      "argue",
+      "lập luận"
+    ],
+    [
+      "issue",
+      "ban hành, đưa ra"
+    ],
+    [
+      "product",
+      "sản phẩm"
+    ],
+    [
+      "programme",
+      "chương trình"
+    ],
+    [
+      "avoid",
+      "tránh"
+    ],
+    [
+      "advice",
+      "lời khuyên"
+    ],
+    [
+      "introduce",
+      "áp dụng, đưa vào"
+    ]
+  ]
+}

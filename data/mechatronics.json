@@ -1,0 +1,4294 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "mechatronics",
+  "name": "Mechatronics Engineering",
+  "name_vi": "Kỹ thuật Cơ điện tử",
+  "icon": "🤖",
+  "hue": 210,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành cơ điện tử: nền tảng mechatronics, cảm biến & cơ cấu chấp hành, mạch điện – điện tử, hệ thống điều khiển & PLC, robot & tự động hóa, bảo trì – an toàn – xử lý sự cố."
+ },
+ "units": [
+  {
+   "name": "Mechatronics Fundamentals",
+   "name_vi": "Nền tảng cơ điện tử",
+   "icon": "⚙️",
+   "hue": 210,
+   "words": [
+    {
+     "en": "mechatronics",
+     "vi": "cơ điện tử"
+    },
+    {
+     "en": "mechanical system",
+     "vi": "hệ thống cơ khí"
+    },
+    {
+     "en": "hardware",
+     "vi": "phần cứng"
+    },
+    {
+     "en": "software",
+     "vi": "phần mềm"
+    },
+    {
+     "en": "firmware",
+     "vi": "phần sụn (chương trình nhúng cố định trong thiết bị)"
+    },
+    {
+     "en": "embedded system",
+     "vi": "hệ thống nhúng"
+    },
+    {
+     "en": "microcontroller",
+     "vi": "vi điều khiển"
+    },
+    {
+     "en": "sensor",
+     "vi": "cảm biến"
+    },
+    {
+     "en": "actuator",
+     "vi": "cơ cấu chấp hành"
+    },
+    {
+     "en": "controller",
+     "vi": "bộ điều khiển"
+    },
+    {
+     "en": "input",
+     "vi": "đầu vào"
+    },
+    {
+     "en": "output",
+     "vi": "đầu ra"
+    },
+    {
+     "en": "feedback",
+     "vi": "phản hồi, hồi tiếp"
+    },
+    {
+     "en": "signal",
+     "vi": "tín hiệu"
+    },
+    {
+     "en": "circuit",
+     "vi": "mạch điện"
+    },
+    {
+     "en": "motor",
+     "vi": "động cơ"
+    },
+    {
+     "en": "gear",
+     "vi": "bánh răng"
+    },
+    {
+     "en": "mechanism",
+     "vi": "cơ cấu"
+    },
+    {
+     "en": "component",
+     "vi": "linh kiện, thành phần"
+    },
+    {
+     "en": "integration",
+     "vi": "sự tích hợp"
+    },
+    {
+     "en": "interdisciplinary",
+     "vi": "liên ngành"
+    },
+    {
+     "en": "automation",
+     "vi": "tự động hóa"
+    },
+    {
+     "en": "prototype",
+     "vi": "mẫu thử, nguyên mẫu"
+    },
+    {
+     "en": "simulation",
+     "vi": "mô phỏng"
+    },
+    {
+     "en": "specification",
+     "vi": "thông số kỹ thuật"
+    },
+    {
+     "en": "precision",
+     "vi": "độ chính xác, độ tinh xảo"
+    },
+    {
+     "en": "efficiency",
+     "vi": "hiệu suất"
+    },
+    {
+     "en": "reliability",
+     "vi": "độ tin cậy"
+    },
+    {
+     "en": "module",
+     "vi": "mô-đun"
+    },
+    {
+     "en": "design",
+     "vi": "thiết kế"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mechatronics is an ___ field that combines mechanical, electrical and software engineering.",
+        "ans": [
+         0
+        ],
+        "tip": "inter = giữa; discipline = ngành học.",
+        "why": "**interdisciplinary** = liên ngành, kết hợp nhiều lĩnh vực kỹ thuật.",
+        "opts": [
+         "interdisciplinary",
+         "embedded",
+         "precision"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a small computer on a single chip that controls a machine.",
+        "ans": [
+         1
+        ],
+        "tip": "micro = nhỏ + controller = bộ điều khiển.",
+        "why": "**microcontroller** = vi điều khiển, 'bộ não' nhỏ của nhiều thiết bị.",
+        "opts": [
+         "actuator",
+         "microcontroller",
+         "gear"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ turns an electrical command into movement, for example in a robot arm.",
+        "ans": [
+         2
+        ],
+        "tip": "act = hành động → cơ cấu tạo ra chuyển động.",
+        "why": "**actuator** = cơ cấu chấp hành, biến lệnh điều khiển thành chuyển động.",
+        "opts": [
+         "signal",
+         "specification",
+         "actuator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The engineer built a ___ to test the idea before mass production.",
+        "ans": [
+         2
+        ],
+        "tip": "proto = đầu tiên → mẫu đầu tiên.",
+        "why": "**prototype** = mẫu thử, được làm trước khi sản xuất hàng loạt.",
+        "opts": [
+         "feedback",
+         "firmware",
+         "prototype"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The thermostat uses ___ from a temperature sensor to adjust the heater.",
+        "ans": [
+         0
+        ],
+        "tip": "feed (đưa) + back (ngược lại).",
+        "why": "**feedback** = tín hiệu phản hồi từ đầu ra quay lại bộ điều khiển.",
+        "opts": [
+         "feedback",
+         "gear",
+         "module"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before building the robot, the team ran a computer ___ to check the design.",
+        "ans": [
+         1
+        ],
+        "tip": "simulate = giả lập.",
+        "why": "**simulation** = mô phỏng, kiểm tra thiết kế trên máy tính.",
+        "opts": [
+         "circuit",
+         "simulation",
+         "reliability"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the program stored permanently inside a device to control its basic functions.",
+        "ans": [
+         0
+        ],
+        "tip": "firm = cố định + ware (như software).",
+        "why": "**firmware** = phần sụn, chương trình nhúng cố định trong thiết bị.",
+        "opts": [
+         "firmware",
+         "hardware",
+         "input"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the machine is very high: it positions parts with an error of less than 0.01 mm.",
+        "ans": [
+         1
+        ],
+        "tip": "precise = chính xác, sai số nhỏ.",
+        "why": "**precision** = độ chính xác khi định vị, sai số rất nhỏ.",
+        "opts": [
+         "efficiency",
+         "precision",
+         "integration"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "gear",
+        "b": "a toothed wheel that transmits motion and torque",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "embedded system",
+        "b": "a computer system built into a larger device to do a specific task",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "input",
+        "b": "information or a signal that goes into a system",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "output",
+        "b": "the result or signal that a system produces",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "component",
+        "b": "one part of a larger machine or circuit",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "integration",
+        "b": "combining separate parts so that they work together as one system",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "reliability",
+        "b": "the ability of a system to work correctly for a long time without failure",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "automation",
+        "b": "using machines and control systems to do tasks with little human help",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: định nghĩa/thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A sensor ___ physical changes and sends a signal to the controller.",
+        "ans": [
+         2
+        ],
+        "tip": "Định nghĩa, chức năng → V(s/es).",
+        "why": "Mô tả chức năng chung → **hiện tại đơn**; chủ ngữ số ít nên thêm -s: detects.",
+        "opts": [
+         "is detecting",
+         "detect",
+         "detects"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, the engineer ___ the new prototype on the test bench.",
+        "ans": [
+         2
+        ],
+        "tip": "now / at the moment → be + V-ing.",
+        "why": "'Right now' = đang xảy ra → **hiện tại tiếp diễn**: is testing.",
+        "opts": [
+         "tests",
+         "test",
+         "is testing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A stepper motor ___ in small, equal steps.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đặc tính cố hữu của động cơ → **hiện tại đơn**; chủ ngữ số ít: moves.",
+        "opts": [
+         "is moving",
+         "moves",
+         "move"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Listen! The gearbox ___ a strange noise.",
+        "ans": [
+         0
+        ],
+        "tip": "Listen! / Look! → hành động đang diễn ra.",
+        "why": "'Listen!' báo hiệu việc đang xảy ra → **is making**.",
+        "opts": [
+         "is making",
+         "makes",
+         "make"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ a new control algorithm this week, so the line is running slowly.",
+        "ans": [
+         2
+        ],
+        "tip": "this week = tạm thời, đang diễn ra.",
+        "why": "'this week' + công việc tạm thời, chưa xong → **are developing**.",
+        "opts": [
+         "develop",
+         "develops",
+         "are developing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Mechatronics engineers usually ___ with both software and hardware.",
+        "ans": [
+         1
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' = thói quen/nghề nghiệp → hiện tại đơn; chủ ngữ số nhiều: **work**.",
+        "opts": [
+         "works",
+         "work",
+         "are working"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The controller ___ (receive) data from the sensors every millisecond.",
+        "ans": [
+         [
+          "receives"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "'every millisecond' → hiện tại đơn, chủ ngữ số ít: **receives**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the robot arm ___ (move) towards the conveyor.",
+        "ans": [
+         [
+          "is moving",
+          "'s moving"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **is moving**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The PLC ___ (not / work) when the power supply is off.",
+        "ans": [
+         [
+          "does not work",
+          "doesn't work"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số ít: **does not work**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Engineers ___ (use) CAD software to design mechanical parts.",
+        "ans": [
+         [
+          "use"
+         ]
+        ],
+        "tip": "",
+        "why": "Sự thật chung, chủ ngữ số nhiều → **use**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Look! The LED ___ (flash) on the control panel.",
+        "ans": [
+         [
+          "is flashing",
+          "'s flashing"
+         ]
+        ],
+        "tip": "",
+        "why": "'Look!' → hành động đang xảy ra: **is flashing**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · What is mechatronics?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Look at a modern washing machine, a car or a factory robot. Each one is a mechatronic system. Mechatronics is an interdisciplinary field that combines mechanical engineering, electronics, control and software.\n\nA typical mechatronic system has four main parts. Sensors measure what is happening, for example speed, position or temperature. A controller, often a microcontroller, reads the sensor signals and decides what to do. Then actuators such as motors move the mechanism. Finally, feedback tells the controller whether the action was correct, so the system can correct small errors.\n\nMechatronic products are usually more precise and reliable than purely mechanical ones. Engineers also use computer simulation to test the design before they build a prototype. This saves time and money. Today, many engineers are working on smart devices that connect to the internet.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Mechatronics combines only mechanical engineering and electronics.",
+        "ans": [
+         1
+        ],
+        "tip": "only ≠ bài đọc.",
+        "why": "Đoạn 1: mechatronics kết hợp cơ khí, điện tử, **điều khiển và phần mềm**, không chỉ hai lĩnh vực."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A microcontroller can read sensor signals and decide what to do.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: controller (thường là microcontroller) đọc tín hiệu cảm biến và quyết định hành động."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Feedback tells the controller whether the action was correct.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: feedback cho bộ điều khiển biết hành động đúng hay chưa để sửa sai số nhỏ."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Engineers build a prototype before they use computer simulation.",
+        "ans": [
+         1
+        ],
+        "tip": "before / after dễ nhầm.",
+        "why": "Đoạn 3: kỹ sư mô phỏng trên máy tính **trước**, rồi mới chế tạo prototype."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do actuators do?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: actuator như động cơ làm cơ cấu chuyển động.",
+        "opts": [
+         "They move the mechanism",
+         "They measure the temperature",
+         "They decide what to do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which part measures speed, position or temperature?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sensors đo tốc độ, vị trí, nhiệt độ.",
+        "opts": [
+         "The sensors",
+         "The controller",
+         "The actuators"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "According to the text, mechatronic products are usually ___ than purely mechanical ones.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sản phẩm cơ điện tử thường chính xác và đáng tin cậy hơn sản phẩm thuần cơ khí.",
+        "opts": [
+         "cheaper and heavier",
+         "slower and simpler",
+         "more precise and reliable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do engineers use computer simulation?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: mô phỏng giúp kiểm tra thiết kế trước, tiết kiệm thời gian và tiền bạc.",
+        "opts": [
+         "To replace the controller",
+         "To test the design and save time and money",
+         "To make the prototype heavier"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sensors & Actuators",
+   "name_vi": "Cảm biến & cơ cấu chấp hành",
+   "icon": "📡",
+   "hue": 175,
+   "words": [
+    {
+     "en": "proximity sensor",
+     "vi": "cảm biến tiệm cận"
+    },
+    {
+     "en": "photoelectric sensor",
+     "vi": "cảm biến quang điện"
+    },
+    {
+     "en": "ultrasonic sensor",
+     "vi": "cảm biến siêu âm"
+    },
+    {
+     "en": "limit switch",
+     "vi": "công tắc hành trình"
+    },
+    {
+     "en": "encoder",
+     "vi": "bộ mã hóa (đo vị trí/góc quay)"
+    },
+    {
+     "en": "accelerometer",
+     "vi": "gia tốc kế"
+    },
+    {
+     "en": "gyroscope",
+     "vi": "con quay hồi chuyển"
+    },
+    {
+     "en": "potentiometer",
+     "vi": "chiết áp"
+    },
+    {
+     "en": "thermocouple",
+     "vi": "cặp nhiệt điện"
+    },
+    {
+     "en": "strain gauge",
+     "vi": "cảm biến biến dạng"
+    },
+    {
+     "en": "load cell",
+     "vi": "cảm biến lực, cảm biến tải trọng"
+    },
+    {
+     "en": "transducer",
+     "vi": "bộ chuyển đổi (năng lượng/tín hiệu)"
+    },
+    {
+     "en": "resolution",
+     "vi": "độ phân giải"
+    },
+    {
+     "en": "sensitivity",
+     "vi": "độ nhạy"
+    },
+    {
+     "en": "accuracy",
+     "vi": "độ chính xác (so với giá trị thật)"
+    },
+    {
+     "en": "range",
+     "vi": "dải đo, phạm vi"
+    },
+    {
+     "en": "calibration",
+     "vi": "hiệu chuẩn"
+    },
+    {
+     "en": "noise",
+     "vi": "nhiễu"
+    },
+    {
+     "en": "analog signal",
+     "vi": "tín hiệu tương tự"
+    },
+    {
+     "en": "digital signal",
+     "vi": "tín hiệu số"
+    },
+    {
+     "en": "stepper motor",
+     "vi": "động cơ bước"
+    },
+    {
+     "en": "servo motor",
+     "vi": "động cơ servo"
+    },
+    {
+     "en": "DC motor",
+     "vi": "động cơ điện một chiều"
+    },
+    {
+     "en": "solenoid",
+     "vi": "cuộn solenoid (nam châm điện)"
+    },
+    {
+     "en": "relay",
+     "vi": "rơ-le"
+    },
+    {
+     "en": "pneumatic cylinder",
+     "vi": "xi lanh khí nén"
+    },
+    {
+     "en": "hydraulic",
+     "vi": "thuộc thủy lực"
+    },
+    {
+     "en": "torque",
+     "vi": "mô-men xoắn"
+    },
+    {
+     "en": "response time",
+     "vi": "thời gian đáp ứng"
+    },
+    {
+     "en": "convert",
+     "vi": "chuyển đổi"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ can detect a metal object without touching it.",
+        "ans": [
+         2
+        ],
+        "tip": "proximity = sự gần kề.",
+        "why": "**proximity sensor** = cảm biến tiệm cận, phát hiện vật ở gần mà không cần chạm.",
+        "opts": [
+         "load cell",
+         "thermocouple",
+         "proximity sensor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ measures temperature using two different metals joined at one end.",
+        "ans": [
+         0
+        ],
+        "tip": "thermo = nhiệt.",
+        "why": "**thermocouple** = cặp nhiệt điện, hai kim loại khác nhau nối một đầu để đo nhiệt độ.",
+        "opts": [
+         "thermocouple",
+         "solenoid",
+         "encoder"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An optical ___ on the motor shaft tells the controller the exact angle of rotation.",
+        "ans": [
+         1
+        ],
+        "tip": "encode = mã hóa vị trí thành tín hiệu.",
+        "why": "**encoder** = bộ mã hóa, đo góc quay hoặc vị trí của trục.",
+        "opts": [
+         "relay",
+         "encoder",
+         "solenoid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ rotates in fixed steps, so it is ideal for accurate positioning.",
+        "ans": [
+         0
+        ],
+        "tip": "step = bước.",
+        "why": "**stepper motor** = động cơ bước, quay theo từng bước cố định.",
+        "opts": [
+         "stepper motor",
+         "DC motor",
+         "potentiometer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before use, the technician performed a ___ to make sure the sensor reading matched a known standard.",
+        "ans": [
+         1
+        ],
+        "tip": "calibrate = hiệu chuẩn theo chuẩn.",
+        "why": "**calibration** = hiệu chuẩn, so sánh và chỉnh số đo với một chuẩn đã biết.",
+        "opts": [
+         "sensitivity",
+         "calibration",
+         "resolution"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Electrical ___ can distort a weak sensor signal, so engineers use shielded cables.",
+        "ans": [
+         2
+        ],
+        "tip": "noise = tiếng ồn → tín hiệu nhiễu.",
+        "why": "**noise** = nhiễu điện làm méo tín hiệu yếu của cảm biến.",
+        "opts": [
+         "torque",
+         "range",
+         "noise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ of the sensor is 0.1 °C, so it can show very small changes.",
+        "ans": [
+         0
+        ],
+        "tip": "resolution = thay đổi nhỏ nhất đo được.",
+        "why": "**resolution** = độ phân giải, thay đổi nhỏ nhất mà cảm biến phân biệt được.",
+        "opts": [
+         "resolution",
+         "response time",
+         "torque"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ system uses pressurised oil to produce a very large force.",
+        "ans": [
+         1
+        ],
+        "tip": "hydro = nước/chất lỏng.",
+        "why": "**hydraulic** = thủy lực, dùng chất lỏng có áp suất để tạo lực lớn.",
+        "opts": [
+         "digital",
+         "hydraulic",
+         "ultrasonic"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "accelerometer",
+        "b": "a sensor that measures acceleration or vibration",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "gyroscope",
+        "b": "a sensor that measures rotation or angular velocity",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "relay",
+        "b": "an electrically operated switch",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "solenoid",
+        "b": "a coil that creates a magnetic field to move a metal rod",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "torque",
+        "b": "a turning force that makes an object rotate",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transducer",
+        "b": "a device that converts one form of energy or signal into another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "load cell",
+        "b": "a sensor that measures force or weight",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sensitivity",
+        "b": "how strongly a sensor's output changes when the measured value changes",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Mệnh đề quan hệ (who, which, that, whose, where)",
+     "instruction": "Choose the correct relative pronoun.",
+     "instruction_vi": "Ngữ pháp: who (người), which/that (vật), whose (sở hữu), where (nơi chốn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A thermistor is a sensor ___ resistance changes with temperature.",
+        "ans": [
+         2
+        ],
+        "tip": "whose + danh từ = của (người/vật).",
+        "why": "'whose resistance' = điện trở **của** cảm biến → dùng **whose**.",
+        "opts": [
+         "which",
+         "who",
+         "whose"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An encoder is a device ___ measures the angle of a shaft.",
+        "ans": [
+         0
+        ],
+        "tip": "vật → that / which.",
+        "why": "Chỉ vật, làm chủ ngữ của mệnh đề → **that** (hoặc which).",
+        "opts": [
+         "that",
+         "who",
+         "whose"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The engineer ___ designed the control system is presenting it today.",
+        "ans": [
+         1
+        ],
+        "tip": "người → who.",
+        "why": "Chỉ người làm chủ ngữ → **who**.",
+        "opts": [
+         "which",
+         "who",
+         "whose"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is the laboratory ___ we calibrate all the sensors.",
+        "ans": [
+         2
+        ],
+        "tip": "where = nơi chốn.",
+        "why": "Chỉ nơi chốn → **where** (= in which).",
+        "opts": [
+         "who",
+         "whose",
+         "where"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The servo motor, ___ is mounted on the arm, needs a new cable.",
+        "ans": [
+         2
+        ],
+        "tip": "Sau dấu phẩy không dùng that.",
+        "why": "Mệnh đề không xác định (có dấu phẩy), chỉ vật → **which**, không dùng that.",
+        "opts": [
+         "that",
+         "who",
+         "which"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Sensors ___ operate in harsh environments must be waterproof.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Chỉ vật, mệnh đề xác định → **that** (hoặc which).",
+        "opts": [
+         "who",
+         "that",
+         "whose"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with who, which, that, whose or where.",
+     "instruction_vi": "Điền đại từ quan hệ phù hợp.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A servo motor is a motor ___ position can be controlled very precisely.",
+        "ans": [
+         [
+          "whose"
+         ]
+        ],
+        "tip": "whose + danh từ.",
+        "why": "'whose position' = vị trí **của** động cơ → **whose**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The technician ___ repaired the encoder works in our lab.",
+        "ans": [
+         [
+          "who",
+          "that"
+         ]
+        ],
+        "tip": "",
+        "why": "Chỉ người làm chủ ngữ → **who** (that cũng được trong văn nói)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The test bench is the place ___ engineers check each prototype.",
+        "ans": [
+         [
+          "where"
+         ]
+        ],
+        "tip": "",
+        "why": "Chỉ nơi chốn → **where**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A relay is a switch ___ is operated by an electric current.",
+        "ans": [
+         [
+          "which",
+          "that"
+         ]
+        ],
+        "tip": "",
+        "why": "Chỉ vật làm chủ ngữ → **which/that**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The sensor, ___ is very sensitive, detects tiny vibrations.",
+        "ans": [
+         [
+          "which"
+         ]
+        ],
+        "tip": "Có dấu phẩy → which.",
+        "why": "Mệnh đề không xác định, chỉ vật → **which**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a robot feels its world",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A robot cannot see or touch the world like a human, so it needs sensors. A proximity sensor detects an object that is close to the robot without touching it. An encoder, which is fixed to a motor shaft, tells the controller how far the shaft has turned. Accelerometers and gyroscopes measure movement and rotation, and a load cell measures the force that a gripper applies to a part.\n\nEvery sensor has important specifications. Resolution shows the smallest change that the sensor can detect, while accuracy shows how close the reading is to the true value. Engineers also check the response time, because a slow sensor can make the system react too late. Electrical noise is another problem, so signals are often filtered, and sensors need regular calibration.\n\nAfter the controller processes the signals, it sends commands to the actuators. Stepper motors, servo motors and pneumatic cylinders are common actuators; they convert electrical or air energy into motion. Together, sensors and actuators let a robot work safely beside people.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A proximity sensor needs to touch the object it detects.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: proximity sensor phát hiện vật ở gần **mà không cần chạm**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An encoder tells the controller how far a motor shaft has turned.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: encoder gắn trên trục động cơ cho biết trục đã quay bao xa."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Accuracy is the smallest change that a sensor can detect.",
+        "ans": [
+         1
+        ],
+        "tip": "resolution ≠ accuracy.",
+        "why": "Đoạn 2: **resolution** là thay đổi nhỏ nhất; accuracy là độ gần với giá trị thật."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A slow sensor can make a system react too late.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cảm biến chậm khiến hệ thống phản ứng quá muộn, nên phải kiểm tra response time."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a load cell measure?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: load cell đo lực mà tay kẹp tác dụng lên chi tiết.",
+        "opts": [
+         "The force that a gripper applies to a part",
+         "The speed of a motor shaft",
+         "The temperature of a gripper"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do engineers check the response time of a sensor?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: response time chậm làm hệ thống phản ứng trễ.",
+        "opts": [
+         "A slow sensor can make the system react too late",
+         "It increases the resolution",
+         "It removes electrical noise"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which is mentioned as a way to deal with electrical noise?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tín hiệu thường được lọc (filtered) để giảm nhiễu.",
+        "opts": [
+         "Removing the controller",
+         "Filtering the signals",
+         "Using larger motors"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do actuators do after the controller sends commands?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: actuator như động cơ bước, servo, xi lanh khí nén biến năng lượng điện hoặc khí nén thành chuyển động.",
+        "opts": [
+         "They measure the true value",
+         "They filter the noise",
+         "They convert energy into motion"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Electrical & Electronic Circuits",
+   "name_vi": "Mạch điện & điện tử",
+   "icon": "🔌",
+   "hue": 45,
+   "words": [
+    {
+     "en": "voltage",
+     "vi": "điện áp"
+    },
+    {
+     "en": "current",
+     "vi": "dòng điện"
+    },
+    {
+     "en": "resistance",
+     "vi": "điện trở (đại lượng), sự cản trở"
+    },
+    {
+     "en": "resistor",
+     "vi": "điện trở (linh kiện)"
+    },
+    {
+     "en": "capacitor",
+     "vi": "tụ điện"
+    },
+    {
+     "en": "inductor",
+     "vi": "cuộn cảm"
+    },
+    {
+     "en": "diode",
+     "vi": "đi-ốt"
+    },
+    {
+     "en": "transistor",
+     "vi": "tran-zi-to"
+    },
+    {
+     "en": "LED (light-emitting diode)",
+     "vi": "đi-ốt phát quang"
+    },
+    {
+     "en": "integrated circuit (IC)",
+     "vi": "mạch tích hợp"
+    },
+    {
+     "en": "printed circuit board (PCB)",
+     "vi": "bảng mạch in"
+    },
+    {
+     "en": "power supply",
+     "vi": "nguồn điện"
+    },
+    {
+     "en": "battery",
+     "vi": "pin, ắc quy"
+    },
+    {
+     "en": "switch",
+     "vi": "công tắc"
+    },
+    {
+     "en": "breadboard",
+     "vi": "bảng cắm thử mạch"
+    },
+    {
+     "en": "ground (GND)",
+     "vi": "nối đất, điểm đất (0 V)"
+    },
+    {
+     "en": "series circuit",
+     "vi": "mạch nối tiếp"
+    },
+    {
+     "en": "parallel circuit",
+     "vi": "mạch song song"
+    },
+    {
+     "en": "short circuit",
+     "vi": "ngắn mạch"
+    },
+    {
+     "en": "open circuit",
+     "vi": "hở mạch"
+    },
+    {
+     "en": "amplifier",
+     "vi": "bộ khuếch đại"
+    },
+    {
+     "en": "oscillator",
+     "vi": "bộ dao động"
+    },
+    {
+     "en": "frequency",
+     "vi": "tần số"
+    },
+    {
+     "en": "alternating current (AC)",
+     "vi": "dòng điện xoay chiều"
+    },
+    {
+     "en": "direct current (DC)",
+     "vi": "dòng điện một chiều"
+    },
+    {
+     "en": "solder",
+     "vi": "hàn (bằng thiếc hàn)"
+    },
+    {
+     "en": "multimeter",
+     "vi": "đồng hồ vạn năng"
+    },
+    {
+     "en": "oscilloscope",
+     "vi": "máy hiện sóng"
+    },
+    {
+     "en": "fuse",
+     "vi": "cầu chì"
+    },
+    {
+     "en": "load",
+     "vi": "tải (thiết bị tiêu thụ điện)"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is the electrical pressure that pushes current through a circuit. It is measured in volts.",
+        "ans": [
+         1
+        ],
+        "tip": "volt → voltage.",
+        "why": "**Voltage** = điện áp, 'lực đẩy' dòng điện, đo bằng vôn.",
+        "opts": [
+         "Frequency",
+         "Voltage",
+         "Resistance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ stores electrical charge and can release it quickly.",
+        "ans": [
+         2
+        ],
+        "tip": "capacity = sức chứa.",
+        "why": "**capacitor** = tụ điện, lưu trữ điện tích.",
+        "opts": [
+         "resistor",
+         "diode",
+         "capacitor"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ allows current to flow in only one direction.",
+        "ans": [
+         0
+        ],
+        "tip": "di = hai + ode = điện cực.",
+        "why": "**diode** = đi-ốt, chỉ cho dòng điện chạy một chiều.",
+        "opts": [
+         "diode",
+         "inductor",
+         "oscillator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Use a ___ to measure voltage, current and resistance.",
+        "ans": [
+         1
+        ],
+        "tip": "multi = nhiều + meter = máy đo.",
+        "why": "**multimeter** = đồng hồ vạn năng, đo nhiều đại lượng điện.",
+        "opts": [
+         "load",
+         "multimeter",
+         "fuse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ blew to protect the circuit when the current became too high.",
+        "ans": [
+         2
+        ],
+        "tip": "fuse = cầu chì (chảy khi quá dòng).",
+        "why": "**fuse** = cầu chì, đứt khi dòng quá lớn để bảo vệ mạch.",
+        "opts": [
+         "ground",
+         "diode",
+         "fuse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ happens when current takes an unintended low-resistance path, which can cause overheating.",
+        "ans": [
+         0
+        ],
+        "tip": "short = đường tắt.",
+        "why": "**short circuit** = ngắn mạch, dòng điện đi theo đường tắt có điện trở rất nhỏ.",
+        "opts": [
+         "short circuit",
+         "open circuit",
+         "oscillator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a ___ circuit, the same current flows through every component.",
+        "ans": [
+         2
+        ],
+        "tip": "series = chuỗi, nối tiếp.",
+        "why": "**series circuit** = mạch nối tiếp: mọi linh kiện cùng chung một dòng điện.",
+        "opts": [
+         "parallel",
+         "digital",
+         "series"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The technician used a soldering iron to ___ the resistor onto the PCB.",
+        "ans": [
+         0
+        ],
+        "tip": "solder = hàn thiếc.",
+        "why": "**solder** = hàn linh kiện lên bảng mạch.",
+        "opts": [
+         "solder",
+         "amplify",
+         "oscillate"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "resistor",
+        "b": "a component that limits the flow of current",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transistor",
+        "b": "a semiconductor device used to switch or amplify signals",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "inductor",
+        "b": "a component that stores energy in a magnetic field",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "oscilloscope",
+        "b": "an instrument that displays an electrical signal as a waveform",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "amplifier",
+        "b": "a device that increases the strength of a signal",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "frequency",
+        "b": "the number of cycles per second, measured in hertz",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "open circuit",
+        "b": "a circuit with a break, so no current can flow",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ground (GND)",
+        "b": "the common reference point of zero volts in a circuit",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: -er/more … than, the -est/the most …, as … as, the + so sánh hơn … the + so sánh hơn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Copper has ___ resistance than steel, so it is better for wires.",
+        "ans": [
+         1
+        ],
+        "tip": "than → so sánh hơn.",
+        "why": "Có 'than' → **so sánh hơn**: lower.",
+        "opts": [
+         "low",
+         "lower",
+         "lowest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A parallel circuit is ___ reliable than a series circuit because one broken component does not stop the others.",
+        "ans": [
+         2
+        ],
+        "tip": "Tính từ dài → more + adj.",
+        "why": "'reliable' là tính từ dài → **more reliable than**.",
+        "opts": [
+         "most",
+         "much",
+         "more"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Silver is the ___ conductor of all metals.",
+        "ans": [
+         1
+        ],
+        "tip": "the + so sánh nhất.",
+        "why": "'the … of all' → **so sánh nhất**: the best (good → better → best).",
+        "opts": [
+         "better",
+         "best",
+         "good"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This oscilloscope is as ___ as the one in the lab, but it is cheaper.",
+        "ans": [
+         0
+        ],
+        "tip": "as + adj + as.",
+        "why": "So sánh bằng: as + tính từ nguyên mẫu + as → **as accurate as**.",
+        "opts": [
+         "accurate",
+         "more accurate",
+         "accurately"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The higher the frequency, the ___ the wavelength.",
+        "ans": [
+         0
+        ],
+        "tip": "The + so sánh hơn, the + so sánh hơn.",
+        "why": "Cấu trúc 'càng … càng …' → the + so sánh hơn: **the shorter**.",
+        "opts": [
+         "shorter",
+         "short",
+         "shortest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which is the ___ component on the board: the capacitor, the IC or the resistor?",
+        "ans": [
+         1
+        ],
+        "tip": "Tính từ dài → the most + adj.",
+        "why": "So sánh nhất của tính từ dài: **the most expensive**.",
+        "opts": [
+         "more expensive",
+         "most expensive",
+         "expensivest"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the comparative or superlative form of the adjective in brackets.",
+     "instruction_vi": "Gõ dạng so sánh hơn hoặc so sánh nhất của tính từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Surface-mount components are ___ (small) than through-hole components.",
+        "ans": [
+         [
+          "smaller"
+         ]
+        ],
+        "tip": "Tính từ ngắn + -er.",
+        "why": "Có 'than' → **smaller**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A transistor switches ___ (fast) than a mechanical relay.",
+        "ans": [
+         [
+          "faster"
+         ]
+        ],
+        "tip": "",
+        "why": "Có 'than' → **faster**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is ___ (good) multimeter in our workshop.",
+        "ans": [
+         [
+          "the best"
+         ]
+        ],
+        "tip": "good → better → best.",
+        "why": "So sánh nhất của good → **the best**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A switching power supply is ___ (efficient) than a linear one.",
+        "ans": [
+         [
+          "more efficient"
+         ]
+        ],
+        "tip": "Tính từ dài → more + adj.",
+        "why": "'efficient' là tính từ dài → **more efficient**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Of all the sensors on the robot, the encoder is ___ (important) for positioning.",
+        "ans": [
+         [
+          "the most important"
+         ]
+        ],
+        "tip": "",
+        "why": "'Of all' → so sánh nhất: **the most important**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Inside a printed circuit board",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Open any electronic device and you will find a printed circuit board, or PCB. It is a thin board that holds components and connects them with copper tracks. Common components include resistors, capacitors, diodes, transistors and integrated circuits.\n\nA power supply sends current through the circuit. The voltage pushes the current, and each component changes the flow in a different way. A resistor reduces the current, a capacitor stores charge, and a transistor works as a switch or an amplifier. Engineers can connect components in series or in parallel. A parallel circuit is usually more reliable, because the other branches continue to work if one branch breaks.\n\nTechnicians use a multimeter to measure voltage and current, and an oscilloscope to see a signal over time. A fuse protects the circuit from a short circuit by breaking the connection when the current becomes too high. Finally, the components are soldered to the board, and the finished PCB is tested before it is installed.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A PCB connects components with copper tracks.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: PCB giữ các linh kiện và nối chúng bằng đường đồng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A capacitor reduces the current in a circuit.",
+        "ans": [
+         1
+        ],
+        "tip": "resistor reduces; capacitor stores.",
+        "why": "Đoạn 2: **resistor** làm giảm dòng điện; capacitor chỉ lưu điện tích."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In a parallel circuit, the other branches stop if one branch breaks.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ở mạch song song, các nhánh còn lại **vẫn hoạt động** khi một nhánh hỏng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An oscilloscope shows a signal over time.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: oscilloscope dùng để xem tín hiệu theo thời gian."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can a transistor do in a circuit?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: transistor hoạt động như công tắc hoặc bộ khuếch đại.",
+        "opts": [
+         "Store charge",
+         "Measure voltage and current",
+         "Work as a switch or an amplifier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is a parallel circuit usually more reliable?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: nếu một nhánh hỏng, các nhánh khác vẫn tiếp tục hoạt động.",
+        "opts": [
+         "It uses a bigger fuse",
+         "The other branches keep working if one branch breaks",
+         "It has no resistors"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a fuse do when the current becomes too high?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cầu chì ngắt kết nối khi dòng quá cao để bảo vệ mạch khỏi ngắn mạch.",
+        "opts": [
+         "It stores the extra charge",
+         "It increases the voltage",
+         "It breaks the connection"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens at the end of the process?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sau khi hàn linh kiện, bảng mạch hoàn chỉnh được kiểm tra trước khi lắp đặt.",
+        "opts": [
+         "The finished PCB is tested before it is installed",
+         "The copper tracks are removed",
+         "The power supply is replaced"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Control Systems & PLC",
+   "name_vi": "Hệ thống điều khiển & PLC",
+   "icon": "🎛️",
+   "hue": 280,
+   "words": [
+    {
+     "en": "control system",
+     "vi": "hệ thống điều khiển"
+    },
+    {
+     "en": "open-loop control",
+     "vi": "điều khiển vòng hở"
+    },
+    {
+     "en": "closed-loop control",
+     "vi": "điều khiển vòng kín"
+    },
+    {
+     "en": "setpoint",
+     "vi": "giá trị đặt (mục tiêu)"
+    },
+    {
+     "en": "error",
+     "vi": "sai lệch, sai số"
+    },
+    {
+     "en": "PID controller",
+     "vi": "bộ điều khiển PID"
+    },
+    {
+     "en": "proportional",
+     "vi": "tỉ lệ"
+    },
+    {
+     "en": "integral",
+     "vi": "tích phân"
+    },
+    {
+     "en": "derivative",
+     "vi": "vi phân"
+    },
+    {
+     "en": "gain",
+     "vi": "hệ số khuếch đại"
+    },
+    {
+     "en": "stability",
+     "vi": "tính ổn định"
+    },
+    {
+     "en": "overshoot",
+     "vi": "độ vọt lố"
+    },
+    {
+     "en": "steady state",
+     "vi": "trạng thái xác lập"
+    },
+    {
+     "en": "transient response",
+     "vi": "đáp ứng quá độ"
+    },
+    {
+     "en": "disturbance",
+     "vi": "nhiễu loạn (tác động bên ngoài)"
+    },
+    {
+     "en": "programmable logic controller (PLC)",
+     "vi": "bộ điều khiển logic khả trình"
+    },
+    {
+     "en": "ladder diagram",
+     "vi": "sơ đồ thang (ngôn ngữ lập trình PLC)"
+    },
+    {
+     "en": "rung",
+     "vi": "nấc thang (một dòng lệnh trong sơ đồ thang)"
+    },
+    {
+     "en": "timer",
+     "vi": "bộ định thời"
+    },
+    {
+     "en": "counter",
+     "vi": "bộ đếm"
+    },
+    {
+     "en": "interlock",
+     "vi": "khóa liên động"
+    },
+    {
+     "en": "HMI (human–machine interface)",
+     "vi": "giao diện người–máy"
+    },
+    {
+     "en": "SCADA",
+     "vi": "hệ thống giám sát và thu thập dữ liệu"
+    },
+    {
+     "en": "I/O module",
+     "vi": "mô-đun vào/ra"
+    },
+    {
+     "en": "scan cycle",
+     "vi": "chu kỳ quét (của PLC)"
+    },
+    {
+     "en": "fieldbus",
+     "vi": "bus trường (mạng truyền thông công nghiệp)"
+    },
+    {
+     "en": "sampling rate",
+     "vi": "tần số lấy mẫu"
+    },
+    {
+     "en": "threshold",
+     "vi": "ngưỡng"
+    },
+    {
+     "en": "trigger",
+     "vi": "kích hoạt"
+    },
+    {
+     "en": "algorithm",
+     "vi": "thuật toán"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In a ___ system, the controller uses feedback from a sensor to correct errors.",
+        "ans": [
+         0
+        ],
+        "tip": "closed loop = vòng kín (có phản hồi).",
+        "why": "**closed-loop** = vòng kín, có phản hồi từ cảm biến để hiệu chỉnh.",
+        "opts": [
+         "closed-loop",
+         "open-loop",
+         "proportional"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the target value that the system should reach, for example 60 °C.",
+        "ans": [
+         1
+        ],
+        "tip": "set + point = điểm được đặt.",
+        "why": "**setpoint** = giá trị đặt, mục tiêu mà hệ thống phải đạt.",
+        "opts": [
+         "threshold",
+         "setpoint",
+         "disturbance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The difference between the setpoint and the measured value is called the ___.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**error** = sai lệch giữa giá trị đặt và giá trị đo.",
+        "opts": [
+         "gain",
+         "timer",
+         "error"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The temperature went above the setpoint before settling down, so we saw a large ___.",
+        "ans": [
+         0
+        ],
+        "tip": "over + shoot = bắn vượt quá.",
+        "why": "**overshoot** = độ vọt lố, đầu ra vượt quá giá trị đặt rồi mới ổn định.",
+        "opts": [
+         "overshoot",
+         "interlock",
+         "fieldbus"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is an industrial computer that runs a control program in a repeating cycle.",
+        "ans": [
+         1
+        ],
+        "tip": "Programmable Logic Controller.",
+        "why": "**PLC** = bộ điều khiển logic khả trình, chạy chương trình theo chu kỳ quét.",
+        "opts": [
+         "HMI",
+         "PLC",
+         "timer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The operator changes the conveyor speed on the touchscreen ___ next to the machine.",
+        "ans": [
+         2
+        ],
+        "tip": "HMI = Human–Machine Interface.",
+        "why": "**HMI** = giao diện người–máy, thường là màn hình cảm ứng.",
+        "opts": [
+         "rung",
+         "algorithm",
+         "HMI"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A safety ___ stops the press from moving when the guard door is open.",
+        "ans": [
+         1
+        ],
+        "tip": "inter + lock = khóa liên động.",
+        "why": "**interlock** = khóa liên động, ngăn máy chạy khi điều kiện an toàn chưa đủ.",
+        "opts": [
+         "counter",
+         "interlock",
+         "gain"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The PLC starts the fan when the temperature crosses a ___ of 40 °C.",
+        "ans": [
+         2
+        ],
+        "tip": "threshold = ngưỡng cửa.",
+        "why": "**threshold** = ngưỡng, vượt qua mức này thì hệ thống có hành động.",
+        "opts": [
+         "stability",
+         "derivative",
+         "threshold"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "disturbance",
+        "b": "an unwanted external effect that moves the output away from the setpoint",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "stability",
+        "b": "the ability of a system to return to a steady state after a change",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ladder diagram",
+        "b": "a graphical PLC programming language that looks like electrical relay logic",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "timer",
+        "b": "a PLC function that waits for a set time before it switches an output",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "counter",
+        "b": "a PLC function that counts events or pulses",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "SCADA",
+        "b": "a system for monitoring and controlling processes from a central computer",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "gain",
+        "b": "the ratio between the output and the input of a controller",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sampling rate",
+        "b": "how many times per second a signal is measured",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 0 và loại 1",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 0 (sự thật/quy tắc): If + hiện tại đơn, hiện tại đơn. Loại 1 (khả năng ở tương lai): If + hiện tại đơn, will + V.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the tank level ___ below 20 %, the PLC switches on the pump.",
+        "ans": [
+         0
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Quy tắc điều khiển luôn đúng → **loại 0**: If + hiện tại đơn (falls), hiện tại đơn (switches).",
+        "opts": [
+         "falls",
+         "will fall",
+         "fell"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the temperature exceeds the limit, the system ___ an alarm.",
+        "ans": [
+         1
+        ],
+        "tip": "Quy tắc luôn đúng → hiện tại đơn.",
+        "why": "Loại 0: mệnh đề chính cũng ở hiện tại đơn → **sounds**.",
+        "opts": [
+         "sounded",
+         "sounds",
+         "would sound"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If you ___ the wrong value, the motor will run too fast.",
+        "ans": [
+         0
+        ],
+        "tip": "Mệnh đề If không dùng will.",
+        "why": "Loại 1: If + hiện tại đơn → **enter**; mệnh đề chính dùng will.",
+        "opts": [
+         "enter",
+         "will enter",
+         "entered"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The conveyor will not start ___ the safety door is closed.",
+        "ans": [
+         2
+        ],
+        "tip": "unless = if … not.",
+        "why": "**unless** = trừ khi (= if … not): không khởi động trừ khi cửa an toàn đóng.",
+        "opts": [
+         "if",
+         "because",
+         "unless"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the gain is too high, the system ___ unstable.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Quy tắc kỹ thuật luôn đúng → loại 0: **becomes**.",
+        "opts": [
+         "became",
+         "becomes",
+         "would become"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we ___ the sampling rate, the controller will react faster.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Loại 1: If + hiện tại đơn → **increase**.",
+        "opts": [
+         "increased",
+         "will increase",
+         "increase"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong câu điều kiện loại 0 và loại 1.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the sensor ___ (detect) a part, the PLC stops the conveyor.",
+        "ans": [
+         [
+          "detects"
+         ]
+        ],
+        "tip": "Loại 0, chủ ngữ số ít.",
+        "why": "Loại 0: If + hiện tại đơn, chủ ngữ số ít → **detects**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the pressure ___ (rise) above 8 bar, the valve will open.",
+        "ans": [
+         [
+          "rises"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn → **rises**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The motor ___ (not / start) unless the interlock is closed.",
+        "ans": [
+         [
+          "will not start",
+          "won't start",
+          "does not start",
+          "doesn't start"
+         ]
+        ],
+        "tip": "",
+        "why": "Mệnh đề chính của 'unless' dùng **will not start** (hoặc hiện tại đơn phủ định)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If you ___ (press) the emergency stop, all the machines will shut down.",
+        "ans": [
+         [
+          "press"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: If + hiện tại đơn, chủ ngữ 'you' → **press**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the operator ___ (not / reset) the counter, the batch size will be wrong.",
+        "ans": [
+         [
+          "does not reset",
+          "doesn't reset"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số ít → **does not reset**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How control systems think",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Every automatic machine needs a control system. In an open-loop system, the controller sends a command and does not check the result. In a closed-loop system, a sensor measures the output and the controller compares it with the setpoint. The difference is the error. If the error is large, the controller changes the output until the error becomes small.\n\nThe most popular algorithm in industry is the PID controller. It combines proportional, integral and derivative actions. If the gain is too high, the system overshoots the setpoint and may become unstable. Engineers therefore tune the controller carefully.\n\nIn factories, a PLC runs the control program in a continuous scan cycle: it reads the inputs, executes the logic and updates the outputs. Programmers often write the logic as a ladder diagram. If a safety interlock is open, the machine will not start. Operators monitor the process on an HMI or a SCADA screen.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An open-loop system checks the result with a sensor.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: hệ thống vòng hở gửi lệnh và **không kiểm tra** kết quả."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The error is the difference between the setpoint and the measured value.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bộ điều khiển so sánh đầu ra với setpoint; sự chênh lệch là error."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "If the gain is too high, the system may become unstable.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: gain quá cao làm hệ thống vọt lố và có thể mất ổn định."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A PLC reads the inputs after it updates the outputs.",
+        "ans": [
+         1
+        ],
+        "tip": "Thứ tự: inputs → logic → outputs.",
+        "why": "Đoạn 3: PLC đọc đầu vào, thực thi logic, rồi mới cập nhật đầu ra."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the controller do in a closed-loop system?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: controller so sánh giá trị đo với setpoint.",
+        "opts": [
+         "It compares the measured output with the setpoint",
+         "It ignores the sensor",
+         "It sends a command and never checks"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which algorithm is described as the most popular in industry?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: PID là thuật toán phổ biến nhất trong công nghiệp.",
+        "opts": [
+         "The PID controller",
+         "The ladder diagram",
+         "The scan cycle"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How do programmers often write PLC logic?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: logic PLC thường được viết dưới dạng ladder diagram.",
+        "opts": [
+         "As a SCADA screen",
+         "As a ladder diagram",
+         "As an HMI message"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens if a safety interlock is open?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu interlock an toàn đang mở, máy sẽ không khởi động.",
+        "opts": [
+         "The machine starts faster",
+         "The gain increases",
+         "The machine will not start"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Robotics & Industrial Automation",
+   "name_vi": "Robot & tự động hóa công nghiệp",
+   "icon": "🦾",
+   "hue": 340,
+   "words": [
+    {
+     "en": "industrial robot",
+     "vi": "robot công nghiệp"
+    },
+    {
+     "en": "robotic arm",
+     "vi": "cánh tay robot"
+    },
+    {
+     "en": "end effector",
+     "vi": "cơ cấu chấp hành cuối (tay gắp, mỏ hàn, súng phun…)"
+    },
+    {
+     "en": "gripper",
+     "vi": "tay kẹp"
+    },
+    {
+     "en": "joint",
+     "vi": "khớp"
+    },
+    {
+     "en": "link",
+     "vi": "khâu, thanh nối"
+    },
+    {
+     "en": "degrees of freedom (DOF)",
+     "vi": "bậc tự do"
+    },
+    {
+     "en": "payload",
+     "vi": "tải trọng (khối lượng robot mang được)"
+    },
+    {
+     "en": "reach",
+     "vi": "tầm với"
+    },
+    {
+     "en": "repeatability",
+     "vi": "độ lặp lại"
+    },
+    {
+     "en": "kinematics",
+     "vi": "động học"
+    },
+    {
+     "en": "trajectory",
+     "vi": "quỹ đạo chuyển động"
+    },
+    {
+     "en": "workspace",
+     "vi": "vùng làm việc"
+    },
+    {
+     "en": "SCARA robot",
+     "vi": "robot SCARA"
+    },
+    {
+     "en": "delta robot",
+     "vi": "robot delta (robot song song)"
+    },
+    {
+     "en": "collaborative robot (cobot)",
+     "vi": "robot cộng tác"
+    },
+    {
+     "en": "AGV (automated guided vehicle)",
+     "vi": "xe tự hành dẫn đường"
+    },
+    {
+     "en": "conveyor",
+     "vi": "băng tải"
+    },
+    {
+     "en": "assembly line",
+     "vi": "dây chuyền lắp ráp"
+    },
+    {
+     "en": "pick and place",
+     "vi": "gắp và đặt"
+    },
+    {
+     "en": "machine vision",
+     "vi": "thị giác máy"
+    },
+    {
+     "en": "CNC machine",
+     "vi": "máy CNC (điều khiển số bằng máy tính)"
+    },
+    {
+     "en": "welding",
+     "vi": "hàn"
+    },
+    {
+     "en": "palletizing",
+     "vi": "xếp hàng lên pallet"
+    },
+    {
+     "en": "cycle time",
+     "vi": "thời gian chu kỳ"
+    },
+    {
+     "en": "throughput",
+     "vi": "năng suất, sản lượng"
+    },
+    {
+     "en": "downtime",
+     "vi": "thời gian ngừng máy"
+    },
+    {
+     "en": "smart factory",
+     "vi": "nhà máy thông minh"
+    },
+    {
+     "en": "Industry 4.0",
+     "vi": "Công nghiệp 4.0"
+    },
+    {
+     "en": "digital twin",
+     "vi": "bản sao số"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The robot's ___ is the maximum weight it can carry safely.",
+        "ans": [
+         2
+        ],
+        "tip": "pay + load = tải trọng hữu ích.",
+        "why": "**payload** = tải trọng, khối lượng tối đa robot mang an toàn.",
+        "opts": [
+         "reach",
+         "throughput",
+         "payload"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A robot with six ___ can place its tool at any position and orientation in 3D space.",
+        "ans": [
+         1
+        ],
+        "tip": "DOF = bậc tự do.",
+        "why": "**degrees of freedom** = bậc tự do; 6 DOF đủ để định vị và định hướng trong không gian 3D.",
+        "opts": [
+         "end effectors",
+         "degrees of freedom",
+         "conveyors"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ at the end of the arm closes to hold the part.",
+        "ans": [
+         0
+        ],
+        "tip": "grip = nắm chặt.",
+        "why": "**gripper** = tay kẹp, nắm giữ chi tiết.",
+        "opts": [
+         "gripper",
+         "conveyor",
+         "trajectory"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Robots are valued for their ___: they return to the same point with an error of ±0.02 mm.",
+        "ans": [
+         1
+        ],
+        "tip": "repeat = lặp lại.",
+        "why": "**repeatability** = độ lặp lại, khả năng quay lại đúng một điểm nhiều lần.",
+        "opts": [
+         "payload",
+         "repeatability",
+         "downtime"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is designed to work safely next to human workers without a safety fence.",
+        "ans": [
+         2
+        ],
+        "tip": "co + bot = collaborative robot.",
+        "why": "**cobot** = robot cộng tác, làm việc an toàn gần người.",
+        "opts": [
+         "SCARA robot",
+         "CNC machine",
+         "cobot"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each cycle takes 8 seconds, so the ___ is 450 parts per hour.",
+        "ans": [
+         0
+        ],
+        "tip": "through + put = lượng đi qua.",
+        "why": "**throughput** = năng suất, số sản phẩm làm ra trong một đơn vị thời gian.",
+        "opts": [
+         "throughput",
+         "downtime",
+         "payload"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A camera and software let the robot find and inspect parts. This is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "vision = thị giác.",
+        "why": "**machine vision** = thị giác máy, dùng camera và phần mềm để nhận dạng, kiểm tra.",
+        "opts": [
+         "palletizing",
+         "machine vision",
+         "welding"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The line stopped for two hours, so the ___ cost the company a lot of money.",
+        "ans": [
+         2
+        ],
+        "tip": "down + time = thời gian máy dừng.",
+        "why": "**downtime** = thời gian ngừng máy, gây tổn thất sản xuất.",
+        "opts": [
+         "reach",
+         "repeatability",
+         "downtime"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "end effector",
+        "b": "the tool attached to the end of a robot arm",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "trajectory",
+        "b": "the path that a robot tool follows through space",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "kinematics",
+        "b": "the study of motion without considering the forces that cause it",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "AGV (automated guided vehicle)",
+        "b": "a vehicle that transports materials along a path without a driver",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "pick and place",
+        "b": "a task in which a robot lifts an item and puts it in a new position",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "workspace",
+        "b": "the area that a robot can reach with its end effector",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "digital twin",
+        "b": "a virtual model of a real machine or process used for monitoring and testing",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "palletizing",
+        "b": "stacking boxes or products on a pallet",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: bị động = be + V3/V-ed. Hiện tại: am/is/are + V3; quá khứ: was/were + V3; tương lai: will be + V3.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The parts ___ to the assembly station by a conveyor.",
+        "ans": [
+         0
+        ],
+        "tip": "Chủ ngữ số nhiều → are + V3.",
+        "why": "Bị động hiện tại, chủ ngữ 'parts' số nhiều → **are carried**.",
+        "opts": [
+         "are carried",
+         "carry",
+         "is carried"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This robot ___ in 2022 and has worked without problems since then.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2022 → quá khứ.",
+        "why": "'in 2022' → bị động quá khứ: **was installed**.",
+        "opts": [
+         "installed",
+         "is installed",
+         "was installed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Car bodies ___ by robots in modern factories.",
+        "ans": [
+         0
+        ],
+        "tip": "Car bodies không tự hàn → bị động.",
+        "why": "Thân xe là đối tượng bị tác động → **bị động**: are welded.",
+        "opts": [
+         "are welded",
+         "weld",
+         "are welding"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Yesterday, the faulty sensor ___ by a technician.",
+        "ans": [
+         1
+        ],
+        "tip": "Yesterday → was/were + V3.",
+        "why": "'Yesterday' + đối tượng bị tác động → **was replaced**.",
+        "opts": [
+         "replaced",
+         "was replaced",
+         "is replaced"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Robot movements ___ with a teach pendant.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Chuyển động robot được lập trình → **are programmed**.",
+        "opts": [
+         "program",
+         "are programming",
+         "are programmed"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The new production line ___ next month.",
+        "ans": [
+         0
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be installed**.",
+        "opts": [
+         "will be installed",
+         "will installed",
+         "installed"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ (hiện tại, quá khứ hoặc tương lai).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The car doors ___ (paint) by a robot arm.",
+        "ans": [
+         [
+          "are painted"
+         ]
+        ],
+        "tip": "Chủ ngữ số nhiều → are + V3.",
+        "why": "Bị động hiện tại, số nhiều: **are painted**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The robot ___ (control) by a PLC.",
+        "ans": [
+         [
+          "is controlled"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị động hiện tại, số ít: **is controlled**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last week, the gripper ___ (replace).",
+        "ans": [
+         [
+          "was replaced"
+         ]
+        ],
+        "tip": "Last week → quá khứ.",
+        "why": "Bị động quá khứ, số ít: **was replaced**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "All safety devices ___ (check) every morning.",
+        "ans": [
+         [
+          "are checked"
+         ]
+        ],
+        "tip": "every morning → hiện tại đơn.",
+        "why": "Thói quen + đối tượng bị tác động → **are checked**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The new cobots ___ (install) next month.",
+        "ans": [
+         [
+          "will be installed"
+         ]
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be installed**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A day in a smart factory",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "In a modern smart factory, robots and machines work together on the assembly line. Car parts are carried by AGVs and conveyors to the robot cells. There, a six-axis robotic arm picks the parts and places them in the correct position. The arm is fitted with a gripper, and a machine vision camera is used to find the part.\n\nRobots are chosen because they are fast and have high repeatability. They can also carry a heavy payload for many hours without getting tired. However, a robot must be programmed carefully. Its trajectory is planned first, and the program is often tested in a digital twin before it is sent to the real robot.\n\nCollaborative robots, or cobots, are becoming popular because they can be installed without a safety fence. Throughput is increased, and downtime is reduced when sensors send data to a central system. This approach is a part of Industry 4.0.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Car parts are moved by AGVs and conveyors.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chi tiết xe được AGV và băng tải chuyển tới ô robot."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A machine vision camera is used to find the part.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: camera thị giác máy được dùng để tìm chi tiết."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The robot program is always tested on the real robot first.",
+        "ans": [
+         1
+        ],
+        "tip": "often ≠ always.",
+        "why": "Đoạn 2: chương trình thường được thử trên **digital twin** trước khi gửi cho robot thật."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Cobots always need a safety fence.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cobot có thể lắp đặt **mà không cần** hàng rào an toàn."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are robots chosen for assembly lines?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: robot nhanh và có độ lặp lại cao.",
+        "opts": [
+         "They never need programming",
+         "They are fast and have high repeatability",
+         "They are always cheaper than people"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is planned first before the program is sent to the real robot?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: quỹ đạo (trajectory) được lập kế hoạch trước.",
+        "opts": [
+         "The trajectory",
+         "The payload",
+         "The downtime"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How can downtime be reduced?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sensor gửi dữ liệu về hệ thống trung tâm giúp tăng năng suất và giảm downtime.",
+        "opts": [
+         "When the safety fence is removed",
+         "When the payload is decreased",
+         "When sensors send data to a central system"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is a benefit of cobots?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: cobot đang phổ biến vì không cần hàng rào an toàn.",
+        "opts": [
+         "They have no end effector",
+         "They can be installed without a safety fence",
+         "They are always faster than other robots"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Maintenance, Safety & Troubleshooting",
+   "name_vi": "Bảo trì, an toàn & xử lý sự cố",
+   "icon": "🛠️",
+   "hue": 20,
+   "words": [
+    {
+     "en": "maintenance",
+     "vi": "bảo trì"
+    },
+    {
+     "en": "preventive maintenance",
+     "vi": "bảo trì phòng ngừa"
+    },
+    {
+     "en": "predictive maintenance",
+     "vi": "bảo trì dự đoán"
+    },
+    {
+     "en": "breakdown",
+     "vi": "sự cố hỏng máy"
+    },
+    {
+     "en": "troubleshooting",
+     "vi": "xử lý sự cố"
+    },
+    {
+     "en": "diagnose",
+     "vi": "chẩn đoán"
+    },
+    {
+     "en": "fault",
+     "vi": "lỗi, hỏng hóc"
+    },
+    {
+     "en": "malfunction",
+     "vi": "trục trặc"
+    },
+    {
+     "en": "wear and tear",
+     "vi": "sự hao mòn"
+    },
+    {
+     "en": "lubricate",
+     "vi": "bôi trơn"
+    },
+    {
+     "en": "overheat",
+     "vi": "quá nhiệt"
+    },
+    {
+     "en": "vibration",
+     "vi": "rung động"
+    },
+    {
+     "en": "replace",
+     "vi": "thay thế"
+    },
+    {
+     "en": "inspect",
+     "vi": "kiểm tra, khảo sát"
+    },
+    {
+     "en": "tighten",
+     "vi": "siết chặt"
+    },
+    {
+     "en": "loose",
+     "vi": "lỏng"
+    },
+    {
+     "en": "spare part",
+     "vi": "phụ tùng thay thế"
+    },
+    {
+     "en": "wrench",
+     "vi": "cờ lê"
+    },
+    {
+     "en": "safety guard",
+     "vi": "tấm chắn an toàn"
+    },
+    {
+     "en": "emergency stop (E-stop)",
+     "vi": "nút dừng khẩn cấp"
+    },
+    {
+     "en": "lockout/tagout (LOTO)",
+     "vi": "khóa và gắn thẻ cách ly năng lượng"
+    },
+    {
+     "en": "personal protective equipment (PPE)",
+     "vi": "thiết bị bảo hộ cá nhân"
+    },
+    {
+     "en": "risk assessment",
+     "vi": "đánh giá rủi ro"
+    },
+    {
+     "en": "hazard",
+     "vi": "mối nguy hiểm"
+    },
+    {
+     "en": "electric shock",
+     "vi": "điện giật"
+    },
+    {
+     "en": "insulation",
+     "vi": "lớp cách điện"
+    },
+    {
+     "en": "standard operating procedure (SOP)",
+     "vi": "quy trình vận hành tiêu chuẩn"
+    },
+    {
+     "en": "error code",
+     "vi": "mã lỗi"
+    },
+    {
+     "en": "log",
+     "vi": "nhật ký vận hành"
+    },
+    {
+     "en": "backup",
+     "vi": "bản sao lưu; sao lưu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ cơ điện tử phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ maintenance uses sensor data such as vibration and temperature to predict when a part will fail.",
+        "ans": [
+         2
+        ],
+        "tip": "pre + dict = nói trước → dự đoán.",
+        "why": "**Predictive maintenance** = bảo trì dự đoán, dựa trên dữ liệu cảm biến; preventive là bảo trì theo lịch.",
+        "opts": [
+         "Preventive",
+         "Emergency",
+         "Predictive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The technician will ___ the fault by reading the error code on the screen.",
+        "ans": [
+         0
+        ],
+        "tip": "diagnose = chẩn đoán.",
+        "why": "**diagnose** = chẩn đoán nguyên nhân hỏng hóc.",
+        "opts": [
+         "diagnose",
+         "lubricate",
+         "overheat"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You should ___ the bearings every month to reduce friction.",
+        "ans": [
+         1
+        ],
+        "tip": "lube = dầu mỡ bôi trơn.",
+        "why": "**lubricate** = bôi trơn để giảm ma sát.",
+        "opts": [
+         "overheat",
+         "lubricate",
+         "backup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Excessive ___ in the motor may indicate a damaged bearing.",
+        "ans": [
+         2
+        ],
+        "tip": "vibrate = rung.",
+        "why": "**vibration** = rung động bất thường thường báo hiệu ổ bi hỏng.",
+        "opts": [
+         "insulation",
+         "backup",
+         "vibration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before repairing the machine, always follow the ___ procedure to isolate all energy sources.",
+        "ans": [
+         1
+        ],
+        "tip": "lock + tag = khóa và gắn thẻ.",
+        "why": "**lockout/tagout** = khóa và gắn thẻ, cách ly nguồn năng lượng trước khi sửa chữa.",
+        "opts": [
+         "emergency stop",
+         "lockout/tagout",
+         "backup"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Press the ___ immediately if someone is in danger.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**emergency stop (E-stop)** = nút dừng khẩn cấp.",
+        "opts": [
+         "emergency stop",
+         "error code",
+         "spare part"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A worn cable with damaged ___ is dangerous because it can cause an electric shock.",
+        "ans": [
+         1
+        ],
+        "tip": "insulate = cách điện.",
+        "why": "**insulation** = lớp cách điện; hỏng lớp này có thể gây điện giật.",
+        "opts": [
+         "vibration",
+         "insulation",
+         "log"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Operators must wear ___, such as safety glasses, gloves and ear protection.",
+        "ans": [
+         0
+        ],
+        "tip": "PPE.",
+        "why": "**personal protective equipment (PPE)** = thiết bị bảo hộ cá nhân.",
+        "opts": [
+         "personal protective equipment",
+         "a safety guard",
+         "an error code"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "breakdown",
+        "b": "a sudden failure that stops a machine from working",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "malfunction",
+        "b": "a situation in which a machine does not work correctly",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "preventive maintenance",
+        "b": "regular servicing done to avoid failures",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "hazard",
+        "b": "something that could cause harm or damage",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "risk assessment",
+        "b": "a process of identifying hazards and deciding how to control them",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "standard operating procedure (SOP)",
+        "b": "a written set of instructions for doing a task correctly and safely",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "wear and tear",
+        "b": "damage that happens gradually from normal use",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "spare part",
+        "b": "a component kept in stock to replace a broken one",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu: bắt buộc, cấm, lời khuyên, suy đoán",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't (cấm), don't have to (không cần), should (nên), might (có thể).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Technicians ___ wear safety glasses in the workshop. It is company policy.",
+        "ans": [
+         2
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy định bắt buộc → **must**.",
+        "opts": [
+         "mustn't",
+         "don't have to",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ touch the terminals while the machine is connected to the power supply. It is very dangerous.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Bị cấm vì nguy hiểm → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ replace the filter today. It still works well, but it is a good idea to check it.",
+        "ans": [
+         0
+        ],
+        "tip": "don't have to = không cần thiết.",
+        "why": "Không bắt buộc → **don't have to**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ update the firmware before you restart the PLC.",
+        "ans": [
+         2
+        ],
+        "tip": "should + V nguyên mẫu.",
+        "why": "Lời khuyên → **should** + V (không có 'to').",
+        "opts": [
+         "should to",
+         "are should",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We are not sure yet. The fault ___ be in the sensor or in the cable.",
+        "ans": [
+         0
+        ],
+        "tip": "might = có thể (không chắc).",
+        "why": "Suy đoán chưa chắc chắn → **might**.",
+        "opts": [
+         "might",
+         "mustn't",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "E-12 means the fan has failed. E-12 is on the screen, so the fan ___ be broken.",
+        "ans": [
+         1
+        ],
+        "tip": "must = chắc chắn (suy luận).",
+        "why": "Có bằng chứng rõ ràng → suy luận gần như chắc chắn: **must be**.",
+        "opts": [
+         "can't",
+         "must",
+         "don't have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu phù hợp với nghĩa của câu.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Visitors ___ enter the robot cell without permission. It is not allowed.",
+        "ans": [
+         [
+          "must not",
+          "mustn't",
+          "cannot",
+          "can't"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "It is a safety rule: staff ___ lock out the machine before any repair.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy tắc an toàn bắt buộc → **must / have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Your gearbox is making a noise. I think you ___ stop the machine and check it.",
+        "ans": [
+         [
+          "should",
+          "ought to"
+         ]
+        ],
+        "tip": "Lời khuyên.",
+        "why": "Lời khuyên → **should** + V."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We have a spare part in stock, so we ___ order another one.",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to",
+          "need not",
+          "needn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The motor does not start. The fuse ___ be blown, so let's check it.",
+        "ans": [
+         [
+          "might",
+          "may",
+          "could"
+         ]
+        ],
+        "tip": "",
+        "why": "Suy đoán chưa chắc chắn → **might / may / could**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A safe maintenance routine",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Machines do not last forever. Wear and tear, heat and vibration can cause a breakdown, which stops production and costs money. For this reason, factories use different maintenance strategies. Preventive maintenance means technicians inspect, lubricate and replace parts on a regular schedule. Predictive maintenance is smarter: sensors measure vibration and temperature, and software warns the team before a fault happens.\n\nWhen a machine malfunctions, technicians must follow a troubleshooting procedure. First, they read the error code and check the log. Then they inspect the machine for loose cables or overheating parts. A fault might be in the sensor, the wiring or the program, so they should test one possibility at a time.\n\nSafety always comes first. Before they touch the machine, technicians have to use lockout/tagout to isolate the power. They must wear PPE, and they mustn't remove a safety guard while the machine is running.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Preventive maintenance is done on a regular schedule.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: bảo trì phòng ngừa nghĩa là kiểm tra, bôi trơn, thay thế theo lịch cố định."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Predictive maintenance uses sensor data to warn the team before a fault happens.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cảm biến đo rung động, nhiệt độ và phần mềm cảnh báo trước khi lỗi xảy ra."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Technicians should test several possible faults at the same time.",
+        "ans": [
+         1
+        ],
+        "tip": "one at a time ≠ at the same time.",
+        "why": "Đoạn 2: nên kiểm tra **từng khả năng một**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Technicians may remove a safety guard while the machine is running.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: họ **mustn't** tháo tấm chắn an toàn khi máy đang chạy."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can cause a breakdown?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: hao mòn, nhiệt và rung động có thể gây hỏng máy.",
+        "opts": [
+         "A new safety guard",
+         "A spare part in stock",
+         "Wear and tear, heat and vibration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do technicians do first when a machine malfunctions?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: đầu tiên họ đọc mã lỗi và xem nhật ký.",
+        "opts": [
+         "They remove the safety guard",
+         "They replace all the parts",
+         "They read the error code and check the log"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do technicians use lockout/tagout?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: LOTO dùng để cách ly nguồn điện trước khi chạm vào máy.",
+        "opts": [
+         "To record the error code",
+         "To isolate the power before they touch the machine",
+         "To lubricate the bearings"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Which statement is true according to the text?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: kỹ thuật viên phải mang PPE.",
+        "opts": [
+         "Technicians must wear PPE",
+         "Technicians don't have to follow a procedure",
+         "Predictive maintenance never uses sensors"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "washing machine",
+   "máy giặt"
+  ],
+  [
+   "factory",
+   "nhà máy"
+  ],
+  [
+   "robot",
+   "người máy, robot"
+  ],
+  [
+   "field",
+   "lĩnh vực"
+  ],
+  [
+   "combine",
+   "kết hợp"
+  ],
+  [
+   "typical",
+   "điển hình"
+  ],
+  [
+   "measure",
+   "đo"
+  ],
+  [
+   "speed",
+   "tốc độ"
+  ],
+  [
+   "position",
+   "vị trí"
+  ],
+  [
+   "temperature",
+   "nhiệt độ"
+  ],
+  [
+   "decide",
+   "quyết định"
+  ],
+  [
+   "correct",
+   "sửa; đúng"
+  ],
+  [
+   "purely",
+   "hoàn toàn, thuần túy"
+  ],
+  [
+   "save",
+   "tiết kiệm"
+  ],
+  [
+   "smart",
+   "thông minh"
+  ],
+  [
+   "device",
+   "thiết bị"
+  ],
+  [
+   "connect",
+   "kết nối"
+  ],
+  [
+   "internet",
+   "mạng internet"
+  ],
+  [
+   "touch",
+   "chạm vào"
+  ],
+  [
+   "close",
+   "gần; đóng"
+  ],
+  [
+   "shaft",
+   "trục"
+  ],
+  [
+   "angle",
+   "góc"
+  ],
+  [
+   "rotation",
+   "sự quay"
+  ],
+  [
+   "movement",
+   "chuyển động"
+  ],
+  [
+   "force",
+   "lực"
+  ],
+  [
+   "weight",
+   "khối lượng, trọng lượng"
+  ],
+  [
+   "smallest",
+   "nhỏ nhất"
+  ],
+  [
+   "true value",
+   "giá trị thật"
+  ],
+  [
+   "filter",
+   "lọc"
+  ],
+  [
+   "react",
+   "phản ứng"
+  ],
+  [
+   "command",
+   "lệnh"
+  ],
+  [
+   "process",
+   "xử lý; quy trình"
+  ],
+  [
+   "safely",
+   "một cách an toàn"
+  ],
+  [
+   "beside",
+   "bên cạnh"
+  ],
+  [
+   "thin",
+   "mỏng"
+  ],
+  [
+   "track",
+   "đường mạch (trên bảng mạch)"
+  ],
+  [
+   "common",
+   "phổ biến"
+  ],
+  [
+   "push",
+   "đẩy"
+  ],
+  [
+   "reduce",
+   "giảm"
+  ],
+  [
+   "store",
+   "lưu trữ"
+  ],
+  [
+   "charge",
+   "điện tích"
+  ],
+  [
+   "branch",
+   "nhánh"
+  ],
+  [
+   "protect",
+   "bảo vệ"
+  ],
+  [
+   "connection",
+   "kết nối, mối nối"
+  ],
+  [
+   "install",
+   "lắp đặt"
+  ],
+  [
+   "target",
+   "mục tiêu"
+  ],
+  [
+   "unstable",
+   "không ổn định"
+  ],
+  [
+   "tune",
+   "điều chỉnh (tinh chỉnh)"
+  ],
+  [
+   "carefully",
+   "cẩn thận"
+  ],
+  [
+   "popular",
+   "phổ biến"
+  ],
+  [
+   "continuous",
+   "liên tục"
+  ],
+  [
+   "execute",
+   "thực thi"
+  ],
+  [
+   "update",
+   "cập nhật"
+  ],
+  [
+   "monitor",
+   "giám sát"
+  ],
+  [
+   "carry",
+   "mang, chở"
+  ],
+  [
+   "place",
+   "đặt"
+  ],
+  [
+   "fence",
+   "hàng rào"
+  ],
+  [
+   "heavy",
+   "nặng"
+  ],
+  [
+   "tired",
+   "mệt"
+  ],
+  [
+   "plan",
+   "lên kế hoạch"
+  ],
+  [
+   "central",
+   "trung tâm"
+  ],
+  [
+   "approach",
+   "cách tiếp cận"
+  ],
+  [
+   "stack",
+   "xếp chồng"
+  ],
+  [
+   "schedule",
+   "lịch trình"
+  ],
+  [
+   "warn",
+   "cảnh báo"
+  ],
+  [
+   "procedure",
+   "quy trình"
+  ],
+  [
+   "cable",
+   "dây cáp"
+  ],
+  [
+   "wiring",
+   "hệ thống dây điện"
+  ],
+  [
+   "isolate",
+   "cách ly"
+  ],
+  [
+   "remove",
+   "tháo ra, gỡ bỏ"
+  ],
+  [
+   "production",
+   "sản xuất"
+  ],
+  [
+   "policy",
+   "quy định"
+  ],
+  [
+   "dangerous",
+   "nguy hiểm"
+  ],
+  [
+   "permission",
+   "sự cho phép"
+  ],
+  [
+   "friction",
+   "ma sát"
+  ],
+  [
+   "bearing",
+   "ổ bi, ổ trục"
+  ],
+  [
+   "noise",
+   "tiếng ồn; nhiễu"
+  ],
+  [
+   "stock",
+   "kho, hàng tồn"
+  ],
+  [
+   "fan",
+   "quạt"
+  ],
+  [
+   "valve",
+   "van"
+  ],
+  [
+   "pressure",
+   "áp suất"
+  ],
+  [
+   "mounted",
+   "được gắn, được lắp"
+  ],
+  [
+   "screen",
+   "màn hình"
+  ],
+  [
+   "batch",
+   "lô sản phẩm"
+  ]
+ ]
+}

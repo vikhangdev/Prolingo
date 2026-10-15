@@ -1,0 +1,4259 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "international-relations",
+    "name": "International Relations & Diplomacy",
+    "name_vi": "Quan hệ quốc tế & Ngoại giao",
+    "icon": "🌍",
+    "hue": 215,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành quan hệ quốc tế và ngoại giao: lý thuyết & chủ thể quốc tế, thực hành ngoại giao, tổ chức quốc tế, điều ước & đàm phán, an ninh & xung đột, các vấn đề toàn cầu."
+  },
+  "units": [
+    {
+      "name": "Foundations of International Relations",
+      "name_vi": "Nhập môn quan hệ quốc tế",
+      "icon": "🌍",
+      "hue": 215,
+      "words": [
+        {
+          "en": "international relations",
+          "vi": "quan hệ quốc tế"
+        },
+        {
+          "en": "state",
+          "vi": "quốc gia (nhà nước)"
+        },
+        {
+          "en": "sovereignty",
+          "vi": "chủ quyền"
+        },
+        {
+          "en": "nation-state",
+          "vi": "quốc gia–dân tộc"
+        },
+        {
+          "en": "national interest",
+          "vi": "lợi ích quốc gia"
+        },
+        {
+          "en": "foreign policy",
+          "vi": "chính sách đối ngoại"
+        },
+        {
+          "en": "power",
+          "vi": "quyền lực, sức mạnh"
+        },
+        {
+          "en": "hard power",
+          "vi": "sức mạnh cứng"
+        },
+        {
+          "en": "soft power",
+          "vi": "sức mạnh mềm"
+        },
+        {
+          "en": "balance of power",
+          "vi": "cân bằng quyền lực"
+        },
+        {
+          "en": "superpower",
+          "vi": "siêu cường"
+        },
+        {
+          "en": "alliance",
+          "vi": "liên minh"
+        },
+        {
+          "en": "bilateral",
+          "vi": "song phương"
+        },
+        {
+          "en": "multilateral",
+          "vi": "đa phương"
+        },
+        {
+          "en": "regional",
+          "vi": "thuộc khu vực"
+        },
+        {
+          "en": "globalization",
+          "vi": "toàn cầu hóa"
+        },
+        {
+          "en": "interdependence",
+          "vi": "sự phụ thuộc lẫn nhau"
+        },
+        {
+          "en": "realism",
+          "vi": "chủ nghĩa hiện thực"
+        },
+        {
+          "en": "liberalism",
+          "vi": "chủ nghĩa tự do"
+        },
+        {
+          "en": "non-state actor",
+          "vi": "chủ thể phi nhà nước"
+        },
+        {
+          "en": "multinational corporation",
+          "vi": "tập đoàn đa quốc gia"
+        },
+        {
+          "en": "border",
+          "vi": "biên giới"
+        },
+        {
+          "en": "territory",
+          "vi": "lãnh thổ"
+        },
+        {
+          "en": "independence",
+          "vi": "độc lập"
+        },
+        {
+          "en": "neutrality",
+          "vi": "trung lập"
+        },
+        {
+          "en": "influence",
+          "vi": "ảnh hưởng"
+        },
+        {
+          "en": "bloc",
+          "vi": "khối (các nước)"
+        },
+        {
+          "en": "cooperation",
+          "vi": "hợp tác"
+        },
+        {
+          "en": "rivalry",
+          "vi": "sự cạnh tranh, đối địch"
+        },
+        {
+          "en": "world order",
+          "vi": "trật tự thế giới"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The supreme authority of a state to govern itself is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "sovereign = có chủ quyền.",
+                "why": "**sovereignty** = chủ quyền quốc gia.",
+                "opts": [
+                  "sovereignty",
+                  "neutrality",
+                  "rivalry"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Countries pursue their ___, such as security and economic growth.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**national interest** = lợi ích quốc gia.",
+                "opts": [
+                  "national interest",
+                  "world order",
+                  "bloc"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ability to influence others through culture and values rather than force is ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "soft = mềm.",
+                "why": "**soft power** = sức mạnh mềm.",
+                "opts": [
+                  "hard power",
+                  "balance of power",
+                  "soft power"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a very powerful country with great influence worldwide.",
+                "ans": [
+                  2
+                ],
+                "tip": "super + power.",
+                "why": "**superpower** = siêu cường.",
+                "opts": [
+                  "bloc",
+                  "border",
+                  "superpower"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ agreement is made between two countries.",
+                "ans": [
+                  2
+                ],
+                "tip": "bi- = hai.",
+                "why": "**bilateral** = song phương.",
+                "opts": [
+                  "regional",
+                  "multilateral",
+                  "bilateral"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The growing connection of economies and cultures around the world is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "global = toàn cầu.",
+                "why": "**globalization** = toàn cầu hóa.",
+                "opts": [
+                  "globalization",
+                  "neutrality",
+                  "rivalry"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Countries that depend on each other for trade show strong ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "inter- = lẫn nhau.",
+                "why": "**interdependence** = sự phụ thuộc lẫn nhau.",
+                "opts": [
+                  "rivalry",
+                  "sovereignty",
+                  "interdependence"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A country that does not take sides in a war follows a policy of ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "neutral = trung lập.",
+                "why": "**neutrality** = trung lập.",
+                "opts": [
+                  "neutrality",
+                  "alliance",
+                  "influence"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "alliance",
+                "b": "a formal agreement between countries to support each other",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "balance of power",
+                "b": "a situation in which no single country is strong enough to dominate the others",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "foreign policy",
+                "b": "a government's strategy for dealing with other countries",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "non-state actor",
+                "b": "a group that acts internationally but is not a government",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "multinational corporation",
+                "b": "a large company that operates in many countries",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "realism",
+                "b": "a theory that says states act mainly to protect their own power and security",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bloc",
+                "b": "a group of countries that act together for common interests",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "rivalry",
+                "b": "competition between countries for power or influence",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A state ___ its borders to protect its sovereignty.",
+                "ans": [
+                  1
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Sự thật chung, chủ ngữ số ít → **defends**.",
+                "opts": [
+                  "is defending",
+                  "defends",
+                  "defend"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "At the moment, the two foreign ministers ___ a bilateral meeting.",
+                "ans": [
+                  2
+                ],
+                "tip": "at the moment → be + V-ing.",
+                "why": "'At the moment' → **are holding**.",
+                "opts": [
+                  "hold",
+                  "held",
+                  "are holding"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Realists usually ___ that power is the most important factor.",
+                "ans": [
+                  1
+                ],
+                "tip": "believe là động từ trạng thái, không dùng tiếp diễn.",
+                "why": "'usually' + số nhiều → **believe**.",
+                "opts": [
+                  "believes",
+                  "believe",
+                  "are believing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The government ___ a new foreign policy this year.",
+                "ans": [
+                  0
+                ],
+                "tip": "this year (đang diễn ra) → tiếp diễn.",
+                "why": "Việc đang diễn ra → **is developing**.",
+                "opts": [
+                  "is developing",
+                  "develops",
+                  "develop"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The Secretary-General ___ the General Assembly every year.",
+                "ans": [
+                  0
+                ],
+                "tip": "every year → hiện tại đơn.",
+                "why": "'every year' → **addresses**.",
+                "opts": [
+                  "addresses",
+                  "is addressing",
+                  "address"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look! The delegates ___ the hall.",
+                "ans": [
+                  0
+                ],
+                "tip": "Look! → đang xảy ra.",
+                "why": "'Look!' → **are entering**.",
+                "opts": [
+                  "are entering",
+                  "enter",
+                  "entered"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A superpower ___ (have) influence in many regions.",
+                "ans": [
+                  [
+                    "has"
+                  ]
+                ],
+                "tip": "He/She/It + has.",
+                "why": "Sự thật chung → **has**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The two countries ___ (not / share) a border.",
+                "ans": [
+                  [
+                    "don't share",
+                    "do not share"
+                  ]
+                ],
+                "tip": "",
+                "why": "Sự thật → **don't share**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "At the moment, the president ___ (visit) the neighbouring country.",
+                "ans": [
+                  [
+                    "is visiting",
+                    "'s visiting"
+                  ]
+                ],
+                "tip": "be + V-ing.",
+                "why": "'At the moment' → **is visiting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Smaller states often ___ (join) alliances for protection.",
+                "ans": [
+                  [
+                    "join"
+                  ]
+                ],
+                "tip": "often → hiện tại đơn.",
+                "why": "Chủ ngữ số nhiều, thói quen → **join**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Trade between our countries ___ (grow) quickly this year.",
+                "ans": [
+                  [
+                    "is growing",
+                    "'s growing"
+                  ]
+                ],
+                "tip": "",
+                "why": "Xu hướng đang diễn ra → **is growing**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · What are international relations?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "International relations is the study of how states and other actors behave in the world. The main actors are sovereign states, which have the highest authority inside their borders. However, non-state actors, such as multinational corporations and international organizations, are becoming more important every year.\n\nScholars use different theories to explain world politics. Realists believe that states act to protect their national interest and that power, especially hard power such as military strength, is decisive. Liberals say that cooperation is possible, because states are connected by trade and shared institutions. This interdependence makes war more expensive.\n\nIn practice, countries use both hard power and soft power, which is the ability to attract others through culture and values. A government may build alliances, sign bilateral and multilateral agreements, and try to keep a balance of power in its region.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Sovereign states have the highest authority inside their borders.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: quốc gia có chủ quyền có thẩm quyền cao nhất trong biên giới."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Non-state actors are becoming less important.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: chủ thể phi nhà nước ngày càng **quan trọng hơn**."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Realists believe that cooperation is the most important factor.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: người theo chủ nghĩa hiện thực nhấn mạnh quyền lực và lợi ích quốc gia."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Soft power is the ability to attract others through culture and values.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: định nghĩa soft power."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which is an example of a non-state actor?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: tập đoàn đa quốc gia là chủ thể phi nhà nước.",
+                "opts": [
+                  "A sovereign state",
+                  "A bilateral agreement",
+                  "A multinational corporation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do liberals say?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phái tự do tin vào hợp tác nhờ thương mại và thể chế chung.",
+                "opts": [
+                  "Only military strength matters",
+                  "Cooperation is possible because states are connected by trade",
+                  "States should avoid all alliances"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does interdependence do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phụ thuộc lẫn nhau khiến chiến tranh tốn kém hơn.",
+                "opts": [
+                  "It removes borders",
+                  "It makes war more expensive",
+                  "It increases hard power"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may a government do to keep a balance of power?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: lập liên minh, ký thỏa thuận để giữ cân bằng quyền lực.",
+                "opts": [
+                  "Build alliances",
+                  "Close its embassies",
+                  "Stop all trade"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Diplomacy & Diplomatic Practice",
+      "name_vi": "Ngoại giao & thực hành ngoại giao",
+      "icon": "🏛️",
+      "hue": 30,
+      "words": [
+        {
+          "en": "diplomacy",
+          "vi": "ngoại giao"
+        },
+        {
+          "en": "diplomat",
+          "vi": "nhà ngoại giao"
+        },
+        {
+          "en": "ambassador",
+          "vi": "đại sứ"
+        },
+        {
+          "en": "embassy",
+          "vi": "đại sứ quán"
+        },
+        {
+          "en": "consulate",
+          "vi": "tổng/lãnh sự quán"
+        },
+        {
+          "en": "consul",
+          "vi": "lãnh sự"
+        },
+        {
+          "en": "envoy",
+          "vi": "phái viên, đặc phái viên"
+        },
+        {
+          "en": "diplomatic immunity",
+          "vi": "quyền miễn trừ ngoại giao"
+        },
+        {
+          "en": "credentials",
+          "vi": "quốc thư"
+        },
+        {
+          "en": "protocol",
+          "vi": "nghi lễ ngoại giao"
+        },
+        {
+          "en": "delegation",
+          "vi": "đoàn đại biểu"
+        },
+        {
+          "en": "summit",
+          "vi": "hội nghị thượng đỉnh"
+        },
+        {
+          "en": "state visit",
+          "vi": "chuyến thăm cấp nhà nước"
+        },
+        {
+          "en": "diplomatic note",
+          "vi": "công hàm ngoại giao"
+        },
+        {
+          "en": "communiqué",
+          "vi": "thông cáo chung"
+        },
+        {
+          "en": "attaché",
+          "vi": "tùy viên"
+        },
+        {
+          "en": "foreign minister",
+          "vi": "bộ trưởng ngoại giao"
+        },
+        {
+          "en": "host country",
+          "vi": "nước sở tại"
+        },
+        {
+          "en": "accredit",
+          "vi": "bổ nhiệm, công nhận chính thức"
+        },
+        {
+          "en": "expel",
+          "vi": "trục xuất"
+        },
+        {
+          "en": "persona non grata",
+          "vi": "nhân vật không được hoan nghênh"
+        },
+        {
+          "en": "shuttle diplomacy",
+          "vi": "ngoại giao con thoi"
+        },
+        {
+          "en": "public diplomacy",
+          "vi": "ngoại giao công chúng"
+        },
+        {
+          "en": "back channel",
+          "vi": "kênh liên lạc không chính thức"
+        },
+        {
+          "en": "visa",
+          "vi": "thị thực"
+        },
+        {
+          "en": "passport",
+          "vi": "hộ chiếu"
+        },
+        {
+          "en": "mission",
+          "vi": "phái bộ, sứ mệnh"
+        },
+        {
+          "en": "representative",
+          "vi": "người đại diện"
+        },
+        {
+          "en": "reception",
+          "vi": "buổi chiêu đãi"
+        },
+        {
+          "en": "courtesy call",
+          "vi": "cuộc thăm xã giao"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the highest-ranking diplomat who represents a country abroad.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**ambassador** = đại sứ.",
+                "opts": [
+                  "ambassador",
+                  "attaché",
+                  "consul"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the main diplomatic building of a country in another country.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**embassy** = đại sứ quán.",
+                "opts": [
+                  "summit",
+                  "visa",
+                  "embassy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ helps citizens abroad, for example with passports and emergencies.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**consul** = lãnh sự, hỗ trợ công dân ở nước ngoài.",
+                "opts": [
+                  "envoy",
+                  "communiqué",
+                  "consul"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Diplomats cannot be arrested in the host country because of ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "immune = miễn nhiễm.",
+                "why": "**diplomatic immunity** = quyền miễn trừ ngoại giao.",
+                "opts": [
+                  "diplomatic immunity",
+                  "credentials",
+                  "protocol"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a meeting between heads of state or government.",
+                "ans": [
+                  0
+                ],
+                "tip": "summit = đỉnh.",
+                "why": "**summit** = hội nghị thượng đỉnh.",
+                "opts": [
+                  "summit",
+                  "reception",
+                  "courtesy call"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "At the end of the talks, the two countries issued a joint ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**communiqué** = thông cáo chung.",
+                "opts": [
+                  "mission",
+                  "passport",
+                  "communiqué"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The host country may ___ a diplomat who breaks the law.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**expel** = trục xuất.",
+                "opts": [
+                  "accredit",
+                  "attach",
+                  "expel"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Diplomatic ___ is the set of formal rules and customs that diplomats follow.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**protocol** = nghi thức, quy tắc ngoại giao.",
+                "opts": [
+                  "visa",
+                  "envoy",
+                  "protocol"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "envoy",
+                "b": "a representative sent to another country for a special task",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "credentials",
+                "b": "official documents that prove an ambassador's authority",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "delegation",
+                "b": "a group of representatives sent to a meeting or negotiation",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "state visit",
+                "b": "a formal visit by a head of state to another country",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "diplomatic note",
+                "b": "a formal written message between governments",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "persona non grata",
+                "b": "a diplomat who is no longer welcome in the host country",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "shuttle diplomacy",
+                "b": "travelling between the parties to help them reach agreement",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "public diplomacy",
+                "b": "communication with foreign citizens to improve a country's image",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: thể bị động (be + V3) ở nhiều thì khác nhau.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The new ambassador ___ by the president yesterday.",
+                "ans": [
+                  1
+                ],
+                "tip": "Quá khứ bị động: was + V3.",
+                "why": "'yesterday' → **was received**.",
+                "opts": [
+                  "received",
+                  "was received",
+                  "is receiving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A joint statement ___ at the end of the summit tomorrow.",
+                "ans": [
+                  1
+                ],
+                "tip": "Tương lai bị động: will be + V3.",
+                "why": "'tomorrow' → **will be issued**.",
+                "opts": [
+                  "will issue",
+                  "will be issued",
+                  "is issuing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Diplomats ___ legal immunity in the host country.",
+                "ans": [
+                  1
+                ],
+                "tip": "Hiện tại bị động: are + V3.",
+                "why": "Được trao → **are given**.",
+                "opts": [
+                  "give",
+                  "are given",
+                  "are giving"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The talks ___ at the moment in Geneva.",
+                "ans": [
+                  0
+                ],
+                "tip": "Tiếp diễn bị động: are being + V3.",
+                "why": "Đang được tổ chức → **are being held**.",
+                "opts": [
+                  "are being held",
+                  "are holding",
+                  "hold"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The treaty ___ yet.",
+                "ans": [
+                  1
+                ],
+                "tip": "Hiện tại hoàn thành bị động: has been + V3.",
+                "why": "'yet' → **hasn't been signed**.",
+                "opts": [
+                  "hasn't signed",
+                  "hasn't been signed",
+                  "didn't signed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Credentials ___ to the head of state in a formal ceremony.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Quốc thư **được** trình → **are presented**.",
+                "opts": [
+                  "present",
+                  "are presenting",
+                  "are presented"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct passive form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The summit ___ (hold) in Hanoi last year.",
+                "ans": [
+                  [
+                    "was held"
+                  ]
+                ],
+                "tip": "hold – held – held.",
+                "why": "'last year' → **was held**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Ambassadors ___ (appoint) by the head of state.",
+                "ans": [
+                  [
+                    "are appointed"
+                  ]
+                ],
+                "tip": "",
+                "why": "Sự thật chung → **are appointed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The delegation ___ (welcome) at the airport at the moment.",
+                "ans": [
+                  [
+                    "is being welcomed"
+                  ]
+                ],
+                "tip": "is being + V3.",
+                "why": "'at the moment' → **is being welcomed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A new consulate ___ (open) next year.",
+                "ans": [
+                  [
+                    "will be opened",
+                    "is going to be opened"
+                  ]
+                ],
+                "tip": "will be + V3.",
+                "why": "'next year' → **will be opened**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The diplomat ___ (expel) last week.",
+                "ans": [
+                  [
+                    "was expelled"
+                  ]
+                ],
+                "tip": "",
+                "why": "'last week' → **was expelled**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Inside an embassy",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "An embassy is the main diplomatic office of one country in another. It is led by an ambassador, who is appointed by the head of state and who presents credentials to the host country. The embassy is staffed by diplomats, attachés and local employees.\n\nDiplomats have several tasks. They represent their government, report on political and economic developments, and negotiate with officials of the host country. A consulate, which is run by a consul, helps citizens abroad, for example by issuing passports and giving assistance in emergencies. Visas are also processed there.\n\nDiplomats are protected by diplomatic immunity, so they cannot be arrested in the host country. This protection is given so that they can work freely. However, if a diplomat behaves badly, he or she can be declared persona non grata and expelled. Important events, such as summits and state visits, are organised according to strict protocol.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An embassy is led by an ambassador.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đại sứ đứng đầu đại sứ quán."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Diplomats can be arrested in the host country at any time.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: nhờ quyền miễn trừ ngoại giao, họ không thể bị bắt."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A consulate helps citizens abroad.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: lãnh sự quán hỗ trợ công dân, cấp hộ chiếu, hỗ trợ khẩn cấp."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A diplomat who behaves badly can never be expelled.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: có thể bị tuyên bố persona non grata và bị trục xuất."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who appoints an ambassador?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đại sứ do nguyên thủ quốc gia bổ nhiệm.",
+                "opts": [
+                  "The head of state",
+                  "The consul",
+                  "The host country's police"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is one task of diplomats?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đại diện, báo cáo tình hình và đàm phán.",
+                "opts": [
+                  "Reporting on political and economic developments",
+                  "Running the host country's government",
+                  "Collecting tariffs"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may happen to a diplomat who behaves badly?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: có thể bị trục xuất.",
+                "opts": [
+                  "He or she is made consul",
+                  "He or she can be expelled",
+                  "He or she is given a visa"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How are summits and state visits organised?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: theo nghi lễ ngoại giao nghiêm ngặt.",
+                "opts": [
+                  "According to strict protocol",
+                  "Without any rules",
+                  "By the consulate only"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "International Organizations",
+      "name_vi": "Các tổ chức quốc tế",
+      "icon": "🕊️",
+      "hue": 160,
+      "words": [
+        {
+          "en": "United Nations (UN)",
+          "vi": "Liên Hợp Quốc"
+        },
+        {
+          "en": "General Assembly",
+          "vi": "Đại hội đồng"
+        },
+        {
+          "en": "Security Council",
+          "vi": "Hội đồng Bảo an"
+        },
+        {
+          "en": "permanent member",
+          "vi": "thành viên thường trực"
+        },
+        {
+          "en": "veto",
+          "vi": "quyền phủ quyết"
+        },
+        {
+          "en": "resolution",
+          "vi": "nghị quyết"
+        },
+        {
+          "en": "Secretary-General",
+          "vi": "Tổng thư ký"
+        },
+        {
+          "en": "member state",
+          "vi": "quốc gia thành viên"
+        },
+        {
+          "en": "charter",
+          "vi": "hiến chương"
+        },
+        {
+          "en": "secretariat",
+          "vi": "ban thư ký"
+        },
+        {
+          "en": "peacekeeping",
+          "vi": "gìn giữ hòa bình"
+        },
+        {
+          "en": "World Trade Organization (WTO)",
+          "vi": "Tổ chức Thương mại Thế giới"
+        },
+        {
+          "en": "International Monetary Fund (IMF)",
+          "vi": "Quỹ Tiền tệ Quốc tế"
+        },
+        {
+          "en": "World Bank",
+          "vi": "Ngân hàng Thế giới"
+        },
+        {
+          "en": "regional organization",
+          "vi": "tổ chức khu vực"
+        },
+        {
+          "en": "intergovernmental organization",
+          "vi": "tổ chức liên chính phủ"
+        },
+        {
+          "en": "non-governmental organization (NGO)",
+          "vi": "tổ chức phi chính phủ"
+        },
+        {
+          "en": "humanitarian aid",
+          "vi": "viện trợ nhân đạo"
+        },
+        {
+          "en": "mandate",
+          "vi": "ủy quyền, nhiệm vụ được giao"
+        },
+        {
+          "en": "headquarters",
+          "vi": "trụ sở chính"
+        },
+        {
+          "en": "consensus",
+          "vi": "đồng thuận"
+        },
+        {
+          "en": "majority vote",
+          "vi": "biểu quyết theo đa số"
+        },
+        {
+          "en": "observer",
+          "vi": "quan sát viên"
+        },
+        {
+          "en": "membership",
+          "vi": "tư cách thành viên"
+        },
+        {
+          "en": "accession",
+          "vi": "việc gia nhập"
+        },
+        {
+          "en": "funding",
+          "vi": "nguồn kinh phí"
+        },
+        {
+          "en": "agency",
+          "vi": "cơ quan chuyên môn"
+        },
+        {
+          "en": "reform",
+          "vi": "cải cách"
+        },
+        {
+          "en": "legitimacy",
+          "vi": "tính chính danh"
+        },
+        {
+          "en": "representation",
+          "vi": "sự đại diện"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the UN body in which every member state has one vote.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**General Assembly** = Đại hội đồng, mỗi nước một phiếu.",
+                "opts": [
+                  "Security Council",
+                  "General Assembly",
+                  "secretariat"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Only the permanent members of the Security Council have the ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "veto = tôi cấm.",
+                "why": "**veto** = quyền phủ quyết.",
+                "opts": [
+                  "mandate",
+                  "consensus",
+                  "veto"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The Security Council adopted a ___ calling for a ceasefire.",
+                "ans": [
+                  2
+                ],
+                "tip": "resolve = quyết định.",
+                "why": "**resolution** = nghị quyết.",
+                "opts": [
+                  "charter",
+                  "funding",
+                  "resolution"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ is the founding document that sets out the aims and rules of an organization.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**charter** = hiến chương.",
+                "opts": [
+                  "charter",
+                  "resolution",
+                  "mandate"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "UN ___ operations help to keep the peace in post-conflict areas.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**peacekeeping** = gìn giữ hòa bình.",
+                "opts": [
+                  "peacekeeping",
+                  "headquarters",
+                  "accession"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Many organizations make decisions by ___, so all members must agree.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**consensus** = đồng thuận, không cần bỏ phiếu.",
+                "opts": [
+                  "veto",
+                  "majority vote",
+                  "consensus"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The ___ deals with the rules of trade between nations.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**WTO** = Tổ chức Thương mại Thế giới.",
+                "opts": [
+                  "International Monetary Fund (IMF)",
+                  "World Trade Organization (WTO)",
+                  "humanitarian aid"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A country that is not a full member but may attend meetings is an ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "observe = quan sát.",
+                "why": "**observer** = quan sát viên.",
+                "opts": [
+                  "observer",
+                  "agency",
+                  "secretariat"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "member state",
+                "b": "a country that belongs to an organization",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "secretariat",
+                "b": "the administrative staff of an organization",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "Secretary-General",
+                "b": "the head of the UN's administration",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "non-governmental organization (NGO)",
+                "b": "a non-profit group that is independent of governments",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "humanitarian aid",
+                "b": "help given to people in need, such as food and medicine",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "headquarters",
+                "b": "the main office of an organization",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "accession",
+                "b": "the process of a country joining an organization or a treaty",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "legitimacy",
+                "b": "the accepted right of an organization or government to have authority",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more) và so sánh nhất (-est / most).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The General Assembly is ___ than the Security Council.",
+                "ans": [
+                  1
+                ],
+                "tip": "Tính từ ngắn + -er.",
+                "why": "large → **larger than**.",
+                "opts": [
+                  "more large",
+                  "larger",
+                  "largest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Regional organizations are usually ___ than global ones.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "small → **smaller than**.",
+                "opts": [
+                  "more small",
+                  "smallest",
+                  "smaller"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The UN is one of the ___ international organizations in the world.",
+                "ans": [
+                  1
+                ],
+                "tip": "one of the + so sánh nhất.",
+                "why": "'one of the' → **most influential**.",
+                "opts": [
+                  "more influential",
+                  "most influential",
+                  "influentialest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The more members an organization has, the ___ it is to reach consensus.",
+                "ans": [
+                  0
+                ],
+                "tip": "the + so sánh hơn, the + so sánh hơn.",
+                "why": "Cấu trúc 'the ... the ...' → **harder**.",
+                "opts": [
+                  "harder",
+                  "hard",
+                  "hardest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Reaching consensus is usually ___ than holding a majority vote.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "slow → **slower than**.",
+                "opts": [
+                  "more slow",
+                  "slower",
+                  "slowest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Humanitarian aid is as ___ as development aid in a crisis.",
+                "ans": [
+                  2
+                ],
+                "tip": "as + tính từ gốc + as.",
+                "why": "So sánh bằng: as **important** as.",
+                "opts": [
+                  "more important",
+                  "most important",
+                  "important"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct comparative or superlative form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The General Assembly is ___ (large) than the Security Council.",
+                "ans": [
+                  [
+                    "larger"
+                  ]
+                ],
+                "tip": "",
+                "why": "large → **larger**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Peacekeeping is ___ (expensive) than prevention.",
+                "ans": [
+                  [
+                    "more expensive"
+                  ]
+                ],
+                "tip": "Tính từ dài → more.",
+                "why": "**more expensive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This is the ___ (important) decision in the organization's history.",
+                "ans": [
+                  [
+                    "most important"
+                  ]
+                ],
+                "tip": "the + most + tính từ dài.",
+                "why": "'the' → **most important**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The new Secretary-General is ___ (good) known than her predecessor.",
+                "ans": [
+                  [
+                    "better"
+                  ]
+                ],
+                "tip": "good – better – best.",
+                "why": "**better** known than."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "NGOs are often ___ (flexible) than governments.",
+                "ans": [
+                  [
+                    "more flexible"
+                  ]
+                ],
+                "tip": "",
+                "why": "flexible dài → **more flexible**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · The United Nations system",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "The United Nations was created in 1945 to maintain international peace and security. Today almost every country is a member state. The General Assembly is the largest body: every member has one vote, and its resolutions are important political statements, although they are usually less binding than those of the Security Council.\n\nThe Security Council has fifteen members. Five of them, the permanent members, hold a veto, so one of them can stop a resolution. Decisions on peacekeeping are therefore harder to reach than ordinary votes. The Secretary-General leads the Secretariat, which runs the day-to-day work from the headquarters in New York.\n\nOther organizations are more specialized. The World Trade Organization sets rules for trade, while the IMF and the World Bank support financial stability and development. NGOs often provide humanitarian aid faster and more flexibly than governments.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The United Nations was created in 1945.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: LHQ được thành lập năm 1945."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "In the General Assembly, the permanent members have more votes.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: mỗi thành viên có **một** phiếu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A permanent member of the Security Council can stop a resolution with a veto.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thành viên thường trực có quyền phủ quyết."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The headquarters of the Secretariat is in Geneva.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: trụ sở ở New York."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How do General Assembly resolutions compare with Security Council resolutions?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thường ít ràng buộc hơn.",
+                "opts": [
+                  "They are usually less binding",
+                  "They are always more binding",
+                  "They need a veto"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How many members does the Security Council have?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: 15 thành viên, trong đó 5 thường trực.",
+                "opts": [
+                  "Five",
+                  "Ten",
+                  "Fifteen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the Secretariat do?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ban thư ký điều hành công việc hằng ngày.",
+                "opts": [
+                  "Casts the veto",
+                  "Runs the day-to-day work",
+                  "Provides humanitarian aid"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is the role of the WTO?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: WTO đặt ra quy tắc thương mại.",
+                "opts": [
+                  "Sets rules for trade",
+                  "Keeps the peace",
+                  "Runs the Secretariat"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Treaties, International Law & Negotiation",
+      "name_vi": "Điều ước, luật quốc tế & đàm phán",
+      "icon": "📑",
+      "hue": 270,
+      "words": [
+        {
+          "en": "treaty",
+          "vi": "điều ước quốc tế"
+        },
+        {
+          "en": "convention",
+          "vi": "công ước"
+        },
+        {
+          "en": "ratify",
+          "vi": "phê chuẩn"
+        },
+        {
+          "en": "ratification",
+          "vi": "sự phê chuẩn"
+        },
+        {
+          "en": "signatory",
+          "vi": "bên ký kết"
+        },
+        {
+          "en": "accede",
+          "vi": "gia nhập (điều ước)"
+        },
+        {
+          "en": "reservation",
+          "vi": "bảo lưu"
+        },
+        {
+          "en": "article",
+          "vi": "điều (khoản) của điều ước"
+        },
+        {
+          "en": "enter into force",
+          "vi": "có hiệu lực"
+        },
+        {
+          "en": "binding",
+          "vi": "có tính ràng buộc"
+        },
+        {
+          "en": "customary law",
+          "vi": "tập quán quốc tế"
+        },
+        {
+          "en": "international law",
+          "vi": "luật quốc tế"
+        },
+        {
+          "en": "International Court of Justice (ICJ)",
+          "vi": "Tòa án Công lý Quốc tế"
+        },
+        {
+          "en": "violation",
+          "vi": "sự vi phạm"
+        },
+        {
+          "en": "withdraw",
+          "vi": "rút khỏi"
+        },
+        {
+          "en": "memorandum of understanding (MOU)",
+          "vi": "biên bản ghi nhớ"
+        },
+        {
+          "en": "declaration",
+          "vi": "tuyên bố"
+        },
+        {
+          "en": "agenda",
+          "vi": "chương trình nghị sự"
+        },
+        {
+          "en": "negotiation",
+          "vi": "đàm phán"
+        },
+        {
+          "en": "concession",
+          "vi": "nhượng bộ"
+        },
+        {
+          "en": "bargaining",
+          "vi": "mặc cả, thương lượng"
+        },
+        {
+          "en": "draft",
+          "vi": "bản dự thảo; soạn thảo"
+        },
+        {
+          "en": "ceasefire",
+          "vi": "lệnh ngừng bắn"
+        },
+        {
+          "en": "good faith",
+          "vi": "thiện chí"
+        },
+        {
+          "en": "mutual benefit",
+          "vi": "lợi ích chung"
+        },
+        {
+          "en": "win-win",
+          "vi": "đôi bên cùng có lợi"
+        },
+        {
+          "en": "deadlock",
+          "vi": "bế tắc"
+        },
+        {
+          "en": "breakthrough",
+          "vi": "bước đột phá"
+        },
+        {
+          "en": "mediator",
+          "vi": "hòa giải viên"
+        },
+        {
+          "en": "amendment",
+          "vi": "sửa đổi, bổ sung"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a formal written agreement between states.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**treaty** = điều ước quốc tế.",
+                "opts": [
+                  "treaty",
+                  "agenda",
+                  "reservation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Parliament must ___ the treaty before it becomes binding.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**ratify** = phê chuẩn.",
+                "opts": [
+                  "withdraw",
+                  "accede",
+                  "ratify"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The treaty will ___ thirty days after the tenth ratification.",
+                "ans": [
+                  2
+                ],
+                "tip": "force = hiệu lực.",
+                "why": "**enter into force** = bắt đầu có hiệu lực.",
+                "opts": [
+                  "accede",
+                  "withdraw",
+                  "enter into force"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a state that has signed a treaty.",
+                "ans": [
+                  2
+                ],
+                "tip": "sign → signatory.",
+                "why": "**signatory** = bên đã ký.",
+                "opts": [
+                  "mediator",
+                  "amendment",
+                  "signatory"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A state that was not an original party can ___ to the treaty later.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**accede** = gia nhập điều ước sau này.",
+                "opts": [
+                  "accede",
+                  "draft",
+                  "withdraw"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A state may make a ___ to exclude a particular provision of a treaty.",
+                "ans": [
+                  0
+                ],
+                "tip": "reserve = giữ lại.",
+                "why": "**reservation** = bảo lưu.",
+                "opts": [
+                  "reservation",
+                  "concession",
+                  "deadlock"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The talks reached a ___ when both sides refused to move.",
+                "ans": [
+                  0
+                ],
+                "tip": "dead + lock.",
+                "why": "**deadlock** = bế tắc.",
+                "opts": [
+                  "deadlock",
+                  "breakthrough",
+                  "declaration"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "In a ___ solution, both sides gain something.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**win-win** = đôi bên cùng có lợi.",
+                "opts": [
+                  "win-win",
+                  "binding",
+                  "draft"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "convention",
+                "b": "a formal agreement on a specific topic, often between many states",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "article",
+                "b": "a numbered section of a treaty",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "customary law",
+                "b": "rules that become law because states follow them consistently",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "International Court of Justice (ICJ)",
+                "b": "the main judicial organ of the United Nations",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "violation",
+                "b": "an action that breaks a rule or an agreement",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "memorandum of understanding (MOU)",
+                "b": "a document that records a non-binding understanding between parties",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "concession",
+                "b": "something that a party gives up in order to reach an agreement",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "good faith",
+                "b": "an honest intention to keep an agreement",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: must, have to, don't have to, mustn't, should.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "States ___ respect the sovereignty of other states. It is a basic rule of international law.",
+                "ans": [
+                  2
+                ],
+                "tip": "Bắt buộc → must.",
+                "why": "Quy tắc cơ bản → **must**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "must"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A signatory ___ ratify the treaty immediately. It has several years to do so.",
+                "ans": [
+                  1
+                ],
+                "tip": "don't/doesn't have to = không cần.",
+                "why": "Không bắt buộc ngay → **doesn't have to**.",
+                "opts": [
+                  "must",
+                  "doesn't have to",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Countries ___ use force against another state's territory, except in self-defence.",
+                "ans": [
+                  0
+                ],
+                "tip": "mustn't = cấm.",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "mustn't",
+                  "don't have to",
+                  "should"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I think negotiators ___ prepare a clear agenda before the talks.",
+                "ans": [
+                  1
+                ],
+                "tip": "should = lời khuyên.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "mustn't",
+                  "should",
+                  "don't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A state that ratifies a treaty ___ comply with it.",
+                "ans": [
+                  1
+                ],
+                "tip": "has to = bắt buộc (ngôi thứ ba số ít).",
+                "why": "Bắt buộc → **has to**.",
+                "opts": [
+                  "mustn't",
+                  "has to",
+                  "doesn't have to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Delegates ___ interrupt the speaker. It is against the rules of procedure.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Bị cấm → **mustn't**.",
+                "opts": [
+                  "have to",
+                  "mustn't",
+                  "should"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền từ đúng",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The parties ___ act in good faith. It is required by the treaty.",
+                "ans": [
+                  [
+                    "must",
+                    "have to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Bắt buộc → **must / have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Observers ___ vote. They can only attend the meeting.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "can't",
+                    "cannot"
+                  ]
+                ],
+                "tip": "",
+                "why": "Không được phép → **mustn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ sign the memorandum today, but it would be better.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't",
+                    "need not"
+                  ]
+                ],
+                "tip": "",
+                "why": "Không bắt buộc → **don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The delegation ___ report to the foreign minister after the talks. It is the rule.",
+                "ans": [
+                  [
+                    "must",
+                    "has to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Quy định → **must / has to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The negotiators ___ consider a compromise. It might break the deadlock.",
+                "ans": [
+                  [
+                    "should",
+                    "ought to"
+                  ]
+                ],
+                "tip": "",
+                "why": "Lời khuyên → **should**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · How a treaty is made",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A treaty is a binding agreement between states. The process usually starts with negotiation. Delegations must prepare an agenda, and they have to agree on the text article by article. Both sides should make concessions, because a win-win outcome is more likely to last. If talks reach a deadlock, a mediator may help.\n\nAfter the negotiation, the text is signed by the representatives of the states, who are then called signatories. Signature alone does not bind a state. The treaty usually has to be ratified by the parliament or another national body. A state that was not involved at the beginning can accede later. Some states make a reservation to exclude a provision.\n\nThe treaty enters into force when the required number of states have ratified it. From then on, the parties must act in good faith, and they mustn't violate its rules. Disputes may be brought before the International Court of Justice.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Delegations have to agree on the text article by article.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thống nhất văn bản từng điều một."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Signature alone always makes a treaty binding.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chữ ký không đủ; thường cần phê chuẩn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A state that did not take part in the negotiation can accede later.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: quốc gia không tham gia ban đầu có thể gia nhập sau."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Parties to a treaty are free to violate its rules.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: các bên **không được** vi phạm (mustn't violate)."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why should both sides make concessions?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: kết quả đôi bên cùng có lợi bền vững hơn.",
+                "opts": [
+                  "A win-win outcome is more likely to last",
+                  "It makes the treaty shorter",
+                  "It removes the need for ratification"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who may help if talks reach a deadlock?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hòa giải viên có thể giúp.",
+                "opts": [
+                  "A mediator",
+                  "A signatory",
+                  "A consul"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do some states do with a reservation?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bảo lưu để loại trừ một điều khoản.",
+                "opts": [
+                  "Sign the treaty twice",
+                  "Exclude a provision",
+                  "Elect a mediator"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When does a treaty enter into force?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: khi đủ số quốc gia phê chuẩn.",
+                "opts": [
+                  "When the required number of states have ratified it",
+                  "As soon as it is signed",
+                  "When the ICJ approves it"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Security, Conflict & Sanctions",
+      "name_vi": "An ninh, xung đột & trừng phạt",
+      "icon": "🛡️",
+      "hue": 350,
+      "words": [
+        {
+          "en": "security",
+          "vi": "an ninh"
+        },
+        {
+          "en": "threat",
+          "vi": "mối đe dọa"
+        },
+        {
+          "en": "deterrence",
+          "vi": "sự răn đe"
+        },
+        {
+          "en": "arms race",
+          "vi": "chạy đua vũ trang"
+        },
+        {
+          "en": "disarmament",
+          "vi": "giải trừ quân bị"
+        },
+        {
+          "en": "non-proliferation",
+          "vi": "không phổ biến (vũ khí)"
+        },
+        {
+          "en": "terrorism",
+          "vi": "chủ nghĩa khủng bố"
+        },
+        {
+          "en": "insurgency",
+          "vi": "cuộc nổi dậy vũ trang"
+        },
+        {
+          "en": "civil war",
+          "vi": "nội chiến"
+        },
+        {
+          "en": "invasion",
+          "vi": "cuộc xâm lược"
+        },
+        {
+          "en": "occupation",
+          "vi": "sự chiếm đóng"
+        },
+        {
+          "en": "aggression",
+          "vi": "hành vi xâm lược, gây hấn"
+        },
+        {
+          "en": "intervention",
+          "vi": "sự can thiệp"
+        },
+        {
+          "en": "sanctions",
+          "vi": "các biện pháp trừng phạt"
+        },
+        {
+          "en": "embargo",
+          "vi": "lệnh cấm vận"
+        },
+        {
+          "en": "blockade",
+          "vi": "phong tỏa"
+        },
+        {
+          "en": "escalation",
+          "vi": "sự leo thang"
+        },
+        {
+          "en": "de-escalation",
+          "vi": "sự hạ nhiệt, giảm leo thang"
+        },
+        {
+          "en": "peace talks",
+          "vi": "cuộc đàm phán hòa bình"
+        },
+        {
+          "en": "peacekeeper",
+          "vi": "lực lượng gìn giữ hòa bình"
+        },
+        {
+          "en": "refugee",
+          "vi": "người tị nạn"
+        },
+        {
+          "en": "casualty",
+          "vi": "thương vong, nạn nhân"
+        },
+        {
+          "en": "military",
+          "vi": "quân đội, quân sự"
+        },
+        {
+          "en": "defence",
+          "vi": "quốc phòng"
+        },
+        {
+          "en": "cyber attack",
+          "vi": "tấn công mạng"
+        },
+        {
+          "en": "espionage",
+          "vi": "hoạt động gián điệp"
+        },
+        {
+          "en": "intelligence",
+          "vi": "tình báo"
+        },
+        {
+          "en": "stability",
+          "vi": "sự ổn định"
+        },
+        {
+          "en": "tension",
+          "vi": "sự căng thẳng"
+        },
+        {
+          "en": "crisis",
+          "vi": "khủng hoảng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Something that may cause harm to a country is a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**threat** = mối đe dọa.",
+                "opts": [
+                  "stability",
+                  "threat",
+                  "intelligence"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the policy of keeping strong forces so that an enemy does not dare to attack.",
+                "ans": [
+                  1
+                ],
+                "tip": "deter = ngăn chặn.",
+                "why": "**Deterrence** = răn đe.",
+                "opts": [
+                  "Disarmament",
+                  "Deterrence",
+                  "Espionage"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the reduction or elimination of weapons.",
+                "ans": [
+                  2
+                ],
+                "tip": "dis- + arm = tước vũ khí.",
+                "why": "**Disarmament** = giải trừ quân bị.",
+                "opts": [
+                  "Aggression",
+                  "Insurgency",
+                  "Disarmament"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a person who has to leave their country because of war or persecution.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**refugee** = người tị nạn.",
+                "opts": [
+                  "casualty",
+                  "peacekeeper",
+                  "refugee"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Several countries imposed ___ on the state, banning trade in certain goods.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**sanctions** = trừng phạt.",
+                "opts": [
+                  "tension",
+                  "stability",
+                  "sanctions"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Withdrawing troops was a step towards ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "de- = giảm.",
+                "why": "**de-escalation** = giảm leo thang.",
+                "opts": [
+                  "escalation",
+                  "invasion",
+                  "de-escalation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The secret gathering of information about another country is ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "spy = điệp viên.",
+                "why": "**espionage** = gián điệp.",
+                "opts": [
+                  "terrorism",
+                  "espionage",
+                  "blockade"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is the closing of a country's ports by military forces to prevent trade.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**blockade** = phong tỏa.",
+                "opts": [
+                  "blockade",
+                  "occupation",
+                  "deterrence"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "arms race",
+                "b": "competition between states to build more or better weapons",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "non-proliferation",
+                "b": "efforts to stop the spread of weapons, especially nuclear weapons",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "insurgency",
+                "b": "an organized armed rebellion against a government",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "invasion",
+                "b": "the entry of military forces into another country",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "intervention",
+                "b": "action by one state to interfere in the affairs of another",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "peace talks",
+                "b": "negotiations to end a conflict",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cyber attack",
+                "b": "an attempt to damage or steal data from computer networks",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "civil war",
+                "b": "a war between groups within the same country",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: loại 1 (If + hiện tại, will + V) và loại 2 (If + quá khứ, would + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the two sides ___ to talk, tension will fall.",
+                "ans": [
+                  0
+                ],
+                "tip": "Loại 1: If + hiện tại.",
+                "why": "Loại 1 → **agree**.",
+                "opts": [
+                  "agree",
+                  "will agree",
+                  "agreed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the Council imposed sanctions, the economy ___ badly.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 2: If + quá khứ, would + V.",
+                "why": "Giả định → **would suffer**.",
+                "opts": [
+                  "will suffer",
+                  "suffered",
+                  "would suffer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the ceasefire holds, aid convoys ___ the city.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: will + V.",
+                "why": "Loại 1 → **will reach**.",
+                "opts": [
+                  "would reach",
+                  "reached",
+                  "will reach"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If I were the foreign minister, I ___ a summit.",
+                "ans": [
+                  0
+                ],
+                "tip": "If I were...",
+                "why": "Loại 2 → **would call**.",
+                "opts": [
+                  "would call",
+                  "will call",
+                  "called"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would happen if the alliance ___ apart?",
+                "ans": [
+                  1
+                ],
+                "tip": "would → If + quá khứ.",
+                "why": "Loại 2 → **fell**.",
+                "opts": [
+                  "falls",
+                  "fell",
+                  "will fall"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If tensions ___, the crisis will escalate.",
+                "ans": [
+                  2
+                ],
+                "tip": "Mệnh đề If không dùng will.",
+                "why": "Loại 1 → **rise**.",
+                "opts": [
+                  "will rise",
+                  "would rise",
+                  "rise"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the talks fail, the conflict ___ (escalate).",
+                "ans": [
+                  [
+                    "will escalate",
+                    "'ll escalate"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **will escalate**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the country ___ (withdraw) its troops, the crisis would end.",
+                "ans": [
+                  [
+                    "withdrew"
+                  ]
+                ],
+                "tip": "Loại 2: If + quá khứ.",
+                "why": "Loại 2 → **withdrew**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If sanctions ___ (work), the government will change its policy.",
+                "ans": [
+                  [
+                    "work"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 1 → **work**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If I ___ (be) the president, I would offer peace talks.",
+                "ans": [
+                  [
+                    "were",
+                    "was"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **were** (hoặc was)."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The state would not attack if it ___ (face) strong deterrence.",
+                "ans": [
+                  [
+                    "faced"
+                  ]
+                ],
+                "tip": "",
+                "why": "Loại 2 → **faced**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Preventing a crisis",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Imagine that two neighbouring states are in a serious crisis over a border area. Tension is rising, and both armies are moving troops. If the situation escalates, a military conflict may begin, and thousands of civilians will become refugees.\n\nWhat can the international community do? If diplomats act quickly, they can organise peace talks. The United Nations may send peacekeepers if the parties accept a ceasefire. Other states can use sanctions or an embargo to put pressure on the aggressor, although these measures do not always work. If the great powers cooperated more closely, many crises would be easier to solve.\n\nIn the long term, deterrence, disarmament and non-proliferation reduce the risk of war. Intelligence services also help governments understand threats early. But experts agree that stability depends mainly on trust: if states trusted each other more, they would spend less on weapons.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "If a crisis escalates, a military conflict may begin.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: nếu leo thang, xung đột quân sự có thể bắt đầu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Sanctions always succeed in stopping aggression.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: các biện pháp này không phải lúc nào cũng hiệu quả."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The UN may send peacekeepers if the parties accept a ceasefire.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: LHQ có thể cử lực lượng gìn giữ hòa bình."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Experts say that stability depends mainly on weapons.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: ổn định phụ thuộc chủ yếu vào **niềm tin**."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What will happen to civilians if the situation escalates?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hàng nghìn dân thường sẽ thành người tị nạn.",
+                "opts": [
+                  "Thousands will become refugees",
+                  "They will become peacekeepers",
+                  "They will sign a ceasefire"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can diplomats organise if they act quickly?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đàm phán hòa bình.",
+                "opts": [
+                  "An arms race",
+                  "Peace talks",
+                  "An invasion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What would happen if the great powers cooperated more closely?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nhiều cuộc khủng hoảng sẽ dễ giải quyết hơn.",
+                "opts": [
+                  "Sanctions would be impossible",
+                  "Armies would grow",
+                  "Many crises would be easier to solve"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does stability depend on, according to experts?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: niềm tin giữa các quốc gia.",
+                "opts": [
+                  "Larger armies",
+                  "Intelligence services alone",
+                  "Trust between states"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Global Issues & International Cooperation",
+      "name_vi": "Vấn đề toàn cầu & hợp tác quốc tế",
+      "icon": "🌱",
+      "hue": 120,
+      "words": [
+        {
+          "en": "climate change",
+          "vi": "biến đổi khí hậu"
+        },
+        {
+          "en": "emissions",
+          "vi": "khí thải"
+        },
+        {
+          "en": "carbon neutrality",
+          "vi": "trung hòa carbon"
+        },
+        {
+          "en": "renewable energy",
+          "vi": "năng lượng tái tạo"
+        },
+        {
+          "en": "sustainable development",
+          "vi": "phát triển bền vững"
+        },
+        {
+          "en": "human rights",
+          "vi": "nhân quyền"
+        },
+        {
+          "en": "humanitarian crisis",
+          "vi": "khủng hoảng nhân đạo"
+        },
+        {
+          "en": "pandemic",
+          "vi": "đại dịch"
+        },
+        {
+          "en": "migration",
+          "vi": "di cư"
+        },
+        {
+          "en": "poverty",
+          "vi": "nghèo đói"
+        },
+        {
+          "en": "inequality",
+          "vi": "bất bình đẳng"
+        },
+        {
+          "en": "development aid",
+          "vi": "viện trợ phát triển"
+        },
+        {
+          "en": "foreign direct investment (FDI)",
+          "vi": "đầu tư trực tiếp nước ngoài"
+        },
+        {
+          "en": "free trade",
+          "vi": "thương mại tự do"
+        },
+        {
+          "en": "trade deficit",
+          "vi": "thâm hụt thương mại"
+        },
+        {
+          "en": "cybersecurity",
+          "vi": "an ninh mạng"
+        },
+        {
+          "en": "global governance",
+          "vi": "quản trị toàn cầu"
+        },
+        {
+          "en": "food security",
+          "vi": "an ninh lương thực"
+        },
+        {
+          "en": "water scarcity",
+          "vi": "khan hiếm nước"
+        },
+        {
+          "en": "biodiversity",
+          "vi": "đa dạng sinh học"
+        },
+        {
+          "en": "vaccine",
+          "vi": "vắc-xin"
+        },
+        {
+          "en": "transnational crime",
+          "vi": "tội phạm xuyên quốc gia"
+        },
+        {
+          "en": "capacity building",
+          "vi": "nâng cao năng lực"
+        },
+        {
+          "en": "partnership",
+          "vi": "quan hệ đối tác"
+        },
+        {
+          "en": "commitment",
+          "vi": "cam kết"
+        },
+        {
+          "en": "target",
+          "vi": "mục tiêu"
+        },
+        {
+          "en": "adaptation",
+          "vi": "thích ứng"
+        },
+        {
+          "en": "mitigation",
+          "vi": "giảm thiểu"
+        },
+        {
+          "en": "donor",
+          "vi": "nhà tài trợ"
+        },
+        {
+          "en": "beneficiary",
+          "vi": "bên thụ hưởng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ chuyên ngành phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The long-term change in the earth's climate is called ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**climate change** = biến đổi khí hậu.",
+                "opts": [
+                  "inequality",
+                  "climate change",
+                  "migration"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Gases from vehicles and factories that warm the planet are called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "emit = phát ra.",
+                "why": "**emissions** = khí thải.",
+                "opts": [
+                  "targets",
+                  "donors",
+                  "emissions"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Solar and wind power are examples of ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "renew = làm mới.",
+                "why": "**renewable energy** = năng lượng tái tạo.",
+                "opts": [
+                  "development aid",
+                  "carbon neutrality",
+                  "renewable energy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A country that has reached ___ removes as much carbon as it emits.",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "**carbon neutrality** = trung hòa carbon.",
+                "opts": [
+                  "capacity building",
+                  "biodiversity",
+                  "carbon neutrality"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the movement of people from one country to another.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "**Migration** = di cư.",
+                "opts": [
+                  "Poverty",
+                  "Migration",
+                  "Inequality"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "An outbreak of disease across the world is a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "pan- = toàn bộ.",
+                "why": "**pandemic** = đại dịch.",
+                "opts": [
+                  "adaptation",
+                  "pandemic",
+                  "partnership"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Building a factory in another country is an example of ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "**FDI** = đầu tư trực tiếp nước ngoài.",
+                "opts": [
+                  "foreign direct investment (FDI)",
+                  "trade deficit",
+                  "development aid"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A country has a ___ when it imports more than it exports.",
+                "ans": [
+                  2
+                ],
+                "tip": "deficit = thiếu hụt.",
+                "why": "**trade deficit** = thâm hụt thương mại.",
+                "opts": [
+                  "free trade",
+                  "donor",
+                  "trade deficit"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sustainable development",
+                "b": "growth that meets present needs without harming future generations",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "human rights",
+                "b": "basic rights and freedoms that belong to every person",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "inequality",
+                "b": "an unfair difference in wealth or opportunities",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "development aid",
+                "b": "money or help given to poorer countries",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "global governance",
+                "b": "the way international issues are managed by states and organizations",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "food security",
+                "b": "reliable access to enough safe and nutritious food",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "adaptation",
+                "b": "changes made to cope with the effects of climate change",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mitigation",
+                "b": "action to reduce the causes of climate change",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Delegates ___ a new climate target last year.",
+                "ans": [
+                  1
+                ],
+                "tip": "last year → quá khứ đơn.",
+                "why": "'last year' → **agreed**.",
+                "opts": [
+                  "have agreed",
+                  "agreed",
+                  "agree"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Global emissions ___ rapidly since 1950.",
+                "ans": [
+                  0
+                ],
+                "tip": "since → hiện tại hoàn thành.",
+                "why": "'since 1950' → **have risen**.",
+                "opts": [
+                  "have risen",
+                  "rose",
+                  "rise"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The pandemic ___ global supply chains in 2020.",
+                "ans": [
+                  2
+                ],
+                "tip": "Mốc xác định → quá khứ đơn.",
+                "why": "'in 2020' → **disrupted**.",
+                "opts": [
+                  "has disrupted",
+                  "disrupts",
+                  "disrupted"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The government ___ development aid to three countries so far this year.",
+                "ans": [
+                  2
+                ],
+                "tip": "so far → hiện tại hoàn thành.",
+                "why": "'so far this year' → **has provided**.",
+                "opts": [
+                  "provided",
+                  "provides",
+                  "has provided"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ the country been a member of the WTO?",
+                "ans": [
+                  2
+                ],
+                "tip": "How long + has + V3.",
+                "why": "Còn kéo dài đến nay → **has**.",
+                "opts": [
+                  "did",
+                  "does",
+                  "has"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The leaders ___ the declaration at the summit yesterday.",
+                "ans": [
+                  2
+                ],
+                "tip": "yesterday → quá khứ đơn.",
+                "why": "'yesterday' → **adopted**.",
+                "opts": [
+                  "have adopted",
+                  "adopt",
+                  "adopted"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the verb in brackets (past simple or present perfect).",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Last year, the donors ___ (increase) humanitarian aid.",
+                "ans": [
+                  [
+                    "increased"
+                  ]
+                ],
+                "tip": "last year → quá khứ đơn.",
+                "why": "'Last year' → **increased**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Poverty ___ (fall) in the region since 2000.",
+                "ans": [
+                  [
+                    "has fallen"
+                  ]
+                ],
+                "tip": "since → present perfect.",
+                "why": "'since 2000' → **has fallen**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The country ___ (not / reach) its emissions target yet.",
+                "ans": [
+                  [
+                    "hasn't reached",
+                    "has not reached"
+                  ]
+                ],
+                "tip": "yet → present perfect.",
+                "why": "'yet' → **hasn't reached**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Leaders ___ (meet) in Paris in 2015 to discuss climate change.",
+                "ans": [
+                  [
+                    "met"
+                  ]
+                ],
+                "tip": "in + năm → quá khứ đơn.",
+                "why": "'in 2015' → **met**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Many companies ___ (invest) in renewable energy in recent years.",
+                "ans": [
+                  [
+                    "have invested"
+                  ]
+                ],
+                "tip": "in recent years → present perfect.",
+                "why": "'in recent years' → **have invested**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Global problems, shared solutions",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "In the past few decades, the world has faced problems that no country can solve alone. Climate change is the clearest example. Global emissions have risen steadily since the industrial revolution, and extreme weather has caused heavy losses in many regions. Last year, leaders met at a climate summit and agreed to set stronger targets for renewable energy and carbon neutrality.\n\nOther challenges are linked to global inequality. The pandemic disrupted supply chains and showed how weak health systems can be. Poverty has fallen in many countries since 2000, but food security and water scarcity remain serious. Rich countries have provided development aid, and organizations have worked on capacity building in poorer states.\n\nForeign direct investment and free trade have created jobs, but they have also raised questions about human rights and the environment. As a result, many governments have started to discuss new rules for global governance.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Global emissions have risen steadily since the industrial revolution.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: khí thải tăng đều từ cách mạng công nghiệp."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Leaders agreed to set weaker targets at the climate summit.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: họ đồng ý đặt mục tiêu **mạnh hơn**."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The pandemic disrupted supply chains.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đại dịch làm gián đoạn chuỗi cung ứng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Poverty has increased in all countries since 2000.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nghèo đói đã giảm ở nhiều nước từ năm 2000."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did leaders agree to do at the climate summit?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đặt mục tiêu mạnh hơn về năng lượng tái tạo và trung hòa carbon.",
+                "opts": [
+                  "Stop all trade",
+                  "Set stronger targets for renewable energy and carbon neutrality",
+                  "Close the borders"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What did the pandemic show?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hệ thống y tế có thể yếu kém đến mức nào.",
+                "opts": [
+                  "That aid is not needed",
+                  "That emissions have fallen",
+                  "How weak health systems can be"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What have rich countries provided?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: viện trợ phát triển.",
+                "opts": [
+                  "Development aid",
+                  "Sanctions",
+                  "Peacekeepers"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What questions have FDI and free trade raised?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: các câu hỏi về nhân quyền và môi trường.",
+                "opts": [
+                  "Questions about the Secretariat",
+                  "Questions about ceasefire",
+                  "Questions about human rights and the environment"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "behave",
+      "cư xử, hành xử"
+    ],
+    [
+      "authority",
+      "thẩm quyền"
+    ],
+    [
+      "scholar",
+      "học giả"
+    ],
+    [
+      "theory",
+      "lý thuyết"
+    ],
+    [
+      "decisive",
+      "mang tính quyết định"
+    ],
+    [
+      "institution",
+      "thể chế"
+    ],
+    [
+      "attract",
+      "thu hút"
+    ],
+    [
+      "culture",
+      "văn hóa"
+    ],
+    [
+      "values",
+      "giá trị"
+    ],
+    [
+      "military strength",
+      "sức mạnh quân sự"
+    ],
+    [
+      "region",
+      "khu vực"
+    ],
+    [
+      "expensive",
+      "tốn kém"
+    ],
+    [
+      "explain",
+      "giải thích"
+    ],
+    [
+      "actor",
+      "chủ thể"
+    ],
+    [
+      "appoint",
+      "bổ nhiệm"
+    ],
+    [
+      "staff",
+      "nhân viên"
+    ],
+    [
+      "local employee",
+      "nhân viên địa phương"
+    ],
+    [
+      "official",
+      "quan chức"
+    ],
+    [
+      "assistance",
+      "sự hỗ trợ"
+    ],
+    [
+      "emergency",
+      "tình huống khẩn cấp"
+    ],
+    [
+      "protect",
+      "bảo vệ"
+    ],
+    [
+      "arrest",
+      "bắt giữ"
+    ],
+    [
+      "freely",
+      "một cách tự do"
+    ],
+    [
+      "ceremony",
+      "buổi lễ"
+    ],
+    [
+      "strict",
+      "nghiêm ngặt"
+    ],
+    [
+      "organise",
+      "tổ chức"
+    ],
+    [
+      "report",
+      "báo cáo"
+    ],
+    [
+      "task",
+      "nhiệm vụ"
+    ],
+    [
+      "represent",
+      "đại diện"
+    ],
+    [
+      "maintain",
+      "duy trì"
+    ],
+    [
+      "vote",
+      "phiếu bầu"
+    ],
+    [
+      "political",
+      "thuộc chính trị"
+    ],
+    [
+      "specialized",
+      "chuyên môn hóa"
+    ],
+    [
+      "day-to-day",
+      "hằng ngày"
+    ],
+    [
+      "flexible",
+      "linh hoạt"
+    ],
+    [
+      "create",
+      "thành lập"
+    ],
+    [
+      "almost",
+      "hầu như"
+    ],
+    [
+      "body",
+      "cơ quan"
+    ],
+    [
+      "support",
+      "hỗ trợ"
+    ],
+    [
+      "run",
+      "điều hành"
+    ],
+    [
+      "outcome",
+      "kết quả"
+    ],
+    [
+      "agree",
+      "đồng ý"
+    ],
+    [
+      "text",
+      "văn bản"
+    ],
+    [
+      "provision",
+      "điều khoản"
+    ],
+    [
+      "parliament",
+      "quốc hội"
+    ],
+    [
+      "original",
+      "ban đầu"
+    ],
+    [
+      "require",
+      "đòi hỏi"
+    ],
+    [
+      "involve",
+      "tham gia"
+    ],
+    [
+      "bring before",
+      "đưa ra trước (tòa)"
+    ],
+    [
+      "beginning",
+      "sự bắt đầu"
+    ],
+    [
+      "neighbouring",
+      "láng giềng"
+    ],
+    [
+      "army",
+      "quân đội"
+    ],
+    [
+      "troops",
+      "binh lính"
+    ],
+    [
+      "civilian",
+      "dân thường"
+    ],
+    [
+      "community",
+      "cộng đồng"
+    ],
+    [
+      "pressure",
+      "áp lực"
+    ],
+    [
+      "measure",
+      "biện pháp"
+    ],
+    [
+      "long term",
+      "dài hạn"
+    ],
+    [
+      "expert",
+      "chuyên gia"
+    ],
+    [
+      "trust",
+      "niềm tin"
+    ],
+    [
+      "spend",
+      "chi tiêu"
+    ],
+    [
+      "quickly",
+      "nhanh chóng"
+    ],
+    [
+      "aggressor",
+      "bên xâm lược"
+    ],
+    [
+      "serious",
+      "nghiêm trọng"
+    ],
+    [
+      "decade",
+      "thập kỷ"
+    ],
+    [
+      "steadily",
+      "đều đặn"
+    ],
+    [
+      "extreme weather",
+      "thời tiết cực đoan"
+    ],
+    [
+      "loss",
+      "tổn thất"
+    ],
+    [
+      "challenge",
+      "thách thức"
+    ],
+    [
+      "health system",
+      "hệ thống y tế"
+    ],
+    [
+      "weak",
+      "yếu"
+    ],
+    [
+      "create jobs",
+      "tạo việc làm"
+    ],
+    [
+      "environment",
+      "môi trường"
+    ],
+    [
+      "rule",
+      "quy tắc"
+    ],
+    [
+      "discuss",
+      "thảo luận"
+    ],
+    [
+      "linked",
+      "có liên quan"
+    ]
+  ]
+}

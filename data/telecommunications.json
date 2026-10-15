@@ -1,0 +1,4286 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "telecommunications",
+  "name": "Telecommunications",
+  "name_vi": "Viễn thông",
+  "icon": "📡",
+  "hue": 205,
+  "description": "Từ vựng, ngữ pháp và bài đọc chuyên ngành viễn thông: nền tảng mạng lưới, công nghệ di động & không dây (2G–5G), hạ tầng băng thông rộng & cáp quang, dịch vụ & chăm sóc khách hàng, vận hành & an ninh mạng, kinh doanh & quản lý nhà nước."
+ },
+ "units": [
+  {
+   "name": "Telecom Fundamentals & Networks",
+   "name_vi": "Nền tảng viễn thông & mạng lưới",
+   "icon": "📡",
+   "hue": 205,
+   "words": [
+    {
+     "en": "telecommunications",
+     "vi": "viễn thông"
+    },
+    {
+     "en": "telecom operator",
+     "vi": "nhà mạng viễn thông"
+    },
+    {
+     "en": "network",
+     "vi": "mạng lưới"
+    },
+    {
+     "en": "signal",
+     "vi": "tín hiệu"
+    },
+    {
+     "en": "transmission",
+     "vi": "truyền dẫn"
+    },
+    {
+     "en": "bandwidth",
+     "vi": "băng thông"
+    },
+    {
+     "en": "frequency",
+     "vi": "tần số"
+    },
+    {
+     "en": "spectrum",
+     "vi": "phổ tần"
+    },
+    {
+     "en": "analog",
+     "vi": "tương tự (analog)"
+    },
+    {
+     "en": "digital",
+     "vi": "kỹ thuật số"
+    },
+    {
+     "en": "wired",
+     "vi": "có dây"
+    },
+    {
+     "en": "wireless",
+     "vi": "không dây"
+    },
+    {
+     "en": "landline",
+     "vi": "điện thoại cố định"
+    },
+    {
+     "en": "subscriber",
+     "vi": "thuê bao"
+    },
+    {
+     "en": "handset",
+     "vi": "thiết bị đầu cuối cầm tay"
+    },
+    {
+     "en": "SIM card",
+     "vi": "thẻ SIM"
+    },
+    {
+     "en": "base station",
+     "vi": "trạm gốc"
+    },
+    {
+     "en": "cell tower",
+     "vi": "cột phát sóng"
+    },
+    {
+     "en": "antenna",
+     "vi": "ăng-ten"
+    },
+    {
+     "en": "coverage area",
+     "vi": "vùng phủ sóng"
+    },
+    {
+     "en": "switch",
+     "vi": "tổng đài chuyển mạch"
+    },
+    {
+     "en": "router",
+     "vi": "bộ định tuyến"
+    },
+    {
+     "en": "modem",
+     "vi": "bộ điều giải modem"
+    },
+    {
+     "en": "protocol",
+     "vi": "giao thức"
+    },
+    {
+     "en": "latency",
+     "vi": "độ trễ"
+    },
+    {
+     "en": "packet",
+     "vi": "gói dữ liệu"
+    },
+    {
+     "en": "data center",
+     "vi": "trung tâm dữ liệu"
+    },
+    {
+     "en": "cloud",
+     "vi": "điện toán đám mây"
+    },
+    {
+     "en": "satellite",
+     "vi": "vệ tinh"
+    },
+    {
+     "en": "submarine cable",
+     "vi": "cáp quang biển"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A company that provides mobile and internet services to the public is a ___.",
+        "ans": [
+         2
+        ],
+        "tip": "operate = vận hành.",
+        "why": "**telecom operator** = nhà mạng viễn thông.",
+        "opts": [
+         "protocol",
+         "antenna",
+         "telecom operator"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ measures how much data can pass through a connection per second.",
+        "ans": [
+         1
+        ],
+        "tip": "band + width = bề rộng của băng tần.",
+        "why": "**bandwidth** = băng thông, lượng dữ liệu truyền được mỗi giây.",
+        "opts": [
+         "latency",
+         "bandwidth",
+         "coverage area"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Video calls freeze when ___ is high because data arrives late.",
+        "ans": [
+         0
+        ],
+        "tip": "late → latency.",
+        "why": "**latency** = độ trễ, thời gian dữ liệu đi từ nơi gửi đến nơi nhận.",
+        "opts": [
+         "latency",
+         "frequency",
+         "handset"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a small piece of data sent across a network.",
+        "ans": [
+         0
+        ],
+        "tip": "packet = gói nhỏ.",
+        "why": "**packet** = gói dữ liệu.",
+        "opts": [
+         "packet",
+         "modem",
+         "switch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is the device that connects your home to the internet provider's line.",
+        "ans": [
+         2
+        ],
+        "tip": "mo(dulator) + dem(odulator).",
+        "why": "**modem** = thiết bị điều chế/giải điều chế tín hiệu.",
+        "opts": [
+         "antenna",
+         "SIM card",
+         "modem"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a tall structure carrying antennas that send and receive mobile signals.",
+        "ans": [
+         1
+        ],
+        "tip": "cell = ô phủ sóng.",
+        "why": "**cell tower** = cột phát sóng di động.",
+        "opts": [
+         "data center",
+         "cell tower",
+         "submarine cable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Phones connected by a fixed copper line are called ___ phones.",
+        "ans": [
+         1
+        ],
+        "tip": "land + line = đường dây trên đất liền.",
+        "why": "**landline** = điện thoại cố định.",
+        "opts": [
+         "wireless",
+         "landline",
+         "satellite"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Internet traffic between continents travels through a ___ on the sea floor.",
+        "ans": [
+         0
+        ],
+        "tip": "submarine = dưới biển.",
+        "why": "**submarine cable** = cáp quang biển.",
+        "opts": [
+         "submarine cable",
+         "base station",
+         "router"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "spectrum",
+        "b": "the range of radio frequencies used for communication",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "subscriber",
+        "b": "a customer who pays for a telecom service",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "coverage area",
+        "b": "the region where a network signal can be received",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "protocol",
+        "b": "a set of rules for how devices exchange data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "router",
+        "b": "a device that directs data between networks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "switch",
+        "b": "equipment that connects calls or data to the right destination",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "satellite",
+        "b": "a spacecraft that relays signals around the Earth",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "data center",
+        "b": "a facility that houses servers and network equipment",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The network ___ millions of calls every day.",
+        "ans": [
+         2
+        ],
+        "tip": "every day → V(s/es).",
+        "why": "'every day' = thói quen → **hiện tại đơn**: carries.",
+        "opts": [
+         "is carrying",
+         "carry",
+         "carries"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Right now, engineers ___ a new base station.",
+        "ans": [
+         2
+        ],
+        "tip": "now → be + V-ing.",
+        "why": "'Right now' = đang xảy ra → **are installing**.",
+        "opts": [
+         "install",
+         "installs",
+         "are installing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A router usually ___ data between devices.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "'usually' → hiện tại đơn, số ít: **directs**.",
+        "opts": [
+         "is directing",
+         "directs",
+         "direct"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! The signal ___ stronger as we get closer to the tower.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'Look!' báo hiệu thay đổi đang diễn ra → **is getting**.",
+        "opts": [
+         "is getting",
+         "gets",
+         "get"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our operator ___ coverage in rural areas this year.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'this year' = quá trình đang diễn ra → **is expanding**.",
+        "opts": [
+         "is expanding",
+         "expands",
+         "expand"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Light signals ___ through optical fibre at very high speed.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Sự thật khoa học, chủ ngữ số nhiều → hiện tại đơn: **travel**.",
+        "opts": [
+         "are travelling",
+         "travels",
+         "travel"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The antenna ___ (receive) signals from the tower.",
+        "ans": [
+         [
+          "receives"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "Sự thật chung, chủ ngữ số ít: **receives**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "At the moment, the operator ___ (upgrade) its network.",
+        "ans": [
+         [
+          "is upgrading",
+          "'s upgrading"
+         ]
+        ],
+        "tip": "be + V-ing.",
+        "why": "'At the moment' → **is upgrading**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Landlines ___ (not / need) batteries.",
+        "ans": [
+         [
+          "do not need",
+          "don't need"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ số nhiều: **do not need**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) as a network engineer.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the technicians ___ (test) the signal.",
+        "ans": [
+         [
+          "are testing",
+          "'re testing"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **are testing**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How a phone call travels",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When you make a phone call, your handset converts your voice into a digital signal. The signal travels through the air to the nearest base station, which is connected to a cell tower with an antenna. From there, the data is sent through cables to a switch, which finds the right destination.\n\nTelecommunications networks use both wired and wireless connections. Fibre cables carry large amounts of data over long distances, and submarine cables link different continents. In remote areas, a satellite sometimes provides the connection. Every operator uses a separate part of the radio spectrum, so that signals do not interfere with each other.\n\nNetwork quality depends on bandwidth and latency. High bandwidth allows more data to pass, and low latency means less delay, which is important for video calls. Operators also need data centers to store information and run cloud services for their subscribers.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A handset converts the voice into a digital signal.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thiết bị chuyển giọng nói thành tín hiệu số."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The signal first goes to a data center.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tín hiệu đi đến **trạm gốc** gần nhất trước."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Submarine cables link different continents.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cáp biển nối các châu lục."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Low latency means more delay.",
+        "ans": [
+         1
+        ],
+        "tip": "low latency = less delay.",
+        "why": "Đoạn 3: độ trễ thấp nghĩa là **ít** chậm trễ hơn."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the switch do?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tổng đài tìm đúng điểm đến cho dữ liệu.",
+        "opts": [
+         "Stores subscribers' photos",
+         "Finds the right destination for the data",
+         "Produces the radio spectrum"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When does a satellite sometimes provide the connection?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ở vùng sâu vùng xa.",
+        "opts": [
+         "Inside data centers",
+         "In remote areas",
+         "In every city"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is low latency important?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: độ trễ thấp giúp cuộc gọi video ít bị chậm.",
+        "opts": [
+         "It reduces delay in video calls",
+         "It makes handsets cheaper",
+         "It gives more spectrum"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do operators need data centers for?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: lưu trữ thông tin và chạy dịch vụ đám mây cho thuê bao.",
+        "opts": [
+         "To build handsets",
+         "To print SIM cards",
+         "To store information and run cloud services"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Mobile & Wireless Technology",
+   "name_vi": "Công nghệ di động & không dây",
+   "icon": "📱",
+   "hue": 280,
+   "words": [
+    {
+     "en": "mobile network",
+     "vi": "mạng di động"
+    },
+    {
+     "en": "generation (G)",
+     "vi": "thế hệ mạng di động"
+    },
+    {
+     "en": "GSM",
+     "vi": "hệ thống thông tin di động toàn cầu"
+    },
+    {
+     "en": "3G",
+     "vi": "mạng di động thế hệ thứ ba"
+    },
+    {
+     "en": "4G (LTE)",
+     "vi": "mạng di động thế hệ thứ tư"
+    },
+    {
+     "en": "5G",
+     "vi": "mạng di động thế hệ thứ năm"
+    },
+    {
+     "en": "mmWave",
+     "vi": "sóng milimet"
+    },
+    {
+     "en": "spectrum band",
+     "vi": "băng tần"
+    },
+    {
+     "en": "carrier aggregation",
+     "vi": "tổng hợp sóng mang"
+    },
+    {
+     "en": "MIMO",
+     "vi": "công nghệ đa ăng-ten"
+    },
+    {
+     "en": "beamforming",
+     "vi": "tạo búp sóng"
+    },
+    {
+     "en": "small cell",
+     "vi": "trạm phát sóng nhỏ"
+    },
+    {
+     "en": "macro cell",
+     "vi": "trạm phát sóng lớn"
+    },
+    {
+     "en": "network slicing",
+     "vi": "phân lát mạng"
+    },
+    {
+     "en": "edge computing",
+     "vi": "điện toán biên"
+    },
+    {
+     "en": "download speed",
+     "vi": "tốc độ tải xuống"
+    },
+    {
+     "en": "upload speed",
+     "vi": "tốc độ tải lên"
+    },
+    {
+     "en": "data rate",
+     "vi": "tốc độ dữ liệu"
+    },
+    {
+     "en": "throughput",
+     "vi": "thông lượng thực tế"
+    },
+    {
+     "en": "signal strength",
+     "vi": "cường độ tín hiệu"
+    },
+    {
+     "en": "dead zone",
+     "vi": "vùng mất sóng"
+    },
+    {
+     "en": "roaming",
+     "vi": "chuyển vùng"
+    },
+    {
+     "en": "handover",
+     "vi": "chuyển giao giữa các trạm"
+    },
+    {
+     "en": "Wi-Fi",
+     "vi": "mạng không dây Wi-Fi"
+    },
+    {
+     "en": "Bluetooth",
+     "vi": "kết nối Bluetooth"
+    },
+    {
+     "en": "NFC",
+     "vi": "giao tiếp tầm gần"
+    },
+    {
+     "en": "IoT",
+     "vi": "Internet vạn vật"
+    },
+    {
+     "en": "eSIM",
+     "vi": "SIM điện tử"
+    },
+    {
+     "en": "smartphone",
+     "vi": "điện thoại thông minh"
+    },
+    {
+     "en": "VoLTE",
+     "vi": "thoại qua mạng 4G"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When your phone moves from one cell to another during a call, this is called ___.",
+        "ans": [
+         2
+        ],
+        "tip": "hand over = trao lại.",
+        "why": "**handover** = chuyển giao cuộc gọi giữa các trạm.",
+        "opts": [
+         "roaming",
+         "throughput",
+         "handover"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Using your phone abroad on a foreign network is ___.",
+        "ans": [
+         1
+        ],
+        "tip": "roam = đi lang thang.",
+        "why": "**roaming** = chuyển vùng quốc tế.",
+        "opts": [
+         "handover",
+         "roaming",
+         "beamforming"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An area with no signal is a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "dead = chết.",
+        "why": "**dead zone** = vùng mất sóng.",
+        "opts": [
+         "dead zone",
+         "small cell",
+         "data rate"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a small base station used in crowded places to add capacity.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**small cell** = trạm nhỏ tăng dung lượng ở nơi đông người.",
+        "opts": [
+         "small cell",
+         "dead zone",
+         "eSIM"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ directs the radio signal toward the user instead of sending it everywhere.",
+        "ans": [
+         2
+        ],
+        "tip": "beam = chùm tia.",
+        "why": "**Beamforming** = tạo búp sóng hướng về người dùng.",
+        "opts": [
+         "Roaming",
+         "NFC",
+         "Beamforming"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Processing data close to the user to reduce delay is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "edge = rìa mạng.",
+        "why": "**edge computing** = điện toán biên, xử lý gần người dùng.",
+        "opts": [
+         "network slicing",
+         "edge computing",
+         "carrier aggregation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ is a digital SIM built into the phone, so you do not need a plastic card.",
+        "ans": [
+         1
+        ],
+        "tip": "e = electronic.",
+        "why": "**eSIM** = SIM điện tử tích hợp trong thiết bị.",
+        "opts": [
+         "NFC",
+         "eSIM",
+         "IoT"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ connects billions of devices such as sensors and smart meters.",
+        "ans": [
+         0
+        ],
+        "tip": "Internet of Things.",
+        "why": "**IoT** = Internet vạn vật.",
+        "opts": [
+         "IoT",
+         "VoLTE",
+         "mmWave"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "mmWave",
+        "b": "very high-frequency radio waves that give fast speeds over short distances",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "carrier aggregation",
+        "b": "combining several frequency bands to increase speed",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "MIMO",
+        "b": "using multiple antennas to send and receive more data",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "network slicing",
+        "b": "dividing one physical network into separate virtual networks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "throughput",
+        "b": "the amount of data actually delivered over a connection",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "signal strength",
+        "b": "how strong the received signal is",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "NFC",
+        "b": "short-range wireless technology used for contactless payments",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "VoLTE",
+        "b": "making voice calls over a 4G data network",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: so sánh hơn dùng -er/more + than; so sánh nhất dùng the + -est/most.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "5G is ___ than 4G.",
+        "ans": [
+         2
+        ],
+        "tip": "adj ngắn + -er + than.",
+        "why": "Tính từ ngắn: **faster than**.",
+        "opts": [
+         "more fast",
+         "fastest",
+         "faster"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This is ___ network in the country.",
+        "ans": [
+         2
+        ],
+        "tip": "the + adj-est.",
+        "why": "So sánh nhất tính từ ngắn: **the fastest**.",
+        "opts": [
+         "faster",
+         "more fast",
+         "the fastest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fibre is usually ___ than copper.",
+        "ans": [
+         1
+        ],
+        "tip": "adj dài + more + than.",
+        "why": "Tính từ dài: **more reliable than**.",
+        "opts": [
+         "reliabler",
+         "more reliable",
+         "most reliable"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The signal is ___ near the tower than inside the building.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn: **stronger than**.",
+        "opts": [
+         "stronger",
+         "more strong",
+         "strongest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "mmWave is not as good at passing through walls ___ lower frequencies.",
+        "ans": [
+         0
+        ],
+        "tip": "not as ... as.",
+        "why": "So sánh bằng phủ định: **not as good as**.",
+        "opts": [
+         "as",
+         "than",
+         "that"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "5G has ___ latency than 4G.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Tính từ ngắn: **lower than**.",
+        "opts": [
+         "more low",
+         "lowest",
+         "lower"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the correct comparative or superlative form.",
+     "instruction_vi": "Viết dạng so sánh hơn hoặc so sánh nhất của tính từ trong ngoặc.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Upload speed is usually ___ (slow) than download speed.",
+        "ans": [
+         [
+          "slower"
+         ]
+        ],
+        "tip": "adj ngắn + -er.",
+        "why": "Tính từ ngắn: **slower**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is the ___ (reliable) network in the region.",
+        "ans": [
+         [
+          "most reliable"
+         ]
+        ],
+        "tip": "the + most + adj dài.",
+        "why": "So sánh nhất tính từ dài: **most reliable**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Small cells make coverage ___ (good) in crowded areas.",
+        "ans": [
+         [
+          "better"
+         ]
+        ],
+        "tip": "good → better.",
+        "why": "Bất quy tắc: good → **better**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "5G devices are ___ (expensive) than 4G devices.",
+        "ans": [
+         [
+          "more expensive"
+         ]
+        ],
+        "tip": "",
+        "why": "Tính từ dài: **more expensive**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "That was the ___ (busy) day for our network.",
+        "ans": [
+         [
+          "busiest"
+         ]
+        ],
+        "tip": "busy → busiest.",
+        "why": "Tận cùng -y → -iest: **busiest**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From 2G to 5G",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Each new generation of mobile network is faster and more capable than the last. 2G, based on GSM, made digital voice calls and text messages possible. 3G added mobile internet, but speeds were slow. 4G, also called LTE, was much faster, so video streaming became easy on smartphones.\n\n5G is the fastest generation so far. It has lower latency, higher capacity and a greater ability to connect devices. Technologies such as MIMO and beamforming use many antennas to send signals more efficiently. Millimetre wave, or mmWave, gives the highest speeds, but it covers a shorter distance than lower bands, so more small cells are needed.\n\nBecause of these advantages, 5G is more suitable for the Internet of Things, remote surgery and smart factories. However, building a 5G network is more expensive than upgrading 4G, so operators are covering cities first.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "3G was faster than 4G.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 4G nhanh hơn nhiều so với 3G."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "4G is also called LTE.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 4G còn gọi là LTE."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "mmWave covers a longer distance than lower bands.",
+        "ans": [
+         1
+        ],
+        "tip": "shorter ≠ longer.",
+        "why": "Đoạn 2: mmWave phủ **khoảng cách ngắn hơn** các băng thấp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Operators are covering cities first.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: các nhà mạng phủ sóng thành phố trước."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What did 2G make possible?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: 2G giúp có cuộc gọi thoại số và tin nhắn.",
+        "opts": [
+         "Video streaming",
+         "Digital voice calls and text messages",
+         "Remote surgery"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why are more small cells needed with mmWave?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: mmWave phủ gần hơn nên cần nhiều trạm nhỏ hơn.",
+        "opts": [
+         "It is slower than 3G",
+         "It covers a shorter distance",
+         "It uses no antennas"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do MIMO and beamforming do?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: dùng nhiều ăng-ten để gửi tín hiệu hiệu quả hơn.",
+        "opts": [
+         "Send signals more efficiently using many antennas",
+         "Replace SIM cards",
+         "Lower the price of handsets"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do operators cover cities first?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: xây 5G đắt hơn nâng cấp 4G nên họ phủ thành phố trước.",
+        "opts": [
+         "Cities have no 4G",
+         "5G needs no towers",
+         "Building 5G is more expensive than upgrading 4G"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Fixed-line, Broadband & Fibre Infrastructure",
+   "name_vi": "Hạ tầng băng thông rộng & cáp quang",
+   "icon": "🌐",
+   "hue": 150,
+   "words": [
+    {
+     "en": "broadband",
+     "vi": "băng thông rộng"
+    },
+    {
+     "en": "fibre optic cable",
+     "vi": "cáp quang"
+    },
+    {
+     "en": "copper cable",
+     "vi": "cáp đồng"
+    },
+    {
+     "en": "ADSL",
+     "vi": "đường dây thuê bao số bất đối xứng"
+    },
+    {
+     "en": "FTTH",
+     "vi": "cáp quang đến tận nhà"
+    },
+    {
+     "en": "last mile",
+     "vi": "chặng cuối đến khách hàng"
+    },
+    {
+     "en": "backbone network",
+     "vi": "mạng đường trục"
+    },
+    {
+     "en": "access network",
+     "vi": "mạng truy nhập"
+    },
+    {
+     "en": "core network",
+     "vi": "mạng lõi"
+    },
+    {
+     "en": "optical line terminal (OLT)",
+     "vi": "thiết bị đầu cuối đường quang"
+    },
+    {
+     "en": "optical network unit (ONU)",
+     "vi": "thiết bị mạng quang tại nhà khách"
+    },
+    {
+     "en": "splitter",
+     "vi": "bộ chia quang"
+    },
+    {
+     "en": "junction box",
+     "vi": "hộp nối cáp"
+    },
+    {
+     "en": "duct",
+     "vi": "ống luồn cáp"
+    },
+    {
+     "en": "manhole",
+     "vi": "hố ga cáp"
+    },
+    {
+     "en": "utility pole",
+     "vi": "cột treo cáp"
+    },
+    {
+     "en": "cable installation",
+     "vi": "lắp đặt cáp"
+    },
+    {
+     "en": "splicing",
+     "vi": "hàn nối sợi quang"
+    },
+    {
+     "en": "fibre cut",
+     "vi": "sự cố đứt cáp quang"
+    },
+    {
+     "en": "internet exchange point (IXP)",
+     "vi": "điểm trao đổi internet"
+    },
+    {
+     "en": "internet service provider (ISP)",
+     "vi": "nhà cung cấp dịch vụ internet"
+    },
+    {
+     "en": "IP address",
+     "vi": "địa chỉ IP"
+    },
+    {
+     "en": "DNS",
+     "vi": "hệ thống tên miền"
+    },
+    {
+     "en": "Ethernet",
+     "vi": "mạng Ethernet"
+    },
+    {
+     "en": "Wi-Fi router",
+     "vi": "bộ phát Wi-Fi"
+    },
+    {
+     "en": "fixed broadband",
+     "vi": "băng thông rộng cố định"
+    },
+    {
+     "en": "leased line",
+     "vi": "đường truyền thuê riêng"
+    },
+    {
+     "en": "VPN",
+     "vi": "mạng riêng ảo"
+    },
+    {
+     "en": "data traffic",
+     "vi": "lưu lượng dữ liệu"
+    },
+    {
+     "en": "uptime",
+     "vi": "thời gian hoạt động liên tục"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Thin glass strands that carry data as light are called ___.",
+        "ans": [
+         2
+        ],
+        "tip": "optic = quang học.",
+        "why": "**fibre optic cable** = cáp quang, truyền dữ liệu bằng ánh sáng.",
+        "opts": [
+         "copper cables",
+         "ducts",
+         "fibre optic cables"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "In ___ networks, fibre runs directly to the customer's home.",
+        "ans": [
+         1
+        ],
+        "tip": "Fibre To The Home.",
+        "why": "**FTTH** = cáp quang kéo đến tận nhà.",
+        "opts": [
+         "ADSL",
+         "FTTH",
+         "IXP"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The final section connecting the network to the customer is the ___.",
+        "ans": [
+         0
+        ],
+        "tip": "last = cuối.",
+        "why": "**last mile** = chặng cuối nối mạng đến khách hàng.",
+        "opts": [
+         "last mile",
+         "backbone",
+         "core network"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ network carries huge amounts of traffic between cities.",
+        "ans": [
+         0
+        ],
+        "tip": "backbone = xương sống.",
+        "why": "**backbone network** = mạng đường trục dung lượng lớn.",
+        "opts": [
+         "backbone",
+         "last mile",
+         "splitter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A technician used a special machine for ___ to join two fibre ends.",
+        "ans": [
+         2
+        ],
+        "tip": "splice = nối ghép.",
+        "why": "**splicing** = hàn nối hai đầu sợi quang.",
+        "opts": [
+         "duct",
+         "uptime",
+         "splicing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A construction accident caused a ___ and thousands of users lost internet.",
+        "ans": [
+         1
+        ],
+        "tip": "cut = đứt.",
+        "why": "**fibre cut** = sự cố đứt cáp quang.",
+        "opts": [
+         "splitter",
+         "fibre cut",
+         "DNS"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A company that sells internet access to homes is an ___.",
+        "ans": [
+         1
+        ],
+        "tip": "Internet Service Provider.",
+        "why": "**ISP** = nhà cung cấp dịch vụ internet.",
+        "opts": [
+         "IXP",
+         "ISP",
+         "VPN"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ translates website names into numerical IP addresses.",
+        "ans": [
+         0
+        ],
+        "tip": "Domain Name System.",
+        "why": "**DNS** = hệ thống phân giải tên miền.",
+        "opts": [
+         "DNS",
+         "VPN",
+         "Ethernet"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "backbone network",
+        "b": "the main high-capacity links that connect major cities and networks",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "splitter",
+        "b": "a device that divides one optical signal into several",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "manhole",
+        "b": "an underground opening used to reach cables",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "ADSL",
+        "b": "broadband technology that uses ordinary copper phone lines",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "leased line",
+        "b": "a private dedicated connection rented by a business",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "VPN",
+        "b": "a secure private connection over the public internet",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "uptime",
+        "b": "the percentage of time a network is working",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "IXP",
+        "b": "a place where different networks exchange internet traffic",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: thể bị động = be + V3/ed (chủ ngữ chịu tác động của hành động).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Fibre cables ___ under the street in plastic ducts.",
+        "ans": [
+         2
+        ],
+        "tip": "be + V3.",
+        "why": "Cáp 'được đặt' → bị động hiện tại đơn: **are laid**.",
+        "opts": [
+         "lay",
+         "are laying",
+         "are laid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The cable ___ by a construction crew yesterday.",
+        "ans": [
+         2
+        ],
+        "tip": "yesterday → was + V3.",
+        "why": "'yesterday' → bị động quá khứ đơn: **was damaged**.",
+        "opts": [
+         "damaged",
+         "is damaged",
+         "was damaged"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers' homes ___ to the network by technicians.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Nhà khách 'được kết nối' → **are connected**.",
+        "opts": [
+         "connect",
+         "are connected",
+         "are connecting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The new backbone ___ next year.",
+        "ans": [
+         0
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be completed**.",
+        "opts": [
+         "will be completed",
+         "will complete",
+         "is completing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Faults must ___ within four hours.",
+        "ans": [
+         0
+        ],
+        "tip": "modal + be + V3.",
+        "why": "Sau modal dùng **be + V3**: must be repaired.",
+        "opts": [
+         "be repaired",
+         "repair",
+         "repaired"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The two fibre ends ___ together carefully last night.",
+        "ans": [
+         2
+        ],
+        "tip": "last night → quá khứ.",
+        "why": "Bị động quá khứ: **were spliced**.",
+        "opts": [
+         "spliced",
+         "has spliced",
+         "were spliced"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the passive form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở thể bị động (be + V3/ed) với thì phù hợp.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The network ___ (monitor) 24 hours a day.",
+        "ans": [
+         [
+          "is monitored"
+         ]
+        ],
+        "tip": "be + V3/ed.",
+        "why": "Hiện tại đơn bị động: **is monitored**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The old copper lines ___ (replace) last year.",
+        "ans": [
+         [
+          "were replaced"
+         ]
+        ],
+        "tip": "",
+        "why": "'last year' → quá khứ bị động: **were replaced**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Data ___ (transmit) as pulses of light.",
+        "ans": [
+         [
+          "is transmitted"
+         ]
+        ],
+        "tip": "",
+        "why": "'data' dùng như số ít, hiện tại bị động: **is transmitted**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A new exchange ___ (build) next month.",
+        "ans": [
+         [
+          "will be built"
+         ]
+        ],
+        "tip": "will + be + V3.",
+        "why": "Tương lai bị động: **will be built**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Ten kilometres of cable ___ (install) yesterday.",
+        "ans": [
+         [
+          "were installed"
+         ]
+        ],
+        "tip": "",
+        "why": "'kilometres' số nhiều, quá khứ: **were installed**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Bringing fibre to a neighbourhood",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "In many cities, old copper lines are being replaced by fibre optic cable. First, the route is surveyed, and permission is given by the local authority. Ducts are dug under the pavement, and cables are laid inside them. Where there are no ducts, cables are hung on utility poles.\n\nAt the end of each street, a junction box is installed, and the signal is divided by a splitter so that many homes can be served. Each customer is then connected to the access network by a thin cable, and an ONU is placed in the home. The fibre ends are joined by splicing, and every joint is tested with special equipment.\n\nThe access network is linked to the backbone through an optical line terminal, and traffic is exchanged with other networks at an internet exchange point. If a fibre cut occurs, the fault is located quickly and repaired, so that high uptime is maintained.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Old copper lines are being replaced by fibre.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: cáp đồng cũ đang được thay bằng cáp quang."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Cables are never hung on utility poles.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: nơi không có ống luồn, cáp được **treo trên cột**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The signal is divided by a splitter.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: bộ chia quang chia tín hiệu cho nhiều nhà."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A fibre cut cannot be repaired.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sự cố được xác định nhanh và **sửa chữa**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who gives permission for the work?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: chính quyền địa phương cấp phép.",
+        "opts": [
+         "The customer",
+         "The local authority",
+         "The splitter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How are the fibre ends joined?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: các đầu sợi quang được hàn nối.",
+        "opts": [
+         "By drilling",
+         "By splicing",
+         "By painting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What is placed in the home?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: một thiết bị ONU được đặt trong nhà.",
+        "opts": [
+         "An ONU",
+         "A manhole",
+         "A backbone"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is a fault repaired quickly?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: để duy trì thời gian hoạt động liên tục cao.",
+        "opts": [
+         "To reduce the number of ducts",
+         "To increase the number of splitters",
+         "To maintain high uptime"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Telecom Services, Plans & Customer Care",
+   "name_vi": "Dịch vụ, gói cước & chăm sóc khách hàng",
+   "icon": "☎️",
+   "hue": 40,
+   "words": [
+    {
+     "en": "service plan",
+     "vi": "gói cước"
+    },
+    {
+     "en": "prepaid",
+     "vi": "trả trước"
+    },
+    {
+     "en": "postpaid",
+     "vi": "trả sau"
+    },
+    {
+     "en": "top-up",
+     "vi": "nạp tiền"
+    },
+    {
+     "en": "data allowance",
+     "vi": "dung lượng dữ liệu của gói"
+    },
+    {
+     "en": "unlimited data",
+     "vi": "dữ liệu không giới hạn"
+    },
+    {
+     "en": "fair usage policy",
+     "vi": "chính sách sử dụng hợp lý"
+    },
+    {
+     "en": "monthly fee",
+     "vi": "cước hàng tháng"
+    },
+    {
+     "en": "bundle",
+     "vi": "gói dịch vụ trọn gói"
+    },
+    {
+     "en": "call charge",
+     "vi": "cước gọi"
+    },
+    {
+     "en": "roaming charge",
+     "vi": "cước chuyển vùng"
+    },
+    {
+     "en": "SMS",
+     "vi": "tin nhắn văn bản"
+    },
+    {
+     "en": "voicemail",
+     "vi": "hộp thư thoại"
+    },
+    {
+     "en": "number portability",
+     "vi": "chuyển mạng giữ số"
+    },
+    {
+     "en": "contract term",
+     "vi": "thời hạn hợp đồng"
+    },
+    {
+     "en": "early termination fee",
+     "vi": "phí chấm dứt hợp đồng sớm"
+    },
+    {
+     "en": "activation",
+     "vi": "việc kích hoạt"
+    },
+    {
+     "en": "SIM registration",
+     "vi": "đăng ký thông tin SIM"
+    },
+    {
+     "en": "billing cycle",
+     "vi": "chu kỳ tính cước"
+    },
+    {
+     "en": "itemized bill",
+     "vi": "hóa đơn chi tiết"
+    },
+    {
+     "en": "overdue payment",
+     "vi": "khoản thanh toán quá hạn"
+    },
+    {
+     "en": "service suspension",
+     "vi": "tạm ngừng dịch vụ"
+    },
+    {
+     "en": "customer care",
+     "vi": "chăm sóc khách hàng"
+    },
+    {
+     "en": "hotline",
+     "vi": "đường dây nóng"
+    },
+    {
+     "en": "service outage",
+     "vi": "sự cố gián đoạn dịch vụ"
+    },
+    {
+     "en": "complaint",
+     "vi": "khiếu nại"
+    },
+    {
+     "en": "compensation",
+     "vi": "bồi thường"
+    },
+    {
+     "en": "promotion",
+     "vi": "chương trình khuyến mãi"
+    },
+    {
+     "en": "loyalty reward",
+     "vi": "ưu đãi khách hàng thân thiết"
+    },
+    {
+     "en": "caller ID",
+     "vi": "hiển thị số gọi đến"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "With a ___ plan, you pay in advance and use only the credit you have.",
+        "ans": [
+         2
+        ],
+        "tip": "pre = trước.",
+        "why": "**prepaid** = trả trước.",
+        "opts": [
+         "postpaid",
+         "bundle",
+         "prepaid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "After you use up your ___, your internet speed is reduced.",
+        "ans": [
+         1
+        ],
+        "tip": "allowance = phần được cấp.",
+        "why": "**data allowance** = dung lượng dữ liệu của gói.",
+        "opts": [
+         "voicemail",
+         "data allowance",
+         "activation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You must make a ___ when your balance is low.",
+        "ans": [
+         0
+        ],
+        "tip": "top up = đổ đầy.",
+        "why": "**top-up** = nạp thêm tiền vào tài khoản.",
+        "opts": [
+         "top-up",
+         "complaint",
+         "caller ID"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ shows every call and text with its cost.",
+        "ans": [
+         0
+        ],
+        "tip": "item = từng khoản mục.",
+        "why": "**itemized bill** = hóa đơn chi tiết từng khoản.",
+        "opts": [
+         "itemized bill",
+         "voicemail",
+         "billing cycle"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Cancelling the contract before it ends means paying an ___.",
+        "ans": [
+         2
+        ],
+        "tip": "terminate = chấm dứt.",
+        "why": "**early termination fee** = phí chấm dứt hợp đồng sớm.",
+        "opts": [
+         "activation",
+         "promotion",
+         "early termination fee"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ lets you keep your phone number when you change operator.",
+        "ans": [
+         1
+        ],
+        "tip": "port = chuyển đi.",
+        "why": "**Number portability** = chuyển mạng giữ số.",
+        "opts": [
+         "SIM registration",
+         "Number portability",
+         "Roaming charge"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The operator suspended the line because of an ___.",
+        "ans": [
+         1
+        ],
+        "tip": "overdue = quá hạn.",
+        "why": "**overdue payment** = khoản thanh toán quá hạn.",
+        "opts": [
+         "itemized bill",
+         "overdue payment",
+         "loyalty reward"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The network was down for six hours, so customers asked for ___.",
+        "ans": [
+         0
+        ],
+        "tip": "compensate = đền bù.",
+        "why": "**compensation** = bồi thường.",
+        "opts": [
+         "compensation",
+         "activation",
+         "top-up"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "postpaid",
+        "b": "a plan where you use services first and pay a bill later",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "fair usage policy",
+        "b": "a rule that limits heavy use of 'unlimited' services",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bundle",
+        "b": "several services sold together at one price",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "billing cycle",
+        "b": "the regular period for which a customer is charged",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "service suspension",
+        "b": "a temporary stop of a customer's service",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "service outage",
+        "b": "a period when a service is not working",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "SIM registration",
+        "b": "giving personal ID to link a SIM card to its owner",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "customer care",
+        "b": "the department that helps customers with problems and questions",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must/have to = bắt buộc; mustn't = cấm; don't have to = không cần; should = nên.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers ___ register their SIM with a valid ID. It is the law.",
+        "ans": [
+         2
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy định pháp luật → bắt buộc: **must**.",
+        "opts": [
+         "might",
+         "may",
+         "must"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "You ___ share your OTP with anyone. It is dangerous.",
+        "ans": [
+         2
+        ],
+        "tip": "must not = cấm.",
+        "why": "Nguy hiểm → cấm tuyệt đối: **must not**.",
+        "opts": [
+         "don't have to",
+         "should",
+         "must not"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Prepaid customers ___ sign a long-term contract.",
+        "ans": [
+         1
+        ],
+        "tip": "don't have to = không cần.",
+        "why": "Trả trước không cần ký hợp đồng dài hạn → **don't have to**.",
+        "opts": [
+         "must",
+         "don't have to",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ check your data allowance before travelling.",
+        "ans": [
+         0
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Gợi ý hợp lý → **should**.",
+        "opts": [
+         "should",
+         "must not",
+         "don't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Subscribers ___ pay their bill before the due date to avoid suspension.",
+        "ans": [
+         0
+        ],
+        "tip": "have to = bắt buộc.",
+        "why": "Điều kiện bắt buộc → **have to**.",
+        "opts": [
+         "have to",
+         "can",
+         "might"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Do I ___ pay a fee to change operator?",
+        "ans": [
+         2
+        ],
+        "tip": "Do/Does + S + have to + V.",
+        "why": "Câu hỏi với have to mượn trợ động từ Do: **Do I have to**.",
+        "opts": [
+         "must",
+         "should to",
+         "have to"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu hợp nghĩa (nội dung trong ngoặc là gợi ý).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Operators ___ protect customers' personal data. (obligation)",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Bắt buộc: **must** hoặc **have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ use the hotline; the app also works. (no necessity)",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết: **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Customers ___ share their account password. (prohibition)",
+        "ans": [
+         [
+          "must not",
+          "mustn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Cấm: **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think you ___ compare several plans first. (advice)",
+        "ans": [
+         [
+          "should"
+         ]
+        ],
+        "tip": "",
+        "why": "Lời khuyên: **should**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Staff ___ answer every complaint within 24 hours. It is company policy. (obligation)",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định công ty: **must** hoặc **have to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Choosing a mobile plan",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Binh is choosing a new mobile plan. First, he has to decide between prepaid and postpaid. A prepaid plan is flexible: he doesn't have to sign a contract, and he can top up whenever he wants. A postpaid plan usually offers more data, but he must pay a monthly fee and he has to stay for the full contract term, or he will pay an early termination fee.\n\nBinh must register his SIM with his ID, because this is required by law. He should also check the data allowance and the fair usage policy: an unlimited plan may slow down after heavy use. Because he travels often, he should compare roaming charges too.\n\nIf something goes wrong, Binh can call the hotline or use the app. The operator must answer every complaint quickly, and customers may ask for compensation after a long service outage. He mustn't share his OTP with anyone, even if someone claims to be from customer care.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Binh doesn't have to sign a contract for a prepaid plan.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: gói trả trước không cần ký hợp đồng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Postpaid customers can leave at any time without a fee.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: rời sớm sẽ phải trả **phí chấm dứt hợp đồng sớm**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An unlimited plan may slow down after heavy use.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: gói không giới hạn có thể bị giảm tốc."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Binh can share his OTP with customer care.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Đoạn 3: anh **mustn't** chia sẻ OTP với bất kỳ ai."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must Binh do with his SIM?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phải đăng ký SIM bằng giấy tờ tùy thân.",
+        "opts": [
+         "Return it after a month",
+         "Register it with his ID",
+         "Give it to a friend"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why should Binh compare roaming charges?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: vì anh hay đi xa.",
+        "opts": [
+         "He never uses data",
+         "He travels often",
+         "He has a prepaid plan only"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When may customers ask for compensation?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sau một sự cố mất dịch vụ kéo dài.",
+        "opts": [
+         "After a long service outage",
+         "After every top-up",
+         "When they change a password"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What mustn't Binh share with anyone?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: anh không được chia sẻ mã OTP.",
+        "opts": [
+         "His plan name",
+         "His monthly fee",
+         "His OTP"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Network Operations, Quality & Security",
+   "name_vi": "Vận hành, chất lượng & an ninh mạng",
+   "icon": "🛠️",
+   "hue": 340,
+   "words": [
+    {
+     "en": "network operations center (NOC)",
+     "vi": "trung tâm điều hành mạng"
+    },
+    {
+     "en": "network monitoring",
+     "vi": "giám sát mạng"
+    },
+    {
+     "en": "alarm",
+     "vi": "cảnh báo"
+    },
+    {
+     "en": "fault",
+     "vi": "sự cố kỹ thuật"
+    },
+    {
+     "en": "outage",
+     "vi": "sự cố mất dịch vụ"
+    },
+    {
+     "en": "downtime",
+     "vi": "thời gian ngừng hoạt động"
+    },
+    {
+     "en": "redundancy",
+     "vi": "dự phòng (thiết bị/đường truyền)"
+    },
+    {
+     "en": "backup",
+     "vi": "sao lưu, dự phòng"
+    },
+    {
+     "en": "failover",
+     "vi": "tự động chuyển sang hệ dự phòng"
+    },
+    {
+     "en": "load balancing",
+     "vi": "cân bằng tải"
+    },
+    {
+     "en": "congestion",
+     "vi": "tắc nghẽn"
+    },
+    {
+     "en": "traffic peak",
+     "vi": "giờ cao điểm lưu lượng"
+    },
+    {
+     "en": "capacity planning",
+     "vi": "hoạch định dung lượng"
+    },
+    {
+     "en": "quality of service (QoS)",
+     "vi": "chất lượng dịch vụ"
+    },
+    {
+     "en": "service level agreement (SLA)",
+     "vi": "cam kết mức dịch vụ"
+    },
+    {
+     "en": "packet loss",
+     "vi": "mất gói tin"
+    },
+    {
+     "en": "jitter",
+     "vi": "rung pha (biến thiên độ trễ)"
+    },
+    {
+     "en": "drive test",
+     "vi": "đo kiểm chất lượng ngoài hiện trường"
+    },
+    {
+     "en": "troubleshooting",
+     "vi": "khắc phục sự cố"
+    },
+    {
+     "en": "maintenance window",
+     "vi": "khung giờ bảo trì"
+    },
+    {
+     "en": "firmware update",
+     "vi": "cập nhật phần mềm thiết bị"
+    },
+    {
+     "en": "firewall",
+     "vi": "tường lửa"
+    },
+    {
+     "en": "cyberattack",
+     "vi": "tấn công mạng"
+    },
+    {
+     "en": "DDoS attack",
+     "vi": "tấn công từ chối dịch vụ"
+    },
+    {
+     "en": "malware",
+     "vi": "phần mềm độc hại"
+    },
+    {
+     "en": "phishing",
+     "vi": "lừa đảo giả mạo"
+    },
+    {
+     "en": "spam call",
+     "vi": "cuộc gọi rác"
+    },
+    {
+     "en": "SIM swap fraud",
+     "vi": "gian lận hoán đổi SIM"
+    },
+    {
+     "en": "authentication",
+     "vi": "xác thực danh tính"
+    },
+    {
+     "en": "encryption",
+     "vi": "mã hóa"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Engineers in the ___ watch the whole network on big screens.",
+        "ans": [
+         2
+        ],
+        "tip": "operations = vận hành.",
+        "why": "**network operations center (NOC)** = trung tâm điều hành mạng.",
+        "opts": [
+         "maintenance window",
+         "drive test",
+         "network operations center"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Extra equipment that takes over when the main one fails provides ___.",
+        "ans": [
+         1
+        ],
+        "tip": "redundant = dư (để dự phòng).",
+        "why": "**redundancy** = dự phòng.",
+        "opts": [
+         "jitter",
+         "redundancy",
+         "phishing"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At 8 p.m. many people stream video, so there is ___ on the network.",
+        "ans": [
+         0
+        ],
+        "tip": "congest = làm tắc nghẽn.",
+        "why": "**congestion** = tắc nghẽn mạng.",
+        "opts": [
+         "congestion",
+         "failover",
+         "firmware"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ promises 99.9% uptime and compensation if the operator fails.",
+        "ans": [
+         0
+        ],
+        "tip": "Service Level Agreement.",
+        "why": "**SLA** = cam kết mức dịch vụ giữa nhà mạng và khách hàng.",
+        "opts": [
+         "SLA",
+         "jitter",
+         "firewall"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Calls sound broken when there is high ___ or packet loss.",
+        "ans": [
+         2
+        ],
+        "tip": "jitter = rung, giật.",
+        "why": "**jitter** = độ biến thiên của độ trễ, làm âm thanh bị vỡ.",
+        "opts": [
+         "redundancy",
+         "backup",
+         "jitter"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Technicians drive around with test equipment in a ___ to measure signal quality.",
+        "ans": [
+         1
+        ],
+        "tip": "drive = lái xe.",
+        "why": "**drive test** = đo kiểm chất lượng sóng ngoài hiện trường.",
+        "opts": [
+         "failover",
+         "drive test",
+         "SLA"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ blocks unauthorized traffic from entering the network.",
+        "ans": [
+         1
+        ],
+        "tip": "fire + wall = bức tường lửa.",
+        "why": "**firewall** = tường lửa.",
+        "opts": [
+         "load balancing",
+         "firewall",
+         "alarm"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Criminals flooded the servers with fake traffic in a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "Distributed Denial of Service.",
+        "why": "**DDoS attack** = tấn công làm quá tải máy chủ bằng lưu lượng giả.",
+        "opts": [
+         "DDoS attack",
+         "firmware update",
+         "maintenance window"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "failover",
+        "b": "automatic switching to a backup system when the main one fails",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "load balancing",
+        "b": "spreading traffic across several resources",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "packet loss",
+        "b": "when data packets fail to reach their destination",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "maintenance window",
+        "b": "a planned time for repairs or upgrades",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "phishing",
+        "b": "tricking people into giving passwords with fake messages",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "SIM swap fraud",
+        "b": "criminals take over a victim's phone number via a new SIM",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "authentication",
+        "b": "checking that a user is who they claim to be",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "capacity planning",
+        "b": "forecasting how much network capacity will be needed",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 = If + hiện tại đơn, will + V (có thể xảy ra); loại 2 = If + quá khứ đơn, would + V (không có thật/khó xảy ra).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the main link fails, the traffic ___ to the backup.",
+        "ans": [
+         2
+        ],
+        "tip": "If + hiện tại đơn, will + V.",
+        "why": "Khả năng có thật → loại 1: **will switch**.",
+        "opts": [
+         "would switch",
+         "switched",
+         "will switch"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we had more redundancy, the outage ___ so long.",
+        "ans": [
+         2
+        ],
+        "tip": "If + quá khứ đơn, would + V.",
+        "why": "Giả định không có thật → loại 2: **would not last**.",
+        "opts": [
+         "will not last",
+         "did not last",
+         "would not last"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If congestion continues, engineers ___ more capacity.",
+        "ans": [
+         1
+        ],
+        "tip": "Loại 1: tình huống có thể xảy ra.",
+        "why": "Loại 1: **will add**.",
+        "opts": [
+         "would add",
+         "will add",
+         "added"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were the network manager, I ___ a second data center.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'were' (giả định) → loại 2: **would build**.",
+        "opts": [
+         "would build",
+         "will build",
+         "built"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What ___ you do if a DDoS attack started now?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "'started' (quá khứ) là dấu hiệu loại 2 → **would**.",
+        "opts": [
+         "would",
+         "will",
+         "did"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Unless we update the firmware, hackers ___ the weakness.",
+        "ans": [
+         2
+        ],
+        "tip": "unless = if not.",
+        "why": "Loại 1 với unless: **will exploit**.",
+        "opts": [
+         "would exploit",
+         "exploited",
+         "will exploit"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each conditional sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ trong câu điều kiện loại 1 hoặc loại 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the signal ___ (drop), the phone will switch to another cell.",
+        "ans": [
+         [
+          "drops"
+         ]
+        ],
+        "tip": "If + hiện tại đơn.",
+        "why": "Loại 1, chủ ngữ số ít: **drops**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (have) a better firewall, we would block more attacks.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "If + quá khứ đơn.",
+        "why": "Loại 2 → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The call will be dropped if the jitter ___ (be) too high.",
+        "ans": [
+         [
+          "is"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1, chủ ngữ số ít: **is**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If she ___ (be) in charge, she would add another backup link.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 2: dùng **were** (hoặc was trong văn nói)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If customers ___ (not / report) the fault, we will not know.",
+        "ans": [
+         [
+          "do not report",
+          "don't report"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1 phủ định, số nhiều: **do not report**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A night at the NOC",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "At the network operations center, engineers monitor thousands of alarms. If an alarm shows a serious fault, they will start troubleshooting at once. Most outages are short because the network has redundancy: if the main link fails, traffic will switch to a backup through failover.\n\nTonight the engineers notice congestion in the city centre. If the traffic peak continues, calls will drop and video will freeze. They use load balancing to move traffic to less busy cells. If they had more small cells there, the problem would be smaller, so capacity planning has now put this area on the list for next year.\n\nSecurity is also important. If a phishing message tricks a customer, criminals may try a SIM swap fraud. Therefore the operator uses strong authentication and a firewall. If a DDoS attack begins, the system will block the suspicious traffic and the team will inform the authorities.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The network has redundancy.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mạng có dự phòng nên sự cố thường ngắn."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Failover sends traffic to a backup link.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: lưu lượng chuyển sang đường dự phòng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "More small cells would make the congestion problem bigger.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: có thêm trạm nhỏ thì vấn đề sẽ **nhỏ hơn**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The operator never uses a firewall.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhà mạng dùng xác thực mạnh và **tường lửa**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will the engineers do if an alarm shows a serious fault?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: họ sẽ bắt đầu khắc phục sự cố ngay.",
+        "opts": [
+         "Wait until morning",
+         "Start troubleshooting at once",
+         "Switch off the network"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do they use to move traffic to less busy cells?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: dùng cân bằng tải.",
+        "opts": [
+         "A SIM swap",
+         "Load balancing",
+         "A firmware update"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What has capacity planning done?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: đưa khu vực vào danh sách của năm sau.",
+        "opts": [
+         "Put the area on the list for next year",
+         "Removed all alarms",
+         "Built the cells tonight"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What will happen if a DDoS attack begins?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hệ thống sẽ chặn lưu lượng đáng ngờ và báo cơ quan chức năng.",
+        "opts": [
+         "The operator will turn off the firewall",
+         "Customers will receive a bonus",
+         "The system will block suspicious traffic"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Telecom Business, Regulation & Trends",
+   "name_vi": "Kinh doanh, quản lý nhà nước & xu hướng",
+   "icon": "📈",
+   "hue": 100,
+   "words": [
+    {
+     "en": "ARPU",
+     "vi": "doanh thu bình quân trên mỗi thuê bao"
+    },
+    {
+     "en": "subscriber base",
+     "vi": "cơ sở thuê bao"
+    },
+    {
+     "en": "market penetration",
+     "vi": "tỷ lệ thâm nhập thị trường"
+    },
+    {
+     "en": "churn rate",
+     "vi": "tỷ lệ thuê bao rời mạng"
+    },
+    {
+     "en": "market share",
+     "vi": "thị phần"
+    },
+    {
+     "en": "revenue",
+     "vi": "doanh thu"
+    },
+    {
+     "en": "CAPEX",
+     "vi": "chi phí đầu tư vốn"
+    },
+    {
+     "en": "OPEX",
+     "vi": "chi phí vận hành"
+    },
+    {
+     "en": "infrastructure sharing",
+     "vi": "chia sẻ hạ tầng"
+    },
+    {
+     "en": "MVNO",
+     "vi": "nhà mạng ảo"
+    },
+    {
+     "en": "spectrum auction",
+     "vi": "đấu giá phổ tần"
+    },
+    {
+     "en": "license",
+     "vi": "giấy phép"
+    },
+    {
+     "en": "regulator",
+     "vi": "cơ quan quản lý"
+    },
+    {
+     "en": "regulation",
+     "vi": "quy định pháp lý"
+    },
+    {
+     "en": "universal service",
+     "vi": "dịch vụ viễn thông công ích"
+    },
+    {
+     "en": "net neutrality",
+     "vi": "trung lập mạng"
+    },
+    {
+     "en": "interconnection fee",
+     "vi": "phí kết nối liên mạng"
+    },
+    {
+     "en": "merger",
+     "vi": "sáp nhập"
+    },
+    {
+     "en": "partnership",
+     "vi": "quan hệ hợp tác"
+    },
+    {
+     "en": "rollout",
+     "vi": "triển khai"
+    },
+    {
+     "en": "digital divide",
+     "vi": "khoảng cách số"
+    },
+    {
+     "en": "rural coverage",
+     "vi": "phủ sóng nông thôn"
+    },
+    {
+     "en": "digital transformation",
+     "vi": "chuyển đổi số"
+    },
+    {
+     "en": "cloud services",
+     "vi": "dịch vụ điện toán đám mây"
+    },
+    {
+     "en": "OTT service",
+     "vi": "dịch vụ OTT (ứng dụng nhắn tin, gọi qua internet)"
+    },
+    {
+     "en": "data monetization",
+     "vi": "khai thác giá trị từ dữ liệu"
+    },
+    {
+     "en": "smart city",
+     "vi": "thành phố thông minh"
+    },
+    {
+     "en": "artificial intelligence (AI)",
+     "vi": "trí tuệ nhân tạo"
+    },
+    {
+     "en": "sustainability",
+     "vi": "tính bền vững"
+    },
+    {
+     "en": "green network",
+     "vi": "mạng lưới tiết kiệm năng lượng"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ is the average monthly revenue an operator earns from each subscriber.",
+        "ans": [
+         2
+        ],
+        "tip": "Average Revenue Per User.",
+        "why": "**ARPU** = doanh thu bình quân trên mỗi thuê bao.",
+        "opts": [
+         "CAPEX",
+         "churn rate",
+         "ARPU"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Money spent on building towers and buying equipment is ___.",
+        "ans": [
+         1
+        ],
+        "tip": "Capital Expenditure.",
+        "why": "**CAPEX** = chi phí đầu tư vốn (xây dựng, mua thiết bị).",
+        "opts": [
+         "OPEX",
+         "CAPEX",
+         "ARPU"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Daily costs such as electricity and staff salaries are ___.",
+        "ans": [
+         0
+        ],
+        "tip": "Operating Expenditure.",
+        "why": "**OPEX** = chi phí vận hành thường xuyên.",
+        "opts": [
+         "OPEX",
+         "market share",
+         "license"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government held a ___ to sell the right to use radio frequencies.",
+        "ans": [
+         0
+        ],
+        "tip": "auction = đấu giá.",
+        "why": "**spectrum auction** = đấu giá phổ tần.",
+        "opts": [
+         "spectrum auction",
+         "merger",
+         "rollout"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An ___ operator leases network capacity from another operator and sells under its own brand.",
+        "ans": [
+         2
+        ],
+        "tip": "Mobile Virtual Network Operator.",
+        "why": "**MVNO** = nhà mạng ảo.",
+        "opts": [
+         "OTT",
+         "ARPU",
+         "MVNO"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the government body that sets rules and gives licenses to operators.",
+        "ans": [
+         1
+        ],
+        "tip": "regulate = điều tiết.",
+        "why": "**regulator** = cơ quan quản lý.",
+        "opts": [
+         "subscriber",
+         "regulator",
+         "partner"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Two operators sharing towers is called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**infrastructure sharing** = chia sẻ hạ tầng.",
+        "opts": [
+         "net neutrality",
+         "infrastructure sharing",
+         "universal service"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The gap between people who have access to modern technology and those who do not is the ___.",
+        "ans": [
+         0
+        ],
+        "tip": "divide = ngăn cách.",
+        "why": "**digital divide** = khoảng cách số.",
+        "opts": [
+         "digital divide",
+         "market penetration",
+         "smart city"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "market penetration",
+        "b": "the percentage of a population that uses a service",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "license",
+        "b": "official permission from the government to offer a service",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "universal service",
+        "b": "a duty to provide basic services to all citizens",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "net neutrality",
+        "b": "the principle that all internet traffic is treated equally",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "interconnection fee",
+        "b": "a charge paid when a call passes to another operator's network",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "OTT service",
+        "b": "an app delivering calls or video over the internet without owning the network",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "rollout",
+        "b": "the process of introducing a new service or network step by step",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sustainability",
+        "b": "meeting needs without harming the environment or future resources",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: mốc thời gian đã kết thúc (in 2024, last month, ago) → quá khứ đơn; so far / since / ever / already → hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The regulator ___ the spectrum auction in 2024.",
+        "ans": [
+         2
+        ],
+        "tip": "in 2024 = mốc quá khứ xác định.",
+        "why": "'in 2024' → **quá khứ đơn**: held.",
+        "opts": [
+         "has held",
+         "holds",
+         "held"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our subscriber base ___ by 8% so far this year.",
+        "ans": [
+         2
+        ],
+        "tip": "so far → have/has + V3.",
+        "why": "'so far this year' → **hiện tại hoàn thành**: has grown.",
+        "opts": [
+         "grew",
+         "grows",
+         "has grown"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The two operators ___ a partnership last month.",
+        "ans": [
+         1
+        ],
+        "tip": "last month → quá khứ đơn.",
+        "why": "'last month' → quá khứ đơn: **signed**.",
+        "opts": [
+         "have signed",
+         "signed",
+         "sign"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "She ___ in the telecom industry since 2015.",
+        "ans": [
+         0
+        ],
+        "tip": "since + mốc thời gian → hiện tại hoàn thành.",
+        "why": "'since 2015' → **has worked** (vẫn đang làm).",
+        "opts": [
+         "has worked",
+         "worked",
+         "works"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "___ you ever used an eSIM?",
+        "ans": [
+         0
+        ],
+        "tip": "ever → Have you ever + V3?",
+        "why": "Kinh nghiệm đến hiện tại → **Have you ever used...?**",
+        "opts": [
+         "Have",
+         "Did",
+         "Do"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The operator ___ its 5G network in the capital two years ago.",
+        "ans": [
+         2
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'two years ago' → quá khứ đơn: **launched**.",
+        "opts": [
+         "has launched",
+         "launches",
+         "launched"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Chia động từ ở quá khứ đơn hoặc hiện tại hoàn thành.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The company ___ (invest) heavily in fibre last year.",
+        "ans": [
+         [
+          "invested"
+         ]
+        ],
+        "tip": "last year → quá khứ đơn.",
+        "why": "Mốc quá khứ xác định → **invested**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "ARPU ___ (not / recover) yet.",
+        "ans": [
+         [
+          "has not recovered",
+          "hasn't recovered"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **has not recovered**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (sign) the roaming agreement three weeks ago.",
+        "ans": [
+         [
+          "signed"
+         ]
+        ],
+        "tip": "ago → quá khứ đơn.",
+        "why": "'three weeks ago' → **signed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Customer churn ___ (fall) twice this year.",
+        "ans": [
+         [
+          "has fallen"
+         ]
+        ],
+        "tip": "fall → fell → fallen.",
+        "why": "'this year' (chưa kết thúc) → hiện tại hoàn thành: **has fallen**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The regulator ___ (already / issue) three new licenses.",
+        "ans": [
+         [
+          "has already issued",
+          "'s already issued"
+         ]
+        ],
+        "tip": "",
+        "why": "'already' → **has already issued**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A decade of change",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Ten years ago, voice calls and SMS brought most of a telecom operator's revenue. Then OTT services such as messaging apps appeared, and operators lost a large part of this income. As a result, ARPU fell, and many companies searched for new sources of growth.\n\nOperators have invested heavily in fibre and 5G. In 2024, the regulator held a spectrum auction, and three operators won new licenses. To reduce CAPEX, they have begun to share infrastructure, and some have formed partnerships with cloud companies. Market penetration has reached more than 100% in many countries, so competition for each subscriber has become intense.\n\nToday, operators focus on new services: IoT for smart cities, private 5G networks for factories, and cloud and AI solutions for businesses. The industry has also made progress in sustainability, building greener networks that use less energy. However, the digital divide has not disappeared, and extending rural coverage remains a challenge.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "OTT services reduced operators' voice and SMS revenue.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: OTT khiến nhà mạng mất một phần lớn thu nhập này."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The regulator held a spectrum auction in 2024.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: cơ quan quản lý tổ chức đấu giá phổ tần năm 2024."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Market penetration has stayed below 50% in many countries.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tỷ lệ thâm nhập đã vượt **100%** ở nhiều nước."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The digital divide has disappeared.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: khoảng cách số **chưa biến mất**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happened to ARPU after OTT services appeared?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: ARPU giảm.",
+        "opts": [
+         "It doubled",
+         "It fell",
+         "It stayed the same"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why have operators begun to share infrastructure?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: để giảm chi phí đầu tư vốn.",
+        "opts": [
+         "To increase license fees",
+         "To reduce CAPEX",
+         "To avoid regulators"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What new services do operators focus on today?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: IoT cho thành phố thông minh, 5G riêng, đám mây và AI.",
+        "opts": [
+         "IoT for smart cities and private 5G networks",
+         "Only landline calls",
+         "Only SMS packages"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What remains a challenge?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: mở rộng phủ sóng nông thôn vẫn là thách thức.",
+        "opts": [
+         "Selling more SMS",
+         "Building more landlines",
+         "Extending rural coverage"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "convert",
+   "chuyển đổi"
+  ],
+  [
+   "voice",
+   "giọng nói"
+  ],
+  [
+   "nearest",
+   "gần nhất"
+  ],
+  [
+   "destination",
+   "điểm đến"
+  ],
+  [
+   "remote area",
+   "vùng sâu vùng xa"
+  ],
+  [
+   "interfere",
+   "gây nhiễu"
+  ],
+  [
+   "delay",
+   "sự chậm trễ"
+  ],
+  [
+   "connect",
+   "kết nối"
+  ],
+  [
+   "carry",
+   "truyền tải, mang"
+  ],
+  [
+   "link",
+   "nối liên kết"
+  ],
+  [
+   "provide",
+   "cung cấp"
+  ],
+  [
+   "depend on",
+   "phụ thuộc vào"
+  ],
+  [
+   "store",
+   "lưu trữ"
+  ],
+  [
+   "amount",
+   "lượng"
+  ],
+  [
+   "capable",
+   "có khả năng"
+  ],
+  [
+   "capacity",
+   "dung lượng"
+  ],
+  [
+   "efficient",
+   "hiệu quả"
+  ],
+  [
+   "suitable",
+   "phù hợp"
+  ],
+  [
+   "surgery",
+   "phẫu thuật"
+  ],
+  [
+   "factory",
+   "nhà máy"
+  ],
+  [
+   "advantage",
+   "ưu điểm"
+  ],
+  [
+   "upgrade",
+   "nâng cấp"
+  ],
+  [
+   "streaming",
+   "phát trực tuyến"
+  ],
+  [
+   "text message",
+   "tin nhắn văn bản"
+  ],
+  [
+   "millimetre",
+   "milimet"
+  ],
+  [
+   "cover",
+   "phủ sóng"
+  ],
+  [
+   "distance",
+   "khoảng cách"
+  ],
+  [
+   "so far",
+   "cho đến nay"
+  ],
+  [
+   "replace",
+   "thay thế"
+  ],
+  [
+   "route",
+   "tuyến đường, tuyến cáp"
+  ],
+  [
+   "survey",
+   "khảo sát"
+  ],
+  [
+   "authority",
+   "cơ quan chức năng"
+  ],
+  [
+   "dig",
+   "đào"
+  ],
+  [
+   "pavement",
+   "vỉa hè"
+  ],
+  [
+   "hang",
+   "treo"
+  ],
+  [
+   "thin",
+   "mảnh"
+  ],
+  [
+   "joint",
+   "mối nối"
+  ],
+  [
+   "special equipment",
+   "thiết bị chuyên dụng"
+  ],
+  [
+   "locate",
+   "xác định vị trí"
+  ],
+  [
+   "fault",
+   "sự cố"
+  ],
+  [
+   "maintain",
+   "duy trì"
+  ],
+  [
+   "serve",
+   "phục vụ"
+  ],
+  [
+   "flexible",
+   "linh hoạt"
+  ],
+  [
+   "whenever",
+   "bất cứ khi nào"
+  ],
+  [
+   "require",
+   "yêu cầu"
+  ],
+  [
+   "heavy use",
+   "sử dụng nhiều"
+  ],
+  [
+   "slow down",
+   "chậm lại"
+  ],
+  [
+   "compare",
+   "so sánh"
+  ],
+  [
+   "claim",
+   "tự nhận là"
+  ],
+  [
+   "quickly",
+   "nhanh chóng"
+  ],
+  [
+   "usually",
+   "thường"
+  ],
+  [
+   "full",
+   "đầy đủ"
+  ],
+  [
+   "travel",
+   "đi du lịch"
+  ],
+  [
+   "valid ID",
+   "giấy tờ tùy thân hợp lệ"
+  ],
+  [
+   "password",
+   "mật khẩu"
+  ],
+  [
+   "app",
+   "ứng dụng"
+  ],
+  [
+   "monitor",
+   "giám sát"
+  ],
+  [
+   "serious",
+   "nghiêm trọng"
+  ],
+  [
+   "at once",
+   "ngay lập tức"
+  ],
+  [
+   "freeze",
+   "bị đơ"
+  ],
+  [
+   "less busy",
+   "ít bận hơn"
+  ],
+  [
+   "criminal",
+   "tội phạm"
+  ],
+  [
+   "trick",
+   "lừa gạt"
+  ],
+  [
+   "inform",
+   "thông báo"
+  ],
+  [
+   "authorities",
+   "cơ quan chức năng"
+  ],
+  [
+   "suspicious",
+   "đáng ngờ"
+  ],
+  [
+   "strong",
+   "mạnh"
+  ],
+  [
+   "block",
+   "chặn"
+  ],
+  [
+   "weakness",
+   "điểm yếu"
+  ],
+  [
+   "city centre",
+   "trung tâm thành phố"
+  ],
+  [
+   "appear",
+   "xuất hiện"
+  ],
+  [
+   "income",
+   "thu nhập"
+  ],
+  [
+   "source",
+   "nguồn"
+  ],
+  [
+   "growth",
+   "tăng trưởng"
+  ],
+  [
+   "invest",
+   "đầu tư"
+  ],
+  [
+   "heavily",
+   "mạnh mẽ"
+  ],
+  [
+   "competition",
+   "sự cạnh tranh"
+  ],
+  [
+   "intense",
+   "gay gắt"
+  ],
+  [
+   "solution",
+   "giải pháp"
+  ],
+  [
+   "progress",
+   "tiến bộ"
+  ],
+  [
+   "greener",
+   "xanh hơn"
+  ],
+  [
+   "energy",
+   "năng lượng"
+  ],
+  [
+   "disappear",
+   "biến mất"
+  ],
+  [
+   "extend",
+   "mở rộng"
+  ]
+ ]
+}

@@ -1,0 +1,4278 @@
+{
+ "version": 1,
+ "field": {
+  "slug": "import-export",
+  "name": "Import - Export & Customs",
+  "name_vi": "Xuất nhập khẩu & Hải quan",
+  "icon": "🌏",
+  "hue": 185,
+  "description": "Từ vựng, ngữ pháp và bài đọc cho ngành xuất nhập khẩu: thương mại quốc tế cơ bản, hợp đồng mua bán & đàm phán, Incoterms & chứng từ vận chuyển, thủ tục thông quan, thuế quan & hiệp định thương mại, thanh toán quốc tế."
+ },
+ "units": [
+  {
+   "name": "International Trade Basics",
+   "name_vi": "Thương mại quốc tế cơ bản",
+   "icon": "🌏",
+   "hue": 185,
+   "words": [
+    {
+     "en": "import",
+     "vi": "nhập khẩu"
+    },
+    {
+     "en": "export",
+     "vi": "xuất khẩu"
+    },
+    {
+     "en": "importer",
+     "vi": "nhà nhập khẩu"
+    },
+    {
+     "en": "exporter",
+     "vi": "nhà xuất khẩu"
+    },
+    {
+     "en": "international trade",
+     "vi": "thương mại quốc tế"
+    },
+    {
+     "en": "domestic market",
+     "vi": "thị trường nội địa"
+    },
+    {
+     "en": "foreign market",
+     "vi": "thị trường nước ngoài"
+    },
+    {
+     "en": "goods",
+     "vi": "hàng hóa"
+    },
+    {
+     "en": "commodity",
+     "vi": "hàng hóa cơ bản (nông sản, khoáng sản…)"
+    },
+    {
+     "en": "trade partner",
+     "vi": "đối tác thương mại"
+    },
+    {
+     "en": "trade surplus",
+     "vi": "thặng dư thương mại"
+    },
+    {
+     "en": "trade deficit",
+     "vi": "thâm hụt thương mại"
+    },
+    {
+     "en": "balance of trade",
+     "vi": "cán cân thương mại"
+    },
+    {
+     "en": "trade barrier",
+     "vi": "rào cản thương mại"
+    },
+    {
+     "en": "globalisation",
+     "vi": "toàn cầu hóa"
+    },
+    {
+     "en": "supply and demand",
+     "vi": "cung và cầu"
+    },
+    {
+     "en": "competitive advantage",
+     "vi": "lợi thế cạnh tranh"
+    },
+    {
+     "en": "market research",
+     "vi": "nghiên cứu thị trường"
+    },
+    {
+     "en": "distributor",
+     "vi": "nhà phân phối"
+    },
+    {
+     "en": "agent",
+     "vi": "đại lý"
+    },
+    {
+     "en": "broker",
+     "vi": "người môi giới"
+    },
+    {
+     "en": "wholesaler",
+     "vi": "nhà bán buôn"
+    },
+    {
+     "en": "end user",
+     "vi": "người dùng cuối"
+    },
+    {
+     "en": "buyer",
+     "vi": "người mua"
+    },
+    {
+     "en": "seller",
+     "vi": "người bán"
+    },
+    {
+     "en": "consignee",
+     "vi": "người nhận hàng"
+    },
+    {
+     "en": "shipper",
+     "vi": "người gửi hàng"
+    },
+    {
+     "en": "cargo",
+     "vi": "hàng hóa vận chuyển"
+    },
+    {
+     "en": "re-export",
+     "vi": "tái xuất"
+    },
+    {
+     "en": "trade fair",
+     "vi": "hội chợ thương mại"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company that buys goods from another country is the ___.",
+        "ans": [
+         0
+        ],
+        "tip": "import = đưa vào.",
+        "why": "**importer** = nhà nhập khẩu, mua hàng từ nước ngoài.",
+        "opts": [
+         "importer",
+         "exporter",
+         "broker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Vietnam is a major ___ of coffee: it sells millions of tonnes abroad.",
+        "ans": [
+         1
+        ],
+        "tip": "export = đưa ra.",
+        "why": "**exporter** = nhà xuất khẩu, bán hàng ra nước ngoài.",
+        "opts": [
+         "importer",
+         "exporter",
+         "broker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "When a country exports more than it imports, it has a trade ___.",
+        "ans": [
+         2
+        ],
+        "tip": "surplus = dư thừa.",
+        "why": "**trade surplus** = thặng dư thương mại (xuất khẩu > nhập khẩu).",
+        "opts": [
+         "deficit",
+         "barrier",
+         "surplus"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "High taxes and strict quotas are examples of a trade ___.",
+        "ans": [
+         2
+        ],
+        "tip": "barrier = hàng rào.",
+        "why": "**trade barrier** = rào cản thương mại, khiến hàng nhập khẩu khó vào hơn.",
+        "opts": [
+         "deficit",
+         "agent",
+         "barrier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ brings buyers and sellers together and earns a commission.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**broker** = người môi giới, kết nối người mua và người bán.",
+        "opts": [
+         "broker",
+         "consignee",
+         "shipper"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the person or company that receives the goods at the destination.",
+        "ans": [
+         1
+        ],
+        "tip": "consign = gửi giao hàng.",
+        "why": "**consignee** = người nhận hàng; shipper là người gửi hàng.",
+        "opts": [
+         "shipper",
+         "consignee",
+         "broker"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Rice, coffee and crude oil are ___: basic products that are traded in large quantities.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**commodities** = hàng hóa cơ bản giao dịch với khối lượng lớn.",
+        "opts": [
+         "commodities",
+         "trade fairs",
+         "brokers"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Before entering the new country, the company did ___ to learn what customers wanted.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**market research** = nghiên cứu thị trường.",
+        "opts": [
+         "re-export",
+         "market research",
+         "globalisation"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "re-export",
+        "b": "to export goods that were previously imported, usually with little change",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "trade deficit",
+        "b": "a situation in which a country imports more than it exports",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "balance of trade",
+        "b": "the difference between the value of a country's exports and imports",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "globalisation",
+        "b": "the growing connection of the world's economies, cultures and markets",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "competitive advantage",
+        "b": "something that helps a company perform better than its rivals",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "trade fair",
+        "b": "a large event where companies show their products to buyers",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "agent",
+        "b": "a person who represents a company and sells its products in another market",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "wholesaler",
+        "b": "a business that buys goods in large quantities and sells them to retailers",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: thói quen/sự thật dùng hiện tại đơn; việc đang xảy ra hoặc xu hướng tạm thời dùng hiện tại tiếp diễn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Our company ___ coffee to more than 20 countries.",
+        "ans": [
+         2
+        ],
+        "tip": "Sự thật lâu dài → hiện tại đơn.",
+        "why": "Hoạt động thường xuyên của công ty → **hiện tại đơn**; chủ ngữ số ít: exports.",
+        "opts": [
+         "is exporting",
+         "export",
+         "exports"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "At the moment, the sales team ___ a trade fair in Germany.",
+        "ans": [
+         2
+        ],
+        "tip": "at the moment → be + V-ing.",
+        "why": "'At the moment' → **is attending**.",
+        "opts": [
+         "attends",
+         "attend",
+         "is attending"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Customers usually ___ a sample before they place a large order.",
+        "ans": [
+         1
+        ],
+        "tip": "usually → hiện tại đơn.",
+        "why": "'usually' = thói quen; chủ ngữ số nhiều → **request**.",
+        "opts": [
+         "requests",
+         "request",
+         "are requesting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Look! A new shipment ___ at the port.",
+        "ans": [
+         0
+        ],
+        "tip": "Look! → đang diễn ra.",
+        "why": "'Look!' báo hiệu việc đang xảy ra → **is arriving**.",
+        "opts": [
+         "is arriving",
+         "arrives",
+         "arrive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The exchange rate ___ every day.",
+        "ans": [
+         2
+        ],
+        "tip": "every day → hiện tại đơn.",
+        "why": "'every day' → hiện tại đơn; chủ ngữ số ít: **changes**.",
+        "opts": [
+         "is changing",
+         "change",
+         "changes"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "This year, Vietnam ___ more machinery from South Korea.",
+        "ans": [
+         1
+        ],
+        "tip": "this year = xu hướng đang diễn ra.",
+        "why": "'This year' + xu hướng đang thay đổi → **is importing**.",
+        "opts": [
+         "imports",
+         "is importing",
+         "import"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The importer ___ (pay) the supplier within 30 days.",
+        "ans": [
+         [
+          "pays"
+         ]
+        ],
+        "tip": "He/She/It + V-s.",
+        "why": "Thói quen/quy định, chủ ngữ số ít: **pays**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Right now, the buyer ___ (check) the samples.",
+        "ans": [
+         [
+          "is checking",
+          "'s checking"
+         ]
+        ],
+        "tip": "",
+        "why": "'Right now' → **is checking**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "We ___ (not / sell) to the Russian market.",
+        "ans": [
+         [
+          "do not sell",
+          "don't sell"
+         ]
+        ],
+        "tip": "",
+        "why": "Phủ định hiện tại đơn, chủ ngữ 'we': **do not sell**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "She ___ (work) as an export manager.",
+        "ans": [
+         [
+          "works"
+         ]
+        ],
+        "tip": "",
+        "why": "Nghề nghiệp → hiện tại đơn: **works**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Listen! The exporter ___ (negotiate) the price on the phone.",
+        "ans": [
+         [
+          "is negotiating",
+          "'s negotiating"
+         ]
+        ],
+        "tip": "",
+        "why": "'Listen!' → đang xảy ra: **is negotiating**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Why countries trade",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "No country can produce everything it needs, so countries trade with each other. An exporter sells goods to a foreign market, and an importer buys goods from abroad. International trade gives consumers more choice and helps companies find new customers. For example, Vietnam exports coffee, rice and electronics, while it imports machinery, fuel and raw materials.\n\nEvery country wants a healthy balance of trade. If exports are higher than imports, there is a trade surplus; if imports are higher, there is a trade deficit. Governments sometimes use trade barriers, such as taxes and quotas, to protect local industry, but these can make goods more expensive.\n\nTo enter a new market, exporters do market research and often work with an agent, a distributor or a broker. They also visit trade fairs, where they meet buyers face to face. Today, globalisation is making trade faster, and many small companies are selling directly to customers abroad through the internet.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "An importer sells goods to a foreign market.",
+        "ans": [
+         1
+        ],
+        "tip": "importer ≠ exporter.",
+        "why": "Đoạn 1: **exporter** bán hàng ra thị trường nước ngoài; importer mua hàng từ nước ngoài."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A trade surplus means exports are higher than imports.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: xuất khẩu cao hơn nhập khẩu là thặng dư thương mại."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Trade fairs allow exporters to meet buyers face to face.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: tại hội chợ thương mại, nhà xuất khẩu gặp trực tiếp người mua."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Trade barriers always make goods cheaper.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: rào cản thương mại có thể khiến hàng hóa **đắt hơn**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do countries trade with each other?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: không nước nào tự sản xuất đủ mọi thứ nên phải giao thương.",
+        "opts": [
+         "No country can produce everything it needs",
+         "It is illegal to produce goods at home",
+         "Exports are always lower than imports"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does Vietnam import, according to the text?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: Việt Nam nhập khẩu máy móc, nhiên liệu và nguyên liệu thô.",
+        "opts": [
+         "Machinery, fuel and raw materials",
+         "Coffee, rice and electronics",
+         "Only services"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do governments use trade barriers?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: để bảo vệ ngành sản xuất trong nước.",
+        "opts": [
+         "To increase imports",
+         "To lower taxes",
+         "To protect local industry"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How are many small companies selling to customers abroad today?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nhiều công ty nhỏ bán trực tiếp cho khách hàng nước ngoài qua internet.",
+        "opts": [
+         "Only through brokers",
+         "Directly through the internet",
+         "Only at trade fairs"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Sales Contracts & Negotiation",
+   "name_vi": "Hợp đồng mua bán & đàm phán",
+   "icon": "📝",
+   "hue": 40,
+   "words": [
+    {
+     "en": "enquiry",
+     "vi": "yêu cầu báo giá, hỏi hàng"
+    },
+    {
+     "en": "quotation",
+     "vi": "bảng báo giá"
+    },
+    {
+     "en": "offer",
+     "vi": "chào hàng"
+    },
+    {
+     "en": "counter-offer",
+     "vi": "chào hàng lại"
+    },
+    {
+     "en": "proforma invoice",
+     "vi": "hóa đơn chiếu lệ"
+    },
+    {
+     "en": "purchase order",
+     "vi": "đơn đặt hàng"
+    },
+    {
+     "en": "sales contract",
+     "vi": "hợp đồng mua bán"
+    },
+    {
+     "en": "terms and conditions",
+     "vi": "điều khoản và điều kiện"
+    },
+    {
+     "en": "clause",
+     "vi": "điều khoản (trong hợp đồng)"
+    },
+    {
+     "en": "party",
+     "vi": "bên (trong hợp đồng)"
+    },
+    {
+     "en": "sample",
+     "vi": "hàng mẫu"
+    },
+    {
+     "en": "minimum order quantity",
+     "vi": "số lượng đặt hàng tối thiểu (MOQ)"
+    },
+    {
+     "en": "unit price",
+     "vi": "đơn giá"
+    },
+    {
+     "en": "discount",
+     "vi": "chiết khấu, giảm giá"
+    },
+    {
+     "en": "commission",
+     "vi": "hoa hồng"
+    },
+    {
+     "en": "payment terms",
+     "vi": "điều khoản thanh toán"
+    },
+    {
+     "en": "delivery date",
+     "vi": "ngày giao hàng"
+    },
+    {
+     "en": "lead time",
+     "vi": "thời gian chờ từ lúc đặt đến lúc giao"
+    },
+    {
+     "en": "validity",
+     "vi": "thời hạn hiệu lực"
+    },
+    {
+     "en": "negotiate",
+     "vi": "đàm phán"
+    },
+    {
+     "en": "agreement",
+     "vi": "thỏa thuận"
+    },
+    {
+     "en": "breach of contract",
+     "vi": "vi phạm hợp đồng"
+    },
+    {
+     "en": "penalty",
+     "vi": "tiền phạt, chế tài"
+    },
+    {
+     "en": "force majeure",
+     "vi": "bất khả kháng"
+    },
+    {
+     "en": "dispute",
+     "vi": "tranh chấp"
+    },
+    {
+     "en": "arbitration",
+     "vi": "trọng tài"
+    },
+    {
+     "en": "governing law",
+     "vi": "luật điều chỉnh"
+    },
+    {
+     "en": "warranty",
+     "vi": "bảo hành"
+    },
+    {
+     "en": "amendment",
+     "vi": "sự sửa đổi, bổ sung"
+    },
+    {
+     "en": "acceptance",
+     "vi": "sự chấp nhận"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The buyer sent an ___ asking for prices and delivery times for 5,000 shirts.",
+        "ans": [
+         2
+        ],
+        "tip": "enquire = hỏi.",
+        "why": "**enquiry** = thư hỏi hàng/hỏi giá, bước đầu của giao dịch.",
+        "opts": [
+         "penalty",
+         "clause",
+         "enquiry"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The supplier replied with a ___ that was valid for 30 days.",
+        "ans": [
+         0
+        ],
+        "tip": "quote = báo giá.",
+        "why": "**quotation** = bảng báo giá, có thời hạn hiệu lực.",
+        "opts": [
+         "quotation",
+         "dispute",
+         "arbitration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We cannot accept your price, so we are making a ___.",
+        "ans": [
+         1
+        ],
+        "tip": "counter = đối lại.",
+        "why": "**counter-offer** = chào hàng lại với điều kiện khác.",
+        "opts": [
+         "amendment",
+         "counter-offer",
+         "commission"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The factory will not accept orders below the ___ of 1,000 units.",
+        "ans": [
+         0
+        ],
+        "tip": "MOQ.",
+        "why": "**minimum order quantity (MOQ)** = số lượng đặt hàng tối thiểu.",
+        "opts": [
+         "minimum order quantity",
+         "discount",
+         "lead time"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The agent receives a 3 % ___ on every sale.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**commission** = hoa hồng tính trên mỗi giao dịch.",
+        "opts": [
+         "clause",
+         "commission",
+         "party"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Each ___ of the contract explains one right or duty, such as delivery or payment.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**clause** = điều khoản/khoản trong hợp đồng.",
+        "opts": [
+         "sample",
+         "offer",
+         "clause"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the seller does not deliver on time, the contract says he must pay a ___.",
+        "ans": [
+         0
+        ],
+        "tip": "penal = hình phạt.",
+        "why": "**penalty** = tiền phạt khi vi phạm hợp đồng.",
+        "opts": [
+         "penalty",
+         "discount",
+         "enquiry"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A flood stopped the factory for a month. Under the ___ clause, the seller is not responsible for the delay.",
+        "ans": [
+         1
+        ],
+        "tip": "tiếng Pháp: 'sức mạnh tối cao'.",
+        "why": "**force majeure** = bất khả kháng (thiên tai, chiến tranh…) miễn trách nhiệm.",
+        "opts": [
+         "governing law",
+         "force majeure",
+         "payment terms"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "proforma invoice",
+        "b": "a preliminary invoice sent before the goods are shipped",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "purchase order",
+        "b": "a document in which the buyer orders specific goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "terms and conditions",
+        "b": "the rules and obligations that both sides agree to",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "breach of contract",
+        "b": "failing to do what the contract requires",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "arbitration",
+        "b": "settling a dispute through an independent person instead of a court",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "governing law",
+        "b": "the country's law that applies to the contract",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "lead time",
+        "b": "the time between placing an order and receiving the goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "validity",
+        "b": "the period during which an offer can be accepted",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Câu điều kiện loại 1 và 2",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: loại 1 (có thể xảy ra): If + hiện tại đơn, will + V. Loại 2 (giả định, ít khả năng): If + quá khứ đơn, would + V.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If you order 1,000 units, we ___ you a 5 % discount.",
+        "ans": [
+         2
+        ],
+        "tip": "If + hiện tại đơn → will.",
+        "why": "Loại 1: đề nghị có thể xảy ra → **will give**.",
+        "opts": [
+         "would give",
+         "gave",
+         "will give"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the price ___ lower, we would place a larger order.",
+        "ans": [
+         0
+        ],
+        "tip": "would ở mệnh đề chính → loại 2.",
+        "why": "Loại 2: If + quá khứ đơn; với be dùng **were**.",
+        "opts": [
+         "were",
+         "is",
+         "will be"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We will cancel the order if the goods ___ by 1 June.",
+        "ans": [
+         1
+        ],
+        "tip": "will → If + hiện tại đơn.",
+        "why": "Loại 1: mệnh đề If dùng hiện tại đơn → **don't arrive**.",
+        "opts": [
+         "wouldn't arrive",
+         "don't arrive",
+         "didn't arrive"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If we paid in advance, ___ you reduce the price?",
+        "ans": [
+         2
+        ],
+        "tip": "paid → loại 2 → would.",
+        "why": "Loại 2: mệnh đề chính dùng **would** + S + V.",
+        "opts": [
+         "will",
+         "do",
+         "would"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the supplier ___ the delivery date, the buyer can claim a penalty.",
+        "ans": [
+         2
+        ],
+        "tip": "can ở mệnh đề chính → loại 1.",
+        "why": "Loại 1: If + hiện tại đơn → **misses**.",
+        "opts": [
+         "missed",
+         "would miss",
+         "misses"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If I were you, I ___ the contract carefully before signing.",
+        "ans": [
+         1
+        ],
+        "tip": "If I were you → would.",
+        "why": "Lời khuyên dạng loại 2 → **would read**.",
+        "opts": [
+         "will read",
+         "would read",
+         "read"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng của động từ trong câu điều kiện loại 1 và 2.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the buyer ___ (accept) our offer, we will send the contract today.",
+        "ans": [
+         [
+          "accepts"
+         ]
+        ],
+        "tip": "Loại 1, chủ ngữ số ít.",
+        "why": "Loại 1: If + hiện tại đơn, chủ ngữ số ít → **accepts**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If we ___ (have) a larger stock, we could deliver faster.",
+        "ans": [
+         [
+          "had"
+         ]
+        ],
+        "tip": "Loại 2.",
+        "why": "Loại 2: If + quá khứ đơn → **had**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The supplier will give a discount if you ___ (pay) within 10 days.",
+        "ans": [
+         [
+          "pay"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: If + hiện tại đơn, chủ ngữ 'you' → **pay**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If I ___ (be) the seller, I would offer a longer warranty.",
+        "ans": [
+         [
+          "were",
+          "was"
+         ]
+        ],
+        "tip": "If I were …",
+        "why": "Loại 2: **were** cho mọi ngôi (was cũng được trong văn nói)."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "If the shipment ___ (not / arrive) on time, the buyer will claim a penalty.",
+        "ans": [
+         [
+          "does not arrive",
+          "doesn't arrive"
+         ]
+        ],
+        "tip": "",
+        "why": "Loại 1: phủ định hiện tại đơn, chủ ngữ số ít → **does not arrive**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · From enquiry to contract",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A trade deal usually starts with an enquiry. The buyer asks the seller for the price, the minimum order quantity and the lead time. The seller replies with a quotation, which has a validity period, for example 30 days. If the buyer thinks the price is too high, he can make a counter-offer. Both sides negotiate until they reach an agreement.\n\nIf the buyer accepts the offer, the seller sends a proforma invoice, and the buyer issues a purchase order. After that, the parties sign a sales contract. The contract includes clauses about price, quality, delivery date and payment terms. It also names the governing law and explains how disputes are solved, often through arbitration.\n\nGood contracts protect both sides. If the seller delivers late, the buyer may receive a penalty payment. If an event such as a flood or a war makes delivery impossible, the force majeure clause may apply. For this reason, an exporter should read every clause carefully, and a lawyer should check the amendments before anyone signs.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A quotation has a validity period.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: báo giá có thời hạn hiệu lực, ví dụ 30 ngày."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "After the contract is signed, the buyer makes an enquiry.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: enquiry là bước **đầu tiên**, trước khi ký hợp đồng."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Disputes are often solved through arbitration.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hợp đồng nêu cách giải quyết tranh chấp, thường là trọng tài."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A force majeure clause applies when the seller simply forgets to deliver.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: force majeure áp dụng khi sự kiện như lũ lụt hoặc chiến tranh khiến việc giao hàng bất khả thi."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the buyer ask for in an enquiry?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: người mua hỏi giá, MOQ và thời gian giao hàng.",
+        "opts": [
+         "The price, the minimum order quantity and the lead time",
+         "A penalty and a discount",
+         "The governing law and arbitration"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can the buyer do if the price is too high?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: người mua có thể chào hàng lại (counter-offer).",
+        "opts": [
+         "Make a counter-offer",
+         "Issue a proforma invoice",
+         "Cancel the force majeure clause"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What do the clauses of a contract include?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hợp đồng gồm điều khoản về giá, chất lượng, ngày giao hàng và thanh toán.",
+        "opts": [
+         "Only the lead time",
+         "Price, quality, delivery date and payment terms",
+         "The buyer's holiday dates"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What may happen if the seller delivers late?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu giao trễ, người mua có thể nhận khoản phạt.",
+        "opts": [
+         "The buyer must pay more",
+         "The contract becomes an enquiry",
+         "The buyer may receive a penalty payment"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Incoterms & Shipping Documents",
+   "name_vi": "Incoterms & chứng từ vận chuyển",
+   "icon": "📄",
+   "hue": 230,
+   "words": [
+    {
+     "en": "Incoterms",
+     "vi": "điều kiện thương mại quốc tế"
+    },
+    {
+     "en": "EXW (Ex Works)",
+     "vi": "giao tại xưởng"
+    },
+    {
+     "en": "FOB (Free on Board)",
+     "vi": "giao lên tàu"
+    },
+    {
+     "en": "CIF (Cost, Insurance and Freight)",
+     "vi": "tiền hàng, bảo hiểm và cước phí"
+    },
+    {
+     "en": "DAP (Delivered at Place)",
+     "vi": "giao tại nơi đến"
+    },
+    {
+     "en": "DDP (Delivered Duty Paid)",
+     "vi": "giao đã nộp thuế"
+    },
+    {
+     "en": "risk transfer",
+     "vi": "sự chuyển giao rủi ro"
+    },
+    {
+     "en": "freight",
+     "vi": "cước vận chuyển"
+    },
+    {
+     "en": "insurance",
+     "vi": "bảo hiểm"
+    },
+    {
+     "en": "commercial invoice",
+     "vi": "hóa đơn thương mại"
+    },
+    {
+     "en": "packing list",
+     "vi": "phiếu đóng gói"
+    },
+    {
+     "en": "bill of lading (B/L)",
+     "vi": "vận đơn đường biển"
+    },
+    {
+     "en": "airway bill (AWB)",
+     "vi": "vận đơn hàng không"
+    },
+    {
+     "en": "certificate of origin (C/O)",
+     "vi": "giấy chứng nhận xuất xứ"
+    },
+    {
+     "en": "insurance certificate",
+     "vi": "chứng thư bảo hiểm"
+    },
+    {
+     "en": "phytosanitary certificate",
+     "vi": "giấy chứng nhận kiểm dịch thực vật"
+    },
+    {
+     "en": "inspection certificate",
+     "vi": "chứng thư giám định"
+    },
+    {
+     "en": "shipping instruction",
+     "vi": "hướng dẫn gửi hàng"
+    },
+    {
+     "en": "delivery order",
+     "vi": "lệnh giao hàng"
+    },
+    {
+     "en": "manifest",
+     "vi": "bản lược khai hàng hóa"
+    },
+    {
+     "en": "original",
+     "vi": "bản gốc"
+    },
+    {
+     "en": "consignment",
+     "vi": "lô hàng"
+    },
+    {
+     "en": "gross weight",
+     "vi": "trọng lượng cả bì"
+    },
+    {
+     "en": "net weight",
+     "vi": "trọng lượng tịnh"
+    },
+    {
+     "en": "container",
+     "vi": "công-te-nơ"
+    },
+    {
+     "en": "full container load (FCL)",
+     "vi": "hàng nguyên container"
+    },
+    {
+     "en": "less than container load (LCL)",
+     "vi": "hàng lẻ"
+    },
+    {
+     "en": "seal",
+     "vi": "niêm phong (chì)"
+    },
+    {
+     "en": "port of loading",
+     "vi": "cảng xếp hàng"
+    },
+    {
+     "en": "port of discharge",
+     "vi": "cảng dỡ hàng"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, the seller makes the goods available at his factory, and the buyer takes all the costs and risks from there.",
+        "ans": [
+         1
+        ],
+        "tip": "Ex Works = từ xưởng.",
+        "why": "**EXW** = giao tại xưởng; trách nhiệm tối thiểu của người bán.",
+        "opts": [
+         "DDP",
+         "EXW",
+         "CIF"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, the seller delivers the goods to the destination and pays the import duty.",
+        "ans": [
+         2
+        ],
+        "tip": "Delivered Duty Paid.",
+        "why": "**DDP** = giao đã nộp thuế; người bán chịu gần như mọi chi phí và rủi ro.",
+        "opts": [
+         "FOB",
+         "EXW",
+         "DDP"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is the document issued by the carrier that proves the shipment and acts as a receipt and title to the goods.",
+        "ans": [
+         0
+        ],
+        "tip": "lading = xếp hàng.",
+        "why": "**bill of lading (B/L)** = vận đơn, chứng từ quan trọng nhất của hàng đường biển.",
+        "opts": [
+         "bill of lading",
+         "packing list",
+         "manifest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ lists the number of cartons, weight and size of each package.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**packing list** = phiếu đóng gói, liệt kê quy cách từng kiện hàng.",
+        "opts": [
+         "certificate of origin",
+         "packing list",
+         "delivery order"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The customs officer asked for the ___ to confirm that the shirts were made in Vietnam.",
+        "ans": [
+         2
+        ],
+        "tip": "origin = nguồn gốc.",
+        "why": "**certificate of origin (C/O)** = giấy chứng nhận xuất xứ.",
+        "opts": [
+         "insurance",
+         "seal",
+         "certificate of origin"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ certificate is needed to export fresh fruit because it proves the plants are free from pests.",
+        "ans": [
+         0
+        ],
+        "tip": "phyto = thực vật.",
+        "why": "**phytosanitary certificate** = giấy kiểm dịch thực vật.",
+        "opts": [
+         "phytosanitary",
+         "packing",
+         "delivery"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ weight of the cargo includes the packaging.",
+        "ans": [
+         2
+        ],
+        "tip": "gross = tổng; net = tịnh.",
+        "why": "**gross weight** = trọng lượng cả bì; net weight chỉ tính hàng bên trong.",
+        "opts": [
+         "net",
+         "seal",
+         "gross"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "If the cargo does not fill a whole container, it is shipped as ___ together with other goods.",
+        "ans": [
+         0
+        ],
+        "tip": "Less than Container Load.",
+        "why": "**LCL** = hàng lẻ, ghép chung container với hàng của người khác.",
+        "opts": [
+         "LCL",
+         "FCL",
+         "AWB"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "FOB (Free on Board)",
+        "b": "the seller delivers the goods on board the ship at the named port of loading",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "CIF (Cost, Insurance and Freight)",
+        "b": "the seller pays for freight and insurance to the destination port",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "freight",
+        "b": "the money paid for transporting goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "consignment",
+        "b": "a quantity of goods sent together to a buyer",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "manifest",
+        "b": "a list of all the cargo carried on a ship, plane or truck",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "seal",
+        "b": "a numbered lock that shows a container has not been opened",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "port of discharge",
+        "b": "the port where the cargo is unloaded",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "airway bill (AWB)",
+        "b": "a transport document for goods carried by air",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Động từ khuyết thiếu chỉ sự bắt buộc",
+     "instruction": "Choose the correct modal verb.",
+     "instruction_vi": "Ngữ pháp: must / have to (bắt buộc), mustn't (cấm), don't have to (không cần), should (nên).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Exporters ___ provide a commercial invoice for every shipment.",
+        "ans": [
+         1
+        ],
+        "tip": "must = bắt buộc.",
+        "why": "Quy định bắt buộc → **must**.",
+        "opts": [
+         "mustn't",
+         "must",
+         "needn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under FOB, the seller ___ pay for the sea freight. The buyer arranges it.",
+        "ans": [
+         2
+        ],
+        "tip": "don't have to = không bắt buộc.",
+        "why": "Người bán không phải trả cước biển → **doesn't have to**.",
+        "opts": [
+         "must",
+         "mustn't",
+         "doesn't have to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Dangerous goods ___ be shipped without special labels. It is against the rules.",
+        "ans": [
+         1
+        ],
+        "tip": "mustn't = cấm.",
+        "why": "Bị cấm theo quy định → **mustn't**.",
+        "opts": [
+         "don't have to",
+         "mustn't",
+         "should"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "I think you ___ buy insurance, even though the contract does not require it.",
+        "ans": [
+         0
+        ],
+        "tip": "should = lời khuyên.",
+        "why": "Hợp đồng không bắt buộc nhưng nên làm → **should**.",
+        "opts": [
+         "should",
+         "must",
+         "mustn't"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The shipper ___ deliver the container to the port before the cut-off time.",
+        "ans": [
+         0
+        ],
+        "tip": "Chủ ngữ số ít → has to.",
+        "why": "Bắt buộc + chủ ngữ số ít → **has to**.",
+        "opts": [
+         "has to",
+         "have to",
+         "must to"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under CIF, the seller ___ arrange and pay for the freight and the insurance.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Nghĩa vụ của người bán theo CIF → **must**.",
+        "opts": [
+         "mustn't",
+         "must",
+         "needn't"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền từ đúng",
+     "instruction": "Complete each sentence with a suitable modal verb.",
+     "instruction_vi": "Điền động từ khuyết thiếu phù hợp với nghĩa của câu.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The documents ___ be presented within 21 days after shipment. It is a bank rule.",
+        "ans": [
+         [
+          "must",
+          "have to"
+         ]
+        ],
+        "tip": "",
+        "why": "Quy định bắt buộc → **must / have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "You ___ ship live animals without a health certificate. It is illegal.",
+        "ans": [
+         [
+          "must not",
+          "mustn't",
+          "cannot",
+          "can't"
+         ]
+        ],
+        "tip": "",
+        "why": "Bị cấm → **must not / mustn't**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The buyer has already paid, so you ___ send another invoice.",
+        "ans": [
+         [
+          "do not have to",
+          "don't have to",
+          "need not",
+          "needn't"
+         ]
+        ],
+        "tip": "",
+        "why": "Không cần thiết → **don't have to**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "I think the exporter ___ check the buyer's credit before shipping.",
+        "ans": [
+         [
+          "should",
+          "ought to"
+         ]
+        ],
+        "tip": "Lời khuyên.",
+        "why": "Lời khuyên → **should** + V."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last month, we ___ re-issue the B/L because of a spelling mistake.",
+        "ans": [
+         [
+          "had to"
+         ]
+        ],
+        "tip": "Quá khứ của must / have to.",
+        "why": "Bắt buộc trong quá khứ → **had to**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · A first export shipment",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Anna's company is sending 500 cartons of dried fruit from Vietnam to Germany on FOB terms. Under FOB, the seller must deliver the goods on board the ship at the port of loading, and the buyer has to pay the freight and arrange the insurance. After the goods are on board, the risk passes to the buyer.\n\nThe exporter must prepare several documents. The commercial invoice shows the price and the payment terms, and the packing list gives the number of cartons, the gross weight and the net weight. Because the cargo is food, a phytosanitary certificate is required, and the buyer also asks for a certificate of origin. The carrier issues the bill of lading, which proves that the cargo is on board.\n\nThe exporter doesn't have to ship a full container; if the cargo is small, it can travel as LCL. However, every document must match exactly. A small mistake in the name of the consignee or the port of discharge can delay the shipment or cause a bank to refuse payment.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Under FOB, the buyer pays the freight.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: theo FOB, người mua trả cước và thu xếp bảo hiểm."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The risk passes to the buyer before the goods are on board.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: rủi ro chuyển sang người mua **sau khi** hàng đã lên tàu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A packing list shows the gross weight and the net weight.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: phiếu đóng gói ghi số kiện, trọng lượng cả bì và trọng lượng tịnh."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The exporter has to ship a full container.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hàng ít có thể đi theo dạng LCL, không bắt buộc nguyên container."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why is a phytosanitary certificate required?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: vì hàng là thực phẩm nên cần giấy kiểm dịch.",
+        "opts": [
+         "Because the shipment is LCL",
+         "Because the carrier is late",
+         "Because the cargo is food"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the bill of lading prove?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hãng vận chuyển cấp vận đơn để chứng minh hàng đã lên tàu.",
+        "opts": [
+         "That the price is correct",
+         "That the cargo is on board",
+         "That the buyer has paid"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can a small mistake in a document cause?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: sai sót nhỏ có thể làm chậm lô hàng hoặc khiến ngân hàng từ chối thanh toán.",
+        "opts": [
+         "A lower price",
+         "A free upgrade",
+         "A delay or a refusal of payment by the bank"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the commercial invoice show?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: hóa đơn thương mại ghi giá và điều khoản thanh toán.",
+        "opts": [
+         "The price and the payment terms",
+         "The gross weight",
+         "The number of cartons"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Customs Clearance Procedures",
+   "name_vi": "Thủ tục thông quan",
+   "icon": "🛃",
+   "hue": 5,
+   "words": [
+    {
+     "en": "customs",
+     "vi": "hải quan"
+    },
+    {
+     "en": "customs officer",
+     "vi": "cán bộ hải quan"
+    },
+    {
+     "en": "customs declaration",
+     "vi": "tờ khai hải quan"
+    },
+    {
+     "en": "customs broker",
+     "vi": "đại lý làm thủ tục hải quan"
+    },
+    {
+     "en": "customs clearance",
+     "vi": "thông quan"
+    },
+    {
+     "en": "customs duty",
+     "vi": "thuế hải quan"
+    },
+    {
+     "en": "import duty",
+     "vi": "thuế nhập khẩu"
+    },
+    {
+     "en": "export duty",
+     "vi": "thuế xuất khẩu"
+    },
+    {
+     "en": "VAT",
+     "vi": "thuế giá trị gia tăng"
+    },
+    {
+     "en": "HS code",
+     "vi": "mã HS (mã phân loại hàng hóa)"
+    },
+    {
+     "en": "customs value",
+     "vi": "trị giá hải quan"
+    },
+    {
+     "en": "inspection",
+     "vi": "sự kiểm tra"
+    },
+    {
+     "en": "physical inspection",
+     "vi": "kiểm hóa (kiểm tra thực tế hàng)"
+    },
+    {
+     "en": "scanning",
+     "vi": "soi chiếu"
+    },
+    {
+     "en": "green channel",
+     "vi": "luồng xanh"
+    },
+    {
+     "en": "red channel",
+     "vi": "luồng đỏ"
+    },
+    {
+     "en": "bonded warehouse",
+     "vi": "kho ngoại quan"
+    },
+    {
+     "en": "temporary import",
+     "vi": "tạm nhập"
+    },
+    {
+     "en": "temporary export",
+     "vi": "tạm xuất"
+    },
+    {
+     "en": "transit",
+     "vi": "quá cảnh"
+    },
+    {
+     "en": "demurrage",
+     "vi": "phí lưu container tại cảng"
+    },
+    {
+     "en": "release",
+     "vi": "thả hàng, cho thông quan"
+    },
+    {
+     "en": "hold",
+     "vi": "giữ hàng lại"
+    },
+    {
+     "en": "seizure",
+     "vi": "sự tịch thu"
+    },
+    {
+     "en": "fine",
+     "vi": "tiền phạt"
+    },
+    {
+     "en": "smuggling",
+     "vi": "buôn lậu"
+    },
+    {
+     "en": "prohibited goods",
+     "vi": "hàng cấm"
+    },
+    {
+     "en": "restricted goods",
+     "vi": "hàng hạn chế"
+    },
+    {
+     "en": "import licence",
+     "vi": "giấy phép nhập khẩu"
+    },
+    {
+     "en": "quarantine",
+     "vi": "kiểm dịch, cách ly"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The importer must submit a ___ with the invoice, the packing list and the bill of lading.",
+        "ans": [
+         0
+        ],
+        "tip": "declare = khai báo.",
+        "why": "**customs declaration** = tờ khai hải quan, nộp kèm bộ chứng từ.",
+        "opts": [
+         "customs declaration",
+         "seizure",
+         "quarantine"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ helps companies prepare documents and deal with customs officers on their behalf.",
+        "ans": [
+         1
+        ],
+        "tip": "broker = người môi giới/đại lý.",
+        "why": "**customs broker** = đại lý hải quan, làm thủ tục thay doanh nghiệp.",
+        "opts": [
+         "customs officer",
+         "customs broker",
+         "consignee"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ is a six- to ten-digit number that classifies a product for tariff purposes.",
+        "ans": [
+         2
+        ],
+        "tip": "Harmonized System.",
+        "why": "**HS code** = mã phân loại hàng hóa dùng để tính thuế.",
+        "opts": [
+         "import licence",
+         "red channel",
+         "HS code"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The tax paid on goods when they enter a country is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**import duty** = thuế nhập khẩu.",
+        "opts": [
+         "import duty",
+         "export duty",
+         "fine"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The container was selected for a ___, and officers opened it to check the goods.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**physical inspection** = kiểm hóa, mở hàng kiểm tra thực tế.",
+        "opts": [
+         "transit",
+         "physical inspection",
+         "green channel"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Goods stored in a ___ do not pay duty until they leave it.",
+        "ans": [
+         2
+        ],
+        "tip": "bonded = được bảo lãnh thuế.",
+        "why": "**bonded warehouse** = kho ngoại quan, hoãn nộp thuế đến khi hàng ra khỏi kho.",
+        "opts": [
+         "red channel",
+         "import licence",
+         "bonded warehouse"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The company paid ___ because the container stayed at the port for ten extra days.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**demurrage** = phí lưu container quá hạn tại cảng.",
+        "opts": [
+         "quarantine",
+         "demurrage",
+         "VAT"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Weapons and illegal drugs are ___ goods and cannot be imported at all.",
+        "ans": [
+         2
+        ],
+        "tip": "prohibit = cấm.",
+        "why": "**prohibited goods** = hàng cấm; restricted goods cần giấy phép đặc biệt.",
+        "opts": [
+         "restricted",
+         "bonded",
+         "prohibited"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "customs clearance",
+        "b": "the process of getting permission from customs to import or export goods",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "customs value",
+        "b": "the value of goods used to calculate duty and taxes",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "green channel",
+        "b": "a fast route for low-risk shipments with little or no inspection",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "red channel",
+        "b": "a route for shipments that will be inspected",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "temporary import",
+        "b": "bringing goods into a country for a limited time and then taking them out again",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "transit",
+        "b": "the movement of goods through a country on the way to another country",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "quarantine",
+        "b": "keeping plants, animals or food apart to stop pests and diseases spreading",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "smuggling",
+        "b": "bringing goods into or out of a country illegally",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Thể bị động",
+     "instruction": "Choose the correct passive form.",
+     "instruction_vi": "Ngữ pháp: bị động = be + V3. Hiện tại: am/is/are + V3; quá khứ: was/were + V3; tương lai: will be + V3; đang xảy ra: is/are being + V3.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The customs declaration ___ electronically before the ship arrives.",
+        "ans": [
+         0
+        ],
+        "tip": "Tờ khai được nộp → bị động.",
+        "why": "Tờ khai là đối tượng bị tác động → bị động hiện tại: **is submitted**.",
+        "opts": [
+         "is submitted",
+         "submits",
+         "is submitting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "All imported food ___ for pests and diseases.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Thực phẩm được kiểm tra → **is inspected**.",
+        "opts": [
+         "inspects",
+         "is inspected",
+         "is inspecting"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Two containers ___ for physical inspection yesterday.",
+        "ans": [
+         0
+        ],
+        "tip": "yesterday → was/were + V3.",
+        "why": "'yesterday' + số nhiều → **were selected**.",
+        "opts": [
+         "were selected",
+         "selected",
+         "are selected"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The goods ___ as soon as the duty is paid.",
+        "ans": [
+         2
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be released**.",
+        "opts": [
+         "will release",
+         "are releasing",
+         "will be released"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The shipment ___ at the port at the moment.",
+        "ans": [
+         1
+        ],
+        "tip": "at the moment → is being + V3.",
+        "why": "Đang diễn ra + bị động → **is being scanned**.",
+        "opts": [
+         "is scanned",
+         "is being scanned",
+         "is scanning"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The smuggled cigarettes ___ by customs officers last week.",
+        "ans": [
+         2
+        ],
+        "tip": "last week → quá khứ.",
+        "why": "Bị động quá khứ, số nhiều: **were seized**.",
+        "opts": [
+         "seized",
+         "are seized",
+         "were seized"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the passive form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng bị động đúng của động từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Import duty ___ (calculate) on the customs value.",
+        "ans": [
+         [
+          "is calculated"
+         ]
+        ],
+        "tip": "Chủ ngữ số ít → is + V3.",
+        "why": "Bị động hiện tại, số ít: **is calculated**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The container ___ (open) by customs yesterday.",
+        "ans": [
+         [
+          "was opened"
+         ]
+        ],
+        "tip": "yesterday → quá khứ.",
+        "why": "Bị động quá khứ, số ít: **was opened**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The documents ___ (check) at the moment.",
+        "ans": [
+         [
+          "are being checked"
+         ]
+        ],
+        "tip": "at the moment → are being + V3.",
+        "why": "Đang diễn ra + bị động, số nhiều: **are being checked**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The goods ___ (release) once the broker pays the tax.",
+        "ans": [
+         [
+          "will be released"
+         ]
+        ],
+        "tip": "will be + V3.",
+        "why": "Bị động tương lai: **will be released**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Prohibited goods ___ (seize) at the border every year.",
+        "ans": [
+         [
+          "are seized"
+         ]
+        ],
+        "tip": "every year → hiện tại đơn.",
+        "why": "Bị động hiện tại, số nhiều: **are seized**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Inside customs clearance",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "When a shipment arrives at a port, it cannot leave until it is cleared by customs. First, a customs declaration is submitted, usually by a customs broker. The declaration includes the HS code, the customs value and the origin of the goods. These details are used to calculate the import duty and VAT.\n\nNext, the declaration is checked by the customs system and sent to one of three channels. In the green channel, the goods are released immediately. In the yellow channel, the documents are checked. In the red channel, the container is scanned or opened for a physical inspection. Food, plants and animals are also checked for pests and diseases, and they may be held in quarantine.\n\nIf the importer pays the duty and all documents are correct, the goods are released and can be moved to the warehouse. If the goods are not collected quickly, demurrage must be paid. Prohibited goods are seized, and smuggling is punished by a heavy fine or even prison.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A customs declaration is usually submitted by a customs broker.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tờ khai thường do đại lý hải quan nộp."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "In the green channel, the goods are held for a physical inspection.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ở luồng xanh, hàng được **thông quan ngay**; luồng đỏ mới kiểm hóa."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Import duty and VAT are calculated from details in the declaration.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mã HS, trị giá và xuất xứ được dùng để tính thuế nhập khẩu và VAT."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Prohibited goods are released after the duty is paid.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hàng cấm bị **tịch thu**."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What information does the declaration include?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: mã HS, trị giá hải quan và xuất xứ.",
+        "opts": [
+         "The HS code, the customs value and the origin of the goods",
+         "Only the name of the port",
+         "The colour of the container"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What happens in the red channel?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: luồng đỏ soi chiếu hoặc mở container kiểm hóa.",
+        "opts": [
+         "The container is scanned or opened for a physical inspection",
+         "The goods are released immediately",
+         "Only the documents are checked"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why might food be held in quarantine?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thực phẩm, thực vật, động vật được kiểm tra sâu bệnh và có thể bị giữ kiểm dịch.",
+        "opts": [
+         "To calculate the VAT",
+         "To check for pests and diseases",
+         "To print the invoice"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What must be paid if goods are not collected quickly?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nếu không lấy hàng kịp thời phải trả phí demurrage.",
+        "opts": [
+         "A transit fee",
+         "A fine for smuggling",
+         "Demurrage"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tariffs & Trade Agreements",
+   "name_vi": "Thuế quan & hiệp định thương mại",
+   "icon": "🤝",
+   "hue": 140,
+   "words": [
+    {
+     "en": "tariff",
+     "vi": "thuế quan"
+    },
+    {
+     "en": "quota",
+     "vi": "hạn ngạch"
+    },
+    {
+     "en": "embargo",
+     "vi": "lệnh cấm vận"
+    },
+    {
+     "en": "sanction",
+     "vi": "lệnh trừng phạt"
+    },
+    {
+     "en": "subsidy",
+     "vi": "trợ cấp"
+    },
+    {
+     "en": "protectionism",
+     "vi": "chủ nghĩa bảo hộ"
+    },
+    {
+     "en": "free trade",
+     "vi": "thương mại tự do"
+    },
+    {
+     "en": "free trade agreement (FTA)",
+     "vi": "hiệp định thương mại tự do"
+    },
+    {
+     "en": "preferential tariff",
+     "vi": "thuế quan ưu đãi"
+    },
+    {
+     "en": "most favoured nation (MFN)",
+     "vi": "tối huệ quốc"
+    },
+    {
+     "en": "World Trade Organization (WTO)",
+     "vi": "Tổ chức Thương mại Thế giới"
+    },
+    {
+     "en": "customs union",
+     "vi": "liên minh thuế quan"
+    },
+    {
+     "en": "rules of origin",
+     "vi": "quy tắc xuất xứ"
+    },
+    {
+     "en": "country of origin",
+     "vi": "nước xuất xứ"
+    },
+    {
+     "en": "anti-dumping duty",
+     "vi": "thuế chống bán phá giá"
+    },
+    {
+     "en": "dumping",
+     "vi": "bán phá giá"
+    },
+    {
+     "en": "countervailing duty",
+     "vi": "thuế chống trợ cấp"
+    },
+    {
+     "en": "safeguard measure",
+     "vi": "biện pháp tự vệ"
+    },
+    {
+     "en": "non-tariff barrier",
+     "vi": "rào cản phi thuế quan"
+    },
+    {
+     "en": "technical standard",
+     "vi": "tiêu chuẩn kỹ thuật"
+    },
+    {
+     "en": "trade war",
+     "vi": "chiến tranh thương mại"
+    },
+    {
+     "en": "trade policy",
+     "vi": "chính sách thương mại"
+    },
+    {
+     "en": "trade volume",
+     "vi": "kim ngạch, khối lượng thương mại"
+    },
+    {
+     "en": "trade negotiation",
+     "vi": "đàm phán thương mại"
+    },
+    {
+     "en": "ratify",
+     "vi": "phê chuẩn"
+    },
+    {
+     "en": "come into force",
+     "vi": "có hiệu lực"
+    },
+    {
+     "en": "tariff line",
+     "vi": "dòng thuế"
+    },
+    {
+     "en": "tariff reduction",
+     "vi": "cắt giảm thuế quan"
+    },
+    {
+     "en": "market access",
+     "vi": "khả năng tiếp cận thị trường"
+    },
+    {
+     "en": "export-oriented",
+     "vi": "hướng về xuất khẩu"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government put a 20 % ___ on imported cars to make them more expensive.",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "**tariff** = thuế quan đánh vào hàng nhập khẩu.",
+        "opts": [
+         "subsidy",
+         "quota",
+         "tariff"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ limits the quantity of a product that can be imported in one year.",
+        "ans": [
+         1
+        ],
+        "tip": "quota = phần hạn mức.",
+        "why": "**quota** = hạn ngạch, giới hạn số lượng hàng nhập khẩu.",
+        "opts": [
+         "tariff",
+         "quota",
+         "subsidy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government pays a ___ to farmers so that they can sell their rice at a lower price.",
+        "ans": [
+         0
+        ],
+        "tip": "sub + sid = hỗ trợ từ bên dưới.",
+        "why": "**subsidy** = trợ cấp của nhà nước.",
+        "opts": [
+         "subsidy",
+         "embargo",
+         "quota"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The country imposed an ___ on arms sales, so no weapons can be traded with that country.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**embargo** = lệnh cấm vận, cấm buôn bán với một nước hoặc một loại hàng.",
+        "opts": [
+         "subsidy",
+         "embargo",
+         "tariff"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The goods qualify for a ___ tariff because they meet the rules of origin of the agreement.",
+        "ans": [
+         2
+        ],
+        "tip": "prefer = ưu tiên.",
+        "why": "**preferential tariff** = thuế ưu đãi dành cho hàng đáp ứng quy tắc xuất xứ.",
+        "opts": [
+         "prohibited",
+         "temporary",
+         "preferential"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Selling products abroad at a price lower than in the home market is called ___.",
+        "ans": [
+         0
+        ],
+        "tip": "dump = đổ bỏ.",
+        "why": "**dumping** = bán phá giá.",
+        "opts": [
+         "dumping",
+         "free trade",
+         "market access"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Policies that protect local industry by limiting imports are called ___.",
+        "ans": [
+         1
+        ],
+        "tip": "protect + ism.",
+        "why": "**protectionism** = chủ nghĩa bảo hộ.",
+        "opts": [
+         "free trade",
+         "protectionism",
+         "globalisation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Parliament must ___ the agreement before it can start.",
+        "ans": [
+         2
+        ],
+        "tip": "ratify = phê chuẩn chính thức.",
+        "why": "**ratify** = phê chuẩn hiệp định.",
+        "opts": [
+         "dump",
+         "sanction",
+         "ratify"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "sanction",
+        "b": "a penalty imposed by one or more countries to force another to change its behaviour",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "free trade agreement (FTA)",
+        "b": "a treaty that reduces tariffs and barriers between member countries",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "most favoured nation (MFN)",
+        "b": "a rule that gives every WTO member the same tariff treatment",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "rules of origin",
+        "b": "the criteria used to decide which country a product comes from",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "anti-dumping duty",
+        "b": "an extra tax on imports sold at an unfairly low price",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "non-tariff barrier",
+        "b": "a restriction other than a tax, such as strict standards or licences",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "market access",
+        "b": "the ability of foreign companies to sell their goods in a country",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "trade war",
+        "b": "a conflict in which countries raise tariffs against each other",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: quá khứ đơn (mốc thời gian xác định: in 2007, last year); hiện tại hoàn thành (since, so far, yet, kết quả còn đến nay).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Vietnam ___ the WTO in 2007.",
+        "ans": [
+         0
+        ],
+        "tip": "in 2007 → quá khứ đơn.",
+        "why": "Mốc xác định 'in 2007' → **quá khứ đơn**: joined.",
+        "opts": [
+         "joined",
+         "has joined",
+         "joins"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Since then, our exports to Japan ___ by 40 %.",
+        "ans": [
+         2
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'Since then' → **have risen** (rise → rose → risen).",
+        "opts": [
+         "rose",
+         "rise",
+         "have risen"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The government ___ the tariff on steel last year.",
+        "ans": [
+         0
+        ],
+        "tip": "last year → quá khứ đơn.",
+        "why": "'last year' → **raised**.",
+        "opts": [
+         "raised",
+         "has raised",
+         "raises"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Vietnam ___ more than ten free trade agreements so far.",
+        "ans": [
+         1
+        ],
+        "tip": "so far → hiện tại hoàn thành.",
+        "why": "'so far' → **has signed**.",
+        "opts": [
+         "signed",
+         "has signed",
+         "signs"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "We ___ any problems with the new rules of origin yet.",
+        "ans": [
+         2
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **haven't had** (have not + V3).",
+        "opts": [
+         "hadn't",
+         "haven't have",
+         "haven't had"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The tariff reduction ___ into force on 1 January 2020.",
+        "ans": [
+         0
+        ],
+        "tip": "on 1 January 2020 = mốc xác định.",
+        "why": "Mốc xác định → quá khứ đơn: **came** (come → came).",
+        "opts": [
+         "came",
+         "has come",
+         "comes"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Complete each sentence with the correct form of the verb in brackets.",
+     "instruction_vi": "Gõ dạng đúng (quá khứ đơn hoặc hiện tại hoàn thành).",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Our export volume ___ (grow) steadily since 2015.",
+        "ans": [
+         [
+          "has grown"
+         ]
+        ],
+        "tip": "since → hiện tại hoàn thành.",
+        "why": "'since 2015' → **has grown**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The two countries ___ (sign) the agreement in 2019.",
+        "ans": [
+         [
+          "signed"
+         ]
+        ],
+        "tip": "in 2019 → quá khứ đơn.",
+        "why": "Mốc xác định 'in 2019' → **signed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The government ___ (not / remove) the quota yet.",
+        "ans": [
+         [
+          "has not removed",
+          "hasn't removed"
+         ]
+        ],
+        "tip": "yet → hiện tại hoàn thành.",
+        "why": "'yet' → **has not removed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Last year, the EU ___ (impose) anti-dumping duties on some steel products.",
+        "ans": [
+         [
+          "imposed"
+         ]
+        ],
+        "tip": "Last year → quá khứ đơn.",
+        "why": "'Last year' → **imposed**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "Trade between the two countries ___ (double) over the last decade.",
+        "ans": [
+         [
+          "has doubled"
+         ]
+        ],
+        "tip": "over the last decade → hiện tại hoàn thành.",
+        "why": "'over the last decade' (khoảng thời gian đến nay) → **has doubled**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · Tariffs and trade agreements",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "A tariff is a tax on imported goods. Governments use tariffs to raise money and to protect local companies, but high tariffs make products more expensive for consumers. Other tools include quotas, subsidies and non-tariff barriers, such as strict technical standards. When one country imposes high tariffs, other countries sometimes reply in the same way, and a trade war can start.\n\nOver the past thirty years, many countries have chosen free trade instead. Vietnam joined the WTO in 2007, and since then it has signed many free trade agreements. Under an FTA, tariffs are reduced, and companies get better market access. However, a product receives a preferential tariff only if it meets the rules of origin. Exporters must prove that their goods really come from a member country, usually with a certificate of origin.\n\nFree trade is not perfect. If imports are sold at an unfairly low price, the importing country may impose an anti-dumping duty. Sanctions and embargoes can also stop trade completely. For this reason, exporters should always check the latest rules before they sign a contract.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A tariff is a tax on imported goods.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 1: tariff là thuế đánh vào hàng nhập khẩu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Vietnam joined the WTO in 1995.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: Việt Nam gia nhập WTO năm **2007**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A product always receives a preferential tariff under an FTA.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: sản phẩm chỉ được ưu đãi **nếu đáp ứng quy tắc xuất xứ**."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Anti-dumping duties are imposed when imports are sold at an unfairly low price.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nước nhập khẩu có thể áp thuế chống bán phá giá khi hàng bán giá thấp bất công."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do governments use tariffs?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 1: thuế quan tạo ngân sách và bảo vệ doanh nghiệp trong nước.",
+        "opts": [
+         "To make exports cheaper",
+         "To raise money and protect local companies",
+         "To start a trade war"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "How can exporters prove that goods come from a member country?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: thường bằng giấy chứng nhận xuất xứ.",
+        "opts": [
+         "With a certificate of origin",
+         "With a quota",
+         "With an embargo"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What can happen when one country imposes high tariffs?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 1: các nước khác có thể đáp trả tương tự và gây ra chiến tranh thương mại.",
+        "opts": [
+         "Prices always fall",
+         "Technical standards disappear",
+         "Other countries may reply in the same way"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What should exporters do before they sign a contract?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: nên kiểm tra các quy định mới nhất.",
+        "opts": [
+         "Ignore sanctions",
+         "Check the latest rules",
+         "Remove the certificate of origin"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Payment & Trade Finance",
+   "name_vi": "Thanh toán quốc tế & tài trợ thương mại",
+   "icon": "💳",
+   "hue": 290,
+   "words": [
+    {
+     "en": "payment method",
+     "vi": "phương thức thanh toán"
+    },
+    {
+     "en": "letter of credit (L/C)",
+     "vi": "thư tín dụng"
+    },
+    {
+     "en": "documentary collection",
+     "vi": "nhờ thu chứng từ"
+    },
+    {
+     "en": "telegraphic transfer (T/T)",
+     "vi": "chuyển tiền bằng điện (T/T)"
+    },
+    {
+     "en": "advance payment",
+     "vi": "thanh toán trước"
+    },
+    {
+     "en": "open account",
+     "vi": "phương thức ghi sổ (trả tiền sau)"
+    },
+    {
+     "en": "cash against documents (CAD)",
+     "vi": "trả tiền đổi lấy chứng từ"
+    },
+    {
+     "en": "deposit",
+     "vi": "tiền đặt cọc"
+    },
+    {
+     "en": "instalment",
+     "vi": "đợt trả góp"
+    },
+    {
+     "en": "issuing bank",
+     "vi": "ngân hàng phát hành"
+    },
+    {
+     "en": "advising bank",
+     "vi": "ngân hàng thông báo"
+    },
+    {
+     "en": "confirming bank",
+     "vi": "ngân hàng xác nhận"
+    },
+    {
+     "en": "beneficiary",
+     "vi": "người thụ hưởng"
+    },
+    {
+     "en": "applicant",
+     "vi": "người yêu cầu mở L/C"
+    },
+    {
+     "en": "irrevocable",
+     "vi": "không thể hủy ngang"
+    },
+    {
+     "en": "at sight",
+     "vi": "trả ngay khi xuất trình"
+    },
+    {
+     "en": "usance",
+     "vi": "kỳ hạn thanh toán"
+    },
+    {
+     "en": "draft (bill of exchange)",
+     "vi": "hối phiếu"
+    },
+    {
+     "en": "presentation",
+     "vi": "sự xuất trình (chứng từ)"
+    },
+    {
+     "en": "discrepancy",
+     "vi": "sự sai lệch (giữa các chứng từ)"
+    },
+    {
+     "en": "amend",
+     "vi": "sửa đổi"
+    },
+    {
+     "en": "expiry date",
+     "vi": "ngày hết hạn"
+    },
+    {
+     "en": "exchange rate",
+     "vi": "tỷ giá hối đoái"
+    },
+    {
+     "en": "foreign currency",
+     "vi": "ngoại tệ"
+    },
+    {
+     "en": "hedging",
+     "vi": "phòng ngừa rủi ro tỷ giá"
+    },
+    {
+     "en": "bank charges",
+     "vi": "phí ngân hàng"
+    },
+    {
+     "en": "credit risk",
+     "vi": "rủi ro tín dụng"
+    },
+    {
+     "en": "trade finance",
+     "vi": "tài trợ thương mại"
+    },
+    {
+     "en": "guarantee",
+     "vi": "bảo lãnh"
+    },
+    {
+     "en": "credit insurance",
+     "vi": "bảo hiểm tín dụng"
+    }
+   ],
+   "exercises": [
+    {
+     "section": "vocab",
+     "kind": "quiz",
+     "title": "Bài 1 · Chọn từ đúng",
+     "instruction": "Choose the best word to complete each sentence.",
+     "instruction_vi": "Chọn thuật ngữ xuất nhập khẩu – hải quan phù hợp nhất.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A ___ is a bank's promise to pay the seller if the seller presents the correct documents.",
+        "ans": [
+         2
+        ],
+        "tip": "credit = tín dụng.",
+        "why": "**letter of credit (L/C)** = thư tín dụng, cam kết trả tiền của ngân hàng.",
+        "opts": [
+         "deposit",
+         "instalment",
+         "letter of credit"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The seller is the ___ of the L/C, and the buyer is the applicant.",
+        "ans": [
+         0
+        ],
+        "tip": "benefit = lợi ích → người hưởng lợi.",
+        "why": "**beneficiary** = người thụ hưởng, thường là người bán.",
+        "opts": [
+         "beneficiary",
+         "usance",
+         "discrepancy"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The ___ bank opens the L/C at the buyer's request.",
+        "ans": [
+         1
+        ],
+        "tip": "issue = phát hành.",
+        "why": "**issuing bank** = ngân hàng phát hành L/C theo yêu cầu của người mua.",
+        "opts": [
+         "advising",
+         "issuing",
+         "confirming"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Payment is made ___: the bank pays as soon as the documents are presented.",
+        "ans": [
+         2
+        ],
+        "tip": "sight = lúc nhìn thấy (chứng từ).",
+        "why": "**at sight** = trả ngay khi xuất trình chứng từ hợp lệ.",
+        "opts": [
+         "by instalments",
+         "on open account",
+         "at sight"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The bank refused the documents because of a ___: the amount on the invoice was different from the L/C.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "**discrepancy** = sự sai lệch giữa các chứng từ hoặc với L/C.",
+        "opts": [
+         "guarantee",
+         "discrepancy",
+         "hedging"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The L/C must be used before its ___, or it will no longer be valid.",
+        "ans": [
+         0
+        ],
+        "tip": "expire = hết hạn.",
+        "why": "**expiry date** = ngày hết hạn hiệu lực của L/C.",
+        "opts": [
+         "expiry date",
+         "exchange rate",
+         "usance"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Because the euro may fall against the dong, the exporter used ___ to reduce the risk.",
+        "ans": [
+         1
+        ],
+        "tip": "hedge = hàng rào bảo vệ.",
+        "why": "**hedging** = phòng ngừa rủi ro tỷ giá.",
+        "opts": [
+         "amending",
+         "hedging",
+         "presentation"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Under ___, the seller ships the goods first and the buyer pays later, so the seller takes a high credit risk.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "**open account** = ghi sổ, giao hàng trước rồi mới thanh toán.",
+        "opts": [
+         "open account",
+         "advance payment",
+         "letter of credit"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "vocab",
+     "kind": "match",
+     "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+     "instruction": "Match each term with its definition.",
+     "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "pair",
+       "content": {
+        "a": "advance payment",
+        "b": "the buyer pays before the goods are shipped",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "telegraphic transfer (T/T)",
+        "b": "a payment sent electronically from one bank account to another",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "documentary collection",
+        "b": "a method in which banks hand over documents to the buyer against payment or acceptance",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "confirming bank",
+        "b": "a bank that adds its own guarantee to an L/C",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "irrevocable",
+        "b": "cannot be cancelled or changed without everyone's agreement",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "draft (bill of exchange)",
+        "b": "a written order to pay a fixed amount at a fixed time",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "credit insurance",
+        "b": "a policy that protects the seller if the buyer fails to pay",
+        "tip": "",
+        "extra": ""
+       }
+      },
+      {
+       "kind": "pair",
+       "content": {
+        "a": "bank charges",
+        "b": "fees that banks collect for handling a payment",
+        "tip": "",
+        "extra": ""
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 1 · So sánh hơn và so sánh nhất",
+     "instruction": "Choose the correct form.",
+     "instruction_vi": "Ngữ pháp: -er/more … than, the -est/the most …, as … as, the + so sánh hơn … the + so sánh hơn.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An L/C is ___ than open account for the seller.",
+        "ans": [
+         2
+        ],
+        "tip": "than → so sánh hơn.",
+        "why": "Có 'than' → **safer**.",
+        "opts": [
+         "safe",
+         "safest",
+         "safer"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Advance payment is the ___ method for the exporter.",
+        "ans": [
+         1
+        ],
+        "tip": "the + so sánh nhất.",
+        "why": "'the … method' → so sánh nhất: **safest**.",
+        "opts": [
+         "safer",
+         "safest",
+         "most safe"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "A T/T is usually ___ than an L/C because the bank charges are lower.",
+        "ans": [
+         0
+        ],
+        "tip": "than → so sánh hơn.",
+        "why": "Có 'than' → **cheaper**.",
+        "opts": [
+         "cheaper",
+         "cheap",
+         "cheapest"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Open account is ___ for the seller than an L/C.",
+        "ans": [
+         2
+        ],
+        "tip": "risky → riskier.",
+        "why": "Có 'than' → **riskier** (y → ier).",
+        "opts": [
+         "risky",
+         "riskiest",
+         "riskier"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "An L/C is not as ___ as a T/T.",
+        "ans": [
+         0
+        ],
+        "tip": "as + adj + as.",
+        "why": "So sánh bằng (phủ định): not as + tính từ nguyên mẫu + as → **simple**.",
+        "opts": [
+         "simple",
+         "simpler",
+         "more simple"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "The more documents the exporter prepares, the ___ the chance of a discrepancy.",
+        "ans": [
+         1
+        ],
+        "tip": "The + so sánh hơn, the + so sánh hơn.",
+        "why": "Cấu trúc 'càng … càng …' → **the higher**.",
+        "opts": [
+         "high",
+         "higher",
+         "highest"
+        ]
+       }
+      }
+     ]
+    },
+    {
+     "section": "lang",
+     "kind": "quiz",
+     "title": "Bài 2 · Điền dạng đúng",
+     "instruction": "Write the comparative or superlative form of the adjective in brackets.",
+     "instruction_vi": "Gõ dạng so sánh hơn hoặc so sánh nhất của tính từ.",
+     "passage": "",
+     "config": {},
+     "questions": [
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A confirmed L/C is ___ (safe) than an unconfirmed L/C.",
+        "ans": [
+         [
+          "safer"
+         ]
+        ],
+        "tip": "Tính từ ngắn + -er.",
+        "why": "Có 'than' → **safer**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "This is ___ (expensive) payment method because the bank charges are high.",
+        "ans": [
+         [
+          "the most expensive"
+         ]
+        ],
+        "tip": "Tính từ dài → the most + adj.",
+        "why": "So sánh nhất của tính từ dài: **the most expensive**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "A T/T is ___ (quick) than a bank draft.",
+        "ans": [
+         [
+          "quicker",
+          "faster"
+         ]
+        ],
+        "tip": "",
+        "why": "Có 'than' → **quicker**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "For new buyers, advance payment is ___ (good) choice for the seller.",
+        "ans": [
+         [
+          "the best"
+         ]
+        ],
+        "tip": "good → better → best.",
+        "why": "So sánh nhất của good → **the best**."
+       }
+      },
+      {
+       "kind": "fl",
+       "content": {
+        "q": "The longer the usance period, the ___ (high) the credit risk.",
+        "ans": [
+         [
+          "higher"
+         ]
+        ],
+        "tip": "The + so sánh hơn, the + so sánh hơn.",
+        "why": "Cấu trúc 'càng … càng …' → **higher**."
+       }
+      }
+     ]
+    },
+    {
+     "section": "read",
+     "kind": "quiz",
+     "title": "Bài 1 · How do you get paid?",
+     "instruction": "Read the text and answer the questions.",
+     "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+     "passage": "Getting paid is the biggest worry for most exporters. The seller wants the money before he loses control of the goods, while the buyer wants the goods before he pays. Different payment methods balance this risk in different ways.\n\nAdvance payment is the safest method for the exporter because the money arrives before shipping, but it is the riskiest for the buyer. Under open account, the seller ships first and the buyer pays later, so the seller carries the credit risk. A telegraphic transfer is a simple and fast way to send money, and it is cheaper than most other methods.\n\nA letter of credit is more secure for both sides. The issuing bank promises to pay the beneficiary if the documents are presented correctly and there is no discrepancy. If the L/C is confirmed, a second bank adds its own guarantee. However, it is more expensive because of bank charges, and a small mistake in the documents can delay payment. Exporters who sell in foreign currency also use hedging to protect themselves from changes in the exchange rate.",
+     "config": {},
+     "questions": [
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Advance payment is the safest method for the exporter.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: tiền đến trước khi giao hàng nên an toàn nhất cho người xuất khẩu."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "Under open account, the buyer pays before the goods are shipped.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 2: ở phương thức ghi sổ, người bán giao hàng **trước**, người mua trả sau."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "A T/T is cheaper than most other methods.",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 2: chuyển tiền điện đơn giản, nhanh và rẻ hơn hầu hết phương thức khác."
+       }
+      },
+      {
+       "kind": "tf",
+       "content": {
+        "q": "The issuing bank pays the beneficiary even if the documents are wrong.",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngân hàng chỉ trả khi bộ chứng từ xuất trình **đúng** và không có sai lệch."
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Who carries the credit risk under open account?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 2: người bán giao hàng trước nên chịu rủi ro tín dụng.",
+        "opts": [
+         "The buyer",
+         "The issuing bank",
+         "The seller"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does the issuing bank promise?",
+        "ans": [
+         2
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngân hàng hứa trả tiền cho người thụ hưởng nếu chứng từ đúng.",
+        "opts": [
+         "To ship the goods",
+         "To reduce the exchange rate",
+         "To pay the beneficiary if the documents are correct"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "What does a confirming bank add to an L/C?",
+        "ans": [
+         1
+        ],
+        "tip": "",
+        "why": "Đoạn 3: ngân hàng xác nhận thêm bảo đảm của riêng mình.",
+        "opts": [
+         "A discrepancy",
+         "Its own guarantee",
+         "A new exchange rate"
+        ]
+       }
+      },
+      {
+       "kind": "mc",
+       "content": {
+        "q": "Why do exporters use hedging?",
+        "ans": [
+         0
+        ],
+        "tip": "",
+        "why": "Đoạn 3: hedging bảo vệ khỏi biến động tỷ giá khi bán bằng ngoại tệ.",
+        "opts": [
+         "To protect themselves from exchange rate changes",
+         "To avoid shipping documents",
+         "To increase bank charges"
+        ]
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  [
+   "choice",
+   "sự lựa chọn"
+  ],
+  [
+   "consumer",
+   "người tiêu dùng"
+  ],
+  [
+   "healthy",
+   "lành mạnh"
+  ],
+  [
+   "protect",
+   "bảo vệ"
+  ],
+  [
+   "local",
+   "địa phương, trong nước"
+  ],
+  [
+   "industry",
+   "ngành công nghiệp"
+  ],
+  [
+   "tax",
+   "thuế"
+  ],
+  [
+   "expensive",
+   "đắt"
+  ],
+  [
+   "visit",
+   "thăm, tham dự"
+  ],
+  [
+   "directly",
+   "trực tiếp"
+  ],
+  [
+   "face to face",
+   "trực tiếp, mặt đối mặt"
+  ],
+  [
+   "enter",
+   "thâm nhập, bước vào"
+  ],
+  [
+   "quickly",
+   "nhanh chóng"
+  ],
+  [
+   "within",
+   "trong vòng"
+  ],
+  [
+   "reply",
+   "trả lời, đáp lại"
+  ],
+  [
+   "reach",
+   "đạt được"
+  ],
+  [
+   "include",
+   "bao gồm"
+  ],
+  [
+   "solve",
+   "giải quyết"
+  ],
+  [
+   "lawyer",
+   "luật sư"
+  ],
+  [
+   "flood",
+   "lũ lụt"
+  ],
+  [
+   "war",
+   "chiến tranh"
+  ],
+  [
+   "impossible",
+   "không thể"
+  ],
+  [
+   "simply",
+   "đơn giản là"
+  ],
+  [
+   "forget",
+   "quên"
+  ],
+  [
+   "carton",
+   "thùng các-tông"
+  ],
+  [
+   "arrange",
+   "sắp xếp, thu xếp"
+  ],
+  [
+   "prove",
+   "chứng minh"
+  ],
+  [
+   "mistake",
+   "lỗi, sai sót"
+  ],
+  [
+   "refuse",
+   "từ chối"
+  ],
+  [
+   "delay",
+   "trì hoãn"
+  ],
+  [
+   "spelling",
+   "chính tả"
+  ],
+  [
+   "exactly",
+   "chính xác"
+  ],
+  [
+   "illegal",
+   "bất hợp pháp"
+  ],
+  [
+   "pest",
+   "sâu bọ, dịch hại"
+  ],
+  [
+   "disease",
+   "dịch bệnh"
+  ],
+  [
+   "punish",
+   "trừng phạt"
+  ],
+  [
+   "prison",
+   "nhà tù"
+  ],
+  [
+   "collect",
+   "nhận, lấy"
+  ],
+  [
+   "weapon",
+   "vũ khí"
+  ],
+  [
+   "rice",
+   "gạo"
+  ],
+  [
+   "coffee",
+   "cà phê"
+  ],
+  [
+   "electronics",
+   "hàng điện tử"
+  ],
+  [
+   "machinery",
+   "máy móc"
+  ],
+  [
+   "fuel",
+   "nhiên liệu"
+  ],
+  [
+   "raw material",
+   "nguyên liệu thô"
+  ],
+  [
+   "steadily",
+   "đều đặn"
+  ],
+  [
+   "decade",
+   "thập kỷ"
+  ],
+  [
+   "double",
+   "tăng gấp đôi"
+  ],
+  [
+   "impose",
+   "áp đặt"
+  ],
+  [
+   "raise",
+   "tăng, nâng lên"
+  ],
+  [
+   "steel",
+   "thép"
+  ],
+  [
+   "member",
+   "thành viên"
+  ],
+  [
+   "qualify",
+   "đủ điều kiện"
+  ],
+  [
+   "criteria",
+   "tiêu chí"
+  ],
+  [
+   "farmer",
+   "nông dân"
+  ],
+  [
+   "unfairly",
+   "một cách không công bằng"
+  ],
+  [
+   "worry",
+   "nỗi lo"
+  ],
+  [
+   "control",
+   "quyền kiểm soát"
+  ],
+  [
+   "balance",
+   "cân bằng"
+  ],
+  [
+   "secure",
+   "an toàn, chắc chắn"
+  ],
+  [
+   "promise",
+   "lời hứa; hứa"
+  ],
+  [
+   "fee",
+   "phí"
+  ],
+  [
+   "handling",
+   "việc xử lý"
+  ],
+  [
+   "currency",
+   "tiền tệ"
+  ],
+  [
+   "fall",
+   "giảm, rơi"
+  ],
+  [
+   "valid",
+   "có hiệu lực"
+  ],
+  [
+   "fresh",
+   "tươi"
+  ],
+  [
+   "fruit",
+   "trái cây"
+  ],
+  [
+   "border",
+   "biên giới"
+  ],
+  [
+   "arrive",
+   "đến nơi"
+  ],
+  [
+   "factory",
+   "nhà máy"
+  ],
+  [
+   "destination",
+   "điểm đến"
+  ],
+  [
+   "shirt",
+   "áo sơ mi"
+  ],
+  [
+   "receipt",
+   "biên nhận"
+  ],
+  [
+   "unload",
+   "dỡ hàng"
+  ],
+  [
+   "classifies",
+   "phân loại (ngôi thứ ba số ít)"
+  ],
+  [
+   "colour",
+   "màu sắc"
+  ],
+  [
+   "cigarette",
+   "thuốc lá"
+  ],
+  [
+   "dried",
+   "khô, sấy khô"
+  ],
+  [
+   "parliament",
+   "quốc hội"
+  ],
+  [
+   "treaty",
+   "hiệp ước"
+  ]
+ ]
+}

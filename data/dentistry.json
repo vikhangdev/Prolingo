@@ -1,0 +1,6124 @@
+{
+  "version": 1,
+  "field": {
+    "slug": "dentistry",
+    "name": "Dentistry",
+    "name_vi": "Nha khoa",
+    "icon": "🦷",
+    "hue": 190,
+    "description": "Từ vựng, ngữ pháp và bài đọc cho ngành nha khoa: giải phẫu răng, thăm khám & chẩn đoán, phục hồi & nội nha, phẫu thuật & gây tê, chỉnh nha & phục hình, phòng ngừa & giao tiếp với bệnh nhân."
+  },
+  "units": [
+    {
+      "name": "Dental Anatomy & Basics",
+      "name_vi": "Giải phẫu răng & kiến thức nền",
+      "icon": "🦷",
+      "hue": 190,
+      "words": [
+        {
+          "en": "tooth (pl. teeth)",
+          "vi": "răng"
+        },
+        {
+          "en": "enamel",
+          "vi": "men răng"
+        },
+        {
+          "en": "dentine",
+          "vi": "ngà răng"
+        },
+        {
+          "en": "pulp",
+          "vi": "tủy răng"
+        },
+        {
+          "en": "root",
+          "vi": "chân răng"
+        },
+        {
+          "en": "crown (of a tooth)",
+          "vi": "thân răng (phần nhìn thấy)"
+        },
+        {
+          "en": "gum",
+          "vi": "nướu, lợi"
+        },
+        {
+          "en": "jaw",
+          "vi": "hàm"
+        },
+        {
+          "en": "mandible",
+          "vi": "xương hàm dưới"
+        },
+        {
+          "en": "maxilla",
+          "vi": "xương hàm trên"
+        },
+        {
+          "en": "incisor",
+          "vi": "răng cửa"
+        },
+        {
+          "en": "canine",
+          "vi": "răng nanh"
+        },
+        {
+          "en": "premolar",
+          "vi": "răng tiền hàm"
+        },
+        {
+          "en": "molar",
+          "vi": "răng hàm"
+        },
+        {
+          "en": "wisdom tooth",
+          "vi": "răng khôn"
+        },
+        {
+          "en": "baby tooth",
+          "vi": "răng sữa"
+        },
+        {
+          "en": "permanent tooth",
+          "vi": "răng vĩnh viễn"
+        },
+        {
+          "en": "cavity",
+          "vi": "lỗ sâu răng"
+        },
+        {
+          "en": "plaque",
+          "vi": "mảng bám"
+        },
+        {
+          "en": "tartar",
+          "vi": "cao răng"
+        },
+        {
+          "en": "saliva",
+          "vi": "nước bọt"
+        },
+        {
+          "en": "tongue",
+          "vi": "lưỡi"
+        },
+        {
+          "en": "palate",
+          "vi": "vòm miệng"
+        },
+        {
+          "en": "gum line",
+          "vi": "đường viền nướu"
+        },
+        {
+          "en": "oral cavity",
+          "vi": "khoang miệng"
+        },
+        {
+          "en": "dentition",
+          "vi": "bộ răng"
+        },
+        {
+          "en": "periodontal ligament",
+          "vi": "dây chằng nha chu"
+        },
+        {
+          "en": "nerve",
+          "vi": "dây thần kinh"
+        },
+        {
+          "en": "dentist",
+          "vi": "nha sĩ"
+        },
+        {
+          "en": "dental hygienist",
+          "vi": "vệ sinh viên nha khoa"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The hard outer layer of a tooth is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "Enamel là chất cứng nhất cơ thể.",
+                "why": "**enamel** = men răng, lớp ngoài cùng và cứng nhất.",
+                "opts": [
+                  "enamel",
+                  "dentine",
+                  "pulp"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The soft centre of a tooth that contains nerves and blood vessels is the ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "pulp = phần ruột mềm.",
+                "why": "**pulp** = tủy răng, chứa dây thần kinh và mạch máu.",
+                "opts": [
+                  "tartar",
+                  "pulp",
+                  "saliva"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Adults normally have 32 permanent teeth, including four ___, which often appear late.",
+                "ans": [
+                  2
+                ],
+                "tip": "wisdom = sự khôn ngoan (mọc muộn).",
+                "why": "**wisdom teeth** = răng khôn, thường mọc ở tuổi 17 đến 25.",
+                "opts": [
+                  "baby teeth",
+                  "canines",
+                  "wisdom teeth"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The sharp front teeth used for cutting food are called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "in-cise = cắt.",
+                "why": "**incisors** = răng cửa, dùng để cắt thức ăn.",
+                "opts": [
+                  "incisors",
+                  "molars",
+                  "palates"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ are the large, flat teeth at the back of the mouth that grind food.",
+                "ans": [
+                  1
+                ],
+                "tip": "mill (cối xay) → molar.",
+                "why": "**Molars** = răng hàm, nghiền thức ăn.",
+                "opts": [
+                  "Canines",
+                  "Molars",
+                  "Incisors"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A soft, sticky film of bacteria on the teeth is called ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "Đọc là /plæk/.",
+                "why": "**plaque** = mảng bám răng, màng vi khuẩn mềm dính.",
+                "opts": [
+                  "saliva",
+                  "enamel",
+                  "plaque"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If plaque is not removed, it hardens into ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "tartar = cao răng.",
+                "why": "**tartar** (calculus) = cao răng, mảng bám đã cứng lại.",
+                "opts": [
+                  "tartar",
+                  "saliva",
+                  "dentine"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A hole in a tooth caused by decay is called a ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "cavity = hốc, lỗ.",
+                "why": "**cavity** = lỗ sâu răng.",
+                "opts": [
+                  "palate",
+                  "cavity",
+                  "gum line"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "dentine",
+                "b": "the layer of the tooth under the enamel",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "root",
+                "b": "the part of the tooth that sits inside the jawbone",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gum",
+                "b": "the pink tissue that surrounds the teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mandible",
+                "b": "the lower jaw",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "maxilla",
+                "b": "the upper jaw",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "canine",
+                "b": "a pointed tooth next to the incisors",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "baby tooth",
+                "b": "a first tooth that falls out during childhood",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "dental hygienist",
+                "b": "a professional who cleans teeth and teaches oral care",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Hiện tại đơn và hiện tại tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: sự thật/thói quen dùng hiện tại đơn; việc đang xảy ra dùng hiện tại tiếp diễn.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Enamel ___ the tooth from acids and bacteria.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật luôn đúng → V(s/es).",
+                "why": "Chức năng cố định, chủ ngữ số ít → **protects**.",
+                "opts": [
+                  "protects",
+                  "is protecting",
+                  "protect"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist ___ the patient's teeth right now.",
+                "ans": [
+                  1
+                ],
+                "tip": "right now → be + V-ing.",
+                "why": "'right now' → **is examining**.",
+                "opts": [
+                  "examines",
+                  "is examining",
+                  "examined"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Children usually ___ 20 baby teeth.",
+                "ans": [
+                  2
+                ],
+                "tip": "have (sở hữu) không dùng tiếp diễn.",
+                "why": "**have** là động từ chỉ trạng thái; usually → hiện tại đơn.",
+                "opts": [
+                  "are having",
+                  "having",
+                  "have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look! The child ___ his first tooth.",
+                "ans": [
+                  0
+                ],
+                "tip": "Look! → đang xảy ra.",
+                "why": "'Look!' → **is losing**.",
+                "opts": [
+                  "is losing",
+                  "loses",
+                  "lose"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ a course on dental anatomy this semester.",
+                "ans": [
+                  1
+                ],
+                "tip": "this semester → tạm thời.",
+                "why": "Việc tạm thời, đang diễn ra → **am taking**.",
+                "opts": [
+                  "take",
+                  "am taking",
+                  "took"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The pulp ___ nerves and blood vessels.",
+                "ans": [
+                  2
+                ],
+                "tip": "contain là động từ trạng thái.",
+                "why": "Sự thật, chủ ngữ số ít → **contains**.",
+                "opts": [
+                  "is containing",
+                  "contain",
+                  "contains"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (hiện tại đơn hoặc tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Saliva ___ (help) to clean the mouth.",
+                "ans": [
+                  [
+                    "helps"
+                  ]
+                ],
+                "tip": "He/She/It + V-s.",
+                "why": "Sự thật, số ít → **helps**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The student ___ (study) tooth anatomy at the moment.",
+                "ans": [
+                  [
+                    "is studying",
+                    "'s studying"
+                  ]
+                ],
+                "tip": "at the moment → be + V-ing.",
+                "why": "**is studying**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Molars ___ (not / have) sharp edges.",
+                "ans": [
+                  [
+                    "do not have",
+                    "don't have"
+                  ]
+                ],
+                "tip": "Phủ định số nhiều: do not + V.",
+                "why": "**don't have**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A dental hygienist ___ (remove) plaque and tartar.",
+                "ans": [
+                  [
+                    "removes"
+                  ]
+                ],
+                "tip": "Nghề nghiệp → hiện tại đơn.",
+                "why": "**removes**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (learn) the names of the teeth this week.",
+                "ans": [
+                  [
+                    "are learning",
+                    "'re learning"
+                  ]
+                ],
+                "tip": "this week → tạm thời.",
+                "why": "**are learning**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Danh từ đếm được, không đếm được và lượng từ",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: many/a few/few + đếm được; much/a little/little + không đếm được; some/any dùng cho cả hai.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How ___ teeth does an adult have?",
+                "ans": [
+                  0
+                ],
+                "tip": "teeth đếm được → many.",
+                "why": "**teeth** đếm được → **many**.",
+                "opts": [
+                  "many",
+                  "much",
+                  "a little"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "There isn't ___ plaque on your molars.",
+                "ans": [
+                  1
+                ],
+                "tip": "plaque không đếm được.",
+                "why": "plaque không đếm được → **much**.",
+                "opts": [
+                  "many",
+                  "much",
+                  "a few"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I have ___ cavities, but only two are deep.",
+                "ans": [
+                  2
+                ],
+                "tip": "cavities đếm được → a few.",
+                "why": "**a few** + danh từ đếm được số nhiều.",
+                "opts": [
+                  "a little",
+                  "much",
+                  "a few"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Rinse your mouth with ___ water after eating.",
+                "ans": [
+                  0
+                ],
+                "tip": "water không đếm được.",
+                "why": "**a little** + danh từ không đếm được.",
+                "opts": [
+                  "a little",
+                  "a few",
+                  "many"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Are there ___ problems with your gums?",
+                "ans": [
+                  1
+                ],
+                "tip": "Câu hỏi → any.",
+                "why": "Câu hỏi với danh từ số nhiều → **any**.",
+                "opts": [
+                  "a",
+                  "any",
+                  "much"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "There is too ___ tartar on your lower incisors.",
+                "ans": [
+                  2
+                ],
+                "tip": "tartar không đếm được.",
+                "why": "too much + danh từ không đếm được.",
+                "opts": [
+                  "many",
+                  "few",
+                  "much"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Giới từ chỉ vị trí của răng",
+          "instruction": "Complete each sentence with a suitable preposition.",
+          "instruction_vi": "Gõ giới từ thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The upper teeth are attached ___ the maxilla.",
+                "ans": [
+                  [
+                    "to"
+                  ]
+                ],
+                "tip": "be attached to.",
+                "why": "**attached to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The premolars are ___ the canines and the molars.",
+                "ans": [
+                  [
+                    "between"
+                  ]
+                ],
+                "tip": "giữa hai thứ.",
+                "why": "**between**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The root is ___ the gum, inside the jawbone.",
+                "ans": [
+                  [
+                    "under",
+                    "below",
+                    "beneath",
+                    "inside"
+                  ]
+                ],
+                "tip": "ở dưới nướu.",
+                "why": "**under / below**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The enamel is ___ the surface of the tooth.",
+                "ans": [
+                  [
+                    "on"
+                  ]
+                ],
+                "tip": "bề mặt → on.",
+                "why": "**on**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The wisdom teeth are ___ the molars, at the very back.",
+                "ans": [
+                  [
+                    "behind"
+                  ]
+                ],
+                "tip": "phía sau.",
+                "why": "**behind**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · What is a tooth made of?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A tooth looks simple, but it has several layers. The visible part is called the crown. It is covered with enamel, the hardest substance in the human body. Under the enamel there is dentine, which is softer and slightly yellow. In the centre, the pulp contains nerves and blood vessels. The root holds the tooth in the jawbone, and it is surrounded by the gum.\n\nHumans have two sets of teeth. Children have 20 baby teeth, which begin to fall out at about the age of six. Adults usually have 32 permanent teeth. Incisors cut food, canines tear it, and premolars and molars grind it. The last molars, called wisdom teeth, often appear between the ages of 17 and 25, and sometimes there is not enough space for them.\n\nTeeth need daily care. Bacteria in the mouth form plaque, a soft film that produces acid. If plaque is not removed, it hardens into tartar, and the acid can make a cavity in the enamel.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Enamel is softer than dentine.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: men răng là chất cứng nhất cơ thể; ngà răng mềm hơn."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The pulp contains nerves and blood vessels.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: tủy răng chứa dây thần kinh và mạch máu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Adults usually have 20 permanent teeth.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: người lớn thường có 32 răng vĩnh viễn; trẻ em có 20 răng sữa."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Plaque can harden into tartar.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: mảng bám không loại bỏ sẽ cứng lại thành cao răng."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is the visible part of the tooth called?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: phần nhìn thấy gọi là thân răng (crown).",
+                "opts": [
+                  "The root",
+                  "The crown",
+                  "The pulp"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What do canines do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: răng nanh xé thức ăn.",
+                "opts": [
+                  "They cut food.",
+                  "They grind food.",
+                  "They tear food."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When do wisdom teeth often appear?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: răng khôn thường mọc ở tuổi 17 đến 25.",
+                "opts": [
+                  "Between the ages of 17 and 25",
+                  "At the age of six",
+                  "Before the age of three"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What makes the acid that can cause a cavity?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: vi khuẩn trong mảng bám tạo ra axit.",
+                "opts": [
+                  "Saliva",
+                  "Bacteria in plaque",
+                  "Dentine"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · A day in a dental clinic",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "The dental team starts work at eight o'clock. Before the first patient arrives, the dental assistant prepares the surgery: she sets out the instruments, checks the equipment and cleans the chair. The dentist reads the patient's notes carefully because every patient needs a different kind of care.\n\nAt nine o'clock, Mr Hoang comes for a check-up. The dentist examines his teeth with a mirror and a probe and notices a small cavity in a molar. She explains the problem and offers a filling. Meanwhile, the dental hygienist is cleaning another patient's teeth. She removes plaque and tartar and shows the patient how to brush properly.\n\nEveryone in a dental team has a different role, but they work together. The dentist diagnoses and treats problems, the hygienist focuses on prevention, and the assistant helps during procedures. At the end of the day, the team sterilises all the instruments so that the clinic is safe for the next day.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The dental assistant prepares the surgery before the first patient arrives.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: trợ lý chuẩn bị phòng khám, dụng cụ và ghế."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The dentist uses a mirror and a probe to examine the teeth.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nha sĩ khám bằng gương và cây thăm dò."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The hygienist's main job is to fill cavities.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: vệ sinh viên tập trung vào phòng ngừa; nha sĩ chẩn đoán và điều trị."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The team sterilises the instruments at the start of the day.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: tiệt trùng dụng cụ vào cuối ngày."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the dentist notice in Mr Hoang's mouth?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: một lỗ sâu nhỏ ở răng hàm.",
+                "opts": [
+                  "A broken wisdom tooth",
+                  "A lot of tartar",
+                  "A small cavity in a molar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the hygienist show the patient?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: chị hướng dẫn cách đánh răng đúng.",
+                "opts": [
+                  "How to brush properly",
+                  "How to sign the form",
+                  "How to use an X-ray"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who helps the dentist during procedures?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: trợ lý nha khoa hỗ trợ trong thủ thuật.",
+                "opts": [
+                  "The receptionist",
+                  "The dental assistant",
+                  "The patient"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why does the dentist read the patient's notes carefully?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: mỗi bệnh nhân cần cách chăm sóc khác nhau.",
+                "opts": [
+                  "The notes are very short.",
+                  "The clinic is closed.",
+                  "Every patient needs a different kind of care."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Examination & Diagnosis",
+      "name_vi": "Thăm khám & chẩn đoán",
+      "icon": "🔍",
+      "hue": 350,
+      "words": [
+        {
+          "en": "patient",
+          "vi": "bệnh nhân"
+        },
+        {
+          "en": "appointment",
+          "vi": "cuộc hẹn khám"
+        },
+        {
+          "en": "check-up",
+          "vi": "khám định kỳ"
+        },
+        {
+          "en": "medical history",
+          "vi": "tiền sử bệnh"
+        },
+        {
+          "en": "complaint",
+          "vi": "lý do đến khám, điều bệnh nhân than phiền"
+        },
+        {
+          "en": "symptom",
+          "vi": "triệu chứng"
+        },
+        {
+          "en": "toothache",
+          "vi": "đau răng"
+        },
+        {
+          "en": "sensitivity",
+          "vi": "sự ê buốt"
+        },
+        {
+          "en": "swelling",
+          "vi": "sưng"
+        },
+        {
+          "en": "bleeding",
+          "vi": "chảy máu"
+        },
+        {
+          "en": "bad breath",
+          "vi": "hơi thở hôi"
+        },
+        {
+          "en": "probe",
+          "vi": "cây thăm dò (nha khoa)"
+        },
+        {
+          "en": "mirror",
+          "vi": "gương nha khoa"
+        },
+        {
+          "en": "X-ray",
+          "vi": "phim X-quang"
+        },
+        {
+          "en": "bitewing",
+          "vi": "phim cắn cánh"
+        },
+        {
+          "en": "panoramic X-ray",
+          "vi": "phim X-quang toàn cảnh"
+        },
+        {
+          "en": "CBCT",
+          "vi": "chụp cắt lớp vi tính chùm tia hình nón"
+        },
+        {
+          "en": "diagnosis",
+          "vi": "chẩn đoán"
+        },
+        {
+          "en": "treatment plan",
+          "vi": "kế hoạch điều trị"
+        },
+        {
+          "en": "referral",
+          "vi": "giấy giới thiệu (chuyển tuyến)"
+        },
+        {
+          "en": "abscess",
+          "vi": "áp-xe"
+        },
+        {
+          "en": "decay",
+          "vi": "sâu răng, sự mục"
+        },
+        {
+          "en": "fracture",
+          "vi": "nứt gãy"
+        },
+        {
+          "en": "mobility",
+          "vi": "độ lung lay (của răng)"
+        },
+        {
+          "en": "percussion test",
+          "vi": "thử nghiệm gõ"
+        },
+        {
+          "en": "cold test",
+          "vi": "thử nghiệm lạnh"
+        },
+        {
+          "en": "pocket depth",
+          "vi": "độ sâu túi nha chu"
+        },
+        {
+          "en": "allergy",
+          "vi": "dị ứng"
+        },
+        {
+          "en": "consent form",
+          "vi": "phiếu đồng ý điều trị"
+        },
+        {
+          "en": "dental chart",
+          "vi": "sơ đồ răng, hồ sơ răng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The patient came to the clinic with a ___ of severe pain in a lower molar.",
+                "ans": [
+                  0
+                ],
+                "tip": "complain = than phiền.",
+                "why": "**complaint** = lý do đến khám, điều bệnh nhân than phiền.",
+                "opts": [
+                  "complaint",
+                  "referral",
+                  "allergy"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Redness, swelling and pain are common ___ of infection.",
+                "ans": [
+                  1
+                ],
+                "tip": "symptom = dấu hiệu bệnh nhân cảm thấy.",
+                "why": "**symptoms** = các triệu chứng.",
+                "opts": [
+                  "diagnoses",
+                  "symptoms",
+                  "appointments"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist used a ___ to measure the depth of the gum pockets.",
+                "ans": [
+                  2
+                ],
+                "tip": "probe = thăm dò.",
+                "why": "**probe** = cây thăm dò có vạch chia để đo túi nha chu.",
+                "opts": [
+                  "mirror",
+                  "bitewing",
+                  "probe"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ X-ray shows the crowns of the upper and lower back teeth and is used to find decay between them.",
+                "ans": [
+                  0
+                ],
+                "tip": "bite + wing = cánh cắn.",
+                "why": "**bitewing** = phim cắn cánh, phát hiện sâu kẽ răng.",
+                "opts": [
+                  "bitewing",
+                  "panoramic",
+                  "periapical"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ gives a 3D image of the jaw before implant surgery.",
+                "ans": [
+                  1
+                ],
+                "tip": "CBCT = Cone Beam CT.",
+                "why": "**CBCT** = chụp cắt lớp chùm tia hình nón, cho hình ảnh 3D.",
+                "opts": [
+                  "bitewing",
+                  "CBCT scan",
+                  "percussion test"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After the examination, the dentist explained the ___ and the cost of each option.",
+                "ans": [
+                  2
+                ],
+                "tip": "plan = kế hoạch.",
+                "why": "**treatment plan** = kế hoạch điều trị.",
+                "opts": [
+                  "allergy",
+                  "swelling",
+                  "treatment plan"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The patient must sign a ___ before the procedure.",
+                "ans": [
+                  0
+                ],
+                "tip": "consent = sự đồng ý.",
+                "why": "**consent form** = phiếu đồng ý điều trị.",
+                "opts": [
+                  "consent form",
+                  "dental chart",
+                  "mobility"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A painful swelling full of pus near the root of a tooth is called an ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "abscess = áp-xe.",
+                "why": "**abscess** = áp-xe, ổ mủ ở chóp chân răng.",
+                "opts": [
+                  "allergy",
+                  "abscess",
+                  "fracture"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sensitivity",
+                "b": "a short, sharp pain caused by hot, cold or sweet things",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "swelling",
+                "b": "an area of the body that becomes larger than normal",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bleeding",
+                "b": "loss of blood, for example from the gums when brushing",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bad breath",
+                "b": "an unpleasant smell coming from the mouth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mobility",
+                "b": "the degree to which a tooth moves in its socket",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "percussion test",
+                "b": "tapping a tooth gently to check for pain",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "cold test",
+                "b": "using a cold stimulus to check whether the pulp is alive",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "referral",
+                "b": "sending a patient to another dentist or specialist",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Cấu trúc câu hỏi",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: câu hỏi Yes/No (Do/Does/Did/Are/Have), câu hỏi Wh- và câu hỏi chủ ngữ (Who/Which + V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ you have any pain when you chew?",
+                "ans": [
+                  0
+                ],
+                "tip": "have → trợ động từ do.",
+                "why": "Hiện tại đơn với you → **Do**.",
+                "opts": [
+                  "Do",
+                  "Are",
+                  "Does"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ the pain lasted?",
+                "ans": [
+                  1
+                ],
+                "tip": "How long + hiện tại hoàn thành.",
+                "why": "Cơn đau còn kéo dài đến nay → **has lasted**.",
+                "opts": [
+                  "does",
+                  "has",
+                  "is"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which tooth ___ you?",
+                "ans": [
+                  2
+                ],
+                "tip": "Câu hỏi chủ ngữ: Which + V.",
+                "why": "Which tooth là chủ ngữ → không cần trợ động từ: **hurts**.",
+                "opts": [
+                  "does hurt",
+                  "do hurt",
+                  "hurts"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What ___ you take for the pain last night?",
+                "ans": [
+                  0
+                ],
+                "tip": "last night → did.",
+                "why": "Quá khứ → **did**.",
+                "opts": [
+                  "did",
+                  "do",
+                  "are"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ you allergic to any medicine?",
+                "ans": [
+                  1
+                ],
+                "tip": "be + adj.",
+                "why": "allergic là tính từ → **Are**.",
+                "opts": [
+                  "Do",
+                  "Are",
+                  "Have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Who ___ you to our clinic?",
+                "ans": [
+                  2
+                ],
+                "tip": "Câu hỏi chủ ngữ.",
+                "why": "Who là chủ ngữ → **referred** (không dùng did).",
+                "opts": [
+                  "did refer",
+                  "does referred",
+                  "referred"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền trợ động từ",
+          "instruction": "Complete each question with the correct auxiliary or verb.",
+          "instruction_vi": "Gõ trợ động từ hoặc động từ thích hợp để tạo thành câu hỏi đúng.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ it hurt when you bite down?",
+                "ans": [
+                  [
+                    "Does",
+                    "does"
+                  ]
+                ],
+                "tip": "it → does.",
+                "why": "**Does** it hurt...?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ you brush your teeth twice a day?",
+                "ans": [
+                  [
+                    "Do",
+                    "do"
+                  ]
+                ],
+                "tip": "you → do.",
+                "why": "**Do** you brush...?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Where ___ the pain?",
+                "ans": [
+                  [
+                    "is"
+                  ]
+                ],
+                "tip": "be + vị trí.",
+                "why": "Where **is** the pain?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___ you have an X-ray last year?",
+                "ans": [
+                  [
+                    "Did",
+                    "did"
+                  ]
+                ],
+                "tip": "last year → did.",
+                "why": "**Did** you have...?"
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "How often ___ you floss?",
+                "ans": [
+                  [
+                    "do"
+                  ]
+                ],
+                "tip": "How often + do you + V.",
+                "why": "How often **do** you floss?"
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Quá khứ đơn và quá khứ tiếp diễn",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ tiếp diễn (was/were + V-ing) cho việc đang diễn ra thì có việc khác xen vào (quá khứ đơn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When the pain started, the patient ___ dinner.",
+                "ans": [
+                  0
+                ],
+                "tip": "Việc đang diễn ra thì bị xen ngang.",
+                "why": "Đang ăn thì đau → **was eating**.",
+                "opts": [
+                  "was eating",
+                  "ate",
+                  "eats"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ a cold drink when I felt a sharp pain.",
+                "ans": [
+                  1
+                ],
+                "tip": "when + quá khứ đơn (xen vào).",
+                "why": "Việc kéo dài → **was drinking**.",
+                "opts": [
+                  "drank",
+                  "was drinking",
+                  "drink"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The patient ___ his dentist last week.",
+                "ans": [
+                  2
+                ],
+                "tip": "last week → quá khứ đơn.",
+                "why": "Mốc quá khứ → **called**.",
+                "opts": [
+                  "was calling",
+                  "calls",
+                  "called"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "While the dentist ___ the X-ray, the assistant prepared the room.",
+                "ans": [
+                  0
+                ],
+                "tip": "while + quá khứ tiếp diễn.",
+                "why": "**while** → **was taking**.",
+                "opts": [
+                  "was taking",
+                  "took",
+                  "takes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He fell off his bike and ___ his front tooth.",
+                "ans": [
+                  1
+                ],
+                "tip": "Hành động ngắn, hoàn tất.",
+                "why": "Chuỗi hành động quá khứ → **broke**.",
+                "opts": [
+                  "was breaking",
+                  "broke",
+                  "has broke"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The pain ___ while I was sleeping.",
+                "ans": [
+                  2
+                ],
+                "tip": "Hành động xen vào.",
+                "why": "Hành động ngắn xen vào → **woke me up**.",
+                "opts": [
+                  "was waking me up",
+                  "wakes me up",
+                  "woke me up"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc quá khứ tiếp diễn).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I ___ (brush) my teeth when I noticed the blood.",
+                "ans": [
+                  [
+                    "was brushing"
+                  ]
+                ],
+                "tip": "Đang làm thì phát hiện.",
+                "why": "**was brushing**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She ___ (visit) the clinic two weeks ago.",
+                "ans": [
+                  [
+                    "visited"
+                  ]
+                ],
+                "tip": "ago → quá khứ đơn.",
+                "why": "**visited**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "While the dentist ___ (examine) him, the patient felt nervous.",
+                "ans": [
+                  [
+                    "was examining"
+                  ]
+                ],
+                "tip": "while → quá khứ tiếp diễn.",
+                "why": "**was examining**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The tooth ___ (start) to hurt yesterday morning.",
+                "ans": [
+                  [
+                    "started"
+                  ]
+                ],
+                "tip": "yesterday → quá khứ đơn.",
+                "why": "**started**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "When the dentist called, I ___ (wait) in the car.",
+                "ans": [
+                  [
+                    "was waiting"
+                  ]
+                ],
+                "tip": "Đang làm thì bị xen ngang.",
+                "why": "**was waiting**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · A first visit to the dentist",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Linh is 28 and she has toothache. She phones a clinic and makes an appointment for the next morning. At reception she fills in a form about her medical history. She writes that she is allergic to penicillin, and the nurse notes it on her chart.\n\nThe dentist asks several questions. Where is the pain? When did it start? Is it worse with hot or cold drinks? Linh says that it started three days ago while she was eating ice cream. Then the dentist examines her mouth with a mirror and a probe. She taps the tooth gently, which is called a percussion test, and applies a cold test. The tooth is very sensitive.\n\nNext, the dentist takes a bitewing X-ray. It shows deep decay close to the pulp in a lower molar. The dentist explains the diagnosis and the treatment plan: a filling, or root canal treatment if the pulp is infected. Linh signs the consent form and books a second appointment.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Linh made an appointment for the following week.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cô đặt lịch vào sáng hôm sau."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Linh is allergic to penicillin.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cô ghi rõ mình dị ứng penicillin."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The pain started while she was eating ice cream.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cơn đau bắt đầu 3 ngày trước khi đang ăn kem."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The X-ray shows that the molar is healthy.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phim cho thấy sâu răng sâu gần tủy."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why does the nurse note Linh's allergy on her chart?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: ghi vào hồ sơ để cả nhóm biết dị ứng của cô.",
+                "opts": [
+                  "To book a second visit",
+                  "So the team knows about it",
+                  "To take an X-ray"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the dentist find with the cold test?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: răng rất ê buốt.",
+                "opts": [
+                  "The tooth is loose.",
+                  "The gum is bleeding.",
+                  "The tooth is very sensitive."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the bitewing X-ray show?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: sâu răng sâu gần tủy ở răng hàm dưới.",
+                "opts": [
+                  "Deep decay close to the pulp",
+                  "A broken jaw",
+                  "An implant"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does Linh do at the end of the visit?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cô ký phiếu đồng ý và đặt lịch hẹn thứ hai.",
+                "opts": [
+                  "She has a tooth extracted.",
+                  "She signs the consent form and books a second appointment.",
+                  "She goes home without treatment."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Which X-ray should I use?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Dentists use X-rays because many problems cannot be seen with the eye. There are three common types. A bitewing X-ray shows the crowns of the upper and lower back teeth. It is the best way to find decay between teeth. A periapical X-ray shows a whole tooth, from the crown to the root tip, so it helps to detect an abscess. A panoramic X-ray shows both jaws, all the teeth and the jaw joints in one picture.\n\nWhen a dentist needs more detail, for example before placing an implant, a CBCT scan gives a 3D image. The patient stands or sits while a machine rotates around the head for about 20 seconds.\n\nX-rays use a low dose of radiation. The dose from a bitewing is very small, but dentists still follow a simple rule: only take an X-ray when it is necessary. Patients wear a lead apron, and women who are pregnant should always tell the dentist before an X-ray.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A bitewing X-ray is good for finding decay between teeth.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bitewing là cách tốt nhất tìm sâu kẽ răng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A panoramic X-ray shows only one tooth.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: toàn cảnh cho thấy cả hai hàm, mọi răng và khớp hàm."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A CBCT scan gives a 3D image.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: CBCT cho hình ảnh 3D."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Dentists take an X-ray at every visit, even when it is not necessary.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: quy tắc: chỉ chụp khi cần thiết."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does a periapical X-ray help to detect?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: periapical cho thấy cả răng từ thân đến chóp nên giúp phát hiện áp-xe.",
+                "opts": [
+                  "Decay between the crowns",
+                  "The jaw joints only",
+                  "An abscess at the root"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long does a CBCT scan take?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: máy quay quanh đầu khoảng 20 giây.",
+                "opts": [
+                  "About 20 seconds",
+                  "About 20 minutes",
+                  "About two hours"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When is a CBCT scan used?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khi cần nhiều chi tiết hơn, ví dụ trước khi cấy implant.",
+                "opts": [
+                  "At every check-up",
+                  "When more detail is needed, for example before an implant",
+                  "Only for children"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should pregnant women do before an X-ray?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phụ nữ mang thai luôn phải báo cho nha sĩ trước khi chụp.",
+                "opts": [
+                  "Wear a mirror",
+                  "Take a painkiller",
+                  "Tell the dentist"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Restorative Dentistry & Endodontics",
+      "name_vi": "Phục hồi răng & nội nha",
+      "icon": "🛠️",
+      "hue": 28,
+      "words": [
+        {
+          "en": "filling",
+          "vi": "miếng trám, trám răng"
+        },
+        {
+          "en": "composite resin",
+          "vi": "nhựa composite"
+        },
+        {
+          "en": "amalgam",
+          "vi": "hỗn hống (vật liệu trám bạc)"
+        },
+        {
+          "en": "glass ionomer",
+          "vi": "GIC (vật liệu trám giải phóng fluoride)"
+        },
+        {
+          "en": "inlay",
+          "vi": "miếng trám inlay"
+        },
+        {
+          "en": "veneer",
+          "vi": "mặt dán sứ"
+        },
+        {
+          "en": "bonding",
+          "vi": "dán, gắn kết bằng chất dính"
+        },
+        {
+          "en": "etching",
+          "vi": "xoi mòn bằng axit"
+        },
+        {
+          "en": "curing light",
+          "vi": "đèn quang trùng hợp"
+        },
+        {
+          "en": "handpiece",
+          "vi": "tay khoan"
+        },
+        {
+          "en": "bur",
+          "vi": "mũi khoan"
+        },
+        {
+          "en": "rubber dam",
+          "vi": "đê cao su"
+        },
+        {
+          "en": "matrix band",
+          "vi": "băng matrix (khuôn bao quanh răng)"
+        },
+        {
+          "en": "dental cement",
+          "vi": "xi măng gắn"
+        },
+        {
+          "en": "impression",
+          "vi": "dấu răng, sự lấy dấu"
+        },
+        {
+          "en": "temporary crown",
+          "vi": "mão răng tạm"
+        },
+        {
+          "en": "root canal treatment",
+          "vi": "điều trị tủy"
+        },
+        {
+          "en": "endodontics",
+          "vi": "nội nha"
+        },
+        {
+          "en": "pulpitis",
+          "vi": "viêm tủy"
+        },
+        {
+          "en": "pulp chamber",
+          "vi": "buồng tủy"
+        },
+        {
+          "en": "endodontic file",
+          "vi": "trâm nội nha"
+        },
+        {
+          "en": "irrigation",
+          "vi": "sự bơm rửa"
+        },
+        {
+          "en": "gutta-percha",
+          "vi": "gutta-percha (vật liệu trám ống tủy)"
+        },
+        {
+          "en": "apex",
+          "vi": "chóp răng"
+        },
+        {
+          "en": "restoration",
+          "vi": "phục hồi, miếng phục hình"
+        },
+        {
+          "en": "polish",
+          "vi": "đánh bóng"
+        },
+        {
+          "en": "shade",
+          "vi": "màu răng, độ màu"
+        },
+        {
+          "en": "occlusion",
+          "vi": "khớp cắn"
+        },
+        {
+          "en": "cavity preparation",
+          "vi": "sửa soạn lỗ trám"
+        },
+        {
+          "en": "sealant",
+          "vi": "chất trám bít hố rãnh"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist removed the decay and placed a tooth-coloured ___ in the cavity.",
+                "ans": [
+                  0
+                ],
+                "tip": "fill = lấp đầy.",
+                "why": "**filling** = miếng trám.",
+                "opts": [
+                  "filling",
+                  "bracket",
+                  "suture"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is a tooth-coloured material made of plastic and fine glass particles.",
+                "ans": [
+                  1
+                ],
+                "tip": "composite = hỗn hợp.",
+                "why": "**Composite resin** = nhựa composite, cùng màu răng; amalgam có màu bạc.",
+                "opts": [
+                  "Amalgam",
+                  "Composite",
+                  "Gutta-percha"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist uses a ___ to harden the filling material in a few seconds.",
+                "ans": [
+                  2
+                ],
+                "tip": "cure = làm cứng.",
+                "why": "**curing light** = đèn quang trùng hợp, làm cứng composite.",
+                "opts": [
+                  "rubber dam",
+                  "matrix band",
+                  "curing light"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ keeps the tooth dry and separates it from the saliva during treatment.",
+                "ans": [
+                  0
+                ],
+                "tip": "dam = đập chắn.",
+                "why": "**rubber dam** = đê cao su, cô lập răng khỏi nước bọt.",
+                "opts": [
+                  "rubber dam",
+                  "bur",
+                  "irrigation"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist used a small ___ on the handpiece to remove the decay.",
+                "ans": [
+                  1
+                ],
+                "tip": "bur = mũi khoan nhỏ.",
+                "why": "**bur** = mũi khoan gắn trên tay khoan.",
+                "opts": [
+                  "cement",
+                  "bur",
+                  "shade"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is a thin, tooth-coloured shell bonded to the front of a tooth to improve its appearance.",
+                "ans": [
+                  2
+                ],
+                "tip": "veneer = lớp mặt.",
+                "why": "**veneer** = mặt dán sứ ở mặt ngoài răng.",
+                "opts": [
+                  "inlay",
+                  "apex",
+                  "veneer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "During root canal treatment, the dentist cleans the canals with small ___ and a washing liquid.",
+                "ans": [
+                  0
+                ],
+                "tip": "file = trâm, dũa.",
+                "why": "**endodontic files** = trâm nội nha, làm sạch ống tủy.",
+                "opts": [
+                  "endodontic files",
+                  "curing lights",
+                  "matrix bands"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ protects the tooth while the permanent crown is being made in the laboratory.",
+                "ans": [
+                  1
+                ],
+                "tip": "temporary = tạm thời.",
+                "why": "**temporary crown** = mão tạm, bảo vệ răng trong thời gian chờ.",
+                "opts": [
+                  "sealant",
+                  "temporary crown",
+                  "gutta-percha"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "amalgam",
+                "b": "a silver-coloured filling material made from a mixture of metals",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "glass ionomer",
+                "b": "a filling material that releases fluoride",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "inlay",
+                "b": "a filling made in a laboratory that fits inside the cusps of a tooth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "etching",
+                "b": "using acid to roughen the enamel so that a filling can bond",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bonding",
+                "b": "attaching a material to the tooth with an adhesive",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "pulpitis",
+                "b": "inflammation of the pulp inside a tooth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gutta-percha",
+                "b": "a rubbery material used to fill the root canals",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sealant",
+                "b": "a thin coating placed on the chewing surface of a tooth to prevent decay",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Thể bị động ở nhiều thì",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: bị động hiện tại (is/are + V3), quá khứ (was/were + V3), tiếp diễn (is being + V3), hoàn thành (has been + V3), modal (must be + V3).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The cavity ___ with a high-speed handpiece.",
+                "ans": [
+                  0
+                ],
+                "tip": "Quy trình thường lệ → is + V3.",
+                "why": "Cavity không tự 'prepare' → bị động: **is prepared**.",
+                "opts": [
+                  "is prepared",
+                  "prepares",
+                  "is preparing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The composite ___ with a curing light.",
+                "ans": [
+                  1
+                ],
+                "tip": "is + V3.",
+                "why": "Composite được làm cứng → **is hardened**.",
+                "opts": [
+                  "hardened",
+                  "is hardened",
+                  "is hardening"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The temporary crown ___ yesterday.",
+                "ans": [
+                  2
+                ],
+                "tip": "yesterday → was + V3.",
+                "why": "Mốc quá khứ → **was placed**.",
+                "opts": [
+                  "is placed",
+                  "placed",
+                  "was placed"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Local anaesthetic ___ before the root canal treatment begins.",
+                "ans": [
+                  0
+                ],
+                "tip": "modal + be + V3.",
+                "why": "Bị động với modal → **must be given**.",
+                "opts": [
+                  "must be given",
+                  "must give",
+                  "must gave"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The canals ___ with a disinfectant at the moment.",
+                "ans": [
+                  1
+                ],
+                "tip": "at the moment → are being + V3.",
+                "why": "Đang diễn ra + bị động → **are being irrigated**.",
+                "opts": [
+                  "are irrigated",
+                  "are being irrigated",
+                  "irrigated"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This type of filling ___ for over 100 years.",
+                "ans": [
+                  2
+                ],
+                "tip": "for + khoảng thời gian → has been + V3.",
+                "why": "**has been used**.",
+                "opts": [
+                  "has used",
+                  "was using",
+                  "has been used"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng bị động",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng bị động đúng của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The tooth ___ (isolate) with a rubber dam.",
+                "ans": [
+                  [
+                    "is isolated"
+                  ]
+                ],
+                "tip": "is + V3.",
+                "why": "**is isolated**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The impression ___ (send) to the laboratory yesterday.",
+                "ans": [
+                  [
+                    "was sent"
+                  ]
+                ],
+                "tip": "yesterday → was + V3.",
+                "why": "**was sent**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The veneers ___ (make) from porcelain.",
+                "ans": [
+                  [
+                    "are made"
+                  ]
+                ],
+                "tip": "are + V3.",
+                "why": "**are made**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The patient's mouth ___ (rinse) now.",
+                "ans": [
+                  [
+                    "is being rinsed"
+                  ]
+                ],
+                "tip": "now → is being + V3.",
+                "why": "**is being rinsed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A temporary filling ___ (can / use) for a few weeks only.",
+                "ans": [
+                  [
+                    "can be used"
+                  ]
+                ],
+                "tip": "can be + V3.",
+                "why": "**can be used**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Câu mệnh lệnh và từ chỉ trình tự",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: mệnh lệnh dùng V nguyên mẫu; first, then, after that, finally; before/after + V-ing; until + mệnh đề.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "First, ___ the patient's medical history.",
+                "ans": [
+                  0
+                ],
+                "tip": "Mệnh lệnh → V nguyên mẫu.",
+                "why": "Mệnh lệnh → **check**.",
+                "opts": [
+                  "check",
+                  "checking",
+                  "checked"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Remove the decay. ___, apply the etching gel.",
+                "ans": [
+                  1
+                ],
+                "tip": "Từ nối trình tự.",
+                "why": "Chỉ trình tự → **After that**.",
+                "opts": [
+                  "Because",
+                  "After that",
+                  "Although"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ placing the filling, dry the tooth.",
+                "ans": [
+                  2
+                ],
+                "tip": "Before + V-ing.",
+                "why": "Trước khi trám → **Before placing**.",
+                "opts": [
+                  "Because of",
+                  "Although",
+                  "Before"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Always ___ gloves and a mask.",
+                "ans": [
+                  0
+                ],
+                "tip": "Mệnh lệnh.",
+                "why": "**wear**.",
+                "opts": [
+                  "wear",
+                  "wearing",
+                  "to wear"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Finally, ___ the filling and check the bite.",
+                "ans": [
+                  1
+                ],
+                "tip": "Mệnh lệnh.",
+                "why": "**polish**.",
+                "opts": [
+                  "polishing",
+                  "polish",
+                  "polished"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Don't eat ___ the anaesthetic has worn off.",
+                "ans": [
+                  2
+                ],
+                "tip": "until = cho đến khi.",
+                "why": "Không ăn cho đến khi hết tê → **until**.",
+                "opts": [
+                  "while",
+                  "because",
+                  "until"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền từ chỉ trình tự",
+          "instruction": "Complete each sentence with the correct word or form.",
+          "instruction_vi": "Gõ từ hoặc dạng đúng của động từ vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "___, the dentist numbs the tooth.",
+                "ans": [
+                  [
+                    "First",
+                    "Firstly",
+                    "First of all"
+                  ]
+                ],
+                "tip": "Bước đầu tiên.",
+                "why": "**First**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The cavity is cleaned. ___, the filling is placed.",
+                "ans": [
+                  [
+                    "Then",
+                    "Next",
+                    "After that"
+                  ]
+                ],
+                "tip": "Bước tiếp theo.",
+                "why": "**Then / Next / After that**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "After ___ (finish) the filling, the dentist checks your bite.",
+                "ans": [
+                  [
+                    "finishing"
+                  ]
+                ],
+                "tip": "After + V-ing.",
+                "why": "**finishing**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Before ___ (start) the treatment, the assistant prepares the instruments.",
+                "ans": [
+                  [
+                    "starting"
+                  ]
+                ],
+                "tip": "Before + V-ing.",
+                "why": "**starting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Please do not eat ___ the numbness has gone.",
+                "ans": [
+                  [
+                    "until"
+                  ]
+                ],
+                "tip": "until + mệnh đề.",
+                "why": "**until**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Having a filling",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A filling is the most common dental treatment. It is used when a tooth has a cavity caused by decay. First, the dentist gives a local anaesthetic, so the patient feels no pain. Then the decayed tissue is removed with a handpiece and a bur. The cavity is cleaned and dried, and sometimes a rubber dam is placed around the tooth to keep it dry.\n\nNext, the dentist chooses the material. Amalgam is strong and cheap, but it is silver in colour. Composite resin matches the colour of the tooth, so it is popular for front teeth. The composite is applied in thin layers, and each layer is hardened with a curing light for a few seconds. Finally, the dentist shapes and polishes the filling and checks the bite.\n\nPatients should not eat until the numbness has gone. A small amount of sensitivity is normal for a few days. If the bite feels high or the pain gets worse, the patient should return to the clinic.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A rubber dam is sometimes placed to keep the tooth dry.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: đê cao su giữ răng khô."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Amalgam has the same colour as the tooth.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: amalgam có màu bạc; composite mới cùng màu răng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Composite is hardened with a curing light.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: từng lớp được làm cứng bằng đèn quang trùng hợp."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Patients can eat immediately after the anaesthetic.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bệnh nhân không nên ăn cho đến khi hết tê."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is local anaesthetic given first?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: gây tê để bệnh nhân không đau.",
+                "opts": [
+                  "To harden the filling",
+                  "So that the patient feels no pain",
+                  "To dry the tooth"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is composite popular for front teeth?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: composite cùng màu răng nên phổ biến ở răng cửa.",
+                "opts": [
+                  "It is cheaper than amalgam.",
+                  "It is silver in colour.",
+                  "It matches the colour of the tooth."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the dentist check at the end?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: cuối cùng nha sĩ tạo hình, đánh bóng và kiểm tra khớp cắn.",
+                "opts": [
+                  "The bite",
+                  "The X-ray",
+                  "The consent form"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What should the patient do if the bite feels high?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cảm giác cộm hoặc đau tăng thì quay lại phòng khám.",
+                "opts": [
+                  "Wait for a month",
+                  "Return to the clinic",
+                  "Take more painkillers"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Root canal treatment: myth and reality",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Many people are afraid of root canal treatment, but it is usually no more painful than a filling. The treatment is necessary when the pulp is infected or badly damaged, for example after deep decay or a crack. If the infected pulp is not removed, bacteria can spread and cause an abscess.\n\nDuring treatment, the dentist numbs the tooth and makes a small opening in the crown. The pulp chamber is cleaned with tiny files, and the canals are washed with an antibacterial liquid. The canals are then dried and filled with gutta-percha. Finally, the opening is closed with a filling.\n\nBecause a tooth without a pulp is more fragile, it is often covered with a crown afterwards. This protects the tooth from breaking. With good care, a tooth that has had root canal treatment can last for many years. The most important thing is to treat the problem early: the sooner the patient comes, the easier the treatment is.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Root canal treatment is usually much more painful than a filling.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: thường không đau hơn trám răng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The treatment is needed when the pulp is infected or badly damaged.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: cần điều trị tủy khi tủy bị nhiễm trùng hoặc tổn thương nặng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The canals are filled with gutta-percha.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: ống tủy được làm khô rồi trám bằng gutta-percha."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A tooth without a pulp is stronger than a normal tooth.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: răng mất tủy giòn hơn."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can happen if infected pulp is not removed?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 1: vi khuẩn lan rộng gây áp-xe.",
+                "opts": [
+                  "The tooth becomes whiter.",
+                  "The enamel grows back.",
+                  "Bacteria can spread and cause an abscess."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is used to clean the pulp chamber?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: buồng tủy được làm sạch bằng trâm nhỏ.",
+                "opts": [
+                  "Tiny files",
+                  "A rubber dam",
+                  "A curing light"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why is a crown often placed afterwards?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: răng không tủy giòn hơn nên cần mão răng bảo vệ.",
+                "opts": [
+                  "The tooth is too white.",
+                  "The tooth is more fragile.",
+                  "The patient asks for it."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What makes treatment easier?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: đến sớm thì điều trị dễ hơn.",
+                "opts": [
+                  "Waiting for a long time",
+                  "Avoiding the dentist",
+                  "Treating the problem early"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Oral Surgery & Anaesthesia",
+      "name_vi": "Phẫu thuật miệng & gây tê",
+      "icon": "💉",
+      "hue": 262,
+      "words": [
+        {
+          "en": "extraction",
+          "vi": "nhổ răng"
+        },
+        {
+          "en": "forceps",
+          "vi": "kìm nhổ răng"
+        },
+        {
+          "en": "elevator",
+          "vi": "bẩy (dụng cụ làm lung lay răng)"
+        },
+        {
+          "en": "scalpel",
+          "vi": "dao mổ"
+        },
+        {
+          "en": "suture",
+          "vi": "chỉ khâu; khâu"
+        },
+        {
+          "en": "flap",
+          "vi": "vạt (nướu)"
+        },
+        {
+          "en": "impacted tooth",
+          "vi": "răng mọc ngầm, răng kẹt"
+        },
+        {
+          "en": "socket",
+          "vi": "ổ răng"
+        },
+        {
+          "en": "dry socket",
+          "vi": "viêm ổ răng khô"
+        },
+        {
+          "en": "bone graft",
+          "vi": "ghép xương"
+        },
+        {
+          "en": "sinus lift",
+          "vi": "nâng xoang"
+        },
+        {
+          "en": "dental implant",
+          "vi": "cấy ghép răng implant"
+        },
+        {
+          "en": "abutment",
+          "vi": "trụ nối (abutment)"
+        },
+        {
+          "en": "osseointegration",
+          "vi": "sự tích hợp xương"
+        },
+        {
+          "en": "local anaesthetic",
+          "vi": "thuốc tê tại chỗ"
+        },
+        {
+          "en": "injection",
+          "vi": "mũi tiêm"
+        },
+        {
+          "en": "numb",
+          "vi": "tê, mất cảm giác"
+        },
+        {
+          "en": "sedation",
+          "vi": "an thần"
+        },
+        {
+          "en": "general anaesthesia",
+          "vi": "gây mê toàn thân"
+        },
+        {
+          "en": "nerve block",
+          "vi": "gây tê khối dây thần kinh"
+        },
+        {
+          "en": "painkiller",
+          "vi": "thuốc giảm đau"
+        },
+        {
+          "en": "antibiotic",
+          "vi": "kháng sinh"
+        },
+        {
+          "en": "anti-inflammatory",
+          "vi": "thuốc kháng viêm"
+        },
+        {
+          "en": "gauze",
+          "vi": "gạc"
+        },
+        {
+          "en": "bruising",
+          "vi": "bầm tím"
+        },
+        {
+          "en": "infection",
+          "vi": "nhiễm trùng"
+        },
+        {
+          "en": "healing",
+          "vi": "sự lành thương"
+        },
+        {
+          "en": "post-operative",
+          "vi": "sau phẫu thuật"
+        },
+        {
+          "en": "incision",
+          "vi": "đường rạch"
+        },
+        {
+          "en": "biopsy",
+          "vi": "sinh thiết"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist used ___ to hold the tooth and remove it from the socket.",
+                "ans": [
+                  0
+                ],
+                "tip": "forceps luôn ở dạng số nhiều.",
+                "why": "**forceps** = kìm nhổ răng.",
+                "opts": [
+                  "forceps",
+                  "sutures",
+                  "gauze"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A tooth that cannot fully come through the gum is called an ___ tooth.",
+                "ans": [
+                  1
+                ],
+                "tip": "impact = đè, kẹt.",
+                "why": "**impacted tooth** = răng mọc ngầm, thường là răng khôn.",
+                "opts": [
+                  "irrigated",
+                  "impacted",
+                  "sutured"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After the extraction, the dentist closed the wound with ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "suture = chỉ khâu.",
+                "why": "**sutures** = chỉ khâu vết thương.",
+                "opts": [
+                  "elevators",
+                  "forceps",
+                  "sutures"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A painful condition after extraction, when the blood clot is lost from the socket, is a ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "dry = khô.",
+                "why": "**dry socket** = viêm ổ răng khô.",
+                "opts": [
+                  "dry socket",
+                  "bone graft",
+                  "sinus lift"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ replaces a missing tooth root with a titanium screw in the jawbone.",
+                "ans": [
+                  1
+                ],
+                "tip": "implant = cấy ghép.",
+                "why": "**dental implant** = trụ implant thay chân răng.",
+                "opts": [
+                  "bone graft",
+                  "dental implant",
+                  "nerve block"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After the injection, the patient's lip feels ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "numb = tê.",
+                "why": "**numb** = tê, mất cảm giác.",
+                "opts": [
+                  "healed",
+                  "sutured",
+                  "numb"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ blocks pain in a large area of the lower jaw.",
+                "ans": [
+                  0
+                ],
+                "tip": "block = chặn.",
+                "why": "**nerve block** = gây tê khối, chặn dẫn truyền thần kinh cả vùng.",
+                "opts": [
+                  "nerve block",
+                  "sinus lift",
+                  "bone graft"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist prescribed an ___ to treat the infection.",
+                "ans": [
+                  1
+                ],
+                "tip": "anti + bio = chống vi khuẩn.",
+                "why": "**antibiotic** = kháng sinh, điều trị nhiễm trùng.",
+                "opts": [
+                  "abutment",
+                  "antibiotic",
+                  "incision"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "elevator",
+                "b": "an instrument used to loosen a tooth before extraction",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "flap",
+                "b": "a piece of gum tissue that is lifted to reach the bone",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bone graft",
+                "b": "material placed in the jaw to build up bone",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sinus lift",
+                "b": "surgery that adds bone under the maxillary sinus",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "osseointegration",
+                "b": "the process by which an implant fuses with the bone",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sedation",
+                "b": "using medicine to help the patient relax",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "general anaesthesia",
+                "b": "medicine that makes the patient completely unconscious",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "biopsy",
+                "b": "removal of a small piece of tissue for testing",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Động từ khuyết thiếu: lời khuyên, bắt buộc, cấm",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: should / shouldn't (khuyên), must / have to (bắt buộc), mustn't (cấm), don't have to (không cần).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ rinse your mouth vigorously for 24 hours.",
+                "ans": [
+                  0
+                ],
+                "tip": "Lời khuyên phủ định.",
+                "why": "Không nên súc miệng mạnh → **shouldn't**.",
+                "opts": [
+                  "shouldn't",
+                  "should",
+                  "must"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ bite on the gauze for 30 minutes to stop the bleeding.",
+                "ans": [
+                  1
+                ],
+                "tip": "Lời khuyên.",
+                "why": "Nên cắn gạc → **should**.",
+                "opts": [
+                  "shouldn't",
+                  "should",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ smoke for at least 48 hours. It delays healing.",
+                "ans": [
+                  2
+                ],
+                "tip": "mustn't = cấm tuyệt đối.",
+                "why": "Hút thuốc làm chậm lành thương → **mustn't**.",
+                "opts": [
+                  "don't have to",
+                  "can",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Patients ___ sign a consent form before surgery.",
+                "ans": [
+                  0
+                ],
+                "tip": "have to = bắt buộc.",
+                "why": "Quy định bắt buộc → **have to**.",
+                "opts": [
+                  "have to",
+                  "don't have to",
+                  "mustn't"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ take the whole course of antibiotics, even if you feel better.",
+                "ans": [
+                  1
+                ],
+                "tip": "must = bắt buộc.",
+                "why": "Phải uống đủ liệu trình → **must**.",
+                "opts": [
+                  "needn't",
+                  "must",
+                  "may not"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You ___ come back if the swelling gets worse.",
+                "ans": [
+                  2
+                ],
+                "tip": "Lời khuyên.",
+                "why": "Nên quay lại → **should**.",
+                "opts": [
+                  "mustn't",
+                  "needn't",
+                  "should"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền động từ khuyết thiếu",
+          "instruction": "Complete each sentence with a suitable modal verb.",
+          "instruction_vi": "Gõ động từ khuyết thiếu thích hợp vào chỗ trống.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ eat hot food until the anaesthetic has worn off.",
+                "ans": [
+                  [
+                    "mustn't",
+                    "must not",
+                    "shouldn't",
+                    "should not"
+                  ]
+                ],
+                "tip": "Không nên / cấm.",
+                "why": "**mustn't / shouldn't**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ take a painkiller if you are in pain.",
+                "ans": [
+                  [
+                    "can",
+                    "may",
+                    "should"
+                  ]
+                ],
+                "tip": "Được phép / nên.",
+                "why": "**can / may / should**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A surgeon ___ wash his hands before every operation.",
+                "ans": [
+                  [
+                    "must",
+                    "has to"
+                  ]
+                ],
+                "tip": "Quy định bắt buộc.",
+                "why": "**must / has to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The check-up is optional. You ___ come if you feel fine.",
+                "ans": [
+                  [
+                    "don't have to",
+                    "do not have to",
+                    "needn't"
+                  ]
+                ],
+                "tip": "Không bắt buộc.",
+                "why": "**don't have to**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "You ___ keep your head up when you sleep to reduce the swelling.",
+                "ans": [
+                  [
+                    "should"
+                  ]
+                ],
+                "tip": "Lời khuyên.",
+                "why": "**should**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Câu điều kiện loại 0 và 1",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Loại 0: If + hiện tại, hiện tại (sự thật). Loại 1: If + hiện tại, will + V (khả năng ở tương lai).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you smoke, healing ___ slower.",
+                "ans": [
+                  0
+                ],
+                "tip": "Sự thật chung → hiện tại đơn.",
+                "why": "Loại 0 → **is**.",
+                "opts": [
+                  "is",
+                  "would be",
+                  "was"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the pain gets worse, ___ us immediately.",
+                "ans": [
+                  1
+                ],
+                "tip": "Mệnh đề chính là mệnh lệnh.",
+                "why": "If + hiện tại, mệnh lệnh → **call**.",
+                "opts": [
+                  "calling",
+                  "call",
+                  "you called"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you don't take the antibiotics, the infection ___ back.",
+                "ans": [
+                  2
+                ],
+                "tip": "Loại 1: will + V.",
+                "why": "Khả năng thực tế → **will come back**.",
+                "opts": [
+                  "would come",
+                  "came",
+                  "will come"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If the bleeding continues, you ___ call the clinic.",
+                "ans": [
+                  0
+                ],
+                "tip": "Mệnh đề chính có thể dùng should.",
+                "why": "Lời khuyên → **should**.",
+                "opts": [
+                  "should",
+                  "did",
+                  "are"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If an implant fuses with the bone, it ___ stable.",
+                "ans": [
+                  1
+                ],
+                "tip": "Sự thật → hiện tại đơn.",
+                "why": "Loại 0 → **becomes**.",
+                "opts": [
+                  "would become",
+                  "becomes",
+                  "became"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If you ___ the stitches, they may come out.",
+                "ans": [
+                  2
+                ],
+                "tip": "If + hiện tại đơn.",
+                "why": "Mệnh đề If chia hiện tại → **pull**.",
+                "opts": [
+                  "will pull",
+                  "pulled",
+                  "pull"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (câu điều kiện loại 0 hoặc 1).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If you ___ (follow) the instructions, the wound will heal quickly.",
+                "ans": [
+                  [
+                    "follow"
+                  ]
+                ],
+                "tip": "If + hiện tại.",
+                "why": "**follow**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If a patient ___ (feel) dizzy, stop the procedure.",
+                "ans": [
+                  [
+                    "feels"
+                  ]
+                ],
+                "tip": "If + hiện tại (số ít).",
+                "why": "**feels**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If the numbness ___ (not / go away) after six hours, call us.",
+                "ans": [
+                  [
+                    "does not go away",
+                    "doesn't go away"
+                  ]
+                ],
+                "tip": "If + hiện tại đơn phủ định.",
+                "why": "**doesn't go away**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A dry socket will be painful if the clot ___ (come) out.",
+                "ans": [
+                  [
+                    "comes"
+                  ]
+                ],
+                "tip": "If + hiện tại (số ít).",
+                "why": "**comes**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "If you take ibuprofen, the swelling ___ (reduce).",
+                "ans": [
+                  [
+                    "will reduce",
+                    "'ll reduce",
+                    "reduces"
+                  ]
+                ],
+                "tip": "Loại 1: will + V.",
+                "why": "**will reduce**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Removing a wisdom tooth",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Wisdom teeth often cause problems because there is not enough space in the jaw. An impacted wisdom tooth may push against the next tooth, trap food and cause infection. When this happens, the dentist or oral surgeon usually recommends extraction.\n\nBefore the operation, an X-ray shows the position of the tooth and the nerve. The patient receives a local anaesthetic, and sometimes sedation if he or she is nervous. The surgeon makes an incision in the gum, lifts a flap and removes a little bone if necessary. The tooth is then loosened with an elevator and removed with forceps. Finally, the wound is closed with sutures.\n\nRecovery takes about one week. Swelling and bruising are normal, and an ice pack helps. The patient should not rinse vigorously or use a straw, because these can remove the blood clot and cause a dry socket. A painkiller and, if needed, an antibiotic are prescribed.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Wisdom teeth often cause problems because there is not enough space.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: hàm không đủ chỗ."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "The surgeon uses an elevator to close the wound.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: bẩy dùng làm lung lay răng; vết thương được đóng bằng chỉ khâu."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Bruising is normal after the operation.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: sưng và bầm tím là bình thường."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Using a straw is recommended after extraction.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: dùng ống hút có thể làm mất cục máu đông, gây viêm ổ răng khô."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does an X-ray show before the operation?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phim cho thấy vị trí răng và dây thần kinh.",
+                "opts": [
+                  "The colour of the tooth",
+                  "The position of the tooth and the nerve",
+                  "The price of treatment"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why might the patient receive sedation?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: đôi khi cho an thần nếu bệnh nhân lo lắng.",
+                "opts": [
+                  "The tooth is white.",
+                  "The tooth is healthy.",
+                  "He or she is nervous."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is used to close the wound?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: vết thương được khâu lại bằng chỉ khâu.",
+                "opts": [
+                  "Sutures",
+                  "Forceps",
+                  "An elevator"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What can cause a dry socket?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: súc miệng mạnh hoặc dùng ống hút làm mất cục máu đông.",
+                "opts": [
+                  "Using an ice pack",
+                  "Losing the blood clot",
+                  "Taking a painkiller"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Dental implants: how do they work?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "A dental implant is a small titanium screw that replaces the root of a missing tooth. It is placed in the jawbone under local anaesthetic. Over the next three to six months, the bone grows around the screw in a process called osseointegration. This makes the implant very stable.\n\nIf the patient does not have enough bone, the surgeon may need to perform a bone graft or a sinus lift first. This adds time to the treatment, but it improves the final result. After healing, an abutment is attached to the implant, and a crown is fixed on top. The crown looks like a natural tooth.\n\nImplants have many advantages: they feel natural, they do not damage the neighbouring teeth, and they can last more than 20 years. However, they are expensive and need good oral hygiene. Smokers and people with uncontrolled diabetes have a higher risk of failure. For this reason, the dentist always checks the patient's health before the operation.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An implant replaces the root of a missing tooth.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: implant là trụ titan thay chân răng đã mất."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Osseointegration happens in about one day.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: xương mọc quanh trụ trong 3 đến 6 tháng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Implants damage the neighbouring teeth.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: implant không làm hại các răng bên cạnh."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Smokers have a higher risk of implant failure.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: người hút thuốc có nguy cơ thất bại cao hơn."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What may be needed if there is not enough bone?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: có thể cần ghép xương hoặc nâng xoang trước.",
+                "opts": [
+                  "A new toothbrush",
+                  "A cold test",
+                  "A bone graft or a sinus lift"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is attached to the implant after healing?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: gắn trụ nối rồi cố định mão răng lên trên.",
+                "opts": [
+                  "An abutment, then a crown",
+                  "A bracket",
+                  "A rubber dam"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long can implants last?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: implant có thể tồn tại hơn 20 năm.",
+                "opts": [
+                  "About two weeks",
+                  "More than 20 years",
+                  "Less than one year"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why does the dentist check the patient's health first?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: hút thuốc, tiểu đường không kiểm soát làm tăng nguy cơ thất bại.",
+                "opts": [
+                  "The implant is free.",
+                  "The patient must be young.",
+                  "Some conditions increase the risk of failure."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Orthodontics & Prosthodontics",
+      "name_vi": "Chỉnh nha & phục hình răng",
+      "icon": "😁",
+      "hue": 150,
+      "words": [
+        {
+          "en": "orthodontics",
+          "vi": "chỉnh nha"
+        },
+        {
+          "en": "braces",
+          "vi": "niềng răng (mắc cài)"
+        },
+        {
+          "en": "bracket",
+          "vi": "mắc cài"
+        },
+        {
+          "en": "archwire",
+          "vi": "dây cung"
+        },
+        {
+          "en": "elastic band",
+          "vi": "thun chỉnh nha"
+        },
+        {
+          "en": "retainer",
+          "vi": "hàm duy trì"
+        },
+        {
+          "en": "clear aligner",
+          "vi": "khay niềng trong suốt"
+        },
+        {
+          "en": "malocclusion",
+          "vi": "sai khớp cắn"
+        },
+        {
+          "en": "overbite",
+          "vi": "cắn chìa"
+        },
+        {
+          "en": "underbite",
+          "vi": "cắn ngược"
+        },
+        {
+          "en": "crossbite",
+          "vi": "cắn chéo"
+        },
+        {
+          "en": "crowding",
+          "vi": "răng chen chúc"
+        },
+        {
+          "en": "spacing",
+          "vi": "răng thưa, có kẽ hở"
+        },
+        {
+          "en": "midline",
+          "vi": "đường giữa (của răng)"
+        },
+        {
+          "en": "palatal expander",
+          "vi": "khí cụ nong hàm"
+        },
+        {
+          "en": "headgear",
+          "vi": "headgear (khí cụ kéo ngoài mặt)"
+        },
+        {
+          "en": "prosthodontics",
+          "vi": "phục hình răng"
+        },
+        {
+          "en": "denture",
+          "vi": "hàm giả"
+        },
+        {
+          "en": "complete denture",
+          "vi": "hàm giả toàn phần"
+        },
+        {
+          "en": "partial denture",
+          "vi": "hàm giả bán phần"
+        },
+        {
+          "en": "bridge",
+          "vi": "cầu răng"
+        },
+        {
+          "en": "pontic",
+          "vi": "nhịp cầu (răng giả trong cầu răng)"
+        },
+        {
+          "en": "abutment tooth",
+          "vi": "răng trụ"
+        },
+        {
+          "en": "prosthesis",
+          "vi": "phục hình, bộ phận giả"
+        },
+        {
+          "en": "try-in",
+          "vi": "buổi thử phục hình"
+        },
+        {
+          "en": "articulator",
+          "vi": "giá khớp"
+        },
+        {
+          "en": "porcelain",
+          "vi": "sứ"
+        },
+        {
+          "en": "zirconia",
+          "vi": "zirconia (sứ cao cấp)"
+        },
+        {
+          "en": "CAD/CAM",
+          "vi": "công nghệ thiết kế và gia công bằng máy tính"
+        },
+        {
+          "en": "digital scan",
+          "vi": "quét kỹ thuật số"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is the branch of dentistry that corrects the position of the teeth and jaws.",
+                "ans": [
+                  0
+                ],
+                "tip": "ortho = thẳng.",
+                "why": "**Orthodontics** = chỉnh nha.",
+                "opts": [
+                  "Orthodontics",
+                  "Endodontics",
+                  "Prosthodontics"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The small metal squares glued to each tooth are called ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "bracket = giá đỡ.",
+                "why": "**brackets** = mắc cài.",
+                "opts": [
+                  "retainers",
+                  "brackets",
+                  "pontics"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The wire that connects the brackets and moves the teeth is the ___.",
+                "ans": [
+                  2
+                ],
+                "tip": "arch = cung.",
+                "why": "**archwire** = dây cung.",
+                "opts": [
+                  "headgear",
+                  "articulator",
+                  "archwire"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "After braces, the patient wears a ___ to keep the teeth in their new position.",
+                "ans": [
+                  0
+                ],
+                "tip": "retain = giữ lại.",
+                "why": "**retainer** = hàm duy trì.",
+                "opts": [
+                  "retainer",
+                  "pontic",
+                  "bracket"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "When the upper front teeth stick out too far over the lower teeth, it is called an ___.",
+                "ans": [
+                  1
+                ],
+                "tip": "over = ở trên.",
+                "why": "**overbite** = cắn chìa.",
+                "opts": [
+                  "underbite",
+                  "overbite",
+                  "crossbite"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ replaces all the teeth in the upper or lower jaw.",
+                "ans": [
+                  2
+                ],
+                "tip": "complete = toàn bộ.",
+                "why": "**complete denture** = hàm giả toàn phần.",
+                "opts": [
+                  "partial denture",
+                  "bridge",
+                  "complete denture"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "A ___ is the artificial tooth that forms part of a bridge.",
+                "ans": [
+                  0
+                ],
+                "tip": "Đọc là /ˈpɒntɪk/.",
+                "why": "**pontic** = nhịp cầu, răng giả trong cầu răng.",
+                "opts": [
+                  "pontic",
+                  "bracket",
+                  "retainer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ is a very strong, tooth-coloured ceramic often used for crowns and bridges.",
+                "ans": [
+                  1
+                ],
+                "tip": "zirconia = sứ zirconia.",
+                "why": "**Zirconia** = sứ cao cấp rất bền, cùng màu răng.",
+                "opts": [
+                  "Amalgam",
+                  "Zirconia",
+                  "Archwire"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "crowding",
+                "b": "not enough space for all the teeth to fit properly",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "spacing",
+                "b": "gaps between the teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "crossbite",
+                "b": "some upper teeth bite inside the lower teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "clear aligner",
+                "b": "a removable transparent tray that moves the teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "partial denture",
+                "b": "a removable appliance that replaces some missing teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "bridge",
+                "b": "a fixed appliance that replaces missing teeth using the neighbouring teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "try-in",
+                "b": "a visit when the dentist checks the fit and shade of a prosthesis",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "digital scan",
+                "b": "a 3D image of the teeth taken with a small camera",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · So sánh hơn và so sánh nhất",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: so sánh hơn (-er / more / less), so sánh nhất (the -est / the most) và so sánh bằng (as ... as).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Ceramic braces are ___ noticeable than metal braces.",
+                "ans": [
+                  0
+                ],
+                "tip": "less + adj + than.",
+                "why": "So sánh kém → **less noticeable than**.",
+                "opts": [
+                  "less",
+                  "least",
+                  "fewer"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Clear aligners are ___ to clean than fixed braces.",
+                "ans": [
+                  1
+                ],
+                "tip": "easy → easier.",
+                "why": "Tính từ ngắn đuôi -y → **easier**.",
+                "opts": [
+                  "more easy",
+                  "easier",
+                  "easiest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Zirconia is one of ___ materials used for crowns.",
+                "ans": [
+                  2
+                ],
+                "tip": "one of the + so sánh nhất.",
+                "why": "**one of the strongest**.",
+                "opts": [
+                  "stronger",
+                  "more strong",
+                  "the strongest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Treatment with braces takes ___ than treatment with aligners in complex cases.",
+                "ans": [
+                  0
+                ],
+                "tip": "long → longer.",
+                "why": "**longer than**.",
+                "opts": [
+                  "longer",
+                  "more long",
+                  "longest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "This is ___ denture we have made this year.",
+                "ans": [
+                  1
+                ],
+                "tip": "the most + adj dài.",
+                "why": "**the most comfortable**.",
+                "opts": [
+                  "more comfortable",
+                  "the most comfortable",
+                  "comfortablest"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Metal braces are not as ___ as ceramic braces.",
+                "ans": [
+                  2
+                ],
+                "tip": "not as + adj + as.",
+                "why": "So sánh bằng phủ định giữ nguyên tính từ → **attractive**.",
+                "opts": [
+                  "more attractive",
+                  "most attractive",
+                  "attractive"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng so sánh đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng so sánh đúng của tính từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "A bridge is ___ (stable) than a removable denture.",
+                "ans": [
+                  [
+                    "more stable"
+                  ]
+                ],
+                "tip": "stable + more.",
+                "why": "**more stable**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Digital scans are ___ (comfortable) than traditional impressions.",
+                "ans": [
+                  [
+                    "more comfortable"
+                  ]
+                ],
+                "tip": "Tính từ dài → more.",
+                "why": "**more comfortable**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Porcelain looks ___ (natural) than metal.",
+                "ans": [
+                  [
+                    "more natural"
+                  ]
+                ],
+                "tip": "more + adj.",
+                "why": "**more natural**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "This is the ___ (expensive) option.",
+                "ans": [
+                  [
+                    "most expensive"
+                  ]
+                ],
+                "tip": "the most + adj dài.",
+                "why": "**the most expensive**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Teenagers usually have ___ (fast) tooth movement than adults.",
+                "ans": [
+                  [
+                    "faster"
+                  ]
+                ],
+                "tip": "fast → faster.",
+                "why": "**faster**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Các cách diễn đạt tương lai",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: will (dự đoán/hứa), be going to (dự định/bằng chứng), hiện tại tiếp diễn (lịch hẹn đã sắp xếp), hiện tại đơn (lịch trình).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I've decided to have braces. I ___ the orthodontist tomorrow.",
+                "ans": [
+                  0
+                ],
+                "tip": "Dự định đã có.",
+                "why": "Dự định → **am going to see**.",
+                "opts": [
+                  "am going to see",
+                  "saw",
+                  "have seen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The patient has booked a visit. He ___ the orthodontist at ten o'clock tomorrow.",
+                "ans": [
+                  1
+                ],
+                "tip": "Lịch hẹn đã sắp xếp → hiện tại tiếp diễn.",
+                "why": "**is seeing**.",
+                "opts": [
+                  "saw",
+                  "is seeing",
+                  "has seen"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Look at the X-ray! The wisdom tooth ___ push against the next tooth.",
+                "ans": [
+                  2
+                ],
+                "tip": "Có bằng chứng.",
+                "why": "Dự đoán dựa trên bằng chứng → **is going to push**.",
+                "opts": [
+                  "was",
+                  "did",
+                  "is going to"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "According to the schedule, the clinic ___ at 9 a.m. on the day of your adjustment.",
+                "ans": [
+                  0
+                ],
+                "tip": "Lịch trình → hiện tại đơn.",
+                "why": "**opens**.",
+                "opts": [
+                  "opens",
+                  "opened",
+                  "has opened"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The braces ___ be removed in about 18 months, according to the plan.",
+                "ans": [
+                  1
+                ],
+                "tip": "Dự đoán/kế hoạch → will.",
+                "why": "**will be removed**.",
+                "opts": [
+                  "did",
+                  "will",
+                  "are"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Wait, I ___ the shade guide for you.",
+                "ans": [
+                  2
+                ],
+                "tip": "Đề nghị tức thời → will.",
+                "why": "Quyết định tại lúc nói → **will get**.",
+                "opts": [
+                  "am getting",
+                  "got",
+                  "will get"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng tương lai",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng tương lai thích hợp của động từ trong ngoặc.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I think the new retainer ___ (be) more comfortable.",
+                "ans": [
+                  [
+                    "will be",
+                    "'ll be"
+                  ]
+                ],
+                "tip": "Dự đoán/ý kiến → will.",
+                "why": "**will be**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (take) an impression this afternoon. It's on the schedule.",
+                "ans": [
+                  [
+                    "are taking",
+                    "'re taking"
+                  ]
+                ],
+                "tip": "Lịch đã sắp xếp.",
+                "why": "**are taking**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Look at those crowded teeth! He ___ (need) braces.",
+                "ans": [
+                  [
+                    "is going to need",
+                    "'s going to need"
+                  ]
+                ],
+                "tip": "Có bằng chứng → be going to.",
+                "why": "**is going to need**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The patient ___ (return) in six weeks, according to the plan.",
+                "ans": [
+                  [
+                    "will return",
+                    "is going to return",
+                    "'ll return",
+                    "returns"
+                  ]
+                ],
+                "tip": "Kế hoạch.",
+                "why": "**will return**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Don't worry about the notes. I ___ (write) them.",
+                "ans": [
+                  [
+                    "will write",
+                    "'ll write"
+                  ]
+                ],
+                "tip": "Đề nghị tức thời.",
+                "why": "**will write**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Braces or aligners?",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Many teenagers and adults want straight teeth. There are two main choices: fixed braces and clear aligners. Fixed braces have brackets glued to the teeth and an archwire that connects them. The orthodontist adjusts the wire every four to six weeks. Braces can correct even complex problems, such as severe crowding or a crossbite, and they work all day without the patient's help.\n\nClear aligners are transparent plastic trays made from a digital scan. The patient changes to a new tray about every two weeks, and each tray moves the teeth a little. Aligners are less visible and can be removed for eating, but they must be worn for 20 to 22 hours a day. If the patient forgets to wear them, the treatment will take longer.\n\nBoth treatments usually last between 12 and 24 months. Afterwards, the patient must wear a retainer, because teeth tend to move back to their old position. Without a retainer, the result may not be stable.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Fixed braces have an archwire that connects the brackets.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: mắc cài được nối bằng dây cung."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Aligners must be worn for only two hours a day.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: phải đeo 20 đến 22 giờ mỗi ngày."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Braces can correct complex problems such as severe crowding.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: niềng mắc cài sửa được cả trường hợp phức tạp."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A retainer is unnecessary after treatment.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: sau điều trị phải đeo hàm duy trì."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How often does the orthodontist adjust the archwire?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: chỉnh dây mỗi 4 đến 6 tuần.",
+                "opts": [
+                  "Every day",
+                  "Every four to six weeks",
+                  "Once a year"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why are aligners less visible?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: khay làm từ nhựa trong suốt.",
+                "opts": [
+                  "They are glued inside the mouth.",
+                  "They are made of metal.",
+                  "They are made of transparent plastic."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What happens if the patient forgets to wear the aligners?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nếu quên đeo thì điều trị kéo dài hơn.",
+                "opts": [
+                  "The treatment will take longer.",
+                  "The teeth move faster.",
+                  "The brackets break."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why must the patient wear a retainer?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: răng có xu hướng dịch chuyển trở lại vị trí cũ.",
+                "opts": [
+                  "Teeth become whiter.",
+                  "Teeth tend to move back.",
+                  "The gums grow."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Replacing missing teeth",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "When a tooth is lost, the neighbouring teeth slowly move into the gap, and the opposite tooth may grow out of position. For this reason, dentists recommend replacing missing teeth. There are three main options.\n\nA removable denture is the cheapest option. A complete denture replaces all the teeth in a jaw, while a partial denture replaces only some of them. Dentures can be taken out for cleaning, but some patients find them loose or uncomfortable.\n\nA bridge is fixed in the mouth. The dentist shapes the two teeth next to the gap, called abutment teeth, and cements a crown on each. The artificial tooth between them is the pontic. A bridge feels more stable than a denture, but healthy teeth must be reduced.\n\nA dental implant is the third option. It does not need the neighbouring teeth, but it is the most expensive and it takes the longest. Today, many restorations are designed with CAD/CAM technology, which makes them more accurate. The best choice depends on the patient's health, budget and wishes.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Neighbouring teeth can move into the gap after a tooth is lost.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: răng bên cạnh dần dịch vào khoảng trống."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A removable denture is the most expensive option.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: hàm giả tháo lắp là lựa chọn rẻ nhất."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A bridge is fixed in the mouth.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: cầu răng được cố định trong miệng."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "An implant needs the neighbouring teeth to be reduced.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: implant không cần mài các răng bên cạnh."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a pontic?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: răng giả nằm giữa hai mão răng.",
+                "opts": [
+                  "The wire of the braces",
+                  "A type of X-ray",
+                  "The artificial tooth between the two crowns"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is a disadvantage of a bridge?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: phải mài hai răng khỏe làm trụ.",
+                "opts": [
+                  "Healthy teeth must be reduced.",
+                  "It can be taken out.",
+                  "It needs surgery."
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which option takes the longest?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 4: implant đắt nhất và tốn nhiều thời gian nhất.",
+                "opts": [
+                  "A removable denture",
+                  "A dental implant",
+                  "A bridge"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does CAD/CAM technology do?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 4: giúp phục hình chính xác hơn.",
+                "opts": [
+                  "It makes treatment free.",
+                  "It replaces the dentist.",
+                  "It makes restorations more accurate."
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prevention, Gum Health & Patient Care",
+      "name_vi": "Phòng ngừa, nha chu & chăm sóc bệnh nhân",
+      "icon": "🪥",
+      "hue": 45,
+      "words": [
+        {
+          "en": "oral hygiene",
+          "vi": "vệ sinh răng miệng"
+        },
+        {
+          "en": "toothbrush",
+          "vi": "bàn chải đánh răng"
+        },
+        {
+          "en": "toothpaste",
+          "vi": "kem đánh răng"
+        },
+        {
+          "en": "fluoride",
+          "vi": "fluoride"
+        },
+        {
+          "en": "dental floss",
+          "vi": "chỉ nha khoa"
+        },
+        {
+          "en": "interdental brush",
+          "vi": "bàn chải kẽ răng"
+        },
+        {
+          "en": "mouthwash",
+          "vi": "nước súc miệng"
+        },
+        {
+          "en": "scaling",
+          "vi": "cạo vôi răng"
+        },
+        {
+          "en": "root planing",
+          "vi": "làm nhẵn chân răng"
+        },
+        {
+          "en": "gingivitis",
+          "vi": "viêm nướu"
+        },
+        {
+          "en": "periodontitis",
+          "vi": "viêm nha chu"
+        },
+        {
+          "en": "gum recession",
+          "vi": "tụt nướu"
+        },
+        {
+          "en": "bone loss",
+          "vi": "tiêu xương"
+        },
+        {
+          "en": "dental erosion",
+          "vi": "mòn răng do axit"
+        },
+        {
+          "en": "tooth whitening",
+          "vi": "tẩy trắng răng"
+        },
+        {
+          "en": "bruxism",
+          "vi": "nghiến răng"
+        },
+        {
+          "en": "sugar intake",
+          "vi": "lượng đường tiêu thụ"
+        },
+        {
+          "en": "sugary drinks",
+          "vi": "đồ uống có đường"
+        },
+        {
+          "en": "recall appointment",
+          "vi": "lịch hẹn tái khám định kỳ"
+        },
+        {
+          "en": "follow-up",
+          "vi": "buổi tái khám"
+        },
+        {
+          "en": "patient education",
+          "vi": "giáo dục bệnh nhân"
+        },
+        {
+          "en": "anxiety",
+          "vi": "sự lo lắng"
+        },
+        {
+          "en": "reassure",
+          "vi": "trấn an"
+        },
+        {
+          "en": "informed consent",
+          "vi": "sự đồng ý có hiểu biết"
+        },
+        {
+          "en": "cost estimate",
+          "vi": "báo giá dự kiến"
+        },
+        {
+          "en": "dental insurance",
+          "vi": "bảo hiểm nha khoa"
+        },
+        {
+          "en": "confidentiality",
+          "vi": "tính bảo mật"
+        },
+        {
+          "en": "infection control",
+          "vi": "kiểm soát nhiễm khuẩn"
+        },
+        {
+          "en": "sterilisation",
+          "vi": "sự tiệt trùng"
+        },
+        {
+          "en": "dry mouth",
+          "vi": "khô miệng"
+        }
+      ],
+      "exercises": [
+        {
+          "section": "vocab",
+          "kind": "quiz",
+          "title": "Bài 1 · Chọn từ đúng",
+          "instruction": "Choose the best word to complete each sentence.",
+          "instruction_vi": "Chọn thuật ngữ nha khoa phù hợp nhất.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Good ___ includes brushing twice a day and cleaning between the teeth.",
+                "ans": [
+                  0
+                ],
+                "tip": "hygiene = vệ sinh.",
+                "why": "**oral hygiene** = vệ sinh răng miệng.",
+                "opts": [
+                  "oral hygiene",
+                  "sedation",
+                  "bone loss"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ strengthens enamel and helps to prevent decay.",
+                "ans": [
+                  1
+                ],
+                "tip": "Có trong kem đánh răng.",
+                "why": "**Fluoride** làm men răng chắc hơn, ngừa sâu răng.",
+                "opts": [
+                  "Plaque",
+                  "Fluoride",
+                  "Tartar"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "___ cleans the places that a toothbrush cannot reach, such as between the teeth.",
+                "ans": [
+                  2
+                ],
+                "tip": "floss = sợi chỉ.",
+                "why": "**Dental floss** = chỉ nha khoa, làm sạch kẽ răng.",
+                "opts": [
+                  "Fluoride",
+                  "Scaling",
+                  "Dental floss"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Inflammation of the gums, usually with bleeding, is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "gingiva = nướu.",
+                "why": "**gingivitis** = viêm nướu.",
+                "opts": [
+                  "gingivitis",
+                  "bruxism",
+                  "anxiety"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "If gingivitis is not treated, it can develop into ___, which destroys the bone around the teeth.",
+                "ans": [
+                  1
+                ],
+                "tip": "peri + odont = quanh răng.",
+                "why": "**periodontitis** = viêm nha chu, phá hủy xương quanh răng.",
+                "opts": [
+                  "bruxism",
+                  "periodontitis",
+                  "erosion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The hygienist performed ___ to remove tartar from below the gum line.",
+                "ans": [
+                  2
+                ],
+                "tip": "scale = cạo.",
+                "why": "**scaling** = cạo vôi răng.",
+                "opts": [
+                  "sedation",
+                  "bonding",
+                  "scaling"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Grinding the teeth at night is called ___.",
+                "ans": [
+                  0
+                ],
+                "tip": "Đọc là /ˈbrʌksɪzəm/.",
+                "why": "**bruxism** = nghiến răng khi ngủ.",
+                "opts": [
+                  "bruxism",
+                  "gingivitis",
+                  "erosion"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The dentist ___ the nervous patient by explaining each step slowly.",
+                "ans": [
+                  1
+                ],
+                "tip": "re + assure = làm yên lòng.",
+                "why": "**reassured** = trấn an.",
+                "opts": [
+                  "scaled",
+                  "reassured",
+                  "irrigated"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "vocab",
+          "kind": "match",
+          "title": "Bài 2 · Nối thuật ngữ với định nghĩa",
+          "instruction": "Match each term with its definition.",
+          "instruction_vi": "Nối thuật ngữ ở cột A với định nghĩa ở cột B.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "pair",
+              "content": {
+                "a": "toothpaste",
+                "b": "a paste used with a toothbrush to clean the teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "interdental brush",
+                "b": "a small brush for cleaning between the teeth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "mouthwash",
+                "b": "a liquid used to rinse the mouth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "gum recession",
+                "b": "the gum moves down and exposes the root of the tooth",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "tooth whitening",
+                "b": "a treatment that makes the teeth lighter in colour",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "recall appointment",
+                "b": "a regular visit to check the patient's teeth and gums",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "informed consent",
+                "b": "the patient's agreement after understanding the risks and benefits",
+                "tip": "",
+                "extra": ""
+              }
+            },
+            {
+              "kind": "pair",
+              "content": {
+                "a": "sterilisation",
+                "b": "killing all germs on instruments",
+                "tip": "",
+                "extra": ""
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 1 · Quá khứ đơn và hiện tại hoàn thành",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: quá khứ đơn (thời điểm đã qua) và hiện tại hoàn thành (còn liên quan hiện tại: ever, never, already, yet, since, for).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ my teeth twice today.",
+                "ans": [
+                  0
+                ],
+                "tip": "today (chưa hết ngày) → hiện tại hoàn thành.",
+                "why": "'today' còn kéo dài → **have brushed**.",
+                "opts": [
+                  "have brushed",
+                  "brush",
+                  "was brushing"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "She ___ to the dentist last month.",
+                "ans": [
+                  1
+                ],
+                "tip": "last month → quá khứ đơn.",
+                "why": "Mốc quá khứ xác định → **went**.",
+                "opts": [
+                  "has gone",
+                  "went",
+                  "goes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "How long ___ gum problems?",
+                "ans": [
+                  2
+                ],
+                "tip": "How long + hiện tại hoàn thành.",
+                "why": "Vấn đề còn kéo dài → **have you had**.",
+                "opts": [
+                  "did you have",
+                  "do you have",
+                  "have you had"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I ___ a cavity.",
+                "ans": [
+                  0
+                ],
+                "tip": "never + have + V3.",
+                "why": "Kinh nghiệm đến hiện tại → **have never had**.",
+                "opts": [
+                  "have never had",
+                  "never had",
+                  "didn't never have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The hygienist ___ the scaling an hour ago.",
+                "ans": [
+                  1
+                ],
+                "tip": "ago → quá khứ đơn.",
+                "why": "**ago** → **finished**.",
+                "opts": [
+                  "has finished",
+                  "finished",
+                  "finishes"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "He ___ smoking two years ago, and his gums are healthier now.",
+                "ans": [
+                  2
+                ],
+                "tip": "two years ago → quá khứ đơn.",
+                "why": "Mốc quá khứ → **stopped**.",
+                "opts": [
+                  "has stopped",
+                  "stops",
+                  "stopped"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 2 · Điền dạng đúng",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ (quá khứ đơn hoặc hiện tại hoàn thành).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I ___ (visit) the dentist in March.",
+                "ans": [
+                  [
+                    "visited"
+                  ]
+                ],
+                "tip": "in March → quá khứ đơn.",
+                "why": "**visited**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She ___ (not / floss) yet today.",
+                "ans": [
+                  [
+                    "has not flossed",
+                    "hasn't flossed"
+                  ]
+                ],
+                "tip": "yet → hiện tại hoàn thành.",
+                "why": "**hasn't flossed**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Have you ever ___ (have) a tooth extracted?",
+                "ans": [
+                  [
+                    "had"
+                  ]
+                ],
+                "tip": "Have you ever + V3?",
+                "why": "**had**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The clinic ___ (open) in 2015.",
+                "ans": [
+                  [
+                    "opened"
+                  ]
+                ],
+                "tip": "in 2015 → quá khứ đơn.",
+                "why": "**opened**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We ___ (already / explain) the risks.",
+                "ans": [
+                  [
+                    "have already explained",
+                    "'ve already explained"
+                  ]
+                ],
+                "tip": "already → hiện tại hoàn thành.",
+                "why": "**have already explained**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 3 · Danh động từ và động từ nguyên mẫu",
+          "instruction": "Choose the correct form.",
+          "instruction_vi": "Ngữ pháp: suggest/avoid/afraid of + V-ing; decide/It is important + to V; teach someone + to V.",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "mc",
+              "content": {
+                "q": "I suggest ___ a soft toothbrush.",
+                "ans": [
+                  0
+                ],
+                "tip": "suggest + V-ing.",
+                "why": "**suggest + V-ing** → using.",
+                "opts": [
+                  "using",
+                  "to use",
+                  "use"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "You should avoid ___ sugary drinks between meals.",
+                "ans": [
+                  1
+                ],
+                "tip": "avoid + V-ing.",
+                "why": "**avoid + V-ing** → drinking.",
+                "opts": [
+                  "to drink",
+                  "drinking",
+                  "drink"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "It is important ___ twice a day.",
+                "ans": [
+                  2
+                ],
+                "tip": "It is important + to V.",
+                "why": "**to brush**.",
+                "opts": [
+                  "brushing",
+                  "brush",
+                  "to brush"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The patient decided ___ whitening.",
+                "ans": [
+                  0
+                ],
+                "tip": "decide + to V.",
+                "why": "**decide + to V**.",
+                "opts": [
+                  "to have",
+                  "having",
+                  "have"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Many people are afraid of ___ to the dentist.",
+                "ans": [
+                  1
+                ],
+                "tip": "giới từ + V-ing.",
+                "why": "Sau giới từ **of** → **going**.",
+                "opts": [
+                  "to go",
+                  "going",
+                  "go"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "The hygienist taught the child ___ properly.",
+                "ans": [
+                  2
+                ],
+                "tip": "teach someone + to V.",
+                "why": "**to brush**.",
+                "opts": [
+                  "brushing",
+                  "brushed",
+                  "to brush"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "lang",
+          "kind": "quiz",
+          "title": "Bài 4 · Điền dạng đúng (V-ing hoặc to V)",
+          "instruction": "Complete each sentence with the correct form of the word in brackets.",
+          "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc (V-ing hoặc to V).",
+          "passage": "",
+          "config": {},
+          "questions": [
+            {
+              "kind": "fl",
+              "content": {
+                "q": "Remember ___ (floss) every night.",
+                "ans": [
+                  [
+                    "to floss"
+                  ]
+                ],
+                "tip": "remember to V = nhớ làm.",
+                "why": "**to floss**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "She keeps ___ (forget) her appointments.",
+                "ans": [
+                  [
+                    "forgetting"
+                  ]
+                ],
+                "tip": "keep + V-ing.",
+                "why": "**forgetting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "The dentist advised me ___ (stop) smoking.",
+                "ans": [
+                  [
+                    "to stop"
+                  ]
+                ],
+                "tip": "advise someone + to V.",
+                "why": "**to stop**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "I'm used to ___ (visit) the dentist every six months.",
+                "ans": [
+                  [
+                    "visiting"
+                  ]
+                ],
+                "tip": "be used to + V-ing.",
+                "why": "**visiting**."
+              }
+            },
+            {
+              "kind": "fl",
+              "content": {
+                "q": "We want ___ (help) patients feel comfortable.",
+                "ans": [
+                  [
+                    "to help"
+                  ]
+                ],
+                "tip": "want + to V.",
+                "why": "**to help**."
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 1 · Gum disease: the silent problem",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Gum disease is one of the most common health problems in the world, but many people do not notice it because it is usually painless. The first stage is gingivitis. The gums become red and swollen, and they bleed when the patient brushes. At this stage the damage can be reversed with good oral hygiene and a professional clean.\n\nIf plaque and tartar stay on the teeth, the infection goes deeper. This is periodontitis. The gums pull away from the teeth, forming pockets, and the bone that supports the teeth is slowly destroyed. Eventually the teeth become loose and may fall out. The dentist measures the pocket depth with a probe to see how serious the disease is.\n\nTreatment starts with scaling and root planing, which means cleaning below the gum line. The patient must also change their habits: brush twice a day, clean between the teeth and stop smoking. Smoking is a major risk factor because it hides the early signs. Regular recall appointments help to keep the disease under control.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Gum disease is usually very painful in the early stages.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 1: bệnh nướu thường không đau nên nhiều người không nhận ra."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Gingivitis can be reversed with good oral hygiene.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: giai đoạn này có thể hồi phục."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "In periodontitis, the bone around the teeth is slowly destroyed.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: xương nâng đỡ răng bị phá hủy dần."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Smoking makes gum disease easier to notice.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: hút thuốc che giấu các dấu hiệu ban đầu."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What does the dentist use to measure pocket depth?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nha sĩ đo túi nha chu bằng cây thăm dò.",
+                "opts": [
+                  "A mirror",
+                  "A probe",
+                  "A curing light"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is scaling and root planing?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: làm sạch dưới đường viền nướu.",
+                "opts": [
+                  "Whitening the teeth",
+                  "Taking an X-ray",
+                  "Cleaning below the gum line"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What are the signs of gingivitis?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 1: nướu đỏ, sưng và chảy máu khi đánh răng.",
+                "opts": [
+                  "Red, swollen gums that bleed",
+                  "Loose teeth only",
+                  "A broken crown"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why do recall appointments help?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: tái khám định kỳ giúp kiểm soát bệnh.",
+                "opts": [
+                  "They replace brushing.",
+                  "They help to keep the disease under control.",
+                  "They make smoking safe."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "section": "read",
+          "kind": "quiz",
+          "title": "Bài 2 · Talking to anxious patients",
+          "instruction": "Read the text and answer the questions.",
+          "instruction_vi": "Đọc bài và trả lời câu hỏi (True = Đúng, False = Sai).",
+          "passage": "Many patients feel anxious before a dental appointment. Some are afraid of pain, others of the noise of the drill or of feeling helpless. A good dentist notices these feelings and responds to them with clear communication.\n\nFirst, the dentist listens. She asks open questions such as 'What worries you most?' and does not interrupt. Second, she explains the treatment in simple language, avoiding technical words. Instead of saying 'we will extract the molar', she might say 'we will remove the tooth'. Third, she tells the patient what he will feel and agrees on a signal, for example raising a hand, that means 'please stop'. This gives the patient a feeling of control.\n\nDentists must also obtain informed consent. The patient needs to understand the benefits, the risks and the alternatives before agreeing to treatment. Finally, the dentist should keep all patient information confidential. Patients who trust their dentist are more likely to attend regular check-ups, and this is the best way to prevent serious problems.",
+          "config": {},
+          "questions": [
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A dentist should interrupt anxious patients quickly.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nha sĩ lắng nghe và không ngắt lời."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "A hand signal can give the patient a feeling of control.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: thống nhất tín hiệu như giơ tay giúp bệnh nhân cảm thấy chủ động."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Informed consent means the patient understands the benefits, risks and alternatives.",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bệnh nhân phải hiểu lợi ích, rủi ro và các lựa chọn khác."
+              }
+            },
+            {
+              "kind": "tf",
+              "content": {
+                "q": "Dentists should use as many technical words as possible.",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 2: nên giải thích bằng ngôn ngữ đơn giản, tránh thuật ngữ."
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Which is an example of an open question?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 2: câu hỏi mở như 'What worries you most?'.",
+                "opts": [
+                  "Are you nervous?",
+                  "Do you floss?",
+                  "What worries you most?"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "Why does the dentist use simple language?",
+                "ans": [
+                  0
+                ],
+                "tip": "",
+                "why": "Đoạn 2: tránh thuật ngữ để bệnh nhân hiểu.",
+                "opts": [
+                  "So the patient understands the treatment",
+                  "To save time only",
+                  "To avoid the patient"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What is the best way to prevent serious problems?",
+                "ans": [
+                  1
+                ],
+                "tip": "",
+                "why": "Đoạn 3: bệnh nhân tin tưởng sẽ đi khám định kỳ; đây là cách phòng ngừa tốt nhất.",
+                "opts": [
+                  "Avoiding the dentist",
+                  "Attending regular check-ups",
+                  "Using more drills"
+                ]
+              }
+            },
+            {
+              "kind": "mc",
+              "content": {
+                "q": "What must the dentist keep confidential?",
+                "ans": [
+                  2
+                ],
+                "tip": "",
+                "why": "Đoạn 3: mọi thông tin của bệnh nhân phải được bảo mật.",
+                "opts": [
+                  "The price list",
+                  "The clinic's address",
+                  "All patient information"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    [
+      "appearance",
+      "vẻ ngoài"
+    ],
+    [
+      "anxious",
+      "lo lắng"
+    ],
+    [
+      "avoid",
+      "tránh"
+    ],
+    [
+      "bacteria",
+      "vi khuẩn"
+    ],
+    [
+      "blood",
+      "máu"
+    ],
+    [
+      "bone",
+      "xương"
+    ],
+    [
+      "careful",
+      "cẩn thận"
+    ],
+    [
+      "damage",
+      "hư hại"
+    ],
+    [
+      "daily",
+      "hằng ngày"
+    ],
+    [
+      "delay",
+      "làm chậm trễ"
+    ],
+    [
+      "dry",
+      "khô; làm khô"
+    ],
+    [
+      "film",
+      "màng mỏng"
+    ],
+    [
+      "gap",
+      "khoảng trống"
+    ],
+    [
+      "gently",
+      "nhẹ nhàng"
+    ],
+    [
+      "habit",
+      "thói quen"
+    ],
+    [
+      "harden",
+      "cứng lại"
+    ],
+    [
+      "instrument",
+      "dụng cụ"
+    ],
+    [
+      "interrupt",
+      "ngắt lời"
+    ],
+    [
+      "layer",
+      "lớp"
+    ],
+    [
+      "loose",
+      "lỏng, lung lay"
+    ],
+    [
+      "notice",
+      "nhận thấy"
+    ],
+    [
+      "painful",
+      "đau đớn"
+    ],
+    [
+      "prescribe",
+      "kê đơn"
+    ],
+    [
+      "prevent",
+      "ngăn ngừa"
+    ],
+    [
+      "recommend",
+      "khuyến nghị"
+    ],
+    [
+      "remove",
+      "loại bỏ, lấy ra"
+    ],
+    [
+      "risk",
+      "rủi ro"
+    ],
+    [
+      "rinse",
+      "súc, rửa"
+    ],
+    [
+      "severe",
+      "nghiêm trọng"
+    ],
+    [
+      "stable",
+      "ổn định"
+    ],
+    [
+      "sticky",
+      "dính"
+    ],
+    [
+      "surface",
+      "bề mặt"
+    ],
+    [
+      "trap",
+      "giữ lại, mắc kẹt"
+    ],
+    [
+      "treat",
+      "điều trị"
+    ],
+    [
+      "visible",
+      "nhìn thấy được"
+    ],
+    [
+      "worry",
+      "lo lắng"
+    ],
+    [
+      "adjust",
+      "điều chỉnh"
+    ],
+    [
+      "apply",
+      "bôi, áp dụng"
+    ],
+    [
+      "benefit",
+      "lợi ích"
+    ],
+    [
+      "budget",
+      "ngân sách"
+    ],
+    [
+      "fragile",
+      "dễ vỡ"
+    ],
+    [
+      "glue",
+      "dán, keo"
+    ],
+    [
+      "improve",
+      "cải thiện"
+    ],
+    [
+      "lose",
+      "mất"
+    ],
+    [
+      "nervous",
+      "lo lắng, căng thẳng"
+    ],
+    [
+      "noticeable",
+      "dễ nhận thấy"
+    ],
+    [
+      "shape",
+      "tạo hình"
+    ],
+    [
+      "space",
+      "khoảng trống, chỗ"
+    ],
+    [
+      "spread",
+      "lan rộng"
+    ],
+    [
+      "strong",
+      "chắc, khỏe"
+    ],
+    [
+      "tray",
+      "khay"
+    ],
+    [
+      "trust",
+      "tin tưởng"
+    ],
+    [
+      "vigorously",
+      "mạnh mẽ"
+    ],
+    [
+      "wound",
+      "vết thương"
+    ],
+    [
+      "necessary",
+      "cần thiết"
+    ],
+    [
+      "alternative",
+      "lựa chọn thay thế"
+    ],
+    [
+      "procedure",
+      "thủ thuật"
+    ],
+    [
+      "neighbouring",
+      "lân cận"
+    ],
+    [
+      "apron",
+      "tạp dề"
+    ],
+    [
+      "pregnant",
+      "mang thai"
+    ],
+    [
+      "radiation",
+      "bức xạ"
+    ],
+    [
+      "dose",
+      "liều lượng"
+    ],
+    [
+      "chew",
+      "nhai"
+    ],
+    [
+      "grind",
+      "nghiền"
+    ],
+    [
+      "tear",
+      "xé"
+    ],
+    [
+      "cut",
+      "cắt"
+    ],
+    [
+      "sharp",
+      "sắc, nhói"
+    ],
+    [
+      "soft",
+      "mềm"
+    ],
+    [
+      "hard",
+      "cứng"
+    ],
+    [
+      "accurate",
+      "chính xác"
+    ],
+    [
+      "cheap",
+      "rẻ"
+    ],
+    [
+      "expensive",
+      "đắt"
+    ],
+    [
+      "comfortable",
+      "thoải mái"
+    ],
+    [
+      "natural",
+      "tự nhiên"
+    ],
+    [
+      "artificial",
+      "nhân tạo"
+    ],
+    [
+      "transparent",
+      "trong suốt"
+    ],
+    [
+      "instruction",
+      "hướng dẫn"
+    ],
+    [
+      "confident",
+      "tự tin"
+    ],
+    [
+      "explain",
+      "giải thích"
+    ],
+    [
+      "listen",
+      "lắng nghe"
+    ],
+    [
+      "signal",
+      "tín hiệu"
+    ],
+    [
+      "control",
+      "kiểm soát"
+    ],
+    [
+      "helpless",
+      "bất lực"
+    ],
+    [
+      "afraid",
+      "sợ hãi"
+    ],
+    [
+      "pain",
+      "cơn đau"
+    ]
+  ]
+}
