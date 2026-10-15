@@ -760,7 +760,7 @@ dialog#dlg.wide {
 /* ---------- Auth (chưa đăng nhập) ---------- */
 .welcome {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr);
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, .65fr);
   gap: 40px;
   align-items: start;
   padding-top: 10px;
@@ -769,13 +769,13 @@ dialog#dlg.wide {
 .welcome-copy {
   padding-top: 14px;
 }
-
+/*
 .welcome-copy .h1 {
- /* max-width: 14ch;*/
+  max-width: 14ch;
 }
-
+*/
 .welcome-copy p {
-  max-width: 52ch;
+  /*max-width: 52ch;*/
   color: var(--mute);
   font-size: 17px;
   margin: 16px 0 24px;
@@ -801,6 +801,10 @@ dialog#dlg.wide {
 }
 
 .authcard {
+  max-width: 450px;
+  width: 100%;
+  justify-self: end;
+
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 6px 16px 16px 6px;
